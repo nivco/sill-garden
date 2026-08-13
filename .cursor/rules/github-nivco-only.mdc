@@ -1,0 +1,35 @@
+---
+description: Personal GitHub only — use nivco, never niv-parana
+alwaysApply: true
+---
+
+# GitHub account (personal Cursor)
+
+This workspace is **personal** (`nivooo@gmail.com` / **nivco**). It is not the work Cursor (Parana).
+
+## Hard rules for git / gh
+
+1. **Only** create, push, and PR against **`nivco/*`** repos.
+2. **Never** use **`niv-parana`** (or any other account) for remotes, `gh repo create`, or pushes.
+3. Before any `gh` write action, ensure active account is nivco:
+   - `gh auth switch --user nivco`
+   - Confirm with `gh api user --jq .login` → must print `nivco`
+4. Remotes must match the personal SSH host alias (same as MTS):
+   - ✅ `git@github.com-nivco:nivco/<repo>.git`
+   - ❌ `git@github.com:niv-parana/...`
+   - ❌ `https://github.com/niv-parana/...`
+5. If `gh` would create a repo under any owner other than `nivco`, **stop** and fix auth/remote first.
+6. Do not put personal project names, code, or remotes on work/Parana GitHub.
+
+## Examples
+
+```bash
+# ✅
+gh auth switch --user nivco
+gh repo create nivco/sill-garden --public --source=. --remote=origin --push
+git remote add origin git@github.com-nivco:nivco/sill-garden.git
+
+# ❌
+gh repo create sill-garden   # uses whatever account is active — dangerous
+git remote add origin git@github.com:niv-parana/sill-garden.git
+```
