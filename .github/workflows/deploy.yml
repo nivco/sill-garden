@@ -18,7 +18,10 @@ jobs:
           node-version: 22
           cache: npm
       - run: npm ci
-      - run: npm run build
+      - name: Build
+        env:
+          PUBLIC_GA4_ID: ${{ secrets.PUBLIC_GA4_ID }}
+        run: npm run build
       - name: Publish to Cloudflare Pages
         uses: cloudflare/wrangler-action@v3
         with:
