@@ -12,8 +12,13 @@ export async function getStaticPaths() {
 
 const { guide } = Astro.props;
 const { Content } = await render(guide);
+
+const related = (await getCollection('guides'))
+  .filter((g) => g.id !== guide.id && g.data.cluster === guide.data.cluster)
+  .sort((a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf())
+  .slice(0, 3);
 ---
 
-<GuideLayout guide={guide}>
+<GuideLayout guide={guide} related={related}>
   <Content />
 </GuideLayout>

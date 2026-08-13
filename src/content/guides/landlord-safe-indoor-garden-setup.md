@@ -5,11 +5,13 @@ pubDate: 2026-08-12
 cluster: setup
 type: howto
 image: /images/guide-setup.jpg
-imageAlt: Indoor plant setup on a table
+imageAlt: Two potted plants on a windowsill
 verdict: Use a waterproof tray, skip wall mounts, watch humidity near windows, and stick to freestanding countertop gear. That’s 90% of rental risk handled.
 ---
 
 Landlords rarely ban “herbs.” They care about water damage, mold, and holes in walls. Build your garden around those three.
+
+![Small pots with trays for spill protection](/images/inline-pots.jpg)
 
 ## Checklist
 
@@ -21,6 +23,12 @@ Landlords rarely ban “herbs.” They care about water damage, mold, and holes 
 - [ ] **Power strip with surge protection** — not a daisy chain of cheap adapters  
 - [ ] **Pet plan** — covered reservoirs or placement pets can’t tip  
 
+![Shelf plants that move without drilling](/images/inline-shelf-herbs.jpg)
+
+![Freestanding grow tray on a table](/images/inline-grow-tray.jpg)
+
+![Apartment plant corner — no wall mounts](/images/inline-apartment.jpg)
+
 ## Humidity note
 
 A few jars of basil won’t steam the apartment. A crowded tower plus poor airflow can. If walls feel damp near the unit, reduce plant count or add a small fan on low.
@@ -28,6 +36,9 @@ A few jars of basil won’t steam the apartment. A crowded tower plus poor airfl
 ## Lease-friendly buying rule
 
 If removing the garden takes more than five minutes and leaves marks, it’s not rental gear. Buy accordingly.
+
+> **Key takeaway**
+> Trays + freestanding gear + no drilling covers almost every deposit risk. Buy only what you can pack out in five minutes.
 
 ## Next
 

@@ -79,19 +79,28 @@ const latest = guides.slice(0, 6);
 
   <section class="latest wrap">
     <h2 class="section-title">Latest guides</h2>
-    <ul class="list">
+    <p class="section-deck">New apartment-friendly reads — systems, herbs, and setup fixes.</p>
+    <div class="cards">
       {
-        latest.map((g) => (
-          <li>
-            <a href={`/guides/${g.id}/`}>
-              <span class="list__title">{g.data.title}</span>
-              <span class="list__meta">{g.data.cluster}</span>
-            </a>
-          </li>
+        latest.map((g, i) => (
+          <a
+            class="card fade-up"
+            href={`/guides/${g.id}/`}
+            style={`animation-delay: ${80 + i * 40}ms`}
+          >
+            {g.data.image && (
+              <img src={g.data.image} alt="" width="640" height="400" loading="lazy" />
+            )}
+            <div class="card__body">
+              <span class="card__type">{g.data.cluster}</span>
+              <h3>{g.data.title}</h3>
+              <p>{g.data.description}</p>
+            </div>
+          </a>
         ))
       }
-    </ul>
-    <p style="margin-top: 1.25rem;">
+    </div>
+    <p style="margin-top: 1.5rem;">
       <a href="/guides/">View all guides →</a>
     </p>
   </section>
@@ -198,12 +207,13 @@ const latest = guides.slice(0, 6);
 
   .path {
     display: block;
-    padding: 1.25rem 1.3rem;
+    padding: 1.35rem 1.35rem 1.4rem;
     text-decoration: none;
     color: inherit;
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: var(--radius);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
     transition: border-color 160ms ease, transform 160ms ease;
   }
 
@@ -239,13 +249,14 @@ const latest = guides.slice(0, 6);
     color: inherit;
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: var(--radius);
+    border-radius: 8px;
     box-shadow: var(--shadow);
-    transition: transform 160ms ease;
+    transition: transform 160ms ease, border-color 160ms ease;
   }
 
   .card:hover {
     transform: translateY(-3px);
+    border-color: var(--leaf);
     color: inherit;
   }
 
@@ -278,39 +289,8 @@ const latest = guides.slice(0, 6);
     font-size: 0.95rem;
   }
 
-  .list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-    border-top: 1px solid var(--line);
-  }
-
-  .list li {
-    border-bottom: 1px solid var(--line);
-  }
-
-  .list a {
-    display: flex;
-    justify-content: space-between;
-    gap: 1rem;
-    padding: 1rem 0;
-    text-decoration: none;
-    color: inherit;
-  }
-
-  .list a:hover .list__title {
-    color: var(--leaf-deep);
-  }
-
-  .list__title {
-    font-weight: 600;
-  }
-
-  .list__meta {
-    color: var(--ink-muted);
-    font-size: 0.9rem;
-    text-transform: capitalize;
-    flex-shrink: 0;
+  .latest {
+    padding-bottom: 1rem;
   }
 
   @keyframes heroSettle {
@@ -324,10 +304,4 @@ const latest = guides.slice(0, 6);
     }
   }
 
-  @media (max-width: 640px) {
-    .list a {
-      flex-direction: column;
-      gap: 0.25rem;
-    }
-  }
 </style>

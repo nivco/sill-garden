@@ -1,20 +1,36 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import type { CollectionEntry } from 'astro:content';
+import { clusters } from '../lib/site';
 
 interface Props {
   guide: CollectionEntry<'guides'>;
+  related?: CollectionEntry<'guides'>[];
 }
 
-const { guide } = Astro.props;
-const { title, description, image, imageAlt, verdict, pubDate, updatedDate, cluster } = guide.data;
+const { guide, related = [] } = Astro.props;
+const {
+  title,
+  description,
+  image,
+  imageAlt,
+  verdict,
+  pubDate,
+  updatedDate,
+  cluster,
+  type,
+  products,
+} = guide.data;
+
+const clusterLabel = clusters[cluster].title;
 ---
 
 <BaseLayout title={title} description={description} image={image}>
   <article class="guide wrap">
     <header class="guide__header fade-up">
       <p class="guide__meta">
-        <span class="guide__cluster">{cluster}</span>
+        <span class="guide__cluster">{clusterLabel}</span>
+        <span class="guide__type">{type}</span>
         <time datetime={pubDate.toISOString()}>
           {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
         </time>
@@ -33,10 +49,6 @@ const { title, description, image, imageAlt, verdict, pubDate, updatedDate, clus
       </p>
       <h1>{title}</h1>
       <p class="guide__deck">{description}</p>
-      <p class="disclosure-inline">
-        This page may contain affiliate links. If you buy through them, we may earn a commission at no
-        extra cost to you. <a href="/disclosure/">See our disclosure</a>.
-      </p>
     </header>
 
     {
@@ -56,9 +68,63 @@ const { title, description, image, imageAlt, verdict, pubDate, updatedDate, clus
       )
     }
 
+    {
+      products && products.length > 0 && (
+        <section class="product-picks fade-up" style="animation-delay: 140ms" aria-label="Product picks">
+          <h2 class="product-picks__title">What we’d put on the counter</h2>
+          <div class="product-picks__grid">
+            {products.map((p, i) => (
+              <div class="product-card">
+                <span class="product-card__rank">{i === 0 ? 'Top pick' : `Option ${i + 1}`}</span>
+                <h3>{p.name}</h3>
+                {p.note && <p>{p.note}</p>}
+                {p.url ? (
+                  <a class="btn btn-primary product-card__cta" href={p.url} rel="nofollow sponsored noopener" target="_blank">
+                    Check price
+                  </a>
+                ) : (
+                  <p class="product-card__soon">Amazon link after Associates approval</p>
+                )}
+              </div>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
     <div class="prose content-width fade-up" style="animation-delay: 160ms">
       <slot />
     </div>
+
+    {
+      related.length > 0 && (
+        <section class="related fade-up">
+          <h2>Keep reading</h2>
+          <div class="related__grid">
+            {related.map((g) => (
+              <a class="related__card" href={`/guides/${g.id}/`}>
+                {g.data.image && (
+                  <img src={g.data.image} alt="" width="480" height="300" loading="lazy" />
+                )}
+                <div class="related__body">
+                  <span>{clusters[g.data.cluster].title}</span>
+                  <strong>{g.data.title}</strong>
+                </div>
+              </a>
+            ))}
+          </div>
+        </section>
+      )
+    }
+
+    <aside class="disclosure-footer fade-up" aria-label="Affiliate disclosure">
+      <p>
+        <strong>Affiliate disclosure.</strong> This page may contain affiliate links, including Amazon
+        Associates. If you buy through them, we may earn a commission at no extra cost to you.
+        Recommendations are written for small-space apartments first — footprint, noise, and refill
+        cost. <a href="/disclosure/">Read the full disclosure</a>.
+      </p>
+    </aside>
   </article>
 </BaseLayout>
 
@@ -70,7 +136,7 @@ const { title, description, image, imageAlt, verdict, pubDate, updatedDate, clus
   .guide__header h1 {
     font-size: clamp(2rem, 4.5vw, 3rem);
     margin: 0.35rem 0 0.75rem;
-    max-width: 18ch;
+    max-width: 20ch;
   }
 
   .guide__deck {
@@ -82,24 +148,37 @@ const { title, description, image, imageAlt, verdict, pubDate, updatedDate, clus
   .guide__meta {
     display: flex;
     flex-wrap: wrap;
-    gap: 0.5rem 0.75rem;
+    align-items: center;
+    gap: 0.45rem 0.7rem;
     color: var(--ink-muted);
     font-size: 0.9rem;
     margin: 0;
   }
 
-  .guide__cluster {
+  .guide__cluster,
+  .guide__type {
     text-transform: uppercase;
     letter-spacing: 0.06em;
     font-size: 0.72rem;
     font-weight: 700;
+  }
+
+  .guide__cluster {
     color: var(--leaf);
+  }
+
+  .guide__type {
+    color: var(--harvest);
+    padding: 0.15rem 0.45rem;
+    border: 1px solid rgba(197, 106, 60, 0.28);
+    border-radius: 999px;
   }
 
   .guide__hero {
     margin: 0 0 1.75rem;
     overflow: hidden;
-    border-radius: var(--radius);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
   }
 
   .guide__hero img {
@@ -108,7 +187,148 @@ const { title, description, image, imageAlt, verdict, pubDate, updatedDate, clus
     object-fit: cover;
   }
 
+  .product-picks {
+    margin: 0 0 2rem;
+    padding: 1.35rem 1.4rem 1.5rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+  }
+
+  .product-picks__title {
+    margin: 0 0 1rem;
+    font-size: 1.25rem;
+  }
+
+  .product-picks__grid {
+    display: grid;
+    gap: 0.85rem;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+
+  .product-card {
+    padding: 1rem 1.05rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    background: rgba(47, 93, 58, 0.04);
+  }
+
+  .product-card__rank {
+    display: inline-block;
+    font-size: 0.7rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--harvest);
+    margin-bottom: 0.35rem;
+  }
+
+  .product-card h3 {
+    margin: 0 0 0.35rem;
+    font-size: 1.05rem;
+  }
+
+  .product-card p {
+    margin: 0;
+    color: var(--ink-muted);
+    font-size: 0.92rem;
+  }
+
+  .product-card__cta {
+    margin-top: 0.85rem;
+    padding: 0.55rem 0.95rem;
+    font-size: 0.9rem;
+  }
+
+  .product-card__soon {
+    margin-top: 0.75rem !important;
+    font-size: 0.82rem !important;
+    font-style: italic;
+  }
+
   .prose {
     margin-inline: 0;
+  }
+
+  .related {
+    margin-top: 3.5rem;
+    padding-top: 2rem;
+    border-top: 1px solid var(--line);
+  }
+
+  .related h2 {
+    margin: 0 0 1.1rem;
+    font-size: 1.45rem;
+  }
+
+  .related__grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+  }
+
+  .related__card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+    transition: transform 160ms ease, border-color 160ms ease;
+  }
+
+  .related__card:hover {
+    transform: translateY(-2px);
+    border-color: var(--leaf);
+    color: inherit;
+  }
+
+  .related__card img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  }
+
+  .related__body {
+    padding: 0.9rem 1rem 1.05rem;
+    display: grid;
+    gap: 0.25rem;
+  }
+
+  .related__body span {
+    font-size: 0.72rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--leaf);
+  }
+
+  .related__body strong {
+    font-family: var(--font-display);
+    font-weight: 550;
+    font-size: 1.05rem;
+    line-height: 1.25;
+  }
+
+  .disclosure-footer {
+    margin-top: 2.75rem;
+    padding: 1.15rem 1.25rem;
+    border-top: 1px solid var(--line);
+    border-left: 3px solid var(--leaf);
+    background: rgba(47, 93, 58, 0.06);
+    color: var(--ink-muted);
+    font-size: 0.92rem;
+    max-width: var(--content);
+  }
+
+  .disclosure-footer p {
+    margin: 0;
+  }
+
+  .disclosure-footer strong {
+    color: var(--ink);
   }
 </style>

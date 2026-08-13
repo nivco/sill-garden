@@ -27,16 +27,20 @@ const byCluster = Object.fromEntries(
         <section class="cluster" id={key}>
           <h2>{clusters[key].title}</h2>
           <p class="cluster__blurb">{clusters[key].blurb}</p>
-          <ul class="cluster__list">
+          <div class="cluster__grid">
             {byCluster[key].map((g) => (
-              <li>
-                <a href={`/guides/${g.id}/`}>
+              <a class="guide-card" href={`/guides/${g.id}/`}>
+                {g.data.image && (
+                  <img src={g.data.image} alt="" width="640" height="400" loading="lazy" />
+                )}
+                <div class="guide-card__body">
+                  <span class="guide-card__type">{g.data.type}</span>
                   <strong>{g.data.title}</strong>
-                  <span>{g.data.description}</span>
-                </a>
-              </li>
+                  <span class="guide-card__desc">{g.data.description}</span>
+                </div>
+              </a>
             ))}
-          </ul>
+          </div>
         </section>
       ))
     }
@@ -69,37 +73,65 @@ const byCluster = Object.fromEntries(
   }
 
   .cluster__blurb {
-    margin: 0 0 1rem;
+    margin: 0 0 1.15rem;
     color: var(--ink-muted);
   }
 
-  .cluster__list {
-    list-style: none;
-    margin: 0;
-    padding: 0;
-  }
-
-  .cluster__list li + li {
-    margin-top: 0.75rem;
-  }
-
-  .cluster__list a {
+  .cluster__grid {
     display: grid;
-    gap: 0.2rem;
-    padding: 1rem 1.1rem;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(16.5rem, 1fr));
+  }
+
+  .guide-card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
     text-decoration: none;
     color: inherit;
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: var(--radius);
+    border-radius: 8px;
+    box-shadow: var(--shadow);
+    transition: transform 160ms ease, border-color 160ms ease;
   }
 
-  .cluster__list a:hover {
+  .guide-card:hover {
+    transform: translateY(-3px);
     border-color: var(--leaf);
+    color: inherit;
   }
 
-  .cluster__list span {
+  .guide-card img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  }
+
+  .guide-card__body {
+    display: grid;
+    gap: 0.3rem;
+    padding: 1rem 1.1rem 1.15rem;
+  }
+
+  .guide-card__type {
+    font-size: 0.7rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--harvest);
+  }
+
+  .guide-card strong {
+    font-family: var(--font-display);
+    font-size: 1.15rem;
+    font-weight: 550;
+    line-height: 1.25;
+  }
+
+  .guide-card__desc {
     color: var(--ink-muted);
-    font-size: 0.95rem;
+    font-size: 0.92rem;
+    line-height: 1.45;
   }
 </style>
