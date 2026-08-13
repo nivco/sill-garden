@@ -7,6 +7,16 @@ type: guide
 image: /images/guide-basil.jpg
 imageAlt: Basil plant growing in a pot
 verdict: Give basil strong light, pinch the tops early, and harvest leaves often. Weak light makes tall, tasteless stems — no nutrient bottle fixes that.
+products:
+  - name: AeroGarden Harvest (6-pod class)
+    note: Reliable basil under included LED
+    asin: B07CKNWHPQ
+  - name: Genovese basil seeds
+    note: After one branded pod cycle, grow what you cook
+    search: Genovese basil seeds for planting
+  - name: Clip-on LED grow light
+    note: If you’re growing basil in soil on a dim sill
+    search: LED clip grow light indoor plants
 ---
 
 Basil is the reason most people buy a countertop garden. It’s also the plant that shows light problems first.

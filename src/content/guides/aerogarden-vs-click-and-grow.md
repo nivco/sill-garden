@@ -14,7 +14,7 @@ products:
     asin: B07CKNWHPQ
   - name: Click & Grow Smart Garden 3
     note: Capillary, no pump — studio friendly
-    search: Click and Grow Smart Garden 3
+    asin: B01MRVMKQH
 ---
 
 Both brands sell “set it and snip” countertop gardens. The differences that matter in an apartment are noise, footprint, and how painful refills feel after month two.

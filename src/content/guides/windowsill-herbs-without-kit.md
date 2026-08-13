@@ -8,6 +8,16 @@ featured: true
 image: /images/guide-windowsill.jpg
 imageAlt: Rosemary plant on an indoor windowsill
 verdict: Start with basil, mint, and chives in small pots if you have a bright sill. Add a cheap clip-on grow light before you blame your “black thumb.”
+products:
+  - name: Small herb pots with saucers
+    note: Start three herbs without a hydro kit
+    search: herb pots with saucers indoor
+  - name: Clip-on LED grow light
+    note: Cheap fix when the sill isn’t bright enough
+    search: LED clip grow light indoor plants
+  - name: Genovese basil seeds
+    note: The herb that teaches you about light fast
+    search: Genovese basil seeds for planting
 ---
 
 Not every apartment needs a plug-in hydroponic garden. If you have a bright window and patience for watering, soil pots on the sill still work — with clear limits.

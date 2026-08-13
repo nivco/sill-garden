@@ -7,6 +7,16 @@ type: howto
 image: /images/guide-light.jpg
 imageAlt: Close-up of leafy kitchen herbs
 verdict: Run herbs about 14–16 hours on, 8–10 hours off. Align the dark period with your sleep if the garden shares your bedroom.
+products:
+  - name: 24-hour outlet timer
+    note: Set on/off without an app or smart plug
+    search: 24 hour mechanical outlet timer
+  - name: Clip-on LED grow light
+    note: For soil pots on dim sills
+    search: LED clip grow light indoor plants
+  - name: AeroGarden Harvest (6-pod class)
+    note: Built-in light + schedule reminders
+    asin: B07CKNWHPQ
 ---
 
 Plants need a dark stretch. Your neighbors (and your circadian rhythm) need the LED off at night. Set the schedule before you plant.

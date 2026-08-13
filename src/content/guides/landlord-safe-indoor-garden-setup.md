@@ -7,6 +7,16 @@ type: howto
 image: /images/guide-setup.jpg
 imageAlt: Two potted plants on a windowsill
 verdict: Use a waterproof tray, skip wall mounts, watch humidity near windows, and stick to freestanding countertop gear. That’s 90% of rental risk handled.
+products:
+  - name: Waterproof boot / drip tray
+    note: Under every reservoir and pot cluster
+    search: waterproof boot tray for plants
+  - name: Click & Grow Smart Garden 3
+    note: Freestanding, no drilling, quiet
+    asin: B01MRVMKQH
+  - name: Clip-on LED grow light
+    note: Freestanding light — skip ceiling hooks
+    search: LED clip grow light indoor plants
 ---
 
 Landlords rarely ban “herbs.” They care about water damage, mold, and holes in walls. Build your garden around those three.

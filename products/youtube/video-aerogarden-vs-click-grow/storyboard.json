@@ -1,0 +1,123 @@
+{
+  "id": "video-aerogarden-vs-click-grow",
+  "title": "AeroGarden vs Click & Grow (2026) — Which Apartment Kit Wins?",
+  "filename": "sill-aerogarden-vs-click-grow.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "affiliate_links": [
+    {
+      "label": "AeroGarden Harvest-class",
+      "url": "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden-20&linkCode=ll1"
+    },
+    {
+      "label": "Click & Grow Smart Garden 3",
+      "url": "https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden-20&linkCode=ll1"
+    }
+  ],
+  "description": "Quiet kitchens, small counters, real herb harvests. A visual side-by-side of AeroGarden Harvest-class kits vs Click & Grow Smart Garden 3 — pods, noise, footprint, and who should buy which.",
+  "tags": [
+    "aerogarden vs click and grow",
+    "countertop garden",
+    "indoor herb garden",
+    "apartment garden",
+    "smart garden",
+    "sill garden"
+  ],
+  "slides": [
+    {
+      "type": "title",
+      "chapter": "Intro",
+      "title": "AeroGarden vs Click & Grow",
+      "subtitle": "Which countertop kit actually fits an apartment kitchen — noise, footprint, and harvest size.",
+      "badge": "2026 comparison",
+      "photo": "images/hero-sill.jpg",
+      "photo_right": "images/inline-counter-plant.jpg",
+      "narration": "Okay, AeroGarden versus Click and Grow. If you cook in a small apartment, skip the tallest tower on Amazon. You want the kit that fits your counter, and that you can live with."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "What matters",
+      "title": "What matters in an apartment",
+      "photo": "images/inline-apartment.jpg",
+      "bullets": [
+        "Footprint — cutting-board size, not a floor tower",
+        "Noise — silent or low hum, not a fish-tank party",
+        "Built-in light — most sills are not full sun",
+        "Refill cost after month two — pods add up"
+      ],
+      "narration": "In an apartment, four things matter more than brand hype. Footprint. Noise. Built-in light. And what those refill pods cost after month two."
+    },
+    {
+      "type": "table",
+      "chapter": "Quick comparison",
+      "title": "Quick comparison at a glance",
+      "headers": ["Factor", "AeroGarden Harvest-class", "Click & Grow SG3"],
+      "rows": [
+        ["Typical pods", "6", "3"],
+        ["Water movement", "Small pump (low hum)", "Passive / wick (silent)"],
+        ["Learning curve", "Very low", "Very low"],
+        ["Best fit", "Most 1-bed kitchens", "Studios / shared rooms"],
+        ["Watch-out", "Pump noise + pod price", "Fewer plants; pod lock-in"]
+      ],
+      "narration": "Quick side by side. AeroGarden Harvest class usually means six pods, and a small pump with a low hum. Click and Grow Smart Garden three is silent, with three pods, and a narrower footprint."
+    },
+    {
+      "type": "chart",
+      "chapter": "Scorecard",
+      "title": "Apartment scorecard (1–10)",
+      "subtitle": "Subjective scores for a typical studio or 1-bed kitchen — not lab measurements.",
+      "labels": ["AeroGarden", "Click & Grow"],
+      "rows": [
+        ["Capacity / yield", 8.5, 5.5],
+        ["Silence", 6.5, 9.5],
+        ["Footprint fit", 7.0, 9.0],
+        ["Ease of use", 9.0, 9.0],
+        ["Value after refill cost", 6.5, 6.0]
+      ],
+      "narration": "Here’s our apartment scorecard, one to ten. AeroGarden leads on capacity. Click and Grow wins on silence and footprint. Ease of use? Basically a tie. Both are beginner friendly."
+    },
+    {
+      "type": "split",
+      "chapter": "Who should buy",
+      "title": "Who should buy which?",
+      "left": {
+        "name": "Choose AeroGarden",
+        "photo": "images/inline-grow-tray.jpg",
+        "blurb": "You cook with herbs weekly and have a counter corner.",
+        "points": ["Fill 6 pods with basil & greens", "Soft pump hum is OK", "Bigger first-kit community"]
+      },
+      "right": {
+        "name": "Choose Click & Grow",
+        "photo": "images/inline-seedlings.jpg",
+        "blurb": "You sleep near the kitchen or need absolute quiet.",
+        "points": ["Silent capillary system", "Narrower sill / shelf fit", "Fewer plants is fine"]
+      },
+      "narration": "So who should buy which? Go AeroGarden if you use herbs often, and a soft pump hum is fine. Go Click and Grow if you sleep near the kitchen, or you just need it quiet."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Refill reality",
+      "title": "Refill reality (both brands)",
+      "photo": "images/inline-herbs-board.jpg",
+      "bullets": [
+        "Branded pods are convenient — and pricey per plant",
+        "Run one branded cycle first to learn the hardware",
+        "Then try blank inserts + seeds you actually eat",
+        "Neither kit replaces a sunny outdoor garden"
+      ],
+      "narration": "One more reality check. Both brands lock you into proprietary pods. Do one branded cycle first, learn the hardware, then switch to blank inserts and seeds you actually cook with."
+    },
+    {
+      "type": "verdict",
+      "chapter": "Verdict",
+      "title": "Our call",
+      "body": "Decide on noise and footprint first, yield second. In a studio, silence wins. In a separate kitchen, capacity usually wins.",
+      "picks": [
+        "Default: AeroGarden Harvest-class for most readers",
+        "Studio / silence: Click & Grow Smart Garden 3"
+      ],
+      "cta": "Full guide → sillgarden.com/guides/aerogarden-vs-click-and-grow",
+      "photo": "images/inline-greenery.jpg",
+      "narration": "Our call is simple. AeroGarden Harvest class for most apartment kitchens. Click and Grow if silence matters most. The full write-up is free on Sill Garden dot com."
+    }
+  ]
+}
