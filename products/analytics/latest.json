@@ -1,17 +1,17 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-13 18:26 UTC",
+  "generated_at": "2026-08-13 21:21 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden-20",
   "hero": {
-    "sessions_7d": null,
-    "users_7d": null,
-    "pageviews_7d": null,
-    "affiliate_clicks_7d": null,
-    "gsc_clicks_7d": null,
-    "gsc_impressions_7d": null,
-    "cf_pageviews_7d": null,
-    "youtube_sessions_7d": null,
+    "sessions_7d": 0,
+    "users_7d": 0,
+    "pageviews_7d": 0,
+    "affiliate_clicks_7d": 0,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 0,
+    "cf_pageviews_7d": 0,
+    "youtube_sessions_7d": 0,
     "youtube_subs": null,
     "youtube_views_total": null,
     "amazon_clicks_7d": null,
@@ -25,17 +25,39 @@
       "url": "https://sillgarden.com"
     },
     "ga4": {
-      "skipped": "Set GA4_PROPERTY_ID"
+      "totals": {
+        "activeUsers": 0,
+        "sessions": 0,
+        "screenPageViews": 0,
+        "engagedSessions": 0,
+        "averageSessionDuration_sec": 0.0,
+        "engagementRate_pct": 0.0
+      },
+      "top_pages": [],
+      "entry_channels": [],
+      "events": {},
+      "affiliate_links": [
+        {
+          "note": "link_url dimension needs GA4 custom dim or wait for events: HTTP 400 https://analyticsdata.googleapis.com/v1beta/properties/549929269:runReport: {\n  \"error\": {\n    \"code\": 400,\n   "
+        }
+      ],
+      "sessions_from_youtube": 0,
+      "affiliate_clicks_7d": 0
     },
     "gsc": {
-      "error": "Set GOOGLE_SERVICE_ACCOUNT_JSON (or reuse MTS secrets path)",
-      "skipped": false
+      "clicks": 0,
+      "impressions": 0,
+      "top_queries": [],
+      "site_url": "sc-domain:sillgarden.com"
     },
     "cloudflare": {
-      "skipped": "Set CLOUDFLARE_API_TOKEN (+ ZONE_ID)"
+      "page_views": 0,
+      "uniques": 0,
+      "daily": [],
+      "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "skipped": "Set YOUTUBE_API_KEY"
+      "skipped": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -48,12 +70,11 @@
     }
   },
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
-    "Connect GA4_PROPERTY_ID to unlock sessions / clicks on the dashboard.",
+    "GSC shows 0 clicks \u2014 normal for a brand-new domain; submit sitemap in Search Console.",
     "Optional: set YOUTUBE_API_KEY + channel handle when you publish Sill Garden videos."
   ],
   "setup": {
-    "ready": 1,
+    "ready": 5,
     "total": 7,
     "checks": [
       {
@@ -63,28 +84,28 @@
       },
       {
         "name": "GA4 API",
-        "ok": false,
-        "detail": "Set GA4_PROPERTY_ID"
+        "ok": true,
+        "detail": "Connected"
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
-        "ok": false,
-        "detail": "Set GOOGLE_SERVICE_ACCOUNT_JSON (or reuse MTS secrets path)"
+        "ok": true,
+        "detail": "sc-domain:sillgarden.com"
       },
       {
         "name": "Cloudflare analytics",
-        "ok": false,
-        "detail": "Set CLOUDFLARE_API_TOKEN (+ ZONE_ID)"
+        "ok": true,
+        "detail": "Connected"
       },
       {
         "name": "YouTube",
         "ok": false,
-        "detail": "Set YOUTUBE_API_KEY"
+        "detail": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
       },
       {
         "name": "Amazon earnings (manual)",
@@ -94,6 +115,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions \u2014 \u00b7 Aff clicks \u2014 \u00b7 GSC \u2014 \u00b7 Setup 1/7"
+    "headline": "Sessions 0 | Aff clicks 0 | GSC 0 | Setup 5/7"
   }
 }

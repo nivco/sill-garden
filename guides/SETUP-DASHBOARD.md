@@ -51,3 +51,38 @@ Copy `.env.example` → `.env` and fill keys. You can point `GOOGLE_*` at the sa
 - `products/analytics/latest.json` — scorecard
 - `products/analytics/history.json` — last ~90 refreshes
 - `products/analytics/amazon-manual.json` — pasted Associates numbers
+- `products/traffic/action-queue.json` — traffic optimizer priorities
+
+## GitHub automations (MTS-style)
+
+| Workflow | Schedule | What it does |
+|---|---|---|
+| `deploy.yml` | on push to `main` | Cloudflare Pages deploy → IndexNow (+ Bing if authorized) |
+| `weekly-analytics.yml` | Mon 09:00 UTC | Refresh GA4/GSC/CF scorecard → commit `products/analytics/` |
+| `traffic-loop.yml` | every 12h | Analytics refresh → action queue → throttled IndexNow |
+| `oauth-health-check.yml` | daily 06:30 UTC | Fail if GA4/GSC OAuth is broken |
+
+### Secrets to set on `nivco/sill-garden`
+
+Already needed for deploy: `CLOUDFLARE_*`, `PUBLIC_GA4_ID`
+
+Also set (reuse MTS values where possible):
+
+- `GOOGLE_USER_TOKEN_JSON` + `GOOGLE_OAUTH_CLIENT_JSON` (OAuth desktop token with Analytics + Search Console)
+- `INDEXNOW_KEY` (same as local `.env` / `public/<key>.txt`)
+- optional: `BING_WEBMASTER_API_KEY`, `CLOUDFLARE_API_TOKEN`, `YOUTUBE_*`
+
+Sync OAuth from Maker Tool Stack after login:
+
+```powershell
+cd E:\Projects\makertoolstack
+python scripts\google_token_sync.py
+```
+
+Manual runs:
+
+```powershell
+gh workflow run "Weekly analytics scorecard" -R nivco/sill-garden
+gh workflow run "Traffic optimizer loop" -R nivco/sill-garden
+gh workflow run "OAuth health check" -R nivco/sill-garden
+```

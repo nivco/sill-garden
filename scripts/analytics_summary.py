@@ -64,6 +64,12 @@ def probe_site() -> dict:
         return {"ok": False, "status": None, "url": SITE_URL, "error": str(exc)[:200]}
 
 
+OAUTH_SCOPES = [
+    "https://www.googleapis.com/auth/analytics.readonly",
+    "https://www.googleapis.com/auth/webmasters.readonly",
+]
+
+
 def resolve_path(raw: str) -> Path | None:
     if not raw:
         return None
@@ -77,6 +83,21 @@ def resolve_path(raw: str) -> Path | None:
     return p if p.is_file() else None
 
 
+def materialize_json_env(env_name: str, filename: str) -> Path | None:
+    """Local path, or write JSON secret content from env (GitHub Actions)."""
+    import tempfile
+
+    raw = (os.environ.get(env_name) or "").strip()
+    if not raw:
+        return None
+    if raw.startswith("{"):
+        tmp_dir = os.environ.get("RUNNER_TEMP") or os.environ.get("TEMP") or tempfile.gettempdir()
+        path = Path(tmp_dir) / filename
+        path.write_text(json.dumps(json.loads(raw), indent=2), encoding="utf-8")
+        return path
+    return resolve_path(raw)
+
+
 def google_token(scopes: list[str]) -> str:
     """Service account or OAuth (same env pattern as Maker Tool Stack)."""
     auth_mode = (os.environ.get("GOOGLE_AUTH") or "sa").strip().lower()
@@ -84,8 +105,8 @@ def google_token(scopes: list[str]) -> str:
         from google.auth.transport.requests import Request
         from google.oauth2.credentials import Credentials
 
-        token_path = resolve_path(os.environ.get("GOOGLE_USER_TOKEN_JSON") or "")
-        client_path = resolve_path(os.environ.get("GOOGLE_OAUTH_CLIENT_JSON") or "")
+        token_path = materialize_json_env("GOOGLE_USER_TOKEN_JSON", "sill-google-user-token.json")
+        client_path = materialize_json_env("GOOGLE_OAUTH_CLIENT_JSON", "sill-google-oauth-client.json")
         # Fall back to MTS secrets
         if not token_path:
             token_path = resolve_path("../makertoolstack/secrets/google-user-token.json")
@@ -93,22 +114,30 @@ def google_token(scopes: list[str]) -> str:
             client_path = resolve_path("../makertoolstack/secrets/google-oauth-client.json")
         if not token_path or not client_path:
             raise RuntimeError("OAuth mode needs GOOGLE_USER_TOKEN_JSON + GOOGLE_OAUTH_CLIENT_JSON")
-        creds = Credentials.from_authorized_user_file(str(token_path), scopes=scopes)
+        # Always load with both scopes so a GA4-only refresh cannot drop GSC.
+        creds = Credentials.from_authorized_user_file(str(token_path), scopes=OAUTH_SCOPES)
         if not creds.valid:
             if creds.expired and creds.refresh_token:
                 creds.refresh(Request())
-                token_path.write_text(creds.to_json(), encoding="utf-8")
+                data = json.loads(creds.to_json())
+                data["scopes"] = sorted(set(data.get("scopes") or []) | set(OAUTH_SCOPES))
+                token_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
             else:
                 raise RuntimeError("OAuth token invalid — re-auth via MTS google oauth flow")
+        if any("webmasters" in s for s in scopes):
+            granted = set(creds.scopes or [])
+            if not any("webmasters" in s for s in granted):
+                raise RuntimeError("OAuth token missing Search Console scope — re-run google_oauth_login.py --force")
         return creds.token
 
-    sa_raw = (os.environ.get("GOOGLE_SERVICE_ACCOUNT_JSON") or "").strip()
-    sa_path = resolve_path(sa_raw) if sa_raw else resolve_path("../makertoolstack/secrets/google-sa.json")
+    sa_path = materialize_json_env("GOOGLE_SERVICE_ACCOUNT_JSON", "sill-google-sa.json")
     if not sa_path:
-        # try common MTS path
+        sa_path = resolve_path("../makertoolstack/secrets/google-sa.json")
+    if not sa_path:
         for cand in (
             "../makertoolstack/secrets/service-account.json",
             "../makertoolstack/secrets/ga4-service-account.json",
+            "../makertoolstack/secrets/google-service-account.json",
         ):
             sa_path = resolve_path(cand)
             if sa_path:

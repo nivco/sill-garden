@@ -1,0 +1,55 @@
+{
+  "generated_at": "2026-08-13 21:30 UTC",
+  "site_url": "https://sillgarden.com",
+  "gate_ok": true,
+  "applied": [
+    "IndexNow ping"
+  ],
+  "actions": [
+    {
+      "priority": "P0",
+      "category": "acquisition",
+      "title": "No GA4 sessions yet",
+      "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-13 21:30 UTC"
+    },
+    {
+      "priority": "P0",
+      "category": "indexing",
+      "title": "GSC impressions still 0",
+      "detail": "Sitemap is submitted; wait for crawl or Request indexing on priority URLs.",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-13 21:30 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "setup",
+      "title": "Finish setup: YouTube",
+      "detail": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-13 21:30 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "setup",
+      "title": "Finish setup: Amazon earnings (manual)",
+      "detail": "Manual JSON present",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-13 21:30 UTC"
+    },
+    {
+      "priority": "P3",
+      "category": "indexing",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "auto": true,
+      "done": true,
+      "created": "2026-08-13 21:30 UTC"
+    }
+  ]
+}
