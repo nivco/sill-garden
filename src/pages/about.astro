@@ -1,0 +1,36 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../lib/site';
+---
+
+<BaseLayout title="About" description={`About ${site.name} — apartment windowsill and countertop gardening guides.`}>
+  <section class="wrap page fade-up">
+    <h1>About {site.name}</h1>
+    <div class="prose content-width">
+      <p>
+        <strong>{site.name}</strong> helps people grow herbs and greens on a windowsill or kitchen
+        counter — especially in apartments and rentals where there’s no yard and limited space.
+      </p>
+      <p>
+        We focus on quiet, compact setups: plug-and-play countertop gardens, simple sill pots, light
+        schedules, water basics, and landlord-safe placement. The goal is a real harvest without
+        turning your kitchen into a science lab.
+      </p>
+      <p>
+        Product links may be affiliate links. Recommendations are written for small-space constraints
+        first — footprint, noise, and refill cost — not for greenhouse hobbyists.
+      </p>
+      <p><a href="/guides/">Browse the guides</a> or read our <a href="/disclosure/">affiliate disclosure</a>.</p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding: 2.75rem 0 1rem;
+  }
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+  }
+</style>

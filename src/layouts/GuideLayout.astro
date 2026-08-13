@@ -1,0 +1,114 @@
+---
+import BaseLayout from './BaseLayout.astro';
+import type { CollectionEntry } from 'astro:content';
+
+interface Props {
+  guide: CollectionEntry<'guides'>;
+}
+
+const { guide } = Astro.props;
+const { title, description, image, imageAlt, verdict, pubDate, updatedDate, cluster } = guide.data;
+---
+
+<BaseLayout title={title} description={description} image={image}>
+  <article class="guide wrap">
+    <header class="guide__header fade-up">
+      <p class="guide__meta">
+        <span class="guide__cluster">{cluster}</span>
+        <time datetime={pubDate.toISOString()}>
+          {pubDate.toLocaleDateString('en-US', { year: 'numeric', month: 'short', day: 'numeric' })}
+        </time>
+        {
+          updatedDate && (
+            <span>
+              · Updated{' '}
+              {updatedDate.toLocaleDateString('en-US', {
+                year: 'numeric',
+                month: 'short',
+                day: 'numeric',
+              })}
+            </span>
+          )
+        }
+      </p>
+      <h1>{title}</h1>
+      <p class="guide__deck">{description}</p>
+      <p class="disclosure-inline">
+        This page may contain affiliate links. If you buy through them, we may earn a commission at no
+        extra cost to you. <a href="/disclosure/">See our disclosure</a>.
+      </p>
+    </header>
+
+    {
+      image && (
+        <figure class="guide__hero fade-up" style="animation-delay: 80ms">
+          <img src={image} alt={imageAlt || title} width="1200" height="750" loading="eager" />
+        </figure>
+      )
+    }
+
+    {
+      verdict && (
+        <aside class="verdict fade-up" style="animation-delay: 120ms">
+          <div class="verdict__label">Quick verdict</div>
+          <p>{verdict}</p>
+        </aside>
+      )
+    }
+
+    <div class="prose content-width fade-up" style="animation-delay: 160ms">
+      <slot />
+    </div>
+  </article>
+</BaseLayout>
+
+<style>
+  .guide {
+    padding: 2.5rem 0 1rem;
+  }
+
+  .guide__header h1 {
+    font-size: clamp(2rem, 4.5vw, 3rem);
+    margin: 0.35rem 0 0.75rem;
+    max-width: 18ch;
+  }
+
+  .guide__deck {
+    font-size: 1.15rem;
+    color: var(--ink-muted);
+    max-width: 40rem;
+  }
+
+  .guide__meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.5rem 0.75rem;
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+    margin: 0;
+  }
+
+  .guide__cluster {
+    text-transform: uppercase;
+    letter-spacing: 0.06em;
+    font-size: 0.72rem;
+    font-weight: 700;
+    color: var(--leaf);
+  }
+
+  .guide__hero {
+    margin: 0 0 1.75rem;
+    overflow: hidden;
+    border-radius: var(--radius);
+  }
+
+  .guide__hero img {
+    width: 100%;
+    max-height: 28rem;
+    object-fit: cover;
+  }
+
+  .prose {
+    margin-inline: 0;
+  }
+</style>

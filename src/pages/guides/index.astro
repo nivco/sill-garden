@@ -1,0 +1,105 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { clusters } from '../../lib/site';
+
+const guides = (await getCollection('guides')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+
+const byCluster = Object.fromEntries(
+  Object.keys(clusters).map((key) => [key, guides.filter((g) => g.data.cluster === key)]),
+) as Record<keyof typeof clusters, typeof guides>;
+---
+
+<BaseLayout
+  title="Guides"
+  description="Countertop systems, sill herbs, and apartment setup guides from Sill Garden."
+>
+  <section class="wrap page">
+    <header class="page__header fade-up">
+      <h1>Guides</h1>
+      <p>Practical pages for growing on a windowsill or kitchen counter — no backyard required.</p>
+    </header>
+
+    {
+      (Object.keys(clusters) as Array<keyof typeof clusters>).map((key) => (
+        <section class="cluster" id={key}>
+          <h2>{clusters[key].title}</h2>
+          <p class="cluster__blurb">{clusters[key].blurb}</p>
+          <ul class="cluster__list">
+            {byCluster[key].map((g) => (
+              <li>
+                <a href={`/guides/${g.id}/`}>
+                  <strong>{g.data.title}</strong>
+                  <span>{g.data.description}</span>
+                </a>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ))
+    }
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding: 2.75rem 0 1rem;
+  }
+
+  .page__header h1 {
+    margin: 0 0 0.5rem;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+  }
+
+  .page__header p {
+    color: var(--ink-muted);
+    max-width: 36rem;
+  }
+
+  .cluster {
+    margin-top: 2.75rem;
+    padding-top: 0.5rem;
+  }
+
+  .cluster h2 {
+    margin: 0 0 0.35rem;
+    color: var(--leaf-deep);
+  }
+
+  .cluster__blurb {
+    margin: 0 0 1rem;
+    color: var(--ink-muted);
+  }
+
+  .cluster__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .cluster__list li + li {
+    margin-top: 0.75rem;
+  }
+
+  .cluster__list a {
+    display: grid;
+    gap: 0.2rem;
+    padding: 1rem 1.1rem;
+    text-decoration: none;
+    color: inherit;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+  }
+
+  .cluster__list a:hover {
+    border-color: var(--leaf);
+  }
+
+  .cluster__list span {
+    color: var(--ink-muted);
+    font-size: 0.95rem;
+  }
+</style>

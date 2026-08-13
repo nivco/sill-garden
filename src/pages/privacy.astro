@@ -1,0 +1,47 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../lib/site';
+---
+
+<BaseLayout title="Privacy" description={`${site.name} privacy policy.`}>
+  <section class="wrap page fade-up">
+    <h1>Privacy policy</h1>
+    <div class="prose content-width">
+      <p>Last updated: August 13, 2026</p>
+      <p>
+        {site.name} ({site.domain}) is an informational website about indoor and windowsill gardening.
+        This policy explains what data we collect and why.
+      </p>
+      <h2>Analytics</h2>
+      <p>
+        We may use privacy-conscious analytics (such as Google Analytics 4) to understand which pages
+        are useful. Analytics tools can collect approximate location, device type, referring site, and
+        pages viewed. We do not sell personal information.
+      </p>
+      <h2>Affiliate links</h2>
+      <p>
+        Product links may include affiliate tracking parameters (for example Amazon Associates). Those
+        partners have their own privacy policies for purchases made on their sites.
+      </p>
+      <h2>Cookies</h2>
+      <p>
+        The site may set cookies or similar storage for analytics and affiliate attribution. You can
+        block cookies in your browser settings.
+      </p>
+      <h2>Contact</h2>
+      <p>
+        For privacy questions: <a href={`mailto:${site.email}`}>{site.email}</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding: 2.75rem 0 1rem;
+  }
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+  }
+</style>

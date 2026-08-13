@@ -1,0 +1,42 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { site } from '../lib/site';
+---
+
+<BaseLayout
+  title="Affiliate disclosure"
+  description={`${site.name} affiliate disclosure — how we may earn commissions from product links.`}
+>
+  <section class="wrap page fade-up">
+    <h1>Affiliate disclosure</h1>
+    <div class="prose content-width">
+      <p>
+        {site.name} participates in affiliate programs, including the Amazon Services LLC Associates
+        Program. That means when you click a product link and buy something, we may earn a commission
+        at no extra cost to you.
+      </p>
+      <p>
+        We only recommend products that fit apartment and countertop constraints (size, noise, ease of
+        use, ongoing cost). Commissions never change the price you pay.
+      </p>
+      <p>
+        Amazon and the Amazon logo are trademarks of Amazon.com, Inc. or its affiliates. As an Amazon
+        Associate, we earn from qualifying purchases once our Associates account is approved and tagged
+        links are live.
+      </p>
+      <p>
+        Questions? Email <a href={`mailto:${site.email}`}>{site.email}</a>.
+      </p>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding: 2.75rem 0 1rem;
+  }
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+  }
+</style>

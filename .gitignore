@@ -1,0 +1,22 @@
+# build output
+dist/
+.astro/
+
+# deps
+node_modules/
+
+# env / OS
+.env
+.env.*
+.DS_Store
+Thumbs.db
+
+# editor
+.vscode/*
+!.vscode/extensions.json
+
+# logs
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*

@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://sillgarden.com/sitemap-index.xml

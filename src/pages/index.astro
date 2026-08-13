@@ -1,0 +1,333 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { getCollection } from 'astro:content';
+import { site, clusters } from '../lib/site';
+
+const guides = (await getCollection('guides')).sort(
+  (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
+);
+const featured = guides.filter((g) => g.data.featured).slice(0, 3);
+const latest = guides.slice(0, 6);
+---
+
+<BaseLayout>
+  <section class="hero">
+    <div class="hero__media" aria-hidden="true">
+      <img
+        src="/images/hero-sill.jpg"
+        alt=""
+        width="1800"
+        height="1200"
+        fetchpriority="high"
+      />
+    </div>
+    <div class="hero__veil"></div>
+    <div class="wrap hero__copy fade-up">
+      <p class="hero__brand">{site.name}</p>
+      <h1>Grow on your sill.</h1>
+      <p class="hero__sub">
+        Windowsill and countertop gardens for apartments — quiet setups, honest picks, real harvests.
+      </p>
+      <div class="hero__actions">
+        <a class="btn btn-primary" href="/guides/best-countertop-garden-apartments/">Pick a system</a>
+        <a class="btn btn-ghost" href="/guides/">Browse guides</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="paths wrap fade-up" style="animation-delay: 100ms">
+    <h2 class="section-title">Start where you are</h2>
+    <p class="section-deck">Three paths. One niche: small kitchens and bright sills.</p>
+    <div class="paths__grid">
+      {
+        Object.entries(clusters).map(([key, c]) => (
+          <a class="path" href={`/guides/#${key}`}>
+            <h3>{c.title}</h3>
+            <p>{c.blurb}</p>
+          </a>
+        ))
+      }
+    </div>
+  </section>
+
+  {
+    featured.length > 0 && (
+      <section class="featured wrap">
+        <h2 class="section-title">Featured comparisons</h2>
+        <p class="section-deck">Decision pages — what we’d put on a real apartment counter.</p>
+        <div class="cards">
+          {featured.map((g, i) => (
+            <a
+              class="card fade-up"
+              href={`/guides/${g.id}/`}
+              style={`animation-delay: ${120 + i * 60}ms`}
+            >
+              {g.data.image && (
+                <img src={g.data.image} alt="" width="640" height="400" loading="lazy" />
+              )}
+              <div class="card__body">
+                <span class="card__type">{g.data.type}</span>
+                <h3>{g.data.title}</h3>
+                <p>{g.data.description}</p>
+              </div>
+            </a>
+          ))}
+        </div>
+      </section>
+    )
+  }
+
+  <section class="latest wrap">
+    <h2 class="section-title">Latest guides</h2>
+    <ul class="list">
+      {
+        latest.map((g) => (
+          <li>
+            <a href={`/guides/${g.id}/`}>
+              <span class="list__title">{g.data.title}</span>
+              <span class="list__meta">{g.data.cluster}</span>
+            </a>
+          </li>
+        ))
+      }
+    </ul>
+    <p style="margin-top: 1.25rem;">
+      <a href="/guides/">View all guides →</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .hero {
+    position: relative;
+    min-height: min(92vh, 52rem);
+    display: grid;
+    align-items: end;
+    color: #f7faf6;
+    overflow: hidden;
+  }
+
+  .hero__media {
+    position: absolute;
+    inset: 0;
+  }
+
+  .hero__media img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: scale(1.02);
+    animation: heroSettle 1.4s ease both;
+  }
+
+  .hero__veil {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(180deg, rgba(20, 32, 24, 0.15) 0%, rgba(20, 32, 24, 0.55) 55%, rgba(20, 32, 24, 0.78) 100%),
+      linear-gradient(90deg, rgba(20, 32, 24, 0.45) 0%, transparent 55%);
+  }
+
+  .hero__copy {
+    position: relative;
+    z-index: 1;
+    padding: clamp(4rem, 12vh, 7rem) 0 clamp(2.5rem, 6vh, 4rem);
+    max-width: 40rem;
+  }
+
+  .hero__brand {
+    font-family: var(--font-display);
+    font-size: clamp(1.6rem, 3vw, 2.1rem);
+    margin: 0 0 0.75rem;
+    color: #e8f0e6;
+    letter-spacing: -0.02em;
+  }
+
+  .hero h1 {
+    margin: 0 0 0.85rem;
+    font-size: clamp(2.6rem, 7vw, 4.4rem);
+    color: #fff;
+    max-width: 10ch;
+  }
+
+  .hero__sub {
+    margin: 0 0 1.5rem;
+    font-size: 1.15rem;
+    color: rgba(247, 250, 246, 0.88);
+    max-width: 32rem;
+  }
+
+  .hero__actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+  }
+
+  .hero .btn-ghost {
+    border-color: rgba(255, 255, 255, 0.35);
+    color: #fff;
+  }
+
+  .hero .btn-ghost:hover {
+    border-color: #fff;
+    color: #fff;
+  }
+
+  .paths,
+  .featured,
+  .latest {
+    padding: 3.5rem 0 0;
+  }
+
+  .section-title {
+    margin: 0 0 0.4rem;
+    font-size: clamp(1.6rem, 3vw, 2rem);
+  }
+
+  .section-deck {
+    margin: 0 0 1.5rem;
+    color: var(--ink-muted);
+    max-width: 36rem;
+  }
+
+  .paths__grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+  }
+
+  .path {
+    display: block;
+    padding: 1.25rem 1.3rem;
+    text-decoration: none;
+    color: inherit;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition: border-color 160ms ease, transform 160ms ease;
+  }
+
+  .path:hover {
+    border-color: var(--leaf);
+    transform: translateY(-2px);
+    color: inherit;
+  }
+
+  .path h3 {
+    margin: 0 0 0.4rem;
+    font-size: 1.25rem;
+    color: var(--leaf-deep);
+  }
+
+  .path p {
+    margin: 0;
+    color: var(--ink-muted);
+    font-size: 0.98rem;
+  }
+
+  .cards {
+    display: grid;
+    gap: 1.25rem;
+    grid-template-columns: repeat(auto-fit, minmax(17rem, 1fr));
+  }
+
+  .card {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    box-shadow: var(--shadow);
+    transition: transform 160ms ease;
+  }
+
+  .card:hover {
+    transform: translateY(-3px);
+    color: inherit;
+  }
+
+  .card img {
+    width: 100%;
+    aspect-ratio: 16 / 10;
+    object-fit: cover;
+  }
+
+  .card__body {
+    padding: 1.1rem 1.15rem 1.25rem;
+  }
+
+  .card__type {
+    font-size: 0.72rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--harvest);
+  }
+
+  .card h3 {
+    margin: 0.35rem 0 0.45rem;
+    font-size: 1.2rem;
+  }
+
+  .card p {
+    margin: 0;
+    color: var(--ink-muted);
+    font-size: 0.95rem;
+  }
+
+  .list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    border-top: 1px solid var(--line);
+  }
+
+  .list li {
+    border-bottom: 1px solid var(--line);
+  }
+
+  .list a {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    padding: 1rem 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  .list a:hover .list__title {
+    color: var(--leaf-deep);
+  }
+
+  .list__title {
+    font-weight: 600;
+  }
+
+  .list__meta {
+    color: var(--ink-muted);
+    font-size: 0.9rem;
+    text-transform: capitalize;
+    flex-shrink: 0;
+  }
+
+  @keyframes heroSettle {
+    from {
+      transform: scale(1.06);
+      opacity: 0.85;
+    }
+    to {
+      transform: scale(1.02);
+      opacity: 1;
+    }
+  }
+
+  @media (max-width: 640px) {
+    .list a {
+      flex-direction: column;
+      gap: 0.25rem;
+    }
+  }
+</style>
