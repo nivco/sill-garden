@@ -11,8 +11,10 @@ verdict: Pick AeroGarden Harvest-class if you want faster growth and a bigger he
 products:
   - name: AeroGarden Harvest / Harvest Lite
     note: Pump + reminders; strong default
+    asin: B07CKNWHPQ
   - name: Click & Grow Smart Garden 3
     note: Capillary, no pump — studio friendly
+    search: Click and Grow Smart Garden 3
 ---
 
 Both brands sell “set it and snip” countertop gardens. The differences that matter in an apartment are noise, footprint, and how painful refills feel after month two.

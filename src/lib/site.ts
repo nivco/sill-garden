@@ -7,8 +7,8 @@ export const site = {
     'Practical guides to windowsill and countertop gardens for apartments: systems, herbs, setup, and honest product picks.',
   author: 'Sill Garden',
   email: 'hello@sillgarden.com',
-  /** Replace with Amazon Associates tag after approval */
-  amazonTag: '',
+  /** Amazon Associates tracking ID (Store ID) */
+  amazonTag: 'sillgarden-20',
 } as const;
 
 export const clusters = {

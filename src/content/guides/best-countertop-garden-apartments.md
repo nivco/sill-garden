@@ -11,10 +11,13 @@ verdict: Start with a 3–6 pod countertop kit if you want herbs with almost no 
 products:
   - name: AeroGarden Harvest (6-pod class)
     note: Best default starter for most kitchens
+    asin: B07CKNWHPQ
   - name: Click & Grow Smart Garden 3
     note: Best when silence matters more than capacity
+    search: Click and Grow Smart Garden 3
   - name: Budget 10–12 pod kits (iDOO / similar)
     note: More plants per dollar; check pump noise reviews
+    search: iDOO hydroponics 12 pod indoor garden
 ---
 
 Apartment counters are short on space and patience. The right first system is the one you’ll actually keep plugged in — not the tallest tower on Amazon.

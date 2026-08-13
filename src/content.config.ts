@@ -21,6 +21,8 @@ const guides = defineCollection({
           name: z.string(),
           note: z.string().optional(),
           url: z.string().url().optional(),
+          asin: z.string().optional(),
+          search: z.string().optional(),
         }),
       )
       .optional(),

@@ -10,8 +10,10 @@ verdict: Prefer no-pump systems or cover the light at night. A bamboo shade and 
 products:
   - name: Click & Grow Smart Garden 3
     note: No pump — strongest silence pick
+    search: Click and Grow Smart Garden 3
   - name: Kratky mason jar setup
     note: Silent DIY; needs light strategy
+    search: Kratky hydroponic mason jar kit
 ---
 
 In a studio, the grow light and the pump are roommate problems. Solve those two and countertop gardening is easy. Ignore them and you’ll unplug the garden by week two.
