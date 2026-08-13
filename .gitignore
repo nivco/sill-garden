@@ -25,3 +25,8 @@ yarn-error.log*
 __pycache__/
 *.pyc
 
+
+# YouTube render intermediates (rebuild locally)
+products/youtube/**/_build/
+products/youtube/**/*.mp4
+products/youtube/**/concat.txt
