@@ -27,12 +27,43 @@ def load_dotenv() -> None:
         os.environ.setdefault(k.strip(), v.strip().strip('"').strip("'"))
 
 
+def _http_get(url: str) -> bytes:
+    req = urllib.request.Request(
+        url,
+        headers={"User-Agent": "SillGardenIndexingBot/1.0 (+https://sillgarden.com)"},
+    )
+    with urllib.request.urlopen(req, timeout=30) as resp:
+        return resp.read()
+
+
 def sitemap_urls() -> list[str]:
-    xml = urllib.request.urlopen("https://sillgarden.com/sitemap-0.xml", timeout=30).read()
-    root = ET.fromstring(xml)
-    ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
-    locs = [el.text.strip() for el in root.findall("sm:url/sm:loc", ns) if el.text]
-    return locs or re.findall(r"<loc>(https://[^<]+)</loc>", xml.decode("utf-8", errors="replace"))
+    try:
+        xml = _http_get("https://sillgarden.com/sitemap-0.xml")
+        root = ET.fromstring(xml)
+        ns = {"sm": "http://www.sitemaps.org/schemas/sitemap/0.9"}
+        locs = [el.text.strip() for el in root.findall("sm:url/sm:loc", ns) if el.text]
+        found = locs or re.findall(r"<loc>(https://[^<]+)</loc>", xml.decode("utf-8", errors="replace"))
+        if found:
+            return found
+    except Exception as exc:  # noqa: BLE001
+        print(f"Sitemap fetch failed ({exc}); using known URL list", file=sys.stderr)
+
+    # Fallback matches current Astro sitemap (guides + core pages)
+    return [
+        "https://sillgarden.com/",
+        "https://sillgarden.com/about/",
+        "https://sillgarden.com/credits/",
+        "https://sillgarden.com/disclosure/",
+        "https://sillgarden.com/guides/",
+        "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+        "https://sillgarden.com/guides/basil-countertop-first-harvest/",
+        "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+        "https://sillgarden.com/guides/grow-light-schedules-herbs/",
+        "https://sillgarden.com/guides/landlord-safe-indoor-garden-setup/",
+        "https://sillgarden.com/guides/quiet-countertop-gardens-studios/",
+        "https://sillgarden.com/guides/windowsill-herbs-without-kit/",
+        "https://sillgarden.com/privacy/",
+    ]
 
 
 def ping_indexnow(urls: list[str], key: str) -> None:
@@ -84,8 +115,7 @@ def main() -> int:
         # Ensure key file is live
         key_url = f"https://sillgarden.com/{key}.txt"
         try:
-            with urllib.request.urlopen(key_url, timeout=20) as r:
-                live = r.read().decode("utf-8", errors="replace").strip()
+            live = _http_get(key_url).decode("utf-8", errors="replace").strip()
             if live != key:
                 print(f"Key file mismatch at {key_url}", file=sys.stderr)
                 return 1
