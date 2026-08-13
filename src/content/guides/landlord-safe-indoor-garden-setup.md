@@ -5,7 +5,7 @@ pubDate: 2026-08-12
 cluster: setup
 type: howto
 image: /images/guide-setup.jpg
-imageAlt: Indoor plants in soft light
+imageAlt: Indoor plant setup on a table
 verdict: Use a waterproof tray, skip wall mounts, watch humidity near windows, and stick to freestanding countertop gear. That’s 90% of rental risk handled.
 ---
 

@@ -4,8 +4,8 @@ description: How to get usable basil from a pod garden or sill pot without leggy
 pubDate: 2026-08-11
 cluster: herbs
 type: guide
-image: /images/guide-herbs.jpg
-imageAlt: Lush green plants
+image: /images/guide-basil.jpg
+imageAlt: Close-up of green leafy herb foliage
 verdict: Give basil strong light, pinch the tops early, and harvest leaves often. Weak light makes tall, tasteless stems — no nutrient bottle fixes that.
 ---
 

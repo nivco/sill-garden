@@ -6,7 +6,7 @@ cluster: systems
 type: comparison
 featured: true
 image: /images/guide-countertop.jpg
-imageAlt: Leafy greens growing indoors
+imageAlt: Small potted plant on a bright surface
 verdict: Pick AeroGarden Harvest-class if you want faster growth and a bigger herb set. Pick Click & Grow Smart Garden 3 if silence and a smaller footprint matter more than yield.
 products:
   - name: AeroGarden Harvest / Harvest Lite

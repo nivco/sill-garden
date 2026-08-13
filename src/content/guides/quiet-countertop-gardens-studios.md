@@ -4,8 +4,8 @@ description: Silent and low-hum options when your kitchen and bedroom share one 
 pubDate: 2026-08-12
 cluster: systems
 type: guide
-image: /images/guide-setup.jpg
-imageAlt: Soft indoor plant light
+image: /images/guide-quiet.jpg
+imageAlt: Compact indoor plant in a calm room
 verdict: Prefer no-pump systems or cover the light at night. A bamboo shade and a smart schedule beat returning the unit because it ruins sleep.
 products:
   - name: Click & Grow Smart Garden 3

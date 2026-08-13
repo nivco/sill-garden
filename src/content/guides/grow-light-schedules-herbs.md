@@ -5,7 +5,7 @@ pubDate: 2026-08-11
 cluster: setup
 type: howto
 image: /images/guide-light.jpg
-imageAlt: Soft daylight on leaves
+imageAlt: Plant leaves catching bright light
 verdict: Run herbs about 14–16 hours on, 8–10 hours off. Align the dark period with your sleep if the garden shares your bedroom.
 ---
 

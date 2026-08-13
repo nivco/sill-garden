@@ -6,7 +6,7 @@ cluster: systems
 type: pillar
 featured: true
 image: /images/guide-systems.jpg
-imageAlt: Small indoor plants on a bright surface
+imageAlt: Leafy green plants growing indoors
 verdict: Start with a 3–6 pod countertop kit if you want herbs with almost no learning curve. Use a mason-jar Kratky setup if you want to spend under $40 and learn the basics first.
 products:
   - name: AeroGarden Harvest (6-pod class)

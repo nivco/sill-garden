@@ -5,8 +5,8 @@ pubDate: 2026-08-13
 cluster: herbs
 type: guide
 featured: true
-image: /images/guide-herbs.jpg
-imageAlt: Garden plants and greenery near a path of light
+image: /images/guide-windowsill.jpg
+imageAlt: Soft indoor light on houseplants
 verdict: Start with basil, mint, and chives in small pots if you have a bright sill. Add a cheap clip-on grow light before you blame your “black thumb.”
 ---
 

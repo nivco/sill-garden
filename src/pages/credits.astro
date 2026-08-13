@@ -1,0 +1,45 @@
+---
+import BaseLayout from '../layouts/BaseLayout.astro';
+import { photoCredits, unsplashLicenseUrl } from '../lib/photos';
+---
+
+<BaseLayout
+  title="Photo credits"
+  description="Stock photography credits for Sill Garden. Images from Unsplash under the Unsplash License."
+>
+  <section class="wrap page fade-up">
+    <h1>Photo credits</h1>
+    <div class="prose content-width">
+      <p>
+        Site photography is from <a href="https://unsplash.com">Unsplash</a>, used under the
+        <a href={unsplashLicenseUrl}>Unsplash License</a> (free for commercial use on websites; photos
+        are not sold as standalone products). We’ll replace these with our own sill photos over time.
+      </p>
+      <ul>
+        {
+          photoCredits.map((p) => (
+            <li>
+              <code>{p.file}</code> —{' '}
+              <a href={p.url} rel="noopener noreferrer" target="_blank">
+                {p.credit}
+              </a>
+            </li>
+          ))
+        }
+      </ul>
+    </div>
+  </section>
+</BaseLayout>
+
+<style>
+  .page {
+    padding: 2.75rem 0 1rem;
+  }
+  h1 {
+    margin: 0 0 1rem;
+    font-size: clamp(2.2rem, 5vw, 3rem);
+  }
+  code {
+    font-size: 0.9em;
+  }
+</style>
