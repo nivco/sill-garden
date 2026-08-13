@@ -1,0 +1,99 @@
+{
+  "schema": "sill-garden-v1",
+  "generated_at": "2026-08-13 18:26 UTC",
+  "site_url": "https://sillgarden.com",
+  "amazon_tag": "sillgarden-20",
+  "hero": {
+    "sessions_7d": null,
+    "users_7d": null,
+    "pageviews_7d": null,
+    "affiliate_clicks_7d": null,
+    "gsc_clicks_7d": null,
+    "gsc_impressions_7d": null,
+    "cf_pageviews_7d": null,
+    "youtube_sessions_7d": null,
+    "youtube_subs": null,
+    "youtube_views_total": null,
+    "amazon_clicks_7d": null,
+    "amazon_ordered_7d": null,
+    "amazon_earnings_7d_usd": null
+  },
+  "sources": {
+    "site": {
+      "ok": true,
+      "status": 200,
+      "url": "https://sillgarden.com"
+    },
+    "ga4": {
+      "skipped": "Set GA4_PROPERTY_ID"
+    },
+    "gsc": {
+      "error": "Set GOOGLE_SERVICE_ACCOUNT_JSON (or reuse MTS secrets path)",
+      "skipped": false
+    },
+    "cloudflare": {
+      "skipped": "Set CLOUDFLARE_API_TOKEN (+ ZONE_ID)"
+    },
+    "youtube": {
+      "skipped": "Set YOUTUBE_API_KEY"
+    },
+    "amazon": {
+      "updated": "YYYY-MM-DD",
+      "source": "Amazon Associates Central \u2192 Reports (paste weekly)",
+      "clicks_7d": null,
+      "ordered_items_7d": null,
+      "earnings_7d_usd": null,
+      "notes": "Amazon has no public earnings API. Update these fields after checking Associates reports.",
+      "skipped": false
+    }
+  },
+  "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
+    "Connect GA4_PROPERTY_ID to unlock sessions / clicks on the dashboard.",
+    "Optional: set YOUTUBE_API_KEY + channel handle when you publish Sill Garden videos."
+  ],
+  "setup": {
+    "ready": 1,
+    "total": 7,
+    "checks": [
+      {
+        "name": "Site live",
+        "ok": true,
+        "detail": "https://sillgarden.com"
+      },
+      {
+        "name": "GA4 API",
+        "ok": false,
+        "detail": "Set GA4_PROPERTY_ID"
+      },
+      {
+        "name": "GA4 client tag",
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+      },
+      {
+        "name": "Search Console",
+        "ok": false,
+        "detail": "Set GOOGLE_SERVICE_ACCOUNT_JSON (or reuse MTS secrets path)"
+      },
+      {
+        "name": "Cloudflare analytics",
+        "ok": false,
+        "detail": "Set CLOUDFLARE_API_TOKEN (+ ZONE_ID)"
+      },
+      {
+        "name": "YouTube",
+        "ok": false,
+        "detail": "Set YOUTUBE_API_KEY"
+      },
+      {
+        "name": "Amazon earnings (manual)",
+        "ok": false,
+        "detail": "Manual JSON present"
+      }
+    ]
+  },
+  "summary": {
+    "headline": "Sessions \u2014 \u00b7 Aff clicks \u2014 \u00b7 GSC \u2014 \u00b7 Setup 1/7"
+  }
+}

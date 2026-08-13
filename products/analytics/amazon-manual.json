@@ -1,0 +1,8 @@
+{
+  "updated": "YYYY-MM-DD",
+  "source": "Amazon Associates Central → Reports (paste weekly)",
+  "clicks_7d": null,
+  "ordered_items_7d": null,
+  "earnings_7d_usd": null,
+  "notes": "Amazon has no public earnings API. Update these fields after checking Associates reports."
+}

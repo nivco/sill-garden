@@ -9,6 +9,8 @@ export const site = {
   email: 'hello@sillgarden.com',
   /** Amazon Associates tracking ID (Store ID) */
   amazonTag: 'sillgarden-20',
+  /** Set PUBLIC_GA4_ID=G-XXXX in .env / Cloudflare Pages for analytics */
+  ga4Id: import.meta.env.PUBLIC_GA4_ID || '',
 } as const;
 
 export const clusters = {

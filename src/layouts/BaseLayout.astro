@@ -44,6 +44,42 @@ const path = Astro.url.pathname;
       href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,500;9..144,600;9..144,700&family=Source+Sans+3:wght@400;600;700&display=swap"
       rel="stylesheet"
     />
+    {
+      site.ga4Id && (
+        <>
+          <script async src={`https://www.googletagmanager.com/gtag/js?id=${site.ga4Id}`} />
+          <script is:inline define:vars={{ ga4Id: site.ga4Id }}>
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', ga4Id, { send_page_view: true });
+            document.addEventListener('click', function (e) {
+              var el = e.target && e.target.closest ? e.target.closest('a') : null;
+              if (!el || !el.href) return;
+              var u;
+              try {
+                u = new URL(el.href, location.href);
+              } catch (err) {
+                return;
+              }
+              if (u.hostname === location.hostname) return;
+              var rel = (el.getAttribute('rel') || '').toLowerCase();
+              var host = u.hostname.replace(/^www\./, '').toLowerCase();
+              var isAmazon = host === 'amazon.com' || host.endsWith('.amazon.com');
+              var isAffiliate = rel.indexOf('sponsored') !== -1 || isAmazon;
+              var payload = { link_url: u.href, link_domain: u.hostname };
+              if (isAffiliate) {
+                gtag('event', 'affiliate_click', payload);
+              } else {
+                gtag('event', 'outbound_click', payload);
+              }
+            });
+          </script>
+        </>
+      )
+    }
   </head>
   <body>
     <header class="site-header">

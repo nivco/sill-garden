@@ -37,6 +37,15 @@ npm run preview
 - `verdict`: quick-answer box
 - `products`: optional list (URLs later = Amazon tagged links)
 
+## Analytics dashboard (local)
+
+```powershell
+python scripts/analytics_summary.py
+python scripts/dashboard_server.py
+```
+
+Open **http://127.0.0.1:8793/dashboard** — views, affiliate clicks, GSC, YouTube, Amazon. Setup: `guides/SETUP-DASHBOARD.md`.
+
 ## Launch checklist
 
 1. ~~Buy **sillgarden.com**~~ · Pages project live at `sill-garden.pages.dev`

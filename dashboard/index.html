@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="robots" content="noindex, nofollow" />
+  <title>Sill Garden — Ops dashboard</title>
+  <style>
+    :root {
+      --bg: #0f1410;
+      --card: #172019;
+      --border: #2a3a30;
+      --text: #eef5f0;
+      --muted: #8fa898;
+      --leaf: #3d8f57;
+      --leaf2: #5ecf7a;
+      --harvest: #d4894a;
+      --ok: #22c55e;
+      --warn: #f59e0b;
+      --bad: #ef4444;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: "Segoe UI", system-ui, sans-serif;
+      background:
+        radial-gradient(900px 400px at 10% -10%, rgba(61, 143, 87, 0.18), transparent 50%),
+        radial-gradient(700px 360px at 100% 0%, rgba(212, 137, 74, 0.12), transparent 45%),
+        var(--bg);
+      color: var(--text);
+      line-height: 1.5;
+      padding: 1.25rem;
+      max-width: 1100px;
+      margin-inline: auto;
+    }
+    h1 { font-size: 1.45rem; margin: 0 0 0.2rem; letter-spacing: -0.02em; }
+    .sub { color: var(--muted); margin: 0 0 1rem; font-size: 0.92rem; }
+    .toolbar { display: flex; flex-wrap: wrap; gap: 0.75rem; align-items: center; margin-bottom: 1.1rem; }
+    button {
+      background: var(--leaf);
+      color: #fff;
+      border: 0;
+      padding: 0.55rem 1rem;
+      border-radius: 8px;
+      font-weight: 650;
+      cursor: pointer;
+    }
+    button:hover { background: var(--leaf2); color: #0f1410; }
+    button:disabled { opacity: 0.5; cursor: not-allowed; }
+    .links { display: flex; flex-wrap: wrap; gap: 0.75rem; font-size: 0.85rem; }
+    .links a { color: var(--leaf2); }
+    .headline {
+      padding: 0.85rem 1rem;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      background: linear-gradient(135deg, #1a2a20, var(--card));
+      margin-bottom: 1rem;
+      font-size: 1.05rem;
+      font-weight: 600;
+    }
+    .hero {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+      gap: 0.65rem;
+      margin-bottom: 1.25rem;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 0.85rem 0.95rem;
+    }
+    .card .label {
+      font-size: 0.7rem;
+      text-transform: uppercase;
+      letter-spacing: 0.06em;
+      color: var(--muted);
+      font-weight: 700;
+    }
+    .card .v { font-size: 1.55rem; font-weight: 700; margin-top: 0.2rem; letter-spacing: -0.02em; }
+    .card .hint { font-size: 0.78rem; color: var(--muted); margin-top: 0.25rem; }
+    .card.featured { border-color: var(--leaf); box-shadow: 0 0 0 1px rgba(61,143,87,0.25); }
+    .grid-2 {
+      display: grid;
+      gap: 1rem;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      margin-bottom: 1rem;
+    }
+    h2 {
+      font-size: 0.75rem;
+      text-transform: uppercase;
+      letter-spacing: 0.07em;
+      color: var(--muted);
+      margin: 0 0 0.65rem;
+    }
+    table { width: 100%; border-collapse: collapse; font-size: 0.88rem; }
+    th, td { text-align: left; padding: 0.45rem 0.35rem; border-bottom: 1px solid var(--border); vertical-align: top; }
+    th { color: var(--muted); font-weight: 600; font-size: 0.72rem; text-transform: uppercase; letter-spacing: 0.04em; }
+    .pill {
+      display: inline-block;
+      padding: 0.12rem 0.45rem;
+      border-radius: 999px;
+      font-size: 0.7rem;
+      font-weight: 700;
+      border: 1px solid var(--border);
+    }
+    .pill.ok { color: var(--ok); border-color: #14532d; background: #052e16; }
+    .pill.bad { color: #fca5a5; border-color: #7f1d1d; background: #450a0a; }
+    .pill.warn { color: #fcd34d; border-color: #854d0e; background: #422006; }
+    ul.insights { margin: 0; padding-left: 1.1rem; color: var(--muted); font-size: 0.9rem; }
+    ul.insights li { margin-bottom: 0.35rem; }
+    .checks { list-style: none; margin: 0; padding: 0; }
+    .checks li {
+      display: flex; gap: 0.6rem; align-items: flex-start;
+      padding: 0.45rem 0; border-bottom: 1px solid var(--border); font-size: 0.88rem;
+    }
+    .checks li:last-child { border-bottom: 0; }
+    .muted { color: var(--muted); }
+    .err { color: #fca5a5; font-size: 0.9rem; }
+    a { color: var(--leaf2); }
+  </style>
+</head>
+<body>
+  <h1>Sill Garden — ops</h1>
+  <p class="sub">Private local scorecard · views · affiliate clicks · search · YouTube · Amazon</p>
+  <div class="toolbar">
+    <button id="refreshBtn" type="button">Refresh</button>
+    <span id="updated" class="muted">—</span>
+    <div class="links">
+      <a href="https://sillgarden.com" target="_blank" rel="noopener">Site</a>
+      <a href="https://affiliate-program.amazon.com/" target="_blank" rel="noopener">Associates</a>
+      <a href="http://127.0.0.1:8792/" target="_blank" rel="noopener">Portfolio</a>
+    </div>
+  </div>
+
+  <div id="headline" class="headline">Loading…</div>
+  <div id="hero" class="hero"></div>
+
+  <div class="grid-2">
+    <section class="card">
+      <h2>Setup checklist</h2>
+      <ul id="checks" class="checks"></ul>
+    </section>
+    <section class="card">
+      <h2>Insights</h2>
+      <ul id="insights" class="insights"></ul>
+    </section>
+  </div>
+
+  <div class="grid-2">
+    <section class="card">
+      <h2>Top pages (GA4 · 7d)</h2>
+      <div id="pages"></div>
+    </section>
+    <section class="card">
+      <h2>Search queries (GSC · 7d)</h2>
+      <div id="queries"></div>
+    </section>
+  </div>
+
+  <div class="grid-2">
+    <section class="card">
+      <h2>Affiliate clicks by link</h2>
+      <div id="affLinks"></div>
+    </section>
+    <section class="card">
+      <h2>YouTube</h2>
+      <div id="youtube"></div>
+    </section>
+  </div>
+
+  <section class="card" style="margin-bottom: 2rem">
+    <h2>Amazon Associates (manual)</h2>
+    <div id="amazon"></div>
+  </section>
+
+  <script>
+    const $ = (id) => document.getElementById(id);
+    const fmt = (v) => (v === null || v === undefined || v === '' ? '—' : v);
+    const n = (v) => {
+      const x = Number(v);
+      return Number.isFinite(x) ? x.toLocaleString() : '—';
+    };
+
+    function heroCard(label, value, hint, featured) {
+      return `<div class="card${featured ? ' featured' : ''}">
+        <div class="label">${label}</div>
+        <div class="v">${value}</div>
+        ${hint ? `<div class="hint">${hint}</div>` : ''}
+      </div>`;
+    }
+
+    function table(headers, rowsHtml) {
+      if (!rowsHtml) return '<p class="muted">No data yet.</p>';
+      return `<table><thead><tr>${headers.map((h) => `<th>${h}</th>`).join('')}</tr></thead><tbody>${rowsHtml}</tbody></table>`;
+    }
+
+    function render(data) {
+      const hero = data.hero || {};
+      const sources = data.sources || {};
+      const setup = data.setup || {};
+      $('updated').textContent = data.generated_at ? `Updated ${data.generated_at}` : '—';
+      $('headline').textContent = (data.summary && data.summary.headline) || 'Sill Garden scorecard';
+
+      $('hero').innerHTML = [
+        heroCard('Sessions', n(hero.sessions_7d), 'GA4 · 7 days', true),
+        heroCard('Page views', n(hero.pageviews_7d), 'GA4 · 7 days', true),
+        heroCard('Affiliate clicks', n(hero.affiliate_clicks_7d), 'GA4 affiliate_click', true),
+        heroCard('GSC clicks', n(hero.gsc_clicks_7d), `${n(hero.gsc_impressions_7d)} impr.`, false),
+        heroCard('YT → site', n(hero.youtube_sessions_7d), 'Sessions from YouTube', false),
+        heroCard('Amazon $', hero.amazon_earnings_7d_usd != null ? `$${Number(hero.amazon_earnings_7d_usd).toFixed(2)}` : '—', 'Manual paste', false),
+      ].join('');
+
+      const checks = setup.checks || [];
+      $('checks').innerHTML = checks.length
+        ? checks.map((c) => `<li><span class="pill ${c.ok ? 'ok' : 'bad'}">${c.ok ? 'OK' : 'TODO'}</span><div><strong>${c.name}</strong><div class="muted">${c.detail || ''}</div></div></li>`).join('')
+        : '<li class="muted">No checklist</li>';
+
+      const insights = data.insights || [];
+      $('insights').innerHTML = insights.length
+        ? insights.map((i) => `<li>${i}</li>`).join('')
+        : '<li class="muted">No insights</li>';
+
+      const pages = ((sources.ga4 || {}).top_pages) || [];
+      $('pages').innerHTML = pages.length
+        ? table(['Path', 'Sessions', 'Views'], pages.slice(0, 8).map((p) =>
+            `<tr><td>${p.pagePath || ''}</td><td>${n(p.sessions)}</td><td>${n(p.screenPageViews)}</td></tr>`
+          ).join(''))
+        : `<p class="muted">${(sources.ga4 || {}).error || (sources.ga4 || {}).skipped || 'Connect GA4'}</p>`;
+
+      const queries = ((sources.gsc || {}).top_queries) || [];
+      $('queries').innerHTML = queries.length
+        ? table(['Query', 'Clicks', 'Impr.', 'Pos'], queries.slice(0, 8).map((q) =>
+            `<tr><td>${q.query || ''}</td><td>${n(q.clicks)}</td><td>${n(q.impressions)}</td><td>${fmt(q.position)}</td></tr>`
+          ).join(''))
+        : `<p class="muted">${(sources.gsc || {}).error || (sources.gsc || {}).skipped || 'Connect Search Console'}</p>`;
+
+      const links = ((sources.ga4 || {}).affiliate_links) || [];
+      const realLinks = links.filter((r) => r.link_url);
+      $('affLinks').innerHTML = realLinks.length
+        ? table(['Link', 'Clicks'], realLinks.slice(0, 10).map((r) =>
+            `<tr><td style="word-break:break-all"><a href="${r.link_url}" target="_blank" rel="noopener">${r.link_url}</a></td><td>${n(r.clicks)}</td></tr>`
+          ).join(''))
+        : `<p class="muted">${(links[0] && links[0].note) || 'No affiliate_click events yet'}</p>`;
+
+      const yt = sources.youtube || {};
+      const ch = yt.channel || {};
+      const vids = yt.recent_videos || [];
+      if (ch.id) {
+        $('youtube').innerHTML = `
+          <p><strong>${ch.title || 'Channel'}</strong> · ${n(ch.subscribers)} subs · ${n(ch.views)} views</p>
+          ${vids.length ? table(['Video', 'Views'], vids.slice(0, 6).map((v) =>
+            `<tr><td><a href="${v.url}" target="_blank" rel="noopener">${v.title || v.id}</a></td><td>${n(v.views)}</td></tr>`
+          ).join('')) : '<p class="muted">No recent videos</p>'}`;
+      } else {
+        $('youtube').innerHTML = `<p class="muted">${yt.error || yt.skipped || 'Not connected'}</p>`;
+      }
+
+      const amz = sources.amazon || {};
+      $('amazon').innerHTML = `
+        <p>Tag: <code>sillgarden-20</code></p>
+        <p>Clicks (7d): <strong>${fmt(amz.clicks_7d)}</strong> ·
+           Orders: <strong>${fmt(amz.ordered_items_7d)}</strong> ·
+           Earnings: <strong>${amz.earnings_7d_usd != null ? '$' + Number(amz.earnings_7d_usd).toFixed(2) : '—'}</strong></p>
+        <p class="muted">${amz.note || amz.error || 'Edit products/analytics/amazon-manual.json after Associates reports.'}</p>`;
+    }
+
+    async function loadCached() {
+      const res = await fetch('/api/scorecard');
+      const data = await res.json();
+      render(data);
+    }
+
+    async function refresh() {
+      const btn = $('refreshBtn');
+      btn.disabled = true;
+      btn.textContent = 'Refreshing…';
+      try {
+        const res = await fetch('/api/refresh', { method: 'POST' });
+        const data = await res.json();
+        if (data.scorecard) render(data.scorecard);
+        else if (!data.ok) $('headline').innerHTML = `<span class="err">${data.stderr || data.error || 'Refresh failed'}</span>`;
+      } catch (e) {
+        $('headline').innerHTML = `<span class="err">${e}</span>`;
+      } finally {
+        btn.disabled = false;
+        btn.textContent = 'Refresh';
+      }
+    }
+
+    $('refreshBtn').addEventListener('click', refresh);
+    loadCached().catch((e) => { $('headline').innerHTML = `<span class="err">${e}</span>`; });
+  </script>
+</body>
+</html>
