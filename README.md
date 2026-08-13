@@ -45,6 +45,24 @@ npm run preview
 4. Add GA4 + Search Console
 5. Keep `/disclosure` and `/privacy` linked sitewide (already in layout)
 
+## Deploy (Cloudflare Pages)
+
+**Option A — Dashboard (simplest)**  
+1. [Cloudflare Dashboard → Workers & Pages → Create → Pages → Connect to Git](https://dash.cloudflare.com/?to=/:account/pages)  
+2. Select **`nivco/sill-garden`**  
+3. Build: `npm run build` · Output: `dist` · Node 22  
+4. After first deploy, add custom domain `sillgarden.com`
+
+**Option B — GitHub Actions**  
+Add repo secrets `CLOUDFLARE_API_TOKEN` + `CLOUDFLARE_ACCOUNT_ID`, then pushes to `main` deploy via `.github/workflows/deploy.yml`.
+
+**Option C — Local**  
+```bash
+npx wrangler login
+npm run build
+npx wrangler pages deploy dist --project-name=sill-garden
+```
+
 ## 90-day rhythm
 
 2–3 new guides/week in the three clusters. Comparisons convert; setup guides build trust.
