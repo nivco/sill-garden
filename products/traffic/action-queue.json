@@ -1,10 +1,8 @@
 {
-  "generated_at": "2026-08-13 21:30 UTC",
+  "generated_at": "2026-08-13 21:31 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [
-    "IndexNow ping"
-  ],
+  "applied": [],
   "actions": [
     {
       "priority": "P0",
@@ -13,7 +11,7 @@
       "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
       "auto": false,
       "done": false,
-      "created": "2026-08-13 21:30 UTC"
+      "created": "2026-08-13 21:31 UTC"
     },
     {
       "priority": "P0",
@@ -22,16 +20,16 @@
       "detail": "Sitemap is submitted; wait for crawl or Request indexing on priority URLs.",
       "auto": false,
       "done": false,
-      "created": "2026-08-13 21:30 UTC"
+      "created": "2026-08-13 21:31 UTC"
     },
     {
       "priority": "P2",
       "category": "setup",
       "title": "Finish setup: YouTube",
-      "detail": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID",
+      "detail": "Set YOUTUBE_API_KEY",
       "auto": false,
       "done": false,
-      "created": "2026-08-13 21:30 UTC"
+      "created": "2026-08-13 21:31 UTC"
     },
     {
       "priority": "P2",
@@ -40,16 +38,16 @@
       "detail": "Manual JSON present",
       "auto": false,
       "done": false,
-      "created": "2026-08-13 21:30 UTC"
+      "created": "2026-08-13 21:31 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-13 21:30 UTC (0.0h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-13 21:30 UTC"
+      "created": "2026-08-13 21:31 UTC"
     }
   ]
 }
