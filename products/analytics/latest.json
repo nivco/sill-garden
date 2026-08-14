@@ -1,13 +1,13 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-14 05:00 UTC",
+  "generated_at": "2026-08-14 12:46 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 1,
-    "users_7d": 1,
-    "pageviews_7d": 1,
-    "affiliate_clicks_7d": 0,
+    "sessions_7d": 11,
+    "users_7d": 10,
+    "pageviews_7d": 11,
+    "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 0,
     "cf_pageviews_7d": 0,
@@ -26,16 +26,31 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 1,
-        "sessions": 1,
-        "screenPageViews": 1,
+        "activeUsers": 10,
+        "sessions": 11,
+        "screenPageViews": 11,
         "engagedSessions": 0,
-        "averageSessionDuration_sec": 0.0,
+        "averageSessionDuration_sec": 2.0,
         "engagementRate_pct": 0.0
       },
       "top_pages": [
         {
           "pagePath": "/",
+          "sessions": "9",
+          "screenPageViews": "8"
+        },
+        {
+          "pagePath": "/guides/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/guides/aerogarden-vs-click-and-grow/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/guides/best-countertop-garden-apartments/",
           "sessions": "1",
           "screenPageViews": "1"
         }
@@ -43,21 +58,23 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "1"
+          "sessions": "10"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "1"
+          "sessions": "2"
         }
       ],
-      "events": {},
+      "events": {
+        "affiliate_click": 1
+      },
       "affiliate_links": [
         {
           "note": "link_url dimension needs GA4 custom dim or wait for events: HTTP 400 https://analyticsdata.googleapis.com/v1beta/properties/549929269:runReport: {\n  \"error\": {\n    \"code\": 400,\n   "
         }
       ],
       "sessions_from_youtube": 0,
-      "affiliate_clicks_7d": 0
+      "affiliate_clicks_7d": 1
     },
     "gsc": {
       "clicks": 0,
@@ -72,7 +89,7 @@
       "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "skipped": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
+      "skipped": "Set YOUTUBE_API_KEY"
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -86,7 +103,6 @@
   },
   "insights": [
     "GSC shows 0 clicks \u2014 normal for a brand-new domain; submit sitemap in Search Console.",
-    "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Optional: set YOUTUBE_API_KEY + channel handle when you publish Sill Garden videos."
   ],
   "setup": {
@@ -121,7 +137,7 @@
       {
         "name": "YouTube",
         "ok": false,
-        "detail": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
+        "detail": "Set YOUTUBE_API_KEY"
       },
       {
         "name": "Amazon earnings (manual)",
@@ -131,6 +147,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 1 | Aff clicks 0 | GSC 0 | Setup 5/7"
+    "headline": "Sessions 11 | Aff clicks 1 | GSC 0 | Setup 5/7"
   }
 }

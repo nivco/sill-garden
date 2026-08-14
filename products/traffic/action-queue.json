@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-14 01:16 UTC",
+  "generated_at": "2026-08-14 12:46 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
   "applied": [],
@@ -11,16 +11,7 @@
       "detail": "Sitemap is submitted; wait for crawl or Request indexing on priority URLs.",
       "auto": false,
       "done": false,
-      "created": "2026-08-14 01:16 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "monetization",
-      "title": "Traffic without affiliate clicks",
-      "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden-20.",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-14 01:16 UTC"
+      "created": "2026-08-14 12:46 UTC"
     },
     {
       "priority": "P2",
@@ -29,7 +20,7 @@
       "detail": "Set YOUTUBE_API_KEY",
       "auto": false,
       "done": false,
-      "created": "2026-08-14 01:16 UTC"
+      "created": "2026-08-14 12:46 UTC"
     },
     {
       "priority": "P2",
@@ -38,16 +29,16 @@
       "detail": "Manual JSON present",
       "auto": false,
       "done": false,
-      "created": "2026-08-14 01:16 UTC"
+      "created": "2026-08-14 12:46 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-13 21:30 UTC (3.8h ago; min 20h).",
+      "detail": "Last ping 2026-08-13 21:30 UTC (15.3h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-14 01:16 UTC"
+      "created": "2026-08-14 12:46 UTC"
     }
   ]
 }
