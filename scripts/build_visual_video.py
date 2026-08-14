@@ -449,11 +449,11 @@ def write_notes(story: dict, out_dir: Path, mp4: Path, duration: float) -> None:
     aff = story.get("affiliate_links") or [
         {
             "label": "AeroGarden Harvest-class",
-            "url": "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden-20&linkCode=ll1",
+            "url": "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1",
         },
         {
             "label": "Click & Grow Smart Garden 3",
-            "url": "https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden-20&linkCode=ll1",
+            "url": "https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1",
         },
     ]
     aff_block = "\n".join(f"• {a['label']}: {a['url']}" for a in aff)
@@ -470,7 +470,7 @@ Duration (approx): {mins}:{secs:02d}
 ## Description
 {story.get('description', '')}
 
-Product picks (Amazon Associates — tag sillgarden-20):
+Product picks (Amazon Associates — tag sillgarden09-20):
 {aff_block}
 
 Full guide:

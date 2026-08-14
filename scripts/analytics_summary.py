@@ -671,7 +671,7 @@ def main() -> int:
         "schema": "sill-garden-v1",
         "generated_at": datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC"),
         "site_url": SITE_URL,
-        "amazon_tag": "sillgarden-20",
+        "amazon_tag": "sillgarden09-20",
         "hero": hero,
         "sources": sources,
         "insights": insights,

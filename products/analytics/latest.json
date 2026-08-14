@@ -1,8 +1,8 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-14 01:16 UTC",
+  "generated_at": "2026-08-14 05:00 UTC",
   "site_url": "https://sillgarden.com",
-  "amazon_tag": "sillgarden-20",
+  "amazon_tag": "sillgarden09-20",
   "hero": {
     "sessions_7d": 1,
     "users_7d": 1,
@@ -72,7 +72,7 @@
       "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "skipped": "Set YOUTUBE_API_KEY"
+      "skipped": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -121,7 +121,7 @@
       {
         "name": "YouTube",
         "ok": false,
-        "detail": "Set YOUTUBE_API_KEY"
+        "detail": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
       },
       {
         "name": "Amazon earnings (manual)",

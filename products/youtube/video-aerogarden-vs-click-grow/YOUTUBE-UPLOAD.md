@@ -11,9 +11,9 @@ AeroGarden vs Click & Grow (2026) — Which Apartment Kit Wins?
 ## Description
 Quiet kitchens, small counters, real herb harvests. A visual side-by-side of AeroGarden Harvest-class kits vs Click & Grow Smart Garden 3 — pods, noise, footprint, and who should buy which.
 
-Product picks (Amazon Associates — tag sillgarden-20):
-• AeroGarden Harvest-class: https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden-20&linkCode=ll1
-• Click & Grow Smart Garden 3: https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden-20&linkCode=ll1
+Product picks (Amazon Associates — tag sillgarden09-20):
+• AeroGarden Harvest-class: https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1
+• Click & Grow Smart Garden 3: https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1
 
 Full guide:
 https://sillgarden.com/guides/aerogarden-vs-click-and-grow/

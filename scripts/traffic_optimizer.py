@@ -137,7 +137,7 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
                 "P1",
                 "monetization",
                 "Traffic without affiliate clicks",
-                "Confirm Amazon CTAs fire affiliate_click and links use sillgarden-20.",
+                "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
             )
         )
 
