@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-13 21:31 UTC",
+  "generated_at": "2026-08-14 01:16 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden-20",
   "hero": {
-    "sessions_7d": 0,
-    "users_7d": 0,
-    "pageviews_7d": 0,
+    "sessions_7d": 1,
+    "users_7d": 1,
+    "pageviews_7d": 1,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 0,
@@ -26,15 +26,30 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 0,
-        "sessions": 0,
-        "screenPageViews": 0,
+        "activeUsers": 1,
+        "sessions": 1,
+        "screenPageViews": 1,
         "engagedSessions": 0,
         "averageSessionDuration_sec": 0.0,
         "engagementRate_pct": 0.0
       },
-      "top_pages": [],
-      "entry_channels": [],
+      "top_pages": [
+        {
+          "pagePath": "/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        }
+      ],
+      "entry_channels": [
+        {
+          "sessionDefaultChannelGroup": "Direct",
+          "sessions": "1"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
+          "sessions": "1"
+        }
+      ],
       "events": {},
       "affiliate_links": [
         {
@@ -71,6 +86,7 @@
   },
   "insights": [
     "GSC shows 0 clicks \u2014 normal for a brand-new domain; submit sitemap in Search Console.",
+    "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Optional: set YOUTUBE_API_KEY + channel handle when you publish Sill Garden videos."
   ],
   "setup": {
@@ -115,6 +131,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 0 | Aff clicks 0 | GSC 0 | Setup 5/7"
+    "headline": "Sessions 1 | Aff clicks 0 | GSC 0 | Setup 5/7"
   }
 }
