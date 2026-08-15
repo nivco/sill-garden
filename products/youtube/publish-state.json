@@ -8,6 +8,17 @@
       "uploaded_at": "2026-08-15T16:56:55.164880+00:00",
       "storyboard": "products/youtube/video-aerogarden-vs-click-grow/storyboard.json",
       "published_at": "2026-08-15T17:25:31.992752+00:00"
+    },
+    "short-aerogarden-vs-click-grow": {
+      "youtube_id": "NSLsa1eJxko",
+      "url": "https://youtu.be/NSLsa1eJxko",
+      "title": "AeroGarden or Click & Grow? Pick in 30 Seconds #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-15T18:06:37.638751+00:00",
+      "storyboard": "products/youtube/short-aerogarden-vs-click-grow/storyboard.json",
+      "format": "short",
+      "published_at": "2026-08-15T18:06:54.924507+00:00"
     }
-  }
+  },
+  "updated_at": "2026-08-15T18:06:54.924518+00:00"
 }

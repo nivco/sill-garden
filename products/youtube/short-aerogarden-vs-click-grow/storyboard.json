@@ -1,0 +1,70 @@
+{
+  "id": "short-aerogarden-vs-click-grow",
+  "format": "short",
+  "title": "AeroGarden or Click & Grow? Pick in 30 Seconds #Shorts",
+  "filename": "sill-aerogarden-vs-click-grow-short.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "guide_slug": "aerogarden-vs-click-and-grow",
+  "utm_campaign": "short-aerogarden-vs-click-grow",
+  "description": "AeroGarden or Click & Grow for a small apartment? Choose based on capacity, noise, and counter space.",
+  "tags": [
+    "aerogarden vs click and grow",
+    "indoor garden",
+    "countertop garden",
+    "apartment gardening",
+    "smart garden",
+    "shorts"
+  ],
+  "affiliate_links": [
+    {
+      "label": "AeroGarden Harvest-class",
+      "url": "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1"
+    },
+    {
+      "label": "Click & Grow Smart Garden 3",
+      "url": "https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1"
+    }
+  ],
+  "slides": [
+    {
+      "eyebrow": "SMALL-SPACE SHOWDOWN",
+      "headline": "AeroGarden\nor Click & Grow?",
+      "subhead": "Pick the right countertop garden in 30 seconds.",
+      "photo": "hero-sill.jpg",
+      "accent": "START HERE",
+      "narration": "AeroGarden or Click and Grow? For a small apartment, the answer comes down to two things: how many herbs you want, and how much noise you can tolerate."
+    },
+    {
+      "eyebrow": "CHOOSE AEROGARDEN",
+      "headline": "More herbs.\nBigger harvest.",
+      "subhead": "Six-pod capacity beats three when you cook with herbs every week.",
+      "photo": "inline-grow-tray.jpg",
+      "accent": "CAPACITY WINS",
+      "narration": "Choose AeroGarden if you cook with herbs every week. The six-pod Harvest class gives you more useful growing capacity."
+    },
+    {
+      "eyebrow": "CHOOSE CLICK & GROW",
+      "headline": "Silent.\nNarrower footprint.",
+      "subhead": "The passive wick system fits studios and shared rooms.",
+      "photo": "inline-seedlings.jpg",
+      "accent": "QUIET WINS",
+      "narration": "Choose Click and Grow if silence matters most. Its passive wick system has no pump hum, and the unit fits narrower counters."
+    },
+    {
+      "eyebrow": "THE HIDDEN COST",
+      "headline": "Refill pods\nadd up.",
+      "subhead": "Learn with one branded cycle, then consider blank inserts and your own seeds.",
+      "photo": "inline-herbs-board.jpg",
+      "accent": "BOTH BRANDS",
+      "narration": "The catch? Refill pods add up for both brands. Learn with one branded cycle, then consider blank inserts and seeds you actually use."
+    },
+    {
+      "eyebrow": "THE VERDICT",
+      "headline": "Capacity?\nAeroGarden.",
+      "subhead": "Absolute quiet? Click & Grow. Full comparison at sillgarden.com.",
+      "photo": "inline-greenery.jpg",
+      "accent": "FULL GUIDE BELOW",
+      "narration": "The verdict: choose AeroGarden for capacity, or Click and Grow for absolute quiet. The full comparison is linked below."
+    }
+  ]
+}

@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-15 17:58 UTC",
+  "generated_at": "2026-08-15 18:07 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -19,7 +19,7 @@
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 0.0,
     "affiliate_ctr_pct": 3.1,
-    "youtube_videos": 2
+    "youtube_videos": 3
   },
   "sources": {
     "site": {
@@ -149,9 +149,17 @@
         "handle": "@sillgarden",
         "subscribers": 0,
         "views": 243,
-        "videos": 2
+        "videos": 3
       },
       "recent_videos": [
+        {
+          "id": "NSLsa1eJxko",
+          "title": "AeroGarden or Click & Grow? Pick in 30 Seconds #Shorts",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-15T18:06:54Z",
+          "url": "https://www.youtube.com/watch?v=NSLsa1eJxko"
+        },
         {
           "id": "FWut_fMPyFA",
           "title": "AeroGarden vs Click & Grow (2026) \u2014 Which Apartment Kit Wins?",

@@ -114,6 +114,7 @@ def main() -> int:
         "privacy": args.privacy,
         "uploaded_at": datetime.now(timezone.utc).isoformat(),
         "storyboard": str(path.relative_to(ROOT)).replace("\\", "/"),
+        "format": story.get("format") or "long",
     }
     save_publish_state(state)
     print(f"Uploaded to Sill Garden: {url} ({args.privacy})")
