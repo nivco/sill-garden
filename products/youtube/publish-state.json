@@ -4,9 +4,10 @@
       "youtube_id": "FWut_fMPyFA",
       "url": "https://youtu.be/FWut_fMPyFA",
       "title": "AeroGarden vs Click & Grow (2026) \u2014 Which Apartment Kit Wins?",
-      "privacy": "unlisted",
+      "privacy": "public",
       "uploaded_at": "2026-08-15T16:56:55.164880+00:00",
-      "storyboard": "products/youtube/video-aerogarden-vs-click-grow/storyboard.json"
+      "storyboard": "products/youtube/video-aerogarden-vs-click-grow/storyboard.json",
+      "published_at": "2026-08-15T17:25:31.992752+00:00"
     }
   }
 }

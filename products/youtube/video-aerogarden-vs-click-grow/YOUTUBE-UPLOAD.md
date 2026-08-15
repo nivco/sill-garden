@@ -4,7 +4,7 @@
 
 - Channel: **Sill Garden** (`@sillgarden`)
 - URL: https://youtu.be/FWut_fMPyFA
-- Visibility: **Unlisted** — watch once in YouTube Studio before making it public
+- Visibility: **Public**
 
 ## File to review
 `E:\Projects\sill-garden\products\youtube\video-aerogarden-vs-click-grow\sill-aerogarden-vs-click-grow.mp4`
