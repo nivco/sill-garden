@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-15 17:01 UTC",
+  "generated_at": "2026-08-15 17:58 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 27,
-    "users_7d": 26,
-    "pageviews_7d": 28,
+    "sessions_7d": 32,
+    "users_7d": 30,
+    "pageviews_7d": 35,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 0,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 0,
+    "youtube_sessions_7d": 1,
     "youtube_subs": 0,
     "youtube_views_total": 243,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 0.0,
-    "affiliate_ctr_pct": 3.7,
-    "youtube_videos": 1
+    "affiliate_ctr_pct": 3.1,
+    "youtube_videos": 2
   },
   "sources": {
     "site": {
@@ -29,9 +29,9 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 26,
-        "sessions": 27,
-        "screenPageViews": 28,
+        "activeUsers": 30,
+        "sessions": 32,
+        "screenPageViews": 35,
         "engagedSessions": 0,
         "averageSessionDuration_sec": 2.7,
         "engagementRate_pct": 0.0
@@ -39,23 +39,23 @@
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "19",
-          "screenPageViews": "19"
+          "sessions": "22",
+          "screenPageViews": "22"
         },
         {
           "pagePath": "/guides/",
-          "sessions": "2",
-          "screenPageViews": "2"
+          "sessions": "4",
+          "screenPageViews": "4"
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
-          "sessions": "2",
-          "screenPageViews": "2"
+          "sessions": "4",
+          "screenPageViews": "3"
         },
         {
           "pagePath": "/disclosure/",
-          "sessions": "1",
-          "screenPageViews": "1"
+          "sessions": "2",
+          "screenPageViews": "2"
         },
         {
           "pagePath": "/guides/best-countertop-garden-apartments/",
@@ -81,22 +81,31 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "27"
+          "sessions": "30"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "5"
+          "sessions": "6"
+        },
+        {
+          "sessionDefaultChannelGroup": "Organic Video",
+          "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "27",
+          "sessions": "30",
           "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "(not set)",
-          "sessions": "5",
+          "sessions": "6",
+          "engagedSessions": "0"
+        },
+        {
+          "sessionSourceMedium": "youtube / video",
+          "sessions": "1",
           "engagedSessions": "0"
         }
       ],
@@ -104,18 +113,21 @@
         "affiliate_click": 1
       },
       "affiliate_networks": {
-        "Amazon Associates": 0,
+        "Amazon Associates": 1,
         "Click & Grow": 0,
         "Gardener's Supply": 0
       },
+      "affiliate_attribution_source": "link_url",
+      "affiliate_clicks_unattributed_7d": 0,
       "affiliate_links": [
         {
           "link_url": "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1",
-          "clicks": 1
+          "clicks": 1,
+          "network": "Amazon Associates"
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 0,
+      "sessions_from_youtube": 1,
       "affiliate_clicks_7d": 1
     },
     "gsc": {
@@ -137,9 +149,17 @@
         "handle": "@sillgarden",
         "subscribers": 0,
         "views": 243,
-        "videos": 1
+        "videos": 2
       },
       "recent_videos": [
+        {
+          "id": "FWut_fMPyFA",
+          "title": "AeroGarden vs Click & Grow (2026) \u2014 Which Apartment Kit Wins?",
+          "views": 1,
+          "likes": 0,
+          "published": "2026-08-15T17:25:29Z",
+          "url": "https://www.youtube.com/watch?v=FWut_fMPyFA"
+        },
         {
           "id": "EgTMIxX2XSs",
           "title": "\u05e0\u05d7\u05dc \u05d7\u05de\u05e8 27.03.10",
@@ -168,7 +188,7 @@
         "name": "Amazon Associates",
         "network": "amazon-associates",
         "status": "active",
-        "site_clicks_7d": 0,
+        "site_clicks_7d": 1,
         "portal_clicks_7d": null,
         "orders_7d": null,
         "earnings_7d_usd": null,
@@ -262,6 +282,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 27 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 32 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }

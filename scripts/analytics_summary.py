@@ -168,6 +168,25 @@ def ga4_run_report(token: str, property_id: str, body: dict) -> dict:
     )
 
 
+NETWORK_BY_HOST = (
+    ("amazon.", "Amazon Associates"),
+    ("clickandgrow.", "Click & Grow"),
+    ("gardeners.", "Gardener's Supply"),
+)
+
+
+def network_for_link(link: str) -> str:
+    """Map an outbound affiliate URL (or bare domain) to a program name."""
+    host = link.strip().lower()
+    if "://" in host:
+        host = urllib.parse.urlparse(host).netloc
+    host = host.replace("www.", "")
+    for needle, name in NETWORK_BY_HOST:
+        if needle in host:
+            return name
+    return host or "Other"
+
+
 def ga4_metric_value(report: dict, name: str) -> float:
     headers = [h.get("name") for h in report.get("metricHeaders", [])]
     rows = report.get("rows") or []
@@ -273,7 +292,7 @@ def fetch_ga4(property_id: str) -> dict:
         name = row["dimensionValues"][0]["value"]
         count = int(float(row["metricValues"][0]["value"]))
         events[name] = count
-    affiliate_networks = {
+    networks_from_events = {
         "Amazon Associates": events.get("affiliate_click_amazon", 0),
         "Click & Grow": events.get("affiliate_click_click_grow", 0),
         "Gardener's Supply": events.get("affiliate_click_gardeners_supply", 0),
@@ -315,7 +334,13 @@ def fetch_ga4(property_id: str) -> dict:
             link = (row.get("dimensionValues") or [{}])[0].get("value") or ""
             count = int(float((row.get("metricValues") or [{}])[0].get("value") or 0))
             if link and link not in ("(not set)", "(none)") and count:
-                rows.append({"link_url": link, "clicks": count})
+                rows.append(
+                    {
+                        "link_url": link,
+                        "clicks": count,
+                        "network": network_for_link(link),
+                    }
+                )
         if rows:
             link_rows = rows
             link_dim_used = dim
@@ -334,6 +359,30 @@ def fetch_ga4(property_id: str) -> dict:
         else:
             link_rows = [{"note": "No affiliate_click events in the last 7 days"}]
 
+    # Network-specific events only exist for clicks after the tagging deploy; older clicks
+    # are still attributable through the destination URL.
+    networks_from_links: dict[str, int] = {}
+    for row in link_rows:
+        if not row.get("link_url"):
+            continue
+        networks_from_links[row["network"]] = networks_from_links.get(row["network"], 0) + row["clicks"]
+
+    if any(networks_from_events.values()):
+        affiliate_networks = dict(networks_from_events)
+        attribution_source = "network_events"
+        for name, count in networks_from_links.items():
+            affiliate_networks[name] = max(affiliate_networks.get(name, 0), count)
+    elif networks_from_links:
+        affiliate_networks = {**{k: 0 for k in networks_from_events}, **networks_from_links}
+        attribution_source = "link_url"
+    else:
+        affiliate_networks = dict(networks_from_events)
+        attribution_source = "none"
+
+    affiliate_total = int(events.get("affiliate_click") or 0)
+    attributed = sum(affiliate_networks.values())
+    unattributed = max(affiliate_total - attributed, 0)
+
     yt_sessions = sum(
         int(float(row.get("sessions") or 0))
         for row in source_medium
@@ -347,10 +396,12 @@ def fetch_ga4(property_id: str) -> dict:
         "source_medium": source_medium,
         "events": events,
         "affiliate_networks": affiliate_networks,
+        "affiliate_attribution_source": attribution_source,
+        "affiliate_clicks_unattributed_7d": unattributed,
         "affiliate_links": link_rows,
         "affiliate_link_dimension": link_dim_used,
         "sessions_from_youtube": yt_sessions,
-        "affiliate_clicks_7d": int(events.get("affiliate_click") or 0),
+        "affiliate_clicks_7d": affiliate_total,
     }
 
 

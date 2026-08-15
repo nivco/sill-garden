@@ -281,20 +281,31 @@
           ).join(''))
         : `<p class="muted">${(sources.gsc || {}).error || (sources.gsc || {}).skipped || 'Connect Search Console'}</p>`;
 
-      const links = ((sources.ga4 || {}).affiliate_links) || [];
+      const ga4 = sources.ga4 || {};
+      const links = ga4.affiliate_links || [];
       const realLinks = links.filter((r) => r.link_url);
-      const networks = (sources.ga4 || {}).affiliate_networks || {};
-      const networkRows = Object.entries(networks).map(([name, clicks]) =>
-        `<tr><td>${name}</td><td>${n(clicks)}</td></tr>`
+      const networks = ga4.affiliate_networks || {};
+      const unattributed = Number(ga4.affiliate_clicks_unattributed_7d || 0);
+      const attributionSource = ga4.affiliate_attribution_source === 'link_url'
+        ? 'Attributed by destination URL (network events start after the tagging deploy).'
+        : ga4.affiliate_attribution_source === 'network_events'
+          ? 'Attributed by GA4 network events.'
+          : 'No attributed affiliate clicks yet.';
+      let networkRows = Object.entries(networks).map(([name, clicks]) =>
+        `<tr><td>${esc(name)}</td><td>${n(clicks)}</td></tr>`
       ).join('');
+      if (unattributed > 0) {
+        networkRows += `<tr><td class="muted">Unattributed</td><td>${n(unattributed)}</td></tr>`;
+      }
       const linkTable = realLinks.length
-        ? table(['Link', 'Clicks'], realLinks.slice(0, 10).map((r) =>
-            `<tr><td style="word-break:break-all"><a href="${esc(r.link_url)}" target="_blank" rel="noopener">${esc(r.link_url)}</a></td><td>${n(r.clicks)}</td></tr>`
+        ? table(['Destination', 'Network', 'Clicks'], realLinks.slice(0, 10).map((r) =>
+            `<tr><td style="word-break:break-all"><a href="${esc(r.link_url)}" target="_blank" rel="noopener">${esc(r.link_url)}</a></td><td>${esc(r.network || '—')}</td><td>${n(r.clicks)}</td></tr>`
           ).join(''))
-        : '';
+        : `<p class="muted">${esc((links[0] && links[0].note) || 'No affiliate_click events yet')}</p>`;
       $('affLinks').innerHTML = networkRows
-        ? table(['Network', 'Clicks'], networkRows) + linkTable
-        : `<p class="muted">${(links[0] && links[0].note) || 'No affiliate_click events yet'}</p>`;
+        ? `<p class="muted">${esc(attributionSource)}${ga4.affiliate_link_dimension ? ` Per-link dimension: ${esc(ga4.affiliate_link_dimension)}.` : ''}</p>`
+          + table(['Network', 'Clicks'], networkRows) + linkTable
+        : `<p class="muted">${esc((links[0] && links[0].note) || 'No affiliate_click events yet')}</p>`;
 
       const yt = sources.youtube || {};
       const ch = yt.channel || {};
