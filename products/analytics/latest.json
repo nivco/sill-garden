@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-15 00:48 UTC",
+  "generated_at": "2026-08-15 12:21 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 24,
-    "users_7d": 23,
-    "pageviews_7d": 25,
+    "sessions_7d": 27,
+    "users_7d": 26,
+    "pageviews_7d": 28,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 0,
@@ -26,18 +26,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 23,
-        "sessions": 24,
-        "screenPageViews": 25,
+        "activeUsers": 26,
+        "sessions": 27,
+        "screenPageViews": 28,
         "engagedSessions": 0,
-        "averageSessionDuration_sec": 3.0,
+        "averageSessionDuration_sec": 2.7,
         "engagementRate_pct": 0.0
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "16",
-          "screenPageViews": "16"
+          "sessions": "19",
+          "screenPageViews": "19"
         },
         {
           "pagePath": "/guides/",
@@ -78,11 +78,11 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "24"
+          "sessions": "27"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "3"
+          "sessions": "5"
         }
       ],
       "events": {
@@ -167,6 +167,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 24 | Aff clicks 1 | GSC 0 | Setup 5/7"
+    "headline": "Sessions 27 | Aff clicks 1 | GSC 0 | Setup 5/7"
   }
 }
