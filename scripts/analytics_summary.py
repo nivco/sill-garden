@@ -24,6 +24,7 @@ HISTORY = OUT_DIR / "history.json"
 AMAZON_MANUAL = OUT_DIR / "amazon-manual.json"
 YOUTUBE_ACCESS = ROOT / "products" / "youtube" / "youtube-access-status.json"
 ACTION_QUEUE = ROOT / "products" / "traffic" / "action-queue.json"
+INDEXING_STATUS = OUT_DIR / "indexing-status.json"
 SITE_URL = "https://sillgarden.com"
 
 
@@ -676,6 +677,31 @@ def load_actions() -> list[dict]:
         return []
 
 
+def load_indexing_status() -> dict:
+    if not INDEXING_STATUS.is_file():
+        return {"skipped": "Run python scripts/check_indexing.py"}
+    try:
+        status = json.loads(INDEXING_STATUS.read_text(encoding="utf-8"))
+    except json.JSONDecodeError as exc:
+        return {"error": str(exc)}
+    urls = status.get("urls") or []
+    status["indexed_count"] = sum(
+        1
+        for row in urls
+        if row.get("verdict") == "PASS" and "indexed" in (row.get("coverage_state") or "").lower()
+    )
+    status["not_indexed_count"] = max(len(urls) - status["indexed_count"], 0)
+    status["not_indexed_urls"] = [
+        {
+            "url": row.get("url"),
+            "coverage_state": row.get("coverage_state") or row.get("error") or "Unknown",
+        }
+        for row in urls
+        if row.get("verdict") != "PASS" or "indexed" not in (row.get("coverage_state") or "").lower()
+    ]
+    return status
+
+
 def build_setup_checklist(sources: dict) -> list[dict]:
     checks = []
 
@@ -792,6 +818,8 @@ def main() -> int:
         except Exception as exc:  # noqa: BLE001
             sources["gsc"] = {"error": str(exc)[:300], "skipped": False}
 
+    sources["indexing"] = load_indexing_status()
+
     cf_token = (os.environ.get("CLOUDFLARE_API_TOKEN") or "").strip()
     cf_zone = (os.environ.get("CLOUDFLARE_ZONE_ID") or "").strip()
     if cf_token and cf_zone:
@@ -815,6 +843,7 @@ def main() -> int:
     cf = sources.get("cloudflare") or {}
     yt = sources.get("youtube") or {}
     amz = sources.get("amazon") or {}
+    indexing = sources.get("indexing") or {}
     yt_ch = yt.get("channel") or {}
 
     hero = {
@@ -824,6 +853,8 @@ def main() -> int:
         "affiliate_clicks_7d": ga4.get("affiliate_clicks_7d"),
         "gsc_clicks_7d": gsc.get("clicks"),
         "gsc_impressions_7d": gsc.get("impressions"),
+        "indexed_urls": indexing.get("indexed_count"),
+        "sitemap_urls": indexing.get("sitemap_url_count"),
         "cf_pageviews_7d": cf.get("page_views"),
         "youtube_sessions_7d": ga4.get("sessions_from_youtube"),
         "youtube_subs": yt_ch.get("subscribers"),
@@ -846,7 +877,14 @@ def main() -> int:
     if ga4.get("skipped") or ga4.get("error"):
         insights.append("Connect GA4_PROPERTY_ID to unlock sessions / clicks on the dashboard.")
     if gsc.get("clicks") == 0 and not gsc.get("error"):
-        insights.append("GSC shows 0 clicks — normal for a brand-new domain; submit sitemap in Search Console.")
+        if indexing.get("indexed_count"):
+            insights.append(
+                f"Google has indexed {indexing.get('indexed_count')}/{indexing.get('sitemap_url_count')} URLs, "
+                "but they have not earned search impressions yet — this is now a ranking/content-age issue, "
+                "not a crawl block."
+            )
+        else:
+            insights.append("GSC shows 0 clicks — run check_indexing.py to distinguish crawl from ranking.")
     if (ga4.get("affiliate_clicks_7d") or 0) == 0 and totals.get("sessions"):
         insights.append("Traffic without affiliate clicks — check product CTAs and event firing.")
     if yt.get("skipped"):

@@ -19,6 +19,7 @@ LATEST = ROOT / "products" / "analytics" / "latest.json"
 OUT_DIR = ROOT / "products" / "traffic"
 QUEUE = OUT_DIR / "action-queue.json"
 STATE = OUT_DIR / "optimizer-state.json"
+INDEXING_STATUS = ROOT / "products" / "analytics" / "indexing-status.json"
 MIN_HOURS_INDEXNOW = 20
 
 
@@ -83,15 +84,43 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
                 "Share 1–2 guides or request indexing on home + top guides in Search Console.",
             )
         )
+    indexing = load_json(INDEXING_STATUS, {})
+    indexed = int(indexing.get("indexed_count") or 0)
+    sitemap_total = int(indexing.get("sitemap_url_count") or 0)
+    missing = indexing.get("not_indexed_urls") or []
     if gsc_impr == 0 and not gsc.get("error"):
-        actions.append(
-            task(
-                "P0",
-                "indexing",
-                "GSC impressions still 0",
-                "Sitemap is submitted; wait for crawl or Request indexing on priority URLs.",
+        if indexed:
+            actions.append(
+                task(
+                    "P2",
+                    "seo",
+                    "Indexed pages have no search impressions yet",
+                    f"Google inspection confirms {indexed}/{sitemap_total} URLs indexed. "
+                    "No crawl fix is needed; allow ranking time and strengthen topic coverage.",
+                )
             )
-        )
+            for row in missing:
+                url = str(row.get("url") or "")
+                if "/guides/" not in url or url.rstrip("/").endswith("/guides"):
+                    continue
+                actions.append(
+                    task(
+                        "P1",
+                        "indexing",
+                        f"Request indexing: {url.rstrip('/').split('/')[-1]}",
+                        f"{row.get('coverage_state') or 'Not indexed'} — use Search Console URL Inspection "
+                        "→ Request indexing once; the URL is already linked and in the sitemap.",
+                    )
+                )
+        else:
+            actions.append(
+                task(
+                    "P1",
+                    "indexing",
+                    "Verify Google index coverage",
+                    "Run python scripts/check_indexing.py; zero impressions alone does not mean pages are unindexed.",
+                )
+            )
 
     # Near-page-1 opportunities
     for q in (gsc.get("top_queries") or [])[:15]:

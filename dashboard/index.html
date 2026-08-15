@@ -236,6 +236,12 @@
         heroCard('Affiliate clicks', n(hero.affiliate_clicks_7d), 'GA4 affiliate_click', true),
         heroCard('Affiliate CTR', `${Number(hero.affiliate_ctr_pct || 0).toFixed(1)}%`, 'Clicks ÷ sessions', true),
         heroCard('GSC clicks', n(hero.gsc_clicks_7d), `${n(hero.gsc_impressions_7d)} impr.`, false),
+        heroCard(
+          'Google indexed',
+          hero.indexed_urls == null ? '—' : `${n(hero.indexed_urls)}/${n(hero.sitemap_urls)}`,
+          'URL Inspection API',
+          false,
+        ),
         heroCard('YT → site', n(hero.youtube_sessions_7d), 'Sessions from YouTube', false),
         heroCard('Engagement', `${Number(hero.engagement_rate_pct || 0).toFixed(1)}%`, 'GA4 engaged sessions', false),
         heroCard('Revenue', hero.amazon_earnings_7d_usd != null ? `$${Number(hero.amazon_earnings_7d_usd).toFixed(2)}` : '—', 'Confirmed affiliate revenue', false),
