@@ -31,3 +31,26 @@ Always include the affiliate disclosure in the description.
 ## Earnings on the dashboard
 
 Amazon has no public API. Weekly paste into `products/analytics/amazon-manual.json`.
+
+## Direct programs
+
+Direct programs override Amazon for matching products after their approved URL is configured.
+Until then, the product card safely falls back to the tagged Amazon link.
+
+### Click & Grow (first priority)
+
+- Apply: https://www.clickandgrow.com/pages/affiliate-program
+- Published terms: 10%+ commission, 45-day tracking, monthly PayPal payout
+- After approval, set the complete tracking/deep link as:
+  - local `.env`: `PUBLIC_CLICK_GROW_AFFILIATE_URL=...`
+  - GitHub secret: `PUBLIC_CLICK_GROW_AFFILIATE_URL`
+- Used by three relevant guides.
+
+### Gardener's Supply (second priority)
+
+- Apply: https://www.gardeners.com/pages/partnership-program
+- Network: Impact
+- After approval, set `PUBLIC_GARDENERS_SUPPLY_AFFILIATE_URL=...`
+
+GA4 records all sponsored clicks as `affiliate_click` with:
+`affiliate_network`, `affiliate_merchant`, `affiliate_product`, `link_url`, and `page_path`.

@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-08-15 12:21 UTC",
+  "generated_at": "2026-08-15 16:57 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [],
+  "applied": [
+    "IndexNow ping"
+  ],
   "actions": [
     {
       "priority": "P0",
@@ -11,34 +13,16 @@
       "detail": "Sitemap is submitted; wait for crawl or Request indexing on priority URLs.",
       "auto": false,
       "done": false,
-      "created": "2026-08-15 12:21 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "setup",
-      "title": "Finish setup: YouTube",
-      "detail": "Set YOUTUBE_API_KEY",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-15 12:21 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "setup",
-      "title": "Finish setup: Amazon earnings (manual)",
-      "detail": "Manual JSON present",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-15 12:21 UTC"
+      "created": "2026-08-15 16:57 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-15 00:48 UTC (11.6h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-15 12:21 UTC"
+      "created": "2026-08-15 16:57 UTC"
     }
   ]
 }

@@ -85,9 +85,34 @@ class Handler(BaseHTTPRequestHandler):
                 cwd=str(ROOT),
                 capture_output=True,
                 text=True,
-                timeout=120,
+                timeout=180,
                 check=False,
             )
+            opt_out = ""
+            opt_err = ""
+            if proc.returncode == 0:
+                opt = subprocess.run(
+                    [sys.executable, str(ROOT / "scripts" / "traffic_optimizer.py")],
+                    cwd=str(ROOT),
+                    capture_output=True,
+                    text=True,
+                    timeout=180,
+                    check=False,
+                )
+                opt_out = (opt.stdout or "")[-1000:]
+                opt_err = (opt.stderr or "")[-1000:]
+                # Re-run scorecard so action queue is attached after optimizer writes it.
+                if opt.returncode == 0:
+                    proc2 = subprocess.run(
+                        [sys.executable, str(ROOT / "scripts" / "analytics_summary.py")],
+                        cwd=str(ROOT),
+                        capture_output=True,
+                        text=True,
+                        timeout=180,
+                        check=False,
+                    )
+                    if proc2.returncode == 0:
+                        proc = proc2
             ok = proc.returncode == 0 and LATEST_JSON.is_file()
             data = {}
             if LATEST_JSON.is_file():
@@ -95,8 +120,8 @@ class Handler(BaseHTTPRequestHandler):
             payload = {
                 "ok": ok,
                 "returncode": proc.returncode,
-                "stdout": (proc.stdout or "")[-2000:],
-                "stderr": (proc.stderr or "")[-2000:],
+                "stdout": ((proc.stdout or "") + ("\n" + opt_out if opt_out else ""))[-2000:],
+                "stderr": ((proc.stderr or "") + ("\n" + opt_err if opt_err else ""))[-2000:],
                 "scorecard": data,
             }
             self._send(200 if ok else 500, json.dumps(payload).encode("utf-8"), "application/json")
@@ -113,7 +138,7 @@ def main() -> int:
         print(f"Missing {DASHBOARD_HTML}")
         return 1
     print(f"Sill Garden dashboard -> http://{host}:{PORT}/dashboard")
-    print("Refresh runs scripts/analytics_summary.py (reads .env)")
+    print("Refresh runs analytics_summary.py + traffic_optimizer.py (reads .env)")
     HTTPServer((host, PORT), Handler).serve_forever()
     return 0
 

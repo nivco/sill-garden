@@ -56,6 +56,12 @@ def font(size: int, *, bold: bool = False) -> ImageFont.FreeTypeFont | ImageFont
         r"C:\Windows\Fonts\segoeuib.ttf" if bold else r"C:\Windows\Fonts\segoeui.ttf",
         r"C:\Windows\Fonts\arialbd.ttf" if bold else r"C:\Windows\Fonts\arial.ttf",
         r"C:\Windows\Fonts\calibrib.ttf" if bold else r"C:\Windows\Fonts\calibri.ttf",
+        "/usr/share/fonts/truetype/dejavu/DejaVuSans-Bold.ttf"
+        if bold
+        else "/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf",
+        "/usr/share/fonts/truetype/liberation2/LiberationSans-Bold.ttf"
+        if bold
+        else "/usr/share/fonts/truetype/liberation2/LiberationSans-Regular.ttf",
     ]
     for path in candidates:
         if Path(path).is_file():

@@ -23,6 +23,7 @@ const guides = defineCollection({
           url: z.string().url().optional(),
           asin: z.string().optional(),
           search: z.string().optional(),
+          partner: z.enum(['amazon', 'click-grow', 'gardeners-supply']).optional(),
         }),
       )
       .optional(),

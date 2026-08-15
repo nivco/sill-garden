@@ -69,9 +69,22 @@ const path = Astro.url.pathname;
               var host = u.hostname.replace(/^www\./, '').toLowerCase();
               var isAmazon = host === 'amazon.com' || host.endsWith('.amazon.com');
               var isAffiliate = rel.indexOf('sponsored') !== -1 || isAmazon;
-              var payload = { link_url: u.href, link_domain: u.hostname };
+              var payload = {
+                link_url: u.href,
+                link_domain: u.hostname,
+                affiliate_network: el.getAttribute('data-affiliate-network') || (isAmazon ? 'amazon-associates' : ''),
+                affiliate_merchant: el.getAttribute('data-affiliate-merchant') || host,
+                affiliate_product: el.getAttribute('data-affiliate-product') || '',
+                page_path: location.pathname,
+              };
               if (isAffiliate) {
                 gtag('event', 'affiliate_click', payload);
+                var networkEvent = {
+                  'amazon-associates': 'affiliate_click_amazon',
+                  'click-grow': 'affiliate_click_click_grow',
+                  'gardeners-supply': 'affiliate_click_gardeners_supply',
+                }[payload.affiliate_network];
+                if (networkEvent) gtag('event', networkEvent, payload);
               } else {
                 gtag('event', 'outbound_click', payload);
               }

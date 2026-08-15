@@ -8,6 +8,7 @@ export type AffiliateProduct = {
   note: string;
   asin?: string;
   search?: string;
+  partner?: 'amazon' | 'click-grow' | 'gardeners-supply';
 };
 
 export const affiliateProducts = {
@@ -22,6 +23,7 @@ export const affiliateProducts = {
     name: 'Click & Grow Smart Garden 3',
     note: 'Silent wick system — studio-friendly',
     asin: 'B01MRVMKQH',
+    partner: 'click-grow',
   },
   budget12Pod: {
     id: 'budget-12-pod',
@@ -78,6 +80,7 @@ export function picks(...ids: AffiliateProductId[]) {
       note: p.note,
       ...(p.asin ? { asin: p.asin } : {}),
       ...(p.search ? { search: p.search } : {}),
+      ...('partner' in p && p.partner ? { partner: p.partner } : {}),
     };
   });
 }

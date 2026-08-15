@@ -14,6 +14,7 @@ products:
   - name: Click & Grow Smart Garden 3
     note: Freestanding, no drilling, quiet
     asin: B01MRVMKQH
+    partner: click-grow
   - name: Clip-on LED grow light
     note: Freestanding light — skip ceiling hooks
     search: LED clip grow light indoor plants

@@ -15,6 +15,7 @@ products:
   - name: Click & Grow Smart Garden 3
     note: Best when silence matters more than capacity
     asin: B01MRVMKQH
+    partner: click-grow
   - name: Budget 10–12 pod kits (iDOO / similar)
     note: More plants per dollar; check pump noise reviews
     search: iDOO hydroponics 12 pod indoor garden

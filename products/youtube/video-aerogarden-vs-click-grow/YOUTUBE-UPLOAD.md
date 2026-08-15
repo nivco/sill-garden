@@ -1,7 +1,13 @@
 # YouTube upload — AeroGarden vs Click & Grow (2026) — Which Apartment Kit Wins?
 
+## Upload status
+
+- Channel: **Sill Garden** (`@sillgarden`)
+- URL: https://youtu.be/FWut_fMPyFA
+- Visibility: **Unlisted** — watch once in YouTube Studio before making it public
+
 ## File to review
-`products\youtube\video-aerogarden-vs-click-grow\sill-aerogarden-vs-click-grow.mp4`
+`E:\Projects\sill-garden\products\youtube\video-aerogarden-vs-click-grow\sill-aerogarden-vs-click-grow.mp4`
 
 Duration (approx): 1:24
 
@@ -16,10 +22,10 @@ Product picks (Amazon Associates — tag sillgarden09-20):
 • Click & Grow Smart Garden 3: https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1
 
 Full guide:
-https://sillgarden.com/guides/aerogarden-vs-click-and-grow/
+https://sillgarden.com/guides/aerogarden-vs-click-and-grow/?utm_source=youtube&utm_medium=video&utm_campaign=video-aerogarden-vs-click-grow
 
 More apartment garden guides:
-https://sillgarden.com/guides/
+https://sillgarden.com/guides/?utm_source=youtube&utm_medium=video&utm_campaign=video-aerogarden-vs-click-grow
 
 Disclosure: As an Amazon Associate I earn from qualifying purchases.
 

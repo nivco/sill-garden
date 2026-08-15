@@ -24,6 +24,13 @@ jobs:
         with:
           python-version: "3.12"
       - name: Install deps
-        run: pip install -r requirements-analytics.txt
+        run: |
+          pip install -r requirements-analytics.txt
+          pip install -r requirements-youtube.txt
       - name: Google analytics gate (GA4 + GSC)
         run: python scripts/measurement_gate.py --refresh --strict
+      - name: YouTube upload channel gate
+        env:
+          YOUTUBE_USER_TOKEN_JSON: ${{ secrets.YOUTUBE_USER_TOKEN_JSON }}
+          YOUTUBE_OAUTH_CLIENT_JSON: ${{ secrets.YOUTUBE_OAUTH_CLIENT_JSON }}
+        run: python scripts/youtube_access_gate.py

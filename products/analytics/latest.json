@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-15 12:21 UTC",
+  "generated_at": "2026-08-15 17:01 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -12,11 +12,14 @@
     "gsc_impressions_7d": 0,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 0,
-    "youtube_subs": null,
-    "youtube_views_total": null,
+    "youtube_subs": 0,
+    "youtube_views_total": 243,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
-    "amazon_earnings_7d_usd": null
+    "amazon_earnings_7d_usd": null,
+    "engagement_rate_pct": 0.0,
+    "affiliate_ctr_pct": 3.7,
+    "youtube_videos": 1
   },
   "sources": {
     "site": {
@@ -85,14 +88,33 @@
           "sessions": "5"
         }
       ],
+      "source_medium": [
+        {
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": "27",
+          "engagedSessions": "0"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "5",
+          "engagedSessions": "0"
+        }
+      ],
       "events": {
         "affiliate_click": 1
       },
+      "affiliate_networks": {
+        "Amazon Associates": 0,
+        "Click & Grow": 0,
+        "Gardener's Supply": 0
+      },
       "affiliate_links": [
         {
-          "note": "link_url dimension needs GA4 custom dim or wait for events: HTTP 400 https://analyticsdata.googleapis.com/v1beta/properties/549929269:runReport: {\n  \"error\": {\n    \"code\": 400,\n   "
+          "link_url": "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1",
+          "clicks": 1
         }
       ],
+      "affiliate_link_dimension": "linkUrl",
       "sessions_from_youtube": 0,
       "affiliate_clicks_7d": 1
     },
@@ -109,7 +131,24 @@
       "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "skipped": "Set YOUTUBE_API_KEY"
+      "channel": {
+        "id": "UCc31HDBMhoJtsmZYk0Fo56w",
+        "title": "Sill Garden",
+        "handle": "@sillgarden",
+        "subscribers": 0,
+        "views": 243,
+        "videos": 1
+      },
+      "recent_videos": [
+        {
+          "id": "EgTMIxX2XSs",
+          "title": "\u05e0\u05d7\u05dc \u05d7\u05de\u05e8 27.03.10",
+          "views": 243,
+          "likes": 0,
+          "published": "2010-03-29T14:46:59Z",
+          "url": "https://www.youtube.com/watch?v=EgTMIxX2XSs"
+        }
+      ]
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -118,15 +157,71 @@
       "ordered_items_7d": null,
       "earnings_7d_usd": null,
       "notes": "Amazon has no public earnings API. Update these fields after checking Associates reports.",
-      "skipped": false
+      "configured": false,
+      "skipped": true,
+      "note": "Amazon has no public earnings API. Update these fields after checking Associates reports."
     }
   },
+  "monetization": {
+    "affiliate_programs": [
+      {
+        "name": "Amazon Associates",
+        "network": "amazon-associates",
+        "status": "active",
+        "site_clicks_7d": 0,
+        "portal_clicks_7d": null,
+        "orders_7d": null,
+        "earnings_7d_usd": null,
+        "next_step": "Tagged links are live (sillgarden09-20). Paste weekly Associates numbers into amazon-manual.json."
+      },
+      {
+        "name": "Click & Grow",
+        "network": "click-grow",
+        "status": "active",
+        "site_clicks_7d": 0,
+        "portal_clicks_7d": null,
+        "orders_7d": null,
+        "earnings_7d_usd": null,
+        "next_step": "Direct tracking URL configured."
+      },
+      {
+        "name": "Gardener's Supply",
+        "network": "gardeners-supply",
+        "status": "not-applied",
+        "site_clicks_7d": 0,
+        "portal_clicks_7d": null,
+        "orders_7d": null,
+        "earnings_7d_usd": null,
+        "next_step": "Apply through Impact after Click & Grow; Amazon fallback remains live."
+      }
+    ]
+  },
+  "actions": [
+    {
+      "priority": "P0",
+      "category": "indexing",
+      "title": "GSC impressions still 0",
+      "detail": "Sitemap is submitted; wait for crawl or Request indexing on priority URLs.",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-15 16:57 UTC"
+    },
+    {
+      "priority": "P3",
+      "category": "indexing",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "auto": true,
+      "done": true,
+      "created": "2026-08-15 16:57 UTC"
+    }
+  ],
   "insights": [
     "GSC shows 0 clicks \u2014 normal for a brand-new domain; submit sitemap in Search Console.",
-    "Optional: set YOUTUBE_API_KEY + channel handle when you publish Sill Garden videos."
+    "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 5,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -156,17 +251,17 @@
       },
       {
         "name": "YouTube",
-        "ok": false,
-        "detail": "Set YOUTUBE_API_KEY"
+        "ok": true,
+        "detail": "Sill Garden"
       },
       {
-        "name": "Amazon earnings (manual)",
-        "ok": false,
-        "detail": "Manual JSON present"
+        "name": "Affiliate click counters",
+        "ok": true,
+        "detail": "Per-link via linkUrl"
       }
     ]
   },
   "summary": {
-    "headline": "Sessions 27 | Aff clicks 1 | GSC 0 | Setup 5/7"
+    "headline": "Sessions 27 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }

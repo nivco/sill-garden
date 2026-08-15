@@ -38,8 +38,10 @@ Also appears on the portfolio shell: `E:\Projects\portfolio-dashboard` → http:
    - `CLOUDFLARE_ZONE_ID` already defaults in `.env.example`  
    - API token needs Zone Analytics Read
 
-4. **YouTube** (when you have a channel)  
-   - `YOUTUBE_API_KEY` + `YOUTUBE_CHANNEL_HANDLE`
+4. **YouTube**
+   - Channel: `@sillgarden` (`UCc31HDBMhoJtsmZYk0Fo56w`)
+   - Public analytics: `YOUTUBE_API_KEY` + `YOUTUBE_CHANNEL_HANDLE`
+   - Upload OAuth is deliberately separate from MTS so the wrong Brand Account cannot receive a video.
 
 5. **Amazon**  
    - Weekly: edit `products/analytics/amazon-manual.json` with clicks / orders / earnings from Associates Central
@@ -61,6 +63,7 @@ Copy `.env.example` → `.env` and fill keys. You can point `GOOGLE_*` at the sa
 | `weekly-analytics.yml` | Mon 09:00 UTC | Refresh GA4/GSC/CF scorecard → commit `products/analytics/` |
 | `traffic-loop.yml` | every 12h | Analytics refresh → action queue → throttled IndexNow |
 | `oauth-health-check.yml` | daily 06:30 UTC | Fail if GA4/GSC OAuth is broken |
+| `youtube-auto-publish.yml` | Fri 14:00 UTC | Build next storyboard → upload **unlisted** for review |
 
 ### Secrets to set on `nivco/sill-garden`
 
@@ -71,6 +74,27 @@ Also set (reuse MTS values where possible):
 - `GOOGLE_USER_TOKEN_JSON` + `GOOGLE_OAUTH_CLIENT_JSON` (OAuth desktop token with Analytics + Search Console)
 - `INDEXNOW_KEY` (same as local `.env` / `public/<key>.txt`)
 - optional: `BING_WEBMASTER_API_KEY`, `CLOUDFLARE_API_TOKEN`, `YOUTUBE_*`
+
+### YouTube publishing
+
+Local one-time authorization (select the **Sill Garden** identity in Google's chooser):
+
+```powershell
+python -m pip install -r requirements-youtube.txt
+python scripts\youtube_oauth_login.py --force
+python scripts\youtube_access_gate.py
+python scripts\youtube_token_sync.py
+```
+
+Build/preview/upload one storyboard:
+
+```powershell
+python scripts\youtube_publish.py video-aerogarden-vs-click-grow --build --dry-run
+python scripts\youtube_publish.py video-aerogarden-vs-click-grow --build --privacy unlisted
+```
+
+The access gate requires the API channel title to be `Sill Garden`. Scheduled uploads are
+unlisted; publish only after watching the final render in YouTube Studio.
 
 Sync OAuth from Maker Tool Stack after login:
 

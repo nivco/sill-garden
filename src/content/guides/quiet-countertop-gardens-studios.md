@@ -11,6 +11,7 @@ products:
   - name: Click & Grow Smart Garden 3
     note: No pump — strongest silence pick
     asin: B01MRVMKQH
+    partner: click-grow
   - name: Kratky mason jar setup
     note: Silent DIY; needs light strategy
     search: Kratky hydroponic mason jar kit

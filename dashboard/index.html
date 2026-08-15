@@ -115,6 +115,16 @@
       padding: 0.45rem 0; border-bottom: 1px solid var(--border); font-size: 0.88rem;
     }
     .checks li:last-child { border-bottom: 0; }
+    .tasks { list-style: none; margin: 0; padding: 0; }
+    .tasks li { padding: 0.6rem 0; border-bottom: 1px solid var(--border); }
+    .tasks li:last-child { border-bottom: 0; }
+    .tasks li.done { opacity: 0.55; }
+    .task-title { font-weight: 650; font-size: 0.9rem; }
+    .task-detail { color: var(--muted); font-size: 0.8rem; margin-top: 0.15rem; }
+    .status-active { color: var(--ok); }
+    .status-applied { color: var(--warn); }
+    .status-not-applied { color: var(--bad); }
+    code { color: #b8e8c4; }
     .muted { color: var(--muted); }
     .err { color: #fca5a5; font-size: 0.9rem; }
     a { color: var(--leaf2); }
@@ -122,19 +132,27 @@
 </head>
 <body>
   <h1>Sill Garden — ops</h1>
-  <p class="sub">Private local scorecard · views · affiliate clicks · search · YouTube · Amazon</p>
+  <p class="sub">Private growth cockpit · traffic → content → affiliate clicks → revenue</p>
   <div class="toolbar">
     <button id="refreshBtn" type="button">Refresh</button>
     <span id="updated" class="muted">—</span>
     <div class="links">
       <a href="https://sillgarden.com" target="_blank" rel="noopener">Site</a>
       <a href="https://affiliate-program.amazon.com/" target="_blank" rel="noopener">Associates</a>
+      <a href="https://studio.youtube.com/" target="_blank" rel="noopener">YouTube Studio</a>
+      <a href="https://analytics.google.com/" target="_blank" rel="noopener">GA4</a>
+      <a href="https://search.google.com/search-console" target="_blank" rel="noopener">GSC</a>
       <a href="http://127.0.0.1:8792/" target="_blank" rel="noopener">Portfolio</a>
     </div>
   </div>
 
   <div id="headline" class="headline">Loading…</div>
   <div id="hero" class="hero"></div>
+
+  <section class="card" style="margin-bottom: 1rem">
+    <h2>Do next</h2>
+    <ul id="actions" class="tasks"></ul>
+  </section>
 
   <div class="grid-2">
     <section class="card">
@@ -149,19 +167,19 @@
 
   <div class="grid-2">
     <section class="card">
-      <h2>Top pages (GA4 · 7d)</h2>
-      <div id="pages"></div>
+      <h2>Traffic sources (GA4 · 7d)</h2>
+      <div id="trafficSources"></div>
     </section>
     <section class="card">
-      <h2>Search queries (GSC · 7d)</h2>
-      <div id="queries"></div>
+      <h2>Top pages (GA4 · 7d)</h2>
+      <div id="pages"></div>
     </section>
   </div>
 
   <div class="grid-2">
     <section class="card">
-      <h2>Affiliate clicks by link</h2>
-      <div id="affLinks"></div>
+      <h2>Search queries (GSC · 7d)</h2>
+      <div id="queries"></div>
     </section>
     <section class="card">
       <h2>YouTube</h2>
@@ -169,9 +187,14 @@
     </section>
   </div>
 
+  <section class="card" style="margin-bottom: 1rem">
+    <h2>Affiliate programs and earnings</h2>
+    <div id="affiliatePrograms"></div>
+  </section>
+
   <section class="card" style="margin-bottom: 2rem">
-    <h2>Amazon Associates (manual)</h2>
-    <div id="amazon"></div>
+    <h2>Affiliate click detail (GA4 · 7d)</h2>
+    <div id="affLinks"></div>
   </section>
 
   <script>
@@ -180,6 +203,11 @@
     const n = (v) => {
       const x = Number(v);
       return Number.isFinite(x) ? x.toLocaleString() : '—';
+    };
+    const esc = (value) => {
+      const node = document.createElement('span');
+      node.textContent = value == null ? '' : String(value);
+      return node.innerHTML;
     };
 
     function heroCard(label, value, hint, featured) {
@@ -206,10 +234,21 @@
         heroCard('Sessions', n(hero.sessions_7d), 'GA4 · 7 days', true),
         heroCard('Page views', n(hero.pageviews_7d), 'GA4 · 7 days', true),
         heroCard('Affiliate clicks', n(hero.affiliate_clicks_7d), 'GA4 affiliate_click', true),
+        heroCard('Affiliate CTR', `${Number(hero.affiliate_ctr_pct || 0).toFixed(1)}%`, 'Clicks ÷ sessions', true),
         heroCard('GSC clicks', n(hero.gsc_clicks_7d), `${n(hero.gsc_impressions_7d)} impr.`, false),
         heroCard('YT → site', n(hero.youtube_sessions_7d), 'Sessions from YouTube', false),
-        heroCard('Amazon $', hero.amazon_earnings_7d_usd != null ? `$${Number(hero.amazon_earnings_7d_usd).toFixed(2)}` : '—', 'Manual paste', false),
+        heroCard('Engagement', `${Number(hero.engagement_rate_pct || 0).toFixed(1)}%`, 'GA4 engaged sessions', false),
+        heroCard('Revenue', hero.amazon_earnings_7d_usd != null ? `$${Number(hero.amazon_earnings_7d_usd).toFixed(2)}` : '—', 'Confirmed affiliate revenue', false),
       ].join('');
+
+      const actions = data.actions || [];
+      $('actions').innerHTML = actions.length
+        ? actions.map((a) => `<li class="${a.done ? 'done' : ''}">
+            <div><span class="pill ${a.priority === 'P0' ? 'bad' : a.priority === 'P1' ? 'warn' : ''}">${esc(a.priority || 'P2')}</span>
+              <span class="task-title">${esc(a.title)}</span></div>
+            <div class="task-detail">${esc(a.detail || '')}</div>
+          </li>`).join('')
+        : '<li class="muted">No queued actions. Run the traffic optimizer after refresh.</li>';
 
       const checks = setup.checks || [];
       $('checks').innerHTML = checks.length
@@ -224,23 +263,37 @@
       const pages = ((sources.ga4 || {}).top_pages) || [];
       $('pages').innerHTML = pages.length
         ? table(['Path', 'Sessions', 'Views'], pages.slice(0, 8).map((p) =>
-            `<tr><td>${p.pagePath || ''}</td><td>${n(p.sessions)}</td><td>${n(p.screenPageViews)}</td></tr>`
+            `<tr><td>${esc(p.pagePath)}</td><td>${n(p.sessions)}</td><td>${n(p.screenPageViews)}</td></tr>`
           ).join(''))
         : `<p class="muted">${(sources.ga4 || {}).error || (sources.ga4 || {}).skipped || 'Connect GA4'}</p>`;
+
+      const traffic = ((sources.ga4 || {}).source_medium) || [];
+      $('trafficSources').innerHTML = traffic.length
+        ? table(['Source / medium', 'Sessions', 'Engaged'], traffic.slice(0, 10).map((r) =>
+            `<tr><td>${esc(r.sessionSourceMedium)}</td><td>${n(r.sessions)}</td><td>${n(r.engagedSessions)}</td></tr>`
+          ).join(''))
+        : '<p class="muted">No source data yet.</p>';
 
       const queries = ((sources.gsc || {}).top_queries) || [];
       $('queries').innerHTML = queries.length
         ? table(['Query', 'Clicks', 'Impr.', 'Pos'], queries.slice(0, 8).map((q) =>
-            `<tr><td>${q.query || ''}</td><td>${n(q.clicks)}</td><td>${n(q.impressions)}</td><td>${fmt(q.position)}</td></tr>`
+            `<tr><td>${esc(q.query)}</td><td>${n(q.clicks)}</td><td>${n(q.impressions)}</td><td>${fmt(q.position)}</td></tr>`
           ).join(''))
         : `<p class="muted">${(sources.gsc || {}).error || (sources.gsc || {}).skipped || 'Connect Search Console'}</p>`;
 
       const links = ((sources.ga4 || {}).affiliate_links) || [];
       const realLinks = links.filter((r) => r.link_url);
-      $('affLinks').innerHTML = realLinks.length
+      const networks = (sources.ga4 || {}).affiliate_networks || {};
+      const networkRows = Object.entries(networks).map(([name, clicks]) =>
+        `<tr><td>${name}</td><td>${n(clicks)}</td></tr>`
+      ).join('');
+      const linkTable = realLinks.length
         ? table(['Link', 'Clicks'], realLinks.slice(0, 10).map((r) =>
-            `<tr><td style="word-break:break-all"><a href="${r.link_url}" target="_blank" rel="noopener">${r.link_url}</a></td><td>${n(r.clicks)}</td></tr>`
+            `<tr><td style="word-break:break-all"><a href="${esc(r.link_url)}" target="_blank" rel="noopener">${esc(r.link_url)}</a></td><td>${n(r.clicks)}</td></tr>`
           ).join(''))
+        : '';
+      $('affLinks').innerHTML = networkRows
+        ? table(['Network', 'Clicks'], networkRows) + linkTable
         : `<p class="muted">${(links[0] && links[0].note) || 'No affiliate_click events yet'}</p>`;
 
       const yt = sources.youtube || {};
@@ -248,21 +301,27 @@
       const vids = yt.recent_videos || [];
       if (ch.id) {
         $('youtube').innerHTML = `
-          <p><strong>${ch.title || 'Channel'}</strong> · ${n(ch.subscribers)} subs · ${n(ch.views)} views</p>
+          <p><strong>${esc(ch.title || 'Channel')}</strong> ${ch.handle ? `(${esc(ch.handle)})` : ''}<br>
+             ${n(ch.subscribers)} subs · ${n(ch.views)} views · ${n(ch.videos)} videos · ${n(hero.youtube_sessions_7d)} site sessions</p>
           ${vids.length ? table(['Video', 'Views'], vids.slice(0, 6).map((v) =>
-            `<tr><td><a href="${v.url}" target="_blank" rel="noopener">${v.title || v.id}</a></td><td>${n(v.views)}</td></tr>`
+            `<tr><td><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title || v.id)}</a></td><td>${n(v.views)}</td></tr>`
           ).join('')) : '<p class="muted">No recent videos</p>'}`;
       } else {
         $('youtube').innerHTML = `<p class="muted">${yt.error || yt.skipped || 'Not connected'}</p>`;
       }
 
-      const amz = sources.amazon || {};
-      $('amazon').innerHTML = `
-        <p>Tag: <code>sillgarden09-20</code></p>
-        <p>Clicks (7d): <strong>${fmt(amz.clicks_7d)}</strong> ·
-           Orders: <strong>${fmt(amz.ordered_items_7d)}</strong> ·
-           Earnings: <strong>${amz.earnings_7d_usd != null ? '$' + Number(amz.earnings_7d_usd).toFixed(2) : '—'}</strong></p>
-        <p class="muted">${amz.note || amz.error || 'Edit products/analytics/amazon-manual.json after Associates reports.'}</p>`;
+      const programs = ((data.monetization || {}).affiliate_programs) || [];
+      $('affiliatePrograms').innerHTML = programs.length
+        ? table(['Program', 'Status', 'Site clicks', 'Portal clicks', 'Orders', 'Revenue', 'Next step'],
+            programs.map((p) => `<tr>
+              <td><strong>${esc(p.name)}</strong><div class="muted"><code>${esc(p.network)}</code></div></td>
+              <td class="status-${esc(p.status)}">${esc(p.status)}</td>
+              <td>${n(p.site_clicks_7d)}</td><td>${fmt(p.portal_clicks_7d)}</td>
+              <td>${fmt(p.orders_7d)}</td>
+              <td>${p.earnings_7d_usd == null ? '—' : '$' + Number(p.earnings_7d_usd).toFixed(2)}</td>
+              <td class="muted">${esc(p.next_step)}</td>
+            </tr>`).join(''))
+        : '<p class="muted">No affiliate programs configured.</p>';
     }
 
     async function loadCached() {

@@ -9,6 +9,7 @@ node_modules/
 .env
 .env.*
 !.env.example
+secrets/
 .DS_Store
 Thumbs.db
 
@@ -30,3 +31,5 @@ __pycache__/
 products/youtube/**/_build/
 products/youtube/**/*.mp4
 products/youtube/**/concat.txt
+
+.tmp-yt-bak/

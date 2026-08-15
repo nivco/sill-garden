@@ -22,6 +22,8 @@ OUT_DIR = ROOT / "products" / "analytics"
 LATEST = OUT_DIR / "latest.json"
 HISTORY = OUT_DIR / "history.json"
 AMAZON_MANUAL = OUT_DIR / "amazon-manual.json"
+YOUTUBE_ACCESS = ROOT / "products" / "youtube" / "youtube-access-status.json"
+ACTION_QUEUE = ROOT / "products" / "traffic" / "action-queue.json"
 SITE_URL = "https://sillgarden.com"
 
 
@@ -232,8 +234,25 @@ def fetch_ga4(property_id: str) -> dict:
             "orderBys": [{"desc": True, "metric": {"metricName": "sessions"}}],
         }
     )
+    source_medium = dim_rows(
+        {
+            "dateRanges": range_7d,
+            "metrics": [{"name": "sessions"}, {"name": "engagedSessions"}],
+            "dimensions": [{"name": "sessionSourceMedium"}],
+            "limit": 12,
+            "orderBys": [{"desc": True, "metric": {"metricName": "sessions"}}],
+        },
+        limit=12,
+    )
 
-    # affiliate_click events
+    # Affiliate events. Network-specific event names avoid requiring GA4 custom dimensions.
+    affiliate_event_names = [
+        "affiliate_click",
+        "affiliate_click_amazon",
+        "affiliate_click_click_grow",
+        "affiliate_click_gardeners_supply",
+        "outbound_click",
+    ]
     events_report = ga4_run_report(
         token,
         property_id,
@@ -244,7 +263,7 @@ def fetch_ga4(property_id: str) -> dict:
             "dimensionFilter": {
                 "filter": {
                     "fieldName": "eventName",
-                    "inListFilter": {"values": ["affiliate_click", "outbound_click"]},
+                    "inListFilter": {"values": affiliate_event_names},
                 }
             },
         },
@@ -254,64 +273,82 @@ def fetch_ga4(property_id: str) -> dict:
         name = row["dimensionValues"][0]["value"]
         count = int(float(row["metricValues"][0]["value"]))
         events[name] = count
+    affiliate_networks = {
+        "Amazon Associates": events.get("affiliate_click_amazon", 0),
+        "Click & Grow": events.get("affiliate_click_click_grow", 0),
+        "Gardener's Supply": events.get("affiliate_click_gardeners_supply", 0),
+    }
 
-    # clicks by link_url
-    link_rows = []
-    try:
-        link_report = ga4_run_report(
-            token,
-            property_id,
-            {
-                "dateRanges": range_7d,
-                "metrics": [{"name": "eventCount"}],
-                "dimensions": [{"name": "customEvent:link_url"}],
-                "dimensionFilter": {
-                    "filter": {
-                        "fieldName": "eventName",
-                        "stringFilter": {"matchType": "EXACT", "value": "affiliate_click"},
-                    }
-                },
-                "limit": 15,
-                "orderBys": [{"desc": True, "metric": {"metricName": "eventCount"}}],
-            },
-        )
-        for row in link_report.get("rows") or []:
-            link_rows.append(
+    # Per-link clicks: GA4 registers event params under different dimension names.
+    link_rows: list[dict] = []
+    link_dim_used = None
+    for dim in (
+        "customEvent:link_url",
+        "link_url",
+        "customEvent:linkUrl",
+        "linkUrl",
+        "customEvent:link_domain",
+        "link_domain",
+    ):
+        try:
+            link_report = ga4_run_report(
+                token,
+                property_id,
                 {
-                    "link_url": row["dimensionValues"][0]["value"],
-                    "clicks": int(float(row["metricValues"][0]["value"])),
-                }
+                    "dateRanges": range_7d,
+                    "metrics": [{"name": "eventCount"}],
+                    "dimensions": [{"name": dim}],
+                    "dimensionFilter": {
+                        "filter": {
+                            "fieldName": "eventName",
+                            "stringFilter": {"matchType": "EXACT", "value": "affiliate_click"},
+                        }
+                    },
+                    "limit": 15,
+                    "orderBys": [{"desc": True, "metric": {"metricName": "eventCount"}}],
+                },
             )
-    except Exception as exc:  # noqa: BLE001
-        link_rows = [{"note": f"link_url dimension needs GA4 custom dim or wait for events: {exc}"[:180]}]
+        except Exception:  # noqa: BLE001
+            continue
+        rows: list[dict] = []
+        for row in link_report.get("rows") or []:
+            link = (row.get("dimensionValues") or [{}])[0].get("value") or ""
+            count = int(float((row.get("metricValues") or [{}])[0].get("value") or 0))
+            if link and link not in ("(not set)", "(none)") and count:
+                rows.append({"link_url": link, "clicks": count})
+        if rows:
+            link_rows = rows
+            link_dim_used = dim
+            break
+    if not link_rows:
+        if int(events.get("affiliate_click") or 0) > 0:
+            link_rows = [
+                {
+                    "note": (
+                        "affiliate_click events exist, but no reportable link_url/link_domain "
+                        "dimension yet. Register link_url as a GA4 custom dimension or wait "
+                        "for more attributed events."
+                    )
+                }
+            ]
+        else:
+            link_rows = [{"note": "No affiliate_click events in the last 7 days"}]
 
-    # YouTube referral sessions
-    yt_sessions = 0
-    try:
-        src_report = ga4_run_report(
-            token,
-            property_id,
-            {
-                "dateRanges": range_7d,
-                "metrics": [{"name": "sessions"}],
-                "dimensions": [{"name": "sessionSource"}],
-                "limit": 30,
-                "orderBys": [{"desc": True, "metric": {"metricName": "sessions"}}],
-            },
-        )
-        for row in src_report.get("rows") or []:
-            src = (row["dimensionValues"][0]["value"] or "").lower()
-            if "youtube" in src:
-                yt_sessions += int(float(row["metricValues"][0]["value"]))
-    except Exception:  # noqa: BLE001
-        pass
+    yt_sessions = sum(
+        int(float(row.get("sessions") or 0))
+        for row in source_medium
+        if "youtube" in (row.get("sessionSourceMedium") or "").lower()
+    )
 
     return {
         "totals": totals,
         "top_pages": top_pages,
         "entry_channels": channels,
+        "source_medium": source_medium,
         "events": events,
+        "affiliate_networks": affiliate_networks,
         "affiliate_links": link_rows,
+        "affiliate_link_dimension": link_dim_used,
         "sessions_from_youtube": yt_sessions,
         "affiliate_clicks_7d": int(events.get("affiliate_click") or 0),
     }
@@ -432,6 +469,12 @@ def fetch_youtube() -> dict:
         return {"skipped": "Set YOUTUBE_API_KEY"}
     handle = (os.environ.get("YOUTUBE_CHANNEL_HANDLE") or "").strip().lstrip("@")
     channel_id = (os.environ.get("YOUTUBE_CHANNEL_ID") or "").strip()
+    if not channel_id and YOUTUBE_ACCESS.is_file():
+        try:
+            access = json.loads(YOUTUBE_ACCESS.read_text(encoding="utf-8"))
+            channel_id = str(((access.get("channel") or {}).get("id")) or "").strip()
+        except json.JSONDecodeError:
+            pass
 
     def yt_get(path: str, params: dict) -> dict:
         params = {**params, "key": api_key}
@@ -482,6 +525,7 @@ def fetch_youtube() -> dict:
         "channel": {
             "id": channel_id,
             "title": snippet.get("title"),
+            "handle": snippet.get("customUrl"),
             "subscribers": int(stats.get("subscriberCount") or 0),
             "views": int(stats.get("viewCount") or 0),
             "videos": int(stats.get("videoCount") or 0),
@@ -494,6 +538,7 @@ def load_amazon_manual() -> dict:
     if not AMAZON_MANUAL.is_file():
         return {
             "skipped": True,
+            "configured": False,
             "note": "Paste Associates reports into products/analytics/amazon-manual.json",
             "clicks_7d": None,
             "ordered_items_7d": None,
@@ -501,10 +546,83 @@ def load_amazon_manual() -> dict:
         }
     try:
         data = json.loads(AMAZON_MANUAL.read_text(encoding="utf-8"))
-        data["skipped"] = False
-        return data
     except json.JSONDecodeError as exc:
-        return {"error": str(exc), "skipped": True}
+        return {"error": str(exc), "skipped": True, "configured": False}
+
+    updated = str(data.get("updated") or "").strip()
+    has_numbers = any(
+        data.get(key) is not None
+        for key in ("clicks_7d", "ordered_items_7d", "earnings_7d_usd")
+    )
+    configured = bool(updated) and updated.upper() != "YYYY-MM-DD" and has_numbers
+    data["configured"] = configured
+    data["skipped"] = not configured
+    if not configured:
+        data["note"] = (
+            data.get("notes")
+            or "Manual Amazon report is still a placeholder — paste weekly Associates numbers."
+        )
+    return data
+
+
+def affiliate_programs(ga4: dict, amazon: dict) -> list[dict]:
+    networks = ga4.get("affiliate_networks") or {}
+    amazon_configured = bool(amazon.get("configured"))
+    click_grow = bool((os.environ.get("PUBLIC_CLICK_GROW_AFFILIATE_URL") or "").strip())
+    gardeners = bool((os.environ.get("PUBLIC_GARDENERS_SUPPLY_AFFILIATE_URL") or "").strip())
+    return [
+        {
+            "name": "Amazon Associates",
+            "network": "amazon-associates",
+            "status": "reporting" if amazon_configured else "active",
+            "site_clicks_7d": networks.get("Amazon Associates", 0),
+            "portal_clicks_7d": amazon.get("clicks_7d") if amazon_configured else None,
+            "orders_7d": amazon.get("ordered_items_7d") if amazon_configured else None,
+            "earnings_7d_usd": amazon.get("earnings_7d_usd") if amazon_configured else None,
+            "next_step": (
+                f"Manual report updated {amazon.get('updated')}."
+                if amazon_configured
+                else "Tagged links are live (sillgarden09-20). Paste weekly Associates numbers into amazon-manual.json."
+            ),
+        },
+        {
+            "name": "Click & Grow",
+            "network": "click-grow",
+            "status": "active" if click_grow else "applied",
+            "site_clicks_7d": networks.get("Click & Grow", 0),
+            "portal_clicks_7d": None,
+            "orders_7d": None,
+            "earnings_7d_usd": None,
+            "next_step": (
+                "Direct tracking URL configured."
+                if click_grow
+                else "Await approval, then set PUBLIC_CLICK_GROW_AFFILIATE_URL in GitHub and Cloudflare."
+            ),
+        },
+        {
+            "name": "Gardener's Supply",
+            "network": "gardeners-supply",
+            "status": "active" if gardeners else "not-applied",
+            "site_clicks_7d": networks.get("Gardener's Supply", 0),
+            "portal_clicks_7d": None,
+            "orders_7d": None,
+            "earnings_7d_usd": None,
+            "next_step": (
+                "Impact tracking URL configured."
+                if gardeners
+                else "Apply through Impact after Click & Grow; Amazon fallback remains live."
+            ),
+        },
+    ]
+
+
+def load_actions() -> list[dict]:
+    if not ACTION_QUEUE.is_file():
+        return []
+    try:
+        return (json.loads(ACTION_QUEUE.read_text(encoding="utf-8")).get("actions") or [])[:12]
+    except json.JSONDecodeError:
+        return []
 
 
 def build_setup_checklist(sources: dict) -> list[dict]:
@@ -549,11 +667,25 @@ def build_setup_checklist(sources: dict) -> list[dict]:
         yt.get("error") or yt.get("skipped") or (yt.get("channel") or {}).get("title") or "Connected",
     )
 
-    amz = sources.get("amazon") or {}
+    links = ga4.get("affiliate_links") or []
+    link_ok = bool(ga4.get("affiliate_link_dimension")) or not any(
+        isinstance(row, dict) and row.get("note") and "dimension" in str(row.get("note")).lower()
+        for row in links
+    )
+    if ga4.get("error") or ga4.get("skipped"):
+        link_ok = False
     add(
-        "Amazon earnings (manual)",
-        amz.get("earnings_7d_usd") is not None and not amz.get("skipped"),
-        amz.get("note") or amz.get("error") or "Manual JSON present",
+        "Affiliate click counters",
+        bool(ga4.get("totals")) and link_ok and not ga4.get("error") and not ga4.get("skipped"),
+        (
+            ga4.get("error")
+            or ga4.get("skipped")
+            or (
+                f"Per-link via {ga4.get('affiliate_link_dimension')}"
+                if ga4.get("affiliate_link_dimension")
+                else (links[0].get("note") if links and isinstance(links[0], dict) else "Network event counters ready")
+            )
+        ),
     )
     return checks
 
@@ -648,6 +780,13 @@ def main() -> int:
         "amazon_clicks_7d": amz.get("clicks_7d"),
         "amazon_ordered_7d": amz.get("ordered_items_7d"),
         "amazon_earnings_7d_usd": amz.get("earnings_7d_usd"),
+        "engagement_rate_pct": totals.get("engagementRate_pct"),
+        "affiliate_ctr_pct": (
+            round((ga4.get("affiliate_clicks_7d") or 0) / totals.get("sessions") * 100, 1)
+            if totals.get("sessions")
+            else 0
+        ),
+        "youtube_videos": yt_ch.get("videos"),
     }
 
     insights: list[str] = []
@@ -674,6 +813,8 @@ def main() -> int:
         "amazon_tag": "sillgarden09-20",
         "hero": hero,
         "sources": sources,
+        "monetization": {"affiliate_programs": affiliate_programs(ga4, amz)},
+        "actions": load_actions(),
         "insights": insights,
         "setup": {"ready": ready, "total": len(checklist), "checks": checklist},
         "summary": {

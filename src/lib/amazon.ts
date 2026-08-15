@@ -25,15 +25,61 @@ export type ProductLinkInput = {
   url?: string;
   asin?: string;
   search?: string;
+  partner?: 'amazon' | 'click-grow' | 'gardeners-supply';
 };
 
-/** Resolve the best affiliate href for a product pick. */
+export type ResolvedProductLink = {
+  href?: string;
+  merchant: string;
+  network: string;
+};
+
+const directPartnerUrls = {
+  'click-grow': import.meta.env.PUBLIC_CLICK_GROW_AFFILIATE_URL || '',
+  'gardeners-supply': import.meta.env.PUBLIC_GARDENERS_SUPPLY_AFFILIATE_URL || '',
+} as const;
+
+const partnerLabels = {
+  amazon: 'Amazon',
+  'click-grow': 'Click & Grow',
+  'gardeners-supply': "Gardener's Supply",
+} as const;
+
+/** Prefer an approved direct program; fall back to the tagged Amazon link. */
+export function productLink(p: ProductLinkInput): ResolvedProductLink {
+  if (p.url) {
+    return {
+      href: p.url,
+      merchant: p.partner ? partnerLabels[p.partner] : 'Partner store',
+      network: p.partner || 'direct',
+    };
+  }
+
+  if (p.partner && p.partner !== 'amazon') {
+    const directUrl = directPartnerUrls[p.partner];
+    if (directUrl) {
+      return {
+        href: directUrl,
+        merchant: partnerLabels[p.partner],
+        network: p.partner,
+      };
+    }
+  }
+
+  const href = p.asin
+    ? amazonDp(p.asin)
+    : p.search
+      ? amazonSearch(p.search)
+      : site.amazonTag
+        ? amazonSearch(p.name)
+        : undefined;
+
+  return { href, merchant: 'Amazon', network: 'amazon-associates' };
+}
+
+/** Backwards-compatible href-only resolver. */
 export function productHref(p: ProductLinkInput): string | undefined {
-  if (p.url) return p.url;
-  if (p.asin) return amazonDp(p.asin);
-  if (p.search) return amazonSearch(p.search);
-  if (site.amazonTag) return amazonSearch(p.name);
-  return undefined;
+  return productLink(p).href;
 }
 
 /** Plain tagged links for YouTube / social descriptions (no HTML). */

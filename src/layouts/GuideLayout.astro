@@ -2,7 +2,7 @@
 import BaseLayout from './BaseLayout.astro';
 import type { CollectionEntry } from 'astro:content';
 import { clusters } from '../lib/site';
-import { productHref } from '../lib/amazon';
+import { productLink } from '../lib/amazon';
 
 interface Props {
   guide: CollectionEntry<'guides'>;
@@ -25,10 +25,10 @@ const {
 
 const clusterLabel = clusters[cluster].title;
 const productCards =
-  products?.map((p) => ({
-    ...p,
-    href: productHref(p),
-  })) ?? [];
+  products?.map((p) => {
+    const link = productLink(p);
+    return { ...p, ...link };
+  }) ?? [];
 ---
 
 <BaseLayout title={title} description={description} image={image}>
@@ -90,8 +90,11 @@ const productCards =
                     href={p.href}
                     rel="nofollow sponsored noopener"
                     target="_blank"
+                    data-affiliate-network={p.network}
+                    data-affiliate-product={p.name}
+                    data-affiliate-merchant={p.merchant}
                   >
-                    Check price on Amazon
+                    Check price at {p.merchant}
                   </a>
                 ) : (
                   <p class="product-card__soon">Amazon link coming soon</p>

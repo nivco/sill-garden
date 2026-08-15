@@ -1,0 +1,8 @@
+{
+  "auto_publish_enabled": false,
+  "default_privacy": "unlisted",
+  "min_days_between": 7,
+  "max_uploads_per_day": 1,
+  "manual_queue": [],
+  "notes": "Enable auto_publish_enabled only after reviewing unlisted CI uploads. Keep weekly cadence."
+}
