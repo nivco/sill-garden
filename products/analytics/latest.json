@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-14 12:46 UTC",
+  "generated_at": "2026-08-15 00:48 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 11,
-    "users_7d": 10,
-    "pageviews_7d": 11,
+    "sessions_7d": 24,
+    "users_7d": 23,
+    "pageviews_7d": 25,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 0,
@@ -26,26 +26,31 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 10,
-        "sessions": 11,
-        "screenPageViews": 11,
+        "activeUsers": 23,
+        "sessions": 24,
+        "screenPageViews": 25,
         "engagedSessions": 0,
-        "averageSessionDuration_sec": 2.0,
+        "averageSessionDuration_sec": 3.0,
         "engagementRate_pct": 0.0
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "9",
-          "screenPageViews": "8"
+          "sessions": "16",
+          "screenPageViews": "16"
         },
         {
           "pagePath": "/guides/",
-          "sessions": "1",
-          "screenPageViews": "1"
+          "sessions": "2",
+          "screenPageViews": "2"
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
+          "sessions": "2",
+          "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/disclosure/",
           "sessions": "1",
           "screenPageViews": "1"
         },
@@ -53,16 +58,31 @@
           "pagePath": "/guides/best-countertop-garden-apartments/",
           "sessions": "1",
           "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/guides/landlord-safe-indoor-garden-setup/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/guides/quiet-countertop-gardens-studios/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/guides/windowsill-herbs-without-kit/",
+          "sessions": "1",
+          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "10"
+          "sessions": "24"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "2"
+          "sessions": "3"
         }
       ],
       "events": {
@@ -147,6 +167,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 11 | Aff clicks 1 | GSC 0 | Setup 5/7"
+    "headline": "Sessions 24 | Aff clicks 1 | GSC 0 | Setup 5/7"
   }
 }
