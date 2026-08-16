@@ -7,17 +7,78 @@ import json
 import socket
 import subprocess
 import sys
+import time
 from http.server import BaseHTTPRequestHandler, HTTPServer
 from pathlib import Path
-from urllib.parse import urlparse
+from urllib.parse import parse_qs, urlparse
 
 ROOT = Path(__file__).resolve().parents[1]
 DASHBOARD_HTML = ROOT / "dashboard" / "index.html"
 LATEST_JSON = ROOT / "products" / "analytics" / "latest.json"
+ACTION_QUEUE = ROOT / "products" / "traffic" / "action-queue.json"
 PORT = 8793
 NO_CACHE = ("Cache-Control", "no-store, no-cache, must-revalidate")
+SERVER_TAG = "v2-live-refresh"
 
 _refresh_lock = False
+
+
+def read_json(path: Path) -> dict:
+    """Read JSON, retrying briefly: a script may still be writing the file."""
+    if not path.is_file():
+        return {}
+    last_err: Exception | None = None
+    for _ in range(3):
+        try:
+            return json.loads(path.read_text(encoding="utf-8"))
+        except Exception as exc:  # noqa: BLE001 - keep the dashboard up
+            last_err = exc
+            time.sleep(0.05)
+    print(f"warning: failed to read {path.name}: {last_err}", file=sys.stderr)
+    return {}
+
+
+def run_script(name: str, timeout: int = 240) -> subprocess.CompletedProcess:
+    return subprocess.run(
+        [sys.executable, str(ROOT / "scripts" / name)],
+        cwd=str(ROOT),
+        capture_output=True,
+        text=True,
+        timeout=timeout,
+        check=False,
+    )
+
+
+def scorecard_payload(source: str) -> dict:
+    data = read_json(LATEST_JSON)
+    queue = read_json(ACTION_QUEUE)
+    if queue.get("actions"):
+        data["actions"] = queue["actions"][:12]
+    data["traffic"] = queue
+    data["_source"] = source
+    data["_server"] = SERVER_TAG
+    if LATEST_JSON.is_file():
+        data["_age_sec"] = int(time.time() - LATEST_JSON.stat().st_mtime)
+    return data
+
+
+def run_live() -> tuple[dict, dict]:
+    """Pull GA4/GSC fresh, then re-run the optimizer so actions match the new data."""
+    proc = run_script("analytics_summary.py")
+    opt_out = ""
+    opt_err = ""
+    if proc.returncode == 0:
+        opt = run_script("traffic_optimizer.py")
+        opt_out = (opt.stdout or "")[-1000:]
+        opt_err = (opt.stderr or "")[-1000:]
+    ok = proc.returncode == 0 and LATEST_JSON.is_file()
+    meta = {
+        "ok": ok,
+        "returncode": proc.returncode,
+        "stdout": ((proc.stdout or "") + ("\n" + opt_out if opt_out else ""))[-2000:],
+        "stderr": ((proc.stderr or "") + ("\n" + opt_err if opt_err else ""))[-2000:],
+    }
+    return scorecard_payload("live" if ok else "live-failed"), meta
 
 
 def port_in_use(host: str, port: int) -> bool:
@@ -45,88 +106,66 @@ class Handler(BaseHTTPRequestHandler):
         self.end_headers()
         self.wfile.write(body)
 
+    def _send_json(self, code: int, payload: dict) -> None:
+        self._send(code, json.dumps(payload).encode("utf-8"), "application/json")
+
+    def _refresh(self, wrapped: bool) -> None:
+        global _refresh_lock
+        if _refresh_lock:
+            self._send_json(409, {"ok": False, "busy": True, "error": "refresh already in progress"})
+            return
+        _refresh_lock = True
+        try:
+            data, meta = run_live()
+        finally:
+            _refresh_lock = False
+        code = 200 if meta["ok"] else 500
+        if wrapped:
+            meta["scorecard"] = data
+            self._send_json(code, meta)
+            return
+        if not meta["ok"]:
+            data["error"] = (meta["stderr"] or meta["stdout"] or "refresh failed").strip()[-800:]
+        self._send_json(code, data)
+
     def do_GET(self) -> None:  # noqa: N802
-        path = urlparse(self.path).path.rstrip("/") or "/"
+        parsed = urlparse(self.path)
+        path = parsed.path.rstrip("/") or "/"
+        query = parse_qs(parsed.query)
         if path in ("/", "/dashboard"):
             if not DASHBOARD_HTML.is_file():
                 self._send(404, b"dashboard missing", "text/plain")
                 return
             self._send(200, DASHBOARD_HTML.read_bytes(), "text/html; charset=utf-8")
             return
-        if path == "/api/scorecard":
-            if not LATEST_JSON.is_file():
-                payload = {
-                    "ok": False,
-                    "error": "No scorecard yet — click Refresh",
-                    "hero": {},
-                    "setup": {"checks": []},
-                    "insights": ["Run refresh to generate products/analytics/latest.json"],
-                }
-                raw = json.dumps(payload).encode("utf-8")
-                self._send(200, raw, "application/json")
+        if path in ("/api/scorecard", "/api/refresh"):
+            cached = query.get("cached", ["0"])[0] in ("1", "true")
+            if not cached:
+                self._refresh(wrapped=False)
                 return
-            self._send(200, LATEST_JSON.read_bytes(), "application/json")
+            if not LATEST_JSON.is_file():
+                self._send_json(
+                    200,
+                    {
+                        "ok": False,
+                        "error": "No scorecard yet — click Refresh",
+                        "hero": {},
+                        "setup": {"checks": []},
+                        "insights": ["Run refresh to generate products/analytics/latest.json"],
+                        "_source": "empty",
+                    },
+                )
+                return
+            self._send_json(200, scorecard_payload("cache"))
             return
         self._send(404, b"not found", "text/plain")
 
     def do_POST(self) -> None:  # noqa: N802
-        global _refresh_lock
         path = urlparse(self.path).path.rstrip("/") or "/"
         if path != "/api/refresh":
             self._send(404, b"not found", "text/plain")
             return
-        if _refresh_lock:
-            self._send(409, json.dumps({"ok": False, "error": "refresh in progress"}).encode(), "application/json")
-            return
-        _refresh_lock = True
-        try:
-            proc = subprocess.run(
-                [sys.executable, str(ROOT / "scripts" / "analytics_summary.py")],
-                cwd=str(ROOT),
-                capture_output=True,
-                text=True,
-                timeout=180,
-                check=False,
-            )
-            opt_out = ""
-            opt_err = ""
-            if proc.returncode == 0:
-                opt = subprocess.run(
-                    [sys.executable, str(ROOT / "scripts" / "traffic_optimizer.py")],
-                    cwd=str(ROOT),
-                    capture_output=True,
-                    text=True,
-                    timeout=180,
-                    check=False,
-                )
-                opt_out = (opt.stdout or "")[-1000:]
-                opt_err = (opt.stderr or "")[-1000:]
-                # Re-run scorecard so action queue is attached after optimizer writes it.
-                if opt.returncode == 0:
-                    proc2 = subprocess.run(
-                        [sys.executable, str(ROOT / "scripts" / "analytics_summary.py")],
-                        cwd=str(ROOT),
-                        capture_output=True,
-                        text=True,
-                        timeout=180,
-                        check=False,
-                    )
-                    if proc2.returncode == 0:
-                        proc = proc2
-            ok = proc.returncode == 0 and LATEST_JSON.is_file()
-            data = {}
-            if LATEST_JSON.is_file():
-                data = json.loads(LATEST_JSON.read_text(encoding="utf-8"))
-            payload = {
-                "ok": ok,
-                "returncode": proc.returncode,
-                "stdout": ((proc.stdout or "") + ("\n" + opt_out if opt_out else ""))[-2000:],
-                "stderr": ((proc.stderr or "") + ("\n" + opt_err if opt_err else ""))[-2000:],
-                "scorecard": data,
-            }
-            self._send(200 if ok else 500, json.dumps(payload).encode("utf-8"), "application/json")
-        finally:
-            _refresh_lock = False
+        self._refresh(wrapped=True)
 
 
 def main() -> int:
@@ -138,7 +177,8 @@ def main() -> int:
         print(f"Missing {DASHBOARD_HTML}")
         return 1
     print(f"Sill Garden dashboard -> http://{host}:{PORT}/dashboard")
-    print("Refresh runs analytics_summary.py + traffic_optimizer.py (reads .env)")
+    print("Live fetch = analytics_summary.py + traffic_optimizer.py (reads .env)")
+    print("GET /api/scorecard = live · GET /api/scorecard?cached=1 = last snapshot")
     HTTPServer((host, PORT), Handler).serve_forever()
     return 0
 

@@ -16,7 +16,13 @@ python scripts\analytics_summary.py
 python scripts\dashboard_server.py
 ```
 
-Open **http://127.0.0.1:8793/dashboard** → **Refresh**
+Open **http://127.0.0.1:8793/dashboard**
+
+Loading the page paints the cached scorecard, then pulls live GA4 + Search Console
+automatically (~10s) and re-runs the traffic optimizer. The header line tells you
+which one you are looking at (`live`, or `cached · 12m old`). **Refresh** repeats the
+live pull. Restart `dashboard_server.py` after editing it — the process does not reload
+its own code.
 
 Also appears on the portfolio shell: `E:\Projects\portfolio-dashboard` → http://127.0.0.1:8792/
 
