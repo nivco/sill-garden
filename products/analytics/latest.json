@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-16 00:51 UTC",
+  "generated_at": "2026-08-16 12:22 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 34,
-    "users_7d": 32,
-    "pageviews_7d": 38,
+    "sessions_7d": 39,
+    "users_7d": 37,
+    "pageviews_7d": 43,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 0,
@@ -19,8 +19,8 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 5.9,
-    "affiliate_ctr_pct": 2.9,
+    "engagement_rate_pct": 5.1,
+    "affiliate_ctr_pct": 2.6,
     "youtube_videos": 3
   },
   "sources": {
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 32,
-        "sessions": 34,
-        "screenPageViews": 38,
+        "activeUsers": 37,
+        "sessions": 39,
+        "screenPageViews": 43,
         "engagedSessions": 2,
-        "averageSessionDuration_sec": 2.9,
-        "engagementRate_pct": 5.9
+        "averageSessionDuration_sec": 2.5,
+        "engagementRate_pct": 5.1
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "23",
-          "screenPageViews": "23"
+          "sessions": "28",
+          "screenPageViews": "28"
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
@@ -83,7 +83,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "32"
+          "sessions": "37"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
@@ -97,7 +97,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "32",
+          "sessions": "37",
           "engagedSessions": "2"
         },
         {
@@ -379,7 +379,7 @@
         {
           "id": "NSLsa1eJxko",
           "title": "AeroGarden or Click & Grow? Pick in 30 Seconds #Shorts",
-          "views": 11,
+          "views": 23,
           "likes": 1,
           "published": "2026-08-15T18:06:54Z",
           "url": "https://www.youtube.com/watch?v=NSLsa1eJxko"
@@ -456,7 +456,7 @@
       "detail": "URL is unknown to Google \u2014 use Search Console URL Inspection \u2192 Request indexing once; the URL is already linked and in the sitemap.",
       "auto": false,
       "done": false,
-      "created": "2026-08-15 22:16 UTC"
+      "created": "2026-08-16 00:51 UTC"
     },
     {
       "priority": "P2",
@@ -465,16 +465,16 @@
       "detail": "Google inspection confirms 11/13 URLs indexed. No crawl fix is needed; allow ranking time and strengthen topic coverage.",
       "auto": false,
       "done": false,
-      "created": "2026-08-15 22:16 UTC"
+      "created": "2026-08-16 00:51 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-15 16:57 UTC (5.3h ago; min 20h).",
+      "detail": "Last ping 2026-08-15 16:57 UTC (7.9h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-15 22:16 UTC"
+      "created": "2026-08-16 00:51 UTC"
     }
   ],
   "insights": [
@@ -523,6 +523,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 34 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 39 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }
