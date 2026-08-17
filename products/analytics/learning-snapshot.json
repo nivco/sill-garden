@@ -1,13 +1,13 @@
 {
-  "generated_at": "2026-08-17 05:37 UTC",
+  "generated_at": "2026-08-17 15:13 UTC",
   "wow": {
-    "ga4_sessions_7d": 11.0,
+    "ga4_sessions_7d": 12.0,
     "gsc_impressions_7d": 2.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 44,
+    "sessions_7d": 46,
     "gsc_impressions_7d": 2,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
@@ -36,7 +36,7 @@
     "WORKING: YouTube Shorts can drive early sessions → Keep UTM’d guide links in descriptions; refresh descriptions weekly",
     "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
     "Top search demand: \"aerogarden vs\" (1 impr, pos 26.0).",
-    "Affiliate CTR signal: 1 clicks / 44 sessions.",
+    "Affiliate CTR signal: 1 clicks / 46 sessions.",
     "YouTube channel: 3 videos, 278 views, 3 site sessions from YouTube.",
     "YouTube publish log entries: 2."
   ]

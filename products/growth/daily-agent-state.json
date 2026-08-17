@@ -1,6 +1,8 @@
 {
-  "last_run": "2026-08-17 05:37 UTC",
-  "last_applied": [],
+  "last_run": "2026-08-17 15:13 UTC",
+  "last_applied": [
+    "IndexNow ping"
+  ],
   "last_summary": "products/growth/daily-summaries/2026-08-17.md",
   "last_distribution": "products/growth/distribution/2026-08-17.json"
 }
