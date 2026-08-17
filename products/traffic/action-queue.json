@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-17 05:35 UTC",
+  "generated_at": "2026-08-17 12:28 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
   "applied": [],
@@ -7,47 +7,65 @@
     {
       "priority": "P1",
       "category": "indexing",
-      "title": "Request indexing: best-countertop-garden-apartments",
-      "detail": "URL is unknown to Google — use Search Console URL Inspection → Request indexing once; the URL is already linked and in the sitemap.",
+      "title": "Request indexing: best-low-light-herbs-apartment",
+      "detail": "URL is unknown to Google \u2014 use Search Console URL Inspection \u2192 Request indexing once; the URL is already linked and in the sitemap.",
       "auto": false,
       "done": false,
-      "created": "2026-08-17 05:25 UTC"
+      "created": "2026-08-17 12:28 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "indexing",
+      "title": "Request indexing: cheapest-indoor-herb-garden-apartment",
+      "detail": "URL is unknown to Google \u2014 use Search Console URL Inspection \u2192 Request indexing once; the URL is already linked and in the sitemap.",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-17 12:28 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "indexing",
+      "title": "Request indexing: countertop-garden-running-cost",
+      "detail": "URL is unknown to Google \u2014 use Search Console URL Inspection \u2192 Request indexing once; the URL is already linked and in the sitemap.",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-17 12:28 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
-      "title": "Climb ranking for “aerogarden vs”",
-      "detail": "pos 26.0, 1 impr — match title/H1 to the query, add a clear verdict and FAQ covering both brand orders (A vs B and B vs A).",
+      "title": "Climb ranking for \u201caerogarden vs\u201d",
+      "detail": "pos 26.0, 1 impr \u2014 match title/H1 to the query, add a clear verdict and FAQ covering both brand orders (A vs B and B vs A).",
       "auto": false,
       "done": false,
-      "created": "2026-08-17 05:25 UTC"
+      "created": "2026-08-17 12:28 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
-      "title": "Climb ranking for “click and grow vs aerogarden”",
-      "detail": "pos 37.0, 1 impr — match title/H1 to the query, add a clear verdict and FAQ covering both brand orders (A vs B and B vs A).",
+      "title": "Climb ranking for \u201cclick and grow vs aerogarden\u201d",
+      "detail": "pos 37.0, 1 impr \u2014 match title/H1 to the query, add a clear verdict and FAQ covering both brand orders (A vs B and B vs A).",
       "auto": false,
       "done": false,
-      "created": "2026-08-17 05:25 UTC"
+      "created": "2026-08-17 12:28 UTC"
     },
     {
       "priority": "P2",
       "category": "seo",
       "title": "Search impressions without clicks yet",
-      "detail": "2 impressions / 0 clicks in 7d — climb ranking on early queries (title match + comparison depth) before chasing new keywords.",
+      "detail": "2 impressions / 0 clicks in 7d \u2014 climb ranking on early queries (title match + comparison depth) before chasing new keywords.",
       "auto": false,
       "done": false,
-      "created": "2026-08-17 05:25 UTC"
+      "created": "2026-08-17 12:28 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-17 00:48 UTC (4.6h ago; min 20h).",
+      "detail": "Last ping 2026-08-17 00:48 UTC (11.7h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-17 05:25 UTC"
+      "created": "2026-08-17 12:28 UTC"
     }
   ]
 }
