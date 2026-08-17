@@ -1,17 +1,17 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-17 05:25 UTC",
+  "generated_at": "2026-08-17 12:28 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 44,
+    "sessions_7d": 45,
     "users_7d": 42,
-    "pageviews_7d": 48,
+    "pageviews_7d": 49,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 2,
     "indexed_urls": 11,
-    "sitemap_urls": 13,
+    "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 3,
     "youtube_subs": 0,
@@ -19,8 +19,8 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 11.4,
-    "affiliate_ctr_pct": 2.3,
+    "engagement_rate_pct": 11.1,
+    "affiliate_ctr_pct": 2.2,
     "youtube_videos": 3
   },
   "sources": {
@@ -32,17 +32,17 @@
     "ga4": {
       "totals": {
         "activeUsers": 42,
-        "sessions": 44,
-        "screenPageViews": 48,
+        "sessions": 45,
+        "screenPageViews": 49,
         "engagedSessions": 5,
-        "averageSessionDuration_sec": 3.4,
-        "engagementRate_pct": 11.4
+        "averageSessionDuration_sec": 3.3,
+        "engagementRate_pct": 11.1
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "32",
-          "screenPageViews": "32"
+          "sessions": "33",
+          "screenPageViews": "33"
         },
         {
           "pagePath": "/guides/",
@@ -83,7 +83,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "41"
+          "sessions": "42"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
@@ -93,7 +93,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "41",
+          "sessions": "42",
           "engagedSessions": "4"
         },
         {
@@ -145,14 +145,14 @@
       "site_url": "sc-domain:sillgarden.com"
     },
     "indexing": {
-      "checked_at": "2026-08-15T22:13:55.875066+00:00",
+      "checked_at": "2026-08-17T09:46:22.673732+00:00",
       "site": "sc-domain:sillgarden.com",
       "sitemap": {
         "path": "https://sillgarden.com/sitemap-index.xml",
         "last_submitted": "2026-08-13T21:17:58.407Z",
         "is_pending": false,
         "is_sitemaps_index": true,
-        "last_downloaded": "2026-08-14T17:53:17.025Z",
+        "last_downloaded": "2026-08-16T12:50:04.099Z",
         "warnings": "0",
         "errors": "0",
         "contents": [
@@ -163,7 +163,7 @@
           }
         ]
       },
-      "sitemap_url_count": 13,
+      "sitemap_url_count": 16,
       "urls": [
         {
           "url": "https://sillgarden.com/",
@@ -184,18 +184,7 @@
         },
         {
           "url": "https://sillgarden.com/about/",
-          "verdict": "PASS",
-          "coverage_state": "Submitted and indexed",
-          "indexing_state": "INDEXING_ALLOWED",
-          "robots_txt_state": "ALLOWED",
-          "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-14T13:51:42Z",
-          "google_canonical": "https://sillgarden.com/about/",
-          "user_canonical": "https://sillgarden.com/about/",
-          "referring_urls": [
-            "https://sillgarden.com/guides/",
-            "https://sillgarden.com/sitemap-0.xml"
-          ]
+          "error": "The read operation timed out"
         },
         {
           "url": "https://sillgarden.com/credits/",
@@ -270,6 +259,44 @@
         },
         {
           "url": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "robots_txt_state": "ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "last_crawl_time": "2026-08-16T11:49:37Z",
+          "google_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+          "user_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+          "referring_urls": [
+            "https://sillgarden.com/sitemap-0.xml"
+          ]
+        },
+        {
+          "url": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
+          "verdict": "NEUTRAL",
+          "coverage_state": "URL is unknown to Google",
+          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "user_canonical": null,
+          "referring_urls": []
+        },
+        {
+          "url": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+          "verdict": "NEUTRAL",
+          "coverage_state": "URL is unknown to Google",
+          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "user_canonical": null,
+          "referring_urls": []
+        },
+        {
+          "url": "https://sillgarden.com/guides/countertop-garden-running-cost/",
           "verdict": "NEUTRAL",
           "coverage_state": "URL is unknown to Google",
           "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -354,14 +381,26 @@
         }
       ],
       "indexed_count": 11,
-      "not_indexed_count": 2,
+      "not_indexed_count": 5,
       "not_indexed_urls": [
+        {
+          "url": "https://sillgarden.com/about/",
+          "coverage_state": "The read operation timed out"
+        },
         {
           "url": "https://sillgarden.com/credits/",
           "coverage_state": "Discovered - currently not indexed"
         },
         {
-          "url": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+          "url": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
+          "coverage_state": "URL is unknown to Google"
+        },
+        {
+          "url": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+          "coverage_state": "URL is unknown to Google"
+        },
+        {
+          "url": "https://sillgarden.com/guides/countertop-garden-running-cost/",
           "coverage_state": "URL is unknown to Google"
         }
       ]
@@ -385,7 +424,7 @@
         {
           "id": "NSLsa1eJxko",
           "title": "AeroGarden or Click & Grow? Pick in 30 Seconds #Shorts",
-          "views": 42,
+          "views": 44,
           "likes": 1,
           "published": "2026-08-15T18:06:54Z",
           "url": "https://www.youtube.com/watch?v=NSLsa1eJxko"
@@ -435,12 +474,12 @@
       {
         "name": "Click & Grow",
         "network": "click-grow",
-        "status": "active",
+        "status": "applied",
         "site_clicks_7d": 0,
         "portal_clicks_7d": null,
         "orders_7d": null,
         "earnings_7d_usd": null,
-        "next_step": "Direct tracking URL configured."
+        "next_step": "Await approval, then set PUBLIC_CLICK_GROW_AFFILIATE_URL in GitHub and Cloudflare."
       },
       {
         "name": "Gardener's Supply",
@@ -547,6 +586,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 44 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 45 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }

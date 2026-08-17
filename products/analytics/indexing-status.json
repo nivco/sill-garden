@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-08-15T22:13:55.875066+00:00",
+  "checked_at": "2026-08-17T09:46:22.673732+00:00",
   "site": "sc-domain:sillgarden.com",
   "sitemap": {
     "path": "https://sillgarden.com/sitemap-index.xml",
     "last_submitted": "2026-08-13T21:17:58.407Z",
     "is_pending": false,
     "is_sitemaps_index": true,
-    "last_downloaded": "2026-08-14T17:53:17.025Z",
+    "last_downloaded": "2026-08-16T12:50:04.099Z",
     "warnings": "0",
     "errors": "0",
     "contents": [
@@ -17,7 +17,7 @@
       }
     ]
   },
-  "sitemap_url_count": 13,
+  "sitemap_url_count": 16,
   "urls": [
     {
       "url": "https://sillgarden.com/",
@@ -38,18 +38,7 @@
     },
     {
       "url": "https://sillgarden.com/about/",
-      "verdict": "PASS",
-      "coverage_state": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED",
-      "robots_txt_state": "ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-08-14T13:51:42Z",
-      "google_canonical": "https://sillgarden.com/about/",
-      "user_canonical": "https://sillgarden.com/about/",
-      "referring_urls": [
-        "https://sillgarden.com/guides/",
-        "https://sillgarden.com/sitemap-0.xml"
-      ]
+      "error": "The read operation timed out"
     },
     {
       "url": "https://sillgarden.com/credits/",
@@ -124,6 +113,44 @@
     },
     {
       "url": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-08-16T11:49:37Z",
+      "google_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+      "user_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+      "referring_urls": [
+        "https://sillgarden.com/sitemap-0.xml"
+      ]
+    },
+    {
+      "url": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
+    },
+    {
+      "url": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
+    },
+    {
+      "url": "https://sillgarden.com/guides/countertop-garden-running-cost/",
       "verdict": "NEUTRAL",
       "coverage_state": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -208,14 +235,26 @@
     }
   ],
   "indexed_count": 11,
-  "not_indexed_count": 2,
+  "not_indexed_count": 5,
   "not_indexed_urls": [
+    {
+      "url": "https://sillgarden.com/about/",
+      "coverage_state": "The read operation timed out"
+    },
     {
       "url": "https://sillgarden.com/credits/",
       "coverage_state": "Discovered - currently not indexed"
     },
     {
-      "url": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+      "url": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/guides/countertop-garden-running-cost/",
       "coverage_state": "URL is unknown to Google"
     }
   ]
