@@ -63,4 +63,6 @@ Buy a countertop hydro system when:
 - You travel and forget watering, or
 - You want lettuce + herbs on a timer light.
 
+If the window is dim, start with the [best low-light herbs for apartment windowsills](/guides/best-low-light-herbs-apartment/) before buying more equipment.
+
 See [best countertop garden for apartments](/guides/best-countertop-garden-apartments/) when you’re ready.

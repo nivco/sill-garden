@@ -40,6 +40,34 @@ def service():
     return build("youtube", "v3", credentials=creds, cache_discovery=False)
 
 
+def refresh_video_assets(youtube_id: str, story: dict, path: Path, youtube=None) -> bool:
+    """Refresh description and tags while preserving the video's other snippet fields."""
+    youtube = youtube or service()
+    items = youtube.videos().list(part="snippet", id=youtube_id).execute().get("items") or []
+    if not items:
+        raise RuntimeError(f"YouTube video not found: {youtube_id}")
+    current = items[0].get("snippet") or {}
+    description = build_description(story, path)
+    tags = default_tags(story)
+    if current.get("description") == description and (current.get("tags") or []) == tags:
+        return False
+
+    snippet = {
+        "title": current.get("title") or story.get("title") or story_id(story, path),
+        "description": description,
+        "tags": tags,
+        "categoryId": current.get("categoryId") or "26",
+    }
+    for field in ("defaultLanguage", "defaultAudioLanguage"):
+        if current.get(field):
+            snippet[field] = current[field]
+    youtube.videos().update(
+        part="snippet",
+        body={"id": youtube_id, "snippet": snippet},
+    ).execute()
+    return True
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("video")

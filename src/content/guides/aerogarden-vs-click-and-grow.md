@@ -18,7 +18,6 @@ products:
     asin: B01MRVMKQH
     partner: click-grow
 ---
-
 Searching **AeroGarden vs Click & Grow** (or the reverse, **Click and Grow vs AeroGarden**) usually means one thing: which countertop kit should sit on a small apartment counter first. The differences that matter are noise, footprint, and how painful refills feel after month two.
 
 ![Indoor herb seedlings starting under light](/images/inline-seedlings.jpg)

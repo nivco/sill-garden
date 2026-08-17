@@ -16,6 +16,11 @@ ROOT = Path(__file__).resolve().parents[1]
 DASHBOARD_HTML = ROOT / "dashboard" / "index.html"
 LATEST_JSON = ROOT / "products" / "analytics" / "latest.json"
 ACTION_QUEUE = ROOT / "products" / "traffic" / "action-queue.json"
+GROWTH_STATE = ROOT / "products" / "growth" / "daily-agent-state.json"
+GROWTH_DIST = ROOT / "products" / "growth" / "distribution" / "latest.json"
+AI_CITATION = ROOT / "products" / "growth" / "ai-citation" / "latest.json"
+LEARNING = ROOT / "products" / "analytics" / "learning-snapshot.json"
+BOARD_QUEUE = ROOT / "reports" / "board" / "action-queue.json"
 PORT = 8793
 NO_CACHE = ("Cache-Control", "no-store, no-cache, must-revalidate")
 SERVER_TAG = "v2-live-refresh"
@@ -55,6 +60,25 @@ def scorecard_payload(source: str) -> dict:
     if queue.get("actions"):
         data["actions"] = queue["actions"][:12]
     data["traffic"] = queue
+    growth_state = read_json(GROWTH_STATE)
+    dist = read_json(GROWTH_DIST)
+    ai = read_json(AI_CITATION)
+    learning = read_json(LEARNING)
+    board = read_json(BOARD_QUEUE)
+    data["growth"] = {
+        "state": growth_state,
+        "distribution": dist,
+        "ai_citation": {
+            "visibility_score": ai.get("visibility_score"),
+            "mentions": ai.get("mentions"),
+            "prompts": ai.get("prompts"),
+            "generated_at": ai.get("generated_at"),
+        }
+        if ai
+        else {},
+        "learnings": (learning.get("learnings") or [])[:8],
+        "board_open": len([i for i in (board.get("items") or []) if not i.get("done")]),
+    }
     data["_source"] = source
     data["_server"] = SERVER_TAG
     if LATEST_JSON.is_file():

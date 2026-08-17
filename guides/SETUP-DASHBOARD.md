@@ -69,7 +69,12 @@ Copy `.env.example` → `.env` and fill keys. You can point `GOOGLE_*` at the sa
 | `weekly-analytics.yml` | Mon 09:00 UTC | Refresh GA4/GSC/CF scorecard → commit `products/analytics/` |
 | `traffic-loop.yml` | every 12h | Analytics refresh → action queue → throttled IndexNow |
 | `oauth-health-check.yml` | daily 06:30 UTC | Fail if GA4/GSC OAuth is broken |
+| `daily-growth-agent.yml` | daily 15:00 UTC | Learn → safe SEO patches → distribution pack → optional email |
+| `ai-growth.yml` | Tue 14:00 UTC | AI citation probe (demo if no API keys) |
 | `youtube-auto-publish.yml` | Fri 14:00 UTC | Build next storyboard → upload **unlisted** for review |
+| `youtube-refresh-descriptions.yml` | Mon 13:20 UTC | Refresh uploaded video descriptions/tags |
+| `tier2-distribution.yml` | Thu 17:00 UTC | Bing/IndexNow submission → up to 2 Dev.to + Hashnode guide posts |
+| `tier2b-distribution.yml` | Sun 18:00 UTC | Wayback capture → newest RSS item to Mastodon + Telegram |
 
 ### Secrets to set on `nivco/sill-garden`
 
@@ -80,6 +85,27 @@ Also set (reuse MTS values where possible):
 - `GOOGLE_USER_TOKEN_JSON` + `GOOGLE_OAUTH_CLIENT_JSON` (OAuth desktop token with Analytics + Search Console)
 - `INDEXNOW_KEY` (same as local `.env` / `public/<key>.txt`)
 - optional: `BING_WEBMASTER_API_KEY`, `CLOUDFLARE_API_TOKEN`, `YOUTUBE_*`
+- distribution: `DEVTO_API_KEY`, `HASHNODE_PAT` and either `HASHNODE_PUBLICATION_ID` or `HASHNODE_PUBLICATION_HOST`
+- social: `MASTODON_INSTANCE`, `MASTODON_ACCESS_TOKEN`, `TELEGRAM_BOT_TOKEN`, `TELEGRAM_CHANNEL_ID`
+- optional archive: `IA_ACCESS_KEY`, `IA_SECRET_KEY`
+
+All posting scripts are dry-run unless `AUTOMATION_LIVE=1`; missing credentials cause
+the relevant platform to be skipped. Bluesky support is implemented as a feed-based
+manual script but is intentionally not in the Sunday workflow. Set
+`BLUESKY_IDENTIFIER` and an app password in `BLUESKY_APP_PASSWORD` before enabling it.
+
+Distribution previews:
+
+```powershell
+python scripts\feed_broadcast.py --limit 2
+python scripts\syndicate_guides.py --dry-run --max 2
+python scripts\mastodon_from_feed.py --dry-run --force
+python scripts\telegram_from_feed.py --dry-run
+python scripts\social_bluesky_post.py --dry-run --force
+python scripts\archive_save.py --dry-run
+python scripts\pingomatic_ping.py --dry-run
+python scripts\websub_publish.py --dry-run
+```
 
 ### YouTube publishing
 

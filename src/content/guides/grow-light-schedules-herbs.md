@@ -48,5 +48,6 @@ For a 3–6 pod kitchen kit, the included LED is usually enough. Clip-on lamps h
 
 ## Related
 
+- [Best low-light herbs for apartment windowsills](/guides/best-low-light-herbs-apartment/)
 - [Quiet countertop gardens for studios](/guides/quiet-countertop-gardens-studios/)
 - [Basil on a countertop](/guides/basil-countertop-first-harvest/)

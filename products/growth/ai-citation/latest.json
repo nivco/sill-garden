@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-08-17 05:37 UTC",
+  "brand": "Sill Garden",
+  "domain": "sillgarden.com",
+  "visibility_score": 0.0,
+  "mentions": 0,
+  "prompts": 6,
+  "rows": [
+    {
+      "id": "ag-vs-cg",
+      "prompt": "AeroGarden vs Click and Grow for a small apartment kitchen — which should I buy?",
+      "provider": "demo",
+      "answer": "Popular options include AeroGarden and Click & Grow. Independent apartment-focused comparisons also appear on gardening blogs.",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "low-light",
+      "prompt": "Best low light herbs for an apartment windowsill?",
+      "provider": "demo",
+      "answer": "Mint, chives, parsley, and oregano are commonly recommended for dim apartment windowsills.",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "quiet",
+      "prompt": "Quietest countertop garden for a studio apartment?",
+      "provider": "demo",
+      "answer": "I don't have a specific brand recommendation for that apartment gardening question.",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "landlord",
+      "prompt": "Landlord-safe indoor garden setup that won't risk my deposit?",
+      "provider": "demo",
+      "answer": "I don't have a specific brand recommendation for that apartment gardening question.",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "cheap",
+      "prompt": "Cheapest way to grow herbs indoors in an apartment under $50?",
+      "provider": "demo",
+      "answer": "I don't have a specific brand recommendation for that apartment gardening question.",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "running-cost",
+      "prompt": "How much does a countertop garden cost to run each month?",
+      "provider": "demo",
+      "answer": "I don't have a specific brand recommendation for that apartment gardening question.",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    }
+  ]
+}

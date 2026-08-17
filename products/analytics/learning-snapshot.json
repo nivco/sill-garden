@@ -1,0 +1,43 @@
+{
+  "generated_at": "2026-08-17 05:37 UTC",
+  "wow": {
+    "ga4_sessions_7d": 11.0,
+    "gsc_impressions_7d": 2.0,
+    "gsc_clicks_7d": 0.0,
+    "affiliate_clicks_7d": 0.0
+  },
+  "hero": {
+    "sessions_7d": 44,
+    "gsc_impressions_7d": 2,
+    "gsc_clicks_7d": 0,
+    "affiliate_clicks_7d": 1,
+    "youtube_sessions_7d": 3,
+    "indexed_urls": 11
+  },
+  "top_queries": [
+    {
+      "query": "aerogarden vs",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 26.0
+    },
+    {
+      "query": "click and grow vs aerogarden",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 37.0
+    }
+  ],
+  "learnings": [
+    "WORKING: GSC impressions with 0 clicks on comparison queries → Tighten AeroGarden vs Click & Grow title/FAQ for both brand orders",
+    "WORKING: Indexed pages but weak topical coverage → Ship long-tail apartment guides (low-light, under $50, running cost)",
+    "WORKING: YouTube Shorts can drive early sessions → Keep UTM’d guide links in descriptions; refresh descriptions weekly",
+    "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
+    "Top search demand: \"aerogarden vs\" (1 impr, pos 26.0).",
+    "Affiliate CTR signal: 1 clicks / 44 sessions.",
+    "YouTube channel: 3 videos, 278 views, 3 site sessions from YouTube.",
+    "YouTube publish log entries: 2."
+  ]
+}

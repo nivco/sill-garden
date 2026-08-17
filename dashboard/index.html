@@ -187,6 +187,17 @@
     </section>
   </div>
 
+  <div class="grid-2">
+    <section class="card">
+      <h2>Growth automations</h2>
+      <div id="growth"></div>
+    </section>
+    <section class="card">
+      <h2>Distribution pack</h2>
+      <div id="distribution"></div>
+    </section>
+  </div>
+
   <section class="card" style="margin-bottom: 1rem">
     <h2>Affiliate programs and earnings</h2>
     <div id="affiliatePrograms"></div>
@@ -332,6 +343,33 @@
       } else {
         $('youtube').innerHTML = `<p class="muted">${yt.error || yt.skipped || 'Not connected'}</p>`;
       }
+
+      const growth = data.growth || {};
+      const gState = growth.state || {};
+      const ai = growth.ai_citation || {};
+      const learnings = growth.learnings || [];
+      $('growth').innerHTML = `
+        <p class="muted">Last growth run: ${esc(gState.last_run || '—')} · board open: ${n(growth.board_open)}</p>
+        <p>AI visibility: ${ai.visibility_score == null ? '—' : Number(ai.visibility_score).toFixed(2)}
+           (${n(ai.mentions)}/${n(ai.prompts)} mentions)${ai.generated_at ? ` · ${esc(ai.generated_at)}` : ''}</p>
+        ${learnings.length
+          ? `<ul class="insights">${learnings.map((l) => `<li>${esc(l)}</li>`).join('')}</ul>`
+          : '<p class="muted">Run daily_growth_agent.py to populate learnings.</p>'}
+        ${(gState.last_applied || []).length
+          ? `<p><strong>Last applied</strong></p><ul class="insights">${(gState.last_applied || []).slice(0, 6).map((l) => `<li>${esc(l)}</li>`).join('')}</ul>`
+          : ''}`;
+
+      const dist = growth.distribution || {};
+      const target = dist.target || {};
+      const channels = dist.channels || {};
+      $('distribution').innerHTML = target.url
+        ? `<p><strong>${esc(target.title || target.slug)}</strong><br>
+             <a href="${esc(target.url)}" target="_blank" rel="noopener">${esc(target.url)}</a></p>
+           <p class="muted">${esc(target.reason || '')} · ${esc(dist.generated_at || '')}</p>
+           ${table(['Channel', 'Draft'], Object.keys(channels).map((k) =>
+             `<tr><td>${esc(k)}</td><td style="white-space:pre-wrap;font-size:0.85rem">${esc(String(channels[k] || '').slice(0, 220))}</td></tr>`
+           ).join(''))}`
+        : '<p class="muted">No distribution pack yet — daily growth agent writes one each run.</p>';
 
       const programs = ((data.monetization || {}).affiliate_programs) || [];
       $('affiliatePrograms').innerHTML = programs.length

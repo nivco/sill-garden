@@ -1,0 +1,53 @@
+name: Tier 2b distribution
+
+on:
+  schedule:
+    - cron: "0 18 * * 0" # Sunday 18:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: sill-bot-commit-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  distribute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Save key pages to Wayback
+        continue-on-error: true
+        env:
+          IA_ACCESS_KEY: ${{ secrets.IA_ACCESS_KEY }}
+          IA_SECRET_KEY: ${{ secrets.IA_SECRET_KEY }}
+        run: python scripts/archive_save.py
+
+      - name: Post newest feed item to Mastodon
+        continue-on-error: true
+        env:
+          AUTOMATION_LIVE: "1"
+          MASTODON_INSTANCE: ${{ secrets.MASTODON_INSTANCE }}
+          MASTODON_ACCESS_TOKEN: ${{ secrets.MASTODON_ACCESS_TOKEN }}
+        run: python scripts/mastodon_from_feed.py
+
+      - name: Post newest feed item to Telegram
+        continue-on-error: true
+        env:
+          AUTOMATION_LIVE: "1"
+          TELEGRAM_BOT_TOKEN: ${{ secrets.TELEGRAM_BOT_TOKEN }}
+          TELEGRAM_CHANNEL_ID: ${{ secrets.TELEGRAM_CHANNEL_ID }}
+        run: python scripts/telegram_from_feed.py
+
+      - name: Commit syndication state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_git_push.sh "chore: update social syndication state" products/syndication/

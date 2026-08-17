@@ -13,6 +13,9 @@ stage_changes() {
     git add -A -- products/analytics 2>/dev/null || true
   fi
   git add -A -- products/traffic 2>/dev/null || true
+  git add -A -- products/growth 2>/dev/null || true
+  git add -A -- products/syndication 2>/dev/null || true
+  git add -A -- reports/board 2>/dev/null || true
 }
 
 stage_changes "${paths[@]}"

@@ -1,0 +1,47 @@
+name: Tier 2 distribution
+
+on:
+  schedule:
+    - cron: "0 17 * * 4" # Thursday 17:00 UTC
+  workflow_dispatch:
+
+concurrency:
+  group: sill-bot-commit-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  distribute:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Submit URLs to Bing and IndexNow
+        continue-on-error: true
+        env:
+          BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+          INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+        run: python scripts/submit_indexing.py
+
+      - name: Syndicate guides
+        continue-on-error: true
+        env:
+          AUTOMATION_LIVE: "1"
+          DEVTO_API_KEY: ${{ secrets.DEVTO_API_KEY }}
+          HASHNODE_PAT: ${{ secrets.HASHNODE_PAT }}
+          HASHNODE_PUBLICATION_ID: ${{ secrets.HASHNODE_PUBLICATION_ID }}
+          HASHNODE_PUBLICATION_HOST: ${{ secrets.HASHNODE_PUBLICATION_HOST }}
+        run: python scripts/syndicate_guides.py --max 2
+
+      - name: Commit syndication state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_git_push.sh "chore: update guide syndication state" products/syndication/

@@ -1,0 +1,30 @@
+{
+  "brand": "Sill Garden",
+  "domain": "sillgarden.com",
+  "prompts": [
+    {
+      "id": "ag-vs-cg",
+      "prompt": "AeroGarden vs Click and Grow for a small apartment kitchen — which should I buy?"
+    },
+    {
+      "id": "low-light",
+      "prompt": "Best low light herbs for an apartment windowsill?"
+    },
+    {
+      "id": "quiet",
+      "prompt": "Quietest countertop garden for a studio apartment?"
+    },
+    {
+      "id": "landlord",
+      "prompt": "Landlord-safe indoor garden setup that won't risk my deposit?"
+    },
+    {
+      "id": "cheap",
+      "prompt": "Cheapest way to grow herbs indoors in an apartment under $50?"
+    },
+    {
+      "id": "running-cost",
+      "prompt": "How much does a countertop garden cost to run each month?"
+    }
+  ]
+}

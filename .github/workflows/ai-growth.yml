@@ -1,0 +1,65 @@
+name: AI growth citation check
+
+on:
+  schedule:
+    - cron: "0 14 * * 2" # Tue 14:00 UTC
+  workflow_dispatch:
+    inputs:
+      demo:
+        description: "Run offline demo answers (no API keys)"
+        type: boolean
+        default: false
+      enqueue:
+        description: "Enqueue missed-prompt tasks"
+        type: boolean
+        default: true
+
+concurrency:
+  group: sill-bot-commit-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  ai-growth:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements-analytics.txt
+      - name: Run AI growth agent
+        env:
+          PERPLEXITY_API_KEY: ${{ secrets.PERPLEXITY_API_KEY }}
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          AUTOMATION_LIVE: "1"
+        run: |
+          FLAGS=""
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ] && [ "${{ inputs.demo }}" = "true" ]; then
+            FLAGS="$FLAGS --demo"
+          fi
+          if [ "${{ github.event_name }}" = "schedule" ] || [ "${{ inputs.enqueue }}" = "true" ]; then
+            FLAGS="$FLAGS --enqueue"
+          else
+            FLAGS="$FLAGS --dry-run"
+          fi
+          if [ "${{ github.event_name }}" = "schedule" ]; then
+            if [ -z "$PERPLEXITY_API_KEY" ] && [ -z "$OPENAI_API_KEY" ]; then
+              echo "No AI provider secrets — falling back to --demo"
+              FLAGS="$FLAGS --demo"
+            fi
+          fi
+          python scripts/ai_growth_agent.py $FLAGS
+      - name: Commit AI citation report
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_git_push.sh "chore: weekly AI growth citation check" \
+            products/growth/ai-citation/ \
+            products/traffic/action-queue.json \
+            reports/board/action-queue.json

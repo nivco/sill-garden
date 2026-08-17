@@ -7,6 +7,12 @@ Ship these as normal guides under `src/content/guides/` when ready.
 and `click and grow vs aerogarden` (pos ~37). The comparison guide title/FAQ was tightened
 for both query orders — still ship long-tail pages below; don’t only chase the head term.
 
+## Shipped
+
+- [x] `best-low-light-herbs-apartment`
+- [x] `cheapest-indoor-herb-garden-apartment`
+- [x] `countertop-garden-running-cost`
+
 ---
 
 ## 1. Cheapest indoor herb garden for apartments (under $50)

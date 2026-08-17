@@ -1,0 +1,92 @@
+{
+  "version": 1,
+  "items": [
+    {
+      "id": "23b93a82c506",
+      "fingerprint": "23b93a82c506",
+      "role": "ai-visibility",
+      "type": "earn_citation",
+      "title": "Earn AI citation: ag-vs-cg",
+      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen — which should I buy?",
+      "target": "ag-vs-cg",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-17 05:37 UTC"
+    },
+    {
+      "id": "1a72f02750fc",
+      "fingerprint": "1a72f02750fc",
+      "role": "ai-visibility",
+      "type": "earn_citation",
+      "title": "Earn AI citation: low-light",
+      "detail": "Prompt not citing Sill Garden: Best low light herbs for an apartment windowsill?",
+      "target": "low-light",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-17 05:37 UTC"
+    },
+    {
+      "id": "c3fe9de15f5f",
+      "fingerprint": "c3fe9de15f5f",
+      "role": "ai-visibility",
+      "type": "earn_citation",
+      "title": "Earn AI citation: quiet",
+      "detail": "Prompt not citing Sill Garden: Quietest countertop garden for a studio apartment?",
+      "target": "quiet",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-17 05:37 UTC"
+    },
+    {
+      "id": "bc234bcfe1b7",
+      "fingerprint": "bc234bcfe1b7",
+      "role": "ai-visibility",
+      "type": "earn_citation",
+      "title": "Earn AI citation: landlord",
+      "detail": "Prompt not citing Sill Garden: Landlord-safe indoor garden setup that won't risk my deposit?",
+      "target": "landlord",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-17 05:37 UTC"
+    },
+    {
+      "id": "9d520179a1f5",
+      "fingerprint": "9d520179a1f5",
+      "role": "ai-visibility",
+      "type": "earn_citation",
+      "title": "Earn AI citation: cheap",
+      "detail": "Prompt not citing Sill Garden: Cheapest way to grow herbs indoors in an apartment under $50?",
+      "target": "cheap",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-17 05:37 UTC"
+    },
+    {
+      "id": "26e1e7d55e20",
+      "fingerprint": "26e1e7d55e20",
+      "role": "ai-visibility",
+      "type": "earn_citation",
+      "title": "Earn AI citation: running-cost",
+      "detail": "Prompt not citing Sill Garden: How much does a countertop garden cost to run each month?",
+      "target": "running-cost",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-17 05:37 UTC"
+    }
+  ],
+  "applied_log": [
+    {
+      "at": "2026-08-17 05:35 UTC",
+      "type": "tune_guide_seo",
+      "slug": "aerogarden-vs-click-and-grow",
+      "reason": "CTR-first query: 1 impr, pos 37.0, 0 clicks"
+    }
+  ],
+  "updated": "2026-08-17 05:37 UTC"
+}

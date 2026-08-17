@@ -1,0 +1,26 @@
+{
+  "working": [
+    {
+      "signal": "GSC impressions with 0 clicks on comparison queries",
+      "action": "Tighten AeroGarden vs Click & Grow title/FAQ for both brand orders",
+      "status": "working"
+    },
+    {
+      "signal": "Indexed pages but weak topical coverage",
+      "action": "Ship long-tail apartment guides (low-light, under $50, running cost)",
+      "status": "working"
+    },
+    {
+      "signal": "YouTube Shorts can drive early sessions",
+      "action": "Keep UTM’d guide links in descriptions; refresh descriptions weekly",
+      "status": "working"
+    }
+  ],
+  "ignore": [
+    {
+      "signal": "Cloudflare pageviews alone",
+      "action": "Prefer GA4 sessions — edge counts include bots",
+      "status": "ignore"
+    }
+  ]
+}
