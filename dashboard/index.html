@@ -264,14 +264,16 @@
         heroCard('Revenue', hero.amazon_earnings_7d_usd != null ? `$${Number(hero.amazon_earnings_7d_usd).toFixed(2)}` : '—', 'Confirmed affiliate revenue', false),
       ].join('');
 
-      const actions = data.actions || [];
+      const actions = (data.actions || []).filter((a) => !a.done);
+      const doneCount = (data.actions || []).filter((a) => a.done).length;
       $('actions').innerHTML = actions.length
-        ? actions.map((a) => `<li class="${a.done ? 'done' : ''}">
+        ? actions.slice(0, 6).map((a) => `<li>
             <div><span class="pill ${a.priority === 'P0' ? 'bad' : a.priority === 'P1' ? 'warn' : ''}">${esc(a.priority || 'P2')}</span>
               <span class="task-title">${esc(a.title)}</span></div>
             <div class="task-detail">${esc(a.detail || '')}</div>
           </li>`).join('')
-        : '<li class="muted">No queued actions. Run the traffic optimizer after refresh.</li>';
+          + (doneCount ? `<li class="muted">${doneCount} completed auto-task${doneCount === 1 ? '' : 's'} hidden</li>` : '')
+        : '<li class="muted">No open actions.</li>';
 
       const checks = setup.checks || [];
       $('checks').innerHTML = checks.length

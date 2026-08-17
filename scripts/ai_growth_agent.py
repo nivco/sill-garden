@@ -167,7 +167,10 @@ def run_probe(*, demo: bool) -> dict[str, Any]:
     return report
 
 
-def enqueue_misses(report: dict) -> list[str]:
+def enqueue_misses(report: dict, *, demo: bool = False) -> list[str]:
+    if demo:
+        # Demo answers never cite the brand — don't flood the board.
+        return []
     created = []
     for row in report.get("rows") or []:
         if (row.get("mention") or {}).get("any"):
@@ -179,7 +182,7 @@ def enqueue_misses(report: dict) -> list[str]:
             detail=f"Prompt not citing {BRAND}: {row.get('prompt')}",
             target=str(row.get("id") or ""),
             auto=False,
-            priority="P2",
+            priority="P3",
         )
         if item:
             created.append(item["title"])
@@ -204,7 +207,7 @@ def main() -> int:
         f"mentions={report['mentions']}/{report['prompts']} demo={args.demo}"
     )
     if args.enqueue and not args.dry_run:
-        created = enqueue_misses(report)
+        created = enqueue_misses(report, demo=args.demo)
         print(f"Enqueued {len(created)} citation tasks")
     return 0
 

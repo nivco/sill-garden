@@ -77,7 +77,13 @@ def scorecard_payload(source: str) -> dict:
         if ai
         else {},
         "learnings": (learning.get("learnings") or [])[:8],
-        "board_open": len([i for i in (board.get("items") or []) if not i.get("done")]),
+        "board_open": len(
+            [
+                i
+                for i in (board.get("items") or [])
+                if not i.get("done") and (i.get("role") or "") != "ai-visibility"
+            ]
+        ),
     }
     data["_source"] = source
     data["_server"] = SERVER_TAG

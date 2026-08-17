@@ -89,6 +89,9 @@ def sync_manual_to_traffic_queue(board: dict | None = None) -> None:
     for item in board.get("items") or []:
         if item.get("done") or item.get("auto"):
             continue
+        # AI citation demo misses are noise on the main Do-next list.
+        if (item.get("role") or "") == "ai-visibility":
+            continue
         title = item.get("title") or item.get("type")
         if not title or title in existing:
             continue
@@ -104,7 +107,7 @@ def sync_manual_to_traffic_queue(board: dict | None = None) -> None:
             }
         )
         existing.add(title)
-    traffic["actions"] = actions[:20]
+    traffic["actions"] = actions[:12]
     traffic["generated_at"] = now_utc()
     save_json(TRAFFIC_QUEUE, traffic)
 

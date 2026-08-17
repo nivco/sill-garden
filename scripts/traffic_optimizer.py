@@ -89,20 +89,40 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
     sitemap_total = int(indexing.get("sitemap_url_count") or 0)
     missing = indexing.get("not_indexed_urls") or []
 
-    # Always surface guide URLs Google still hasn't indexed.
+    # One indexing action covering all missing guides (not one row each).
+    missing_guides: list[str] = []
     for row in missing:
         url = str(row.get("url") or "")
         if "/guides/" not in url or url.rstrip("/").endswith("/guides"):
             continue
+        missing_guides.append(url.rstrip("/").split("/")[-1])
+    if missing_guides:
         actions.append(
             task(
                 "P1",
                 "indexing",
-                f"Request indexing: {url.rstrip('/').split('/')[-1]}",
-                f"{row.get('coverage_state') or 'Not indexed'} — use Search Console URL Inspection "
-                "→ Request indexing once; the URL is already linked and in the sitemap.",
+                f"Request indexing for {len(missing_guides)} guides",
+                "Search Console → URL Inspection → Request indexing once each: "
+                + ", ".join(missing_guides)
+                + ".",
             )
         )
+
+    climb_bits: list[str] = []
+    for q in (gsc.get("top_queries") or [])[:15]:
+        pos = q.get("position")
+        clicks = q.get("clicks") or 0
+        impr = q.get("impressions") or 0
+        query = q.get("query") or ""
+        if not query or pos is None:
+            continue
+        pos_f = float(pos)
+        if clicks > 0:
+            continue
+        if 4 <= pos_f <= 20 and impr >= 10:
+            climb_bits.append(f"“{query}” pos {pos_f:.0f}/{impr} impr (CTR)")
+        elif pos_f > 20 and impr >= 1:
+            climb_bits.append(f"“{query}” pos {pos_f:.0f}/{impr} impr")
 
     if gsc_impr == 0 and not gsc.get("error"):
         if indexed:
@@ -124,55 +144,42 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
                     "Run python scripts/check_indexing.py; zero impressions alone does not mean pages are unindexed.",
                 )
             )
+    elif climb_bits:
+        actions.append(
+            task(
+                "P1",
+                "seo",
+                "Climb ranking on early GSC queries",
+                "Already showing for: "
+                + "; ".join(climb_bits[:4])
+                + ". Keep the matching guide title/FAQ tight; promote via YouTube — don't spam re-index.",
+            )
+        )
     elif gsc_impr > 0 and gsc_clicks == 0 and not gsc.get("error"):
         actions.append(
             task(
                 "P2",
                 "seo",
                 "Search impressions without clicks yet",
-                f"{gsc_impr} impressions / 0 clicks in 7d — climb ranking on early queries "
-                "(title match + comparison depth) before chasing new keywords.",
+                f"{gsc_impr} impressions / 0 clicks in 7d — wait for ranking or tighten the comparison guide.",
             )
         )
 
-    # Ranking / CTR opportunities (include early deep positions once impressions start)
-    for q in (gsc.get("top_queries") or [])[:15]:
-        pos = q.get("position")
-        clicks = q.get("clicks") or 0
-        impr = q.get("impressions") or 0
-        query = q.get("query") or ""
-        if not query or pos is None:
-            continue
-        pos_f = float(pos)
-        if 4 <= pos_f <= 20 and impr >= 10 and clicks < max(2, impr * 0.05):
-            actions.append(
-                task(
-                    "P1",
-                    "seo",
-                    f"Improve CTR / depth for “{query}”",
-                    f"pos {pos_f:.1f}, {impr} impr, {clicks} clicks — tighten title/meta or add a sharper intro.",
-                )
-            )
-        elif pos_f > 20 and impr >= 1:
-            actions.append(
-                task(
-                    "P1",
-                    "seo",
-                    f"Climb ranking for “{query}”",
-                    f"pos {pos_f:.1f}, {impr} impr — match title/H1 to the query, add a clear verdict "
-                    "and FAQ covering both brand orders (A vs B and B vs A).",
-                )
-            )
-
-    for page in (gsc.get("top_pages") or (ga4.get("top_pages") or []))[:8]:
-        url = page.get("page") or page.get("path") or ""
-        if "/guides/" in url and (page.get("clicks") or page.get("screenPageViews") or 0) > 0:
+    # Only nudge content refresh when a guide has real traffic but no affiliate clicks sitewide.
+    if sessions >= 20 and aff == 0:
+        top_guide = None
+        for page in (ga4.get("top_pages") or [])[:8]:
+            path = str(page.get("pagePath") or page.get("path") or "")
+            if "/guides/" in path and path.rstrip("/") != "/guides":
+                top_guide = path.rstrip("/").split("/")[-1]
+                break
+        if top_guide:
             actions.append(
                 task(
                     "P2",
                     "content",
-                    f"Refresh guide: {url.rstrip('/').split('/')[-1]}",
-                    "Add a mid-article product pick or FAQ if affiliate clicks lag sessions.",
+                    f"Check CTAs on {top_guide}",
+                    "Sessions without affiliate clicks — confirm product cards and affiliate_click events.",
                 )
             )
 

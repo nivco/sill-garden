@@ -11,8 +11,10 @@
       "target": "ag-vs-cg",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-17 05:37 UTC"
+      "done": true,
+      "created": "2026-08-17 05:37 UTC",
+      "resolved": "2026-08-17 17:53 UTC",
+      "resolution": "Closed: demo baseline noise (AI keys not configured)"
     },
     {
       "id": "1a72f02750fc",
@@ -24,8 +26,10 @@
       "target": "low-light",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-17 05:37 UTC"
+      "done": true,
+      "created": "2026-08-17 05:37 UTC",
+      "resolved": "2026-08-17 17:53 UTC",
+      "resolution": "Closed: demo baseline noise (AI keys not configured)"
     },
     {
       "id": "c3fe9de15f5f",
@@ -37,8 +41,10 @@
       "target": "quiet",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-17 05:37 UTC"
+      "done": true,
+      "created": "2026-08-17 05:37 UTC",
+      "resolved": "2026-08-17 17:53 UTC",
+      "resolution": "Closed: demo baseline noise (AI keys not configured)"
     },
     {
       "id": "bc234bcfe1b7",
@@ -50,8 +56,10 @@
       "target": "landlord",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-17 05:37 UTC"
+      "done": true,
+      "created": "2026-08-17 05:37 UTC",
+      "resolved": "2026-08-17 17:53 UTC",
+      "resolution": "Closed: demo baseline noise (AI keys not configured)"
     },
     {
       "id": "9d520179a1f5",
@@ -63,8 +71,10 @@
       "target": "cheap",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-17 05:37 UTC"
+      "done": true,
+      "created": "2026-08-17 05:37 UTC",
+      "resolved": "2026-08-17 17:53 UTC",
+      "resolution": "Closed: demo baseline noise (AI keys not configured)"
     },
     {
       "id": "26e1e7d55e20",
@@ -76,8 +86,10 @@
       "target": "running-cost",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-17 05:37 UTC"
+      "done": true,
+      "created": "2026-08-17 05:37 UTC",
+      "resolved": "2026-08-17 17:53 UTC",
+      "resolution": "Closed: demo baseline noise (AI keys not configured)"
     }
   ],
   "applied_log": [
@@ -88,5 +100,5 @@
       "reason": "CTR-first query: 1 impr, pos 37.0, 0 clicks"
     }
   ],
-  "updated": "2026-08-17 05:37 UTC"
+  "updated": "2026-08-17 17:53 UTC"
 }
