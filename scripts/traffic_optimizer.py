@@ -88,6 +88,22 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
     indexed = int(indexing.get("indexed_count") or 0)
     sitemap_total = int(indexing.get("sitemap_url_count") or 0)
     missing = indexing.get("not_indexed_urls") or []
+
+    # Always surface guide URLs Google still hasn't indexed.
+    for row in missing:
+        url = str(row.get("url") or "")
+        if "/guides/" not in url or url.rstrip("/").endswith("/guides"):
+            continue
+        actions.append(
+            task(
+                "P1",
+                "indexing",
+                f"Request indexing: {url.rstrip('/').split('/')[-1]}",
+                f"{row.get('coverage_state') or 'Not indexed'} — use Search Console URL Inspection "
+                "→ Request indexing once; the URL is already linked and in the sitemap.",
+            )
+        )
+
     if gsc_impr == 0 and not gsc.get("error"):
         if indexed:
             actions.append(
@@ -99,19 +115,6 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
                     "No crawl fix is needed; allow ranking time and strengthen topic coverage.",
                 )
             )
-            for row in missing:
-                url = str(row.get("url") or "")
-                if "/guides/" not in url or url.rstrip("/").endswith("/guides"):
-                    continue
-                actions.append(
-                    task(
-                        "P1",
-                        "indexing",
-                        f"Request indexing: {url.rstrip('/').split('/')[-1]}",
-                        f"{row.get('coverage_state') or 'Not indexed'} — use Search Console URL Inspection "
-                        "→ Request indexing once; the URL is already linked and in the sitemap.",
-                    )
-                )
         else:
             actions.append(
                 task(
@@ -121,8 +124,18 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
                     "Run python scripts/check_indexing.py; zero impressions alone does not mean pages are unindexed.",
                 )
             )
+    elif gsc_impr > 0 and gsc_clicks == 0 and not gsc.get("error"):
+        actions.append(
+            task(
+                "P2",
+                "seo",
+                "Search impressions without clicks yet",
+                f"{gsc_impr} impressions / 0 clicks in 7d — climb ranking on early queries "
+                "(title match + comparison depth) before chasing new keywords.",
+            )
+        )
 
-    # Near-page-1 opportunities
+    # Ranking / CTR opportunities (include early deep positions once impressions start)
     for q in (gsc.get("top_queries") or [])[:15]:
         pos = q.get("position")
         clicks = q.get("clicks") or 0
@@ -130,13 +143,24 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
         query = q.get("query") or ""
         if not query or pos is None:
             continue
-        if 4 <= float(pos) <= 20 and impr >= 10 and clicks < max(2, impr * 0.05):
+        pos_f = float(pos)
+        if 4 <= pos_f <= 20 and impr >= 10 and clicks < max(2, impr * 0.05):
             actions.append(
                 task(
                     "P1",
                     "seo",
                     f"Improve CTR / depth for “{query}”",
-                    f"pos {pos:.1f}, {impr} impr, {clicks} clicks — tighten title/meta or add a sharper intro.",
+                    f"pos {pos_f:.1f}, {impr} impr, {clicks} clicks — tighten title/meta or add a sharper intro.",
+                )
+            )
+        elif pos_f > 20 and impr >= 1:
+            actions.append(
+                task(
+                    "P1",
+                    "seo",
+                    f"Climb ranking for “{query}”",
+                    f"pos {pos_f:.1f}, {impr} impr — match title/H1 to the query, add a clear verdict "
+                    "and FAQ covering both brand orders (A vs B and B vs A).",
                 )
             )
 

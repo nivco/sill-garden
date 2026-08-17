@@ -876,15 +876,28 @@ def main() -> int:
         insights.append("Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.")
     if ga4.get("skipped") or ga4.get("error"):
         insights.append("Connect GA4_PROPERTY_ID to unlock sessions / clicks on the dashboard.")
-    if gsc.get("clicks") == 0 and not gsc.get("error"):
-        if indexing.get("indexed_count"):
-            insights.append(
-                f"Google has indexed {indexing.get('indexed_count')}/{indexing.get('sitemap_url_count')} URLs, "
-                "but they have not earned search impressions yet — this is now a ranking/content-age issue, "
-                "not a crawl block."
+    if not gsc.get("error"):
+        impr = int(gsc.get("impressions") or 0)
+        clicks = int(gsc.get("clicks") or 0)
+        if impr == 0:
+            if indexing.get("indexed_count"):
+                insights.append(
+                    f"Google has indexed {indexing.get('indexed_count')}/{indexing.get('sitemap_url_count')} URLs, "
+                    "but they have not earned search impressions yet — this is now a ranking/content-age issue, "
+                    "not a crawl block."
+                )
+            else:
+                insights.append("GSC shows 0 impressions — run check_indexing.py to distinguish crawl from ranking.")
+        elif clicks == 0:
+            top = (gsc.get("top_queries") or [])[:3]
+            qbits = ", ".join(
+                f"“{q.get('query')}” (pos {float(q.get('position') or 0):.0f})" for q in top if q.get("query")
             )
-        else:
-            insights.append("GSC shows 0 clicks — run check_indexing.py to distinguish crawl from ranking.")
+            insights.append(
+                f"GSC: {impr} impressions, 0 clicks"
+                + (f" — early queries: {qbits}" if qbits else "")
+                + ". Tighten title/H1 on the matching guide to climb."
+            )
     if (ga4.get("affiliate_clicks_7d") or 0) == 0 and totals.get("sessions"):
         insights.append("Traffic without affiliate clicks — check product CTAs and event firing.")
     if yt.get("skipped"):
