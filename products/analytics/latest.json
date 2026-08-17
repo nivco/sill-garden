@@ -1,26 +1,26 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-16 12:22 UTC",
+  "generated_at": "2026-08-17 00:48 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 39,
-    "users_7d": 37,
-    "pageviews_7d": 43,
+    "sessions_7d": 42,
+    "users_7d": 40,
+    "pageviews_7d": 46,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 0,
     "indexed_urls": 11,
     "sitemap_urls": 13,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 2,
+    "youtube_sessions_7d": 3,
     "youtube_subs": 0,
-    "youtube_views_total": 243,
+    "youtube_views_total": 262,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 5.1,
-    "affiliate_ctr_pct": 2.6,
+    "engagement_rate_pct": 11.9,
+    "affiliate_ctr_pct": 2.4,
     "youtube_videos": 3
   },
   "sources": {
@@ -31,28 +31,28 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 37,
-        "sessions": 39,
-        "screenPageViews": 43,
-        "engagedSessions": 2,
-        "averageSessionDuration_sec": 2.5,
-        "engagementRate_pct": 5.1
+        "activeUsers": 40,
+        "sessions": 42,
+        "screenPageViews": 46,
+        "engagedSessions": 5,
+        "averageSessionDuration_sec": 3.6,
+        "engagementRate_pct": 11.9
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "28",
-          "screenPageViews": "28"
+          "sessions": "30",
+          "screenPageViews": "30"
+        },
+        {
+          "pagePath": "/guides/",
+          "sessions": "5",
+          "screenPageViews": "5"
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
           "sessions": "5",
           "screenPageViews": "5"
-        },
-        {
-          "pagePath": "/guides/",
-          "sessions": "4",
-          "screenPageViews": "4"
         },
         {
           "pagePath": "/disclosure/",
@@ -83,32 +83,23 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "37"
+          "sessions": "39"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "2"
-        },
-        {
-          "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "2"
+          "sessions": "3"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "37",
-          "engagedSessions": "2"
-        },
-        {
-          "sessionSourceMedium": "(not set)",
-          "sessions": "2",
-          "engagedSessions": "0"
+          "sessions": "39",
+          "engagedSessions": "4"
         },
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "2",
-          "engagedSessions": "0"
+          "sessions": "3",
+          "engagedSessions": "1"
         }
       ],
       "events": {
@@ -129,7 +120,7 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 2,
+      "sessions_from_youtube": 3,
       "affiliate_clicks_7d": 1
     },
     "gsc": {
@@ -372,14 +363,14 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 0,
-        "views": 243,
+        "views": 262,
         "videos": 3
       },
       "recent_videos": [
         {
           "id": "NSLsa1eJxko",
           "title": "AeroGarden or Click & Grow? Pick in 30 Seconds #Shorts",
-          "views": 23,
+          "views": 38,
           "likes": 1,
           "published": "2026-08-15T18:06:54Z",
           "url": "https://www.youtube.com/watch?v=NSLsa1eJxko"
@@ -387,7 +378,7 @@
         {
           "id": "FWut_fMPyFA",
           "title": "AeroGarden vs Click & Grow (2026) \u2014 Which Apartment Kit Wins?",
-          "views": 1,
+          "views": 2,
           "likes": 0,
           "published": "2026-08-15T17:25:29Z",
           "url": "https://www.youtube.com/watch?v=FWut_fMPyFA"
@@ -456,7 +447,7 @@
       "detail": "URL is unknown to Google \u2014 use Search Console URL Inspection \u2192 Request indexing once; the URL is already linked and in the sitemap.",
       "auto": false,
       "done": false,
-      "created": "2026-08-16 00:51 UTC"
+      "created": "2026-08-16 12:22 UTC"
     },
     {
       "priority": "P2",
@@ -465,16 +456,16 @@
       "detail": "Google inspection confirms 11/13 URLs indexed. No crawl fix is needed; allow ranking time and strengthen topic coverage.",
       "auto": false,
       "done": false,
-      "created": "2026-08-16 00:51 UTC"
+      "created": "2026-08-16 12:22 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-15 16:57 UTC (7.9h ago; min 20h).",
+      "detail": "Last ping 2026-08-15 16:57 UTC (19.4h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-16 00:51 UTC"
+      "created": "2026-08-16 12:22 UTC"
     }
   ],
   "insights": [
@@ -523,6 +514,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 39 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 42 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }

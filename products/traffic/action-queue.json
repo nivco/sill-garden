@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-08-16 12:22 UTC",
+  "generated_at": "2026-08-17 00:48 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [],
+  "applied": [
+    "IndexNow ping"
+  ],
   "actions": [
     {
       "priority": "P1",
@@ -11,7 +13,7 @@
       "detail": "URL is unknown to Google \u2014 use Search Console URL Inspection \u2192 Request indexing once; the URL is already linked and in the sitemap.",
       "auto": false,
       "done": false,
-      "created": "2026-08-16 12:22 UTC"
+      "created": "2026-08-17 00:48 UTC"
     },
     {
       "priority": "P2",
@@ -20,16 +22,16 @@
       "detail": "Google inspection confirms 11/13 URLs indexed. No crawl fix is needed; allow ranking time and strengthen topic coverage.",
       "auto": false,
       "done": false,
-      "created": "2026-08-16 12:22 UTC"
+      "created": "2026-08-17 00:48 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-15 16:57 UTC (19.4h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-16 12:22 UTC"
+      "created": "2026-08-17 00:48 UTC"
     }
   ]
 }
