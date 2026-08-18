@@ -1,26 +1,26 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-18 00:47 UTC",
+  "generated_at": "2026-08-18 12:29 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 47,
-    "users_7d": 44,
-    "pageviews_7d": 51,
+    "sessions_7d": 52,
+    "users_7d": 48,
+    "pageviews_7d": 60,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 2,
+    "gsc_impressions_7d": 7,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 3,
     "youtube_subs": 0,
-    "youtube_views_total": 288,
+    "youtube_views_total": 291,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 10.6,
-    "affiliate_ctr_pct": 2.1,
+    "engagement_rate_pct": 9.6,
+    "affiliate_ctr_pct": 1.9,
     "youtube_videos": 3
   },
   "sources": {
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 44,
-        "sessions": 47,
-        "screenPageViews": 51,
+        "activeUsers": 48,
+        "sessions": 52,
+        "screenPageViews": 60,
         "engagedSessions": 5,
-        "averageSessionDuration_sec": 3.2,
-        "engagementRate_pct": 10.6
+        "averageSessionDuration_sec": 60.6,
+        "engagementRate_pct": 9.6
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "35",
-          "screenPageViews": "35"
+          "sessions": "40",
+          "screenPageViews": "40"
         },
         {
           "pagePath": "/guides/",
@@ -56,8 +56,18 @@
         },
         {
           "pagePath": "/disclosure/",
-          "sessions": "2",
-          "screenPageViews": "2"
+          "sessions": "3",
+          "screenPageViews": "3"
+        },
+        {
+          "pagePath": "/about/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/credits/",
+          "sessions": "1",
+          "screenPageViews": "1"
         },
         {
           "pagePath": "/guides/best-countertop-garden-apartments/",
@@ -83,18 +93,27 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "44"
+          "sessions": "49"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
+          "sessions": "3"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
           "sessions": "3"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "44",
+          "sessions": "49",
           "engagedSessions": "4"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "3",
+          "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "youtube / video",
@@ -125,8 +144,15 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 7,
       "top_queries": [
+        {
+          "query": "aerogarden comparison",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 61.5
+        },
         {
           "query": "aerogarden vs",
           "clicks": 0,
@@ -135,11 +161,32 @@
           "position": 26.0
         },
         {
+          "query": "aerogarden vs click and grow",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 40.0
+        },
+        {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
           "position": 37.0
+        },
+        {
+          "query": "countertop garden",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 85.0
+        },
+        {
+          "query": "grow light scheduler",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 80.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com"
@@ -417,7 +464,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 0,
-        "views": 288,
+        "views": 291,
         "videos": 3
       },
       "recent_videos": [
@@ -501,7 +548,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-17 17:53 UTC"
+      "created": "2026-08-18 00:47 UTC"
     },
     {
       "priority": "P1",
@@ -510,20 +557,20 @@
       "detail": "Already showing for: \u201caerogarden vs\u201d pos 26/1 impr; \u201cclick and grow vs aerogarden\u201d pos 37/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-17 17:53 UTC"
+      "created": "2026-08-18 00:47 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-17 00:48 UTC (17.1h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-17 17:53 UTC"
+      "created": "2026-08-18 00:47 UTC"
     }
   ],
   "insights": [
-    "GSC: 2 impressions, 0 clicks \u2014 early queries: \u201caerogarden vs\u201d (pos 26), \u201cclick and grow vs aerogarden\u201d (pos 37). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 7 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 62), \u201caerogarden vs\u201d (pos 26), \u201caerogarden vs click and grow\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
@@ -568,6 +615,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 47 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 52 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }
