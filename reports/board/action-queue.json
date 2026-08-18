@@ -90,6 +90,19 @@
       "created": "2026-08-17 05:37 UTC",
       "resolved": "2026-08-17 17:53 UTC",
       "resolution": "Closed: demo baseline noise (AI keys not configured)"
+    },
+    {
+      "id": "aa71351617af",
+      "fingerprint": "aa71351617af",
+      "role": "seo",
+      "type": "tune_guide_seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
+      "target": "aerogarden-vs-click-and-grow",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-08-18 15:19 UTC"
     }
   ],
   "applied_log": [
@@ -100,5 +113,5 @@
       "reason": "CTR-first query: 1 impr, pos 37.0, 0 clicks"
     }
   ],
-  "updated": "2026-08-17 17:53 UTC"
+  "updated": "2026-08-18 15:19 UTC"
 }
