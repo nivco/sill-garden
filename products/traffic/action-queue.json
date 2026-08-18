@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-08-17 17:53 UTC",
+  "generated_at": "2026-08-18 00:47 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [],
+  "applied": [
+    "IndexNow ping"
+  ],
   "actions": [
     {
       "priority": "P1",
@@ -11,7 +13,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-17 17:53 UTC"
+      "created": "2026-08-18 00:47 UTC"
     },
     {
       "priority": "P1",
@@ -20,16 +22,16 @@
       "detail": "Already showing for: \u201caerogarden vs\u201d pos 26/1 impr; \u201cclick and grow vs aerogarden\u201d pos 37/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-17 17:53 UTC"
+      "created": "2026-08-18 00:47 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-17 00:48 UTC (17.1h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-17 17:53 UTC"
+      "created": "2026-08-18 00:47 UTC"
     }
   ]
 }

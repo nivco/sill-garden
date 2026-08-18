@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-17 17:53 UTC",
+  "generated_at": "2026-08-18 00:47 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -424,7 +424,7 @@
         {
           "id": "NSLsa1eJxko",
           "title": "AeroGarden or Click & Grow? Pick in 30 Seconds #Shorts",
-          "views": 46,
+          "views": 48,
           "likes": 1,
           "published": "2026-08-15T18:06:54Z",
           "url": "https://www.youtube.com/watch?v=NSLsa1eJxko"
@@ -474,12 +474,12 @@
       {
         "name": "Click & Grow",
         "network": "click-grow",
-        "status": "active",
+        "status": "applied",
         "site_clicks_7d": 0,
         "portal_clicks_7d": null,
         "orders_7d": null,
         "earnings_7d_usd": null,
-        "next_step": "Direct tracking URL configured."
+        "next_step": "Await approval, then set PUBLIC_CLICK_GROW_AFFILIATE_URL in GitHub and Cloudflare."
       },
       {
         "name": "Gardener's Supply",
