@@ -1,0 +1,51 @@
+{
+  "id": "short-countertop-garden-running-cost",
+  "format": "short",
+  "title": "How much does a countertop garden cost to run? #Shorts",
+  "filename": "sill-countertop-garden-running-cost-short.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "guide_slug": "countertop-garden-running-cost",
+  "utm_campaign": "short-countertop-garden-running-cost",
+  "description": "Electricity, pods, and refill costs for AeroGarden- and Click & Grow-class kits in an apartment.",
+  "tags": [
+    "countertop garden running cost",
+    "apartment gardening",
+    "indoor herb garden",
+    "sill garden",
+    "shorts"
+  ],
+  "slides": [
+    {
+      "eyebrow": "APARTMENT GUIDE",
+      "headline": "How much does a\ncountertop garden cost to run?",
+      "subhead": "Electricity, pods, and refill costs for AeroGarden- and Click & Grow-class kits in an apartment.",
+      "photo": "guide-light.jpg",
+      "accent": "START HERE",
+      "narration": "How much does a countertop garden cost to run?. The Sill Garden answer for a small apartment, without buying more equipment than you need."
+    },
+    {
+      "eyebrow": "DO THIS FIRST",
+      "headline": "Match the setup\nto your space.",
+      "subhead": "Light, noise, and spill risk matter more than pod count.",
+      "photo": "inline-apartment.jpg",
+      "accent": "CONSTRAINTS",
+      "narration": "Start with usable space, daylight, and a tray that protects the rental surface. Then pick the smallest setup that still grows what you cook."
+    },
+    {
+      "eyebrow": "SKIP THIS",
+      "headline": "Don't buy the\nbiggest kit first.",
+      "subhead": "Weak light is not a watering problem.",
+      "photo": "inline-pots.jpg",
+      "accent": "COMMON MISTAKE",
+      "narration": "Skip the largest system until the plants prove they need it. Stretching stems usually mean more light, not more water."
+    },
+    {
+      "eyebrow": "THE VERDICT",
+      "headline": "Start small.\nProve the routine.",
+      "subhead": "Expect roughly $2\u20136 per month for electricity on a small LED kit in the US, plus $8\u201325 per month if you keep buying branded pods. DIY soil o",
+      "photo": "inline-greenery.jpg",
+      "accent": "FULL GUIDE BELOW",
+      "narration": "Our verdict: Expect roughly $2\u20136 per month for electricity on a small LED kit in the US, plus $8\u201325 per month if you keep buying branded pods. DIY soil or refill inserts cut the pod line hard after you know which herbs you eat. Full guide on Sill Garden dot com."
+    }
+  ]
+}

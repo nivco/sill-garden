@@ -1,0 +1,66 @@
+name: Publish one YouTube video
+
+on:
+  workflow_dispatch:
+    inputs:
+      video:
+        description: "Directory name under products/youtube/"
+        required: true
+      privacy:
+        description: "YouTube privacy"
+        required: false
+        default: "public"
+        type: choice
+        options:
+          - public
+          - unlisted
+          - private
+      build:
+        description: "Build MP4 from storyboard before upload"
+        required: false
+        default: true
+        type: boolean
+
+concurrency:
+  group: sg-bot-commit-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publish:
+    runs-on: ubuntu-latest
+    env:
+      AUTOMATION_LIVE: "1"
+      YOUTUBE_USER_TOKEN_JSON: ${{ secrets.YOUTUBE_USER_TOKEN_JSON }}
+      YOUTUBE_OAUTH_CLIENT_JSON: ${{ secrets.YOUTUBE_OAUTH_CLIENT_JSON }}
+      GOOGLE_OAUTH_CLIENT_JSON: ${{ secrets.GOOGLE_OAUTH_CLIENT_JSON }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y ffmpeg
+          pip install -r requirements-youtube.txt
+
+      - name: Build video
+        if: inputs.build
+        run: python scripts/build_visual_video.py "products/youtube/${{ inputs.video }}/storyboard.json"
+
+      - name: Upload video
+        run: python scripts/youtube_upload.py "${{ inputs.video }}" --privacy "${{ inputs.privacy }}"
+
+      - name: Commit publish state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_git_push.sh "chore: publish ${{ inputs.video }}" \
+            products/youtube/

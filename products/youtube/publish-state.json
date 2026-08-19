@@ -18,7 +18,26 @@
       "storyboard": "products/youtube/short-aerogarden-vs-click-grow/storyboard.json",
       "format": "short",
       "published_at": "2026-08-15T18:06:54.924507+00:00"
+    },
+    "video-basil-countertop-first-harvest": {
+      "youtube_id": "rusBsFKZANo",
+      "url": "https://youtu.be/rusBsFKZANo",
+      "title": "Basil on a countertop \u2014 first harvest guide \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-08-19T19:20:52.600454+00:00",
+      "storyboard": "products/youtube/video-basil-countertop-first-harvest/storyboard.json",
+      "format": "long"
+    },
+    "short-basil-countertop-first-harvest": {
+      "youtube_id": "vGjPcqBkxLg",
+      "url": "https://youtu.be/vGjPcqBkxLg",
+      "title": "Basil on a countertop \u2014 first harvest guide #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-19T19:21:27.148608+00:00",
+      "storyboard": "products/youtube/short-basil-countertop-first-harvest/storyboard.json",
+      "format": "short"
     }
   },
-  "updated_at": "2026-08-15T18:06:54.924518+00:00"
+  "updated_at": "2026-08-15T18:06:54.924518+00:00",
+  "next_eligible_date": "2026-08-20"
 }

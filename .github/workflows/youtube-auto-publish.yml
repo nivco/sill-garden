@@ -2,22 +2,28 @@ name: YouTube build and upload
 
 on:
   schedule:
-    # Prepare the next approved storyboard each Friday; uploads stay unlisted for review.
-    - cron: "0 14 * * 5"
+    # Daily 14:00 UTC — one long-form video
+    - cron: "0 14 * * *"
+    # Daily 09:00 UTC — one Short
+    - cron: "0 9 * * *"
   workflow_dispatch:
     inputs:
       dry_run:
         description: "Build and preview metadata without uploading"
         type: boolean
-        default: true
+        default: false
       privacy:
         description: "Upload visibility"
         type: choice
         options:
+          - public
           - unlisted
           - private
-          - public
-        default: unlisted
+        default: public
+      force:
+        description: "Ignore interval / daily cap"
+        type: boolean
+        default: false
 
 concurrency:
   group: sill-bot-commit-${{ github.ref }}
@@ -30,10 +36,14 @@ jobs:
   publish:
     runs-on: ubuntu-latest
     env:
+      AUTOMATION_LIVE: "1"
       YOUTUBE_USER_TOKEN_JSON: ${{ secrets.YOUTUBE_USER_TOKEN_JSON }}
       YOUTUBE_OAUTH_CLIENT_JSON: ${{ secrets.YOUTUBE_OAUTH_CLIENT_JSON }}
+      GOOGLE_OAUTH_CLIENT_JSON: ${{ secrets.GOOGLE_OAUTH_CLIENT_JSON }}
     steps:
       - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
       - uses: actions/setup-python@v5
         with:
           python-version: "3.12"
@@ -47,20 +57,31 @@ jobs:
       - name: Verify Sill Garden channel access
         id: gate
         run: python scripts/youtube_access_gate.py
-      - name: Plan next guide video
+      - name: Plan next videos
+        if: steps.gate.outputs.ready == 'true'
         continue-on-error: true
-        run: python scripts/youtube_planner.py --write
-      - name: Build and upload next storyboard
+        run: |
+          python scripts/youtube_planner.py --write
+          python scripts/youtube_planner.py --write-short
+      - name: Build and upload next long-form video
+        if: steps.gate.outputs.ready == 'true' && (github.event_name == 'workflow_dispatch' || github.event.schedule == '0 14 * * *')
         run: |
           EXTRA=""
-          PRIVACY="${{ github.event.inputs.privacy || 'unlisted' }}"
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then EXTRA="--dry-run"; fi
+          PRIVACY="${{ github.event.inputs.privacy || 'public' }}"
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then EXTRA="$EXTRA --dry-run"; fi
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then EXTRA="$EXTRA --force"; fi
           python scripts/youtube_auto_publish.py --privacy "$PRIVACY" $EXTRA
+      - name: Build and upload next Short
+        if: steps.gate.outputs.ready == 'true' && github.event.inputs.dry_run != 'true' && (github.event.schedule == '0 9 * * *' || github.event_name == 'workflow_dispatch')
+        run: |
+          EXTRA=""
+          PRIVACY="${{ github.event.inputs.privacy || 'public' }}"
+          if [ "${{ github.event.inputs.force }}" = "true" ]; then EXTRA="$EXTRA --force"; fi
+          python scripts/youtube_auto_publish.py --short-slot --privacy "$PRIVACY" $EXTRA
       - name: Commit publish status
-        if: github.event.inputs.dry_run != 'true'
+        if: steps.gate.outputs.ready == 'true' && github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add products/youtube/publish-state.json products/youtube/youtube-access-status.json products/youtube/*/storyboard.json
-          git diff --cached --quiet || git commit -m "chore: record YouTube upload"
-          git push
+          bash scripts/ci_git_push.sh "chore: record YouTube upload $(date -u +%Y-%m-%d)" \
+            products/youtube/

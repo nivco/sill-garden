@@ -1,8 +1,10 @@
 {
-  "auto_publish_enabled": false,
-  "default_privacy": "unlisted",
-  "min_days_between": 7,
-  "max_uploads_per_day": 1,
+  "auto_publish_enabled": true,
+  "default_privacy": "public",
+  "min_days_between": 1,
+  "max_days_between": 1,
+  "max_uploads_per_day": 2,
+  "short_slots_per_day": 1,
   "manual_queue": [],
-  "notes": "Enable auto_publish_enabled only after reviewing unlisted CI uploads. Keep weekly cadence."
+  "notes": "Daily public long-form at 14:00 UTC plus one Short at 09:00 UTC. Planner writes the next unused guide storyboard when the queue is empty."
 }

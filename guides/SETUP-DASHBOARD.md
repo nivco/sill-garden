@@ -71,10 +71,12 @@ Copy `.env.example` → `.env` and fill keys. You can point `GOOGLE_*` at the sa
 | `oauth-health-check.yml` | daily 06:30 UTC | Fail if GA4/GSC OAuth is broken |
 | `daily-growth-agent.yml` | daily 15:00 UTC | Learn → safe SEO patches → distribution pack → optional email |
 | `ai-growth.yml` | Tue 14:00 UTC | AI citation probe (demo if no API keys) |
-| `youtube-auto-publish.yml` | Fri 14:00 UTC | Build next storyboard → upload **unlisted** for review |
+| `youtube-auto-publish.yml` | daily 09:00 + 14:00 UTC | Build/upload 1 Short + 1 long-form video (**public**) |
 | `youtube-refresh-descriptions.yml` | Mon 13:20 UTC | Refresh uploaded video descriptions/tags |
 | `tier2-distribution.yml` | Thu 17:00 UTC | Bing/IndexNow submission → up to 2 Dev.to + Hashnode guide posts |
 | `tier2b-distribution.yml` | Sun 18:00 UTC | Wayback capture → newest RSS item to Mastodon + Telegram |
+| `exec-board.yml` | daily 06:00 UTC | Per-role diagnosis (SEO/CMO/CRO/…) → board report + KPI ledger + optional email |
+| `youtube-publish-one.yml` | manual dispatch | Build + upload a single video by directory name |
 
 ### Secrets to set on `nivco/sill-garden`
 
@@ -122,11 +124,12 @@ Build/preview/upload one storyboard:
 
 ```powershell
 python scripts\youtube_publish.py video-aerogarden-vs-click-grow --build --dry-run
-python scripts\youtube_publish.py video-aerogarden-vs-click-grow --build --privacy unlisted
+python scripts\youtube_publish.py video-aerogarden-vs-click-grow --build --privacy public
 ```
 
 The access gate requires the API channel title to be `Sill Garden`. Scheduled uploads are
-unlisted; publish only after watching the final render in YouTube Studio.
+**public** (one long-form video at 14:00 UTC and one Short at 09:00 UTC). Use
+`youtube-publish-one.yml` for a manual one-off.
 
 Sync OAuth from Maker Tool Stack after login:
 

@@ -10,7 +10,7 @@ Sill’s growth stack mirrors Maker Tool Stack capabilities, adapted to Astro ma
 | `weekly-analytics.yml` | weekly | Scorecard commit |
 | `daily-growth-agent.yml` | daily 15:00 UTC | Learn → safe title/meta patches → distribution pack → optional email |
 | `ai-growth.yml` | Tue 14:00 UTC | AI citation probe (demo if no API keys) |
-| `youtube-auto-publish.yml` | daily | Build/upload next storyboard |
+| `youtube-auto-publish.yml` | daily 09:00 + 14:00 UTC | Public Short + long-form video |
 | `tier2-distribution.yml` | Thu | Dev.to / Hashnode syndication (when keys exist) |
 | `tier2b-distribution.yml` | Sun | Mastodon / Telegram / archive (when keys exist) |
 | `youtube-refresh-descriptions.yml` | weekly | Refresh uploaded video descriptions |

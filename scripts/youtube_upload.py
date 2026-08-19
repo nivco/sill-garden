@@ -71,7 +71,7 @@ def refresh_video_assets(youtube_id: str, story: dict, path: Path, youtube=None)
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("video")
-    parser.add_argument("--privacy", choices=["private", "unlisted", "public"], default="unlisted")
+    parser.add_argument("--privacy", choices=["private", "unlisted", "public"], default="public")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force", action="store_true")
     args = parser.parse_args()

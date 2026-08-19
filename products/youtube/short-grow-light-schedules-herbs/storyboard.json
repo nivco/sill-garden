@@ -1,0 +1,51 @@
+{
+  "id": "short-grow-light-schedules-herbs",
+  "format": "short",
+  "title": "Grow light schedules for kitchen herbs #Shorts",
+  "filename": "sill-grow-light-schedules-herbs-short.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "guide_slug": "grow-light-schedules-herbs",
+  "utm_campaign": "short-grow-light-schedules-herbs",
+  "description": "Simple on/off timing for countertop kits and clip lights \u2014 including studio sleep schedules.",
+  "tags": [
+    "grow light schedules herbs",
+    "apartment gardening",
+    "indoor herb garden",
+    "sill garden",
+    "shorts"
+  ],
+  "slides": [
+    {
+      "eyebrow": "APARTMENT GUIDE",
+      "headline": "Grow light schedules\nfor kitchen herbs",
+      "subhead": "Simple on/off timing for countertop kits and clip lights \u2014 including studio sleep schedules.",
+      "photo": "guide-light.jpg",
+      "accent": "START HERE",
+      "narration": "Grow light schedules for kitchen herbs. The Sill Garden answer for a small apartment, without buying more equipment than you need."
+    },
+    {
+      "eyebrow": "DO THIS FIRST",
+      "headline": "Match the setup\nto your space.",
+      "subhead": "Light, noise, and spill risk matter more than pod count.",
+      "photo": "inline-apartment.jpg",
+      "accent": "CONSTRAINTS",
+      "narration": "Start with usable space, daylight, and a tray that protects the rental surface. Then pick the smallest setup that still grows what you cook."
+    },
+    {
+      "eyebrow": "SKIP THIS",
+      "headline": "Don't buy the\nbiggest kit first.",
+      "subhead": "Weak light is not a watering problem.",
+      "photo": "inline-pots.jpg",
+      "accent": "COMMON MISTAKE",
+      "narration": "Skip the largest system until the plants prove they need it. Stretching stems usually mean more light, not more water."
+    },
+    {
+      "eyebrow": "THE VERDICT",
+      "headline": "Start small.\nProve the routine.",
+      "subhead": "Run herbs about 14\u201316 hours on, 8\u201310 hours off. Align the dark period with your sleep if the garden shares your bedroom.",
+      "photo": "inline-greenery.jpg",
+      "accent": "FULL GUIDE BELOW",
+      "narration": "Our verdict: Run herbs about 14\u201316 hours on, 8\u201310 hours off. Align the dark period with your sleep if the garden shares your bedroom. Full guide on Sill Garden dot com."
+    }
+  ]
+}

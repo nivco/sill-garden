@@ -78,15 +78,15 @@ def query_terms() -> list[dict]:
     return (((analytics.get("sources") or {}).get("gsc") or {}).get("top_queries") or [])
 
 
-def used_topics() -> tuple[set[str], set[str]]:
+def used_ids() -> set[str]:
     ids: set[str] = set()
-    slugs: set[str] = set()
     for path in sorted(PRODUCTS_YT.glob("*/storyboard.json")):
         story = load_json(path, {})
         ids.add(story_id(story, path))
-        if story.get("guide_slug"):
-            slugs.add(str(story["guide_slug"]))
-
+        slug = str(story.get("guide_slug") or "")
+        if slug:
+            prefix = "short-" if str(story.get("format") or "").lower() == "short" else "video-"
+            ids.add(f"{prefix}{slug}")
     state = load_json(PUBLISH_STATE, {"uploads": {}})
     for item_id, item in (state.get("uploads") or {}).items():
         ids.add(str(item_id))
@@ -94,25 +94,33 @@ def used_topics() -> tuple[set[str], set[str]]:
         if storyboard:
             story_path = ROOT / str(storyboard)
             story = load_json(story_path, {})
-            if story.get("guide_slug"):
-                slugs.add(str(story["guide_slug"]))
-
+            slug = str(story.get("guide_slug") or item.get("guide_slug") or "")
+            if slug:
+                prefix = "short-" if str(item.get("format") or story.get("format") or "").lower() == "short" else "video-"
+                ids.add(f"{prefix}{slug}")
     history = load_json(CONTENT_HISTORY, {"published": []})
     for item in history.get("published") or []:
         if item.get("id"):
             ids.add(str(item["id"]))
         if item.get("guide_slug"):
-            slugs.add(str(item["guide_slug"]))
-    return ids, slugs
+            prefix = "short-" if str(item.get("format") or "").lower() == "short" else "video-"
+            ids.add(f"{prefix}{item['guide_slug']}")
+    return ids
 
 
-def pending_storyboards() -> list[str]:
+def pending_storyboards(*, shorts: bool | None = None) -> list[str]:
     uploaded = (load_json(PUBLISH_STATE, {"uploads": {}}).get("uploads") or {})
-    return [
-        story_id(load_json(path, {}), path)
-        for path in sorted(PRODUCTS_YT.glob("*/storyboard.json"))
-        if story_id(load_json(path, {}), path) not in uploaded
-    ]
+    pending: list[str] = []
+    for path in sorted(PRODUCTS_YT.glob("*/storyboard.json")):
+        story = load_json(path, {})
+        is_short = str(story.get("format") or "").lower() == "short"
+        if shorts is True and not is_short:
+            continue
+        if shorts is False and is_short:
+            continue
+        if story_id(story, path) not in uploaded:
+            pending.append(story_id(story, path))
+    return pending
 
 
 def score_topic(topic: dict, queries: list[dict]) -> tuple[float, list[str]]:
@@ -139,6 +147,93 @@ def score_topic(topic: dict, queries: list[dict]) -> tuple[float, list[str]]:
         "basil-countertop-first-harvest": 0.5,
     }
     return score + priorities.get(topic["slug"], 0.0), matched
+
+
+def _photo_file(image: str) -> str:
+    name = str(image or "images/guide-windowsill.jpg").replace("\\", "/").lstrip("/")
+    if name.startswith("images/"):
+        name = name[len("images/") :]
+    return name or "guide-windowsill.jpg"
+
+
+def _short_headline(title: str) -> str:
+    clean = re.sub(r"\s*\(2026\)\s*", " ", title).strip()
+    if " — " in clean:
+        left, right = clean.split(" — ", 1)
+        return f"{left.strip()}\n{right.strip()[:42]}"
+    words = clean.split()
+    if len(words) <= 5:
+        return clean
+    mid = max(2, len(words) // 2)
+    return " ".join(words[:mid]) + "\n" + " ".join(words[mid:])
+
+
+def make_short_storyboard(topic: dict) -> dict:
+    slug = topic["slug"]
+    short_id = f"short-{slug}"
+    short_title = re.sub(r"\s*\(2026\)\s*", " ", topic["title"]).strip()
+    verdict = topic["verdict"] or topic["description"]
+    photo = _photo_file(topic["image"])
+    return {
+        "id": short_id,
+        "format": "short",
+        "title": f"{short_title} #Shorts",
+        "filename": f"sill-{slug}-short.mp4",
+        "voice": "en-US-AvaMultilingualNeural",
+        "guide_slug": slug,
+        "utm_campaign": short_id,
+        "description": topic["description"],
+        "tags": [
+            slug.replace("-", " "),
+            "apartment gardening",
+            "indoor herb garden",
+            "sill garden",
+            "shorts",
+        ],
+        "slides": [
+            {
+                "eyebrow": "APARTMENT GUIDE",
+                "headline": _short_headline(short_title),
+                "subhead": topic["description"][:110],
+                "photo": photo,
+                "accent": "START HERE",
+                "narration": (
+                    f"{short_title}. The Sill Garden answer for a small apartment, "
+                    "without buying more equipment than you need."
+                ),
+            },
+            {
+                "eyebrow": "DO THIS FIRST",
+                "headline": "Match the setup\nto your space.",
+                "subhead": "Light, noise, and spill risk matter more than pod count.",
+                "photo": "inline-apartment.jpg",
+                "accent": "CONSTRAINTS",
+                "narration": (
+                    "Start with usable space, daylight, and a tray that protects the rental surface. "
+                    "Then pick the smallest setup that still grows what you cook."
+                ),
+            },
+            {
+                "eyebrow": "SKIP THIS",
+                "headline": "Don't buy the\nbiggest kit first.",
+                "subhead": "Weak light is not a watering problem.",
+                "photo": "inline-pots.jpg",
+                "accent": "COMMON MISTAKE",
+                "narration": (
+                    "Skip the largest system until the plants prove they need it. "
+                    "Stretching stems usually mean more light, not more water."
+                ),
+            },
+            {
+                "eyebrow": "THE VERDICT",
+                "headline": "Start small.\nProve the routine.",
+                "subhead": verdict[:140],
+                "photo": "inline-greenery.jpg",
+                "accent": "FULL GUIDE BELOW",
+                "narration": f"Our verdict: {verdict} Full guide on Sill Garden dot com.",
+            },
+        ],
+    }
 
 
 def make_storyboard(topic: dict) -> dict:
@@ -240,34 +335,62 @@ def make_storyboard(topic: dict) -> dict:
     }
 
 
-def main() -> int:
-    parser = argparse.ArgumentParser()
-    mode = parser.add_mutually_exclusive_group()
-    mode.add_argument("--write", action="store_true", help="Write the best unused proposal")
-    mode.add_argument("--dry-run", action="store_true", help="Print the proposal without writing (default)")
-    args = parser.parse_args()
-
-    pending = pending_storyboards()
-    if args.write and pending:
-        print(f"Planner skipped: unpublished storyboard already pending: {', '.join(pending)}")
-        return 0
-
-    ids, slugs = used_topics()
+def ranked_topics(*, prefix: str) -> list[tuple[float, dict, list[str]]]:
+    ids = used_ids()
     queries = query_terms()
     proposals: list[tuple[float, dict, list[str]]] = []
     for topic in guide_topics():
-        candidate_id = f"video-{topic['slug']}"
-        if candidate_id in ids or topic["slug"] in slugs:
+        candidate_id = f"{prefix}{topic['slug']}"
+        if candidate_id in ids:
             continue
         score, matches = score_topic(topic, queries)
         proposals.append((score, topic, matches))
     proposals.sort(key=lambda item: (-item[0], item[1]["slug"]))
+    return proposals
+
+
+def write_storyboard(story: dict) -> Path | None:
+    output = PRODUCTS_YT / story["id"] / "storyboard.json"
+    if output.exists():
+        print(f"Planner skipped: storyboard already exists: {output.relative_to(ROOT)}")
+        return None
+    save_json(output, story)
+    print(f"Wrote {output.relative_to(ROOT)}")
+    return output
+
+
+def main() -> int:
+    parser = argparse.ArgumentParser()
+    mode = parser.add_mutually_exclusive_group()
+    mode.add_argument("--write", action="store_true", help="Write the next unused long-form storyboard")
+    mode.add_argument("--write-short", action="store_true", help="Write the next unused Short storyboard")
+    mode.add_argument("--write-all", action="store_true", help="Write all unused video + Short storyboards")
+    mode.add_argument("--dry-run", action="store_true", help="Print the proposal without writing (default)")
+    args = parser.parse_args()
+
+    if args.write_all:
+        written = 0
+        for prefix, factory in (("video-", make_storyboard), ("short-", make_short_storyboard)):
+            for _score, topic, _matches in ranked_topics(prefix=prefix):
+                if write_storyboard(factory(topic)):
+                    written += 1
+        print(f"Wrote {written} storyboards")
+        return 0
+
+    shorts = args.write_short
+    prefix = "short-" if shorts else "video-"
+    pending = pending_storyboards(shorts=shorts)
+    if (args.write or args.write_short) and pending:
+        print(f"Planner skipped: unpublished storyboard already pending: {', '.join(pending)}")
+        return 0
+
+    proposals = ranked_topics(prefix=prefix)
     if not proposals:
         print("No unused Sill Garden guide topics remain.")
         return 0
 
     score, topic, matches = proposals[0]
-    story = make_storyboard(topic)
+    story = make_short_storyboard(topic) if shorts else make_storyboard(topic)
     proposal = {
         "proposal": {
             "id": story["id"],
@@ -278,16 +401,11 @@ def main() -> int:
         },
         "storyboard": story,
     }
-    if not args.write:
+    if not (args.write or args.write_short):
         print(json.dumps(proposal, indent=2))
         return 0
 
-    output = PRODUCTS_YT / story["id"] / "storyboard.json"
-    if output.exists():
-        print(f"Planner skipped: storyboard already exists: {output.relative_to(ROOT)}")
-        return 0
-    save_json(output, story)
-    print(f"Wrote {output.relative_to(ROOT)}")
+    write_storyboard(story)
     return 0
 
 

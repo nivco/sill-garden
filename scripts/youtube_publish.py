@@ -20,7 +20,7 @@ def main() -> int:
     parser.add_argument("--build", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     parser.add_argument("--force", action="store_true")
-    parser.add_argument("--privacy", choices=["private", "unlisted", "public"], default="unlisted")
+    parser.add_argument("--privacy", choices=["private", "unlisted", "public"], default="public")
     args = parser.parse_args()
     story = find_storyboard(args.video)
     if args.build:
