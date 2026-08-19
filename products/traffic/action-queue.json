@@ -1,11 +1,18 @@
 {
-  "generated_at": "2026-08-19 00:47 UTC",
+  "generated_at": "2026-08-19 12:29 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [
-    "IndexNow ping"
-  ],
+  "applied": [],
   "actions": [
+    {
+      "priority": "P0",
+      "category": "acquisition",
+      "title": "No GA4 sessions yet",
+      "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-19 12:29 UTC"
+    },
     {
       "priority": "P1",
       "category": "indexing",
@@ -13,25 +20,43 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 00:47 UTC"
+      "created": "2026-08-19 12:29 UTC"
     },
     {
-      "priority": "P1",
-      "category": "seo",
-      "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 62/2 impr; \u201caerogarden vs\u201d pos 26/1 impr; \u201caerogarden vs click and grow\u201d pos 40/1 impr; \u201cclick and grow vs aerogarden\u201d pos 37/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "priority": "P2",
+      "category": "setup",
+      "title": "Finish setup: GA4 API",
+      "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 00:47 UTC"
+      "created": "2026-08-19 12:29 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "setup",
+      "title": "Finish setup: Search Console",
+      "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-19 12:29 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "setup",
+      "title": "Finish setup: Affiliate click counters",
+      "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-19 12:29 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-19 00:47 UTC (11.7h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-19 00:47 UTC"
+      "created": "2026-08-19 12:29 UTC"
     }
   ]
 }
