@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-18 15:19 UTC",
+  "generated_at": "2026-08-19 00:47 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 56,
-    "users_7d": 51,
-    "pageviews_7d": 65,
+    "sessions_7d": 57,
+    "users_7d": 52,
+    "pageviews_7d": 66,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 7,
@@ -19,7 +19,7 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 8.9,
+    "engagement_rate_pct": 10.5,
     "affiliate_ctr_pct": 1.8,
     "youtube_videos": 3
   },
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 51,
-        "sessions": 56,
-        "screenPageViews": 65,
-        "engagedSessions": 5,
-        "averageSessionDuration_sec": 56.5,
-        "engagementRate_pct": 8.9
+        "activeUsers": 52,
+        "sessions": 57,
+        "screenPageViews": 66,
+        "engagedSessions": 6,
+        "averageSessionDuration_sec": 28.6,
+        "engagementRate_pct": 10.5
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "44",
-          "screenPageViews": "45"
+          "sessions": "45",
+          "screenPageViews": "46"
         },
         {
           "pagePath": "/guides/",
@@ -93,32 +93,32 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "52"
-        },
-        {
-          "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "4"
+          "sessions": "53"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
           "sessions": "3"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
+          "sessions": "2"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "52",
-          "engagedSessions": "4"
-        },
-        {
-          "sessionSourceMedium": "(not set)",
-          "sessions": "4",
-          "engagedSessions": "0"
+          "sessions": "53",
+          "engagedSessions": "5"
         },
         {
           "sessionSourceMedium": "youtube / video",
           "sessions": "3",
           "engagedSessions": "1"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "2",
+          "engagedSessions": "0"
         }
       ],
       "events": {
@@ -548,7 +548,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-18 12:29 UTC"
+      "created": "2026-08-18 15:19 UTC"
     },
     {
       "priority": "P1",
@@ -557,16 +557,25 @@
       "detail": "Already showing for: \u201caerogarden comparison\u201d pos 62/2 impr; \u201caerogarden vs\u201d pos 26/1 impr; \u201caerogarden vs click and grow\u201d pos 40/1 impr; \u201cclick and grow vs aerogarden\u201d pos 37/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-18 12:29 UTC"
+      "created": "2026-08-18 15:19 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-18 00:47 UTC (11.7h ago; min 20h).",
+      "detail": "Last ping 2026-08-18 00:47 UTC (14.5h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-18 12:29 UTC"
+      "created": "2026-08-18 15:19 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-18 15:19 UTC"
     }
   ],
   "insights": [
@@ -615,6 +624,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 56 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 57 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }
