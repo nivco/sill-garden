@@ -33,4 +33,6 @@ jobs:
         env:
           YOUTUBE_USER_TOKEN_JSON: ${{ secrets.YOUTUBE_USER_TOKEN_JSON }}
           YOUTUBE_OAUTH_CLIENT_JSON: ${{ secrets.YOUTUBE_OAUTH_CLIENT_JSON }}
+        # Warn only — publish workflows already skip when upload OAuth is broken.
+        continue-on-error: true
         run: python scripts/youtube_access_gate.py

@@ -104,37 +104,39 @@ def materialize_json_env(env_name: str, filename: str) -> Path | None:
 def _oauth_refresh_scopes(token_path: Path) -> list[str]:
     """Use scopes already on the token. Widening on refresh returns invalid_scope.
 
-    Normalize GSC write → readonly. Token metadata sometimes lists write after a
-    bad persist even when CI only has the readonly grant.
+    GSC write and readonly are different grants — never rewrite one into the other.
     """
     stored: list[str] = []
     try:
         stored = [s for s in (json.loads(token_path.read_text(encoding="utf-8")).get("scopes") or []) if s]
     except Exception:
         stored = []
-    if not stored:
-        return list(OAUTH_SCOPES)
+    return stored or list(OAUTH_SCOPES)
 
+
+def _alternate_gsc_scopes(scopes: list[str]) -> list[str] | None:
     write = "https://www.googleapis.com/auth/webmasters"
     readonly = "https://www.googleapis.com/auth/webmasters.readonly"
-    normalized: list[str] = []
-    seen: set[str] = set()
-    for scope in stored:
-        if scope == write:
-            scope = readonly
-        if scope in seen:
-            continue
-        seen.add(scope)
-        normalized.append(scope)
-
-    safe = [s for s in OAUTH_SCOPES if s in seen or (s == readonly and write in stored)]
-    return safe or normalized
+    has_ro = readonly in scopes
+    has_rw = write in scopes
+    if has_ro == has_rw:
+        return None
+    out: list[str] = []
+    for scope in scopes:
+        if scope == readonly:
+            out.append(write)
+        elif scope == write:
+            out.append(readonly)
+        else:
+            out.append(scope)
+    return out
 
 
 def google_token(scopes: list[str]) -> str:
     """Service account or OAuth (same env pattern as Maker Tool Stack)."""
     auth_mode = (os.environ.get("GOOGLE_AUTH") or "sa").strip().lower()
     if auth_mode == "oauth":
+        from google.auth.exceptions import RefreshError
         from google.auth.transport.requests import Request
         from google.oauth2.credentials import Credentials
 
@@ -151,9 +153,20 @@ def google_token(scopes: list[str]) -> str:
         creds = Credentials.from_authorized_user_file(str(token_path), scopes=granted_scopes)
         if not creds.valid:
             if creds.expired and creds.refresh_token:
-                creds.refresh(Request())
+                try:
+                    creds.refresh(Request())
+                except RefreshError as exc:
+                    alt = _alternate_gsc_scopes(granted_scopes)
+                    if not alt:
+                        raise
+                    creds = Credentials.from_authorized_user_file(str(token_path), scopes=alt)
+                    try:
+                        creds.refresh(Request())
+                        granted_scopes = alt
+                    except RefreshError:
+                        raise exc from None
                 data = json.loads(creds.to_json())
-                data["scopes"] = sorted(set(data.get("scopes") or []) | set(granted_scopes))
+                data["scopes"] = sorted(set(granted_scopes))
                 token_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
             else:
                 raise RuntimeError("OAuth token invalid — re-auth via MTS google oauth flow")
