@@ -60,8 +60,9 @@ def google_access_ready(*, refresh: bool = False) -> dict:
         except (json.JSONDecodeError, OSError):
             pass
 
-    # Fresh probe wins over stale analytics_summary errors in latest.json.
-    if refresh and status.get("ga4") == "ok" and status.get("gsc") == "ok":
+    # Trust a successful access probe. Stale invalid_scope (etc.) left in
+    # latest.json from older runs must not keep failing the gate.
+    if status.get("ga4") == "ok" and status.get("gsc") == "ok":
         status["ready"] = True
         return status
 
@@ -104,7 +105,16 @@ def main() -> int:
     parser.add_argument("--refresh", action="store_true", help="Re-probe Google access first")
     args = parser.parse_args()
     if args.refresh:
-        google_access_ready(refresh=True)
+        status = google_access_ready(refresh=True)
+        print(json.dumps(status, indent=2))
+        if status.get("ready"):
+            print("Measurement gate: GA4 + GSC OK")
+            return 0
+        msg = "Measurement gate FAILED — GA4/GSC not ready; automations would run blind."
+        print(msg, file=sys.stderr)
+        for step in status.get("next_steps") or []:
+            print(f"  → {step}", file=sys.stderr)
+        return 1 if args.strict else 0
     return require_google_access(strict=args.strict, warn_only=args.warn_only)
 
 
