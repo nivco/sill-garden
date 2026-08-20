@@ -1,26 +1,28 @@
 {
-  "generated_at": "2026-08-19 15:19 UTC",
+  "generated_at": "2026-08-20 00:47 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [],
+  "applied": [
+    "IndexNow ping"
+  ],
   "actions": [
     {
       "priority": "P0",
       "category": "acquisition",
       "title": "No GA4 sessions yet",
-      "detail": "Share 1–2 guides or request indexing on home + top guides in Search Console.",
+      "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P1",
       "category": "indexing",
       "title": "Request indexing for 3 guides",
-      "detail": "Search Console → URL Inspection → Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
+      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P2",
@@ -29,7 +31,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P2",
@@ -38,7 +40,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P2",
@@ -47,25 +49,16 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-19 00:47 UTC (14.5h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-19 15:19 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-18 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     }
   ]
 }
