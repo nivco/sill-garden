@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-20 12:31 UTC",
+  "generated_at": "2026-08-20 15:22 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -21,7 +21,7 @@
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": null,
     "affiliate_ctr_pct": 0,
-    "youtube_videos": 5
+    "youtube_videos": 7
   },
   "sources": {
     "site": {
@@ -311,9 +311,17 @@
         "handle": "@sillgarden",
         "subscribers": 0,
         "views": 293,
-        "videos": 5
+        "videos": 7
       },
       "recent_videos": [
+        {
+          "id": "fqZq0EoaJKc",
+          "title": "Best countertop garden for apartments \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-20T14:33:11Z",
+          "url": "https://www.youtube.com/watch?v=fqZq0EoaJKc"
+        },
         {
           "id": "tGr1dpUCGXo",
           "title": "Best countertop garden for apartments #Shorts",
@@ -418,7 +426,7 @@
       "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P1",
@@ -427,7 +435,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P2",
@@ -436,7 +444,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P2",
@@ -445,7 +453,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P2",
@@ -454,16 +462,16 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-20 00:47 UTC (11.7h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     }
   ],
   "insights": [
