@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-20 00:47 UTC",
+  "generated_at": "2026-08-20 12:31 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -315,9 +315,17 @@
       },
       "recent_videos": [
         {
+          "id": "tGr1dpUCGXo",
+          "title": "Best countertop garden for apartments #Shorts",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-20T09:39:49Z",
+          "url": "https://www.youtube.com/watch?v=tGr1dpUCGXo"
+        },
+        {
           "id": "vGjPcqBkxLg",
           "title": "Basil on a countertop \u2014 first harvest guide #Shorts",
-          "views": 3,
+          "views": 21,
           "likes": 0,
           "published": "2026-08-19T19:21:40Z",
           "url": "https://www.youtube.com/watch?v=vGjPcqBkxLg"
@@ -410,7 +418,7 @@
       "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P1",
@@ -419,7 +427,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P2",
@@ -428,7 +436,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P2",
@@ -437,7 +445,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P2",
@@ -446,25 +454,16 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-19 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-19 00:47 UTC (14.5h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-19 15:19 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-18 15:19 UTC"
+      "created": "2026-08-20 00:47 UTC"
     }
   ],
   "insights": [

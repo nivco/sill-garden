@@ -1,10 +1,8 @@
 {
-  "generated_at": "2026-08-20 00:47 UTC",
+  "generated_at": "2026-08-20 12:31 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [
-    "IndexNow ping"
-  ],
+  "applied": [],
   "actions": [
     {
       "priority": "P0",
@@ -13,7 +11,7 @@
       "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P1",
@@ -22,7 +20,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P2",
@@ -31,7 +29,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P2",
@@ -40,7 +38,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P2",
@@ -49,16 +47,16 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-20 00:47 UTC (11.7h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-20 00:47 UTC"
+      "created": "2026-08-20 12:31 UTC"
     }
   ]
 }
