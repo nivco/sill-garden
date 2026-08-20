@@ -38,7 +38,11 @@ jobs:
       - name: Refresh descriptions and tags
         run: |
           EXTRA=""
-          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then EXTRA="--dry-run"; fi
+          # schedule + AUTOMATION_LIVE=0 must dry-run or the job fails
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ] || \
+             { [ "${{ github.event_name }}" = "schedule" ] && [ "$AUTOMATION_LIVE" != "1" ]; }; then
+            EXTRA="--dry-run"
+          fi
           python scripts/youtube_refresh_descriptions.py $EXTRA
       - name: Commit publish state
         if: github.event.inputs.dry_run != 'true'

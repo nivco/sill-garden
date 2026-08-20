@@ -60,6 +60,11 @@ def google_access_ready(*, refresh: bool = False) -> dict:
         except (json.JSONDecodeError, OSError):
             pass
 
+    # Fresh probe wins over stale analytics_summary errors in latest.json.
+    if refresh and status.get("ga4") == "ok" and status.get("gsc") == "ok":
+        status["ready"] = True
+        return status
+
     ga4_err, gsc_err = _latest_google_errors()
     if ga4_err or gsc_err:
         status["ready"] = False

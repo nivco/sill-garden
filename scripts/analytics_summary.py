@@ -101,6 +101,36 @@ def materialize_json_env(env_name: str, filename: str) -> Path | None:
     return resolve_path(raw)
 
 
+def _oauth_refresh_scopes(token_path: Path) -> list[str]:
+    """Use scopes already on the token. Widening on refresh returns invalid_scope.
+
+    Normalize GSC write → readonly. Token metadata sometimes lists write after a
+    bad persist even when CI only has the readonly grant.
+    """
+    stored: list[str] = []
+    try:
+        stored = [s for s in (json.loads(token_path.read_text(encoding="utf-8")).get("scopes") or []) if s]
+    except Exception:
+        stored = []
+    if not stored:
+        return list(OAUTH_SCOPES)
+
+    write = "https://www.googleapis.com/auth/webmasters"
+    readonly = "https://www.googleapis.com/auth/webmasters.readonly"
+    normalized: list[str] = []
+    seen: set[str] = set()
+    for scope in stored:
+        if scope == write:
+            scope = readonly
+        if scope in seen:
+            continue
+        seen.add(scope)
+        normalized.append(scope)
+
+    safe = [s for s in OAUTH_SCOPES if s in seen or (s == readonly and write in stored)]
+    return safe or normalized
+
+
 def google_token(scopes: list[str]) -> str:
     """Service account or OAuth (same env pattern as Maker Tool Stack)."""
     auth_mode = (os.environ.get("GOOGLE_AUTH") or "sa").strip().lower()
@@ -117,18 +147,18 @@ def google_token(scopes: list[str]) -> str:
             client_path = resolve_path("../makertoolstack/secrets/google-oauth-client.json")
         if not token_path or not client_path:
             raise RuntimeError("OAuth mode needs GOOGLE_USER_TOKEN_JSON + GOOGLE_OAUTH_CLIENT_JSON")
-        # Always load with both scopes so a GA4-only refresh cannot drop GSC.
-        creds = Credentials.from_authorized_user_file(str(token_path), scopes=OAUTH_SCOPES)
+        granted_scopes = _oauth_refresh_scopes(token_path)
+        creds = Credentials.from_authorized_user_file(str(token_path), scopes=granted_scopes)
         if not creds.valid:
             if creds.expired and creds.refresh_token:
                 creds.refresh(Request())
                 data = json.loads(creds.to_json())
-                data["scopes"] = sorted(set(data.get("scopes") or []) | set(OAUTH_SCOPES))
+                data["scopes"] = sorted(set(data.get("scopes") or []) | set(granted_scopes))
                 token_path.write_text(json.dumps(data, indent=2), encoding="utf-8")
             else:
                 raise RuntimeError("OAuth token invalid — re-auth via MTS google oauth flow")
         if any("webmasters" in s for s in scopes):
-            granted = set(creds.scopes or [])
+            granted = set(creds.scopes or granted_scopes)
             if not any("webmasters" in s for s in granted):
                 raise RuntimeError("OAuth token missing Search Console scope — re-run google_oauth_login.py --force")
         return creds.token
