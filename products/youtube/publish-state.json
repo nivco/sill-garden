@@ -36,8 +36,17 @@
       "uploaded_at": "2026-08-19T19:21:27.148608+00:00",
       "storyboard": "products/youtube/short-basil-countertop-first-harvest/storyboard.json",
       "format": "short"
+    },
+    "short-best-countertop-garden-apartments": {
+      "youtube_id": "tGr1dpUCGXo",
+      "url": "https://youtu.be/tGr1dpUCGXo",
+      "title": "Best countertop garden for apartments #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-20T09:39:26.432719+00:00",
+      "storyboard": "products/youtube/short-best-countertop-garden-apartments/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-08-20"
+  "next_eligible_date": "2026-08-21"
 }
