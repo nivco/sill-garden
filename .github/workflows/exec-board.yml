@@ -1,0 +1,86 @@
+name: Executive board
+
+on:
+  schedule:
+    # 06:00 UTC daily. Orchestrator auto-detects cadence:
+    #   day 1 of month -> monthly, Monday -> weekly, else daily.
+    - cron: "0 6 * * *"
+  workflow_dispatch:
+    inputs:
+      cadence:
+        description: "Force cadence (daily|weekly|monthly). Blank = auto-detect."
+        required: false
+        default: ""
+      dry_run:
+        description: "Dry run (no writes/commits)"
+        required: false
+        default: "false"
+      skip_email:
+        description: "Skip summary email"
+        required: false
+        default: "false"
+
+concurrency:
+  group: sg-bot-commit-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  board:
+    runs-on: ubuntu-latest
+    env:
+      GA4_PROPERTY_ID: "549929269"
+      GSC_SITE_URL: "sc-domain:sillgarden.com"
+      GOOGLE_AUTH: oauth
+      AUTOMATION_LIVE: "1"
+      GROWTH_REPORT_EMAIL: ${{ secrets.GROWTH_REPORT_EMAIL }}
+      GROWTH_SMTP_HOST: ${{ secrets.GROWTH_SMTP_HOST }}
+      GROWTH_SMTP_USER: ${{ secrets.GROWTH_SMTP_USER }}
+      GROWTH_SMTP_PASS: ${{ secrets.GROWTH_SMTP_PASS }}
+      GROWTH_SMTP_PORT: ${{ secrets.GROWTH_SMTP_PORT }}
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      GOOGLE_USER_TOKEN_JSON: ${{ secrets.GOOGLE_USER_TOKEN_JSON }}
+      GOOGLE_OAUTH_CLIENT_JSON: ${{ secrets.GOOGLE_OAUTH_CLIENT_JSON }}
+      YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
+      YOUTUBE_CHANNEL_HANDLE: ${{ secrets.YOUTUBE_CHANNEL_HANDLE }}
+      CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+      CLOUDFLARE_ZONE_ID: "37b02453651a4e74cc1eaed7241a6338"
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Install deps
+        run: pip install -r requirements-analytics.txt
+
+      - name: Refresh analytics snapshot (best-effort)
+        continue-on-error: true
+        run: python scripts/analytics_summary.py
+
+      - name: Run executive board loop
+        run: |
+          ARGS=""
+          if [ -n "${{ github.event.inputs.cadence }}" ]; then
+            ARGS="--cadence ${{ github.event.inputs.cadence }}"
+          fi
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then
+            ARGS="$ARGS --dry-run"
+          fi
+          if [ "${{ github.event.inputs.skip_email }}" = "true" ]; then
+            ARGS="$ARGS --skip-email"
+          fi
+          python scripts/exec_board.py $ARGS
+
+      - name: Commit and push board reports
+        if: github.event.inputs.dry_run != 'true'
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_git_push.sh "chore: exec board $(date -u +%Y-%m-%d)" \
+            reports/board/

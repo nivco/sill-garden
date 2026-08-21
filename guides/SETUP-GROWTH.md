@@ -14,6 +14,7 @@ Sill’s growth stack mirrors Maker Tool Stack capabilities, adapted to Astro ma
 | `tier2-distribution.yml` | Thu | Dev.to / Hashnode syndication (when keys exist) |
 | `tier2b-distribution.yml` | Sun | Mastodon / Telegram / archive (when keys exist) |
 | `youtube-refresh-descriptions.yml` | weekly | Refresh uploaded video descriptions |
+| `exec-board.yml` | daily 06:00 UTC | CEO/role diagnosis → board report + KPI ledger + queue |
 
 ## Local commands
 
@@ -23,6 +24,8 @@ python scripts\daily_growth_agent.py --dry-run
 python scripts\daily_growth_agent.py --refresh
 python scripts\ai_growth_agent.py --demo --enqueue
 python scripts\metrics_learning.py
+python scripts\exec_board.py --dry-run --cadence weekly
+python scripts\exec_board.py --cadence weekly --skip-email
 python scripts\syndicate_guides.py --max 1 --dry-run
 python scripts\youtube_planner.py --dry-run
 ```

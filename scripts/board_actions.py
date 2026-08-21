@@ -143,6 +143,72 @@ def format_impact_lines(items: list[dict]) -> list[str]:
     return lines
 
 
-def measure_impacts(_queue: dict | None = None) -> list[dict[str, Any]]:
+def measure_impacts(
+    queue: dict | None = None,
+    metrics: dict | None = None,
+    today: str | None = None,
+) -> list[dict[str, Any]]:
     """Placeholder for 7-day impact measurement; kept for API parity with MTS."""
     return []
+
+
+def _metrics_slice(snapshot: dict) -> dict:
+    """Extract flat metric slice from snapshot for queue scoring."""
+    return {k: v for k, v in snapshot.items() if isinstance(v, (int, float, str))}
+
+
+def build_queue_items(
+    snapshot: dict, role_outputs: dict, cadence: str
+) -> list[dict]:
+    """Turn exec-board role outputs into queue items."""
+    items: list[dict] = []
+    for rid, out in role_outputs.items():
+        for action in out.get("actions", [])[:2]:
+            fp = _fingerprint(rid, "board", action[:60])
+            items.append(
+                {
+                    "id": fp,
+                    "fingerprint": fp,
+                    "role": rid,
+                    "type": "board",
+                    "title": action[:120],
+                    "detail": f"From {cadence} board run",
+                    "target": "",
+                    "auto": False,
+                    "priority": "P1" if rid == "ceo" else "P2",
+                    "done": False,
+                    "created": now_utc(),
+                }
+            )
+    return items
+
+
+def merge_queue(queue: dict, new_items: list[dict]) -> int:
+    """Merge new items into queue, deduplicating by fingerprint. Returns count added."""
+    existing_fps = {i.get("fingerprint") for i in queue.get("items", []) if not i.get("done")}
+    added = 0
+    for item in new_items:
+        if item.get("fingerprint") in existing_fps:
+            continue
+        queue.setdefault("items", []).append(item)
+        existing_fps.add(item["fingerprint"])
+        added += 1
+    return added
+
+
+def format_queue_section(queue: dict) -> str:
+    """Render the action queue as a markdown section for the board report."""
+    items = queue.get("items") or []
+    open_items = [i for i in items if not i.get("done")]
+    if not open_items:
+        return "## Action queue\n\nNo open items."
+    lines = ["## Action queue", ""]
+    for item in open_items[:15]:
+        role = item.get("role") or "?"
+        pri = item.get("priority") or "P2"
+        title = item.get("title") or item.get("type") or "untitled"
+        lines.append(f"- [{pri}] **{role}**: {title}")
+    done_count = len(items) - len(open_items)
+    if done_count:
+        lines.append(f"\n_{done_count} completed items hidden._")
+    return "\n".join(lines)
