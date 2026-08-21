@@ -247,7 +247,13 @@
       "type": "tune_guide_seo",
       "slug": "aerogarden-vs-click-and-grow",
       "reason": "CTR-first query desc: 6 impr, pos 40.0, 0 clicks"
+    },
+    {
+      "at": "2026-08-21 15:22 UTC",
+      "type": "tune_guide_seo",
+      "slug": "aerogarden-vs-click-and-grow",
+      "reason": "CTR-first query desc: 3 impr, pos 37.7, 0 clicks"
     }
   ],
-  "updated": "2026-08-21 06:46 UTC"
+  "updated": "2026-08-21 15:22 UTC"
 }

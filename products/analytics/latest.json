@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-21 12:31 UTC",
+  "generated_at": "2026-08-21 15:22 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 69,
-    "users_7d": 63,
-    "pageviews_7d": 81,
+    "sessions_7d": 70,
+    "users_7d": 64,
+    "pageviews_7d": 82,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 16,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 10,
+    "youtube_sessions_7d": 11,
     "youtube_subs": 0,
-    "youtube_views_total": 316,
+    "youtube_views_total": 317,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 11.6,
+    "engagement_rate_pct": 11.4,
     "affiliate_ctr_pct": 1.4,
-    "youtube_videos": 7
+    "youtube_videos": 8
   },
   "sources": {
     "site": {
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 63,
-        "sessions": 69,
-        "screenPageViews": 81,
+        "activeUsers": 64,
+        "sessions": 70,
+        "screenPageViews": 82,
         "engagedSessions": 8,
-        "averageSessionDuration_sec": 24.1,
-        "engagementRate_pct": 11.6
+        "averageSessionDuration_sec": 23.8,
+        "engagementRate_pct": 11.4
       },
       "top_pages": [
         {
@@ -46,8 +46,8 @@
         },
         {
           "pagePath": "/guides/",
-          "sessions": "10",
-          "screenPageViews": "10"
+          "sessions": "11",
+          "screenPageViews": "11"
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
@@ -97,7 +97,7 @@
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "10"
+          "sessions": "11"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
@@ -112,7 +112,7 @@
         },
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "10",
+          "sessions": "11",
           "engagedSessions": "2"
         },
         {
@@ -139,7 +139,7 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 10,
+      "sessions_from_youtube": 11,
       "affiliate_clicks_7d": 1
     },
     "gsc": {
@@ -471,14 +471,22 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 0,
-        "views": 316,
-        "videos": 7
+        "views": 317,
+        "videos": 8
       },
       "recent_videos": [
         {
+          "id": "o9lWE9leyPI",
+          "title": "Best low-light herbs for apartment windowsills \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-21T14:31:43Z",
+          "url": "https://www.youtube.com/watch?v=o9lWE9leyPI"
+        },
+        {
           "id": "Lsf4odXtLmM",
           "title": "Best low-light herbs for apartment windowsills #Shorts",
-          "views": 5,
+          "views": 16,
           "likes": 0,
           "published": "2026-08-21T09:42:07Z",
           "url": "https://www.youtube.com/watch?v=Lsf4odXtLmM"
@@ -587,106 +595,25 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-21 06:46 UTC"
+      "created": "2026-08-21 12:31 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 62/2 impr; \u201caerogarden vs\u201d pos 26/1 impr; \u201caerogarden vs click and grow\u201d pos 40/6 impr; \u201cclick and grow vs aerogarden\u201d pos 38/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 62/2 impr; \u201caerogarden vs\u201d pos 26/1 impr; \u201caerogarden vs click and grow\u201d pos 39/7 impr; \u201cclick and grow vs aerogarden\u201d pos 38/3 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-21 06:46 UTC"
+      "created": "2026-08-21 12:31 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-21 00:52 UTC (5.9h ago; min 20h).",
+      "detail": "Last ping 2026-08-21 00:52 UTC (11.7h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-21 06:46 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-18 15:19 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "content",
-      "title": "Refresh top guide with current pricing/verdict and stamp updatedDate.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "content",
-      "title": "Add FAQ sections to guides matching early GSC queries.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cro",
-      "title": "Monetization steady \u2014 A/B one CTA placement.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Measurement healthy \u2014 extend KPI ledger trendlines.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "created": "2026-08-21 12:31 UTC"
     }
   ],
   "insights": [
@@ -735,6 +662,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 69 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 70 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }
