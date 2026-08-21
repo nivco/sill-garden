@@ -52,3 +52,5 @@ Copy placeholders from `.env.example`. Highest leverage after Google OAuth:
 4. Mastodon / Telegram / Bluesky — social distribution
 
 Without those secrets, workflows still run in dry-run / skip mode and write local packs + board tasks.
+
+**Always commit + push after local growth or exec-board runs** so Cloudflare Pages redeploys any guide SEO patches. Scheduled GitHub Actions already commit their outputs to `main`.

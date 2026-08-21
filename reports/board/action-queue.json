@@ -103,6 +103,136 @@
       "priority": "P1",
       "done": false,
       "created": "2026-08-18 15:19 UTC"
+    },
+    {
+      "id": "3646c4406f6a",
+      "fingerprint": "3646c4406f6a",
+      "role": "ceo",
+      "type": "board",
+      "title": "[CMO / Growth & Distribution] Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "54f95aa6c59e",
+      "fingerprint": "54f95aa6c59e",
+      "role": "ceo",
+      "type": "board",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "37c230f1506c",
+      "fingerprint": "37c230f1506c",
+      "role": "cmo",
+      "type": "board",
+      "title": "Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "48f5d3f15b13",
+      "fingerprint": "48f5d3f15b13",
+      "role": "seo",
+      "type": "board",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "e13c61214ba0",
+      "fingerprint": "e13c61214ba0",
+      "role": "content",
+      "type": "board",
+      "title": "Refresh top guide with current pricing/verdict and stamp updatedDate.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "cbfe761e09c1",
+      "fingerprint": "cbfe761e09c1",
+      "role": "content",
+      "type": "board",
+      "title": "Add FAQ sections to guides matching early GSC queries.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "643c851b9d36",
+      "fingerprint": "643c851b9d36",
+      "role": "cro",
+      "type": "board",
+      "title": "Monetization steady — A/B one CTA placement.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "f577b5bcdae3",
+      "fingerprint": "f577b5bcdae3",
+      "role": "data",
+      "type": "board",
+      "title": "Measurement healthy — extend KPI ledger trendlines.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "1dd8536f6907",
+      "fingerprint": "1dd8536f6907",
+      "role": "cto",
+      "type": "board",
+      "title": "Keep Astro build green; ensure all scheduled workflows succeed (check Actions).",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "id": "b44d63fdeaa6",
+      "fingerprint": "b44d63fdeaa6",
+      "role": "cto",
+      "type": "board",
+      "title": "Spot-check Core Web Vitals on flagship guides.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
     }
   ],
   "applied_log": [
@@ -111,7 +241,13 @@
       "type": "tune_guide_seo",
       "slug": "aerogarden-vs-click-and-grow",
       "reason": "CTR-first query: 1 impr, pos 37.0, 0 clicks"
+    },
+    {
+      "at": "2026-08-21 06:46 UTC",
+      "type": "tune_guide_seo",
+      "slug": "aerogarden-vs-click-and-grow",
+      "reason": "CTR-first query desc: 6 impr, pos 40.0, 0 clicks"
     }
   ],
-  "updated": "2026-08-18 15:19 UTC"
+  "updated": "2026-08-21 06:46 UTC"
 }
