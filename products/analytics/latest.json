@@ -1,26 +1,26 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-20 15:22 UTC",
+  "generated_at": "2026-08-21 00:52 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": null,
-    "users_7d": null,
-    "pageviews_7d": null,
-    "affiliate_clicks_7d": null,
-    "gsc_clicks_7d": null,
-    "gsc_impressions_7d": null,
+    "sessions_7d": 68,
+    "users_7d": 63,
+    "pageviews_7d": 80,
+    "affiliate_clicks_7d": 1,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 13,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": null,
+    "youtube_sessions_7d": 8,
     "youtube_subs": 0,
     "youtube_views_total": 293,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": null,
-    "affiliate_ctr_pct": 0,
+    "engagement_rate_pct": 11.8,
+    "affiliate_ctr_pct": 1.5,
     "youtube_videos": 7
   },
   "sources": {
@@ -30,12 +30,166 @@
       "url": "https://sillgarden.com"
     },
     "ga4": {
-      "error": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
-      "skipped": false
+      "totals": {
+        "activeUsers": 63,
+        "sessions": 68,
+        "screenPageViews": 80,
+        "engagedSessions": 8,
+        "averageSessionDuration_sec": 24.6,
+        "engagementRate_pct": 11.8
+      },
+      "top_pages": [
+        {
+          "pagePath": "/",
+          "sessions": "51",
+          "screenPageViews": "52"
+        },
+        {
+          "pagePath": "/guides/",
+          "sessions": "9",
+          "screenPageViews": "9"
+        },
+        {
+          "pagePath": "/guides/aerogarden-vs-click-and-grow/",
+          "sessions": "5",
+          "screenPageViews": "5"
+        },
+        {
+          "pagePath": "/disclosure/",
+          "sessions": "3",
+          "screenPageViews": "3"
+        },
+        {
+          "pagePath": "/guides/best-countertop-garden-apartments/",
+          "sessions": "3",
+          "screenPageViews": "3"
+        },
+        {
+          "pagePath": "/about/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/credits/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/guides/basil-countertop-first-harvest/",
+          "sessions": "1",
+          "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/guides/landlord-safe-indoor-garden-setup/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/guides/quiet-countertop-gardens-studios/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        }
+      ],
+      "entry_channels": [
+        {
+          "sessionDefaultChannelGroup": "Direct",
+          "sessions": "60"
+        },
+        {
+          "sessionDefaultChannelGroup": "Organic Video",
+          "sessions": "8"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
+          "sessions": "1"
+        }
+      ],
+      "source_medium": [
+        {
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": "60",
+          "engagedSessions": "6"
+        },
+        {
+          "sessionSourceMedium": "youtube / video",
+          "sessions": "8",
+          "engagedSessions": "2"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "1",
+          "engagedSessions": "0"
+        }
+      ],
+      "events": {
+        "affiliate_click": 1
+      },
+      "affiliate_networks": {
+        "Amazon Associates": 1,
+        "Click & Grow": 0,
+        "Gardener's Supply": 0
+      },
+      "affiliate_attribution_source": "link_url",
+      "affiliate_clicks_unattributed_7d": 0,
+      "affiliate_links": [
+        {
+          "link_url": "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1",
+          "clicks": 1,
+          "network": "Amazon Associates"
+        }
+      ],
+      "affiliate_link_dimension": "linkUrl",
+      "sessions_from_youtube": 8,
+      "affiliate_clicks_7d": 1
     },
     "gsc": {
-      "error": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
-      "skipped": false
+      "clicks": 0,
+      "impressions": 13,
+      "top_queries": [
+        {
+          "query": "aerogarden comparison",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 61.5
+        },
+        {
+          "query": "aerogarden vs",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 26.0
+        },
+        {
+          "query": "aerogarden vs click and grow",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0.0,
+          "position": 40.0
+        },
+        {
+          "query": "click and grow vs aerogarden",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 37.5
+        },
+        {
+          "query": "countertop garden",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 85.0
+        },
+        {
+          "query": "grow light scheduler",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 80.0
+        }
+      ],
+      "site_url": "sc-domain:sillgarden.com"
     },
     "indexing": {
       "checked_at": "2026-08-17T09:46:22.673732+00:00",
@@ -333,7 +487,7 @@
         {
           "id": "vGjPcqBkxLg",
           "title": "Basil on a countertop \u2014 first harvest guide #Shorts",
-          "views": 21,
+          "views": 23,
           "likes": 0,
           "published": "2026-08-19T19:21:40Z",
           "url": "https://www.youtube.com/watch?v=vGjPcqBkxLg"
@@ -349,7 +503,7 @@
         {
           "id": "NSLsa1eJxko",
           "title": "AeroGarden or Click & Grow? Pick in 30 Seconds #Shorts",
-          "views": 48,
+          "views": 49,
           "likes": 1,
           "published": "2026-08-15T18:06:54Z",
           "url": "https://www.youtube.com/watch?v=NSLsa1eJxko"
@@ -390,7 +544,7 @@
         "name": "Amazon Associates",
         "network": "amazon-associates",
         "status": "active",
-        "site_clicks_7d": 0,
+        "site_clicks_7d": 1,
         "portal_clicks_7d": null,
         "orders_7d": null,
         "earnings_7d_usd": null,
@@ -426,7 +580,7 @@
       "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 12:31 UTC"
+      "created": "2026-08-20 15:22 UTC"
     },
     {
       "priority": "P1",
@@ -435,7 +589,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 12:31 UTC"
+      "created": "2026-08-20 15:22 UTC"
     },
     {
       "priority": "P2",
@@ -444,7 +598,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 12:31 UTC"
+      "created": "2026-08-20 15:22 UTC"
     },
     {
       "priority": "P2",
@@ -453,7 +607,7 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 12:31 UTC"
+      "created": "2026-08-20 15:22 UTC"
     },
     {
       "priority": "P2",
@@ -462,24 +616,33 @@
       "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})",
       "auto": false,
       "done": false,
-      "created": "2026-08-20 12:31 UTC"
+      "created": "2026-08-20 15:22 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-20 00:47 UTC (11.7h ago; min 20h).",
+      "detail": "Last ping 2026-08-20 00:47 UTC (14.6h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-20 12:31 UTC"
+      "created": "2026-08-20 15:22 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-18 15:19 UTC"
     }
   ],
   "insights": [
-    "Connect GA4_PROPERTY_ID to unlock sessions / clicks on the dashboard.",
+    "GSC: 13 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 62), \u201caerogarden vs\u201d (pos 26), \u201caerogarden vs click and grow\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 4,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -489,8 +652,8 @@
       },
       {
         "name": "GA4 API",
-        "ok": false,
-        "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})"
+        "ok": true,
+        "detail": "Connected"
       },
       {
         "name": "GA4 client tag",
@@ -499,8 +662,8 @@
       },
       {
         "name": "Search Console",
-        "ok": false,
-        "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})"
+        "ok": true,
+        "detail": "sc-domain:sillgarden.com"
       },
       {
         "name": "Cloudflare analytics",
@@ -514,12 +677,12 @@
       },
       {
         "name": "Affiliate click counters",
-        "ok": false,
-        "detail": "('invalid_scope: Bad Request', {'error': 'invalid_scope', 'error_description': 'Bad Request'})"
+        "ok": true,
+        "detail": "Per-link via linkUrl"
       }
     ]
   },
   "summary": {
-    "headline": "Sessions - | Aff clicks - | GSC - | Setup 4/7"
+    "headline": "Sessions 68 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }
