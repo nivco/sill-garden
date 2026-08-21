@@ -63,6 +63,15 @@
       "uploaded_at": "2026-08-21T09:41:39.220864+00:00",
       "storyboard": "products/youtube/short-best-low-light-herbs-apartment/storyboard.json",
       "format": "short"
+    },
+    "video-best-low-light-herbs-apartment": {
+      "youtube_id": "o9lWE9leyPI",
+      "url": "https://youtu.be/o9lWE9leyPI",
+      "title": "Best low-light herbs for apartment windowsills \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-08-21T14:31:21.225575+00:00",
+      "storyboard": "products/youtube/video-best-low-light-herbs-apartment/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
