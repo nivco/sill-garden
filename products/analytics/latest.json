@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-22 00:47 UTC",
+  "generated_at": "2026-08-22 06:21 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 74,
-    "users_7d": 67,
-    "pageviews_7d": 85,
+    "sessions_7d": 75,
+    "users_7d": 68,
+    "pageviews_7d": 86,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 16,
@@ -19,8 +19,8 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 10.8,
-    "affiliate_ctr_pct": 1.4,
+    "engagement_rate_pct": 10.7,
+    "affiliate_ctr_pct": 1.3,
     "youtube_videos": 8
   },
   "sources": {
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 67,
-        "sessions": 74,
-        "screenPageViews": 85,
+        "activeUsers": 68,
+        "sessions": 75,
+        "screenPageViews": 86,
         "engagedSessions": 8,
-        "averageSessionDuration_sec": 22.6,
-        "engagementRate_pct": 10.8
+        "averageSessionDuration_sec": 22.4,
+        "engagementRate_pct": 10.7
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "51",
-          "screenPageViews": "52"
+          "sessions": "52",
+          "screenPageViews": "53"
         },
         {
           "pagePath": "/guides/",
@@ -93,23 +93,32 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "61"
+          "sessions": "62"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
           "sessions": "13"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
+          "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "61",
+          "sessions": "62",
           "engagedSessions": "6"
         },
         {
           "sessionSourceMedium": "youtube / video",
           "sessions": "13",
           "engagedSessions": "2"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "1",
+          "engagedSessions": "0"
         }
       ],
       "events": {
@@ -586,7 +595,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-21 15:22 UTC"
+      "created": "2026-08-22 00:47 UTC"
     },
     {
       "priority": "P1",
@@ -595,105 +604,25 @@
       "detail": "Already showing for: \u201caerogarden comparison\u201d pos 62/2 impr; \u201caerogarden vs\u201d pos 26/1 impr; \u201caerogarden vs click and grow\u201d pos 39/7 impr; \u201cclick and grow vs aerogarden\u201d pos 38/3 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-21 15:22 UTC"
+      "created": "2026-08-22 00:47 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-21 00:52 UTC (14.5h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-21 15:22 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-18 15:19 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "content",
-      "title": "Refresh top guide with current pricing/verdict and stamp updatedDate.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "content",
-      "title": "Add FAQ sections to guides matching early GSC queries.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cro",
-      "title": "Monetization steady \u2014 A/B one CTA placement.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Measurement healthy \u2014 extend KPI ledger trendlines.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "created": "2026-08-22 00:47 UTC"
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 16 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 62), \u201caerogarden vs\u201d (pos 26), \u201caerogarden vs click and grow\u201d (pos 39). Tighten title/H1 on the matching guide to climb.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 7,
+    "ready": 6,
     "total": 7,
     "checks": [
       {
@@ -708,8 +637,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -734,6 +663,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 74 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 75 | Aff clicks 1 | GSC 0 | Setup 6/7"
   }
 }
