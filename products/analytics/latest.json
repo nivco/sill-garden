@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-21 15:22 UTC",
+  "generated_at": "2026-08-22 00:47 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 70,
-    "users_7d": 64,
-    "pageviews_7d": 82,
+    "sessions_7d": 74,
+    "users_7d": 67,
+    "pageviews_7d": 85,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 16,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 11,
+    "youtube_sessions_7d": 13,
     "youtube_subs": 0,
     "youtube_views_total": 317,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 11.4,
+    "engagement_rate_pct": 10.8,
     "affiliate_ctr_pct": 1.4,
     "youtube_videos": 8
   },
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 64,
-        "sessions": 70,
-        "screenPageViews": 82,
+        "activeUsers": 67,
+        "sessions": 74,
+        "screenPageViews": 85,
         "engagedSessions": 8,
-        "averageSessionDuration_sec": 23.8,
-        "engagementRate_pct": 11.4
+        "averageSessionDuration_sec": 22.6,
+        "engagementRate_pct": 10.8
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "50",
-          "screenPageViews": "51"
+          "sessions": "51",
+          "screenPageViews": "52"
         },
         {
           "pagePath": "/guides/",
@@ -55,14 +55,24 @@
           "screenPageViews": "5"
         },
         {
+          "pagePath": "/guides/best-countertop-garden-apartments/",
+          "sessions": "4",
+          "screenPageViews": "4"
+        },
+        {
           "pagePath": "/disclosure/",
           "sessions": "3",
           "screenPageViews": "3"
         },
         {
-          "pagePath": "/guides/best-countertop-garden-apartments/",
-          "sessions": "3",
-          "screenPageViews": "3"
+          "pagePath": "/guides/best-low-light-herbs-apartment/",
+          "sessions": "2",
+          "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/privacy/",
+          "sessions": "2",
+          "screenPageViews": "1"
         },
         {
           "pagePath": "/about/",
@@ -78,47 +88,28 @@
           "pagePath": "/guides/basil-countertop-first-harvest/",
           "sessions": "1",
           "screenPageViews": "2"
-        },
-        {
-          "pagePath": "/guides/best-low-light-herbs-apartment/",
-          "sessions": "1",
-          "screenPageViews": "1"
-        },
-        {
-          "pagePath": "/guides/landlord-safe-indoor-garden-setup/",
-          "sessions": "1",
-          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "59"
+          "sessions": "61"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "11"
-        },
-        {
-          "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "1"
+          "sessions": "13"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "59",
+          "sessions": "61",
           "engagedSessions": "6"
         },
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "11",
+          "sessions": "13",
           "engagedSessions": "2"
-        },
-        {
-          "sessionSourceMedium": "(not set)",
-          "sessions": "1",
-          "engagedSessions": "0"
         }
       ],
       "events": {
@@ -139,7 +130,7 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 11,
+      "sessions_from_youtube": 13,
       "affiliate_clicks_7d": 1
     },
     "gsc": {
@@ -486,7 +477,7 @@
         {
           "id": "Lsf4odXtLmM",
           "title": "Best low-light herbs for apartment windowsills #Shorts",
-          "views": 16,
+          "views": 17,
           "likes": 0,
           "published": "2026-08-21T09:42:07Z",
           "url": "https://www.youtube.com/watch?v=Lsf4odXtLmM"
@@ -595,7 +586,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-21 12:31 UTC"
+      "created": "2026-08-21 15:22 UTC"
     },
     {
       "priority": "P1",
@@ -604,16 +595,97 @@
       "detail": "Already showing for: \u201caerogarden comparison\u201d pos 62/2 impr; \u201caerogarden vs\u201d pos 26/1 impr; \u201caerogarden vs click and grow\u201d pos 39/7 impr; \u201cclick and grow vs aerogarden\u201d pos 38/3 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-21 12:31 UTC"
+      "created": "2026-08-21 15:22 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-21 00:52 UTC (11.7h ago; min 20h).",
+      "detail": "Last ping 2026-08-21 00:52 UTC (14.5h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-21 12:31 UTC"
+      "created": "2026-08-21 15:22 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-18 15:19 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Refresh top guide with current pricing/verdict and stamp updatedDate.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Add FAQ sections to guides matching early GSC queries.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cro",
+      "title": "Monetization steady \u2014 A/B one CTA placement.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Measurement healthy \u2014 extend KPI ledger trendlines.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
     }
   ],
   "insights": [
@@ -662,6 +734,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 70 | Aff clicks 1 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 74 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }
