@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-21 15:22 UTC",
+  "generated_at": "2026-08-22 15:08 UTC",
   "wow": {
-    "ga4_sessions_7d": 70.0,
-    "gsc_impressions_7d": 16.0,
+    "ga4_sessions_7d": -9.0,
+    "gsc_impressions_7d": 5.0,
     "gsc_clicks_7d": 0.0,
-    "affiliate_clicks_7d": 1.0
+    "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 70,
-    "gsc_impressions_7d": 16,
+    "sessions_7d": 59,
+    "gsc_impressions_7d": 18,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
-    "youtube_sessions_7d": 11,
+    "youtube_sessions_7d": 15,
     "indexed_urls": 11
   },
   "top_queries": [
@@ -32,9 +32,9 @@
     {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 8,
       "ctr": 0.0,
-      "position": 39.4
+      "position": 39.2
     },
     {
       "query": "click and grow vs aerogarden",
@@ -42,6 +42,13 @@
       "impressions": 3,
       "ctr": 0.0,
       "position": 37.7
+    },
+    {
+      "query": "compare aerogarden models",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 62.0
     },
     {
       "query": "countertop garden",
@@ -71,8 +78,8 @@
     "WORKING: YouTube Shorts can drive early sessions → Keep UTM’d guide links in descriptions; refresh descriptions weekly",
     "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
     "Top search demand: \"aerogarden comparison\" (2 impr, pos 61.5).",
-    "Affiliate CTR signal: 1 clicks / 70 sessions.",
-    "YouTube channel: 8 videos, 317 views, 11 site sessions from YouTube.",
+    "Affiliate CTR signal: 1 clicks / 59 sessions.",
+    "YouTube channel: 10 videos, 91 views, 15 site sessions from YouTube.",
     "YouTube publish log entries: 2."
   ]
 }
