@@ -72,8 +72,17 @@
       "uploaded_at": "2026-08-21T14:31:21.225575+00:00",
       "storyboard": "products/youtube/video-best-low-light-herbs-apartment/storyboard.json",
       "format": "long"
+    },
+    "short-cheapest-indoor-herb-garden-apartment": {
+      "youtube_id": "s7KtScEHU6o",
+      "url": "https://youtu.be/s7KtScEHU6o",
+      "title": "Cheapest indoor herb garden for apartments (under $50) #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-22T09:31:03.817528+00:00",
+      "storyboard": "products/youtube/short-cheapest-indoor-herb-garden-apartment/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-08-22"
+  "next_eligible_date": "2026-08-23"
 }
