@@ -9,7 +9,9 @@ import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from youtube_common import YOUTUBE_UPLOAD_SCOPES, oauth_client_path, token_path
+from youtube_common import YOUTUBE_UPLOAD_SCOPES, load_dotenv, oauth_client_path, token_path
+
+load_dotenv()
 
 
 def main() -> int:
@@ -34,6 +36,7 @@ def main() -> int:
         return 1
 
     print("IMPORTANT: in Google's account/channel chooser, select the Sill Garden channel.")
+    print("If you see Maker Tool Stack, click your avatar (top right) -> Switch channel -> Sill Garden.")
     flow = InstalledAppFlow.from_client_secrets_file(str(client), YOUTUBE_UPLOAD_SCOPES)
     creds = flow.run_local_server(port=0, open_browser=True, prompt="consent", access_type="offline")
     target.parent.mkdir(parents=True, exist_ok=True)
@@ -41,7 +44,20 @@ def main() -> int:
     data["scopes"] = sorted(set(data.get("scopes") or []) | set(YOUTUBE_UPLOAD_SCOPES))
     target.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(f"Saved Sill Garden upload token: {target}")
-    print("Next: python scripts/youtube_access_gate.py")
+
+    from youtube_access_gate import check
+
+    status = check()
+    if not status.get("ready"):
+        print(json.dumps(status, indent=2), file=sys.stderr)
+        print(
+            "\nWrong channel — deleted token. Re-run after switching to Sill Garden in the browser.",
+            file=sys.stderr,
+        )
+        target.unlink(missing_ok=True)
+        return 1
+    print("Channel OK:", (status.get("channel") or {}).get("title"))
+    print("Next: python scripts/youtube_token_sync.py")
     return 0
 
 

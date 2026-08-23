@@ -10,10 +10,22 @@ from datetime import datetime, timezone
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
-from youtube_common import YOUTUBE_UPLOAD_SCOPES, save_json, token_path
+from youtube_common import YOUTUBE_UPLOAD_SCOPES, load_dotenv, save_json, token_path
+
+load_dotenv()
 
 ROOT = Path(__file__).resolve().parents[1]
 STATUS = ROOT / "products" / "youtube" / "youtube-access-status.json"
+EXPECTED_CHANNEL_ID = (os.environ.get("YOUTUBE_CHANNEL_ID") or "UCc31HDBMhoJtsmZYk0Fo56w").strip()
+EXPECTED_CHANNEL_TITLE = "sill garden"
+
+
+def _channel_ok(item: dict) -> bool:
+    cid = (item.get("id") or "").strip()
+    title = ((item.get("snippet") or {}).get("title") or "").strip().lower()
+    if EXPECTED_CHANNEL_ID:
+        return cid == EXPECTED_CHANNEL_ID
+    return title == EXPECTED_CHANNEL_TITLE
 
 
 def check() -> dict:
@@ -51,11 +63,13 @@ def check() -> dict:
             "subscribers": stats.get("subscriberCount"),
             "views": stats.get("viewCount"),
         }
-        status["ready"] = (snippet.get("title") or "").strip().lower() == "sill garden"
+        status["ready"] = _channel_ok(item)
         if not status["ready"]:
+            want = EXPECTED_CHANNEL_ID or "Sill Garden"
             status["error"] = (
-                f"Token controls '{snippet.get('title')}', not 'Sill Garden'. "
-                "Re-run OAuth with --force and select Sill Garden."
+                f"Token controls '{snippet.get('title')}' ({item.get('id')}), not {want}. "
+                "Re-run: .\\scripts\\fix_youtube_auth.ps1 — in the browser, switch to the "
+                "Sill Garden channel before approving (avatar menu → switch channel)."
             )
     except Exception as exc:  # noqa: BLE001
         status["error"] = str(exc)[:800]
