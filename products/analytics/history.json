@@ -548,5 +548,16 @@
     "cloudflare_page_views_7d": 0,
     "youtube_views_total": 91,
     "amazon_earnings_7d_usd": null
+  },
+  {
+    "generated_at": "2026-08-23 00:52 UTC",
+    "ga4_sessions_7d": 61,
+    "ga4_pageviews_7d": 76,
+    "affiliate_clicks_7d": 1,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 16,
+    "cloudflare_page_views_7d": 0,
+    "youtube_views_total": 91,
+    "amazon_earnings_7d_usd": null
   }
 ]
