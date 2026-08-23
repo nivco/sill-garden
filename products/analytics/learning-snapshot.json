@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-22 15:08 UTC",
+  "generated_at": "2026-08-23 15:10 UTC",
   "wow": {
-    "ga4_sessions_7d": -9.0,
-    "gsc_impressions_7d": 5.0,
+    "ga4_sessions_7d": -21.0,
+    "gsc_impressions_7d": 4.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 59,
-    "gsc_impressions_7d": 18,
+    "sessions_7d": 53,
+    "gsc_impressions_7d": 20,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
-    "youtube_sessions_7d": 15,
+    "youtube_sessions_7d": 16,
     "indexed_urls": 11
   },
   "top_queries": [
@@ -23,25 +23,25 @@
       "position": 61.5
     },
     {
-      "query": "aerogarden vs",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 26.0
-    },
-    {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 9,
       "ctr": 0.0,
-      "position": 39.2
+      "position": 38.9
     },
     {
       "query": "click and grow vs aerogarden",
       "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
-      "position": 37.7
+      "position": 39.7
+    },
+    {
+      "query": "click and grow vs auk",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 53.0
     },
     {
       "query": "compare aerogarden models",
@@ -53,7 +53,7 @@
     {
       "query": "countertop garden",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
       "position": 85.0
     },
@@ -78,8 +78,8 @@
     "WORKING: YouTube Shorts can drive early sessions → Keep UTM’d guide links in descriptions; refresh descriptions weekly",
     "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
     "Top search demand: \"aerogarden comparison\" (2 impr, pos 61.5).",
-    "Affiliate CTR signal: 1 clicks / 59 sessions.",
-    "YouTube channel: 10 videos, 91 views, 15 site sessions from YouTube.",
+    "Affiliate CTR signal: 1 clicks / 53 sessions.",
+    "YouTube channel: 12 videos, 116 views, 16 site sessions from YouTube.",
     "YouTube publish log entries: 2."
   ]
 }
