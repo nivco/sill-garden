@@ -90,8 +90,26 @@
       "uploaded_at": "2026-08-22T14:17:50.386633+00:00",
       "storyboard": "products/youtube/video-cheapest-indoor-herb-garden-apartment/storyboard.json",
       "format": "long"
+    },
+    "video-countertop-garden-running-cost": {
+      "youtube_id": "2w4E2Z0yAIg",
+      "url": "https://youtu.be/2w4E2Z0yAIg",
+      "title": "How much does a countertop garden cost to run? \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-08-23T14:13:25.023542+00:00",
+      "storyboard": "products/youtube/video-countertop-garden-running-cost/storyboard.json",
+      "format": "long"
+    },
+    "short-countertop-garden-running-cost": {
+      "youtube_id": "SWE2ARj7xUg",
+      "url": "https://youtu.be/SWE2ARj7xUg",
+      "title": "How much does a countertop garden cost to run? #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-23T14:14:24.560620+00:00",
+      "storyboard": "products/youtube/short-countertop-garden-running-cost/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-08-23"
+  "next_eligible_date": "2026-08-24"
 }
