@@ -1,26 +1,26 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-23 06:22 UTC",
+  "generated_at": "2026-08-23 12:23 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 61,
-    "users_7d": 54,
-    "pageviews_7d": 76,
+    "sessions_7d": 50,
+    "users_7d": 44,
+    "pageviews_7d": 62,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 16,
+    "gsc_impressions_7d": 20,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 16,
+    "youtube_sessions_7d": 13,
     "youtube_subs": 1,
-    "youtube_views_total": 91,
+    "youtube_views_total": 111,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 9.8,
-    "affiliate_ctr_pct": 1.6,
+    "engagement_rate_pct": 6.0,
+    "affiliate_ctr_pct": 2.0,
     "youtube_videos": 10
   },
   "sources": {
@@ -31,23 +31,23 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 54,
-        "sessions": 61,
-        "screenPageViews": 76,
-        "engagedSessions": 6,
-        "averageSessionDuration_sec": 69.2,
-        "engagementRate_pct": 9.8
+        "activeUsers": 44,
+        "sessions": 50,
+        "screenPageViews": 62,
+        "engagedSessions": 3,
+        "averageSessionDuration_sec": 83.2,
+        "engagementRate_pct": 6.0
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "43",
-          "screenPageViews": "45"
+          "sessions": "36",
+          "screenPageViews": "38"
         },
         {
           "pagePath": "/guides/",
-          "sessions": "12",
-          "screenPageViews": "12"
+          "sessions": "9",
+          "screenPageViews": "9"
         },
         {
           "pagePath": "/guides/best-countertop-garden-apartments/",
@@ -55,17 +55,7 @@
           "screenPageViews": "4"
         },
         {
-          "pagePath": "/guides/aerogarden-vs-click-and-grow/",
-          "sessions": "3",
-          "screenPageViews": "3"
-        },
-        {
           "pagePath": "/about/",
-          "sessions": "2",
-          "screenPageViews": "2"
-        },
-        {
-          "pagePath": "/disclosure/",
           "sessions": "2",
           "screenPageViews": "2"
         },
@@ -88,16 +78,26 @@
           "pagePath": "/credits/",
           "sessions": "1",
           "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/disclosure/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/guides/basil-countertop-first-harvest/",
+          "sessions": "1",
+          "screenPageViews": "2"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "45"
+          "sessions": "37"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "16"
+          "sessions": "13"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
@@ -107,13 +107,13 @@
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "45",
-          "engagedSessions": "4"
+          "sessions": "37",
+          "engagedSessions": "2"
         },
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "16",
-          "engagedSessions": "2"
+          "sessions": "13",
+          "engagedSessions": "1"
         },
         {
           "sessionSourceMedium": "(not set)",
@@ -140,12 +140,12 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 16,
+      "sessions_from_youtube": 13,
       "affiliate_clicks_7d": 1
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 16,
+      "impressions": 20,
       "top_queries": [
         {
           "query": "aerogarden comparison",
@@ -157,16 +157,23 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 8,
+          "impressions": 9,
           "ctr": 0.0,
-          "position": 39.2
+          "position": 38.9
         },
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 38.0
+          "position": 39.7
+        },
+        {
+          "query": "click and grow vs auk",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 53.0
         },
         {
           "query": "compare aerogarden models",
@@ -178,7 +185,7 @@
         {
           "query": "countertop garden",
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 2,
           "ctr": 0.0,
           "position": 85.0
         },
@@ -472,7 +479,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 91,
+        "views": 111,
         "videos": 10
       },
       "recent_videos": [
@@ -615,15 +622,95 @@
       "auto": true,
       "done": true,
       "created": "2026-08-23 00:52 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-18 15:19 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Refresh top guide with current pricing/verdict and stamp updatedDate.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Add FAQ sections to guides matching early GSC queries.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cro",
+      "title": "Monetization steady \u2014 A/B one CTA placement.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Measurement healthy \u2014 extend KPI ledger trendlines.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
-    "GSC: 16 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 62), \u201caerogarden vs click and grow\u201d (pos 39), \u201cclick and grow vs aerogarden\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 20 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 62), \u201caerogarden vs click and grow\u201d (pos 39), \u201cclick and grow vs aerogarden\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -638,8 +725,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -664,6 +751,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 61 | Aff clicks 1 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 50 | Aff clicks 1 | GSC 0 | Setup 7/7"
   }
 }
