@@ -10,3 +10,8 @@ date,cadence,role,metric,value,source
 2026-08-23,daily,seo,gsc_impressions_7d,16,analytics/latest.json
 2026-08-23,daily,seo,gsc_clicks_7d,0,analytics/latest.json
 2026-08-23,daily,cmo,ga4_sessions_7d,61,analytics/latest.json
+2026-08-24,weekly,cmo,ga4_sessions_7d,59,analytics/latest.json
+2026-08-24,weekly,seo,gsc_impressions_7d,16,analytics/latest.json
+2026-08-24,weekly,seo,gsc_clicks_7d,0,analytics/latest.json
+2026-08-24,weekly,content,guides_count,10,src/content/guides/
+2026-08-24,weekly,cro,affiliate_clicks_7d,2,analytics/latest.json
