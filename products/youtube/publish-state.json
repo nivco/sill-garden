@@ -108,8 +108,17 @@
       "uploaded_at": "2026-08-23T14:14:24.560620+00:00",
       "storyboard": "products/youtube/short-countertop-garden-running-cost/storyboard.json",
       "format": "short"
+    },
+    "short-grow-light-schedules-herbs": {
+      "youtube_id": "S6hD0oXCiKo",
+      "url": "https://youtu.be/S6hD0oXCiKo",
+      "title": "Grow light schedules for kitchen herbs #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-24T09:54:01.986914+00:00",
+      "storyboard": "products/youtube/short-grow-light-schedules-herbs/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-08-24"
+  "next_eligible_date": "2026-08-25"
 }

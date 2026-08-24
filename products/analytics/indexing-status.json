@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-08-24T09:51:45.026568+00:00",
+  "checked_at": "2026-08-17T09:46:22.673732+00:00",
   "site": "sc-domain:sillgarden.com",
   "sitemap": {
     "path": "https://sillgarden.com/sitemap-index.xml",
     "last_submitted": "2026-08-13T21:17:58.407Z",
     "is_pending": false,
     "is_sitemaps_index": true,
-    "last_downloaded": "2026-08-21T18:51:59.693Z",
+    "last_downloaded": "2026-08-16T12:50:04.099Z",
     "warnings": "0",
     "errors": "0",
     "contents": [
       {
         "type": "web",
-        "submitted": "16",
+        "submitted": "13",
         "indexed": "0"
       }
     ]
@@ -26,7 +26,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-08-22T06:43:43Z",
+      "last_crawl_time": "2026-08-13T23:15:37Z",
       "google_canonical": "https://sillgarden.com/",
       "user_canonical": "https://sillgarden.com/",
       "referring_urls": [
@@ -38,18 +38,7 @@
     },
     {
       "url": "https://sillgarden.com/about/",
-      "verdict": "PASS",
-      "coverage_state": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED",
-      "robots_txt_state": "ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-08-14T13:51:42Z",
-      "google_canonical": "https://sillgarden.com/about/",
-      "user_canonical": "https://sillgarden.com/about/",
-      "referring_urls": [
-        "https://sillgarden.com/guides/",
-        "https://sillgarden.com/sitemap-0.xml"
-      ]
+      "error": "The read operation timed out"
     },
     {
       "url": "https://sillgarden.com/credits/",
@@ -61,9 +50,7 @@
       "last_crawl_time": null,
       "google_canonical": null,
       "user_canonical": null,
-      "referring_urls": [
-        "https://www.sillgarden.com/credits/"
-      ]
+      "referring_urls": []
     },
     {
       "url": "https://sillgarden.com/disclosure/",
@@ -140,45 +127,39 @@
     },
     {
       "url": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
-      "verdict": "PASS",
-      "coverage_state": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED",
-      "robots_txt_state": "ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-08-22T18:48:43Z",
-      "google_canonical": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
-      "user_canonical": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
-      "referring_urls": [
-        "https://www.sillgarden.com/guides/best-low-light-herbs-apartment/"
-      ]
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
     },
     {
       "url": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
-      "verdict": "PASS",
-      "coverage_state": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED",
-      "robots_txt_state": "ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-08-22T06:38:45Z",
-      "google_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
-      "user_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
-      "referring_urls": [
-        "https://sillgarden.com/sitemap-0.xml"
-      ]
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
     },
     {
       "url": "https://sillgarden.com/guides/countertop-garden-running-cost/",
-      "verdict": "PASS",
-      "coverage_state": "Submitted and indexed",
-      "indexing_state": "INDEXING_ALLOWED",
-      "robots_txt_state": "ALLOWED",
-      "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-08-22T08:38:44Z",
-      "google_canonical": "https://sillgarden.com/guides/countertop-garden-running-cost/",
-      "user_canonical": "https://sillgarden.com/guides/countertop-garden-running-cost/",
-      "referring_urls": [
-        "https://sillgarden.com/sitemap-0.xml"
-      ]
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
     },
     {
       "url": "https://sillgarden.com/guides/grow-light-schedules-herbs/",
@@ -253,12 +234,28 @@
       ]
     }
   ],
-  "indexed_count": 15,
-  "not_indexed_count": 1,
+  "indexed_count": 11,
+  "not_indexed_count": 5,
   "not_indexed_urls": [
+    {
+      "url": "https://sillgarden.com/about/",
+      "coverage_state": "The read operation timed out"
+    },
     {
       "url": "https://sillgarden.com/credits/",
       "coverage_state": "Discovered - currently not indexed"
+    },
+    {
+      "url": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/guides/countertop-garden-running-cost/",
+      "coverage_state": "URL is unknown to Google"
     }
   ]
 }
