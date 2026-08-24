@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-24 06:35 UTC",
+  "generated_at": "2026-08-24 12:32 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 59,
-    "users_7d": 53,
-    "pageviews_7d": 75,
+    "sessions_7d": 53,
+    "users_7d": 48,
+    "pageviews_7d": 69,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 16,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 17,
+    "youtube_sessions_7d": 19,
     "youtube_subs": 1,
     "youtube_views_total": 116,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 8.5,
-    "affiliate_ctr_pct": 3.4,
-    "youtube_videos": 12
+    "engagement_rate_pct": 9.4,
+    "affiliate_ctr_pct": 3.8,
+    "youtube_videos": 13
   },
   "sources": {
     "site": {
@@ -31,23 +31,23 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 53,
-        "sessions": 59,
-        "screenPageViews": 75,
+        "activeUsers": 48,
+        "sessions": 53,
+        "screenPageViews": 69,
         "engagedSessions": 5,
-        "averageSessionDuration_sec": 49.9,
-        "engagementRate_pct": 8.5
+        "averageSessionDuration_sec": 55.5,
+        "engagementRate_pct": 9.4
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "40",
-          "screenPageViews": "43"
+          "sessions": "32",
+          "screenPageViews": "35"
         },
         {
           "pagePath": "/guides/",
-          "sessions": "12",
-          "screenPageViews": "12"
+          "sessions": "13",
+          "screenPageViews": "13"
         },
         {
           "pagePath": "/guides/best-countertop-garden-apartments/",
@@ -93,11 +93,11 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "41"
+          "sessions": "33"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "17"
+          "sessions": "19"
         },
         {
           "sessionDefaultChannelGroup": "Cross-network",
@@ -111,12 +111,12 @@
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "41",
+          "sessions": "33",
           "engagedSessions": "4"
         },
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "17",
+          "sessions": "19",
           "engagedSessions": "1"
         },
         {
@@ -155,7 +155,7 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 17,
+      "sessions_from_youtube": 19,
       "affiliate_clicks_7d": 2
     },
     "gsc": {
@@ -481,9 +481,17 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 116,
-        "videos": 12
+        "videos": 13
       },
       "recent_videos": [
+        {
+          "id": "S6hD0oXCiKo",
+          "title": "Grow light schedules for kitchen herbs #Shorts",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-24T09:54:19Z",
+          "url": "https://www.youtube.com/watch?v=S6hD0oXCiKo"
+        },
         {
           "id": "SWE2ARj7xUg",
           "title": "How much does a countertop garden cost to run? #Shorts",
@@ -511,7 +519,7 @@
         {
           "id": "s7KtScEHU6o",
           "title": "Cheapest indoor herb garden for apartments (under $50) #Shorts",
-          "views": 24,
+          "views": 25,
           "likes": 1,
           "published": "2026-08-22T09:31:28Z",
           "url": "https://www.youtube.com/watch?v=s7KtScEHU6o"
@@ -539,14 +547,6 @@
           "likes": 0,
           "published": "2026-08-20T14:33:11Z",
           "url": "https://www.youtube.com/watch?v=fqZq0EoaJKc"
-        },
-        {
-          "id": "tGr1dpUCGXo",
-          "title": "Best countertop garden for apartments #Shorts",
-          "views": 0,
-          "likes": 0,
-          "published": "2026-08-20T09:39:49Z",
-          "url": "https://www.youtube.com/watch?v=tGr1dpUCGXo"
         }
       ]
     },
@@ -623,15 +623,95 @@
       "auto": true,
       "done": true,
       "created": "2026-08-24 00:50 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-18 15:19 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Refresh top guide with current pricing/verdict and stamp updatedDate.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Add FAQ sections to guides matching early GSC queries.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cro",
+      "title": "Monetization steady \u2014 A/B one CTA placement.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Measurement healthy \u2014 extend KPI ledger trendlines.",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-21 06:44 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 16 impressions, 0 clicks \u2014 early queries: \u201caerogarden vs click and grow\u201d (pos 39), \u201cclick and grow vs aerogarden\u201d (pos 40), \u201cclick and grow vs auk\u201d (pos 53). Tighten title/H1 on the matching guide to climb.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -646,8 +726,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -672,6 +752,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 59 | Aff clicks 2 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 53 | Aff clicks 2 | GSC 0 | Setup 7/7"
   }
 }
