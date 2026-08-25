@@ -70,12 +70,35 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
     ga4 = sources.get("ga4") or {}
     setup = data.get("setup") or {}
 
-    sessions = hero.get("sessions_7d") or 0
+    ga4_error = str((ga4.get("error") or "")).strip()
+    gsc_error = str((gsc.get("error") or "")).strip()
+    oauth_broken = bool(ga4_error or gsc_error) and (
+        "invalid_grant" in (ga4_error + gsc_error).lower()
+        or "invalid_scope" in (ga4_error + gsc_error).lower()
+        or "token" in (ga4_error + gsc_error).lower()
+    )
+
+    sessions_raw = hero.get("sessions_7d")
+    sessions = int(sessions_raw or 0) if sessions_raw is not None else None
     aff = hero.get("affiliate_clicks_7d") or 0
     gsc_clicks = hero.get("gsc_clicks_7d") or 0
     gsc_impr = hero.get("gsc_impressions_7d") or 0
 
-    if sessions == 0:
+    # OAuth/measurement first — never treat a failed pull as "no traffic".
+    if oauth_broken or ga4_error or gsc_error:
+        detail = ga4_error or gsc_error
+        actions.append(
+            task(
+                "P0",
+                "setup",
+                "Re-auth Google OAuth (GA4/GSC)",
+                "Token expired/revoked or scope broken. "
+                "From Maker Tool Stack: python scripts/google_oauth_login.py --force "
+                "then python scripts/google_token_sync.py. "
+                f"Detail: {detail[:180]}",
+            )
+        )
+    elif sessions == 0:
         actions.append(
             task(
                 "P0",
@@ -166,7 +189,7 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
         )
 
     # Only nudge content refresh when a guide has real traffic but no affiliate clicks sitewide.
-    if sessions >= 20 and aff == 0:
+    if sessions is not None and sessions >= 20 and aff == 0:
         top_guide = None
         for page in (ga4.get("top_pages") or [])[:8]:
             path = str(page.get("pagePath") or page.get("path") or "")
@@ -183,15 +206,20 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
                 )
             )
 
-    ready = (setup.get("ready") or 0), (setup.get("total") or 7)
-    if ready[0] < ready[1]:
-        for c in setup.get("checks") or []:
-            if not c.get("ok"):
-                actions.append(
-                    task("P2", "setup", f"Finish setup: {c.get('name')}", str(c.get("detail") or "")[:200])
-                )
+    # Skip per-check setup spam when we already raised a single OAuth P0.
+    if not oauth_broken:
+        ready = (setup.get("ready") or 0), (setup.get("total") or 7)
+        if ready[0] < ready[1]:
+            for c in setup.get("checks") or []:
+                if not c.get("ok"):
+                    name = str(c.get("name") or "setup")
+                    detail = str(c.get("detail") or "")[:200]
+                    # Collapse GA4/GSC/affiliate failures that are the same auth error.
+                    if any(tok in detail.lower() for tok in ("invalid_grant", "invalid_scope", "token")):
+                        continue
+                    actions.append(task("P2", "setup", f"Finish setup: {name}", detail))
 
-    if sessions > 0 and aff == 0:
+    if sessions is not None and sessions > 0 and aff == 0:
         actions.append(
             task(
                 "P1",

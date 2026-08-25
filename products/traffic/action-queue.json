@@ -1,10 +1,8 @@
 {
-  "generated_at": "2026-08-25 06:26 UTC",
+  "generated_at": "2026-08-25 10:41 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [
-    "IndexNow ping"
-  ],
+  "applied": [],
   "actions": [
     {
       "priority": "P1",
@@ -13,106 +11,25 @@
       "detail": "Search Console → URL Inspection → Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-25 00:49 UTC"
+      "created": "2026-08-25 10:41 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: “aerogarden vs click and grow” pos 39/5 impr; “click and grow vs aerogarden” pos 40/2 impr; “click and grow vs auk” pos 53/1 impr; “compare aerogarden models” pos 62/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube — don't spam re-index.",
+      "detail": "Already showing for: “aerogarden comparison” pos 65/1 impr; “aerogarden vs click and grow” pos 40/6 impr; “click and grow vs aerogarden” pos 40/2 impr; “click and grow vs auk” pos 53/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube — don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-25 00:49 UTC"
+      "created": "2026-08-25 10:41 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-24 20:32 UTC (14.2h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-25 00:49 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 61.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-18 15:19 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "content",
-      "title": "Refresh top guide with current pricing/verdict and stamp updatedDate.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "content",
-      "title": "Add FAQ sections to guides matching early GSC queries.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cro",
-      "title": "Monetization steady — A/B one CTA placement.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Measurement healthy — extend KPI ledger trendlines.",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "created": "2026-08-25 10:41 UTC"
     }
   ]
 }

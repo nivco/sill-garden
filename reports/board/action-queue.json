@@ -7,7 +7,7 @@
       "role": "ai-visibility",
       "type": "earn_citation",
       "title": "Earn AI citation: ag-vs-cg",
-      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen — which should I buy?",
+      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen \u2014 which should I buy?",
       "target": "ag-vs-cg",
       "auto": false,
       "priority": "P2",
@@ -101,21 +101,25 @@
       "target": "aerogarden-vs-click-and-grow",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-08-18 15:19 UTC"
+      "done": true,
+      "created": "2026-08-18 15:19 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: growth agent already applied SEO patches (Aug 21-22)"
     },
     {
       "id": "3646c4406f6a",
       "fingerprint": "3646c4406f6a",
       "role": "ceo",
       "type": "board",
-      "title": "[CMO / Growth & Distribution] Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
+      "title": "[CMO / Growth & Distribution] Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: status note, not an actionable task"
     },
     {
       "id": "54f95aa6c59e",
@@ -127,21 +131,25 @@
       "target": "",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: covered by growth agent CTR patches on comparison guide"
     },
     {
       "id": "37c230f1506c",
       "fingerprint": "37c230f1506c",
       "role": "cmo",
       "type": "board",
-      "title": "Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
+      "title": "Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: status note, not an actionable task"
     },
     {
       "id": "48f5d3f15b13",
@@ -153,8 +161,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: covered by growth agent CTR patches on comparison guide"
     },
     {
       "id": "e13c61214ba0",
@@ -166,8 +176,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:41 UTC",
+      "resolution": "Closed: aerogarden guide already has updatedDate + FAQ"
     },
     {
       "id": "cbfe761e09c1",
@@ -179,34 +191,40 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:41 UTC",
+      "resolution": "Closed: comparison guide FAQ already present"
     },
     {
       "id": "643c851b9d36",
       "fingerprint": "643c851b9d36",
       "role": "cro",
       "type": "board",
-      "title": "Monetization steady — A/B one CTA placement.",
+      "title": "Monetization steady \u2014 A/B one CTA placement.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: status note, not an actionable task"
     },
     {
       "id": "f577b5bcdae3",
       "fingerprint": "f577b5bcdae3",
       "role": "data",
       "type": "board",
-      "title": "Measurement healthy — extend KPI ledger trendlines.",
+      "title": "Measurement healthy \u2014 extend KPI ledger trendlines.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: status note, not an actionable task"
     },
     {
       "id": "1dd8536f6907",
@@ -218,8 +236,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: workflows green; not a standing Do-next item"
     },
     {
       "id": "b44d63fdeaa6",
@@ -231,8 +251,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-21 06:44 UTC"
+      "done": true,
+      "created": "2026-08-21 06:44 UTC",
+      "resolved": "2026-08-25 10:40 UTC",
+      "resolution": "Closed: workflows green; not a standing Do-next item"
     }
   ],
   "applied_log": [
@@ -259,19 +281,7 @@
       "type": "tune_guide_seo",
       "slug": "aerogarden-vs-click-and-grow",
       "reason": "CTR-first query desc: 8 impr, pos 39.2, 0 clicks"
-    },
-    {
-      "at": "2026-08-23 15:10 UTC",
-      "type": "tune_guide_seo",
-      "slug": "aerogarden-vs-click-and-grow",
-      "reason": "CTR-first query desc: 3 impr, pos 39.7, 0 clicks"
-    },
-    {
-      "at": "2026-08-24 15:27 UTC",
-      "type": "tune_guide_seo",
-      "slug": "aerogarden-vs-click-and-grow",
-      "reason": "CTR-first query desc: 9 impr, pos 39.2, 0 clicks"
     }
   ],
-  "updated": "2026-08-25 06:26 UTC"
+  "updated": "2026-08-25 10:41 UTC"
 }

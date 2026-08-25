@@ -86,6 +86,14 @@ def sync_manual_to_traffic_queue(board: dict | None = None) -> None:
     traffic = load_json(TRAFFIC_QUEUE, {}) or {}
     actions = list(traffic.get("actions") or [])
     existing = {(a.get("title") or "") for a in actions}
+    skip_substrings = (
+        "steady",
+        "healthy",
+        "maintain cadence",
+        "extend kpi",
+        "spot-check core web vitals",
+        "keep astro build green",
+    )
     for item in board.get("items") or []:
         if item.get("done") or item.get("auto"):
             continue
@@ -95,6 +103,13 @@ def sync_manual_to_traffic_queue(board: dict | None = None) -> None:
         title = item.get("title") or item.get("type")
         if not title or title in existing:
             continue
+        low = title.lower()
+        if any(s in low for s in skip_substrings):
+            continue
+        # Board "status OK" fluff should not flood Do-next.
+        if (item.get("type") or "") == "board" and (item.get("priority") or "P2") == "P2":
+            if low.startswith("[") or "from weekly" in (item.get("detail") or "").lower():
+                continue
         actions.append(
             {
                 "priority": item.get("priority") or "P2",
@@ -161,9 +176,21 @@ def build_queue_items(
     snapshot: dict, role_outputs: dict, cadence: str
 ) -> list[dict]:
     """Turn exec-board role outputs into queue items."""
+    skip_substrings = (
+        "steady",
+        "healthy",
+        "maintain cadence",
+        "extend kpi",
+        "spot-check core web vitals",
+        "keep astro build green",
+        "no threshold breaches",
+    )
     items: list[dict] = []
     for rid, out in role_outputs.items():
         for action in out.get("actions", [])[:2]:
+            low = action.lower()
+            if any(s in low for s in skip_substrings):
+                continue
             fp = _fingerprint(rid, "board", action[:60])
             items.append(
                 {

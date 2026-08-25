@@ -583,9 +583,9 @@
     "amazon_earnings_7d_usd": null
   },
   {
-    "generated_at": "2026-08-23 15:10 UTC",
-    "ga4_sessions_7d": 53,
-    "ga4_pageviews_7d": 65,
+    "generated_at": "2026-08-23 16:02 UTC",
+    "ga4_sessions_7d": 54,
+    "ga4_pageviews_7d": 66,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 20,
@@ -594,10 +594,32 @@
     "amazon_earnings_7d_usd": null
   },
   {
-    "generated_at": "2026-08-24 00:50 UTC",
+    "generated_at": "2026-08-23 19:41 UTC",
+    "ga4_sessions_7d": 54,
+    "ga4_pageviews_7d": 66,
+    "affiliate_clicks_7d": 1,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 20,
+    "cloudflare_page_views_7d": 0,
+    "youtube_views_total": 116,
+    "amazon_earnings_7d_usd": null
+  },
+  {
+    "generated_at": "2026-08-23 22:04 UTC",
     "ga4_sessions_7d": 55,
     "ga4_pageviews_7d": 67,
     "affiliate_clicks_7d": 1,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 20,
+    "cloudflare_page_views_7d": 0,
+    "youtube_views_total": 116,
+    "amazon_earnings_7d_usd": null
+  },
+  {
+    "generated_at": "2026-08-24 05:02 UTC",
+    "ga4_sessions_7d": 59,
+    "ga4_pageviews_7d": 75,
+    "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 15,
     "cloudflare_page_views_7d": 0,
@@ -605,18 +627,7 @@
     "amazon_earnings_7d_usd": null
   },
   {
-    "generated_at": "2026-08-24 06:35 UTC",
-    "ga4_sessions_7d": 59,
-    "ga4_pageviews_7d": 75,
-    "affiliate_clicks_7d": 2,
-    "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 16,
-    "cloudflare_page_views_7d": 0,
-    "youtube_views_total": 116,
-    "amazon_earnings_7d_usd": null
-  },
-  {
-    "generated_at": "2026-08-24 12:32 UTC",
+    "generated_at": "2026-08-24 13:11 UTC",
     "ga4_sessions_7d": 53,
     "ga4_pageviews_7d": 69,
     "affiliate_clicks_7d": 2,
@@ -627,9 +638,9 @@
     "amazon_earnings_7d_usd": null
   },
   {
-    "generated_at": "2026-08-24 15:27 UTC",
-    "ga4_sessions_7d": 54,
-    "ga4_pageviews_7d": 70,
+    "generated_at": "2026-08-24 16:01 UTC",
+    "ga4_sessions_7d": 55,
+    "ga4_pageviews_7d": 71,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 16,
@@ -638,25 +649,69 @@
     "amazon_earnings_7d_usd": null
   },
   {
-    "generated_at": "2026-08-25 00:49 UTC",
+    "generated_at": "2026-08-24 20:32 UTC",
     "ga4_sessions_7d": 55,
     "ga4_pageviews_7d": 71,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 11,
+    "gsc_impressions_7d": 16,
     "cloudflare_page_views_7d": 0,
     "youtube_views_total": 116,
     "amazon_earnings_7d_usd": null
   },
   {
-    "generated_at": "2026-08-25 06:26 UTC",
+    "generated_at": "2026-08-25 05:02 UTC",
     "ga4_sessions_7d": 56,
     "ga4_pageviews_7d": 72,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 11,
     "cloudflare_page_views_7d": 0,
-    "youtube_views_total": 116,
+    "youtube_views_total": 132,
+    "amazon_earnings_7d_usd": null
+  },
+  {
+    "generated_at": "2026-08-25 05:54 UTC",
+    "ga4_sessions_7d": 56,
+    "ga4_pageviews_7d": 72,
+    "affiliate_clicks_7d": 2,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 11,
+    "cloudflare_page_views_7d": 0,
+    "youtube_views_total": 132,
+    "amazon_earnings_7d_usd": null
+  },
+  {
+    "generated_at": "2026-08-25 05:55 UTC",
+    "ga4_sessions_7d": 56,
+    "ga4_pageviews_7d": 72,
+    "affiliate_clicks_7d": 2,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 11,
+    "cloudflare_page_views_7d": 0,
+    "youtube_views_total": 132,
+    "amazon_earnings_7d_usd": null
+  },
+  {
+    "generated_at": "2026-08-25 10:37 UTC",
+    "ga4_sessions_7d": null,
+    "ga4_pageviews_7d": null,
+    "affiliate_clicks_7d": null,
+    "gsc_clicks_7d": null,
+    "gsc_impressions_7d": null,
+    "cloudflare_page_views_7d": 0,
+    "youtube_views_total": 132,
+    "amazon_earnings_7d_usd": null
+  },
+  {
+    "generated_at": "2026-08-25 10:40 UTC",
+    "ga4_sessions_7d": 51,
+    "ga4_pageviews_7d": 63,
+    "affiliate_clicks_7d": 2,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 15,
+    "cloudflare_page_views_7d": 0,
+    "youtube_views_total": 132,
     "amazon_earnings_7d_usd": null
   }
 ]
