@@ -135,6 +135,15 @@
       "uploaded_at": "2026-08-25T09:39:57.203007+00:00",
       "storyboard": "products/youtube/short-landlord-safe-indoor-garden-setup/storyboard.json",
       "format": "short"
+    },
+    "video-landlord-safe-indoor-garden-setup": {
+      "youtube_id": "BA6XEAb1egE",
+      "url": "https://youtu.be/BA6XEAb1egE",
+      "title": "Landlord-safe indoor garden setup checklist \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-08-25T14:41:30.739655+00:00",
+      "storyboard": "products/youtube/video-landlord-safe-indoor-garden-setup/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
