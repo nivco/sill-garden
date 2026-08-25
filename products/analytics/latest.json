@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-25 12:32 UTC",
+  "generated_at": "2026-08-25 15:31 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 52,
-    "users_7d": 47,
-    "pageviews_7d": 64,
+    "sessions_7d": 53,
+    "users_7d": 48,
+    "pageviews_7d": 65,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 15,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 21,
+    "youtube_sessions_7d": 22,
     "youtube_subs": 1,
-    "youtube_views_total": 132,
+    "youtube_views_total": 142,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 9.6,
+    "engagement_rate_pct": 9.4,
     "affiliate_ctr_pct": 3.8,
-    "youtube_videos": 15
+    "youtube_videos": 16
   },
   "sources": {
     "site": {
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 47,
-        "sessions": 52,
-        "screenPageViews": 64,
+        "activeUsers": 48,
+        "sessions": 53,
+        "screenPageViews": 65,
         "engagedSessions": 5,
-        "averageSessionDuration_sec": 28.1,
-        "engagementRate_pct": 9.6
+        "averageSessionDuration_sec": 27.6,
+        "engagementRate_pct": 9.4
       },
       "top_pages": [
         {
@@ -46,8 +46,8 @@
         },
         {
           "pagePath": "/guides/",
-          "sessions": "13",
-          "screenPageViews": "13"
+          "sessions": "14",
+          "screenPageViews": "14"
         },
         {
           "pagePath": "/guides/best-countertop-garden-apartments/",
@@ -97,7 +97,7 @@
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "21"
+          "sessions": "22"
         }
       ],
       "source_medium": [
@@ -108,7 +108,7 @@
         },
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "21",
+          "sessions": "22",
           "engagedSessions": "1"
         }
       ],
@@ -137,7 +137,7 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 21,
+      "sessions_from_youtube": 22,
       "affiliate_clicks_7d": 2
     },
     "gsc": {
@@ -476,14 +476,22 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 132,
-        "videos": 15
+        "views": 142,
+        "videos": 16
       },
       "recent_videos": [
         {
+          "id": "BA6XEAb1egE",
+          "title": "Landlord-safe indoor garden setup checklist \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-25T14:41:53Z",
+          "url": "https://www.youtube.com/watch?v=BA6XEAb1egE"
+        },
+        {
           "id": "Jxrkpvqs8Vs",
           "title": "Landlord-safe indoor garden setup checklist #Shorts",
-          "views": 3,
+          "views": 5,
           "likes": 0,
           "published": "2026-08-25T09:40:19Z",
           "url": "https://www.youtube.com/watch?v=Jxrkpvqs8Vs"
@@ -535,14 +543,6 @@
           "likes": 1,
           "published": "2026-08-22T09:31:28Z",
           "url": "https://www.youtube.com/watch?v=s7KtScEHU6o"
-        },
-        {
-          "id": "o9lWE9leyPI",
-          "title": "Best low-light herbs for apartment windowsills \u2014 Apartment Guide (2026)",
-          "views": 0,
-          "likes": 0,
-          "published": "2026-08-21T14:31:43Z",
-          "url": "https://www.youtube.com/watch?v=o9lWE9leyPI"
         }
       ]
     },
@@ -600,7 +600,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-25 10:41 UTC"
+      "created": "2026-08-25 12:32 UTC"
     },
     {
       "priority": "P1",
@@ -609,16 +609,16 @@
       "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 40/6 impr; \u201cclick and grow vs aerogarden\u201d pos 40/2 impr; \u201cclick and grow vs auk\u201d pos 53/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-25 10:41 UTC"
+      "created": "2026-08-25 12:32 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-24 20:32 UTC (14.2h ago; min 20h).",
+      "detail": "Last ping 2026-08-24 20:32 UTC (16.0h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-25 10:41 UTC"
+      "created": "2026-08-25 12:32 UTC"
     }
   ],
   "insights": [
@@ -667,6 +667,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 52 | Aff clicks 2 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 53 | Aff clicks 2 | GSC 0 | Setup 7/7"
   }
 }
