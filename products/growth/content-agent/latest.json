@@ -1,8 +1,8 @@
 {
   "date": "2026-08-26",
-  "generated": "2026-08-26 06:55 UTC",
+  "generated": "2026-08-26 16:40 UTC",
   "research": {
-    "generated": "2026-08-26 06:55 UTC",
+    "generated": "2026-08-26 16:40 UTC",
     "zero_click_queries": [
       {
         "query": "aerogarden comparison",
@@ -23,9 +23,9 @@
       {
         "query": "click and grow vs aerogarden",
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 4,
         "ctr": 0.0,
-        "position": 40.5,
+        "position": 42.5,
         "ctr_pct": 0.0
       },
       {
@@ -66,6 +66,14 @@
         "impressions": 1,
         "ctr": 0.0,
         "position": 68.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "kitchen nano garden",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 51.0,
         "ctr_pct": 0.0
       }
     ],
@@ -108,21 +116,21 @@
   },
   "proposed": [
     {
-      "type": "add_faq",
-      "slug": "best-countertop-garden-apartments",
-      "question": "Countertop garden system?",
-      "answer": "A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.",
-      "reason": "GSC zero-click: 1 impr, pos 68.0",
+      "type": "tune_guide_seo",
+      "slug": "aerogarden-vs-click-and-grow",
+      "title": null,
+      "description": "Compare aerogarden models — click and grow vs aerogarden for apartments — clear picks, noise, light, and refill cost.",
+      "reason": "Content agent: weave GSC query into meta — compare aerogarden models",
       "bucket": "refresh"
     }
   ],
   "applied": [
     {
-      "type": "add_faq",
-      "slug": "best-countertop-garden-apartments",
-      "question": "Countertop garden system?",
-      "answer": "A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.",
-      "reason": "GSC zero-click: 1 impr, pos 68.0",
+      "type": "tune_guide_seo",
+      "slug": "aerogarden-vs-click-and-grow",
+      "title": null,
+      "description": "Compare aerogarden models — click and grow vs aerogarden for apartments — clear picks, noise, light, and refill cost.",
+      "reason": "Content agent: weave GSC query into meta — compare aerogarden models",
       "bucket": "refresh",
       "status": "applied"
     }
@@ -133,5 +141,5 @@
     "stdout": "URLs: 18\nIndexNow OK (200): 18 URLs\nGoogle: sitemap already submitted in GSC. Manual 'Request indexing' in UI for priority URLs only.\n",
     "stderr": "Bing SubmitUrlBatch HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}\n(Add/verify sillgarden.com in Bing Webmaster Tools if this failed.)\n"
   },
-  "summary_md": "# Sill Garden Content Agent — 2026-08-26\n\nGenerated: 2026-08-26 06:55 UTC\n\n## Research\n- Guides: 12\n- Zero-click GSC queries: 8\n- Network probes ok: 3/3\n- LLM notes: 0\n\n## Applied\n- [refresh] add_faq -> `best-countertop-garden-apartments` — GSC zero-click: 1 impr, pos 68.0\n\n## Top demand\n- aerogarden comparison — 1 impr, pos 65.0\n- aerogarden vs click and grow — 5 impr, pos 39.4\n- click and grow vs aerogarden — 2 impr, pos 40.5\n- click and grow vs auk — 1 impr, pos 53.0\n- compare aerogarden models — 1 impr, pos 62.0\n- counter top garden — 1 impr, pos 90.0\n- countertop garden — 2 impr, pos 86.0\n- countertop garden system — 1 impr, pos 68.0\n"
+  "summary_md": "# Sill Garden Content Agent — 2026-08-26\n\nGenerated: 2026-08-26 16:40 UTC\n\n## Research\n- Guides: 12\n- Zero-click GSC queries: 9\n- Network probes ok: 3/3\n- LLM notes: 0\n\n## Applied\n- [refresh] tune_guide_seo -> `aerogarden-vs-click-and-grow` — Content agent: weave GSC query into meta — compare aerogarden models\n\n## Top demand\n- aerogarden comparison — 1 impr, pos 65.0\n- aerogarden vs click and grow — 5 impr, pos 39.4\n- click and grow vs aerogarden — 4 impr, pos 42.5\n- click and grow vs auk — 1 impr, pos 53.0\n- compare aerogarden models — 1 impr, pos 62.0\n- counter top garden — 1 impr, pos 90.0\n- countertop garden — 2 impr, pos 86.0\n- countertop garden system — 1 impr, pos 68.0\n"
 }
