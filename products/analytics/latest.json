@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-26 12:36 UTC",
+  "generated_at": "2026-08-26 16:08 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 49,
-    "users_7d": 44,
-    "pageviews_7d": 59,
+    "sessions_7d": 51,
+    "users_7d": 46,
+    "pageviews_7d": 61,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 17,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 26,
+    "youtube_sessions_7d": 28,
     "youtube_subs": 1,
-    "youtube_views_total": 142,
+    "youtube_views_total": 149,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 8.2,
-    "affiliate_ctr_pct": 4.1,
-    "youtube_videos": 17
+    "engagement_rate_pct": 7.8,
+    "affiliate_ctr_pct": 3.9,
+    "youtube_videos": 18
   },
   "sources": {
     "site": {
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 44,
-        "sessions": 49,
-        "screenPageViews": 59,
+        "activeUsers": 46,
+        "sessions": 51,
+        "screenPageViews": 61,
         "engagedSessions": 4,
-        "averageSessionDuration_sec": 29.4,
-        "engagementRate_pct": 8.2
+        "averageSessionDuration_sec": 28.3,
+        "engagementRate_pct": 7.8
       },
       "top_pages": [
         {
@@ -46,8 +46,8 @@
         },
         {
           "pagePath": "/guides/",
-          "sessions": "15",
-          "screenPageViews": "16"
+          "sessions": "16",
+          "screenPageViews": "17"
         },
         {
           "pagePath": "/guides/best-countertop-garden-apartments/",
@@ -56,6 +56,11 @@
         },
         {
           "pagePath": "/guides/cheapest-indoor-herb-garden-apartment/",
+          "sessions": "3",
+          "screenPageViews": "3"
+        },
+        {
+          "pagePath": "/guides/quiet-countertop-gardens-studios/",
           "sessions": "3",
           "screenPageViews": "3"
         },
@@ -75,11 +80,6 @@
           "screenPageViews": "2"
         },
         {
-          "pagePath": "/guides/quiet-countertop-gardens-studios/",
-          "sessions": "2",
-          "screenPageViews": "2"
-        },
-        {
           "pagePath": "/about/",
           "sessions": "1",
           "screenPageViews": "1"
@@ -93,7 +93,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "26"
+          "sessions": "28"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -103,7 +103,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "26",
+          "sessions": "28",
           "engagedSessions": "1"
         },
         {
@@ -137,7 +137,7 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 26,
+      "sessions_from_youtube": 28,
       "affiliate_clicks_7d": 2
     },
     "gsc": {
@@ -483,14 +483,22 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 142,
-        "videos": 17
+        "views": 149,
+        "videos": 18
       },
       "recent_videos": [
         {
+          "id": "loYYx2jocMY",
+          "title": "Quiet countertop gardens for studios \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-26T14:42:32Z",
+          "url": "https://www.youtube.com/watch?v=loYYx2jocMY"
+        },
+        {
           "id": "974TVJVBJtA",
           "title": "Quiet countertop gardens for studios #Shorts",
-          "views": 0,
+          "views": 18,
           "likes": 0,
           "published": "2026-08-26T09:49:22Z",
           "url": "https://www.youtube.com/watch?v=974TVJVBJtA"
@@ -542,14 +550,6 @@
           "likes": 0,
           "published": "2026-08-23T14:13:43Z",
           "url": "https://www.youtube.com/watch?v=2w4E2Z0yAIg"
-        },
-        {
-          "id": "Ec6nCBEEwPI",
-          "title": "Cheapest indoor herb garden for apartments (under $50) \u2014 Apartment Guide (2026)",
-          "views": 0,
-          "likes": 0,
-          "published": "2026-08-22T14:18:04Z",
-          "url": "https://www.youtube.com/watch?v=Ec6nCBEEwPI"
         }
       ]
     },
@@ -607,34 +607,25 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-26 00:51 UTC"
+      "created": "2026-08-26 12:36 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 39/5 impr; \u201cclick and grow vs aerogarden\u201d pos 40/2 impr; \u201cclick and grow vs auk\u201d pos 53/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 39/5 impr; \u201cclick and grow vs aerogarden\u201d pos 42/4 impr; \u201cclick and grow vs auk\u201d pos 53/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-26 00:51 UTC"
+      "created": "2026-08-26 12:36 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-26 00:51 UTC (11.8h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-26 00:51 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
+      "created": "2026-08-26 12:36 UTC"
     }
   ],
   "insights": [
@@ -683,6 +674,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 49 | Aff clicks 2 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 51 | Aff clicks 2 | GSC 0 | Setup 7/7"
   }
 }
