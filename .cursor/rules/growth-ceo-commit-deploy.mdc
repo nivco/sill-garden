@@ -8,17 +8,18 @@ alwaysApply: true
 When you run (or apply outputs from) any of these:
 
 - `scripts/daily_growth_agent.py`
+- `scripts/content_agent.py`
 - `scripts/exec_board.py`
 - CTR / learning / board helpers that change guides, `products/growth/`, `reports/board/`, or traffic queues
 
 **Required finish steps (do not ask first):**
 
-1. Stage the agent outputs and any guide SEO patches they wrote
+1. Stage the agent outputs and any guide SEO / body patches they wrote
 2. Commit with a message that names the agent and date (e.g. `chore: growth agent 2026-08-21`)
 3. Push to `main` on `nivco/sill-garden` (use `gh auth switch --user nivco` first if needed)
 4. Confirm deploy is triggered (`deploy.yml` on push to `main`) — report the push URL / that deploy will run
 
-Do **not** leave growth/CEO content or meta patches only on the local machine.
+Do **not** leave growth/CEO/content-agent outputs or meta patches only on the local machine.
 
 Skip email secrets / dry-run flags do not skip commit+push.
 

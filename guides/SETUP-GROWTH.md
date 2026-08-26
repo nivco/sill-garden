@@ -9,6 +9,7 @@ Sill’s growth stack mirrors Maker Tool Stack capabilities, adapted to Astro ma
 | `traffic-loop.yml` | every 12h | Analytics + IndexNow/action queue |
 | `weekly-analytics.yml` | weekly | Scorecard commit |
 | `daily-growth-agent.yml` | daily 15:00 UTC | Learn → safe title/meta patches → distribution pack → optional email |
+| `content-agent.yml` | daily 16:00 UTC | Research GSC/network → refresh FAQ/SEO + ship curated new guides |
 | `ai-growth.yml` | Tue 14:00 UTC | AI citation probe (demo if no API keys) |
 | `youtube-auto-publish.yml` | daily 09:00 + 14:00 UTC | Public Short + long-form video |
 | `tier2-distribution.yml` | Thu | Dev.to / Hashnode syndication (when keys exist) |
@@ -22,6 +23,8 @@ Sill’s growth stack mirrors Maker Tool Stack capabilities, adapted to Astro ma
 cd E:\Projects\sill-garden
 python scripts\daily_growth_agent.py --dry-run
 python scripts\daily_growth_agent.py --refresh
+python scripts\content_agent.py --dry-run
+python scripts\content_agent.py --refresh
 python scripts\ai_growth_agent.py --demo --enqueue
 python scripts\metrics_learning.py
 python scripts\exec_board.py --dry-run --cadence weekly

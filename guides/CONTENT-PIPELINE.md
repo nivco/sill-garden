@@ -3,6 +3,8 @@
 Goal: earn first Google impressions on easier queries than “AeroGarden vs Click & Grow.”
 Ship these as normal guides under `src/content/guides/` when ready.
 
+**Automation:** `python scripts/content_agent.py --refresh` researches GSC/network, refreshes FAQ/SEO, and ships curated long-tail pages. Workflow: `content-agent.yml` (daily 16:00 UTC).
+
 **Live signal (2026-08-17):** GSC already shows impressions for `aerogarden vs` (pos ~26)
 and `click and grow vs aerogarden` (pos ~37). The comparison guide title/FAQ was tightened
 for both query orders — still ship long-tail pages below; don’t only chase the head term.
