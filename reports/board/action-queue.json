@@ -7,7 +7,7 @@
       "role": "ai-visibility",
       "type": "earn_citation",
       "title": "Earn AI citation: ag-vs-cg",
-      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen \u2014 which should I buy?",
+      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen — which should I buy?",
       "target": "ag-vs-cg",
       "auto": false,
       "priority": "P2",
@@ -111,7 +111,7 @@
       "fingerprint": "3646c4406f6a",
       "role": "ceo",
       "type": "board",
-      "title": "[CMO / Growth & Distribution] Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
+      "title": "[CMO / Growth & Distribution] Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
@@ -141,7 +141,7 @@
       "fingerprint": "37c230f1506c",
       "role": "cmo",
       "type": "board",
-      "title": "Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
+      "title": "Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
@@ -201,7 +201,7 @@
       "fingerprint": "643c851b9d36",
       "role": "cro",
       "type": "board",
-      "title": "Monetization steady \u2014 A/B one CTA placement.",
+      "title": "Monetization steady — A/B one CTA placement.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
@@ -216,7 +216,7 @@
       "fingerprint": "f577b5bcdae3",
       "role": "data",
       "type": "board",
-      "title": "Measurement healthy \u2014 extend KPI ledger trendlines.",
+      "title": "Measurement healthy — extend KPI ledger trendlines.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
@@ -255,6 +255,19 @@
       "created": "2026-08-21 06:44 UTC",
       "resolved": "2026-08-25 10:40 UTC",
       "resolution": "Closed: workflows green; not a standing Do-next item"
+    },
+    {
+      "id": "48f5d3f15b13",
+      "fingerprint": "48f5d3f15b13",
+      "role": "seo",
+      "type": "board",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
     }
   ],
   "applied_log": [
@@ -283,5 +296,5 @@
       "reason": "CTR-first query desc: 8 impr, pos 39.2, 0 clicks"
     }
   ],
-  "updated": "2026-08-25 10:41 UTC"
+  "updated": "2026-08-26 06:28 UTC"
 }
