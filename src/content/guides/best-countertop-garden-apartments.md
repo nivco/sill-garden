@@ -1,6 +1,6 @@
 ---
 title: Best countertop garden for apartments (2026)
-description: Quiet, compact systems that fit a real kitchen — what to buy first for a studio or 1-bed.
+description: "Quiet, compact systems that fit a real kitchen — what to buy first for a studio or 1-bed."
 pubDate: 2026-08-13
 cluster: systems
 type: pillar
@@ -9,18 +9,18 @@ image: /images/guide-systems.jpg
 imageAlt: Spider plant in a white pot on a table
 verdict: Start with a 3–6 pod countertop kit if you want herbs with almost no learning curve. Use a mason-jar Kratky setup if you want to spend under $40 and learn the basics first.
 products:
-  - name: AeroGarden Harvest (6-pod class)
-    note: Best default starter for most kitchens
-    asin: B07CKNWHPQ
-  - name: Click & Grow Smart Garden 3
-    note: Best when silence matters more than capacity
-    asin: B01MRVMKQH
-    partner: click-grow
-  - name: Budget 10–12 pod kits (iDOO / similar)
-    note: More plants per dollar; check pump noise reviews
-    search: iDOO hydroponics 12 pod indoor garden
+- name: AeroGarden Harvest (6-pod class)
+  note: Best default starter for most kitchens
+  asin: B07CKNWHPQ
+- name: Click & Grow Smart Garden 3
+  note: Best when silence matters more than capacity
+  asin: B01MRVMKQH
+  partner: click-grow
+- name: Budget 10–12 pod kits (iDOO / similar)
+  note: More plants per dollar; check pump noise reviews
+  search: iDOO hydroponics 12 pod indoor garden
+updatedDate: 2026-08-26
 ---
-
 Apartment counters are short on space and patience. The right first system is the one you’ll actually keep plugged in — not the tallest tower on Amazon.
 
 ![Kitchen counter with living greenery](/images/inline-kitchen.jpg)
@@ -68,3 +68,11 @@ If you sleep in the same room as the kitchen (studio): prioritize **no-pump / si
 - [AeroGarden vs Click & Grow](/guides/aerogarden-vs-click-and-grow/)
 - [Quiet systems for studios](/guides/quiet-countertop-gardens-studios/)
 - [Landlord-safe setup checklist](/guides/landlord-safe-indoor-garden-setup/)
+
+## FAQ
+
+**Counter top garden?**  
+For "counter top garden", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Countertop garden?**  
+A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.

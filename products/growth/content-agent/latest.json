@@ -1,0 +1,253 @@
+{
+  "date": "2026-08-26",
+  "generated": "2026-08-26 06:53 UTC",
+  "research": {
+    "generated": "2026-08-26 06:53 UTC",
+    "zero_click_queries": [
+      {
+        "query": "aerogarden comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 65.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden vs click and grow",
+        "clicks": 0,
+        "impressions": 5,
+        "ctr": 0.0,
+        "position": 39.4,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "click and grow vs aerogarden",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 40.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "click and grow vs auk",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 53.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "compare aerogarden models",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 62.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "counter top garden",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 90.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "countertop garden",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 86.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "countertop garden system",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 68.0,
+        "ctr_pct": 0.0
+      }
+    ],
+    "network_probes": [
+      {
+        "url": "https://sillgarden.com/llms.txt",
+        "ok": true,
+        "status": 200,
+        "mentions_year": false
+      },
+      {
+        "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      },
+      {
+        "url": "https://www.aerogarden.com/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      }
+    ],
+    "llm_notes": {},
+    "guide_count": 11,
+    "existing_slugs": [
+      "aerogarden-vs-click-and-grow",
+      "basil-countertop-first-harvest",
+      "best-countertop-garden-apartments",
+      "best-low-light-herbs-apartment",
+      "cheapest-indoor-herb-garden-apartment",
+      "compare-aerogarden-models",
+      "countertop-garden-running-cost",
+      "grow-light-schedules-herbs",
+      "landlord-safe-indoor-garden-setup",
+      "quiet-countertop-gardens-studios",
+      "windowsill-herbs-without-kit"
+    ]
+  },
+  "proposed": [
+    {
+      "type": "create_guide",
+      "slug": "countertop-garden-system-guide",
+      "spec": {
+        "slug": "countertop-garden-system-guide",
+        "triggers": [
+          "countertop garden system",
+          "counter top garden",
+          "best countertop garden system"
+        ],
+        "title": "Countertop garden systems (2026) — kits vs DIY for apartments",
+        "description": "What a countertop garden system actually needs — light, water, tray, and when a kit beats jars for apartment cooking herbs.",
+        "cluster": "systems",
+        "type": "guide",
+        "featured": false,
+        "image": "/images/guide-countertop.jpg",
+        "imageAlt": "Compact countertop garden on an apartment kitchen counter",
+        "verdict": "A real countertop system is light + water + drip control — not just a pretty pot. Buy a 3–6 pod kit if you want herbs with almost no learning curve; use jars + clip light if budget and silence come first.",
+        "products": [
+          {
+            "name": "Click & Grow Smart Garden 3",
+            "note": "Simplest silent system",
+            "asin": "B01MRVMKQH",
+            "partner": "click-grow"
+          },
+          {
+            "name": "AeroGarden Harvest",
+            "note": "More pods for kitchen counters",
+            "asin": "B07CKNWHPQ"
+          },
+          {
+            "name": "Clip-on LED grow light",
+            "note": "DIY system essential",
+            "search": "LED clip grow light indoor plants"
+          }
+        ],
+        "body": "A **countertop garden system** is anything that reliably grows edible herbs on a kitchen counter: kit or DIY. The system fails when one piece is missing — usually light or a drip tray.\n\n![Compact countertop plant for small spaces](/images/inline-counter-plant.jpg)\n\n## System checklist\n\n1. **Light** — built-in LED or a clip-on aimed at the canopy  \n2. **Water** — reservoir, wick, or careful hand-watering  \n3. **Containment** — waterproof tray / boot (landlords notice stains)  \n4. **Schedule** — 14–16h light with a dark period for sleep  \n\n## Kit vs DIY\n\n| | Kit (AeroGarden / Click & Grow) | DIY (jars + clip light) |\n|--|--------------------------------|-------------------------|\n| Setup time | Minutes | An evening |\n| Noise | Pump or silent wick | Silent |\n| Cost to start | Higher | Lower |\n| Learning curve | Very low | Medium |\n| Best when | You want herbs this month | You want silence + budget control |\n\n![Indoor grow tray kept tidy](/images/inline-grow-tray.jpg)\n\n## FAQ\n\n**What is a countertop garden system?**  \nA compact indoor setup (kit or DIY) with light, water, and a tray so herbs grow on a counter without wrecking the surface.\n\n**Do I need a branded kit?**  \nNo. Kits win on convenience. Jars + a decent clip light win on cost and silence.\n\n**Where should it sit?**  \nStable counter away from bed glare; see [quiet studio tips](/guides/quiet-countertop-gardens-studios/) if you live in one room.\n\n> **Key takeaway**\n> Buy a system, not a gadget. Light + water + drip control beat any single “smart” feature.\n\n## Related\n\n- [Best countertop gardens for apartments](/guides/best-countertop-garden-apartments/)\n- [Cheapest indoor herb garden](/guides/cheapest-indoor-herb-garden-apartment/)\n- [Landlord-safe setup](/guides/landlord-safe-indoor-garden-setup/)\n"
+      },
+      "reason": "GSC demand for counter top garden — ship new guide",
+      "bucket": "new"
+    },
+    {
+      "type": "add_faq",
+      "slug": "aerogarden-vs-click-and-grow",
+      "question": "Compare aerogarden models?",
+      "answer": "Start with Harvest-class for apartments. Move to Bounty only if you already fill six pods and have counter depth. Farm-scale towers are overkill for most rentals.",
+      "reason": "GSC zero-click: 1 impr, pos 62.0",
+      "bucket": "refresh"
+    },
+    {
+      "type": "add_faq",
+      "slug": "best-countertop-garden-apartments",
+      "question": "Counter top garden?",
+      "answer": "For \"counter top garden\", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.",
+      "reason": "GSC zero-click: 1 impr, pos 90.0",
+      "bucket": "refresh"
+    },
+    {
+      "type": "add_faq",
+      "slug": "best-countertop-garden-apartments",
+      "question": "Countertop garden?",
+      "answer": "A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.",
+      "reason": "GSC zero-click: 2 impr, pos 86.0",
+      "bucket": "refresh"
+    }
+  ],
+  "applied": [
+    {
+      "type": "create_guide",
+      "slug": "countertop-garden-system-guide",
+      "spec": {
+        "slug": "countertop-garden-system-guide",
+        "triggers": [
+          "countertop garden system",
+          "counter top garden",
+          "best countertop garden system"
+        ],
+        "title": "Countertop garden systems (2026) — kits vs DIY for apartments",
+        "description": "What a countertop garden system actually needs — light, water, tray, and when a kit beats jars for apartment cooking herbs.",
+        "cluster": "systems",
+        "type": "guide",
+        "featured": false,
+        "image": "/images/guide-countertop.jpg",
+        "imageAlt": "Compact countertop garden on an apartment kitchen counter",
+        "verdict": "A real countertop system is light + water + drip control — not just a pretty pot. Buy a 3–6 pod kit if you want herbs with almost no learning curve; use jars + clip light if budget and silence come first.",
+        "products": [
+          {
+            "name": "Click & Grow Smart Garden 3",
+            "note": "Simplest silent system",
+            "asin": "B01MRVMKQH",
+            "partner": "click-grow"
+          },
+          {
+            "name": "AeroGarden Harvest",
+            "note": "More pods for kitchen counters",
+            "asin": "B07CKNWHPQ"
+          },
+          {
+            "name": "Clip-on LED grow light",
+            "note": "DIY system essential",
+            "search": "LED clip grow light indoor plants"
+          }
+        ],
+        "body": "A **countertop garden system** is anything that reliably grows edible herbs on a kitchen counter: kit or DIY. The system fails when one piece is missing — usually light or a drip tray.\n\n![Compact countertop plant for small spaces](/images/inline-counter-plant.jpg)\n\n## System checklist\n\n1. **Light** — built-in LED or a clip-on aimed at the canopy  \n2. **Water** — reservoir, wick, or careful hand-watering  \n3. **Containment** — waterproof tray / boot (landlords notice stains)  \n4. **Schedule** — 14–16h light with a dark period for sleep  \n\n## Kit vs DIY\n\n| | Kit (AeroGarden / Click & Grow) | DIY (jars + clip light) |\n|--|--------------------------------|-------------------------|\n| Setup time | Minutes | An evening |\n| Noise | Pump or silent wick | Silent |\n| Cost to start | Higher | Lower |\n| Learning curve | Very low | Medium |\n| Best when | You want herbs this month | You want silence + budget control |\n\n![Indoor grow tray kept tidy](/images/inline-grow-tray.jpg)\n\n## FAQ\n\n**What is a countertop garden system?**  \nA compact indoor setup (kit or DIY) with light, water, and a tray so herbs grow on a counter without wrecking the surface.\n\n**Do I need a branded kit?**  \nNo. Kits win on convenience. Jars + a decent clip light win on cost and silence.\n\n**Where should it sit?**  \nStable counter away from bed glare; see [quiet studio tips](/guides/quiet-countertop-gardens-studios/) if you live in one room.\n\n> **Key takeaway**\n> Buy a system, not a gadget. Light + water + drip control beat any single “smart” feature.\n\n## Related\n\n- [Best countertop gardens for apartments](/guides/best-countertop-garden-apartments/)\n- [Cheapest indoor herb garden](/guides/cheapest-indoor-herb-garden-apartment/)\n- [Landlord-safe setup](/guides/landlord-safe-indoor-garden-setup/)\n"
+      },
+      "reason": "GSC demand for counter top garden — ship new guide",
+      "bucket": "new",
+      "status": "applied"
+    },
+    {
+      "type": "add_faq",
+      "slug": "aerogarden-vs-click-and-grow",
+      "question": "Compare aerogarden models?",
+      "answer": "Start with Harvest-class for apartments. Move to Bounty only if you already fill six pods and have counter depth. Farm-scale towers are overkill for most rentals.",
+      "reason": "GSC zero-click: 1 impr, pos 62.0",
+      "bucket": "refresh",
+      "status": "applied"
+    },
+    {
+      "type": "add_faq",
+      "slug": "best-countertop-garden-apartments",
+      "question": "Counter top garden?",
+      "answer": "For \"counter top garden\", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.",
+      "reason": "GSC zero-click: 1 impr, pos 90.0",
+      "bucket": "refresh",
+      "status": "applied"
+    },
+    {
+      "type": "add_faq",
+      "slug": "best-countertop-garden-apartments",
+      "question": "Countertop garden?",
+      "answer": "A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.",
+      "reason": "GSC zero-click: 2 impr, pos 86.0",
+      "bucket": "refresh",
+      "status": "applied"
+    }
+  ],
+  "indexnow": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "URLs: 16\nIndexNow OK (200): 16 URLs\nGoogle: sitemap already submitted in GSC. Manual 'Request indexing' in UI for priority URLs only.\n",
+    "stderr": "Bing SubmitUrlBatch HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}\n(Add/verify sillgarden.com in Bing Webmaster Tools if this failed.)\n"
+  },
+  "summary_md": "# Sill Garden Content Agent — 2026-08-26\n\nGenerated: 2026-08-26 06:53 UTC\n\n## Research\n- Guides: 11\n- Zero-click GSC queries: 8\n- Network probes ok: 3/3\n- LLM notes: 0\n\n## Applied\n- [new] create_guide -> `countertop-garden-system-guide` — GSC demand for counter top garden — ship new guide\n- [refresh] add_faq -> `aerogarden-vs-click-and-grow` — GSC zero-click: 1 impr, pos 62.0\n- [refresh] add_faq -> `best-countertop-garden-apartments` — GSC zero-click: 1 impr, pos 90.0\n- [refresh] add_faq -> `best-countertop-garden-apartments` — GSC zero-click: 2 impr, pos 86.0\n\n## Top demand\n- aerogarden comparison — 1 impr, pos 65.0\n- aerogarden vs click and grow — 5 impr, pos 39.4\n- click and grow vs aerogarden — 2 impr, pos 40.5\n- click and grow vs auk — 1 impr, pos 53.0\n- compare aerogarden models — 1 impr, pos 62.0\n- counter top garden — 1 impr, pos 90.0\n- countertop garden — 2 impr, pos 86.0\n- countertop garden system — 1 impr, pos 68.0\n"
+}
