@@ -76,3 +76,6 @@ For "counter top garden", match the setup to your light, noise tolerance, and la
 
 **Countertop garden?**  
 A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.
+
+**Countertop garden system?**  
+A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.

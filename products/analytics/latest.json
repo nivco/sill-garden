@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-26 06:28 UTC",
+  "generated_at": "2026-08-26 06:55 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -619,15 +619,23 @@
       "auto": true,
       "done": true,
       "created": "2026-08-26 00:51 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 14 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 65), \u201caerogarden vs click and grow\u201d (pos 39), \u201cclick and grow vs aerogarden\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -642,8 +650,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -668,6 +676,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 55 | Aff clicks 2 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 55 | Aff clicks 2 | GSC 0 | Setup 7/7"
   }
 }
