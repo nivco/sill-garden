@@ -144,8 +144,17 @@
       "uploaded_at": "2026-08-25T14:41:30.739655+00:00",
       "storyboard": "products/youtube/video-landlord-safe-indoor-garden-setup/storyboard.json",
       "format": "long"
+    },
+    "short-quiet-countertop-gardens-studios": {
+      "youtube_id": "974TVJVBJtA",
+      "url": "https://youtu.be/974TVJVBJtA",
+      "title": "Quiet countertop gardens for studios #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-26T09:49:00.760158+00:00",
+      "storyboard": "products/youtube/short-quiet-countertop-gardens-studios/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-08-26"
+  "next_eligible_date": "2026-08-27"
 }
