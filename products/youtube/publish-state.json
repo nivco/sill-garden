@@ -153,6 +153,15 @@
       "uploaded_at": "2026-08-26T09:49:00.760158+00:00",
       "storyboard": "products/youtube/short-quiet-countertop-gardens-studios/storyboard.json",
       "format": "short"
+    },
+    "video-quiet-countertop-gardens-studios": {
+      "youtube_id": "loYYx2jocMY",
+      "url": "https://youtu.be/loYYx2jocMY",
+      "title": "Quiet countertop gardens for studios \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-08-26T14:42:08.877669+00:00",
+      "storyboard": "products/youtube/video-quiet-countertop-gardens-studios/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
