@@ -162,8 +162,17 @@
       "uploaded_at": "2026-08-26T14:42:08.877669+00:00",
       "storyboard": "products/youtube/video-quiet-countertop-gardens-studios/storyboard.json",
       "format": "long"
+    },
+    "short-windowsill-herbs-without-kit": {
+      "youtube_id": "K_-h5CgvUIk",
+      "url": "https://youtu.be/K_-h5CgvUIk",
+      "title": "Windowsill herbs without a hydro kit #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-27T19:42:49.893714+00:00",
+      "storyboard": "products/youtube/short-windowsill-herbs-without-kit/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-08-27"
+  "next_eligible_date": "2026-08-28"
 }
