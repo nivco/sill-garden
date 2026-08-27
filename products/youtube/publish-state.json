@@ -171,6 +171,15 @@
       "uploaded_at": "2026-08-27T19:42:49.893714+00:00",
       "storyboard": "products/youtube/short-windowsill-herbs-without-kit/storyboard.json",
       "format": "short"
+    },
+    "video-windowsill-herbs-without-kit": {
+      "youtube_id": "kcYfyFpVQFU",
+      "url": "https://youtu.be/kcYfyFpVQFU",
+      "title": "Windowsill herbs without a hydro kit \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-08-27T23:31:51.915196+00:00",
+      "storyboard": "products/youtube/video-windowsill-herbs-without-kit/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
