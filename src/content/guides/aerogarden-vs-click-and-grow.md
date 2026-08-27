@@ -6,8 +6,8 @@ updatedDate: 2026-08-26
 cluster: systems
 type: comparison
 featured: true
-image: /images/guide-countertop.jpg
-imageAlt: Potted plants on an indoor shelf
+image: /images/guide-systems.jpg
+imageAlt: Indoor plant in a pot on a table
 verdict: Pick AeroGarden Harvest-class if you want faster growth and a bigger herb set. Pick Click & Grow Smart Garden 3 if silence and a smaller footprint matter more than yield.
 products:
 - name: AeroGarden Harvest / Harvest Lite
@@ -20,7 +20,7 @@ products:
 ---
 Searching **AeroGarden vs Click & Grow** (or the reverse, **Click and Grow vs AeroGarden**) usually means one thing: which countertop kit should sit on a small apartment counter first. The differences that matter are noise, footprint, and how painful refills feel after month two.
 
-![Indoor herb seedlings starting under light](/images/inline-seedlings.jpg)
+![Lush indoor basil greenery](/images/inline-greenery.jpg)
 
 ## Quick answer
 
@@ -40,7 +40,7 @@ Searching **AeroGarden vs Click & Grow** (or the reverse, **Click and Grow vs Ae
 | Best apartment fit | Most 1-beds with a counter corner | Studios / bedrooms that share space |
 | Watch-out | Pump noise + pod pricing | Fewer plants; pod lock-in |
 
-![Countertop plant setup for a small kitchen](/images/inline-counter-plant.jpg)
+![Living basil by a window](/images/inline-basil.jpg)
 
 ## Click and Grow vs AeroGarden — who should buy which
 
@@ -54,13 +54,13 @@ Searching **AeroGarden vs Click & Grow** (or the reverse, **Click and Grow vs Ae
 - You only need a few herbs at a time.
 - You prefer a narrower footprint on a shallow sill or shelf.
 
-![Fresh herbs harvested for cooking](/images/inline-herbs-board.jpg)
+![Indoor herbs for apartments](/images/inline-apartment.jpg)
 
 ## Refill reality (both)
 
 Proprietary pods are convenient and expensive per plant. Once you know which herbs you actually eat, blank sponges / compatible inserts plus your own seed usually cut ongoing cost. Start with the branded pods for the first cycle so you’re not debugging seed and hardware at once.
 
-![Lush indoor greenery in soft light](/images/inline-greenery.jpg)
+![Indoor herbs for apartments](/images/inline-chives-fresh.jpg)
 
 ## FAQ
 
@@ -75,7 +75,6 @@ Hardware is similar class; ongoing cost is mostly pods. Plan to move to refillab
 
 > **Key takeaway**
 > Decide on noise and footprint first, yield second. In a studio, silence wins. In a separate kitchen, capacity usually wins.
-
 
 **Aerogarden comparison?**  
 Start with Harvest-class for apartments. Move to Bounty only if you already fill six pods and have counter depth. Farm-scale towers are overkill for most rentals.

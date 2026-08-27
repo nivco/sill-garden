@@ -5,8 +5,8 @@ pubDate: 2026-08-13
 cluster: herbs
 type: guide
 featured: true
-image: /images/guide-windowsill.jpg
-imageAlt: Rosemary plant on an indoor windowsill
+image: /images/about-sill.jpg
+imageAlt: Rosemary on an indoor sill
 verdict: Start with basil, mint, and chives in small pots if you have a bright sill. Add a cheap clip-on grow light before you blame your “black thumb.”
 products:
   - name: Small herb pots with saucers
@@ -22,13 +22,13 @@ products:
 
 Not every apartment needs a plug-in hydroponic garden. If you have a bright window and patience for watering, soil pots on the sill still work — with clear limits.
 
-![Small pots lined up in soft light](/images/inline-pots.jpg)
+![Shelf herbs near apartment light](/images/inline-shelf-herbs.jpg)
 
 ## Light is the real product
 
 Most “I can’t grow herbs” stories are low light. South- or west-facing helps. North-facing usually needs a small LED. If seedlings stretch tall and pale, they’re begging for photons, not more water.
 
-![Young seedlings for an indoor herb start](/images/inline-seedlings.jpg)
+![Seedlings started without a hydro kit](/images/inline-seedlings-alt.jpg)
 
 ## Beginner sill herbs
 
@@ -40,10 +40,6 @@ Most “I can’t grow herbs” stories are low light. South- or west-facing hel
 | Parsley | Medium | Slower; keep evenly moist |
 | Cilantro | Hard indoors | Bolts fast; sow often or skip |
 | Rosemary | Hard on sill | Wants more light/air than most kits give |
-
-![Shelf of leafy plants near a bright wall](/images/inline-shelf-herbs.jpg)
-
-![Indoor plant row in apartment light](/images/inline-indoor-row.jpg)
 
 ## Simple setup
 

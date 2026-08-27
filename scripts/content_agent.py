@@ -49,6 +49,11 @@ QUERY_GUIDE_RULES: list[tuple[tuple[str, ...], str]] = [
     (("windowsill", "without kit"), "windowsill-herbs-without-kit"),
     (("basil", "first harvest"), "basil-countertop-first-harvest"),
     (("grow light", "schedule"), "grow-light-schedules-herbs"),
+    (("yellow", "leggy", "seedling"), "yellow-leaves-leggy-seedlings-indoor-herbs"),
+    (("kratky", "mason jar"), "kratky-jar-herbs-apartment"),
+    (("mint",), "mint-windowsill-first-harvest"),
+    (("pod cost", "refill", "blank insert"), "countertop-garden-pod-refill-cost"),
+    (("idoo", "auk", "click and grow vs"), "click-and-grow-vs-idoo-auk"),
 ]
 
 # New guides the agent can ship when GSC shows demand and the file is missing

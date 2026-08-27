@@ -7,7 +7,7 @@ cluster: systems
 type: comparison
 featured: false
 image: /images/guide-countertop.jpg
-imageAlt: Indoor countertop herb garden under LED light
+imageAlt: Potted plants on a wooden shelf
 verdict: Start with Harvest-class (≈6 pods) for most apartments. Step up to Bounty only if you cook herbs daily and have counter depth. Skip Farm-scale towers unless you have floor space.
 products:
 - name: AeroGarden Harvest / Harvest Lite
@@ -23,7 +23,7 @@ products:
 ---
 Searching **compare AeroGarden models** usually means: which kit fits a real apartment counter, not a showroom.
 
-![Indoor herb seedlings starting under light](/images/inline-seedlings.jpg)
+![Fresh cilantro and coriander leaves](/images/inline-cilantro.jpg)
 
 ## Quick pick
 
@@ -44,7 +44,7 @@ Searching **compare AeroGarden models** usually means: which kit fits a real apa
 | Best for | Apartments | Serious home cooks | Dedicated indoor garden space |
 | Watch-out | Outgrow capacity | Needs counter depth | Overkill for most rentals |
 
-![Countertop plant setup for a small kitchen](/images/inline-counter-plant.jpg)
+![Capacity shown as a leafy plant row](/images/inline-indoor-row.jpg)
 
 ## AeroGarden comparison — decision rules
 

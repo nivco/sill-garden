@@ -4,8 +4,8 @@ description: Budget ways to grow herbs indoors in a rental — pots, jars, and w
 pubDate: 2026-08-17
 cluster: systems
 type: guide
-image: /images/guide-systems.jpg
-imageAlt: Compact indoor plants suitable for a small apartment counter
+image: /images/guide-compare-budget.jpg
+imageAlt: Smart countertop herb garden kit
 verdict: Skip branded pods for month one if money is tight. A clip-on LED, three pots or jars, and a waterproof tray get you mint and chives for under $50 on a usable sill — or closer to $70 with a stronger light.
 products:
   - name: Clip-on LED grow light
@@ -25,7 +25,7 @@ products:
 
 You do not need a $100 kit to start. The cheapest indoor herb garden is the one that matches your light and stops water damage — not the one with the most pods.
 
-![Small pots lined up for a budget apartment setup](/images/inline-pots.jpg)
+![Budget pots ready for seed starting](/images/inline-pots.jpg)
 
 ## What “under $50” actually buys
 
@@ -55,7 +55,7 @@ A jar, net pot, and nutrient solution can grow lettuce or basil quietly. Add a d
 
 Buy a Click & Grow–class 3-pod unit when you keep forgetting watering, your sill never cooperates, or you want a gift that works on day one. Compare options in [best countertop gardens for apartments](/guides/best-countertop-garden-apartments/).
 
-![Compact countertop plant for small kitchens](/images/inline-counter-plant.jpg)
+![Chives for a cheap first harvest](/images/inline-chives.jpg)
 
 ## Do not cheap out on these
 

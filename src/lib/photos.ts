@@ -120,6 +120,16 @@ export const photoCredits = [
     credit: 'Basil and rosemary (Openverse / CC0)',
     url: 'https://openverse.org/image/58cb7fde-cf95-41a5-beb1-e340c9dd3f0c',
   },
+  // Additional 2026-08 unique guide assets (Wikimedia Commons / Openverse commercial-friendly).
+  { file: 'guide-mint.jpg', credit: 'Mint / Mentha (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-diy-herbs.jpg', credit: 'Kitchen herb Mentha (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-kitchen-herbs.jpg', credit: 'Culinary herb plant (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-compare-budget.jpg', credit: 'Smart herb garden (Openverse / CC BY-SA)', url: 'https://openverse.org/' },
+  { file: 'guide-troubleshooting.jpg', credit: 'Basil leaf detail (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-kratky.jpg', credit: 'Hydroponics (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-yellow-leaves.jpg', credit: 'Plant stress / pathology (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-pod-cost.jpg', credit: 'Basil foliage (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-idoo-compare.jpg', credit: 'Potted plants (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
 ] as const;
 
 export const unsplashLicenseUrl = 'https://creativecommons.org/publicdomain/zero/1.0/';

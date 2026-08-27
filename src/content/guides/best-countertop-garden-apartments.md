@@ -5,8 +5,8 @@ pubDate: 2026-08-13
 cluster: systems
 type: pillar
 featured: true
-image: /images/guide-systems.jpg
-imageAlt: Spider plant in a white pot on a table
+image: /images/guide-kitchen-herbs.jpg
+imageAlt: Culinary herb plant ready for cooking
 verdict: Start with a 3–6 pod countertop kit if you want herbs with almost no learning curve. Use a mason-jar Kratky setup if you want to spend under $40 and learn the basics first.
 products:
 - name: AeroGarden Harvest (6-pod class)
@@ -44,7 +44,7 @@ For Sill Garden, a good apartment system must clear four bars:
 | Budget 10–12 pod | More basil/lettuce capacity | $40–$90 | Pump noise and light quality vary |
 | Kratky jar DIY | Learning + ultra-quiet | $25–$40 | More babysitting; needs decent light |
 
-![Row of indoor plants along a bright wall](/images/inline-indoor-row.jpg)
+![Indoor herbs for apartments](/images/inline-cilantro-alt.jpg)
 
 ## Our default pick
 
@@ -52,7 +52,7 @@ If you cook with fresh herbs weekly and have ~12×8 inches of counter: choose a 
 
 If you sleep in the same room as the kitchen (studio): prioritize **no-pump / silent** systems even if they hold fewer plants.
 
-![Apartment plant corner with soft natural light](/images/inline-apartment.jpg)
+![Indoor herbs for apartments](/images/inline-harvest.jpg)
 
 > **Key takeaway**
 > Buy the smallest kit you’ll actually use every week. Upgrading later is easier than living with a noisy tower you hate.
@@ -66,8 +66,11 @@ If you sleep in the same room as the kitchen (studio): prioritize **no-pump / si
 ## Next reads
 
 - [AeroGarden vs Click & Grow](/guides/aerogarden-vs-click-and-grow/)
+- [Click & Grow vs iDOO / Auk](/guides/click-and-grow-vs-idoo-auk/)
+- [Pod refill cost vs seeds](/guides/countertop-garden-pod-refill-cost/)
+- [Yellow leaves & leggy seedlings](/guides/yellow-leaves-leggy-seedlings-indoor-herbs/)
+- [Kratky jar herbs](/guides/kratky-jar-herbs-apartment/)
 - [Quiet systems for studios](/guides/quiet-countertop-gardens-studios/)
-- [Landlord-safe setup checklist](/guides/landlord-safe-indoor-garden-setup/)
 
 ## FAQ
 

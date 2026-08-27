@@ -6,7 +6,7 @@ cluster: herbs
 type: guide
 featured: true
 image: /images/guide-windowsill.jpg
-imageAlt: Rosemary and leafy herbs growing on an apartment windowsill
+imageAlt: Rosemary and herbs on an indoor window
 verdict: Start with mint, chives, parsley, and oregano on a weaker sill. Basil and rosemary usually need a clip-on grow light to stay compact and productive indoors.
 products:
   - name: Clip-on LED grow light
@@ -22,7 +22,7 @@ products:
 
 A dim apartment window can grow herbs, but it cannot grow every herb well. The best low-light herbs are plants that tolerate slower growth without stretching into weak, pale stems.
 
-![Small pots lined up in soft apartment light](/images/inline-pots.jpg)
+![Yellowing parsley when light is too weak](/images/inline-yellow-plant.jpg)
 
 ## Quick answer
 
@@ -64,7 +64,7 @@ Parsley germinates slowly, so buying a small starter plant is easier than starti
 
 Oregano tolerates a weaker sill if the roots are allowed to dry slightly between watering. Harvest lightly until the plant has enough branches to recover.
 
-![Shelf of leafy herbs near an apartment window](/images/inline-shelf-herbs.jpg)
+![Thyme that handles softer apartment light](/images/inline-thyme.jpg)
 
 ## Herbs that usually need help
 
@@ -82,8 +82,6 @@ See the full [grow-light schedule for kitchen herbs](/guides/grow-light-schedule
 4. Group plants near the brightest window but leave space for airflow.
 5. Rotate pots a quarter turn every few days.
 6. Water only after checking the top inch of soil.
-
-![Indoor herbs growing in a compact row](/images/inline-indoor-row.jpg)
 
 ## When a grow light is worth it
 

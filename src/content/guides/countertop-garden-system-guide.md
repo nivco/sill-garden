@@ -6,8 +6,8 @@ updatedDate: 2026-08-26
 cluster: systems
 type: guide
 featured: false
-image: /images/guide-countertop.jpg
-imageAlt: Compact countertop garden on an apartment kitchen counter
+image: /images/guide-diy-herbs.jpg
+imageAlt: Kitchen herb mint in a pot
 verdict: A real countertop system is light + water + drip control — not just a pretty pot. Buy a 3–6 pod kit if you want herbs with almost no learning curve; use jars + clip light if budget and silence come first.
 products:
 - name: Click & Grow Smart Garden 3
@@ -23,7 +23,7 @@ products:
 ---
 A **countertop garden system** is anything that reliably grows edible herbs on a kitchen counter: kit or DIY. The system fails when one piece is missing — usually light or a drip tray.
 
-![Compact countertop plant for small spaces](/images/inline-counter-plant.jpg)
+![Compact basil pot on a counter](/images/inline-counter-plant.jpg)
 
 ## System checklist
 
@@ -42,7 +42,7 @@ A **countertop garden system** is anything that reliably grows edible herbs on a
 | Learning curve | Very low | Medium |
 | Best when | You want herbs this month | You want silence + budget control |
 
-![Indoor grow tray kept tidy](/images/inline-grow-tray.jpg)
+![Young starts in a compact system](/images/inline-seedlings.jpg)
 
 ## FAQ
 

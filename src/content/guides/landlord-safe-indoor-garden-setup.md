@@ -5,7 +5,7 @@ pubDate: 2026-08-12
 cluster: setup
 type: howto
 image: /images/guide-setup.jpg
-imageAlt: Two potted plants on a windowsill
+imageAlt: Two plants on a windowsill
 verdict: Use a waterproof tray, skip wall mounts, watch humidity near windows, and stick to freestanding countertop gear. That’s 90% of rental risk handled.
 products:
   - name: Waterproof boot / drip tray
@@ -22,7 +22,7 @@ products:
 
 Landlords rarely ban “herbs.” They care about water damage, mold, and holes in walls. Build your garden around those three.
 
-![Small pots with trays for spill protection](/images/inline-pots.jpg)
+![Moveable pots that do not need drilling](/images/inline-oregano.jpg)
 
 ## Checklist
 
@@ -34,11 +34,7 @@ Landlords rarely ban “herbs.” They care about water damage, mold, and holes 
 - [ ] **Power strip with surge protection** — not a daisy chain of cheap adapters  
 - [ ] **Pet plan** — covered reservoirs or placement pets can’t tip  
 
-![Shelf plants that move without drilling](/images/inline-shelf-herbs.jpg)
-
-![Freestanding grow tray on a table](/images/inline-grow-tray.jpg)
-
-![Apartment plant corner — no wall mounts](/images/inline-apartment.jpg)
+![Potted herbs with saucers for spill control](/images/inline-parsley.jpg)
 
 ## Humidity note
 

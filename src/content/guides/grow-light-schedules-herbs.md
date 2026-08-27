@@ -4,8 +4,8 @@ description: Simple on/off timing for countertop kits and clip lights — includ
 pubDate: 2026-08-11
 cluster: setup
 type: howto
-image: /images/guide-light.jpg
-imageAlt: Close-up of leafy kitchen herbs
+image: /images/guide-troubleshooting.jpg
+imageAlt: Basil leaf detail for light checks
 verdict: Run herbs about 14–16 hours on, 8–10 hours off. Align the dark period with your sleep if the garden shares your bedroom.
 products:
   - name: 24-hour outlet timer
@@ -21,7 +21,7 @@ products:
 
 Plants need a dark stretch. Your neighbors (and your circadian rhythm) need the LED off at night. Set the schedule before you plant.
 
-![Bright light on leafy greens](/images/inline-leaves.jpg)
+![Bottom view of an LED grow fixture](/images/inline-led-grow.jpg)
 
 ## Default schedule
 
@@ -29,15 +29,15 @@ Plants need a dark stretch. Your neighbors (and your circadian rhythm) need the 
 - **Off:** 8–10 hours  
 - **Start time:** Match your morning — e.g. lights on at 7am, off at 11pm, or compress for studios
 
-![Seedlings under consistent indoor light](/images/inline-seedlings.jpg)
+![Rosemary foliage under long day schedules](/images/inline-rosemary-alt.jpg)
 
 ## Studio tip
 
 If the unit has a dumb timer that starts whenever you plug it in, plug it in at the start of your day so darkness lands while you sleep. App-based kits are easier: set exact hours once.
 
-![Kitchen greenery under ambient light](/images/inline-kitchen.jpg)
+![Indoor herbs for apartments](/images/inline-leaves.jpg)
 
-![Herb close-up showing healthy color from good light](/images/inline-herb-close.jpg)
+![Indoor herbs for apartments](/images/inline-rosemary.jpg)
 
 ## Wattage anxiety
 

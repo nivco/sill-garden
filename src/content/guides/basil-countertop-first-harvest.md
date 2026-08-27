@@ -5,7 +5,7 @@ pubDate: 2026-08-11
 cluster: herbs
 type: guide
 image: /images/guide-basil.jpg
-imageAlt: Basil plant growing in a pot
+imageAlt: Basil garden plant
 verdict: Give basil strong light, pinch the tops early, and harvest leaves often. Weak light makes tall, tasteless stems — no nutrient bottle fixes that.
 products:
   - name: AeroGarden Harvest (6-pod class)
@@ -21,7 +21,7 @@ products:
 
 Basil is the reason most people buy a countertop garden. It’s also the plant that shows light problems first.
 
-![Close-up of healthy basil leaves](/images/inline-basil.jpg)
+![Companion herbs beside basil on a sill](/images/inline-mint-fresh.jpg)
 
 ## Light
 
@@ -29,7 +29,7 @@ Basil is the reason most people buy a countertop garden. It’s also the plant t
 - Keep the light close (follow the brand’s height guidance) so plants don’t stretch.
 - On a sill without a kit, basil wants the brightest window you have — or a clip lamp.
 
-![Herb foliage detail under bright light](/images/inline-herb-close.jpg)
+![Cut basil ready for cooking](/images/inline-herbs-board.jpg)
 
 ## Pinching
 
@@ -38,10 +38,6 @@ When you have 2–3 sets of true leaves, pinch the tip above a leaf pair. Side s
 ## Harvest
 
 Take leaves from the top down. Never strip a plant bare. Frequent small harvests beat one giant cut.
-
-![Hands harvesting fresh greens](/images/inline-harvest.jpg)
-
-![Cut herbs ready for the kitchen](/images/inline-herbs-board.jpg)
 
 ## Common failures
 

@@ -5,7 +5,7 @@ pubDate: 2026-08-17
 cluster: setup
 type: howto
 image: /images/guide-light.jpg
-imageAlt: Leafy kitchen herbs under an indoor grow light
+imageAlt: Herb leaf close-up under light
 verdict: Expect roughly $2–6 per month for electricity on a small LED kit in the US, plus $8–25 per month if you keep buying branded pods. DIY soil or refill inserts cut the pod line hard after you know which herbs you eat.
 products:
   - name: AeroGarden Harvest (6-pod class)
@@ -22,7 +22,7 @@ products:
 
 The sticker price of a countertop garden is the down payment. Running cost is electricity + consumables. Most apartment growers overestimate power and underestimate pods.
 
-![Bright light on leafy greens](/images/inline-leaves.jpg)
+![Parsley as a low-cost ongoing crop](/images/inline-parsley-alt.jpg)
 
 ## Three cost buckets
 
