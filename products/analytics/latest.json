@@ -1,26 +1,26 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-28 00:39 UTC",
+  "generated_at": "2026-08-28 08:18 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 50,
-    "users_7d": 44,
-    "pageviews_7d": 62,
+    "sessions_7d": 45,
+    "users_7d": 41,
+    "pageviews_7d": 60,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 16,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 26,
+    "youtube_sessions_7d": 28,
     "youtube_subs": 1,
-    "youtube_views_total": 185,
+    "youtube_views_total": 187,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 8.0,
-    "affiliate_ctr_pct": 4.0,
+    "engagement_rate_pct": 11.1,
+    "affiliate_ctr_pct": 4.4,
     "youtube_videos": 20
   },
   "sources": {
@@ -31,28 +31,23 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 44,
-        "sessions": 50,
-        "screenPageViews": 62,
-        "engagedSessions": 4,
-        "averageSessionDuration_sec": 28.9,
-        "engagementRate_pct": 8.0
+        "activeUsers": 41,
+        "sessions": 45,
+        "screenPageViews": 60,
+        "engagedSessions": 5,
+        "averageSessionDuration_sec": 32.7,
+        "engagementRate_pct": 11.1
       },
       "top_pages": [
         {
-          "pagePath": "/",
-          "sessions": "21",
-          "screenPageViews": "24"
-        },
-        {
           "pagePath": "/guides/",
-          "sessions": "17",
-          "screenPageViews": "17"
+          "sessions": "18",
+          "screenPageViews": "19"
         },
         {
-          "pagePath": "/guides/best-countertop-garden-apartments/",
-          "sessions": "3",
-          "screenPageViews": "4"
+          "pagePath": "/",
+          "sessions": "16",
+          "screenPageViews": "19"
         },
         {
           "pagePath": "/guides/cheapest-indoor-herb-garden-apartment/",
@@ -85,19 +80,24 @@
           "screenPageViews": "2"
         },
         {
-          "pagePath": "/privacy/",
+          "pagePath": "/guides/landlord-safe-indoor-garden-setup/",
           "sessions": "2",
-          "screenPageViews": "1"
+          "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/guides/windowsill-herbs-without-kit/",
+          "sessions": "2",
+          "screenPageViews": "2"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "26"
+          "sessions": "28"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "23"
+          "sessions": "17"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
@@ -107,12 +107,12 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "26",
-          "engagedSessions": "0"
+          "sessions": "28",
+          "engagedSessions": "1"
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "23",
+          "sessions": "17",
           "engagedSessions": "4"
         },
         {
@@ -146,7 +146,7 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 26,
+      "sessions_from_youtube": 28,
       "affiliate_clicks_7d": 2
     },
     "gsc": {
@@ -478,7 +478,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 185,
+        "views": 187,
         "videos": 20
       },
       "recent_videos": [
@@ -509,7 +509,7 @@
         {
           "id": "974TVJVBJtA",
           "title": "Quiet countertop gardens for studios #Shorts",
-          "views": 36,
+          "views": 37,
           "likes": 0,
           "published": "2026-08-26T09:49:22Z",
           "url": "https://www.youtube.com/watch?v=974TVJVBJtA"
@@ -678,6 +678,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 50 | Aff clicks 2 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 45 | Aff clicks 2 | GSC 0 | Setup 7/7"
   }
 }
