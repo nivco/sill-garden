@@ -180,8 +180,17 @@
       "uploaded_at": "2026-08-27T23:31:51.915196+00:00",
       "storyboard": "products/youtube/video-windowsill-herbs-without-kit/storyboard.json",
       "format": "long"
+    },
+    "short-countertop-garden-pod-refill-cost": {
+      "youtube_id": "Je0vgNg1LLs",
+      "url": "https://youtu.be/Je0vgNg1LLs",
+      "title": "Countertop garden pod refill cost vs seeds #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-28T20:47:26.133311+00:00",
+      "storyboard": "products/youtube/short-countertop-garden-pod-refill-cost/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-08-28"
+  "next_eligible_date": "2026-08-29"
 }
