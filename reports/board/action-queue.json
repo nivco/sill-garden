@@ -268,6 +268,19 @@
       "priority": "P2",
       "done": false,
       "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "id": "1cae15106fce",
+      "fingerprint": "1cae15106fce",
+      "role": "cmo",
+      "type": "board",
+      "title": "Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
     }
   ],
   "applied_log": [
@@ -308,5 +321,5 @@
       "reason": "CTR-first query desc: 6 impr, pos 43.0, 0 clicks"
     }
   ],
-  "updated": "2026-08-28 00:08 UTC"
+  "updated": "2026-08-28 17:51 UTC"
 }
