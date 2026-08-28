@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-28 21:37 UTC",
+  "generated_at": "2026-08-28 23:44 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 45,
-    "users_7d": 41,
-    "pageviews_7d": 60,
+    "sessions_7d": 47,
+    "users_7d": 43,
+    "pageviews_7d": 62,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 16,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 28,
+    "youtube_sessions_7d": 30,
     "youtube_subs": 1,
     "youtube_views_total": 188,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 13.3,
-    "affiliate_ctr_pct": 4.4,
-    "youtube_videos": 21
+    "engagement_rate_pct": 12.8,
+    "affiliate_ctr_pct": 4.3,
+    "youtube_videos": 22
   },
   "sources": {
     "site": {
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 41,
-        "sessions": 45,
-        "screenPageViews": 60,
+        "activeUsers": 43,
+        "sessions": 47,
+        "screenPageViews": 62,
         "engagedSessions": 6,
-        "averageSessionDuration_sec": 37.0,
-        "engagementRate_pct": 13.3
+        "averageSessionDuration_sec": 35.4,
+        "engagementRate_pct": 12.8
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "18",
-          "screenPageViews": "19"
+          "sessions": "19",
+          "screenPageViews": "20"
         },
         {
           "pagePath": "/",
@@ -93,7 +93,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "28"
+          "sessions": "30"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -103,7 +103,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "28",
+          "sessions": "30",
           "engagedSessions": "1"
         },
         {
@@ -137,7 +137,7 @@
         }
       ],
       "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 28,
+      "sessions_from_youtube": 30,
       "affiliate_clicks_7d": 2
     },
     "gsc": {
@@ -470,13 +470,21 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 188,
-        "videos": 21
+        "videos": 22
       },
       "recent_videos": [
         {
+          "id": "QhkHAtoH6o8",
+          "title": "Countertop garden pod refill cost vs seeds \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-28T23:23:35Z",
+          "url": "https://www.youtube.com/watch?v=QhkHAtoH6o8"
+        },
+        {
           "id": "Je0vgNg1LLs",
           "title": "Countertop garden pod refill cost vs seeds #Shorts",
-          "views": 0,
+          "views": 3,
           "likes": 0,
           "published": "2026-08-28T20:47:48Z",
           "url": "https://www.youtube.com/watch?v=Je0vgNg1LLs"
@@ -528,14 +536,6 @@
           "likes": 0,
           "published": "2026-08-25T09:40:19Z",
           "url": "https://www.youtube.com/watch?v=Jxrkpvqs8Vs"
-        },
-        {
-          "id": "hfHnNr839Ps",
-          "title": "Grow light schedules for kitchen herbs \u2014 Apartment Guide (2026)",
-          "views": 0,
-          "likes": 0,
-          "published": "2026-08-24T14:38:30Z",
-          "url": "https://www.youtube.com/watch?v=hfHnNr839Ps"
         }
       ]
     },
@@ -593,7 +593,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-28 08:18 UTC"
+      "created": "2026-08-28 21:37 UTC"
     },
     {
       "priority": "P1",
@@ -602,34 +602,16 @@
       "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 43/6 impr; \u201cclick and grow vs aerogarden\u201d pos 44/4 impr; \u201cclick and grow vs auk\u201d pos 53/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-28 08:18 UTC"
+      "created": "2026-08-28 21:37 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-28 08:18 UTC (13.3h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-28 08:18 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
+      "created": "2026-08-28 21:37 UTC"
     }
   ],
   "insights": [
@@ -678,6 +660,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 45 | Aff clicks 2 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 47 | Aff clicks 2 | GSC 0 | Setup 7/7"
   }
 }
