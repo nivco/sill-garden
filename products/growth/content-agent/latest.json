@@ -1,8 +1,8 @@
 {
   "date": "2026-08-29",
-  "generated": "2026-08-29 00:12 UTC",
+  "generated": "2026-08-29 18:58 UTC",
   "research": {
-    "generated": "2026-08-29 00:12 UTC",
+    "generated": "2026-08-29 18:58 UTC",
     "zero_click_queries": [
       {
         "query": "aerogarden comparison",
@@ -98,5 +98,5 @@
   "proposed": [],
   "applied": [],
   "indexnow": null,
-  "summary_md": "# Sill Garden Content Agent — 2026-08-29\n\nGenerated: 2026-08-29 00:12 UTC\n\n## Research\n- Guides: 17\n- Zero-click GSC queries: 6\n- Network probes ok: 3/3\n- LLM notes: 0\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden comparison — 1 impr, pos 65.0\n- aerogarden vs click and grow — 5 impr, pos 44.4\n- click and grow vs aerogarden — 3 impr, pos 44.0\n- counter top garden — 1 impr, pos 90.0\n- countertop garden — 1 impr, pos 87.0\n- kitchen nano garden — 1 impr, pos 51.0\n"
+  "summary_md": "# Sill Garden Content Agent — 2026-08-29\n\nGenerated: 2026-08-29 18:58 UTC\n\n## Research\n- Guides: 17\n- Zero-click GSC queries: 6\n- Network probes ok: 3/3\n- LLM notes: 0\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden comparison — 1 impr, pos 65.0\n- aerogarden vs click and grow — 5 impr, pos 44.4\n- click and grow vs aerogarden — 3 impr, pos 44.0\n- counter top garden — 1 impr, pos 90.0\n- countertop garden — 1 impr, pos 87.0\n- kitchen nano garden — 1 impr, pos 51.0\n"
 }
