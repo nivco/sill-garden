@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-29 15:59 UTC",
+  "generated_at": "2026-08-29 17:57 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -15,13 +15,13 @@
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 30,
     "youtube_subs": 1,
-    "youtube_views_total": 204,
+    "youtube_views_total": 213,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 13.0,
     "affiliate_ctr_pct": 4.3,
-    "youtube_videos": 23
+    "youtube_videos": 24
   },
   "sources": {
     "site": {
@@ -462,10 +462,18 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 204,
-        "videos": 23
+        "views": 213,
+        "videos": 24
       },
       "recent_videos": [
+        {
+          "id": "CJmd1QhDV4c",
+          "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-29T17:30:05Z",
+          "url": "https://www.youtube.com/watch?v=CJmd1QhDV4c"
+        },
         {
           "id": "enP9vdbWrvo",
           "title": "Click & Grow vs iDOO (and Auk-class kits) for apartments #Shorts",
@@ -501,7 +509,7 @@
         {
           "id": "K_-h5CgvUIk",
           "title": "Windowsill herbs without a hydro kit #Shorts",
-          "views": 28,
+          "views": 30,
           "likes": 0,
           "published": "2026-08-27T19:43:14Z",
           "url": "https://www.youtube.com/watch?v=K_-h5CgvUIk"
@@ -521,14 +529,6 @@
           "likes": 0,
           "published": "2026-08-26T09:49:22Z",
           "url": "https://www.youtube.com/watch?v=974TVJVBJtA"
-        },
-        {
-          "id": "BA6XEAb1egE",
-          "title": "Landlord-safe indoor garden setup checklist \u2014 Apartment Guide (2026)",
-          "views": 0,
-          "likes": 0,
-          "published": "2026-08-25T14:41:53Z",
-          "url": "https://www.youtube.com/watch?v=BA6XEAb1egE"
         }
       ]
     },
@@ -586,7 +586,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-29 05:00 UTC"
+      "created": "2026-08-29 15:59 UTC"
     },
     {
       "priority": "P1",
@@ -595,34 +595,16 @@
       "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 44/5 impr; \u201cclick and grow vs aerogarden\u201d pos 44/3 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-29 05:00 UTC"
+      "created": "2026-08-29 15:59 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-29 05:00 UTC (11.0h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-29 05:00 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
+      "created": "2026-08-29 15:59 UTC"
     }
   ],
   "insights": [
