@@ -198,8 +198,17 @@
       "uploaded_at": "2026-08-28T23:23:18.180155+00:00",
       "storyboard": "products/youtube/video-countertop-garden-pod-refill-cost/storyboard.json",
       "format": "long"
+    },
+    "short-click-and-grow-vs-idoo-auk": {
+      "youtube_id": "enP9vdbWrvo",
+      "url": "https://youtu.be/enP9vdbWrvo",
+      "title": "Click & Grow vs iDOO (and Auk-class kits) for apartments #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-08-29T14:16:51.067655+00:00",
+      "storyboard": "products/youtube/short-click-and-grow-vs-idoo-auk/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-08-29"
+  "next_eligible_date": "2026-08-30"
 }

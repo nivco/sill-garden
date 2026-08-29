@@ -1,0 +1,79 @@
+{
+  "id": "video-compare-aerogarden-models",
+  "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm \u2014 Apartment Guide (2026)",
+  "filename": "sill-compare-aerogarden-models.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "guide_slug": "compare-aerogarden-models",
+  "utm_campaign": "video-compare-aerogarden-models",
+  "description": "Compare AeroGarden Harvest, Bounty, and Farm for apartments \u2014 pods, footprint, noise, and which model fits a countertop vs a serious indoor garden.",
+  "tags": [
+    "compare aerogarden models",
+    "apartment gardening",
+    "indoor herb garden",
+    "small space garden",
+    "sill garden"
+  ],
+  "slides": [
+    {
+      "type": "title",
+      "chapter": "Quick answer",
+      "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm",
+      "subtitle": "Compare AeroGarden Harvest, Bounty, and Farm for apartments \u2014 pods, footprint, noise, and which model fits a countertop vs a serious indoor garden.",
+      "badge": "Apartment guide",
+      "photo": "images/guide-countertop.jpg",
+      "photo_right": "images/inline-counter-plant.jpg",
+      "narration": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm. Here is the practical Sill Garden answer for a small apartment, without buying more equipment than you need."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Start here",
+      "title": "Start with the apartment constraints",
+      "photo": "images/inline-apartment.jpg",
+      "bullets": [
+        "Measure the usable sill, shelf, or counter space",
+        "Check daylight before buying a grow light",
+        "Protect rental surfaces with trays and saucers",
+        "Choose a setup you can maintain every week"
+      ],
+      "narration": "Start with your real constraints: usable space, available daylight, water protection, and how much weekly maintenance you will actually do."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "What works",
+      "title": "The simple setup that works",
+      "photo": "images/inline-pots.jpg",
+      "bullets": [
+        "Use the smallest reliable setup for the job",
+        "Put every pot or reservoir on a waterproof tray",
+        "Automate light timing before adding more plants",
+        "Watch plant response and adjust one thing at a time"
+      ],
+      "narration": "Keep the first setup simple. Protect the surface, automate the light schedule, and adjust from what the plants show you instead of changing everything at once."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Avoid mistakes",
+      "title": "Three expensive mistakes to avoid",
+      "photo": "images/inline-shelf-herbs.jpg",
+      "bullets": [
+        "Buying for maximum capacity instead of daily fit",
+        "Treating weak light as a watering problem",
+        "Ignoring noise, glare, or spill risk in a small room"
+      ],
+      "narration": "Avoid buying the largest system first. Weak light is not fixed by extra water, and in a small room noise, glare, and spill risk matter every day."
+    },
+    {
+      "type": "verdict",
+      "chapter": "Verdict",
+      "title": "The Sill Garden verdict",
+      "body": "Start with Harvest-class (\u22486 pods) for most apartments. Step up to Bounty only if you cook herbs daily and have counter depth. Skip Farm-scale towers unless you have floor space.",
+      "picks": [
+        "Start small and prove the routine first",
+        "Upgrade light or capacity only when the plants require it"
+      ],
+      "cta": "Full guide \u2192 sillgarden.com/guides/compare-aerogarden-models",
+      "photo": "images/guide-countertop.jpg",
+      "narration": "Our verdict: Start with Harvest-class (\u22486 pods) for most apartments. Step up to Bounty only if you cook herbs daily and have counter depth. Skip Farm-scale towers unless you have floor space. Read the full step-by-step guide at Sill Garden dot com."
+    }
+  ]
+}
