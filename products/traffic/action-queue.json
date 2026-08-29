@@ -1,53 +1,37 @@
 {
-  "generated_at": "2026-08-28 23:44 UTC",
+  "generated_at": "2026-08-29 05:00 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [],
+  "applied": [
+    "IndexNow ping"
+  ],
   "actions": [
     {
       "priority": "P1",
       "category": "indexing",
       "title": "Request indexing for 3 guides",
-      "detail": "Search Console → URL Inspection → Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
+      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-28 23:44 UTC"
+      "created": "2026-08-29 05:00 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: “aerogarden comparison” pos 65/1 impr; “aerogarden vs click and grow” pos 43/6 impr; “click and grow vs aerogarden” pos 44/4 impr; “click and grow vs auk” pos 53/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube — don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 44/5 impr; \u201cclick and grow vs aerogarden\u201d pos 44/3 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-28 23:44 UTC"
+      "created": "2026-08-29 05:00 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-28 08:18 UTC (15.4h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-28 23:44 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
+      "created": "2026-08-29 05:00 UTC"
     }
   ]
 }
