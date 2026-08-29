@@ -207,6 +207,15 @@
       "uploaded_at": "2026-08-29T14:16:51.067655+00:00",
       "storyboard": "products/youtube/short-click-and-grow-vs-idoo-auk/storyboard.json",
       "format": "short"
+    },
+    "video-compare-aerogarden-models": {
+      "youtube_id": "CJmd1QhDV4c",
+      "url": "https://youtu.be/CJmd1QhDV4c",
+      "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-08-29T17:29:50.799597+00:00",
+      "storyboard": "products/youtube/video-compare-aerogarden-models/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
