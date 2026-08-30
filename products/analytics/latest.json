@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-30 18:13 UTC",
+  "generated_at": "2026-08-30 18:54 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 44,
-    "users_7d": 42,
-    "pageviews_7d": 53,
+    "sessions_7d": 45,
+    "users_7d": 43,
+    "pageviews_7d": 54,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 19,
@@ -19,7 +19,7 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 9.1,
+    "engagement_rate_pct": 8.9,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 24
   },
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 42,
-        "sessions": 44,
-        "screenPageViews": 53,
+        "activeUsers": 43,
+        "sessions": 45,
+        "screenPageViews": 54,
         "engagedSessions": 4,
-        "averageSessionDuration_sec": 7.4,
-        "engagementRate_pct": 9.1
+        "averageSessionDuration_sec": 7.3,
+        "engagementRate_pct": 8.9
       },
       "top_pages": [
         {
@@ -85,7 +85,7 @@
           "screenPageViews": "1"
         },
         {
-          "pagePath": "/disclosure/",
+          "pagePath": "/contact",
           "sessions": "1",
           "screenPageViews": "1"
         }
@@ -97,7 +97,7 @@
         },
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "16"
+          "sessions": "17"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
@@ -112,7 +112,7 @@
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "16",
+          "sessions": "17",
           "engagedSessions": "3"
         },
         {
@@ -584,7 +584,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
     },
     {
       "priority": "P1",
@@ -593,7 +593,7 @@
       "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 45/9 impr; \u201cclick and grow vs aerogarden\u201d pos 44/6 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
     },
     {
       "priority": "P1",
@@ -602,7 +602,7 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
     },
     {
       "priority": "P2",
@@ -611,16 +611,34 @@
       "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-30 02:49 UTC (13.0h ago; min 20h).",
+      "detail": "Last ping 2026-08-30 02:49 UTC (15.4h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
     }
   ],
   "insights": [
@@ -670,6 +688,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 44 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 45 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
