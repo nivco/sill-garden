@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-08-30 15:49 UTC",
+  "generated_at": "2026-08-30 18:13 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
   "applied": [],
@@ -8,19 +8,19 @@
       "priority": "P1",
       "category": "indexing",
       "title": "Request indexing for 3 guides",
-      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
+      "detail": "Search Console → URL Inspection → Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 45/9 impr; \u201cclick and grow vs aerogarden\u201d pos 44/6 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: “aerogarden comparison” pos 65/1 impr; “aerogarden vs click and grow” pos 45/9 impr; “click and grow vs aerogarden” pos 44/6 impr; “counter top garden” pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube — don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
     },
     {
       "priority": "P1",
@@ -29,25 +29,43 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
     },
     {
       "priority": "P2",
       "category": "content",
       "title": "Check CTAs on quiet-countertop-gardens-studios",
-      "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
+      "detail": "Sessions without affiliate clicks — confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-30 02:49 UTC (13.0h ago; min 20h).",
+      "detail": "Last ping 2026-08-30 02:49 UTC (15.4h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-30 15:49 UTC"
+      "created": "2026-08-30 18:13 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
     }
   ]
 }

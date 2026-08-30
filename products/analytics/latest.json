@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-30 15:49 UTC",
+  "generated_at": "2026-08-30 18:13 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -15,7 +15,7 @@
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 28,
     "youtube_subs": 1,
-    "youtube_views_total": 227,
+    "youtube_views_total": 230,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -460,7 +460,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 227,
+        "views": 230,
         "videos": 24
       },
       "recent_videos": [
@@ -584,43 +584,43 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 02:49 UTC"
+      "created": "2026-08-30 15:49 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 45/7 impr; \u201cclick and grow vs aerogarden\u201d pos 44/6 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 45/9 impr; \u201cclick and grow vs aerogarden\u201d pos 44/6 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 02:49 UTC"
+      "created": "2026-08-30 15:49 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "monetization",
+      "title": "Traffic without affiliate clicks",
+      "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-30 15:49 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Check CTAs on quiet-countertop-gardens-studios",
+      "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-30 15:49 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-30 02:49 UTC (13.0h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-30 02:49 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
+      "created": "2026-08-30 15:49 UTC"
     }
   ],
   "insights": [
