@@ -1,26 +1,26 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-30 02:49 UTC",
+  "generated_at": "2026-08-30 10:52 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 49,
-    "users_7d": 45,
-    "pageviews_7d": 64,
-    "affiliate_clicks_7d": 2,
+    "sessions_7d": 44,
+    "users_7d": 42,
+    "pageviews_7d": 53,
+    "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 17,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 31,
+    "youtube_sessions_7d": 28,
     "youtube_subs": 1,
     "youtube_views_total": 213,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 12.2,
-    "affiliate_ctr_pct": 4.1,
+    "engagement_rate_pct": 9.1,
+    "affiliate_ctr_pct": 0.0,
     "youtube_videos": 24
   },
   "sources": {
@@ -31,38 +31,28 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 45,
-        "sessions": 49,
-        "screenPageViews": 64,
-        "engagedSessions": 6,
-        "averageSessionDuration_sec": 33.9,
-        "engagementRate_pct": 12.2
+        "activeUsers": 42,
+        "sessions": 44,
+        "screenPageViews": 53,
+        "engagedSessions": 4,
+        "averageSessionDuration_sec": 7.4,
+        "engagementRate_pct": 9.1
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "20",
-          "screenPageViews": "21"
+          "sessions": "17",
+          "screenPageViews": "18"
         },
         {
           "pagePath": "/",
-          "sessions": "16",
-          "screenPageViews": "19"
-        },
-        {
-          "pagePath": "/guides/cheapest-indoor-herb-garden-apartment/",
-          "sessions": "3",
-          "screenPageViews": "3"
+          "sessions": "14",
+          "screenPageViews": "16"
         },
         {
           "pagePath": "/guides/quiet-countertop-gardens-studios/",
           "sessions": "3",
           "screenPageViews": "3"
-        },
-        {
-          "pagePath": "/about/",
-          "sessions": "2",
-          "screenPageViews": "2"
         },
         {
           "pagePath": "/guides/countertop-garden-pod-refill-cost/",
@@ -88,66 +78,65 @@
           "pagePath": "/guides/windowsill-herbs-without-kit/",
           "sessions": "2",
           "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/about/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/disclosure/",
+          "sessions": "1",
+          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "31"
+          "sessions": "28"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "18"
+          "sessions": "16"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "1"
+          "sessions": "2"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "31",
+          "sessions": "28",
           "engagedSessions": "1"
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "18",
-          "engagedSessions": "5"
+          "sessions": "16",
+          "engagedSessions": "3"
         },
         {
           "sessionSourceMedium": "(not set)",
-          "sessions": "1",
+          "sessions": "2",
           "engagedSessions": "0"
         }
       ],
-      "events": {
-        "affiliate_click": 2,
-        "affiliate_click_amazon": 1,
-        "affiliate_click_click_grow": 1
-      },
+      "events": {},
       "affiliate_networks": {
-        "Amazon Associates": 1,
-        "Click & Grow": 1,
+        "Amazon Associates": 0,
+        "Click & Grow": 0,
         "Gardener's Supply": 0
       },
-      "affiliate_attribution_source": "network_events",
+      "affiliate_attribution_source": "none",
       "affiliate_clicks_unattributed_7d": 0,
       "affiliate_links": [
         {
-          "link_url": "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1",
-          "clicks": 1,
-          "network": "Amazon Associates"
-        },
-        {
-          "link_url": "https://www.clickandgrow.com/?ref=test-sill",
-          "clicks": 1,
-          "network": "Click & Grow"
+          "note": "No affiliate_click events in the last 7 days"
         }
       ],
-      "affiliate_link_dimension": "linkUrl",
-      "sessions_from_youtube": 31,
-      "affiliate_clicks_7d": 2
+      "affiliate_link_dimension": null,
+      "sessions_from_youtube": 28,
+      "affiliate_clicks_7d": 0
     },
     "gsc": {
       "clicks": 0,
@@ -478,7 +467,7 @@
         {
           "id": "CJmd1QhDV4c",
           "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm \u2014 Apartment Guide (2026)",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-08-29T17:30:05Z",
           "url": "https://www.youtube.com/watch?v=CJmd1QhDV4c"
@@ -518,7 +507,7 @@
         {
           "id": "K_-h5CgvUIk",
           "title": "Windowsill herbs without a hydro kit #Shorts",
-          "views": 32,
+          "views": 33,
           "likes": 0,
           "published": "2026-08-27T19:43:14Z",
           "url": "https://www.youtube.com/watch?v=K_-h5CgvUIk"
@@ -559,7 +548,7 @@
         "name": "Amazon Associates",
         "network": "amazon-associates",
         "status": "active",
-        "site_clicks_7d": 1,
+        "site_clicks_7d": 0,
         "portal_clicks_7d": null,
         "orders_7d": null,
         "earnings_7d_usd": null,
@@ -569,7 +558,7 @@
         "name": "Click & Grow",
         "network": "click-grow",
         "status": "applied",
-        "site_clicks_7d": 1,
+        "site_clicks_7d": 0,
         "portal_clicks_7d": null,
         "orders_7d": null,
         "earnings_7d_usd": null,
@@ -595,51 +584,35 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-29 17:57 UTC"
+      "created": "2026-08-30 02:49 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 44/5 impr; \u201cclick and grow vs aerogarden\u201d pos 44/3 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 45/7 impr; \u201cclick and grow vs aerogarden\u201d pos 44/6 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-29 17:57 UTC"
+      "created": "2026-08-30 02:49 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-29 05:00 UTC (13.0h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-29 17:57 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
+      "created": "2026-08-30 02:49 UTC"
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 17 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 65), \u201caerogarden vs click and grow\u201d (pos 45), \u201cclick and grow vs aerogarden\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
+    "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 7,
+    "ready": 6,
     "total": 7,
     "checks": [
       {
@@ -654,8 +627,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -675,11 +648,11 @@
       {
         "name": "Affiliate click counters",
         "ok": true,
-        "detail": "Per-link via linkUrl"
+        "detail": "No affiliate_click events in the last 7 days"
       }
     ]
   },
   "summary": {
-    "headline": "Sessions 49 | Aff clicks 2 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 44 | Aff clicks 0 | GSC 0 | Setup 6/7"
   }
 }
