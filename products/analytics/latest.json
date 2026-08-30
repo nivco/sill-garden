@@ -1,15 +1,15 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-29 18:58 UTC",
+  "generated_at": "2026-08-30 02:49 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 47,
-    "users_7d": 43,
-    "pageviews_7d": 62,
+    "sessions_7d": 49,
+    "users_7d": 45,
+    "pageviews_7d": 64,
     "affiliate_clicks_7d": 2,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 12,
+    "gsc_impressions_7d": 17,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
@@ -19,9 +19,9 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 12.8,
-    "affiliate_ctr_pct": 4.3,
-    "youtube_videos": 23
+    "engagement_rate_pct": 12.2,
+    "affiliate_ctr_pct": 4.1,
+    "youtube_videos": 24
   },
   "sources": {
     "site": {
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 43,
-        "sessions": 47,
-        "screenPageViews": 62,
+        "activeUsers": 45,
+        "sessions": 49,
+        "screenPageViews": 64,
         "engagedSessions": 6,
-        "averageSessionDuration_sec": 35.3,
-        "engagementRate_pct": 12.8
+        "averageSessionDuration_sec": 33.9,
+        "engagementRate_pct": 12.2
       },
       "top_pages": [
         {
@@ -46,8 +46,8 @@
         },
         {
           "pagePath": "/",
-          "sessions": "14",
-          "screenPageViews": "17"
+          "sessions": "16",
+          "screenPageViews": "19"
         },
         {
           "pagePath": "/guides/cheapest-indoor-herb-garden-apartment/",
@@ -97,7 +97,11 @@
         },
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "16"
+          "sessions": "18"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
+          "sessions": "1"
         }
       ],
       "source_medium": [
@@ -108,8 +112,13 @@
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "16",
+          "sessions": "18",
           "engagedSessions": "5"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "1",
+          "engagedSessions": "0"
         }
       ],
       "events": {
@@ -142,7 +151,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 12,
+      "impressions": 17,
       "top_queries": [
         {
           "query": "aerogarden comparison",
@@ -154,14 +163,14 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 5,
+          "impressions": 7,
           "ctr": 0.0,
-          "position": 44.4
+          "position": 44.7
         },
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 6,
           "ctr": 0.0,
           "position": 44.0
         },
@@ -463,7 +472,7 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 213,
-        "videos": 23
+        "videos": 24
       },
       "recent_videos": [
         {
@@ -477,7 +486,7 @@
         {
           "id": "enP9vdbWrvo",
           "title": "Click & Grow vs iDOO (and Auk-class kits) for apartments #Shorts",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-08-29T14:17:10Z",
           "url": "https://www.youtube.com/watch?v=enP9vdbWrvo"
@@ -626,7 +635,7 @@
     }
   ],
   "insights": [
-    "GSC: 12 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 65), \u201caerogarden vs click and grow\u201d (pos 44), \u201cclick and grow vs aerogarden\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 17 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 65), \u201caerogarden vs click and grow\u201d (pos 45), \u201cclick and grow vs aerogarden\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
@@ -671,6 +680,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 47 | Aff clicks 2 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 49 | Aff clicks 2 | GSC 0 | Setup 7/7"
   }
 }
