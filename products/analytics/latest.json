@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-31 18:32 UTC",
+  "generated_at": "2026-08-31 20:26 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -21,7 +21,7 @@
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 8.3,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": 24
+    "youtube_videos": 25
   },
   "sources": {
     "site": {
@@ -535,9 +535,17 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 233,
-        "videos": 24
+        "videos": 25
       },
       "recent_videos": [
+        {
+          "id": "1wSzcPp_sIA",
+          "title": "Click & Grow vs iDOO (and Auk-class kits) for apartments \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-08-31T19:52:13Z",
+          "url": "https://www.youtube.com/watch?v=1wSzcPp_sIA"
+        },
         {
           "id": "CJmd1QhDV4c",
           "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm \u2014 Apartment Guide (2026)",
@@ -593,14 +601,6 @@
           "likes": 0,
           "published": "2026-08-26T14:42:32Z",
           "url": "https://www.youtube.com/watch?v=loYYx2jocMY"
-        },
-        {
-          "id": "974TVJVBJtA",
-          "title": "Quiet countertop gardens for studios #Shorts",
-          "views": 39,
-          "likes": 0,
-          "published": "2026-08-26T09:49:22Z",
-          "url": "https://www.youtube.com/watch?v=974TVJVBJtA"
         }
       ]
     },
@@ -654,20 +654,20 @@
     {
       "priority": "P1",
       "category": "indexing",
-      "title": "Request indexing for 3 guides",
-      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
+      "title": "Request indexing for 2 guides",
+      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-08-31 02:42 UTC"
+      "created": "2026-08-31 18:32 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden vs click and grow\u201d pos 45/8 impr; \u201cclick and grow vs aerogarden\u201d pos 44/6 impr; \u201ckitchen nano garden\u201d pos 51/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden vs click and grow\u201d pos 44/10 impr; \u201cclick and grow vs aerogarden\u201d pos 44/7 impr; \u201ckitchen nano garden\u201d pos 51/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-31 02:42 UTC"
+      "created": "2026-08-31 18:32 UTC"
     },
     {
       "priority": "P1",
@@ -676,61 +676,25 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-08-31 02:42 UTC"
+      "created": "2026-08-31 18:32 UTC"
     },
     {
       "priority": "P2",
       "category": "content",
-      "title": "Check CTAs on quiet-countertop-gardens-studios",
+      "title": "Check CTAs on countertop-garden-pod-refill-cost",
       "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-08-31 02:42 UTC"
+      "created": "2026-08-31 18:32 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-08-31 02:42 UTC (15.8h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-08-31 02:42 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
+      "created": "2026-08-31 18:32 UTC"
     }
   ],
   "insights": [
