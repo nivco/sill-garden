@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-30 18:54 UTC",
+  "generated_at": "2026-08-31 02:42 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 54,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 19,
+    "gsc_impressions_7d": 15,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
@@ -140,19 +140,12 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 15,
       "top_queries": [
-        {
-          "query": "aerogarden comparison",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 65.0
-        },
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 9,
+          "impressions": 8,
           "ctr": 0.0,
           "position": 44.6
         },
@@ -162,20 +155,6 @@
           "impressions": 6,
           "ctr": 0.0,
           "position": 44.0
-        },
-        {
-          "query": "counter top garden",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 90.0
-        },
-        {
-          "query": "countertop garden",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 87.0
         },
         {
           "query": "kitchen nano garden",
@@ -475,7 +454,7 @@
         {
           "id": "enP9vdbWrvo",
           "title": "Click & Grow vs iDOO (and Auk-class kits) for apartments #Shorts",
-          "views": 1,
+          "views": 3,
           "likes": 0,
           "published": "2026-08-29T14:17:10Z",
           "url": "https://www.youtube.com/watch?v=enP9vdbWrvo"
@@ -642,7 +621,7 @@
     }
   ],
   "insights": [
-    "GSC: 19 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 65), \u201caerogarden vs click and grow\u201d (pos 45), \u201cclick and grow vs aerogarden\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 15 impressions, 0 clicks \u2014 early queries: \u201caerogarden vs click and grow\u201d (pos 45), \u201cclick and grow vs aerogarden\u201d (pos 44), \u201ckitchen nano garden\u201d (pos 51). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
