@@ -1,0 +1,79 @@
+{
+  "id": "video-click-and-grow-vs-idoo-auk",
+  "title": "Click & Grow vs iDOO (and Auk-class kits) for apartments \u2014 Apartment Guide (2026)",
+  "filename": "sill-click-and-grow-vs-idoo-auk.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "guide_slug": "click-and-grow-vs-idoo-auk",
+  "utm_campaign": "video-click-and-grow-vs-idoo-auk",
+  "description": "Click and Grow vs iDOO and Auk-style gardens \u2014 noise, pods, footprint, and which budget kit fits a real apartment counter.",
+  "tags": [
+    "click and grow vs idoo auk",
+    "apartment gardening",
+    "indoor herb garden",
+    "small space garden",
+    "sill garden"
+  ],
+  "slides": [
+    {
+      "type": "title",
+      "chapter": "Quick answer",
+      "title": "Click & Grow vs iDOO (and Auk-class kits) for apartments",
+      "subtitle": "Click and Grow vs iDOO and Auk-style gardens \u2014 noise, pods, footprint, and which budget kit fits a real apartment counter.",
+      "badge": "Apartment guide",
+      "photo": "images/guide-idoo-compare.jpg",
+      "photo_right": "images/inline-counter-plant.jpg",
+      "narration": "Click & Grow vs iDOO (and Auk-class kits) for apartments. Here is the practical Sill Garden answer for a small apartment, without buying more equipment than you need."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Start here",
+      "title": "Start with the apartment constraints",
+      "photo": "images/inline-apartment.jpg",
+      "bullets": [
+        "Measure the usable sill, shelf, or counter space",
+        "Check daylight before buying a grow light",
+        "Protect rental surfaces with trays and saucers",
+        "Choose a setup you can maintain every week"
+      ],
+      "narration": "Start with your real constraints: usable space, available daylight, water protection, and how much weekly maintenance you will actually do."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "What works",
+      "title": "The simple setup that works",
+      "photo": "images/inline-pots.jpg",
+      "bullets": [
+        "Use the smallest reliable setup for the job",
+        "Put every pot or reservoir on a waterproof tray",
+        "Automate light timing before adding more plants",
+        "Watch plant response and adjust one thing at a time"
+      ],
+      "narration": "Keep the first setup simple. Protect the surface, automate the light schedule, and adjust from what the plants show you instead of changing everything at once."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Avoid mistakes",
+      "title": "Three expensive mistakes to avoid",
+      "photo": "images/inline-shelf-herbs.jpg",
+      "bullets": [
+        "Buying for maximum capacity instead of daily fit",
+        "Treating weak light as a watering problem",
+        "Ignoring noise, glare, or spill risk in a small room"
+      ],
+      "narration": "Avoid buying the largest system first. Weak light is not fixed by extra water, and in a small room noise, glare, and spill risk matter every day."
+    },
+    {
+      "type": "verdict",
+      "chapter": "Verdict",
+      "title": "The Sill Garden verdict",
+      "body": "Pick Click & Grow Smart Garden 3 for proven silence and easy pods. Pick iDOO-class 10\u201312 pod kits when you want more capacity per dollar and will tolerate pump noise. Treat Auk-class kits as design-forward alternatives \u2014 verify reviews for your exact model.",
+      "picks": [
+        "Start small and prove the routine first",
+        "Upgrade light or capacity only when the plants require it"
+      ],
+      "cta": "Full guide \u2192 sillgarden.com/guides/click-and-grow-vs-idoo-auk",
+      "photo": "images/guide-idoo-compare.jpg",
+      "narration": "Our verdict: Pick Click & Grow Smart Garden 3 for proven silence and easy pods. Pick iDOO-class 10\u201312 pod kits when you want more capacity per dollar and will tolerate pump noise. Treat Auk-class kits as design-forward alternatives \u2014 verify reviews for your exact model. Read the full step-by-step guide at Sill Garden dot com."
+    }
+  ]
+}
