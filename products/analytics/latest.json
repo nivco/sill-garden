@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-08-31 02:42 UTC",
+  "generated_at": "2026-08-31 12:05 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 45,
-    "users_7d": 43,
-    "pageviews_7d": 54,
+    "sessions_7d": 36,
+    "users_7d": 34,
+    "pageviews_7d": 42,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 15,
+    "gsc_impressions_7d": 18,
     "indexed_urls": 11,
     "sitemap_urls": 16,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 28,
+    "youtube_sessions_7d": 24,
     "youtube_subs": 1,
-    "youtube_views_total": 230,
+    "youtube_views_total": 233,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 8.9,
+    "engagement_rate_pct": 8.3,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 24
   },
@@ -31,36 +31,26 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 43,
-        "sessions": 45,
-        "screenPageViews": 54,
-        "engagedSessions": 4,
-        "averageSessionDuration_sec": 7.3,
-        "engagementRate_pct": 8.9
+        "activeUsers": 34,
+        "sessions": 36,
+        "screenPageViews": 42,
+        "engagedSessions": 3,
+        "averageSessionDuration_sec": 7.7,
+        "engagementRate_pct": 8.3
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "17",
-          "screenPageViews": "18"
+          "sessions": "14",
+          "screenPageViews": "15"
         },
         {
           "pagePath": "/",
-          "sessions": "14",
-          "screenPageViews": "16"
-        },
-        {
-          "pagePath": "/guides/quiet-countertop-gardens-studios/",
-          "sessions": "3",
-          "screenPageViews": "3"
+          "sessions": "9",
+          "screenPageViews": "10"
         },
         {
           "pagePath": "/guides/countertop-garden-pod-refill-cost/",
-          "sessions": "2",
-          "screenPageViews": "2"
-        },
-        {
-          "pagePath": "/guides/countertop-garden-running-cost/",
           "sessions": "2",
           "screenPageViews": "2"
         },
@@ -71,6 +61,11 @@
         },
         {
           "pagePath": "/guides/landlord-safe-indoor-garden-setup/",
+          "sessions": "2",
+          "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/guides/quiet-countertop-gardens-studios/",
           "sessions": "2",
           "screenPageViews": "2"
         },
@@ -88,37 +83,33 @@
           "pagePath": "/contact",
           "sessions": "1",
           "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/disclosure/",
+          "sessions": "1",
+          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "28"
+          "sessions": "24"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "17"
-        },
-        {
-          "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "2"
+          "sessions": "12"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "28",
+          "sessions": "24",
           "engagedSessions": "1"
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "17",
-          "engagedSessions": "3"
-        },
-        {
-          "sessionSourceMedium": "(not set)",
-          "sessions": "2",
-          "engagedSessions": "0"
+          "sessions": "12",
+          "engagedSessions": "2"
         }
       ],
       "events": {},
@@ -135,26 +126,26 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 28,
+      "sessions_from_youtube": 24,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 18,
       "top_queries": [
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 8,
+          "impressions": 10,
           "ctr": 0.0,
-          "position": 44.6
+          "position": 44.3
         },
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 7,
           "ctr": 0.0,
-          "position": 44.0
+          "position": 43.9
         },
         {
           "query": "kitchen nano garden",
@@ -439,7 +430,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 230,
+        "views": 233,
         "videos": 24
       },
       "recent_videos": [
@@ -563,16 +554,16 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: best-low-light-herbs-apartment, cheapest-indoor-herb-garden-apartment, countertop-garden-running-cost.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 18:13 UTC"
+      "created": "2026-08-31 02:42 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden comparison\u201d pos 65/1 impr; \u201caerogarden vs click and grow\u201d pos 45/9 impr; \u201cclick and grow vs aerogarden\u201d pos 44/6 impr; \u201ccounter top garden\u201d pos 90/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden vs click and grow\u201d pos 45/8 impr; \u201cclick and grow vs aerogarden\u201d pos 44/6 impr; \u201ckitchen nano garden\u201d pos 51/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 18:13 UTC"
+      "created": "2026-08-31 02:42 UTC"
     },
     {
       "priority": "P1",
@@ -581,7 +572,7 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 18:13 UTC"
+      "created": "2026-08-31 02:42 UTC"
     },
     {
       "priority": "P2",
@@ -590,43 +581,26 @@
       "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-08-30 18:13 UTC"
+      "created": "2026-08-31 02:42 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-08-30 02:49 UTC (15.4h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-08-30 18:13 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
+      "created": "2026-08-31 02:42 UTC"
     }
   ],
   "insights": [
-    "GSC: 15 impressions, 0 clicks \u2014 early queries: \u201caerogarden vs click and grow\u201d (pos 45), \u201cclick and grow vs aerogarden\u201d (pos 44), \u201ckitchen nano garden\u201d (pos 51). Tighten title/H1 on the matching guide to climb.",
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
+    "GSC: 18 impressions, 0 clicks \u2014 early queries: \u201caerogarden vs click and grow\u201d (pos 44), \u201cclick and grow vs aerogarden\u201d (pos 44), \u201ckitchen nano garden\u201d (pos 51). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 7,
+    "ready": 6,
     "total": 7,
     "checks": [
       {
@@ -641,8 +615,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -667,6 +641,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 45 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 36 | Aff clicks 0 | GSC 0 | Setup 6/7"
   }
 }

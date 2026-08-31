@@ -281,6 +281,71 @@
       "priority": "P2",
       "done": false,
       "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "id": "c923c6e8c138",
+      "fingerprint": "c923c6e8c138",
+      "role": "ceo",
+      "type": "board",
+      "title": "[CMO / Growth & Distribution] Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "id": "54f95aa6c59e",
+      "fingerprint": "54f95aa6c59e",
+      "role": "ceo",
+      "type": "board",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "id": "e13c61214ba0",
+      "fingerprint": "e13c61214ba0",
+      "role": "content",
+      "type": "board",
+      "title": "Refresh top guide with current pricing/verdict and stamp updatedDate.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "id": "cbfe761e09c1",
+      "fingerprint": "cbfe761e09c1",
+      "role": "content",
+      "type": "board",
+      "title": "Add FAQ sections to guides matching early GSC queries.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "id": "e44401cbe8fa",
+      "fingerprint": "e44401cbe8fa",
+      "role": "cro",
+      "type": "board",
+      "title": "Raise affiliate CTR: above-the-fold verdict CTA + comparison-table outbound links on money guides.",
+      "detail": "From weekly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
     }
   ],
   "applied_log": [
@@ -339,5 +404,5 @@
       "reason": "CTR-first query desc: 6 impr, pos 44.0, 0 clicks"
     }
   ],
-  "updated": "2026-08-30 18:13 UTC"
+  "updated": "2026-08-31 12:05 UTC"
 }
