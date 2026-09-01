@@ -225,8 +225,17 @@
       "uploaded_at": "2026-08-31T19:51:41.734017+00:00",
       "storyboard": "products/youtube/video-click-and-grow-vs-idoo-auk/storyboard.json",
       "format": "long"
+    },
+    "short-compare-aerogarden-models": {
+      "youtube_id": "SyIGDR_exF0",
+      "url": "https://youtu.be/SyIGDR_exF0",
+      "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-09-01T14:02:53.211276+00:00",
+      "storyboard": "products/youtube/short-compare-aerogarden-models/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-09-01"
+  "next_eligible_date": "2026-09-02"
 }

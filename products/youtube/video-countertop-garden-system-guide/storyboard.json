@@ -1,0 +1,79 @@
+{
+  "id": "video-countertop-garden-system-guide",
+  "title": "Countertop garden systems \u2014 kits vs DIY for apartments \u2014 Apartment Guide (2026)",
+  "filename": "sill-countertop-garden-system-guide.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "guide_slug": "countertop-garden-system-guide",
+  "utm_campaign": "video-countertop-garden-system-guide",
+  "description": "What a countertop garden system actually needs \u2014 light, water, tray, and when a kit beats jars for apartment cooking herbs.",
+  "tags": [
+    "countertop garden system guide",
+    "apartment gardening",
+    "indoor herb garden",
+    "small space garden",
+    "sill garden"
+  ],
+  "slides": [
+    {
+      "type": "title",
+      "chapter": "Quick answer",
+      "title": "Countertop garden systems \u2014 kits vs DIY for apartments",
+      "subtitle": "What a countertop garden system actually needs \u2014 light, water, tray, and when a kit beats jars for apartment cooking herbs.",
+      "badge": "Apartment guide",
+      "photo": "images/guide-diy-herbs.jpg",
+      "photo_right": "images/inline-counter-plant.jpg",
+      "narration": "Countertop garden systems \u2014 kits vs DIY for apartments. Here is the practical Sill Garden answer for a small apartment, without buying more equipment than you need."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Start here",
+      "title": "Start with the apartment constraints",
+      "photo": "images/inline-apartment.jpg",
+      "bullets": [
+        "Measure the usable sill, shelf, or counter space",
+        "Check daylight before buying a grow light",
+        "Protect rental surfaces with trays and saucers",
+        "Choose a setup you can maintain every week"
+      ],
+      "narration": "Start with your real constraints: usable space, available daylight, water protection, and how much weekly maintenance you will actually do."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "What works",
+      "title": "The simple setup that works",
+      "photo": "images/inline-pots.jpg",
+      "bullets": [
+        "Use the smallest reliable setup for the job",
+        "Put every pot or reservoir on a waterproof tray",
+        "Automate light timing before adding more plants",
+        "Watch plant response and adjust one thing at a time"
+      ],
+      "narration": "Keep the first setup simple. Protect the surface, automate the light schedule, and adjust from what the plants show you instead of changing everything at once."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Avoid mistakes",
+      "title": "Three expensive mistakes to avoid",
+      "photo": "images/inline-shelf-herbs.jpg",
+      "bullets": [
+        "Buying for maximum capacity instead of daily fit",
+        "Treating weak light as a watering problem",
+        "Ignoring noise, glare, or spill risk in a small room"
+      ],
+      "narration": "Avoid buying the largest system first. Weak light is not fixed by extra water, and in a small room noise, glare, and spill risk matter every day."
+    },
+    {
+      "type": "verdict",
+      "chapter": "Verdict",
+      "title": "The Sill Garden verdict",
+      "body": "A real countertop system is light + water + drip control \u2014 not just a pretty pot. Buy a 3\u20136 pod kit if you want herbs with almost no learning curve; use jars + clip light if budget and silence come first.",
+      "picks": [
+        "Start small and prove the routine first",
+        "Upgrade light or capacity only when the plants require it"
+      ],
+      "cta": "Full guide \u2192 sillgarden.com/guides/countertop-garden-system-guide",
+      "photo": "images/guide-diy-herbs.jpg",
+      "narration": "Our verdict: A real countertop system is light + water + drip control \u2014 not just a pretty pot. Buy a 3\u20136 pod kit if you want herbs with almost no learning curve; use jars + clip light if budget and silence come first. Read the full step-by-step guide at Sill Garden dot com."
+    }
+  ]
+}
