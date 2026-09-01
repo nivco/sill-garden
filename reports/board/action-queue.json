@@ -346,6 +346,58 @@
       "priority": "P2",
       "done": false,
       "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "id": "7179372d8fde",
+      "fingerprint": "7179372d8fde",
+      "role": "ceo",
+      "type": "board",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "id": "e480fe393591",
+      "fingerprint": "e480fe393591",
+      "role": "seo",
+      "type": "board",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "id": "ffb20027e8dc",
+      "fingerprint": "ffb20027e8dc",
+      "role": "data",
+      "type": "board",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "id": "ce93f6bb446c",
+      "fingerprint": "ce93f6bb446c",
+      "role": "data",
+      "type": "board",
+      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
+      "detail": "From monthly board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "applied_log": [
@@ -410,5 +462,5 @@
       "reason": "CTR-first query desc: 10 impr, pos 44.3, 0 clicks"
     }
   ],
-  "updated": "2026-08-31 20:26 UTC"
+  "updated": "2026-09-01 10:43 UTC"
 }
