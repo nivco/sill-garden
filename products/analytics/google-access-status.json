@@ -1,10 +1,13 @@
 {
-  "checked": "2026-09-01 02:54 UTC",
+  "checked": "2026-09-01 15:51 UTC",
   "ga4_property_id": "549929269",
   "gsc_site_url": "sc-domain:sillgarden.com",
   "auth_mode": "oauth",
-  "ga4_data_api": "ok",
-  "gsc_api": "ok",
-  "ready": true,
-  "next_steps": []
+  "ga4_data_api": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+  "gsc_api": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
+  "ready": false,
+  "next_steps": [
+    "Fix GA4: grant OAuth/SA Viewer on property 549929269",
+    "Fix GSC: ensure OAuth has webmasters.readonly and access to sc-domain:sillgarden.com"
+  ]
 }
