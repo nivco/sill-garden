@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-08-31 20:26 UTC",
+  "generated_at": "2026-09-01 18:24 UTC",
   "wow": {
-    "ga4_sessions_7d": -8.0,
-    "gsc_impressions_7d": -1.0,
+    "ga4_sessions_7d": -4.0,
+    "gsc_impressions_7d": -3.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 36,
-    "gsc_impressions_7d": 18,
+    "sessions_7d": 32,
+    "gsc_impressions_7d": 15,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
-    "youtube_sessions_7d": 24,
+    "youtube_sessions_7d": 22,
     "indexed_urls": 21
   },
   "top_queries": [
@@ -25,16 +25,9 @@
     {
       "query": "click and grow vs aerogarden",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 43.9
-    },
-    {
-      "query": "kitchen nano garden",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 51.0
+      "position": 43.6
     }
   ],
   "learnings": [
@@ -44,7 +37,7 @@
     "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
     "Top search demand: \"aerogarden vs click and grow\" (10 impr, pos 44.3).",
     "Sessions without affiliate clicks — check product CTAs and GA4 affiliate_click events.",
-    "YouTube channel: 25 videos, 233 views, 24 site sessions from YouTube.",
+    "YouTube channel: 26 videos, 232 views, 22 site sessions from YouTube.",
     "YouTube publish log entries: 2."
   ]
 }
