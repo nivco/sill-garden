@@ -234,6 +234,15 @@
       "uploaded_at": "2026-09-01T14:02:53.211276+00:00",
       "storyboard": "products/youtube/short-compare-aerogarden-models/storyboard.json",
       "format": "short"
+    },
+    "video-countertop-garden-system-guide": {
+      "youtube_id": "6DXooWroM3g",
+      "url": "https://youtu.be/6DXooWroM3g",
+      "title": "Countertop garden systems \u2014 kits vs DIY for apartments \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-09-01T18:23:51.766463+00:00",
+      "storyboard": "products/youtube/video-countertop-garden-system-guide/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
