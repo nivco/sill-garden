@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-01 18:24 UTC",
+  "generated_at": "2026-09-01 18:56 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -21,7 +21,7 @@
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 9.4,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": 26
+    "youtube_videos": 27
   },
   "sources": {
     "site": {
@@ -528,13 +528,21 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 232,
-        "videos": 26
+        "videos": 27
       },
       "recent_videos": [
         {
+          "id": "6DXooWroM3g",
+          "title": "Countertop garden systems \u2014 kits vs DIY for apartments \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-01T18:24:19Z",
+          "url": "https://www.youtube.com/watch?v=6DXooWroM3g"
+        },
+        {
           "id": "SyIGDR_exF0",
           "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm #Shorts",
-          "views": 1,
+          "views": 2,
           "likes": 0,
           "published": "2026-09-01T14:03:21Z",
           "url": "https://www.youtube.com/watch?v=SyIGDR_exF0"
@@ -586,14 +594,6 @@
           "likes": 0,
           "published": "2026-08-27T23:32:21Z",
           "url": "https://www.youtube.com/watch?v=kcYfyFpVQFU"
-        },
-        {
-          "id": "K_-h5CgvUIk",
-          "title": "Windowsill herbs without a hydro kit #Shorts",
-          "views": 33,
-          "likes": 0,
-          "published": "2026-08-27T19:43:14Z",
-          "url": "https://www.youtube.com/watch?v=K_-h5CgvUIk"
         }
       ]
     },
@@ -645,31 +645,112 @@
   },
   "actions": [
     {
-      "priority": "P0",
-      "category": "setup",
-      "title": "Re-auth Google OAuth (GA4/GSC)",
-      "detail": "Token expired/revoked or scope broken. From Maker Tool Stack: python scripts/google_oauth_login.py --force then python scripts/google_token_sync.py. Detail: ('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 15:51 UTC"
-    },
-    {
       "priority": "P1",
       "category": "indexing",
       "title": "Request indexing for 2 guides",
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-01 15:51 UTC"
+      "created": "2026-09-01 18:24 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "Climb ranking on early GSC queries",
+      "detail": "Already showing for: \u201caerogarden vs click and grow\u201d pos 44/10 impr; \u201cclick and grow vs aerogarden\u201d pos 44/5 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 18:24 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "monetization",
+      "title": "Traffic without affiliate clicks",
+      "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 18:24 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Check CTAs on click-and-grow-vs-idoo-auk",
+      "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 18:24 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-01 02:54 UTC (13.0h ago; min 20h).",
+      "detail": "Last ping 2026-09-01 02:54 UTC (15.5h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-01 15:51 UTC"
+      "created": "2026-09-01 18:24 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
