@@ -252,6 +252,15 @@
       "uploaded_at": "2026-09-02T13:39:50.728136+00:00",
       "storyboard": "products/youtube/short-countertop-garden-system-guide/storyboard.json",
       "format": "short"
+    },
+    "video-yellow-leaves-leggy-seedlings-indoor-herbs": {
+      "youtube_id": "ekXFbbs57dU",
+      "url": "https://youtu.be/ekXFbbs57dU",
+      "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-09-02T17:35:24.336355+00:00",
+      "storyboard": "products/youtube/video-yellow-leaves-leggy-seedlings-indoor-herbs/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
