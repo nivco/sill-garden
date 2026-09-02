@@ -6,7 +6,7 @@ export const site = {
   description:
     'Practical guides to windowsill and countertop gardens for apartments: systems, herbs, setup, and honest product picks.',
   author: 'Sill Garden',
-  email: 'hello@sillgarden.com',
+  email: 'nivooo@gmail.com',
   /** Amazon Associates tracking ID (Store ID) */
   amazonTag: 'sillgarden09-20',
   /** Set PUBLIC_GA4_ID=G-XXXX in .env / Cloudflare Pages for analytics */
