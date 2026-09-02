@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-02 10:08 UTC",
+  "generated_at": "2026-09-02 15:43 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 31,
-    "users_7d": 30,
-    "pageviews_7d": 36,
+    "sessions_7d": 32,
+    "users_7d": 31,
+    "pageviews_7d": 37,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 19,
+    "gsc_impressions_7d": 32,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 21,
+    "youtube_sessions_7d": 22,
     "youtube_subs": 1,
     "youtube_views_total": 239,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 6.5,
+    "engagement_rate_pct": 6.2,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": 27
+    "youtube_videos": 28
   },
   "sources": {
     "site": {
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 30,
-        "sessions": 31,
-        "screenPageViews": 36,
+        "activeUsers": 31,
+        "sessions": 32,
+        "screenPageViews": 37,
         "engagedSessions": 2,
-        "averageSessionDuration_sec": 7.8,
-        "engagementRate_pct": 6.5
+        "averageSessionDuration_sec": 7.5,
+        "engagementRate_pct": 6.2
       },
       "top_pages": [
         {
@@ -56,6 +56,11 @@
         },
         {
           "pagePath": "/guides/countertop-garden-pod-refill-cost/",
+          "sessions": "2",
+          "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/guides/countertop-garden-system-guide/",
           "sessions": "2",
           "screenPageViews": "2"
         },
@@ -83,17 +88,12 @@
           "pagePath": "/disclosure/",
           "sessions": "1",
           "screenPageViews": "1"
-        },
-        {
-          "pagePath": "/guides/aerogarden-vs-click-and-grow/",
-          "sessions": "1",
-          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "21"
+          "sessions": "22"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -103,7 +103,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "21",
+          "sessions": "22",
           "engagedSessions": "0"
         },
         {
@@ -126,13 +126,34 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 21,
+      "sessions_from_youtube": 22,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 19,
+      "impressions": 32,
       "top_queries": [
+        {
+          "query": "aerogarden bounty basic vs elite",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 48.0
+        },
+        {
+          "query": "aerogarden bounty vs bounty elite",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 51.0
+        },
+        {
+          "query": "aerogarden bounty vs harvest",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 38.0
+        },
         {
           "query": "aerogarden comparison",
           "clicks": 0,
@@ -148,16 +169,30 @@
           "position": 66.0
         },
         {
+          "query": "aerogarden countertop garden",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 57.0
+        },
+        {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 7,
+          "impressions": 10,
           "ctr": 0.0,
-          "position": 44.0
+          "position": 45.0
+        },
+        {
+          "query": "auk vs click and grow",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 46.0
         },
         {
           "query": "best budget herb garden under 50",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 4,
           "ctr": 0.0,
           "position": 3.0
         },
@@ -171,16 +206,16 @@
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 6,
           "ctr": 0.0,
-          "position": 43.8
+          "position": 43.5
         },
         {
           "query": "counter top garden",
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 90.0
+          "position": 75.5
         },
         {
           "query": "countertop garden",
@@ -188,6 +223,13 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 89.0
+        },
+        {
+          "query": "innovative oak garden",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 99.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com"
@@ -570,9 +612,17 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 239,
-        "videos": 27
+        "videos": 28
       },
       "recent_videos": [
+        {
+          "id": "Qvl0xExEM4c",
+          "title": "Countertop garden systems \u2014 kits vs DIY for apartments #Shorts",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-02T13:40:14Z",
+          "url": "https://www.youtube.com/watch?v=Qvl0xExEM4c"
+        },
         {
           "id": "6DXooWroM3g",
           "title": "Countertop garden systems \u2014 kits vs DIY for apartments \u2014 Apartment Guide (2026)",
@@ -584,7 +634,7 @@
         {
           "id": "SyIGDR_exF0",
           "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm #Shorts",
-          "views": 6,
+          "views": 8,
           "likes": 0,
           "published": "2026-09-01T14:03:21Z",
           "url": "https://www.youtube.com/watch?v=SyIGDR_exF0"
@@ -628,14 +678,6 @@
           "likes": 0,
           "published": "2026-08-28T20:47:48Z",
           "url": "https://www.youtube.com/watch?v=Je0vgNg1LLs"
-        },
-        {
-          "id": "kcYfyFpVQFU",
-          "title": "Windowsill herbs without a hydro kit \u2014 Apartment Guide (2026)",
-          "views": 0,
-          "likes": 0,
-          "published": "2026-08-27T23:32:21Z",
-          "url": "https://www.youtube.com/watch?v=kcYfyFpVQFU"
         }
       ]
     },
@@ -730,16 +772,78 @@
       "auto": true,
       "done": true,
       "created": "2026-09-02 02:14 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
-    "GSC: 19 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 71), \u201caerogarden comparison chart\u201d (pos 66), \u201caerogarden vs click and grow\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 32 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -754,8 +858,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -780,6 +884,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 31 | Aff clicks 0 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 32 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
