@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-02 18:12 UTC",
+  "generated_at": "2026-09-02 19:02 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 33,
-    "users_7d": 32,
-    "pageviews_7d": 38,
+    "sessions_7d": 34,
+    "users_7d": 33,
+    "pageviews_7d": 39,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 32,
@@ -19,7 +19,7 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 6.1,
+    "engagement_rate_pct": 5.9,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 29
   },
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 32,
-        "sessions": 33,
-        "screenPageViews": 38,
+        "activeUsers": 33,
+        "sessions": 34,
+        "screenPageViews": 39,
         "engagedSessions": 2,
-        "averageSessionDuration_sec": 7.3,
-        "engagementRate_pct": 6.1
+        "averageSessionDuration_sec": 7.1,
+        "engagementRate_pct": 5.9
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "13",
-          "screenPageViews": "13"
+          "sessions": "14",
+          "screenPageViews": "14"
         },
         {
           "pagePath": "/",
@@ -98,6 +98,10 @@
         {
           "sessionDefaultChannelGroup": "Direct",
           "sessions": "11"
+        },
+        {
+          "sessionDefaultChannelGroup": "Cross-network",
+          "sessions": "1"
         }
       ],
       "source_medium": [
@@ -110,6 +114,11 @@
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "11",
           "engagedSessions": "2"
+        },
+        {
+          "sessionSourceMedium": "(data not available)",
+          "sessions": "1",
+          "engagedSessions": "0"
         }
       ],
       "events": {},
@@ -626,7 +635,7 @@
         {
           "id": "Qvl0xExEM4c",
           "title": "Countertop garden systems \u2014 kits vs DIY for apartments #Shorts",
-          "views": 3,
+          "views": 6,
           "likes": 0,
           "published": "2026-09-02T13:40:14Z",
           "url": "https://www.youtube.com/watch?v=Qvl0xExEM4c"
@@ -735,7 +744,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-02 15:43 UTC"
+      "created": "2026-09-02 18:12 UTC"
     },
     {
       "priority": "P1",
@@ -744,7 +753,7 @@
       "detail": "Already showing for: \u201caerogarden bounty basic vs elite\u201d pos 48/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 51/1 impr; \u201caerogarden bounty vs harvest\u201d pos 38/1 impr; \u201caerogarden comparison\u201d pos 71/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-02 15:43 UTC"
+      "created": "2026-09-02 18:12 UTC"
     },
     {
       "priority": "P1",
@@ -753,7 +762,7 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-02 15:43 UTC"
+      "created": "2026-09-02 18:12 UTC"
     },
     {
       "priority": "P2",
@@ -762,16 +771,79 @@
       "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-09-02 15:43 UTC"
+      "created": "2026-09-02 18:12 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-02 02:14 UTC (13.5h ago; min 20h).",
+      "detail": "Last ping 2026-09-02 02:14 UTC (16.0h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-02 15:43 UTC"
+      "created": "2026-09-02 18:12 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
@@ -821,6 +893,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 33 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 34 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }

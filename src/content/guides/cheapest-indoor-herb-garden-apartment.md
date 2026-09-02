@@ -1,28 +1,28 @@
 ---
-title: Cheapest indoor herb garden for apartments (under $50)
-description: Budget ways to grow herbs indoors in a rental — pots, jars, and when a small kit is worth it.
+title: Cheapest indoor herb garden for apartments (under $50) (2026)
+description: "Budget ways to grow herbs indoors in a rental — pots, jars, and when a small kit is worth it."
 pubDate: 2026-08-17
 cluster: systems
 type: guide
 image: /images/guide-compare-budget.jpg
 imageAlt: Smart countertop herb garden kit
-verdict: Skip branded pods for month one if money is tight. A clip-on LED, three pots or jars, and a waterproof tray get you mint and chives for under $50 on a usable sill — or closer to $70 with a stronger light.
+verdict: "Skip branded pods for month one if money is tight. A clip-on LED, three pots or jars, and a waterproof tray get you mint and chives for under $50 on a usable sill — or closer to $70 with a stronger light."
 products:
-  - name: Clip-on LED grow light
-    note: Biggest upgrade when the window is weak
-    search: LED clip grow light indoor plants
-  - name: Kratky mason jar setup
-    note: Silent DIY lane under $40
-    search: Kratky hydroponic mason jar kit
-  - name: Waterproof boot / drip tray
-    note: Protect the counter and your deposit
-    search: waterproof boot tray for plants
-  - name: Click & Grow Smart Garden 3
-    note: Upgrade when you want set-and-forget lighting
-    asin: B01MRVMKQH
-    partner: click-grow
+- name: Clip-on LED grow light
+  note: Biggest upgrade when the window is weak
+  search: LED clip grow light indoor plants
+- name: Kratky mason jar setup
+  note: Silent DIY lane under $40
+  search: Kratky hydroponic mason jar kit
+- name: Waterproof boot / drip tray
+  note: Protect the counter and your deposit
+  search: waterproof boot tray for plants
+- name: Click & Grow Smart Garden 3
+  note: Upgrade when you want set-and-forget lighting
+  asin: B01MRVMKQH
+  partner: click-grow
+updatedDate: 2026-09-02
 ---
-
 You do not need a $100 kit to start. The cheapest indoor herb garden is the one that matches your light and stops water damage — not the one with the most pods.
 
 ![Budget pots ready for seed starting](/images/inline-pots.jpg)

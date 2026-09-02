@@ -87,6 +87,9 @@ For "click and grow vs auk", match the setup to your light, noise tolerance, and
 
 **Compare aerogarden models?**  
 Start with Harvest-class for apartments. Move to Bounty only if you already fill six pods and have counter depth. Farm-scale towers are overkill for most rentals.
+
+**Aerogarden comparison chart?**  
+Start with Harvest-class for apartments. Move to Bounty only if you already fill six pods and have counter depth. Farm-scale towers are overkill for most rentals.
 ## Our call
 
 **Default:** AeroGarden Harvest-class for most readers.  
