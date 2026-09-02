@@ -398,6 +398,19 @@
       "priority": "P2",
       "done": false,
       "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "id": "4c0d395b5451",
+      "fingerprint": "4c0d395b5451",
+      "role": "seo",
+      "type": "tune_guide_seo",
+      "title": "tune_guide_seo: cheapest-indoor-herb-garden-apartment",
+      "detail": "CTR-first query: 4 impr, pos 3.0, 0 clicks",
+      "target": "cheapest-indoor-herb-garden-apartment",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-09-02 18:12 UTC"
     }
   ],
   "applied_log": [
@@ -466,7 +479,13 @@
       "type": "tune_guide_seo",
       "slug": "aerogarden-vs-click-and-grow",
       "reason": "CTR-first query desc: 5 impr, pos 43.6, 0 clicks"
+    },
+    {
+      "at": "2026-09-02 18:12 UTC",
+      "type": "tune_guide_seo",
+      "slug": "aerogarden-vs-click-and-grow",
+      "reason": "CTR-first query desc: 10 impr, pos 45.0, 0 clicks"
     }
   ],
-  "updated": "2026-09-02 10:08 UTC"
+  "updated": "2026-09-02 18:12 UTC"
 }
