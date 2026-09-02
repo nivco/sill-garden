@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-01 18:56 UTC",
+  "generated_at": "2026-09-02 02:14 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 32,
-    "users_7d": 31,
-    "pageviews_7d": 38,
+    "sessions_7d": 35,
+    "users_7d": 34,
+    "pageviews_7d": 41,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 15,
+    "gsc_impressions_7d": 19,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 22,
+    "youtube_sessions_7d": 25,
     "youtube_subs": 1,
     "youtube_views_total": 232,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 9.4,
+    "engagement_rate_pct": 8.6,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 27
   },
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 31,
-        "sessions": 32,
-        "screenPageViews": 38,
+        "activeUsers": 34,
+        "sessions": 35,
+        "screenPageViews": 41,
         "engagedSessions": 3,
-        "averageSessionDuration_sec": 8.7,
-        "engagementRate_pct": 9.4
+        "averageSessionDuration_sec": 7.9,
+        "engagementRate_pct": 8.6
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "13",
-          "screenPageViews": "14"
+          "sessions": "15",
+          "screenPageViews": "16"
         },
         {
           "pagePath": "/",
@@ -93,7 +93,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "22"
+          "sessions": "25"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -103,7 +103,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "22",
+          "sessions": "25",
           "engagedSessions": "1"
         },
         {
@@ -126,26 +126,68 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 22,
+      "sessions_from_youtube": 25,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 19,
       "top_queries": [
+        {
+          "query": "aerogarden comparison",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 71.0
+        },
+        {
+          "query": "aerogarden comparison chart",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 66.0
+        },
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 10,
+          "impressions": 7,
           "ctr": 0.0,
-          "position": 44.3
+          "position": 44.0
+        },
+        {
+          "query": "best budget herb garden under 50",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0.0,
+          "position": 3.0
+        },
+        {
+          "query": "best cheap herb garden under 50",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 2.0
         },
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 5,
+          "impressions": 4,
           "ctr": 0.0,
-          "position": 43.6
+          "position": 43.8
+        },
+        {
+          "query": "counter top garden",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 90.0
+        },
+        {
+          "query": "countertop garden",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 89.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com"
@@ -542,7 +584,7 @@
         {
           "id": "SyIGDR_exF0",
           "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm #Shorts",
-          "views": 2,
+          "views": 5,
           "likes": 0,
           "published": "2026-09-01T14:03:21Z",
           "url": "https://www.youtube.com/watch?v=SyIGDR_exF0"
@@ -754,7 +796,7 @@
     }
   ],
   "insights": [
-    "GSC: 15 impressions, 0 clicks \u2014 early queries: \u201caerogarden vs click and grow\u201d (pos 44), \u201cclick and grow vs aerogarden\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 19 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison\u201d (pos 71), \u201caerogarden comparison chart\u201d (pos 66), \u201caerogarden vs click and grow\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -800,6 +842,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 32 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 35 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
