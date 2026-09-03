@@ -19,7 +19,7 @@ products:
 - name: Budget 10–12 pod kits (iDOO / similar)
   note: More plants per dollar; check pump noise reviews
   search: iDOO hydroponics 12 pod indoor garden
-updatedDate: 2026-09-02
+updatedDate: 2026-09-03
 ---
 Apartment counters are short on space and patience. The right first system is the one you’ll actually keep plugged in — not the tallest tower on Amazon.
 
@@ -84,4 +84,7 @@ A countertop garden needs light, water, and a drip tray. Kits are fastest; jars 
 A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.
 
 **Aerogarden countertop garden?**  
+A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.
+
+**Countertop gardening?**  
 A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.

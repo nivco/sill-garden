@@ -1,5 +1,5 @@
 ---
-title: Best budget herb garden under 50 — apartment guide
+title: Best budget herb garden under 50 — apartment guide (2026)
 description: "best budget herb garden under 50 for apartments — clear picks, noise, light, and refill cost."
 pubDate: 2026-08-17
 cluster: systems
@@ -79,3 +79,11 @@ Buy a Click & Grow–class 3-pod unit when you keep forgetting watering, your si
 - [Best low-light herbs for apartment windowsills](/guides/best-low-light-herbs-apartment/)
 - [Windowsill herbs without a hydro kit](/guides/windowsill-herbs-without-kit/)
 - [Countertop garden running cost](/guides/countertop-garden-running-cost/)
+
+## FAQ
+
+**Best budget herb garden under 50?**  
+For "best budget herb garden under 50", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Best cheap herb garden under 50?**  
+For "best cheap herb garden under 50", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.

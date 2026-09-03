@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-03 18:10 UTC",
+  "generated_at": "2026-09-03 18:57 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
     "sessions_7d": 35,
     "users_7d": 35,
-    "pageviews_7d": 45,
+    "pageviews_7d": 46,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 35,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 22,
+    "youtube_sessions_7d": 23,
     "youtube_subs": 1,
     "youtube_views_total": 239,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 2.9,
+    "engagement_rate_pct": 5.7,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 31
   },
@@ -33,10 +33,10 @@
       "totals": {
         "activeUsers": 35,
         "sessions": 35,
-        "screenPageViews": 45,
-        "engagedSessions": 1,
-        "averageSessionDuration_sec": 52.0,
-        "engagementRate_pct": 2.9
+        "screenPageViews": 46,
+        "engagedSessions": 2,
+        "averageSessionDuration_sec": 15.9,
+        "engagementRate_pct": 5.7
       },
       "top_pages": [
         {
@@ -57,7 +57,7 @@
         {
           "pagePath": "/about/",
           "sessions": "2",
-          "screenPageViews": "2"
+          "screenPageViews": "3"
         },
         {
           "pagePath": "/disclosure/",
@@ -93,7 +93,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "22"
+          "sessions": "23"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -101,32 +101,23 @@
         },
         {
           "sessionDefaultChannelGroup": "Cross-network",
-          "sessions": "2"
-        },
-        {
-          "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "2"
+          "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "22",
+          "sessions": "23",
           "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "11",
-          "engagedSessions": "1"
+          "engagedSessions": "2"
         },
         {
           "sessionSourceMedium": "(data not available)",
-          "sessions": "2",
-          "engagedSessions": "0"
-        },
-        {
-          "sessionSourceMedium": "(not set)",
-          "sessions": "2",
+          "sessions": "1",
           "engagedSessions": "0"
         }
       ],
@@ -144,7 +135,7 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 22,
+      "sessions_from_youtube": 23,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
@@ -760,7 +751,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
     },
     {
       "priority": "P1",
@@ -769,7 +760,7 @@
       "detail": "Already showing for: \u201caerogarden bounty basic vs elite\u201d pos 48/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 51/1 impr; \u201caerogarden bounty vs harvest\u201d pos 38/1 impr; \u201caerogarden comparison\u201d pos 71/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
     },
     {
       "priority": "P1",
@@ -778,7 +769,7 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
     },
     {
       "priority": "P2",
@@ -787,16 +778,79 @@
       "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-03 02:22 UTC (13.2h ago; min 20h).",
+      "detail": "Last ping 2026-09-03 02:22 UTC (15.8h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
