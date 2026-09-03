@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-02 18:12 UTC",
+  "generated_at": "2026-09-03 18:10 UTC",
   "wow": {
-    "ga4_sessions_7d": 33.0,
-    "gsc_impressions_7d": 32.0,
+    "ga4_sessions_7d": 4.0,
+    "gsc_impressions_7d": 16.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 33,
-    "gsc_impressions_7d": 32,
+    "sessions_7d": 35,
+    "gsc_impressions_7d": 35,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 22,
@@ -74,9 +74,9 @@
     {
       "query": "best budget herb garden under 50",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 5,
       "ctr": 0.0,
-      "position": 3.0
+      "position": 3.2
     },
     {
       "query": "best cheap herb garden under 50",
@@ -93,7 +93,7 @@
     "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
     "Top search demand: \"aerogarden bounty basic vs elite\" (1 impr, pos 48.0).",
     "Sessions without affiliate clicks — check product CTAs and GA4 affiliate_click events.",
-    "YouTube channel: 29 videos, 239 views, 22 site sessions from YouTube.",
+    "YouTube channel: 31 videos, 239 views, 22 site sessions from YouTube.",
     "YouTube publish log entries: 2."
   ]
 }

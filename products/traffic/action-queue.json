@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-03 15:34 UTC",
+  "generated_at": "2026-09-03 18:10 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
   "applied": [],
@@ -8,19 +8,19 @@
       "priority": "P1",
       "category": "indexing",
       "title": "Request indexing for 2 guides",
-      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
+      "detail": "Search Console → URL Inspection → Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden bounty basic vs elite\u201d pos 48/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 51/1 impr; \u201caerogarden bounty vs harvest\u201d pos 38/1 impr; \u201caerogarden comparison\u201d pos 71/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: “aerogarden bounty basic vs elite” pos 48/1 impr; “aerogarden bounty vs bounty elite” pos 51/1 impr; “aerogarden bounty vs harvest” pos 38/1 impr; “aerogarden comparison” pos 71/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube — don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
     },
     {
       "priority": "P1",
@@ -29,25 +29,88 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
     },
     {
       "priority": "P2",
       "category": "content",
       "title": "Check CTAs on compare-aerogarden-models",
-      "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
+      "detail": "Sessions without affiliate clicks — confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-03 02:22 UTC (13.2h ago; min 20h).",
+      "detail": "Last ping 2026-09-03 02:22 UTC (15.8h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-03 15:34 UTC"
+      "created": "2026-09-03 18:10 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ]
 }
