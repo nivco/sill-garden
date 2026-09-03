@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-02 19:02 UTC",
+  "generated_at": "2026-09-03 02:22 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 34,
-    "users_7d": 33,
-    "pageviews_7d": 39,
+    "sessions_7d": 39,
+    "users_7d": 37,
+    "pageviews_7d": 47,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 32,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 22,
+    "youtube_sessions_7d": 25,
     "youtube_subs": 1,
     "youtube_views_total": 239,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 5.9,
+    "engagement_rate_pct": 5.1,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 29
   },
@@ -31,23 +31,38 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 33,
-        "sessions": 34,
-        "screenPageViews": 39,
+        "activeUsers": 37,
+        "sessions": 39,
+        "screenPageViews": 47,
         "engagedSessions": 2,
-        "averageSessionDuration_sec": 7.1,
-        "engagementRate_pct": 5.9
+        "averageSessionDuration_sec": 30.9,
+        "engagementRate_pct": 5.1
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "14",
-          "screenPageViews": "14"
+          "sessions": "16",
+          "screenPageViews": "17"
         },
         {
           "pagePath": "/",
-          "sessions": "8",
-          "screenPageViews": "9"
+          "sessions": "9",
+          "screenPageViews": "10"
+        },
+        {
+          "pagePath": "/guides/compare-aerogarden-models/",
+          "sessions": "3",
+          "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/about/",
+          "sessions": "2",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/disclosure/",
+          "sessions": "2",
+          "screenPageViews": "2"
         },
         {
           "pagePath": "/guides/click-and-grow-vs-idoo-auk/",
@@ -73,31 +88,20 @@
           "pagePath": "/guides/windowsill-herbs-without-kit/",
           "sessions": "2",
           "screenPageViews": "2"
-        },
-        {
-          "pagePath": "/about/",
-          "sessions": "1",
-          "screenPageViews": "1"
-        },
-        {
-          "pagePath": "/contact",
-          "sessions": "1",
-          "screenPageViews": "1"
-        },
-        {
-          "pagePath": "/disclosure/",
-          "sessions": "1",
-          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "22"
+          "sessions": "25"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "11"
+          "sessions": "12"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
+          "sessions": "2"
         },
         {
           "sessionDefaultChannelGroup": "Cross-network",
@@ -107,13 +111,18 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "22",
+          "sessions": "25",
           "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "11",
+          "sessions": "12",
           "engagedSessions": "2"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "2",
+          "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "(data not available)",
@@ -135,7 +144,7 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 22,
+      "sessions_from_youtube": 25,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
@@ -651,7 +660,7 @@
         {
           "id": "SyIGDR_exF0",
           "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm #Shorts",
-          "views": 12,
+          "views": 15,
           "likes": 0,
           "published": "2026-09-01T14:03:21Z",
           "url": "https://www.youtube.com/watch?v=SyIGDR_exF0"
@@ -893,6 +902,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 34 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 39 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
