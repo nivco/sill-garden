@@ -261,8 +261,17 @@
       "uploaded_at": "2026-09-02T17:35:24.336355+00:00",
       "storyboard": "products/youtube/video-yellow-leaves-leggy-seedlings-indoor-herbs/storyboard.json",
       "format": "long"
+    },
+    "short-yellow-leaves-leggy-seedlings-indoor-herbs": {
+      "youtube_id": "KMO-Fa7AJ_s",
+      "url": "https://youtu.be/KMO-Fa7AJ_s",
+      "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-09-03T13:24:56.737201+00:00",
+      "storyboard": "products/youtube/short-yellow-leaves-leggy-seedlings-indoor-herbs/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-09-03"
+  "next_eligible_date": "2026-09-04"
 }
