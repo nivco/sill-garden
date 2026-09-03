@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-03 10:20 UTC",
+  "generated_at": "2026-09-03 15:34 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 43,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 32,
+    "gsc_impressions_7d": 35,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
@@ -21,7 +21,7 @@
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 3.0,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": 29
+    "youtube_videos": 30
   },
   "sources": {
     "site": {
@@ -35,7 +35,7 @@
         "sessions": 33,
         "screenPageViews": 43,
         "engagedSessions": 1,
-        "averageSessionDuration_sec": 45.6,
+        "averageSessionDuration_sec": 55.2,
         "engagementRate_pct": 3.0
       },
       "top_pages": [
@@ -149,7 +149,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 32,
+      "impressions": 35,
       "top_queries": [
         {
           "query": "aerogarden bounty basic vs elite",
@@ -210,9 +210,9 @@
         {
           "query": "best budget herb garden under 50",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 5,
           "ctr": 0.0,
-          "position": 3.0
+          "position": 3.2
         },
         {
           "query": "best cheap herb garden under 50",
@@ -241,6 +241,13 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 89.0
+        },
+        {
+          "query": "countertop gardening",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 82.0
         },
         {
           "query": "innovative oak garden",
@@ -630,9 +637,17 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 239,
-        "videos": 29
+        "videos": 30
       },
       "recent_videos": [
+        {
+          "id": "KMO-Fa7AJ_s",
+          "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes #Shorts",
+          "views": 1,
+          "likes": 0,
+          "published": "2026-09-03T13:25:11Z",
+          "url": "https://www.youtube.com/watch?v=KMO-Fa7AJ_s"
+        },
         {
           "id": "ekXFbbs57dU",
           "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes \u2014 Apartment Guide (2026)",
@@ -688,14 +703,6 @@
           "likes": 0,
           "published": "2026-08-29T14:17:10Z",
           "url": "https://www.youtube.com/watch?v=enP9vdbWrvo"
-        },
-        {
-          "id": "QhkHAtoH6o8",
-          "title": "Countertop garden pod refill cost vs seeds \u2014 Apartment Guide (2026)",
-          "views": 0,
-          "likes": 0,
-          "published": "2026-08-28T23:23:35Z",
-          "url": "https://www.youtube.com/watch?v=QhkHAtoH6o8"
         }
       ]
     },
@@ -790,16 +797,78 @@
       "auto": true,
       "done": true,
       "created": "2026-09-03 02:22 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
-    "GSC: 32 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 35 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -814,8 +883,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -840,6 +909,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 33 | Aff clicks 0 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 33 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
