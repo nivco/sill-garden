@@ -1,0 +1,79 @@
+{
+  "id": "video-mint-windowsill-first-harvest",
+  "title": "Mint on a windowsill \u2014 first harvest guide \u2014 Apartment Guide (2026)",
+  "filename": "sill-mint-windowsill-first-harvest.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "guide_slug": "mint-windowsill-first-harvest",
+  "utm_campaign": "video-mint-windowsill-first-harvest",
+  "description": "How to grow usable mint on an apartment sill \u2014 pot size, light, pinching, and when a kit is overkill.",
+  "tags": [
+    "mint windowsill first harvest",
+    "apartment gardening",
+    "indoor herb garden",
+    "small space garden",
+    "sill garden"
+  ],
+  "slides": [
+    {
+      "type": "title",
+      "chapter": "Quick answer",
+      "title": "Mint on a windowsill \u2014 first harvest guide",
+      "subtitle": "How to grow usable mint on an apartment sill \u2014 pot size, light, pinching, and when a kit is overkill.",
+      "badge": "Apartment guide",
+      "photo": "images/guide-mint.jpg",
+      "photo_right": "images/inline-counter-plant.jpg",
+      "narration": "Mint on a windowsill \u2014 first harvest guide. Here is the practical Sill Garden answer for a small apartment, without buying more equipment than you need."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Start here",
+      "title": "Start with the apartment constraints",
+      "photo": "images/inline-apartment.jpg",
+      "bullets": [
+        "Measure the usable sill, shelf, or counter space",
+        "Check daylight before buying a grow light",
+        "Protect rental surfaces with trays and saucers",
+        "Choose a setup you can maintain every week"
+      ],
+      "narration": "Start with your real constraints: usable space, available daylight, water protection, and how much weekly maintenance you will actually do."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "What works",
+      "title": "The simple setup that works",
+      "photo": "images/inline-pots.jpg",
+      "bullets": [
+        "Use the smallest reliable setup for the job",
+        "Put every pot or reservoir on a waterproof tray",
+        "Automate light timing before adding more plants",
+        "Watch plant response and adjust one thing at a time"
+      ],
+      "narration": "Keep the first setup simple. Protect the surface, automate the light schedule, and adjust from what the plants show you instead of changing everything at once."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Avoid mistakes",
+      "title": "Three expensive mistakes to avoid",
+      "photo": "images/inline-shelf-herbs.jpg",
+      "bullets": [
+        "Buying for maximum capacity instead of daily fit",
+        "Treating weak light as a watering problem",
+        "Ignoring noise, glare, or spill risk in a small room"
+      ],
+      "narration": "Avoid buying the largest system first. Weak light is not fixed by extra water, and in a small room noise, glare, and spill risk matter every day."
+    },
+    {
+      "type": "verdict",
+      "chapter": "Verdict",
+      "title": "The Sill Garden verdict",
+      "body": "Mint is the easiest apartment herb if you give it a wide pot, consistent moisture, and trim often. Start in soil on a sill before you buy a hydro kit just for mint.",
+      "picks": [
+        "Start small and prove the routine first",
+        "Upgrade light or capacity only when the plants require it"
+      ],
+      "cta": "Full guide \u2192 sillgarden.com/guides/mint-windowsill-first-harvest",
+      "photo": "images/guide-mint.jpg",
+      "narration": "Our verdict: Mint is the easiest apartment herb if you give it a wide pot, consistent moisture, and trim often. Start in soil on a sill before you buy a hydro kit just for mint. Read the full step-by-step guide at Sill Garden dot com."
+    }
+  ]
+}

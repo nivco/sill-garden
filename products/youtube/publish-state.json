@@ -279,8 +279,17 @@
       "uploaded_at": "2026-09-03T17:29:58.184210+00:00",
       "storyboard": "products/youtube/video-kratky-jar-herbs-apartment/storyboard.json",
       "format": "long"
+    },
+    "short-kratky-jar-herbs-apartment": {
+      "youtube_id": "F073SleZ9aA",
+      "url": "https://youtu.be/F073SleZ9aA",
+      "title": "Kratky jar herbs for apartments (silent DIY) #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-09-04T13:18:55.725241+00:00",
+      "storyboard": "products/youtube/short-kratky-jar-herbs-apartment/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-09-04"
+  "next_eligible_date": "2026-09-05"
 }
