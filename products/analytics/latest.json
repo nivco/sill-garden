@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-04 15:32 UTC",
+  "generated_at": "2026-09-04 17:52 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 31,
-    "users_7d": 30,
-    "pageviews_7d": 39,
+    "sessions_7d": 33,
+    "users_7d": 32,
+    "pageviews_7d": 41,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 31,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 19,
+    "youtube_sessions_7d": 21,
     "youtube_subs": 1,
     "youtube_views_total": 239,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 3.2,
+    "engagement_rate_pct": 3.0,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": 32
+    "youtube_videos": 33
   },
   "sources": {
     "site": {
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 30,
-        "sessions": 31,
-        "screenPageViews": 39,
+        "activeUsers": 32,
+        "sessions": 33,
+        "screenPageViews": 41,
         "engagedSessions": 1,
-        "averageSessionDuration_sec": 11.8,
-        "engagementRate_pct": 3.2
+        "averageSessionDuration_sec": 11.0,
+        "engagementRate_pct": 3.0
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "12",
-          "screenPageViews": "14"
+          "sessions": "13",
+          "screenPageViews": "15"
         },
         {
           "pagePath": "/",
@@ -75,6 +75,11 @@
           "screenPageViews": "2"
         },
         {
+          "pagePath": "/guides/kratky-jar-herbs-apartment/",
+          "sessions": "2",
+          "screenPageViews": "2"
+        },
+        {
           "pagePath": "/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
           "sessions": "2",
           "screenPageViews": "2"
@@ -83,17 +88,12 @@
           "pagePath": "/about/",
           "sessions": "1",
           "screenPageViews": "2"
-        },
-        {
-          "pagePath": "/contact",
-          "sessions": "1",
-          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "19"
+          "sessions": "21"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -107,7 +107,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "19",
+          "sessions": "21",
           "engagedSessions": "0"
         },
         {
@@ -135,7 +135,7 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 19,
+      "sessions_from_youtube": 21,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
@@ -628,13 +628,21 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 239,
-        "videos": 32
+        "videos": 33
       },
       "recent_videos": [
         {
+          "id": "pvMlVD1InHQ",
+          "title": "Mint on a windowsill \u2014 first harvest guide \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-04T17:21:59Z",
+          "url": "https://www.youtube.com/watch?v=pvMlVD1InHQ"
+        },
+        {
           "id": "F073SleZ9aA",
           "title": "Kratky jar herbs for apartments (silent DIY) #Shorts",
-          "views": 0,
+          "views": 3,
           "likes": 0,
           "published": "2026-09-04T13:19:23Z",
           "url": "https://www.youtube.com/watch?v=F073SleZ9aA"
@@ -650,7 +658,7 @@
         {
           "id": "KMO-Fa7AJ_s",
           "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes #Shorts",
-          "views": 27,
+          "views": 28,
           "likes": 0,
           "published": "2026-09-03T13:25:11Z",
           "url": "https://www.youtube.com/watch?v=KMO-Fa7AJ_s"
@@ -682,18 +690,10 @@
         {
           "id": "SyIGDR_exF0",
           "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm #Shorts",
-          "views": 18,
+          "views": 19,
           "likes": 0,
           "published": "2026-09-01T14:03:21Z",
           "url": "https://www.youtube.com/watch?v=SyIGDR_exF0"
-        },
-        {
-          "id": "1wSzcPp_sIA",
-          "title": "Click & Grow vs iDOO (and Auk-class kits) for apartments \u2014 Apartment Guide (2026)",
-          "views": 1,
-          "likes": 0,
-          "published": "2026-08-31T19:52:13Z",
-          "url": "https://www.youtube.com/watch?v=1wSzcPp_sIA"
         }
       ]
     },
@@ -751,16 +751,16 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-04 02:17 UTC"
+      "created": "2026-09-04 15:32 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden bounty basic vs elite\u201d pos 48/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 51/1 impr; \u201caerogarden bounty vs harvest\u201d pos 38/1 impr; \u201caerogarden comparison\u201d pos 71/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden bounty basic vs elite\u201d pos 48/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 51/1 impr; \u201caerogarden bounty vs harvest\u201d pos 38/2 impr; \u201caerogarden comparison\u201d pos 71/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-04 02:17 UTC"
+      "created": "2026-09-04 15:32 UTC"
     },
     {
       "priority": "P1",
@@ -769,7 +769,7 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-04 02:17 UTC"
+      "created": "2026-09-04 15:32 UTC"
     },
     {
       "priority": "P2",
@@ -778,79 +778,16 @@
       "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-09-04 02:17 UTC"
+      "created": "2026-09-04 15:32 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-09-04 02:17 UTC (13.3h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-04 02:17 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Refresh Google analytics OAuth so metrics stay live.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "created": "2026-09-04 15:32 UTC"
     }
   ],
   "insights": [
@@ -900,6 +837,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 31 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 33 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
