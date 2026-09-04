@@ -288,6 +288,15 @@
       "uploaded_at": "2026-09-04T13:18:55.725241+00:00",
       "storyboard": "products/youtube/short-kratky-jar-herbs-apartment/storyboard.json",
       "format": "short"
+    },
+    "video-mint-windowsill-first-harvest": {
+      "youtube_id": "pvMlVD1InHQ",
+      "url": "https://youtu.be/pvMlVD1InHQ",
+      "title": "Mint on a windowsill \u2014 first harvest guide \u2014 Apartment Guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-09-04T17:21:40.317449+00:00",
+      "storyboard": "products/youtube/video-mint-windowsill-first-harvest/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
