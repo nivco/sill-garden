@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-05 09:37 UTC",
+  "generated_at": "2026-09-05 14:19 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 31,
-    "users_7d": 30,
-    "pageviews_7d": 39,
+    "sessions_7d": 33,
+    "users_7d": 32,
+    "pageviews_7d": 41,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 30,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 21,
+    "youtube_sessions_7d": 23,
     "youtube_subs": 1,
     "youtube_views_total": 248,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 3.2,
+    "engagement_rate_pct": 3.0,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": 33
+    "youtube_videos": 34
   },
   "sources": {
     "site": {
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 30,
-        "sessions": 31,
-        "screenPageViews": 39,
+        "activeUsers": 32,
+        "sessions": 33,
+        "screenPageViews": 41,
         "engagedSessions": 1,
-        "averageSessionDuration_sec": 11.8,
-        "engagementRate_pct": 3.2
+        "averageSessionDuration_sec": 11.0,
+        "engagementRate_pct": 3.0
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "12",
-          "screenPageViews": "14"
+          "sessions": "13",
+          "screenPageViews": "15"
         },
         {
           "pagePath": "/",
@@ -75,6 +75,11 @@
           "screenPageViews": "2"
         },
         {
+          "pagePath": "/guides/mint-windowsill-first-harvest/",
+          "sessions": "2",
+          "screenPageViews": "2"
+        },
+        {
           "pagePath": "/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
           "sessions": "2",
           "screenPageViews": "2"
@@ -83,17 +88,12 @@
           "pagePath": "/about/",
           "sessions": "1",
           "screenPageViews": "2"
-        },
-        {
-          "pagePath": "/contact",
-          "sessions": "1",
-          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "21"
+          "sessions": "23"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -107,7 +107,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "21",
+          "sessions": "23",
           "engagedSessions": "0"
         },
         {
@@ -135,7 +135,7 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 21,
+      "sessions_from_youtube": 23,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
@@ -628,9 +628,17 @@
         "handle": "@sillgarden",
         "subscribers": 1,
         "views": 248,
-        "videos": 33
+        "videos": 34
       },
       "recent_videos": [
+        {
+          "id": "cceEHXgSlYc",
+          "title": "Mint on a windowsill \u2014 first harvest guide #Shorts",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-05T12:31:14Z",
+          "url": "https://www.youtube.com/watch?v=cceEHXgSlYc"
+        },
         {
           "id": "pvMlVD1InHQ",
           "title": "Mint on a windowsill \u2014 first harvest guide \u2014 Apartment Guide (2026)",
@@ -686,14 +694,6 @@
           "likes": 0,
           "published": "2026-09-01T18:24:19Z",
           "url": "https://www.youtube.com/watch?v=6DXooWroM3g"
-        },
-        {
-          "id": "SyIGDR_exF0",
-          "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm #Shorts",
-          "views": 19,
-          "likes": 0,
-          "published": "2026-09-01T14:03:21Z",
-          "url": "https://www.youtube.com/watch?v=SyIGDR_exF0"
         }
       ]
     },
@@ -788,16 +788,78 @@
       "auto": true,
       "done": true,
       "created": "2026-09-05 02:17 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 30 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -812,8 +874,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -838,6 +900,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 31 | Aff clicks 0 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 33 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
