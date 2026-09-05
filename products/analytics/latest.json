@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-04 18:39 UTC",
+  "generated_at": "2026-09-05 02:17 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 33,
-    "users_7d": 32,
-    "pageviews_7d": 41,
+    "sessions_7d": 35,
+    "users_7d": 34,
+    "pageviews_7d": 43,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 31,
+    "gsc_impressions_7d": 29,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 21,
+    "youtube_sessions_7d": 25,
     "youtube_subs": 1,
     "youtube_views_total": 239,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 3.0,
+    "engagement_rate_pct": 2.9,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 33
   },
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 32,
-        "sessions": 33,
-        "screenPageViews": 41,
+        "activeUsers": 34,
+        "sessions": 35,
+        "screenPageViews": 43,
         "engagedSessions": 1,
-        "averageSessionDuration_sec": 11.0,
-        "engagementRate_pct": 3.0
+        "averageSessionDuration_sec": 10.4,
+        "engagementRate_pct": 2.9
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "13",
-          "screenPageViews": "15"
+          "sessions": "14",
+          "screenPageViews": "16"
         },
         {
           "pagePath": "/",
@@ -93,7 +93,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "21"
+          "sessions": "25"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -101,13 +101,13 @@
         },
         {
           "sessionDefaultChannelGroup": "Cross-network",
-          "sessions": "3"
+          "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "21",
+          "sessions": "25",
           "engagedSessions": "0"
         },
         {
@@ -117,7 +117,7 @@
         },
         {
           "sessionSourceMedium": "(data not available)",
-          "sessions": "3",
+          "sessions": "1",
           "engagedSessions": "0"
         }
       ],
@@ -135,12 +135,12 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 21,
+      "sessions_from_youtube": 25,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 31,
+      "impressions": 29,
       "top_queries": [
         {
           "query": "aerogarden bounty basic vs elite",
@@ -187,9 +187,9 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 7,
+          "impressions": 5,
           "ctr": 0.0,
-          "position": 45.1
+          "position": 45.6
         },
         {
           "query": "auk vs click and grow",
@@ -634,7 +634,7 @@
         {
           "id": "pvMlVD1InHQ",
           "title": "Mint on a windowsill \u2014 first harvest guide \u2014 Apartment Guide (2026)",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-09-04T17:21:59Z",
           "url": "https://www.youtube.com/watch?v=pvMlVD1InHQ"
@@ -658,7 +658,7 @@
         {
           "id": "KMO-Fa7AJ_s",
           "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes #Shorts",
-          "views": 27,
+          "views": 28,
           "likes": 0,
           "published": "2026-09-03T13:25:11Z",
           "url": "https://www.youtube.com/watch?v=KMO-Fa7AJ_s"
@@ -690,7 +690,7 @@
         {
           "id": "SyIGDR_exF0",
           "title": "AeroGarden models compared \u2014 Harvest vs Bounty vs Farm #Shorts",
-          "views": 18,
+          "views": 19,
           "likes": 0,
           "published": "2026-09-01T14:03:21Z",
           "url": "https://www.youtube.com/watch?v=SyIGDR_exF0"
@@ -854,7 +854,7 @@
     }
   ],
   "insights": [
-    "GSC: 31 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 29 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -900,6 +900,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 33 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 35 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
