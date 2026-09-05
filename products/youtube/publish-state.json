@@ -297,8 +297,17 @@
       "uploaded_at": "2026-09-04T17:21:40.317449+00:00",
       "storyboard": "products/youtube/video-mint-windowsill-first-harvest/storyboard.json",
       "format": "long"
+    },
+    "short-mint-windowsill-first-harvest": {
+      "youtube_id": "cceEHXgSlYc",
+      "url": "https://youtu.be/cceEHXgSlYc",
+      "title": "Mint on a windowsill \u2014 first harvest guide #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-09-05T12:30:46.101705+00:00",
+      "storyboard": "products/youtube/short-mint-windowsill-first-harvest/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-09-05"
+  "next_eligible_date": "2026-09-06"
 }
