@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-07 14:54 UTC",
+  "generated_at": "2026-09-07 10:59 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -242,7 +242,7 @@
       "site_url": "sc-domain:sillgarden.com"
     },
     "indexing": {
-      "checked_at": "2026-09-07T14:54:51.672822+00:00",
+      "checked_at": "2026-08-31T16:51:17.484643+00:00",
       "site": "sc-domain:sillgarden.com",
       "sitemap": {
         "path": "https://sillgarden.com/sitemap-index.xml",
@@ -255,7 +255,7 @@
         "contents": [
           {
             "type": "web",
-            "submitted": "23",
+            "submitted": "16",
             "indexed": "0"
           }
         ]
@@ -269,7 +269,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-06T18:49:00Z",
+          "last_crawl_time": "2026-08-28T22:47:50Z",
           "google_canonical": "https://sillgarden.com/",
           "user_canonical": "https://sillgarden.com/",
           "referring_urls": [
@@ -286,7 +286,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-07T04:51:26Z",
+          "last_crawl_time": "2026-08-15T22:50:23Z",
           "google_canonical": "https://sillgarden.com/about/",
           "user_canonical": "https://sillgarden.com/about/",
           "referring_urls": [
@@ -346,7 +346,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-07T00:55:08Z",
+          "last_crawl_time": "2026-08-29T14:01:43Z",
           "google_canonical": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
           "user_canonical": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
           "referring_urls": [
@@ -403,7 +403,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-05T04:26:52Z",
+          "last_crawl_time": "2026-08-29T10:38:20Z",
           "google_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
           "user_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
           "referring_urls": [
@@ -461,7 +461,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-30T10:13:23Z",
+          "last_crawl_time": "2026-08-22T08:38:44Z",
           "google_canonical": "https://sillgarden.com/guides/countertop-garden-running-cost/",
           "user_canonical": "https://sillgarden.com/guides/countertop-garden-running-cost/",
           "referring_urls": [
@@ -489,7 +489,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-05T09:26:47Z",
+          "last_crawl_time": "2026-08-14T15:20:13Z",
           "google_canonical": "https://sillgarden.com/guides/grow-light-schedules-herbs/",
           "user_canonical": "https://sillgarden.com/guides/grow-light-schedules-herbs/",
           "referring_urls": [
@@ -543,7 +543,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-07T03:25:09Z",
+          "last_crawl_time": "2026-08-14T12:07:44Z",
           "google_canonical": "https://sillgarden.com/guides/quiet-countertop-gardens-studios/",
           "user_canonical": "https://sillgarden.com/guides/quiet-countertop-gardens-studios/",
           "referring_urls": [
@@ -568,16 +568,14 @@
         {
           "url": "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
           "verdict": "NEUTRAL",
-          "coverage_state": "Discovered - currently not indexed",
+          "coverage_state": "URL is unknown to Google",
           "indexing_state": "INDEXING_STATE_UNSPECIFIED",
           "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
           "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
           "last_crawl_time": null,
           "google_canonical": null,
           "user_canonical": null,
-          "referring_urls": [
-            "https://sillgarden.com/"
-          ]
+          "referring_urls": []
         },
         {
           "url": "https://sillgarden.com/privacy/",
@@ -604,7 +602,7 @@
         },
         {
           "url": "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
-          "coverage_state": "Discovered - currently not indexed"
+          "coverage_state": "URL is unknown to Google"
         }
       ]
     },
@@ -781,78 +779,16 @@
       "auto": true,
       "done": true,
       "created": "2026-09-07 02:10 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Refresh Google analytics OAuth so metrics stay live.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 37 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 7,
+    "ready": 6,
     "total": 7,
     "checks": [
       {
@@ -867,8 +803,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -893,6 +829,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 24 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 24 | Aff clicks 0 | GSC 0 | Setup 6/7"
   }
 }
