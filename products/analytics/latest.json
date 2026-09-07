@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-06 17:50 UTC",
+  "generated_at": "2026-09-07 02:10 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,13 +9,13 @@
     "pageviews_7d": 33,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 38,
+    "gsc_impressions_7d": 33,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 20,
     "youtube_subs": 1,
-    "youtube_views_total": 250,
+    "youtube_views_total": 251,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -131,7 +131,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 38,
+      "impressions": 33,
       "top_queries": [
         {
           "query": "aerogarden bounty basic vs elite",
@@ -153,20 +153,6 @@
           "impressions": 3,
           "ctr": 0.0,
           "position": 38.3
-        },
-        {
-          "query": "aerogarden comparison",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 71.0
-        },
-        {
-          "query": "aerogarden comparison chart",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 66.0
         },
         {
           "query": "aerogarden countertop garden",
@@ -206,16 +192,9 @@
         {
           "query": "best budget herb garden under 50",
           "clicks": 0,
-          "impressions": 12,
+          "impressions": 9,
           "ctr": 0.0,
           "position": 2.8
-        },
-        {
-          "query": "best cheap herb garden under 50",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 2.0
         },
         {
           "query": "click and grow vs aerogarden",
@@ -227,16 +206,23 @@
         {
           "query": "counter top garden",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 75.5
+          "position": 61.0
         },
         {
-          "query": "countertop garden",
+          "query": "countertop gardening",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 82.0
+        },
+        {
+          "query": "innovative oak garden",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
-          "position": 89.0
+          "position": 99.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com"
@@ -618,7 +604,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 250,
+        "views": 251,
         "videos": 34
       },
       "recent_videos": [
@@ -845,7 +831,7 @@
     }
   ],
   "insights": [
-    "GSC: 38 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 33 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 48), \u201caerogarden bounty vs bounty elite\u201d (pos 51), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
