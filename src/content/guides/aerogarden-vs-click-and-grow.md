@@ -90,6 +90,9 @@ Start with Harvest-class for apartments. Move to Bounty only if you already fill
 
 **Aerogarden comparison chart?**  
 Start with Harvest-class for apartments. Move to Bounty only if you already fill six pods and have counter depth. Farm-scale towers are overkill for most rentals.
+
+**Aerogarden vs click grow?**  
+For most kitchens, AeroGarden Harvest-class wins on capacity. For studios where the unit sits near a bed, Click & Grow usually wins on silence.
 ## Our call
 
 **Default:** AeroGarden Harvest-class for most readers.  
