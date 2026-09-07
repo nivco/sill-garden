@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-06 17:23 UTC",
+  "generated_at": "2026-09-07 18:54 UTC",
   "wow": {
-    "ga4_sessions_7d": -6.0,
-    "gsc_impressions_7d": 8.0,
+    "ga4_sessions_7d": -1.0,
+    "gsc_impressions_7d": -1.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 25,
-    "gsc_impressions_7d": 38,
+    "sessions_7d": 24,
+    "gsc_impressions_7d": 37,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 20,
@@ -41,14 +41,7 @@
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 71.0
-    },
-    {
-      "query": "aerogarden comparison chart",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 66.0
+      "position": 64.0
     },
     {
       "query": "aerogarden countertop garden",
@@ -79,6 +72,13 @@
       "position": 46.0
     },
     {
+      "query": "aerogarden vs click grow",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0
+    },
+    {
       "query": "auk vs click and grow",
       "clicks": 0,
       "impressions": 1,
@@ -93,7 +93,7 @@
     "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
     "Top search demand: \"aerogarden bounty basic vs elite\" (1 impr, pos 48.0).",
     "Sessions without affiliate clicks — check product CTAs and GA4 affiliate_click events.",
-    "YouTube channel: 34 videos, 251 views, 20 site sessions from YouTube.",
+    "YouTube channel: 24 videos, 255 views, 20 site sessions from YouTube.",
     "YouTube publish log entries: 2."
   ]
 }
