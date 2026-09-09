@@ -1,25 +1,98 @@
 {
-  "generated_at": "2026-09-08 18:10 UTC",
+  "generated_at": "2026-09-09 18:05 UTC",
   "wow": {
-    "ga4_sessions_7d": -24.0,
-    "gsc_impressions_7d": -37.0,
+    "ga4_sessions_7d": -4.0,
+    "gsc_impressions_7d": -3.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": null,
-    "gsc_impressions_7d": null,
-    "gsc_clicks_7d": null,
-    "affiliate_clicks_7d": null,
-    "youtube_sessions_7d": null,
+    "sessions_7d": 19,
+    "gsc_impressions_7d": 29,
+    "gsc_clicks_7d": 0,
+    "affiliate_clicks_7d": 0,
+    "youtube_sessions_7d": 14,
     "indexed_urls": 21
   },
-  "top_queries": [],
+  "top_queries": [
+    {
+      "query": "aerogarden bounty vs bounty basic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 52.0
+    },
+    {
+      "query": "aerogarden bounty vs bounty elite",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 52.0
+    },
+    {
+      "query": "aerogarden bounty vs harvest",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 38.5
+    },
+    {
+      "query": "aerogarden comparison",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 63.5
+    },
+    {
+      "query": "aerogarden harvest vs harvest elite",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0
+    },
+    {
+      "query": "aerogarden model comparison",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 43.5
+    },
+    {
+      "query": "aerogarden vs click and grow",
+      "clicks": 0,
+      "impressions": 4,
+      "ctr": 0.0,
+      "position": 45.0
+    },
+    {
+      "query": "aerogarden vs click grow",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0
+    },
+    {
+      "query": "best budget herb garden under 50",
+      "clicks": 0,
+      "impressions": 8,
+      "ctr": 0.0,
+      "position": 2.5
+    },
+    {
+      "query": "best quick herb garden under 50",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 6.0
+    }
+  ],
   "learnings": [
     "WORKING: GSC impressions with 0 clicks on comparison queries → Tighten AeroGarden vs Click & Grow title/FAQ for both brand orders",
     "WORKING: Indexed pages but weak topical coverage → Ship long-tail apartment guides (low-light, under $50, running cost)",
     "WORKING: YouTube Shorts can drive early sessions → Keep UTM’d guide links in descriptions; refresh descriptions weekly",
-    "YouTube channel: 24 videos, 256 views, 0 site sessions from YouTube.",
+    "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
+    "Top search demand: \"aerogarden bounty vs bounty basic\" (1 impr, pos 52.0).",
+    "YouTube channel: 24 videos, 256 views, 14 site sessions from YouTube.",
     "YouTube publish log entries: 2."
   ]
 }
