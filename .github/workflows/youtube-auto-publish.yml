@@ -56,7 +56,14 @@ jobs:
           pip install -r requirements-youtube.txt
       - name: Verify Sill Garden channel access
         id: gate
-        run: python scripts/youtube_access_gate.py
+        run: |
+          # Schedule: soft-fail (no red alert) when OAuth expired — skip uploads.
+          # Manual dispatch: fail closed so you notice immediately.
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scripts/youtube_access_gate.py --strict
+          else
+            python scripts/youtube_access_gate.py --warn-only
+          fi
       - name: Plan next videos
         if: steps.gate.outputs.ready == 'true'
         continue-on-error: true
@@ -78,10 +85,11 @@ jobs:
           PRIVACY="${{ github.event.inputs.privacy || 'public' }}"
           if [ "${{ github.event.inputs.force }}" = "true" ]; then EXTRA="$EXTRA --force"; fi
           python scripts/youtube_auto_publish.py --short-slot --privacy "$PRIVACY" $EXTRA
-      - name: Commit publish status
-        if: steps.gate.outputs.ready == 'true' && github.event.inputs.dry_run != 'true'
+      - name: Commit publish / OAuth status
+        if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          # Always record gate status; only upload state changes when ready.
           bash scripts/ci_git_push.sh "chore: record YouTube upload $(date -u +%Y-%m-%d)" \
             products/youtube/

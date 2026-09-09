@@ -51,6 +51,9 @@ jobs:
           sudo apt-get install -y ffmpeg
           pip install -r requirements-youtube.txt
 
+      - name: Verify Sill Garden channel access
+        run: python scripts/youtube_access_gate.py --strict
+
       - name: Build video
         if: inputs.build
         run: python scripts/build_visual_video.py "products/youtube/${{ inputs.video }}/storyboard.json"

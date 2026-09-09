@@ -16,6 +16,7 @@ function Invoke-Python {
 
 Write-Host ""
 Write-Host "=== Fix Sill Garden YouTube upload OAuth ===" -ForegroundColor Cyan
+Write-Host "If this keeps dying every ~7 days: Google Cloud OAuth consent → Publish app (Production)." -ForegroundColor DarkYellow
 Write-Host ""
 
 Invoke-Python -PyArgs @("-m", "pip", "install", "-q", "-r", "requirements-youtube.txt")

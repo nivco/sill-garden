@@ -34,8 +34,15 @@ jobs:
       - name: Install YouTube dependencies
         run: pip install -r requirements-youtube.txt
       - name: Verify Sill Garden channel access
-        run: python scripts/youtube_access_gate.py
+        id: gate
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            python scripts/youtube_access_gate.py --strict
+          else
+            python scripts/youtube_access_gate.py --warn-only
+          fi
       - name: Refresh descriptions and tags
+        if: steps.gate.outputs.ready == 'true'
         run: |
           EXTRA=""
           # schedule + AUTOMATION_LIVE=0 must dry-run or the job fails
@@ -44,11 +51,11 @@ jobs:
             EXTRA="--dry-run"
           fi
           python scripts/youtube_refresh_descriptions.py $EXTRA
-      - name: Commit publish state
+      - name: Commit publish / OAuth status
         if: github.event.inputs.dry_run != 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
-          git add products/youtube/publish-state.json
+          git add products/youtube/publish-state.json products/youtube/youtube-access-status.json
           git diff --cached --quiet || git commit -m "chore: record YouTube metadata refresh"
           git push

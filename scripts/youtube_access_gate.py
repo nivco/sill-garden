@@ -1,8 +1,15 @@
 #!/usr/bin/env python3
-"""Verify upload OAuth and report the exact YouTube channel it controls."""
+"""Verify upload OAuth and report the exact YouTube channel it controls.
+
+Run:
+  python scripts/youtube_access_gate.py
+  python scripts/youtube_access_gate.py --strict
+  python scripts/youtube_access_gate.py --warn-only
+"""
 
 from __future__ import annotations
 
+import argparse
 import json
 import os
 import sys
@@ -19,6 +26,12 @@ STATUS = ROOT / "products" / "youtube" / "youtube-access-status.json"
 EXPECTED_CHANNEL_ID = (os.environ.get("YOUTUBE_CHANNEL_ID") or "UCc31HDBMhoJtsmZYk0Fo56w").strip()
 EXPECTED_CHANNEL_TITLE = "sill garden"
 
+FIX_STEPS = [
+    "Local: .\\scripts\\fix_youtube_auth.ps1",
+    "Or: python scripts/youtube_oauth_login.py --force && python scripts/youtube_token_sync.py",
+    "Permanent: Google Cloud → OAuth consent screen → Publish app (Testing tokens die every ~7 days).",
+]
+
 
 def _channel_ok(item: dict) -> bool:
     cid = (item.get("id") or "").strip()
@@ -34,6 +47,7 @@ def check() -> dict:
         "checked_at": datetime.now(timezone.utc).isoformat(),
         "channel": None,
         "error": None,
+        "next_steps": list(FIX_STEPS),
     }
     try:
         from google.auth.transport.requests import Request
@@ -64,7 +78,9 @@ def check() -> dict:
             "views": stats.get("viewCount"),
         }
         status["ready"] = _channel_ok(item)
-        if not status["ready"]:
+        if status["ready"]:
+            status["next_steps"] = ["YouTube upload OAuth OK"]
+        else:
             want = EXPECTED_CHANNEL_ID or "Sill Garden"
             status["error"] = (
                 f"Token controls '{snippet.get('title')}' ({item.get('id')}), not {want}. "
@@ -73,6 +89,12 @@ def check() -> dict:
             )
     except Exception as exc:  # noqa: BLE001
         status["error"] = str(exc)[:800]
+        err_l = status["error"].lower()
+        if "invalid_grant" in err_l or "expired or revoked" in err_l:
+            status["next_steps"] = [
+                "Refresh token revoked (common when OAuth app is still in Testing).",
+                *FIX_STEPS,
+            ]
     save_json(STATUS, status)
     output = os.environ.get("GITHUB_OUTPUT")
     if output:
@@ -82,9 +104,33 @@ def check() -> dict:
 
 
 def main() -> int:
+    parser = argparse.ArgumentParser(description="Gate YouTube publish on valid upload OAuth")
+    parser.add_argument("--strict", action="store_true", help="Exit 1 when not ready (default for bare run)")
+    parser.add_argument(
+        "--warn-only",
+        action="store_true",
+        help="Print warning and exit 0 when not ready (scheduled CI — skip upload, no red failure)",
+    )
+    args = parser.parse_args()
+
     status = check()
     print(json.dumps(status, indent=2))
-    return 0 if status["ready"] else 1
+    if status.get("ready"):
+        print("YouTube access gate: upload OAuth OK")
+        return 0
+
+    msg = "YouTube access gate FAILED — upload OAuth not ready; publish skipped."
+    if args.warn_only:
+        print(f"WARNING: {msg}", file=sys.stderr)
+        for step in status.get("next_steps") or []:
+            print(f"  -> {step}", file=sys.stderr)
+        return 0
+
+    print(msg, file=sys.stderr)
+    for step in status.get("next_steps") or []:
+        print(f"  -> {step}", file=sys.stderr)
+    # Bare run and --strict both fail closed.
+    return 1
 
 
 if __name__ == "__main__":

@@ -114,11 +114,32 @@ python scripts\websub_publish.py --dry-run
 Local one-time authorization (select the **Sill Garden** identity in Google's chooser):
 
 ```powershell
+.\scripts\fix_youtube_auth.ps1
+```
+
+Or manually:
+
+```powershell
 python -m pip install -r requirements-youtube.txt
 python scripts\youtube_oauth_login.py --force
 python scripts\youtube_access_gate.py
 python scripts\youtube_token_sync.py
 ```
+
+#### Stop 7-day `invalid_grant` (do this once)
+
+Google OAuth apps left in **Testing** revoke refresh tokens about every **7 days**. That is what
+keeps breaking YouTube CI.
+
+1. Open the [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent)
+   for the same Cloud project as `secrets/google-oauth-client.json` (usually `makertoolstack-analytics`).
+2. Confirm **Test users** includes `nivooo@gmail.com`.
+3. Click **Publish app** → **Production** (YouTube upload for your own channel does not need
+   Google verification for this personal use case).
+4. Re-run `.\scripts\fix_youtube_auth.ps1` once after publishing so CI gets a long-lived refresh token.
+
+Until the app is Published, scheduled YouTube jobs **soft-skip** (green workflow, no upload) instead
+of red-failing. Manual `workflow_dispatch` still fails closed so you notice.
 
 Build/preview/upload one storyboard:
 
