@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-09 10:20 UTC",
+  "generated_at": "2026-09-09 15:41 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -749,16 +749,96 @@
       "auto": true,
       "done": true,
       "created": "2026-09-09 02:25 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "tune_guide_seo: cheapest-indoor-herb-garden-apartment",
+      "detail": "CTR-first query: 4 impr, pos 3.0, 0 clicks",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-02 18:12 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 29 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 52), \u201caerogarden bounty vs bounty elite\u201d (pos 52), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -773,8 +853,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -799,6 +879,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 19 | Aff clicks 0 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 19 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
