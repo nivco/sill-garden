@@ -51,7 +51,9 @@ jobs:
           cache-dependency-path: requirements-youtube.txt
       - name: Install video dependencies
         run: |
-          sudo apt-get update
+          # Runner Chrome apt source sometimes hash-mismatches and breaks apt-get update.
+          sudo rm -f /etc/apt/sources.list.d/google-chrome*.list /etc/apt/sources.list.d/google*.list || true
+          sudo apt-get update -y
           sudo apt-get install -y ffmpeg fonts-dejavu-core fonts-liberation
           pip install -r requirements-youtube.txt
       - name: Verify Sill Garden channel access

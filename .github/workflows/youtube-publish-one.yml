@@ -47,7 +47,8 @@ jobs:
 
       - name: Install dependencies
         run: |
-          sudo apt-get update
+          sudo rm -f /etc/apt/sources.list.d/google-chrome*.list /etc/apt/sources.list.d/google*.list || true
+          sudo apt-get update -y
           sudo apt-get install -y ffmpeg
           pip install -r requirements-youtube.txt
 
