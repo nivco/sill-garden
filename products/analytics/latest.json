@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-10 02:25 UTC",
+  "generated_at": "2026-09-10 10:13 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 20,
-    "users_7d": 19,
-    "pageviews_7d": 27,
+    "sessions_7d": 13,
+    "users_7d": 13,
+    "pageviews_7d": 12,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 35,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
-    "youtube_sessions_7d": 14,
+    "youtube_sessions_7d": 10,
     "youtube_subs": 1,
-    "youtube_views_total": 256,
+    "youtube_views_total": 320,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 5.0,
+    "engagement_rate_pct": 0.0,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 24
   },
@@ -31,28 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 19,
-        "sessions": 20,
-        "screenPageViews": 27,
-        "engagedSessions": 1,
-        "averageSessionDuration_sec": 17.5,
-        "engagementRate_pct": 5.0
+        "activeUsers": 13,
+        "sessions": 13,
+        "screenPageViews": 12,
+        "engagedSessions": 0,
+        "averageSessionDuration_sec": 0.1,
+        "engagementRate_pct": 0.0
       },
       "top_pages": [
         {
           "pagePath": "/guides/",
-          "sessions": "8",
-          "screenPageViews": "10"
-        },
-        {
-          "pagePath": "/",
-          "sessions": "3",
-          "screenPageViews": "2"
-        },
-        {
-          "pagePath": "/disclosure/",
-          "sessions": "2",
-          "screenPageViews": "3"
+          "sessions": "5",
+          "screenPageViews": "5"
         },
         {
           "pagePath": "/guides/kratky-jar-herbs-apartment/",
@@ -65,17 +55,12 @@
           "screenPageViews": "2"
         },
         {
-          "pagePath": "/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
-          "sessions": "2",
-          "screenPageViews": "2"
-        },
-        {
-          "pagePath": "/about/",
+          "pagePath": "/",
           "sessions": "1",
-          "screenPageViews": "2"
+          "screenPageViews": "0"
         },
         {
-          "pagePath": "/guides/best-countertop-garden-apartments/",
+          "pagePath": "/disclosure/",
           "sessions": "1",
           "screenPageViews": "1"
         },
@@ -85,7 +70,7 @@
           "screenPageViews": "1"
         },
         {
-          "pagePath": "/guides/compare-aerogarden-models/",
+          "pagePath": "/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
           "sessions": "1",
           "screenPageViews": "1"
         }
@@ -93,14 +78,14 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Video",
-          "sessions": "14"
-        },
-        {
-          "sessionDefaultChannelGroup": "Direct",
-          "sessions": "4"
+          "sessions": "10"
         },
         {
           "sessionDefaultChannelGroup": "Cross-network",
+          "sessions": "1"
+        },
+        {
+          "sessionDefaultChannelGroup": "Direct",
           "sessions": "1"
         },
         {
@@ -111,16 +96,16 @@
       "source_medium": [
         {
           "sessionSourceMedium": "youtube / video",
-          "sessions": "14",
+          "sessions": "10",
+          "engagedSessions": "0"
+        },
+        {
+          "sessionSourceMedium": "(data not available)",
+          "sessions": "1",
           "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "4",
-          "engagedSessions": "1"
-        },
-        {
-          "sessionSourceMedium": "(data not available)",
           "sessions": "1",
           "engagedSessions": "0"
         },
@@ -144,7 +129,7 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 14,
+      "sessions_from_youtube": 10,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
@@ -622,7 +607,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 256,
+        "views": 320,
         "videos": 24
       },
       "recent_videos": [
@@ -746,16 +731,16 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-09 18:05 UTC"
+      "created": "2026-09-10 02:25 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden bounty vs bounty basic\u201d pos 52/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 52/1 impr; \u201caerogarden bounty vs harvest\u201d pos 38/2 impr; \u201caerogarden comparison\u201d pos 64/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden bounty vs bounty basic\u201d pos 52/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 52/1 impr; \u201caerogarden bounty vs harvest\u201d pos 40/2 impr; \u201caerogarden comparison\u201d pos 64/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-09 18:05 UTC"
+      "created": "2026-09-10 02:25 UTC"
     },
     {
       "priority": "P1",
@@ -764,97 +749,35 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-09 18:05 UTC"
+      "created": "2026-09-10 02:25 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "content",
+      "title": "Check CTAs on kratky-jar-herbs-apartment",
+      "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-10 02:25 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-09 02:25 UTC (15.7h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-09-09 18:05 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Refresh Google analytics OAuth so metrics stay live.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "created": "2026-09-10 02:25 UTC"
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 35 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 52), \u201caerogarden bounty vs bounty elite\u201d (pos 52), \u201caerogarden bounty vs harvest\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 7,
+    "ready": 6,
     "total": 7,
     "checks": [
       {
@@ -869,8 +792,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -895,6 +818,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 20 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 13 | Aff clicks 0 | GSC 0 | Setup 6/7"
   }
 }
