@@ -1,15 +1,15 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-09 18:54 UTC",
+  "generated_at": "2026-09-10 02:25 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 19,
-    "users_7d": 18,
-    "pageviews_7d": 26,
+    "sessions_7d": 20,
+    "users_7d": 19,
+    "pageviews_7d": 27,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 29,
+    "gsc_impressions_7d": 35,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
@@ -19,7 +19,7 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 5.3,
+    "engagement_rate_pct": 5.0,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 24
   },
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 18,
-        "sessions": 19,
-        "screenPageViews": 26,
+        "activeUsers": 19,
+        "sessions": 20,
+        "screenPageViews": 27,
         "engagedSessions": 1,
-        "averageSessionDuration_sec": 18.5,
-        "engagementRate_pct": 5.3
+        "averageSessionDuration_sec": 17.5,
+        "engagementRate_pct": 5.0
       },
       "top_pages": [
         {
@@ -80,12 +80,12 @@
           "screenPageViews": "1"
         },
         {
-          "pagePath": "/guides/compare-aerogarden-models/",
+          "pagePath": "/guides/cheapest-indoor-herb-garden-apartment/",
           "sessions": "1",
           "screenPageViews": "1"
         },
         {
-          "pagePath": "/guides/countertop-garden-system-guide/",
+          "pagePath": "/guides/compare-aerogarden-models/",
           "sessions": "1",
           "screenPageViews": "1"
         }
@@ -98,6 +98,10 @@
         {
           "sessionDefaultChannelGroup": "Direct",
           "sessions": "4"
+        },
+        {
+          "sessionDefaultChannelGroup": "Cross-network",
+          "sessions": "1"
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
@@ -114,6 +118,11 @@
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "4",
           "engagedSessions": "1"
+        },
+        {
+          "sessionSourceMedium": "(data not available)",
+          "sessions": "1",
+          "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "(not set)",
@@ -140,7 +149,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 29,
+      "impressions": 35,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -161,7 +170,7 @@
           "clicks": 0,
           "impressions": 2,
           "ctr": 0.0,
-          "position": 38.5
+          "position": 40.5
         },
         {
           "query": "aerogarden comparison",
@@ -187,9 +196,9 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 6,
           "ctr": 0.0,
-          "position": 45.0
+          "position": 45.2
         },
         {
           "query": "aerogarden vs click grow",
@@ -201,9 +210,9 @@
         {
           "query": "best budget herb garden under 50",
           "clicks": 0,
-          "impressions": 8,
+          "impressions": 11,
           "ctr": 0.0,
-          "position": 2.5
+          "position": 2.4
         },
         {
           "query": "best quick herb garden under 50",
@@ -217,7 +226,7 @@
           "clicks": 0,
           "impressions": 4,
           "ctr": 0.0,
-          "position": 43.2
+          "position": 43.0
         },
         {
           "query": "counter top garden",
@@ -225,6 +234,13 @@
           "impressions": 2,
           "ctr": 0.0,
           "position": 91.0
+        },
+        {
+          "query": "kitchen nano garden",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 63.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com"
@@ -833,7 +849,7 @@
     }
   ],
   "insights": [
-    "GSC: 29 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 52), \u201caerogarden bounty vs bounty elite\u201d (pos 52), \u201caerogarden bounty vs harvest\u201d (pos 38). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 35 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 52), \u201caerogarden bounty vs bounty elite\u201d (pos 52), \u201caerogarden bounty vs harvest\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -879,6 +895,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 19 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 20 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
