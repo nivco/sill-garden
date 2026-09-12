@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-11 18:50 UTC",
+  "generated_at": "2026-09-12 02:27 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 9,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 42,
+    "gsc_impressions_7d": 32,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
@@ -139,7 +139,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 42,
+      "impressions": 32,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -158,9 +158,9 @@
         {
           "query": "aerogarden bounty vs harvest",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 39.3
+          "position": 40.0
         },
         {
           "query": "aerogarden comparison",
@@ -170,25 +170,25 @@
           "position": 63.5
         },
         {
-          "query": "aerogarden harvest vs harvest elite",
+          "query": "aerogarden harvest models",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
-          "position": 50.0
+          "position": 42.0
         },
         {
           "query": "aerogarden model comparison",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 43.3
+          "position": 42.0
         },
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 44.7
+          "position": 45.7
         },
         {
           "query": "aerogarden vs click grow",
@@ -200,9 +200,9 @@
         {
           "query": "best budget herb garden under 50",
           "clicks": 0,
-          "impressions": 15,
+          "impressions": 10,
           "ctr": 0.0,
-          "position": 2.3
+          "position": 2.0
         },
         {
           "query": "best quick herb garden under 50",
@@ -214,9 +214,9 @@
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 5,
+          "impressions": 4,
           "ctr": 0.0,
-          "position": 43.2
+          "position": 42.8
         },
         {
           "query": "counter top garden",
@@ -224,6 +224,13 @@
           "impressions": 2,
           "ctr": 0.0,
           "position": 91.0
+        },
+        {
+          "query": "herbs that can grow indoors with low light",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 68.0
         },
         {
           "query": "kitchen nano garden",
@@ -839,7 +846,7 @@
     }
   ],
   "insights": [
-    "GSC: 42 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 52), \u201caerogarden bounty vs bounty elite\u201d (pos 52), \u201caerogarden bounty vs harvest\u201d (pos 39). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 32 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 52), \u201caerogarden bounty vs bounty elite\u201d (pos 52), \u201caerogarden bounty vs harvest\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
