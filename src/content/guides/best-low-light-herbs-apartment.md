@@ -1,25 +1,25 @@
 ---
-title: Best low-light herbs for apartment windowsills
-description: Herbs that tolerate a dim or north-facing apartment window, plus when a small grow light is worth it.
+title: Best low-light herbs for apartment windowsills (2026)
+description: "Herbs that tolerate a dim or north-facing apartment window, plus when a small grow light is worth it."
 pubDate: 2026-08-17
 cluster: herbs
 type: guide
 featured: true
 image: /images/guide-windowsill.jpg
 imageAlt: Rosemary and herbs on an indoor window
-verdict: Start with mint, chives, parsley, and oregano on a weaker sill. Basil and rosemary usually need a clip-on grow light to stay compact and productive indoors.
+verdict: "Start with mint, chives, parsley, and oregano on a weaker sill. Basil and rosemary usually need a clip-on grow light to stay compact and productive indoors."
 products:
-  - name: Clip-on LED grow light
-    note: The simplest upgrade for a dim or north-facing sill
-    search: LED clip grow light indoor plants
-  - name: Small herb pots with saucers
-    note: Keep each herb separate and protect the sill
-    search: herb pots with saucers indoor
-  - name: 24-hour outlet timer
-    note: Give supplemental light a consistent daily schedule
-    search: 24 hour mechanical outlet timer
+- name: Clip-on LED grow light
+  note: The simplest upgrade for a dim or north-facing sill
+  search: LED clip grow light indoor plants
+- name: Small herb pots with saucers
+  note: Keep each herb separate and protect the sill
+  search: herb pots with saucers indoor
+- name: 24-hour outlet timer
+  note: Give supplemental light a consistent daily schedule
+  search: 24 hour mechanical outlet timer
+updatedDate: 2026-09-12
 ---
-
 A dim apartment window can grow herbs, but it cannot grow every herb well. The best low-light herbs are plants that tolerate slower growth without stretching into weak, pale stems.
 
 ![Yellowing parsley when light is too weak](/images/inline-yellow-plant.jpg)
@@ -97,3 +97,8 @@ If you want built-in lighting and less watering work, compare the [best countert
 - [Windowsill herbs without a hydro kit](/guides/windowsill-herbs-without-kit/)
 - [Grow-light schedules for kitchen herbs](/guides/grow-light-schedules-herbs/)
 - [Landlord-safe indoor garden setup](/guides/landlord-safe-indoor-garden-setup/)
+
+## FAQ
+
+**Herbs that can grow indoors with low light?**  
+For "herbs that can grow indoors with low light", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
