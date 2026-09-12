@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-09-11 17:57 UTC",
+  "generated_at": "2026-09-12 17:29 UTC",
   "wow": {
-    "ga4_sessions_7d": -3.0,
-    "gsc_impressions_7d": 7.0,
+    "ga4_sessions_7d": -5.0,
+    "gsc_impressions_7d": -3.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 10,
-    "gsc_impressions_7d": 42,
+    "sessions_7d": 5,
+    "gsc_impressions_7d": 39,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
-    "youtube_sessions_7d": 6,
+    "youtube_sessions_7d": 2,
     "indexed_urls": 21
   },
   "top_queries": [
@@ -32,9 +32,9 @@
     {
       "query": "aerogarden bounty vs harvest",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 39.3
+      "position": 40.0
     },
     {
       "query": "aerogarden comparison",
@@ -44,46 +44,46 @@
       "position": 63.5
     },
     {
-      "query": "aerogarden harvest vs harvest elite",
+      "query": "aerogarden harvest models",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 50.0
+      "position": 42.0
     },
     {
       "query": "aerogarden model comparison",
       "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
-      "position": 43.3
+      "position": 41.3
+    },
+    {
+      "query": "aerogarden models",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 52.0
     },
     {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
       "impressions": 6,
       "ctr": 0.0,
-      "position": 44.7
+      "position": 46.3
     },
     {
       "query": "aerogarden vs click grow",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 50.0
+      "position": 52.0
     },
     {
       "query": "best budget herb garden under 50",
       "clicks": 0,
-      "impressions": 15,
+      "impressions": 10,
       "ctr": 0.0,
-      "position": 2.3
-    },
-    {
-      "query": "best quick herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 6.0
+      "position": 2.0
     }
   ],
   "learnings": [
@@ -92,7 +92,7 @@
     "WORKING: YouTube Shorts can drive early sessions → Keep UTM’d guide links in descriptions; refresh descriptions weekly",
     "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
     "Top search demand: \"aerogarden bounty vs bounty basic\" (1 impr, pos 52.0).",
-    "YouTube channel: 34 videos, 323 views, 6 site sessions from YouTube.",
+    "YouTube channel: 34 videos, 323 views, 2 site sessions from YouTube.",
     "YouTube publish log entries: 2."
   ]
 }
