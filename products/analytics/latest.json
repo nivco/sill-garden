@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-12 09:44 UTC",
+  "generated_at": "2026-09-12 14:44 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 4,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 32,
+    "gsc_impressions_7d": 39,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
@@ -120,7 +120,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 32,
+      "impressions": 39,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -160,23 +160,30 @@
         {
           "query": "aerogarden model comparison",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 42.0
+          "position": 41.3
+        },
+        {
+          "query": "aerogarden models",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 52.0
         },
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 6,
           "ctr": 0.0,
-          "position": 45.7
+          "position": 46.3
         },
         {
           "query": "aerogarden vs click grow",
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 50.0
+          "position": 52.0
         },
         {
           "query": "best budget herb garden under 50",
@@ -195,9 +202,9 @@
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 5,
           "ctr": 0.0,
-          "position": 42.8
+          "position": 43.2
         },
         {
           "query": "counter top garden",
@@ -207,18 +214,18 @@
           "position": 91.0
         },
         {
+          "query": "countertop gardens",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 88.0
+        },
+        {
           "query": "herbs that can grow indoors with low light",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
           "position": 68.0
-        },
-        {
-          "query": "kitchen nano garden",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 63.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com"
@@ -752,16 +759,87 @@
       "auto": true,
       "done": true,
       "created": "2026-09-12 02:27 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
-    "GSC: 32 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 52), \u201caerogarden bounty vs bounty elite\u201d (pos 52), \u201caerogarden bounty vs harvest\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 39 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 52), \u201caerogarden bounty vs bounty elite\u201d (pos 52), \u201caerogarden bounty vs harvest\u201d (pos 40). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -776,8 +854,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -802,6 +880,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 5 | Aff clicks 0 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 5 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
