@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-14 17:20 UTC",
+  "generated_at": "2026-09-14 19:39 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 8,
-    "users_7d": 7,
-    "pageviews_7d": 7,
+    "sessions_7d": 9,
+    "users_7d": 8,
+    "pageviews_7d": 8,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 30,
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 7,
-        "sessions": 8,
-        "screenPageViews": 7,
+        "activeUsers": 8,
+        "sessions": 9,
+        "screenPageViews": 8,
         "engagedSessions": 0,
-        "averageSessionDuration_sec": 1.2,
+        "averageSessionDuration_sec": 1.1,
         "engagementRate_pct": 0.0
       },
       "top_pages": [
         {
           "pagePath": "/guides/basil-countertop-first-harvest/",
-          "sessions": "4",
-          "screenPageViews": "4"
+          "sessions": "5",
+          "screenPageViews": "5"
         },
         {
           "pagePath": "/",
@@ -66,6 +66,10 @@
           "sessions": "6"
         },
         {
+          "sessionDefaultChannelGroup": "Cross-network",
+          "sessions": "1"
+        },
+        {
           "sessionDefaultChannelGroup": "Direct",
           "sessions": "1"
         },
@@ -78,6 +82,11 @@
         {
           "sessionSourceMedium": "duckduckgo / organic",
           "sessions": "5",
+          "engagedSessions": "0"
+        },
+        {
+          "sessionSourceMedium": "(data not available)",
+          "sessions": "1",
           "engagedSessions": "0"
         },
         {
@@ -705,7 +714,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-14 02:42 UTC"
+      "created": "2026-09-14 17:20 UTC"
     },
     {
       "priority": "P1",
@@ -714,7 +723,7 @@
       "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 42/3 impr; \u201caerogarden harvest models\u201d pos 42/1 impr; \u201caerogarden model comparison\u201d pos 42/2 impr; \u201caerogarden models\u201d pos 52/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-14 02:42 UTC"
+      "created": "2026-09-14 17:20 UTC"
     },
     {
       "priority": "P1",
@@ -723,88 +732,16 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-14 02:42 UTC"
+      "created": "2026-09-14 17:20 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-09-14 02:42 UTC (14.6h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-14 02:42 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Refresh Google analytics OAuth so metrics stay live.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "created": "2026-09-14 17:20 UTC"
     }
   ],
   "insights": [
@@ -854,6 +791,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 8 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 9 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }

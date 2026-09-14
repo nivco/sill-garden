@@ -411,6 +411,19 @@
       "priority": "P1",
       "done": false,
       "created": "2026-09-02 18:12 UTC"
+    },
+    {
+      "id": "aa71351617af",
+      "fingerprint": "aa71351617af",
+      "role": "seo",
+      "type": "tune_guide_seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 3 impr, pos 41.7, 0 clicks",
+      "target": "aerogarden-vs-click-and-grow",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-09-14 19:39 UTC"
     }
   ],
   "applied_log": [
@@ -553,5 +566,5 @@
       "reason": "CTR-first query desc: 6 impr, pos 46.3, 0 clicks"
     }
   ],
-  "updated": "2026-09-14 11:11 UTC"
+  "updated": "2026-09-14 19:39 UTC"
 }
