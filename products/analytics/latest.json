@@ -1,15 +1,15 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-15 10:39 UTC",
+  "generated_at": "2026-09-15 15:59 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 8,
-    "users_7d": 7,
-    "pageviews_7d": 8,
+    "sessions_7d": 10,
+    "users_7d": 9,
+    "pageviews_7d": 10,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 22,
+    "gsc_impressions_7d": 30,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
@@ -31,11 +31,11 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 7,
-        "sessions": 8,
-        "screenPageViews": 8,
+        "activeUsers": 9,
+        "sessions": 10,
+        "screenPageViews": 10,
         "engagedSessions": 0,
-        "averageSessionDuration_sec": 1.2,
+        "averageSessionDuration_sec": 1.0,
         "engagementRate_pct": 0.0
       },
       "top_pages": [
@@ -46,8 +46,8 @@
         },
         {
           "pagePath": "/",
-          "sessions": "1",
-          "screenPageViews": "1"
+          "sessions": "3",
+          "screenPageViews": "3"
         },
         {
           "pagePath": "/guides/cheapest-indoor-herb-garden-apartment/",
@@ -66,11 +66,11 @@
           "sessions": "6"
         },
         {
-          "sessionDefaultChannelGroup": "Cross-network",
-          "sessions": "1"
+          "sessionDefaultChannelGroup": "Direct",
+          "sessions": "3"
         },
         {
-          "sessionDefaultChannelGroup": "Direct",
+          "sessionDefaultChannelGroup": "Cross-network",
           "sessions": "1"
         }
       ],
@@ -81,12 +81,12 @@
           "engagedSessions": "0"
         },
         {
-          "sessionSourceMedium": "(data not available)",
-          "sessions": "1",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": "3",
           "engagedSessions": "0"
         },
         {
-          "sessionSourceMedium": "(direct) / (none)",
+          "sessionSourceMedium": "(data not available)",
           "sessions": "1",
           "engagedSessions": "0"
         },
@@ -115,14 +115,28 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 22,
+      "impressions": 30,
       "top_queries": [
+        {
+          "query": "aerogarden bounty vs bounty basic",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 54.0
+        },
         {
           "query": "aerogarden bounty vs harvest",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 41.0
+          "position": 42.0
+        },
+        {
+          "query": "aerogarden comparison",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 66.0
         },
         {
           "query": "aerogarden harvest models",
@@ -130,6 +144,13 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 42.0
+        },
+        {
+          "query": "aerogarden harvest vs harvest elite",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 49.0
         },
         {
           "query": "aerogarden model comparison",
@@ -148,7 +169,7 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 6,
           "ctr": 0.0,
           "position": 46.8
         },
@@ -169,9 +190,9 @@
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 44.5
+          "position": 44.3
         },
         {
           "query": "countertop gardens",
@@ -597,7 +618,7 @@
         {
           "id": "F073SleZ9aA",
           "title": "Kratky jar herbs for apartments (silent DIY) #Shorts",
-          "views": 4,
+          "views": 5,
           "likes": 0,
           "published": "2026-09-04T13:19:23Z",
           "url": "https://www.youtube.com/watch?v=F073SleZ9aA"
@@ -637,7 +658,7 @@
         {
           "id": "6DXooWroM3g",
           "title": "Countertop garden systems \u2014 kits vs DIY for apartments \u2014 Apartment Guide (2026)",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-09-01T18:24:19Z",
           "url": "https://www.youtube.com/watch?v=6DXooWroM3g"
@@ -726,16 +747,87 @@
       "auto": true,
       "done": true,
       "created": "2026-09-15 02:45 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-26 06:28 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-28 17:51 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-08-31 12:05 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Refresh Google analytics OAuth so metrics stay live.",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "data",
+      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
+      "detail": "From monthly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-01 10:43 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
-    "GSC: 22 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden harvest models\u201d (pos 42), \u201caerogarden model comparison\u201d (pos 42). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 30 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 54), \u201caerogarden bounty vs harvest\u201d (pos 42), \u201caerogarden comparison\u201d (pos 66). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -750,8 +842,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -776,6 +868,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 8 | Aff clicks 0 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 10 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
