@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-15 19:20 UTC",
+  "generated_at": "2026-09-16 02:40 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,13 +9,13 @@
     "pageviews_7d": 11,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 30,
+    "gsc_impressions_7d": 22,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 325,
+    "youtube_views_total": 326,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -63,31 +63,22 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Search",
-          "sessions": "7"
+          "sessions": "8"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
           "sessions": "3"
-        },
-        {
-          "sessionDefaultChannelGroup": "Cross-network",
-          "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "duckduckgo / organic",
-          "sessions": "6",
+          "sessions": "7",
           "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "3",
-          "engagedSessions": "0"
-        },
-        {
-          "sessionSourceMedium": "(data not available)",
-          "sessions": "1",
           "engagedSessions": "0"
         },
         {
@@ -115,7 +106,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 30,
+      "impressions": 22,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -127,9 +118,9 @@
         {
           "query": "aerogarden bounty vs harvest",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 42.0
+          "position": 44.5
         },
         {
           "query": "aerogarden comparison",
@@ -155,9 +146,9 @@
         {
           "query": "aerogarden model comparison",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 41.5
+          "position": 40.0
         },
         {
           "query": "aerogarden models",
@@ -169,9 +160,9 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 5,
           "ctr": 0.0,
-          "position": 46.8
+          "position": 47.0
         },
         {
           "query": "aerogarden vs click grow",
@@ -183,16 +174,16 @@
         {
           "query": "best budget herb garden under 50",
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 2,
           "ctr": 0.0,
           "position": 2.0
         },
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 44.3
+          "position": 44.5
         },
         {
           "query": "countertop gardens",
@@ -595,7 +586,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 325,
+        "views": 326,
         "videos": 34
       },
       "recent_videos": [
@@ -822,7 +813,7 @@
     }
   ],
   "insights": [
-    "GSC: 30 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 54), \u201caerogarden bounty vs harvest\u201d (pos 42), \u201caerogarden comparison\u201d (pos 66). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 22 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 54), \u201caerogarden bounty vs harvest\u201d (pos 44), \u201caerogarden comparison\u201d (pos 66). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
