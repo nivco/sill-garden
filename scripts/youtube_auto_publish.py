@@ -105,6 +105,10 @@ def main() -> int:
         print(f"Skipped — daily cap reached ({done_today}/{daily_max})")
         return 0
 
+    if args.short_slot and int(queue.get("short_slots_per_day") or 0) <= 0 and not args.force:
+        print("Skipped Short — short_slots_per_day is 0 (quality pause).")
+        return 0
+
     min_days = max(1, int(queue.get("min_days_between") or 1))
     last = last_upload_date(uploads, shorts=args.short_slot)
     ok, reason = eligible(last, min_days, force=args.force)

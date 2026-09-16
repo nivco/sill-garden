@@ -58,16 +58,8 @@ const productCards =
     </header>
 
     {
-      image && (
-        <figure class="guide__hero fade-up" style="animation-delay: 80ms">
-          <img src={image} alt={imageAlt || title} width="1200" height="750" loading="eager" />
-        </figure>
-      )
-    }
-
-    {
       verdict && (
-        <aside class="verdict fade-up" style="animation-delay: 120ms">
+        <aside class="verdict fade-up" style="animation-delay: 80ms">
           <div class="verdict__label">Quick verdict</div>
           <p>{verdict}</p>
         </aside>
@@ -103,6 +95,14 @@ const productCards =
             ))}
           </div>
         </section>
+      )
+    }
+
+    {
+      image && (
+        <figure class="guide__hero fade-up" style="animation-delay: 120ms">
+          <img src={image} alt={imageAlt || title} width="1200" height="750" loading="lazy" />
+        </figure>
       )
     }
 

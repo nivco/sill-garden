@@ -1,10 +1,10 @@
 {
   "auto_publish_enabled": true,
   "default_privacy": "public",
-  "min_days_between": 1,
-  "max_days_between": 1,
-  "max_uploads_per_day": 2,
-  "short_slots_per_day": 1,
+  "min_days_between": 3,
+  "max_days_between": 7,
+  "max_uploads_per_day": 1,
+  "short_slots_per_day": 0,
   "manual_queue": [],
-  "notes": "Daily public long-form at 14:00 UTC plus one Short at 09:00 UTC. Planner writes the next unused guide storyboard when the queue is empty."
+  "notes": "Paused daily Shorts after Sep 2026 view collapse (slideshow spam on a 1-sub channel). One search-intent long-form every 3+ days. Shorts stay off until a video clears ~100 views."
 }

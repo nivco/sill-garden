@@ -236,15 +236,36 @@ def make_short_storyboard(topic: dict) -> dict:
     }
 
 
+# Search-shaped titles. Generic "Apartment Guide (2026)" slideshows got ~0 views after Sep 5.
+SEARCH_TITLES = {
+    "compare-aerogarden-models": "AeroGarden Bounty vs Harvest (2026) — Which Should You Buy?",
+    "aerogarden-vs-click-and-grow": "AeroGarden vs Click and Grow (2026) — Which Is Better?",
+    "best-countertop-garden-apartments": "Best Countertop Garden for Apartments (2026)",
+    "cheapest-indoor-herb-garden-apartment": "Cheapest Indoor Herb Garden Under $50 (2026)",
+    "click-and-grow-vs-idoo-auk": "Click and Grow vs iDOO vs Auk (2026)",
+}
+
+
+def _search_title(topic: dict) -> str:
+    slug = topic["slug"]
+    if slug in SEARCH_TITLES:
+        return SEARCH_TITLES[slug]
+    short_title = re.sub(r"\s*\(2026\)\s*", " ", topic["title"]).strip()
+    short_title = re.sub(r"\s*—\s*Apartment Guide\s*$", "", short_title).strip()
+    if "(2026)" not in short_title and len(short_title) < 70:
+        return f"{short_title} (2026)"
+    return short_title
+
+
 def make_storyboard(topic: dict) -> dict:
     slug = topic["slug"]
     video_id = f"video-{slug}"
-    short_title = re.sub(r"\s*\(2026\)\s*", " ", topic["title"]).strip()
+    short_title = _search_title(topic)
     verdict = topic["verdict"] or topic["description"]
     image = topic["image"]
     return {
         "id": video_id,
-        "title": f"{short_title} — Apartment Guide (2026)",
+        "title": short_title,
         "filename": f"sill-{slug}.mp4",
         "voice": "en-US-AvaMultilingualNeural",
         "guide_slug": slug,
