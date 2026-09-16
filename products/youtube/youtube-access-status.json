@@ -1,15 +1,12 @@
 {
-  "ready": true,
-  "checked_at": "2026-09-15T17:53:48.530197+00:00",
-  "channel": {
-    "id": "UCc31HDBMhoJtsmZYk0Fo56w",
-    "title": "Sill Garden",
-    "handle": "@sillgarden",
-    "subscribers": "1",
-    "views": "325"
-  },
-  "error": null,
+  "ready": false,
+  "checked_at": "2026-09-16T14:06:30.518702+00:00",
+  "channel": null,
+  "error": "('invalid_grant: Token has been expired or revoked.', {'error': 'invalid_grant', 'error_description': 'Token has been expired or revoked.'})",
   "next_steps": [
-    "YouTube upload OAuth OK"
+    "Refresh token revoked (common when OAuth app is still in Testing).",
+    "Local: .\\scripts\\fix_youtube_auth.ps1",
+    "Or: python scripts/youtube_oauth_login.py --force && python scripts/youtube_token_sync.py",
+    "Permanent: Google Cloud \u2192 OAuth consent screen \u2192 Publish app (Testing tokens die every ~7 days)."
   ]
 }
