@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-16 18:31 UTC",
+  "generated_at": "2026-09-17 18:39 UTC",
   "wow": {
-    "ga4_sessions_7d": 5.0,
-    "gsc_impressions_7d": 2.0,
+    "ga4_sessions_7d": 2.0,
+    "gsc_impressions_7d": 5.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 13,
-    "gsc_impressions_7d": 24,
+    "sessions_7d": 14,
+    "gsc_impressions_7d": 27,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -25,9 +25,9 @@
     {
       "query": "aerogarden bounty vs harvest",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 44.5
+      "position": 45.0
     },
     {
       "query": "aerogarden comparison",
@@ -35,13 +35,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 66.0
-    },
-    {
-      "query": "aerogarden harvest models",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 42.0
     },
     {
       "query": "aerogarden harvest vs harvest elite",
@@ -53,9 +46,9 @@
     {
       "query": "aerogarden model comparison",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 40.0
+      "position": 42.0
     },
     {
       "query": "aerogarden models",
@@ -84,6 +77,13 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 50.0
+    },
+    {
+      "query": "click and grow vs aerogarden",
+      "clicks": 0,
+      "impressions": 5,
+      "ctr": 0.0,
+      "position": 45.8
     }
   ],
   "learnings": [
