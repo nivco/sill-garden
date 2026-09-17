@@ -1,27 +1,27 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-16 19:10 UTC",
+  "generated_at": "2026-09-17 02:45 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 13,
-    "users_7d": 11,
-    "pageviews_7d": 13,
+    "sessions_7d": 14,
+    "users_7d": 12,
+    "pageviews_7d": 14,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 24,
+    "gsc_impressions_7d": 20,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 0,
-    "youtube_subs": null,
-    "youtube_views_total": null,
+    "youtube_subs": 1,
+    "youtube_views_total": 332,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 0.0,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": null
+    "youtube_videos": 34
   },
   "sources": {
     "site": {
@@ -31,9 +31,9 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 11,
-        "sessions": 13,
-        "screenPageViews": 13,
+        "activeUsers": 12,
+        "sessions": 14,
+        "screenPageViews": 14,
         "engagedSessions": 0,
         "averageSessionDuration_sec": 0.7,
         "engagementRate_pct": 0.0
@@ -41,8 +41,8 @@
       "top_pages": [
         {
           "pagePath": "/guides/basil-countertop-first-harvest/",
-          "sessions": "8",
-          "screenPageViews": "8"
+          "sessions": "9",
+          "screenPageViews": "9"
         },
         {
           "pagePath": "/",
@@ -63,7 +63,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Organic Search",
-          "sessions": "10"
+          "sessions": "11"
         },
         {
           "sessionDefaultChannelGroup": "Direct",
@@ -73,7 +73,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "duckduckgo / organic",
-          "sessions": "9",
+          "sessions": "10",
           "engagedSessions": "0"
         },
         {
@@ -106,7 +106,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 24,
+      "impressions": 20,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -128,13 +128,6 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 66.0
-        },
-        {
-          "query": "aerogarden harvest models",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 42.0
         },
         {
           "query": "aerogarden harvest vs harvest elite",
@@ -179,13 +172,6 @@
           "position": 50.0
         },
         {
-          "query": "best budget herb garden under 50",
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0.0,
-          "position": 2.0
-        },
-        {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
           "impressions": 2,
@@ -198,13 +184,6 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 88.0
-        },
-        {
-          "query": "herbs that can grow indoors with low light",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 68.0
         },
         {
           "query": "kitchen counter garden",
@@ -588,7 +567,80 @@
       "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "skipped": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
+      "channel": {
+        "id": "UCc31HDBMhoJtsmZYk0Fo56w",
+        "title": "Sill Garden",
+        "handle": "@sillgarden",
+        "subscribers": 1,
+        "views": 332,
+        "videos": 34
+      },
+      "recent_videos": [
+        {
+          "id": "cceEHXgSlYc",
+          "title": "Mint on a windowsill \u2014 first harvest guide #Shorts",
+          "views": 2,
+          "likes": 0,
+          "published": "2026-09-05T12:31:14Z",
+          "url": "https://www.youtube.com/watch?v=cceEHXgSlYc"
+        },
+        {
+          "id": "pvMlVD1InHQ",
+          "title": "Mint on a windowsill \u2014 first harvest guide \u2014 Apartment Guide (2026)",
+          "views": 1,
+          "likes": 0,
+          "published": "2026-09-04T17:21:59Z",
+          "url": "https://www.youtube.com/watch?v=pvMlVD1InHQ"
+        },
+        {
+          "id": "F073SleZ9aA",
+          "title": "Kratky jar herbs for apartments (silent DIY) #Shorts",
+          "views": 5,
+          "likes": 0,
+          "published": "2026-09-04T13:19:23Z",
+          "url": "https://www.youtube.com/watch?v=F073SleZ9aA"
+        },
+        {
+          "id": "HhPYlOwDZ1w",
+          "title": "Kratky jar herbs for apartments (silent DIY) \u2014 Apartment Guide (2026)",
+          "views": 2,
+          "likes": 0,
+          "published": "2026-09-03T17:30:20Z",
+          "url": "https://www.youtube.com/watch?v=HhPYlOwDZ1w"
+        },
+        {
+          "id": "KMO-Fa7AJ_s",
+          "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes #Shorts",
+          "views": 28,
+          "likes": 0,
+          "published": "2026-09-03T13:25:11Z",
+          "url": "https://www.youtube.com/watch?v=KMO-Fa7AJ_s"
+        },
+        {
+          "id": "ekXFbbs57dU",
+          "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes \u2014 Apartment Guide (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-02T17:35:44Z",
+          "url": "https://www.youtube.com/watch?v=ekXFbbs57dU"
+        },
+        {
+          "id": "Qvl0xExEM4c",
+          "title": "Countertop garden systems \u2014 kits vs DIY for apartments #Shorts",
+          "views": 8,
+          "likes": 0,
+          "published": "2026-09-02T13:40:14Z",
+          "url": "https://www.youtube.com/watch?v=Qvl0xExEM4c"
+        },
+        {
+          "id": "6DXooWroM3g",
+          "title": "Countertop garden systems \u2014 kits vs DIY for apartments \u2014 Apartment Guide (2026)",
+          "views": 1,
+          "likes": 0,
+          "published": "2026-09-01T18:24:19Z",
+          "url": "https://www.youtube.com/watch?v=6DXooWroM3g"
+        }
+      ]
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -747,13 +799,12 @@
     }
   ],
   "insights": [
-    "GSC: 24 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 54), \u201caerogarden bounty vs harvest\u201d (pos 44), \u201caerogarden comparison\u201d (pos 66). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 20 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 54), \u201caerogarden bounty vs harvest\u201d (pos 44), \u201caerogarden comparison\u201d (pos 66). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
-    "Optional: set YOUTUBE_API_KEY + channel handle when you publish Sill Garden videos.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 7,
     "total": 7,
     "checks": [
       {
@@ -783,8 +834,8 @@
       },
       {
         "name": "YouTube",
-        "ok": false,
-        "detail": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
+        "ok": true,
+        "detail": "Sill Garden"
       },
       {
         "name": "Affiliate click counters",
@@ -794,6 +845,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 13 | Aff clicks 0 | GSC 0 | Setup 6/7"
+    "headline": "Sessions 14 | Aff clicks 0 | GSC 0 | Setup 7/7"
   }
 }
