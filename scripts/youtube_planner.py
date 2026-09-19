@@ -168,9 +168,9 @@ def _short_headline(title: str) -> str:
     return " ".join(words[:mid]) + "\n" + " ".join(words[mid:])
 
 
-def make_short_storyboard(topic: dict) -> dict:
+def make_short_storyboard(topic: dict, *, storyboard_id: str | None = None) -> dict:
     slug = topic["slug"]
-    short_id = f"short-{slug}"
+    short_id = storyboard_id or f"short-{slug}"
     short_title = re.sub(r"\s*\(2026\)\s*", " ", topic["title"]).strip()
     verdict = topic["verdict"] or topic["description"]
     photo = _photo_file(topic["image"])
@@ -257,9 +257,9 @@ def _search_title(topic: dict) -> str:
     return short_title
 
 
-def make_storyboard(topic: dict) -> dict:
+def make_storyboard(topic: dict, *, storyboard_id: str | None = None) -> dict:
     slug = topic["slug"]
-    video_id = f"video-{slug}"
+    video_id = storyboard_id or f"video-{slug}"
     short_title = _search_title(topic)
     verdict = topic["verdict"] or topic["description"]
     image = topic["image"]
@@ -356,18 +356,32 @@ def make_storyboard(topic: dict) -> dict:
     }
 
 
-def ranked_topics(*, prefix: str) -> list[tuple[float, dict, list[str]]]:
+def ranked_topics(*, prefix: str) -> list[tuple[float, dict, list[str], str]]:
+    """Rank guide topics. Prefer never-uploaded; otherwise dated remakes for cadence.
+
+    Returns (score, topic, matched_queries, storyboard_id).
+    """
+    from datetime import date
+
     ids = used_ids()
     queries = query_terms()
-    proposals: list[tuple[float, dict, list[str]]] = []
+    fresh: list[tuple[float, dict, list[str], str]] = []
+    remakes: list[tuple[float, dict, list[str], str]] = []
+    stamp = date.today().strftime("%Y%m%d")
     for topic in guide_topics():
-        candidate_id = f"{prefix}{topic['slug']}"
-        if candidate_id in ids:
-            continue
+        base_id = f"{prefix}{topic['slug']}"
         score, matches = score_topic(topic, queries)
-        proposals.append((score, topic, matches))
-    proposals.sort(key=lambda item: (-item[0], item[1]["slug"]))
-    return proposals
+        if base_id not in ids:
+            fresh.append((score, topic, matches, base_id))
+            continue
+        remake_id = f"{base_id}-{stamp}"
+        if remake_id in ids:
+            continue
+        # Slightly prefer high-demand remakes so we don't stall when guides are exhausted.
+        remakes.append((score * 0.85, topic, matches, remake_id))
+    fresh.sort(key=lambda item: (-item[0], item[1]["slug"]))
+    remakes.sort(key=lambda item: (-item[0], item[1]["slug"]))
+    return fresh or remakes
 
 
 def write_storyboard(story: dict) -> Path | None:
@@ -392,8 +406,8 @@ def main() -> int:
     if args.write_all:
         written = 0
         for prefix, factory in (("video-", make_storyboard), ("short-", make_short_storyboard)):
-            for _score, topic, _matches in ranked_topics(prefix=prefix):
-                if write_storyboard(factory(topic)):
+            for _score, topic, _matches, sid in ranked_topics(prefix=prefix):
+                if write_storyboard(factory(topic, storyboard_id=sid)):
                     written += 1
         print(f"Wrote {written} storyboards")
         return 0
@@ -410,8 +424,12 @@ def main() -> int:
         print("No unused Sill Garden guide topics remain.")
         return 0
 
-    score, topic, matches = proposals[0]
-    story = make_short_storyboard(topic) if shorts else make_storyboard(topic)
+    score, topic, matches, sid = proposals[0]
+    story = (
+        make_short_storyboard(topic, storyboard_id=sid)
+        if shorts
+        else make_storyboard(topic, storyboard_id=sid)
+    )
     proposal = {
         "proposal": {
             "id": story["id"],
@@ -419,6 +437,7 @@ def main() -> int:
             "title": story["title"],
             "score": round(score, 2),
             "matched_gsc_queries": matches,
+            "remake": sid != f"{prefix}{topic['slug']}",
         },
         "storyboard": story,
     }
