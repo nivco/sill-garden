@@ -59,13 +59,8 @@ jobs:
       - name: Verify Sill Garden channel access
         id: gate
         run: |
-          # Schedule: soft-fail (no red alert) when OAuth expired — skip uploads.
-          # Manual dispatch: fail closed so you notice immediately.
-          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
-            python scripts/youtube_access_gate.py --strict
-          else
-            python scripts/youtube_access_gate.py --warn-only
-          fi
+          # Fail closed — warn-only soft-skips left the channel without uploads for weeks.
+          python scripts/youtube_access_gate.py --strict
       - name: Plan next videos
         if: steps.gate.outputs.ready == 'true'
         continue-on-error: true

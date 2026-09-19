@@ -138,8 +138,10 @@ keeps breaking YouTube CI.
    Google verification for this personal use case).
 4. Re-run `.\scripts\fix_youtube_auth.ps1` once after publishing so CI gets a long-lived refresh token.
 
-Until the app is Published, scheduled YouTube jobs **soft-skip** (green workflow, no upload) instead
-of red-failing. Manual `workflow_dispatch` still fails closed so you notice.
+Until the app is **Published**, refresh tokens die about every **7 days**. Scheduled YouTube
+jobs now **fail closed** (red CI + GitHub email) when OAuth is dead — they no longer soft-skip.
+Re-run `.\scripts\fix_youtube_auth.ps1` after publishing the consent screen so CI gets a
+long-lived refresh token.
 
 Build/preview/upload one storyboard:
 
