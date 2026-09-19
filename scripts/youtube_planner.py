@@ -34,7 +34,110 @@ STOP_WORDS = {
     "the",
     "to",
     "with",
+    "vs",
+    "2026",
 }
+
+# Adjacent angles when every published guide already has a video+short.
+# Each row: synthetic slug, title, nearest real guide for CTA, image hint.
+RELATED_TOPIC_SEEDS: list[dict] = [
+    {
+        "slug": "related-basil-vs-mint-windowsill",
+        "title": "Basil vs Mint on a Windowsill (2026) — Which First?",
+        "description": "Which herb to start on a small apartment windowsill — basil for cooking speed vs mint for forgiveness.",
+        "verdict": "Start mint if you forget water; start basil if you cook often and can give brighter light.",
+        "guide_slug": "mint-windowsill-first-harvest",
+        "image": "images/inline-seedlings.jpg",
+    },
+    {
+        "slug": "related-grow-light-vs-sunny-window",
+        "title": "Grow Light vs Sunny Window for Apartment Herbs (2026)",
+        "description": "When a cheap clip light beats hoping for a south window — and when natural light is enough.",
+        "verdict": "If stems stretch in a week, add a timer light. A bright window alone rarely enough for basil.",
+        "guide_slug": "grow-light-schedules-herbs",
+        "image": "images/inline-apartment.jpg",
+    },
+    {
+        "slug": "related-hydroponic-vs-soil-apartment",
+        "title": "Hydroponic vs Soil Herbs in an Apartment (2026)",
+        "description": "Kratky jars and countertop pods vs soil pots — mess, speed, and landlord-safe tradeoffs.",
+        "verdict": "Soil pots are quieter and cheaper to start; hydro wins if you want faster leafy greens with a tray.",
+        "guide_slug": "kratky-jar-herbs-apartment",
+        "image": "images/inline-pots.jpg",
+    },
+    {
+        "slug": "related-first-month-countertop-garden",
+        "title": "First Month With a Countertop Garden (What Actually Happens)",
+        "description": "Week-by-week expectations for pods, algae, stretchy stems, and the first harvest in a small kitchen.",
+        "verdict": "Expect slow week 1–2. Fix light before buying more pods. Harvest lightly once leaves fill out.",
+        "guide_slug": "countertop-garden-system-guide",
+        "image": "images/inline-counter-plant.jpg",
+    },
+    {
+        "slug": "related-stop-overwatering-indoor-herbs",
+        "title": "Stop Overwatering Indoor Herbs (Apartment Fix)",
+        "description": "Yellow leaves, soggy soil, and tray overflow — the renter-safe watering routine that stops killing basil.",
+        "verdict": "Water less, tray always, check weight not schedule. Yellow lower leaves usually mean wet roots or weak light.",
+        "guide_slug": "yellow-leaves-leggy-seedlings-indoor-herbs",
+        "image": "images/inline-greenery.jpg",
+    },
+    {
+        "slug": "related-best-herbs-for-renters",
+        "title": "Best Herbs for Renters (No Drill, No Damage)",
+        "description": "Landlord-safe herbs and setups that sit on trays — no wall mounts, no permanent grow tents.",
+        "verdict": "Mint, chives, and parsley on a trayed sill or quiet countertop kit beat rosemary in most rentals.",
+        "guide_slug": "landlord-safe-indoor-garden-setup",
+        "image": "images/inline-shelf-herbs.jpg",
+    },
+    {
+        "slug": "related-quietest-indoor-garden",
+        "title": "Quietest Indoor Garden for Studios (2026)",
+        "description": "Pump noise, fan hum, and light glare — what to buy if you sleep in the same room as the plants.",
+        "verdict": "Skip loud aerator pumps. Prefer passive Kratky or soil trays; schedule lights for waking hours.",
+        "guide_slug": "quiet-countertop-gardens-studios",
+        "image": "images/inline-apartment.jpg",
+    },
+    {
+        "slug": "related-pod-refills-worth-it",
+        "title": "Are Countertop Garden Pod Refills Worth It?",
+        "description": "True monthly cost of branded pods vs seed-your-own — when refills make sense for apartment cooks.",
+        "verdict": "Refills are fine for convenience herbs you eat weekly; switch to seed for high-volume basil.",
+        "guide_slug": "countertop-garden-pod-refill-cost",
+        "image": "images/inline-pots.jpg",
+    },
+    {
+        "slug": "related-click-and-grow-vs-aerogarden-2026",
+        "title": "Click and Grow vs AeroGarden in 2026 — Honest Pick",
+        "description": "Footprint, noise, pods, and who should buy which for a small kitchen counter.",
+        "verdict": "Choose Click and Grow for simpler quiet setups; AeroGarden when you want more control and capacity.",
+        "guide_slug": "aerogarden-vs-click-and-grow",
+        "image": "images/guide-windowsill.jpg",
+    },
+    {
+        "slug": "related-indoor-herbs-without-south-window",
+        "title": "Indoor Herbs Without a South Window (2026)",
+        "description": "Low-light picks and the minimum clip-light setup when your apartment only has a dim sill.",
+        "verdict": "Skip rosemary. Start mint/chives and add a $20 timer light before buying a big kit.",
+        "guide_slug": "best-low-light-herbs-apartment",
+        "image": "images/inline-seedlings-alt.jpg",
+    },
+    {
+        "slug": "related-apartment-garden-on-a-budget",
+        "title": "Apartment Herb Garden Under $40 (2026)",
+        "description": "Cheapest path that still works — jars, trays, one light — without a $200 countertop system.",
+        "verdict": "Tray + pots + one clip light beats a cheap no-light kit. Spend on light before branding.",
+        "guide_slug": "cheapest-indoor-herb-garden-apartment",
+        "image": "images/inline-pots.jpg",
+    },
+    {
+        "slug": "related-when-to-harvest-basil-indoors",
+        "title": "When to Harvest Basil Indoors (Don't Wait Too Long)",
+        "description": "Pinching timing so indoor basil bushes instead of bolting on a countertop or sill.",
+        "verdict": "Pinch above a leaf pair once you have 6+ true leaves. Never strip the whole stem.",
+        "guide_slug": "basil-countertop-first-harvest",
+        "image": "images/inline-greenery.jpg",
+    },
+]
 
 
 def slugify(value: str) -> str:
@@ -169,8 +272,8 @@ def _short_headline(title: str) -> str:
 
 
 def make_short_storyboard(topic: dict, *, storyboard_id: str | None = None) -> dict:
-    slug = topic["slug"]
-    short_id = storyboard_id or f"short-{slug}"
+    slug = topic.get("guide_slug") or topic["slug"]
+    short_id = storyboard_id or f"short-{topic['slug']}"
     short_title = re.sub(r"\s*\(2026\)\s*", " ", topic["title"]).strip()
     verdict = topic["verdict"] or topic["description"]
     photo = _photo_file(topic["image"])
@@ -178,9 +281,10 @@ def make_short_storyboard(topic: dict, *, storyboard_id: str | None = None) -> d
         "id": short_id,
         "format": "short",
         "title": f"{short_title} #Shorts",
-        "filename": f"sill-{slug}-short.mp4",
+        "filename": f"sill-{topic['slug']}-short.mp4",
         "voice": "en-US-AvaMultilingualNeural",
         "guide_slug": slug,
+        "related_topic": bool(topic.get("related")),
         "utm_campaign": short_id,
         "description": topic["description"],
         "tags": [
@@ -258,17 +362,19 @@ def _search_title(topic: dict) -> str:
 
 
 def make_storyboard(topic: dict, *, storyboard_id: str | None = None) -> dict:
-    slug = topic["slug"]
-    video_id = storyboard_id or f"video-{slug}"
-    short_title = _search_title(topic)
+    # Related topics keep a synthetic slug for the video id but CTA to nearest real guide.
+    slug = topic.get("guide_slug") or topic["slug"]
+    video_id = storyboard_id or f"video-{topic['slug']}"
+    short_title = topic["title"] if topic.get("related") else _search_title(topic)
     verdict = topic["verdict"] or topic["description"]
     image = topic["image"]
     return {
         "id": video_id,
         "title": short_title,
-        "filename": f"sill-{slug}.mp4",
+        "filename": f"sill-{topic['slug']}.mp4",
         "voice": "en-US-AvaMultilingualNeural",
         "guide_slug": slug,
+        "related_topic": bool(topic.get("related")),
         "utm_campaign": video_id,
         "description": topic["description"],
         "tags": [
@@ -356,8 +462,105 @@ def make_storyboard(topic: dict, *, storyboard_id: str | None = None) -> dict:
     }
 
 
+def _nearest_guide(query: str, guides: list[dict]) -> dict | None:
+    terms = {t for t in re.findall(r"[a-z0-9]+", query.lower()) if t not in STOP_WORDS}
+    if not terms:
+        return None
+    best: dict | None = None
+    best_n = 0
+    for g in guides:
+        hay = f"{g['title']} {g['description']} {g['slug']}".lower()
+        gterms = set(re.findall(r"[a-z0-9]+", hay))
+        n = len(terms & gterms)
+        if n > best_n:
+            best_n = n
+            best = g
+    return best if best_n >= 1 else None
+
+
+def related_topics_from_seeds() -> list[dict]:
+    guides = {g["slug"]: g for g in guide_topics()}
+    out: list[dict] = []
+    for seed in RELATED_TOPIC_SEEDS:
+        nearest = guides.get(seed["guide_slug"]) or next(iter(guides.values()), None)
+        if not nearest:
+            continue
+        out.append(
+            {
+                "slug": seed["slug"],
+                "title": seed["title"],
+                "description": seed["description"],
+                "verdict": seed["verdict"],
+                "image": seed.get("image") or nearest.get("image") or "images/guide-windowsill.jpg",
+                "guide_slug": seed["guide_slug"],
+                "related": True,
+            }
+        )
+    return out
+
+
+def related_topics_from_gsc(queries: list[dict]) -> list[dict]:
+    """Turn search queries that aren't already a published guide into related video topics."""
+    guides = guide_topics()
+    guide_slugs = {g["slug"] for g in guides}
+    # Queries already well-covered by a dedicated guide slug / search title
+    covered_bits = set()
+    for g in guides:
+        covered_bits |= set(re.findall(r"[a-z0-9]+", g["slug"].replace("-", " ")))
+        covered_bits |= set(re.findall(r"[a-z0-9]+", g["title"].lower()))
+
+    out: list[dict] = []
+    seen_slugs: set[str] = set()
+    for row in sorted(queries, key=lambda r: -float(r.get("impressions") or 0)):
+        query = str(row.get("query") or "").strip()
+        if len(query) < 12:
+            continue
+        q_terms = {t for t in re.findall(r"[a-z0-9]+", query.lower()) if t not in STOP_WORDS}
+        if len(q_terms) < 2:
+            continue
+        # Skip if this query is basically an existing guide title
+        slug = f"related-{slugify(query)[:48]}"
+        if slug in seen_slugs or slug in guide_slugs:
+            continue
+        nearest = _nearest_guide(query, guides)
+        if not nearest:
+            continue
+        # Prefer queries that only partially overlap existing guides (new angle).
+        overlap = len(q_terms & covered_bits) / max(1, len(q_terms))
+        if overlap >= 0.9:
+            continue
+        impr = float(row.get("impressions") or 0)
+        title = query.strip()
+        if "(2026)" not in title and len(title) < 70:
+            title = f"{title} (2026)"
+        title = title[:90]
+        out.append(
+            {
+                "slug": slug,
+                "title": title[:1].upper() + title[1:],
+                "description": (
+                    f"Practical apartment answer for “{query}” — small-space setup, "
+                    "what to buy first, and what to skip."
+                ),
+                "verdict": (
+                    nearest.get("verdict")
+                    or "Start small, fix light before gear, and protect rental surfaces with a tray."
+                ),
+                "image": nearest.get("image") or "images/guide-windowsill.jpg",
+                "guide_slug": nearest["slug"],
+                "related": True,
+                "gsc_query": query,
+                "gsc_impressions": impr,
+            }
+        )
+        seen_slugs.add(slug)
+        if len(out) >= 12:
+            break
+    return out
+
+
 def ranked_topics(*, prefix: str) -> list[tuple[float, dict, list[str], str]]:
-    """Rank guide topics. Prefer never-uploaded; otherwise dated remakes for cadence.
+    """Rank topics: fresh guides → related angles → dated remakes.
 
     Returns (score, topic, matched_queries, storyboard_id).
     """
@@ -366,8 +569,10 @@ def ranked_topics(*, prefix: str) -> list[tuple[float, dict, list[str], str]]:
     ids = used_ids()
     queries = query_terms()
     fresh: list[tuple[float, dict, list[str], str]] = []
+    related: list[tuple[float, dict, list[str], str]] = []
     remakes: list[tuple[float, dict, list[str], str]] = []
     stamp = date.today().strftime("%Y%m%d")
+
     for topic in guide_topics():
         base_id = f"{prefix}{topic['slug']}"
         score, matches = score_topic(topic, queries)
@@ -377,11 +582,29 @@ def ranked_topics(*, prefix: str) -> list[tuple[float, dict, list[str], str]]:
         remake_id = f"{base_id}-{stamp}"
         if remake_id in ids:
             continue
-        # Slightly prefer high-demand remakes so we don't stall when guides are exhausted.
-        remakes.append((score * 0.85, topic, matches, remake_id))
+        remakes.append((score * 0.55, topic, matches, remake_id))
+
+    for topic in related_topics_from_seeds() + related_topics_from_gsc(queries):
+        base_id = f"{prefix}{topic['slug']}"
+        if base_id in ids:
+            # Allow one dated related remake only if seed already used
+            base_id = f"{base_id}-{stamp}"
+            if base_id in ids:
+                continue
+        score, matches = score_topic(topic, queries)
+        # Boost GSC-backed related topics
+        if topic.get("gsc_impressions"):
+            score += float(topic["gsc_impressions"]) * 2.0
+        else:
+            score += 8.0  # curated seeds beat blind remakes
+        if topic.get("gsc_query"):
+            matches = list(dict.fromkeys([topic["gsc_query"], *matches]))
+        related.append((score, topic, matches, base_id))
+
     fresh.sort(key=lambda item: (-item[0], item[1]["slug"]))
+    related.sort(key=lambda item: (-item[0], item[1]["slug"]))
     remakes.sort(key=lambda item: (-item[0], item[1]["slug"]))
-    return fresh or remakes
+    return fresh or related or remakes
 
 
 def write_storyboard(story: dict) -> Path | None:
@@ -421,7 +644,7 @@ def main() -> int:
 
     proposals = ranked_topics(prefix=prefix)
     if not proposals:
-        print("No unused Sill Garden guide topics remain.")
+        print("No unused Sill Garden guide or related topics remain.")
         return 0
 
     score, topic, matches, sid = proposals[0]
@@ -436,8 +659,9 @@ def main() -> int:
             "guide_slug": story["guide_slug"],
             "title": story["title"],
             "score": round(score, 2),
-            "matched_gsc_queries": matches,
-            "remake": sid != f"{prefix}{topic['slug']}",
+            "matched_gsc_queries": matches[:8],
+            "related": bool(topic.get("related")),
+            "remake": (not topic.get("related")) and sid != f"{prefix}{topic['slug']}",
         },
         "storyboard": story,
     }
