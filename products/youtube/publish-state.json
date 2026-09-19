@@ -306,8 +306,26 @@
       "uploaded_at": "2026-09-05T12:30:46.101705+00:00",
       "storyboard": "products/youtube/short-mint-windowsill-first-harvest/storyboard.json",
       "format": "short"
+    },
+    "video-compare-aerogarden-models-20260920": {
+      "youtube_id": "2k80pmMSYgs",
+      "url": "https://youtu.be/2k80pmMSYgs",
+      "title": "AeroGarden Bounty vs Harvest (2026) \u2014 Which Should You Buy?",
+      "privacy": "public",
+      "uploaded_at": "2026-09-19T21:30:35.500126+00:00",
+      "storyboard": "products/youtube/video-compare-aerogarden-models-20260920/storyboard.json",
+      "format": "long"
+    },
+    "short-compare-aerogarden-models-20260920": {
+      "youtube_id": "CTmzbmQ5FAw",
+      "url": "https://youtu.be/CTmzbmQ5FAw",
+      "title": "AeroGarden Bounty vs Harvest \u2014 which model should you buy? #Shorts",
+      "privacy": "public",
+      "uploaded_at": "2026-09-19T21:31:32.122827+00:00",
+      "storyboard": "products/youtube/short-compare-aerogarden-models-20260920/storyboard.json",
+      "format": "short"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-09-06"
+  "next_eligible_date": "2026-09-22"
 }
