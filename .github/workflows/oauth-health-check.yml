@@ -30,8 +30,57 @@ jobs:
       - name: Google analytics gate (GA4 + GSC)
         run: python scripts/measurement_gate.py --refresh --strict
       - name: YouTube upload channel gate
+        id: yt_gate
         env:
           YOUTUBE_USER_TOKEN_JSON: ${{ secrets.YOUTUBE_USER_TOKEN_JSON }}
           YOUTUBE_OAUTH_CLIENT_JSON: ${{ secrets.YOUTUBE_OAUTH_CLIENT_JSON }}
         # Fail closed so GitHub emails when Testing-mode refresh tokens die (~7 days).
         run: python scripts/youtube_access_gate.py --strict
+
+      - name: Email if YouTube OAuth is dead
+        if: failure() && steps.yt_gate.conclusion == 'failure'
+        env:
+          BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+          GROWTH_REPORT_EMAIL: ${{ secrets.GROWTH_REPORT_EMAIL }}
+          GROWTH_SMTP_HOST: ${{ secrets.GROWTH_SMTP_HOST }}
+          GROWTH_SMTP_PORT: ${{ secrets.GROWTH_SMTP_PORT }}
+          GROWTH_SMTP_USER: ${{ secrets.GROWTH_SMTP_USER }}
+          GROWTH_SMTP_PASSWORD: ${{ secrets.GROWTH_SMTP_PASSWORD }}
+          GROWTH_EMAIL_FORCE: "1"
+        run: |
+          python - <<'PY'
+          import json, os, smtplib, ssl, sys
+          from email.mime.text import MIMEText
+          from pathlib import Path
+          status = {}
+          p = Path("products/youtube/youtube-access-status.json")
+          if p.is_file():
+              status = json.loads(p.read_text(encoding="utf-8"))
+          body = (
+              "Sill Garden YouTube OAuth health FAILED.\n\n"
+              f"Error: {status.get('error')}\n\n"
+              "Fix:\n"
+              "1) Publish OAuth consent (Production):\n"
+              "   https://console.cloud.google.com/apis/credentials/consent?project=makertoolstack-analytics\n"
+              "2) cd E:\\Projects\\sill-garden; .\\scripts\\fix_youtube_auth.ps1\n"
+              "3) cd E:\\Projects\\makertoolstack; python scripts\\youtube_oauth_keepalive.py --confirm-published\n"
+          )
+          to_addr = (os.environ.get("GROWTH_REPORT_EMAIL") or "").strip()
+          host = (os.environ.get("GROWTH_SMTP_HOST") or "").strip()
+          user = (os.environ.get("GROWTH_SMTP_USER") or "").strip()
+          password = (os.environ.get("GROWTH_SMTP_PASSWORD") or "").strip()
+          if not (to_addr and host and user and password):
+              print(body)
+              print("No SMTP secrets — relying on GitHub Actions failure email.")
+              raise SystemExit(0)
+          port = int(os.environ.get("GROWTH_SMTP_PORT") or "587")
+          msg = MIMEText(body, "plain", "utf-8")
+          msg["Subject"] = "ALERT: Sill Garden YouTube OAuth dead"
+          msg["From"] = user
+          msg["To"] = to_addr
+          with smtplib.SMTP(host, port, timeout=60) as server:
+              server.starttls(context=ssl.create_default_context())
+              server.login(user, password)
+              server.sendmail(user, [to_addr], msg.as_string())
+          print(f"smtp -> {to_addr}")
+          PY

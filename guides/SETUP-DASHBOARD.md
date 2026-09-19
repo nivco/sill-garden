@@ -126,22 +126,25 @@ python scripts\youtube_access_gate.py
 python scripts\youtube_token_sync.py
 ```
 
-#### Stop 7-day `invalid_grant` (do this once)
+#### Permanent fix — stop 7-day `invalid_grant` forever
 
-Google OAuth apps left in **Testing** revoke refresh tokens about every **7 days**. That is what
-keeps breaking YouTube CI.
+Google OAuth apps left in **Testing** revoke refresh tokens about every **7 days**.
 
-1. Open the [OAuth consent screen](https://console.cloud.google.com/apis/credentials/consent)
-   for the same Cloud project as `secrets/google-oauth-client.json` (usually `makertoolstack-analytics`).
-2. Confirm **Test users** includes `nivooo@gmail.com`.
-3. Click **Publish app** → **Production** (YouTube upload for your own channel does not need
-   Google verification for this personal use case).
-4. Re-run `.\scripts\fix_youtube_auth.ps1` once after publishing so CI gets a long-lived refresh token.
+```powershell
+cd E:\Projects\makertoolstack
+.\scripts\ensure_youtube_oauth_forever.ps1
+```
 
-Until the app is **Published**, refresh tokens die about every **7 days**. Scheduled YouTube
-jobs now **fail closed** (red CI + GitHub email) when OAuth is dead — they no longer soft-skip.
-Re-run `.\scripts\fix_youtube_auth.ps1` after publishing the consent screen so CI gets a
-long-lived refresh token.
+That opens the consent screen, registers daily keepalive (`MakerToolStack-YouTubeOAuthKeepalive`),
+and syncs tokens to GitHub. Then:
+
+1. In the browser: **Publish app → Production**  
+   https://console.cloud.google.com/apis/credentials/consent?project=makertoolstack-analytics
+2. Re-login both channels: `.\scripts\fix_youtube_auth.ps1` (MTS) and Sill’s `fix_youtube_auth.ps1`
+3. `python scripts\youtube_oauth_keepalive.py --confirm-published`
+
+Daily keepalive refreshes tokens + GitHub secrets and **emails you** if refresh fails.
+OAuth health CI is fail-closed and also emails on dead upload OAuth.
 
 Build/preview/upload one storyboard:
 

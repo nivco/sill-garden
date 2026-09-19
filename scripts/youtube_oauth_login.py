@@ -42,6 +42,10 @@ def main() -> int:
     target.parent.mkdir(parents=True, exist_ok=True)
     data = json.loads(creds.to_json())
     data["scopes"] = sorted(set(data.get("scopes") or []) | set(YOUTUBE_UPLOAD_SCOPES))
+    from datetime import datetime, timezone
+
+    data["mts_oauth_issued_at"] = datetime.now(timezone.utc).isoformat()
+    data["mts_oauth_consent"] = "reissued_pending_production_confirm"
     target.write_text(json.dumps(data, indent=2) + "\n", encoding="utf-8")
     print(f"Saved Sill Garden upload token: {target}")
 
