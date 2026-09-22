@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-21 20:10 UTC",
+  "generated_at": "2026-09-22 02:41 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 11,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 9,
+    "gsc_impressions_7d": 7,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
@@ -101,7 +101,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "top_queries": [
         {
           "query": "aerogarden bounty vs harvest",
@@ -116,20 +116,6 @@
           "impressions": 2,
           "ctr": 0.0,
           "position": 43.0
-        },
-        {
-          "query": "aerogarden vs click and grow",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 48.0
-        },
-        {
-          "query": "best aerogarden model",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 50.0
         },
         {
           "query": "click and grow vs aerogarden",
@@ -752,7 +738,7 @@
     }
   ],
   "insights": [
-    "GSC: 9 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 46), \u201caerogarden model comparison\u201d (pos 43), \u201caerogarden vs click and grow\u201d (pos 48). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 7 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 46), \u201caerogarden model comparison\u201d (pos 43), \u201cclick and grow vs aerogarden\u201d (pos 47). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
