@@ -324,8 +324,17 @@
       "uploaded_at": "2026-09-19T21:31:32.122827+00:00",
       "storyboard": "products/youtube/short-compare-aerogarden-models-20260920/storyboard.json",
       "format": "short"
+    },
+    "video-related-click-and-grow-vs-aerogarden-2026": {
+      "youtube_id": "35k4h5j8D20",
+      "url": "https://youtu.be/35k4h5j8D20",
+      "title": "Click and Grow vs AeroGarden in 2026 \u2014 Honest Pick",
+      "privacy": "public",
+      "uploaded_at": "2026-09-22T17:54:35.600953+00:00",
+      "storyboard": "products/youtube/video-related-click-and-grow-vs-aerogarden-2026/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-09-22"
+  "next_eligible_date": "2026-09-25"
 }
