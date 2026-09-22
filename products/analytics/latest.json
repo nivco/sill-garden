@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-22 16:02 UTC",
+  "generated_at": "2026-09-22 18:23 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,19 +9,19 @@
     "pageviews_7d": 10,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 7,
+    "gsc_impressions_7d": 9,
     "indexed_urls": 21,
     "sitemap_urls": 23,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 366,
+    "youtube_views_total": 367,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 0.0,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": 36
+    "youtube_videos": 37
   },
   "sources": {
     "site": {
@@ -101,7 +101,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 9,
       "top_queries": [
         {
           "query": "aerogarden bounty vs harvest",
@@ -109,6 +109,13 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 46.0
+        },
+        {
+          "query": "aerogarden comparison",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 55.0
         },
         {
           "query": "aerogarden model comparison",
@@ -123,6 +130,13 @@
           "impressions": 3,
           "ctr": 0.0,
           "position": 46.7
+        },
+        {
+          "query": "countertop garden",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 93.0
         },
         {
           "query": "herbs that can grow indoors with low light",
@@ -511,10 +525,18 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 366,
-        "videos": 36
+        "views": 367,
+        "videos": 37
       },
       "recent_videos": [
+        {
+          "id": "35k4h5j8D20",
+          "title": "Click and Grow vs AeroGarden in 2026 \u2014 Honest Pick",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-22T17:54:56Z",
+          "url": "https://www.youtube.com/watch?v=35k4h5j8D20"
+        },
         {
           "id": "CTmzbmQ5FAw",
           "title": "AeroGarden Bounty vs Harvest \u2014 which model should you buy? #Shorts",
@@ -570,14 +592,6 @@
           "likes": 0,
           "published": "2026-09-03T13:25:11Z",
           "url": "https://www.youtube.com/watch?v=KMO-Fa7AJ_s"
-        },
-        {
-          "id": "ekXFbbs57dU",
-          "title": "Yellow leaves and leggy seedlings \u2014 indoor herb fixes \u2014 Apartment Guide (2026)",
-          "views": 0,
-          "likes": 0,
-          "published": "2026-09-02T17:35:44Z",
-          "url": "https://www.youtube.com/watch?v=ekXFbbs57dU"
         }
       ]
     },
@@ -635,7 +649,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-22 02:41 UTC"
+      "created": "2026-09-22 16:02 UTC"
     },
     {
       "priority": "P1",
@@ -644,7 +658,7 @@
       "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 46/1 impr; \u201caerogarden model comparison\u201d pos 43/2 impr; \u201cclick and grow vs aerogarden\u201d pos 47/3 impr; \u201cherbs that can grow indoors with low light\u201d pos 74/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-22 02:41 UTC"
+      "created": "2026-09-22 16:02 UTC"
     },
     {
       "priority": "P1",
@@ -653,92 +667,20 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-22 02:41 UTC"
+      "created": "2026-09-22 16:02 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-09-22 02:41 UTC (13.4h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-22 02:41 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Refresh Google analytics OAuth so metrics stay live.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "created": "2026-09-22 16:02 UTC"
     }
   ],
   "insights": [
-    "GSC: 7 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 46), \u201caerogarden model comparison\u201d (pos 43), \u201cclick and grow vs aerogarden\u201d (pos 47). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 9 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 46), \u201caerogarden comparison\u201d (pos 55), \u201caerogarden model comparison\u201d (pos 43). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
