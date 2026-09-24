@@ -1,16 +1,5 @@
 [
   {
-    "generated_at": "2026-09-06 14:42 UTC",
-    "ga4_sessions_7d": 25,
-    "ga4_pageviews_7d": 33,
-    "affiliate_clicks_7d": 0,
-    "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 38,
-    "cloudflare_page_views_7d": 0,
-    "youtube_views_total": 250,
-    "amazon_earnings_7d_usd": null
-  },
-  {
     "generated_at": "2026-09-06 17:23 UTC",
     "ga4_sessions_7d": 25,
     "ga4_pageviews_7d": 33,
@@ -980,6 +969,17 @@
   },
   {
     "generated_at": "2026-09-24 10:42 UTC",
+    "ga4_sessions_7d": 3,
+    "ga4_pageviews_7d": 3,
+    "affiliate_clicks_7d": 0,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 3,
+    "cloudflare_page_views_7d": 0,
+    "youtube_views_total": 370,
+    "amazon_earnings_7d_usd": null
+  },
+  {
+    "generated_at": "2026-09-24 16:14 UTC",
     "ga4_sessions_7d": 3,
     "ga4_pageviews_7d": 3,
     "affiliate_clicks_7d": 0,
