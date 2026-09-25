@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-24 19:35 UTC",
+  "generated_at": "2026-09-25 02:47 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -15,7 +15,7 @@
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 370,
+    "youtube_views_total": 373,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -504,7 +504,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 370,
+        "views": 373,
         "videos": 37
       },
       "recent_videos": [
@@ -559,7 +559,7 @@
         {
           "id": "HhPYlOwDZ1w",
           "title": "Kratky jar herbs for apartments (silent DIY) \u2014 Apartment Guide (2026)",
-          "views": 7,
+          "views": 9,
           "likes": 0,
           "published": "2026-09-03T17:30:20Z",
           "url": "https://www.youtube.com/watch?v=HhPYlOwDZ1w"
