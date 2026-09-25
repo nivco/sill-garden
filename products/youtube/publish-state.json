@@ -333,8 +333,17 @@
       "uploaded_at": "2026-09-22T17:54:35.600953+00:00",
       "storyboard": "products/youtube/video-related-click-and-grow-vs-aerogarden-2026/storyboard.json",
       "format": "long"
+    },
+    "video-related-apartment-garden-on-a-budget": {
+      "youtube_id": "_BkvP9voGJM",
+      "url": "https://youtu.be/_BkvP9voGJM",
+      "title": "Apartment Herb Garden Under $40 (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-09-25T18:13:11.950255+00:00",
+      "storyboard": "products/youtube/video-related-apartment-garden-on-a-budget/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-09-25"
+  "next_eligible_date": "2026-09-28"
 }
