@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-25 18:59 UTC",
+  "generated_at": "2026-09-26 18:08 UTC",
   "wow": {
     "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 5.0,
+    "gsc_impressions_7d": 3.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 3,
-    "gsc_impressions_7d": 8,
+    "gsc_impressions_7d": 9,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -39,9 +39,9 @@
     {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 48.0
+      "position": 47.5
     },
     {
       "query": "click and grow vs aerogarden",
