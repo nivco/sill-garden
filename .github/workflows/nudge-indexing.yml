@@ -1,0 +1,41 @@
+name: Nudge Google indexing
+
+# Closest automatable stand-in for GSC "Request indexing" (not available via API).
+on:
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: sill-bot-commit-${{ github.ref }}
+  cancel-in-progress: false
+
+jobs:
+  nudge:
+    runs-on: ubuntu-latest
+    env:
+      GOOGLE_AUTH: oauth
+      GSC_SITE_URL: "sc-domain:sillgarden.com"
+      GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
+      GOOGLE_USER_TOKEN_JSON: ${{ secrets.GOOGLE_USER_TOKEN_JSON }}
+      GOOGLE_OAUTH_CLIENT_JSON: ${{ secrets.GOOGLE_OAUTH_CLIENT_JSON }}
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Install deps
+        run: pip install -r requirements-analytics.txt
+      - name: Sitemap + IndexNow + URL Inspection
+        run: python scripts/nudge_google_indexing.py
+      - name: Commit indexing status
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_git_push.sh "chore: refresh indexing status after GSC nudge" \
+            products/analytics/indexing-status.json || true
