@@ -326,10 +326,27 @@ def _faq_answer(query: str) -> str:
 def propose_actions(metrics: dict, research_pack: dict) -> list[dict]:
     docs = {d.slug: d for d in load_guides()}
     actions: list[dict] = []
+    sessions_7d = int((metrics.get("hero") or {}).get("sessions_7d") or 0)
+    allow_new_guides = sessions_7d > 0
 
     # New guides from GSC demand + curated specs
     new_n = 0
     for spec in NEW_GUIDE_SPECS:
+        if not allow_new_guides:
+            actions.append(
+                {
+                    "type": "create_guide",
+                    "slug": spec["slug"],
+                    "spec": spec,
+                    "reason": (
+                        f"Paused: sessions_7d={sessions_7d}. Refresh existing money guides "
+                        "instead of shipping thin new pages."
+                    ),
+                    "bucket": "new",
+                    "status_hint": "skipped_zero_sessions",
+                }
+            )
+            break
         if new_n >= MAX_NEW_GUIDES:
             break
         slug = spec["slug"]
@@ -482,6 +499,9 @@ def apply_actions(actions: list[dict], *, dry_run: bool) -> list[dict]:
             continue
 
         if kind == "create_guide":
+            if act.get("status_hint") == "skipped_zero_sessions":
+                applied.append({**act, "status": "skipped", "detail": "zero_sessions_pause"})
+                continue
             spec = act.get("spec") or {}
             slug = act.get("slug") or spec.get("slug")
             path = GUIDES_DIR / f"{slug}.md"

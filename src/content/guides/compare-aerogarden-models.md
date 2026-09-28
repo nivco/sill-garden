@@ -6,8 +6,8 @@ updatedDate: 2026-09-28
 cluster: systems
 type: comparison
 featured: true
-image: /images/guide-kitchen-herbs.jpg
-imageAlt: Culinary herbs suited to a kitchen counter kit
+image: /images/kit-aerogarden-harvest.jpg
+imageAlt: AeroGarden countertop hydroponic kit growing vegetables under LED light
 verdict: Start with Harvest-class (≈6 pods) for most apartments. Step up to Bounty only if you cook herbs daily and have counter depth. Skip Farm-scale towers unless you have floor space.
 products:
 - name: AeroGarden Harvest / Harvest Lite
@@ -45,6 +45,9 @@ Searching **AeroGarden Bounty vs Harvest** (or **Harvest vs Bounty**, **AeroGard
 | Watch-out | Outgrow capacity | Needs counter depth | Overkill for most rentals |
 
 ![Capacity shown as a leafy plant row](/images/inline-indoor-row.jpg)
+
+> **Ready to pick a model?**  
+> [Check AeroGarden Harvest on Amazon](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · [Browse AeroGarden Bounty](https://www.amazon.com/s?k=AeroGarden+Bounty&tag=sillgarden09-20&linkCode=ll2) · [Silent alternative: Click & Grow](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1)
 
 ## AeroGarden comparison — decision rules
 

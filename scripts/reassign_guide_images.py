@@ -12,7 +12,7 @@ IMG = ROOT / "public" / "images"
 
 HEROES: dict[str, tuple[str, str]] = {
     "aerogarden-vs-click-and-grow.md": ("/images/guide-compare-budget.jpg", "Click & Grow Smart Garden with herbs under a built-in LED"),
-    "compare-aerogarden-models.md": ("/images/guide-kitchen-herbs.jpg", "Culinary herbs suited to a kitchen counter kit"),
+    "compare-aerogarden-models.md": ("/images/kit-aerogarden-harvest.jpg", "AeroGarden countertop hydroponic kit growing vegetables under LED light"),
     "countertop-garden-system-guide.md": ("/images/guide-diy-herbs.jpg", "Kitchen herb mint in a pot"),
     "best-countertop-garden-apartments.md": ("/images/guide-kitchen-herbs.jpg", "Culinary herb plant ready for cooking"),
     "cheapest-indoor-herb-garden-apartment.md": ("/images/guide-compare-budget.jpg", "Smart countertop herb garden kit"),

@@ -32,6 +32,10 @@ In a studio, the grow light and the pump are roommate problems. Solve those two 
 
 ![Compact mint suited to silent setups](/images/inline-mint.jpg)
 
+![Click & Grow Smart Garden units growing herbs indoors](/images/kit-click-grow-smart-garden.jpg)
+
+> **Silence pick:** [Click & Grow Smart Garden 3 on Amazon](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1)
+
 ## Light bleed
 
 Most kits run ~14–16 hours of bright LED. In one room that means:

@@ -42,6 +42,11 @@ Searching **AeroGarden vs Click & Grow** (or the reverse, **Click and Grow vs Ae
 
 ![Living basil by a window](/images/inline-basil.jpg)
 
+![Miracle-Gro AeroGarden growing plants under its LED hood](/images/kit-aerogarden-harvest.jpg)
+
+> **Ready to decide?**  
+> Capacity pick: [AeroGarden Harvest on Amazon](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · Silence pick: [Click & Grow Smart Garden 3](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1)
+
 ## Click and Grow vs AeroGarden — who should buy which
 
 ### Buy AeroGarden if
@@ -55,6 +60,8 @@ Searching **AeroGarden vs Click & Grow** (or the reverse, **Click and Grow vs Ae
 - You prefer a narrower footprint on a shallow sill or shelf.
 
 ![Indoor herbs for apartments](/images/inline-apartment.jpg)
+
+![Click & Grow Smart Garden units growing herbs indoors](/images/kit-click-grow-smart-garden.jpg)
 
 ## Refill reality (both)
 

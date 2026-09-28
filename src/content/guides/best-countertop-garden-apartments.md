@@ -36,6 +36,9 @@ For Sill Garden, a good apartment system must clear four bars:
 
 ![Seedlings started in labeled cups for a first kitchen harvest](/images/inline-pots.jpg)
 
+> **Shop the shortlist**  
+> [AeroGarden Harvest](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · [Click & Grow Smart Garden 3](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1) · see the product picks above for current prices.
+
 ## Three starting lanes
 
 | Lane | Best for | Rough spend | Tradeoff |

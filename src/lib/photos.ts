@@ -134,7 +134,8 @@ export const photoCredits = [
   { file: 'inline-mold-tray.jpg', credit: 'Sapling in abandoned room — not herb stress; avoid for yellow-leaf captions', url: 'https://commons.wikimedia.org/' },
   { file: 'inline-grow-tray.jpg', credit: 'Greenhouse begonias — not a countertop grow tray; avoid for kit guides', url: 'https://openverse.org/' },
   { file: 'inline-herbs-board.jpg', credit: 'Coriander seedlings in a labeled cup (not cut basil)', url: 'https://openverse.org/image/4f2caaa1-78d7-4505-aa71-00efee3619a3' },
-  { file: 'inline-hydro-herbs.jpg', credit: 'Cut leafy herbs on a book cover — not a hydro kit', url: 'https://openverse.org/' },
+  { file: 'kit-aerogarden-harvest.jpg', credit: 'AeroGarden / Miracle-Gro countertop kit — Chris F (Flickr via Wikimedia Commons / CC BY 2.0)', url: 'https://commons.wikimedia.org/wiki/File:Aerogarden-veggies_(14985384581).jpg' },
+  { file: 'kit-click-grow-smart-garden.jpg', credit: 'Click & Grow Smart Garden 27 — Janar Raidla (Wikimedia Commons / CC BY-SA 4.0)', url: 'https://commons.wikimedia.org/wiki/File:Click_%26_Grow_Smart_Garden_27.jpg' },
 ] as const;
 
 export const unsplashLicenseUrl = 'https://creativecommons.org/publicdomain/zero/1.0/';
