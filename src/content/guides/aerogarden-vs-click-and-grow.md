@@ -106,6 +106,9 @@ Compare noise, pod count, and refill cost — not marketing claims. Harvest-clas
 > **Key takeaway**
 > Decide on noise and footprint first, yield second. In a studio, silence wins. In a separate kitchen, capacity usually wins.
 
+
+**Aerogarden vs click and grow?**  
+For most kitchens, AeroGarden Harvest-class wins on capacity. For studios where the unit sits near a bed, Click & Grow usually wins on silence.
 ## Our call
 
 **Default:** AeroGarden Harvest-class for most readers.  

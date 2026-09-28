@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 20:54 UTC",
+  "generated_at": "2026-09-28 21:27 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -121,32 +121,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 3828,
-        "images": 0,
-        "has_faq": false,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -194,16 +168,13 @@
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1337 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . Add a dedicated **comparison-module block** to every AeroGarden/Click & Grow page, placed above the fold or immediately after the intro.",
-    "LLM peer insight: Use a 3-column table: **Model / Best for / Key tradeoff**.",
-    "LLM peer insight: Include the exact query targets: **AeroGarden Bounty vs Harvest**, **Farm vs Farm Plus**, **AeroGarden vs Click & Grow**.",
-    "LLM peer insight: Add one-line verdict rows like “Best for tall plants,” “Best for beginners,” “Best value.”",
-    "LLM peer insight: Keep it skimmable and mobile-friendly with short cells and one highlighted “recommended pick” row.",
-    "LLM peer insight: . Rewrite titles and H1s to match the exact search intent clusters.",
-    "LLM peer insight: - “AeroGarden Bounty vs Harvest: Which Is Better for Your Space?”"
+    "LLM peer insight: . Tighten page titles around the exact comparison/query intent. Use titles that match high-intent searches like **“AeroGarden vs Click & Grow”**, **“AeroGarden Bounty vs Harvest”**, and **“AeroGarden Farm vs Farm Plus”**",
+    "LLM peer insight: . Add a dedicated **FAQ block** to every comparison and accessory page with 5–8 questions pulled from search intent: compatibility, which model to buy, size/height, pod/refill availability, warranty, and replacement part",
+    "LLM peer insight: . Ship **comparison tables above the fold or immediately after the intro** for every “vs” page. Include columns for price, grow capacity, footprint, plant height, light/pump automation, refill ecosystem, and best use cas",
+    "LLM peer insight: . Rebuild the **hero layout** to match affiliate intent: one clear H1, a 1–2 sentence verdict, and a primary CTA button above the fold. Reduce the current multi-CTA clutter and use a single primary action like **“See the",
+    "LLM peer insight: . Upgrade visuals with **product-specific imagery and labeled feature callouts**. Use a split-hero showing the two products side by side for comparison pages, plus a small compatibility/size image for accessory queries l"
   ],
-  "llm_notes": "Ship these 5 changes this week:\n\n1. Add a dedicated **comparison-module block** to every AeroGarden/Click & Grow page, placed above the fold or immediately after the intro.\n- Use a 3-column table: **Model / Best for / Key tradeoff**.\n- Include the exact query targets: **AeroGarden Bounty vs Harvest**, **Farm vs Farm Plus**, **AeroGarden vs Click & Grow**.\n- Add one-line verdict rows like “Best for tall plants,” “Best for beginners,” “Best value.”\n- Keep it skimmable and mobile-friendly with short cells and one highlighted “recommended pick” row.\n\n2. Rewrite titles and H1s to match the exact search intent clusters.\n- Use pattern-based titles like:\n  - “AeroGarden Bounty vs Harvest: Which Is Better for Your Space?”\n  - “AeroGarden Farm vs Farm Plus: Full Comparison”\n  - “AeroGarden vs Click & Grow: Which Indoor Garden Should You Buy?”\n- Make the H1 mirror the title intent, not just the brand.\n- Add a 1-sentence intro under the hero that states the buyer decision in plain language.\n\n3. Build a **FAQ section** from your real query set and place it near the bottom of comparison pages.\n- Include 6–8 questions tied to GSC terms:\n  - “Which AeroGarden works best for tall plants?”\n  - “Is Farm Plus worth it over Farm?”\n  - “Can a 2019 Bounty use a trellis?”\n  - “Which is easier to maintain: Click & Grow or AeroGarden?”\n  - “Do I need more pod capacity or more height?”\n- Answer in 2–3 sentences each.\n- Mark up with FAQ schema so the page can win more SERP space.\n\n4. Redesign the hero/CTA layout to reduce “The Sill” style dilution and make product pages convert faster.\n- Current peer ",
+  "llm_notes": "1. Tighten page titles around the exact comparison/query intent. Use titles that match high-intent searches like **“AeroGarden vs Click & Grow”**, **“AeroGarden Bounty vs Harvest”**, and **“AeroGarden Farm vs Farm Plus”** instead of generic brand phrasing; put the competing product names first, then the value prop.  \n2. Add a dedicated **FAQ block** to every comparison and accessory page with 5–8 questions pulled from search intent: compatibility, which model to buy, size/height, pod/refill availability, warranty, and replacement parts. Peer sites already use FAQ sections, and the current Sill setup has none.  \n3. Ship **comparison tables above the fold or immediately after the intro** for every “vs” page. Include columns for price, grow capacity, footprint, plant height, light/pump automation, refill ecosystem, and best use case; this directly answers “bounty vs harvest” and “aerogarden vs click and grow” queries faster than prose.  \n4. Rebuild the **hero layout** to match affiliate intent: one clear H1, a 1–2 sentence verdict, and a primary CTA button above the fold. Reduce the current multi-CTA clutter and use a single primary action like **“See the best price”** or **“Compare models”**; keep a secondary CTA below the hero for accessories or FAQs.  \n5. Upgrade visuals with **product-specific imagery and labeled feature callouts**. Use a split-hero showing the two products side by side for comparison pages, plus a small compatibility/size image for accessory queries like **“trellis for 2019 bounty models”**; add annotated visuals for footprint, plant height, and included ",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -234,6 +205,6 @@
       "auto": false
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
