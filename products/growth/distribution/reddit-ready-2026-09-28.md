@@ -68,10 +68,23 @@ Picker: https://sillgarden.com/tools/kit-picker/
 
 ## YouTube — pin this comment on top Shorts
 
-Apartment kit pick (noise vs capacity) + year-one cost:  
-https://sillgarden.com/tools/kit-picker/  
-https://sillgarden.com/kits/  
-https://sillgarden.com/tools/year-one-cost/
+Paste as a channel comment, then **Pin**. (API cannot pin; daily quota may block auto-comment.)
+
+```
+Apartment kit pick (noise vs capacity) + year-one cost:
+https://sillgarden.com/tools/kit-picker/?utm_source=youtube&utm_medium=video&utm_campaign=yt-pin-kits
+https://sillgarden.com/kits/?utm_source=youtube&utm_medium=video&utm_campaign=yt-pin-kits
+https://sillgarden.com/tools/year-one-cost/?utm_source=youtube&utm_medium=video&utm_campaign=yt-pin-kits
+```
+
+**Do these first (Studio → Comments → pin):**
+1. https://studio.youtube.com/video/CTmzbmQ5FAw/comments — Bounty vs Harvest Short (~28 views)
+2. https://studio.youtube.com/video/F073SleZ9aA/comments — Kratky Short
+3. https://studio.youtube.com/video/NSLsa1eJxko/comments — AeroGarden vs Click & Grow Short
+4. https://studio.youtube.com/video/tGr1dpUCGXo/comments — Best countertop Short
+5. https://studio.youtube.com/video/s7KtScEHU6o/comments — Cheapest apartment Short
+
+Descriptions will auto-include kits/picker/year-one after the next successful `youtube-refresh-descriptions` run (blocked today by YouTube API quota).
 
 ---
 
