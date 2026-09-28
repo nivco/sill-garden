@@ -1,17 +1,17 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-28 02:52 UTC",
+  "generated_at": "2026-09-28 12:17 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 0,
-    "users_7d": 0,
-    "pageviews_7d": 0,
+    "sessions_7d": 2,
+    "users_7d": 1,
+    "pageviews_7d": 7,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 8,
-    "indexed_urls": 21,
-    "sitemap_urls": 23,
+    "indexed_urls": 23,
+    "sitemap_urls": 26,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
@@ -20,7 +20,7 @@
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 0.0,
-    "affiliate_ctr_pct": 0,
+    "affiliate_ctr_pct": 0.0,
     "youtube_videos": 38
   },
   "sources": {
@@ -31,16 +31,52 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 0,
-        "sessions": 0,
-        "screenPageViews": 0,
+        "activeUsers": 1,
+        "sessions": 2,
+        "screenPageViews": 7,
         "engagedSessions": 0,
-        "averageSessionDuration_sec": 0.0,
+        "averageSessionDuration_sec": 1590.4,
         "engagementRate_pct": 0.0
       },
-      "top_pages": [],
-      "entry_channels": [],
-      "source_medium": [],
+      "top_pages": [
+        {
+          "pagePath": "/",
+          "sessions": "2",
+          "screenPageViews": "4"
+        },
+        {
+          "pagePath": "/guides/",
+          "sessions": "2",
+          "screenPageViews": "2"
+        },
+        {
+          "pagePath": "/guides/best-countertop-garden-apartments/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        }
+      ],
+      "entry_channels": [
+        {
+          "sessionDefaultChannelGroup": "Direct",
+          "sessions": "2"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
+          "sessions": "2"
+        }
+      ],
+      "source_medium": [
+        {
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": "2",
+          "engagedSessions": "0"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "2",
+          "engagedSessions": "0"
+        }
+      ],
       "events": {},
       "affiliate_networks": {
         "Amazon Associates": 0,
@@ -94,25 +130,25 @@
       "site_url": "sc-domain:sillgarden.com"
     },
     "indexing": {
-      "checked_at": "2026-08-31T16:51:17.484643+00:00",
+      "checked_at": "2026-09-28T11:17:24.260805+00:00",
       "site": "sc-domain:sillgarden.com",
       "sitemap": {
         "path": "https://sillgarden.com/sitemap-index.xml",
         "last_submitted": "2026-08-13T21:17:58.407Z",
         "is_pending": false,
         "is_sitemaps_index": true,
-        "last_downloaded": "2026-08-29T09:28:59.213Z",
+        "last_downloaded": "2026-09-19T15:46:23.456Z",
         "warnings": "0",
         "errors": "0",
         "contents": [
           {
             "type": "web",
-            "submitted": "16",
+            "submitted": "23",
             "indexed": "0"
           }
         ]
       },
-      "sitemap_url_count": 23,
+      "sitemap_url_count": 26,
       "urls": [
         {
           "url": "https://sillgarden.com/",
@@ -121,7 +157,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-28T22:47:50Z",
+          "last_crawl_time": "2026-09-20T11:59:15Z",
           "google_canonical": "https://sillgarden.com/",
           "user_canonical": "https://sillgarden.com/",
           "referring_urls": [
@@ -138,12 +174,135 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-15T22:50:23Z",
+          "last_crawl_time": "2026-09-07T04:51:26Z",
           "google_canonical": "https://sillgarden.com/about/",
           "user_canonical": "https://sillgarden.com/about/",
           "referring_urls": [
             "https://sillgarden.com/guides/",
             "https://sillgarden.com/sitemap-0.xml"
+          ]
+        },
+        {
+          "url": "https://sillgarden.com/tools/",
+          "verdict": "NEUTRAL",
+          "coverage_state": "URL is unknown to Google",
+          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "user_canonical": null,
+          "referring_urls": []
+        },
+        {
+          "url": "https://sillgarden.com/tools/kit-picker/",
+          "verdict": "NEUTRAL",
+          "coverage_state": "URL is unknown to Google",
+          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "user_canonical": null,
+          "referring_urls": []
+        },
+        {
+          "url": "https://sillgarden.com/tools/apartment-herb-checklist/",
+          "verdict": "NEUTRAL",
+          "coverage_state": "URL is unknown to Google",
+          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+          "last_crawl_time": null,
+          "google_canonical": null,
+          "user_canonical": null,
+          "referring_urls": []
+        },
+        {
+          "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "robots_txt_state": "ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "last_crawl_time": "2026-09-20T22:14:48Z",
+          "google_canonical": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+          "user_canonical": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+          "referring_urls": [
+            "https://sillgarden.com/guides/",
+            "https://sillgarden.com/sitemap-0.xml"
+          ]
+        },
+        {
+          "url": "https://sillgarden.com/guides/compare-aerogarden-models/",
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "robots_txt_state": "ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "last_crawl_time": "2026-09-18T20:17:54Z",
+          "google_canonical": "https://sillgarden.com/guides/compare-aerogarden-models/",
+          "user_canonical": "https://sillgarden.com/guides/compare-aerogarden-models/",
+          "referring_urls": [
+            "https://sillgarden.com/guides/countertop-garden-system-guide/",
+            "https://sillgarden.com/"
+          ]
+        },
+        {
+          "url": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "robots_txt_state": "ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "last_crawl_time": "2026-09-14T12:22:40Z",
+          "google_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+          "user_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+          "referring_urls": [
+            "https://sillgarden.com/sitemap-0.xml"
+          ]
+        },
+        {
+          "url": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "robots_txt_state": "ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "last_crawl_time": "2026-09-05T04:26:52Z",
+          "google_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+          "user_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+          "referring_urls": [
+            "https://sillgarden.com/guides/countertop-garden-system-guide/",
+            "https://sillgarden.com/sitemap-0.xml"
+          ]
+        },
+        {
+          "url": "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "robots_txt_state": "ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "last_crawl_time": "2026-09-28T07:02:30Z",
+          "google_canonical": "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
+          "user_canonical": "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
+          "referring_urls": [
+            "https://sillgarden.com/"
+          ]
+        },
+        {
+          "url": "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "robots_txt_state": "ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "last_crawl_time": "2026-09-28T07:02:31Z",
+          "google_canonical": "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
+          "user_canonical": "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
+          "referring_urls": [
+            "https://sillgarden.com/"
           ]
         },
         {
@@ -153,7 +312,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-29T08:04:03Z",
+          "last_crawl_time": "2026-09-23T01:56:17Z",
           "google_canonical": "https://sillgarden.com/credits/",
           "user_canonical": "https://sillgarden.com/credits/",
           "referring_urls": [
@@ -168,7 +327,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-29T21:45:08Z",
+          "last_crawl_time": "2026-09-07T08:25:35Z",
           "google_canonical": "https://sillgarden.com/disclosure/",
           "user_canonical": "https://sillgarden.com/disclosure/",
           "referring_urls": [
@@ -183,27 +342,12 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-14T17:25:19Z",
+          "last_crawl_time": "2026-09-26T02:44:57Z",
           "google_canonical": "https://sillgarden.com/guides/",
           "user_canonical": "https://sillgarden.com/guides/",
           "referring_urls": [
             "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
             "https://sillgarden.com/guides/landlord-safe-indoor-garden-setup/"
-          ]
-        },
-        {
-          "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
-          "verdict": "PASS",
-          "coverage_state": "Submitted and indexed",
-          "indexing_state": "INDEXING_ALLOWED",
-          "robots_txt_state": "ALLOWED",
-          "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-29T14:01:43Z",
-          "google_canonical": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
-          "user_canonical": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
-          "referring_urls": [
-            "https://sillgarden.com/guides/",
-            "https://sillgarden.com/sitemap-0.xml"
           ]
         },
         {
@@ -213,23 +357,9 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-22T11:43:43Z",
+          "last_crawl_time": "2026-09-07T15:55:12Z",
           "google_canonical": "https://sillgarden.com/guides/basil-countertop-first-harvest/",
           "user_canonical": "https://sillgarden.com/guides/basil-countertop-first-harvest/",
-          "referring_urls": [
-            "https://sillgarden.com/sitemap-0.xml"
-          ]
-        },
-        {
-          "url": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
-          "verdict": "PASS",
-          "coverage_state": "Submitted and indexed",
-          "indexing_state": "INDEXING_ALLOWED",
-          "robots_txt_state": "ALLOWED",
-          "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-16T11:49:37Z",
-          "google_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
-          "user_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
           "referring_urls": [
             "https://sillgarden.com/sitemap-0.xml"
           ]
@@ -241,26 +371,11 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-22T18:48:43Z",
+          "last_crawl_time": "2026-09-14T21:57:58Z",
           "google_canonical": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
           "user_canonical": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
           "referring_urls": [
             "https://www.sillgarden.com/guides/best-low-light-herbs-apartment/"
-          ]
-        },
-        {
-          "url": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
-          "verdict": "PASS",
-          "coverage_state": "Submitted and indexed",
-          "indexing_state": "INDEXING_ALLOWED",
-          "robots_txt_state": "ALLOWED",
-          "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-29T10:38:20Z",
-          "google_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
-          "user_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
-          "referring_urls": [
-            "https://sillgarden.com/guides/countertop-garden-system-guide/",
-            "https://sillgarden.com/sitemap-0.xml"
           ]
         },
         {
@@ -270,25 +385,10 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-29T09:19:10Z",
+          "last_crawl_time": "2026-09-22T22:42:34Z",
           "google_canonical": "https://sillgarden.com/guides/click-and-grow-vs-idoo-auk/",
           "user_canonical": "https://sillgarden.com/guides/click-and-grow-vs-idoo-auk/",
           "referring_urls": [
-            "https://sillgarden.com/"
-          ]
-        },
-        {
-          "url": "https://sillgarden.com/guides/compare-aerogarden-models/",
-          "verdict": "PASS",
-          "coverage_state": "Submitted and indexed",
-          "indexing_state": "INDEXING_ALLOWED",
-          "robots_txt_state": "ALLOWED",
-          "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-30T06:46:02Z",
-          "google_canonical": "https://sillgarden.com/guides/compare-aerogarden-models/",
-          "user_canonical": "https://sillgarden.com/guides/compare-aerogarden-models/",
-          "referring_urls": [
-            "https://sillgarden.com/guides/countertop-garden-system-guide/",
             "https://sillgarden.com/"
           ]
         },
@@ -299,7 +399,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-29T04:44:06Z",
+          "last_crawl_time": "2026-09-14T09:52:40Z",
           "google_canonical": "https://sillgarden.com/guides/countertop-garden-pod-refill-cost/",
           "user_canonical": "https://sillgarden.com/guides/countertop-garden-pod-refill-cost/",
           "referring_urls": [
@@ -313,7 +413,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-22T08:38:44Z",
+          "last_crawl_time": "2026-09-27T17:53:36Z",
           "google_canonical": "https://sillgarden.com/guides/countertop-garden-running-cost/",
           "user_canonical": "https://sillgarden.com/guides/countertop-garden-running-cost/",
           "referring_urls": [
@@ -341,24 +441,12 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-14T15:20:13Z",
+          "last_crawl_time": "2026-09-05T09:26:47Z",
           "google_canonical": "https://sillgarden.com/guides/grow-light-schedules-herbs/",
           "user_canonical": "https://sillgarden.com/guides/grow-light-schedules-herbs/",
           "referring_urls": [
             "https://sillgarden.com/sitemap-0.xml"
           ]
-        },
-        {
-          "url": "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
-          "verdict": "NEUTRAL",
-          "coverage_state": "URL is unknown to Google",
-          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-          "last_crawl_time": null,
-          "google_canonical": null,
-          "user_canonical": null,
-          "referring_urls": []
         },
         {
           "url": "https://sillgarden.com/guides/landlord-safe-indoor-garden-setup/",
@@ -381,7 +469,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-29T03:54:04Z",
+          "last_crawl_time": "2026-09-22T22:42:33Z",
           "google_canonical": "https://sillgarden.com/guides/mint-windowsill-first-harvest/",
           "user_canonical": "https://sillgarden.com/guides/mint-windowsill-first-harvest/",
           "referring_urls": [
@@ -395,7 +483,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-14T12:07:44Z",
+          "last_crawl_time": "2026-09-07T03:25:09Z",
           "google_canonical": "https://sillgarden.com/guides/quiet-countertop-gardens-studios/",
           "user_canonical": "https://sillgarden.com/guides/quiet-countertop-gardens-studios/",
           "referring_urls": [
@@ -418,25 +506,13 @@
           ]
         },
         {
-          "url": "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
-          "verdict": "NEUTRAL",
-          "coverage_state": "URL is unknown to Google",
-          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-          "last_crawl_time": null,
-          "google_canonical": null,
-          "user_canonical": null,
-          "referring_urls": []
-        },
-        {
           "url": "https://sillgarden.com/privacy/",
           "verdict": "PASS",
           "coverage_state": "Submitted and indexed",
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-08-30T08:44:47Z",
+          "last_crawl_time": "2026-09-07T10:55:11Z",
           "google_canonical": "https://sillgarden.com/privacy/",
           "user_canonical": "https://sillgarden.com/privacy/",
           "referring_urls": [
@@ -445,15 +521,46 @@
           ]
         }
       ],
-      "indexed_count": 21,
-      "not_indexed_count": 2,
+      "nudge": {
+        "ran_at": "2026-09-28T11:14:37.161399+00:00",
+        "note": "GSC UI 'Request indexing' cannot be called via API for normal pages. This run resubmits the sitemap, IndexNow-pings priority URLs, and refreshes inspection.",
+        "priority": [
+          "https://sillgarden.com/",
+          "https://sillgarden.com/about/",
+          "https://sillgarden.com/tools/",
+          "https://sillgarden.com/tools/kit-picker/",
+          "https://sillgarden.com/tools/apartment-herb-checklist/",
+          "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+          "https://sillgarden.com/guides/compare-aerogarden-models/",
+          "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+          "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+          "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
+          "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/"
+        ],
+        "gsc_scope": "webmasters",
+        "sitemap_submit": {
+          "ok": false,
+          "status": 403,
+          "detail": "{\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"Request had insufficient authentication scopes.\",\n    \"errors\": [\n      {\n        \"message\": \"Insufficient Permission\",\n        \"domain\": \"global\",\n        \"reason\": \"insufficientPermissions\"\n      }\n    ],\n    \"status\": \"PERMISSION_DENIED\",\n    \"details\": [\n      {\n        \"@type\": \"type.googleapis.com/google.rpc.ErrorInfo\",\n        \"reason\": \"ACCES"
+        },
+        "indexnow": {
+          "ok": true,
+          "count": 26
+        }
+      },
+      "indexed_count": 23,
+      "not_indexed_count": 3,
       "not_indexed_urls": [
         {
-          "url": "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
+          "url": "https://sillgarden.com/tools/",
           "coverage_state": "URL is unknown to Google"
         },
         {
-          "url": "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
+          "url": "https://sillgarden.com/tools/kit-picker/",
+          "coverage_state": "URL is unknown to Google"
+        },
+        {
+          "url": "https://sillgarden.com/tools/apartment-herb-checklist/",
           "coverage_state": "URL is unknown to Google"
         }
       ]
@@ -474,6 +581,14 @@
         "videos": 38
       },
       "recent_videos": [
+        {
+          "id": "WSnB43l2SmQ",
+          "title": "Click and Grow vs AeroGarden in 2026 \u2014 Honest Pick",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-28T05:22:45Z",
+          "url": "https://www.youtube.com/watch?v=WSnB43l2SmQ"
+        },
         {
           "id": "_BkvP9voGJM",
           "title": "Apartment Herb Garden Under $40 (2026)",
@@ -529,14 +644,6 @@
           "likes": 0,
           "published": "2026-09-04T13:19:23Z",
           "url": "https://www.youtube.com/watch?v=F073SleZ9aA"
-        },
-        {
-          "id": "HhPYlOwDZ1w",
-          "title": "Kratky jar herbs for apartments (silent DIY) \u2014 Apartment Guide (2026)",
-          "views": 9,
-          "likes": 0,
-          "published": "2026-09-03T17:30:20Z",
-          "url": "https://www.youtube.com/watch?v=HhPYlOwDZ1w"
         }
       ]
     },
@@ -594,7 +701,7 @@
       "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
       "auto": false,
       "done": false,
-      "created": "2026-09-27 18:43 UTC"
+      "created": "2026-09-28 02:52 UTC"
     },
     {
       "priority": "P1",
@@ -603,105 +710,35 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-27 18:43 UTC"
+      "created": "2026-09-28 02:52 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden comparison\u201d pos 55/1 impr; \u201caerogarden farm vs farm plus\u201d pos 36/2 impr; \u201caerogarden vs click and grow\u201d pos 47/3 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden farm vs farm plus\u201d pos 36/2 impr; \u201caerogarden vs click and grow\u201d pos 47/3 impr; \u201cclick and grow vs aerogarden\u201d pos 42/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-27 18:43 UTC"
+      "created": "2026-09-28 02:52 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-27 02:52 UTC (15.9h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-09-27 18:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Refresh Google analytics OAuth so metrics stay live.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "created": "2026-09-28 02:52 UTC"
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 8 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden farm vs farm plus\u201d (pos 36), \u201caerogarden vs click and grow\u201d (pos 47). Tighten title/H1 on the matching guide to climb.",
+    "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 7,
+    "ready": 6,
     "total": 7,
     "checks": [
       {
@@ -716,8 +753,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -742,6 +779,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 0 | Aff clicks 0 | GSC 0 | Setup 7/7"
+    "headline": "Sessions 2 | Aff clicks 0 | GSC 0 | Setup 6/7"
   }
 }
