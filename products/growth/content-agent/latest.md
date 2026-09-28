@@ -1,10 +1,10 @@
-# Sill Garden Content Agent — 2026-09-28
+# Sill Garden Content Agent — 2026-09-27
 
-Generated: 2026-09-28 05:20 UTC
+Generated: 2026-09-27 19:22 UTC
 
 ## Research
 - Guides: 17
-- Zero-click GSC queries: 4
+- Zero-click GSC queries: 6
 - Network probes ok: 3/3
 - LLM notes: 0
 
@@ -13,6 +13,8 @@ Generated: 2026-09-28 05:20 UTC
 
 ## Top demand
 - aerogarden bounty vs harvest — 1 impr, pos 41.0
+- aerogarden comparison — 1 impr, pos 55.0
 - aerogarden farm vs farm plus — 2 impr, pos 36.0
 - aerogarden vs click and grow — 3 impr, pos 47.3
 - click and grow vs aerogarden — 2 impr, pos 41.5
+- countertop garden — 1 impr, pos 93.0

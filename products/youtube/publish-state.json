@@ -342,8 +342,17 @@
       "uploaded_at": "2026-09-25T18:13:11.950255+00:00",
       "storyboard": "products/youtube/video-related-apartment-garden-on-a-budget/storyboard.json",
       "format": "long"
+    },
+    "video-related-click-and-grow-vs-aerogarden-2026-20260926": {
+      "youtube_id": "WSnB43l2SmQ",
+      "url": "https://youtu.be/WSnB43l2SmQ",
+      "title": "Click and Grow vs AeroGarden in 2026 \u2014 Honest Pick",
+      "privacy": "public",
+      "uploaded_at": "2026-09-28T05:22:25.790066+00:00",
+      "storyboard": "products/youtube/video-related-click-and-grow-vs-aerogarden-2026-20260926/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-08-15T18:06:54.924518+00:00",
-  "next_eligible_date": "2026-09-28"
+  "next_eligible_date": "2026-10-01"
 }

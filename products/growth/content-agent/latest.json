@@ -1,8 +1,8 @@
 {
-  "date": "2026-09-28",
-  "generated": "2026-09-28 05:20 UTC",
+  "date": "2026-09-27",
+  "generated": "2026-09-27 19:22 UTC",
   "research": {
-    "generated": "2026-09-28 05:20 UTC",
+    "generated": "2026-09-27 19:22 UTC",
     "zero_click_queries": [
       {
         "query": "aerogarden bounty vs harvest",
@@ -10,6 +10,14 @@
         "impressions": 1,
         "ctr": 0.0,
         "position": 41.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 55.0,
         "ctr_pct": 0.0
       },
       {
@@ -34,6 +42,14 @@
         "impressions": 2,
         "ctr": 0.0,
         "position": 41.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "countertop garden",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 93.0,
         "ctr_pct": 0.0
       }
     ],
@@ -82,5 +98,5 @@
   "proposed": [],
   "applied": [],
   "indexnow": null,
-  "summary_md": "# Sill Garden Content Agent — 2026-09-28\n\nGenerated: 2026-09-28 05:20 UTC\n\n## Research\n- Guides: 17\n- Zero-click GSC queries: 4\n- Network probes ok: 3/3\n- LLM notes: 0\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty vs harvest — 1 impr, pos 41.0\n- aerogarden farm vs farm plus — 2 impr, pos 36.0\n- aerogarden vs click and grow — 3 impr, pos 47.3\n- click and grow vs aerogarden — 2 impr, pos 41.5\n"
+  "summary_md": "# Sill Garden Content Agent — 2026-09-27\n\nGenerated: 2026-09-27 19:22 UTC\n\n## Research\n- Guides: 17\n- Zero-click GSC queries: 6\n- Network probes ok: 3/3\n- LLM notes: 0\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty vs harvest — 1 impr, pos 41.0\n- aerogarden comparison — 1 impr, pos 55.0\n- aerogarden farm vs farm plus — 2 impr, pos 36.0\n- aerogarden vs click and grow — 3 impr, pos 47.3\n- click and grow vs aerogarden — 2 impr, pos 41.5\n- countertop garden — 1 impr, pos 93.0\n"
 }

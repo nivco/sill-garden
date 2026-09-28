@@ -1,24 +1,17 @@
 {
-  "generated_at": "2026-09-28 05:21 UTC",
+  "generated_at": "2026-09-27 18:43 UTC",
   "target": {
-    "slug": "compare-aerogarden-models",
-    "title": "AeroGarden Bounty vs Harvest (2026) — which model should you buy?",
-    "url": "https://sillgarden.com/guides/compare-aerogarden-models/",
-    "description": "AeroGarden Bounty vs Harvest (and Farm) for apartments — pods, footprint, noise, and which model fits a real counter.",
+    "slug": "aerogarden-vs-click-and-grow",
+    "title": "AeroGarden vs Click & Grow (2026) — which is better?",
+    "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+    "description": "aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.",
     "reason": "matches query “aerogarden bounty vs harvest”"
   },
-  "priority": "P0_when_sessions_zero",
   "channels": {
-    "x": "AeroGarden Bounty vs Harvest (2026) — which model should you buy?\n\nhttps://sillgarden.com/guides/compare-aerogarden-models/\n\n#IndoorGarden #ApartmentLiving",
-    "bluesky": "AeroGarden Bounty vs Harvest (2026) — which model should you buy?\n\nAeroGarden Bounty vs Harvest (and Farm) for apartments — pods, footprint, noise, and which model fits a real counter.\n\nhttps://sillgarden.com/guides/compare-aerogarden-models/",
-    "mastodon": "AeroGarden Bounty vs Harvest (2026) — which model should you buy?\n\nhttps://sillgarden.com/guides/compare-aerogarden-models/\n\n#IndoorGarden #ApartmentLiving #Herbs",
-    "reddit": "Sub: r/ApartmentGardening (alt: r/hydroponics, r/gardening)\nTitle: AeroGarden Bounty vs Harvest (2026) — which model should you buy?\n\nBody:\nI've been testing quiet apartment herb setups (windowsill + small kits) and wrote up what actually worked vs what was clutter.\n\n**Short take:** AeroGarden Bounty vs Harvest (and Farm) for apartments — pods, footprint, noise, and which model fits a real counter.\n\nFull notes (affiliate disclosure on site): https://sillgarden.com/guides/compare-aerogarden-models/\n\nHappy to answer questions about noise, light, or refill cost.\n\nDisclosure page: https://sillgarden.com/disclosure/",
-    "pinterest": "Pin title: AeroGarden Bounty vs Harvest (2026) — which model should you buy?\nDescription: AeroGarden Bounty vs Harvest (and Farm) for apartments — pods, footprint, noise, and which model fits a real counter. Quiet apartment-friendly picks.\nLink: https://sillgarden.com/guides/compare-aerogarden-models/",
-    "devto": "Syndicate canonical: https://sillgarden.com/guides/compare-aerogarden-models/"
-  },
-  "checklist": [
-    "Post Reddit draft today (value-first, disclose affiliates)",
-    "Pin Pinterest image from guide hero",
-    "Share YouTube video that matches the same query"
-  ]
+    "x": "AeroGarden vs Click & Grow (2026) — which is better?\n\nhttps://sillgarden.com/guides/aerogarden-vs-click-and-grow/\n\n#IndoorGarden #ApartmentLiving",
+    "bluesky": "AeroGarden vs Click & Grow (2026) — which is better?\n\naerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.\n\nhttps://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+    "mastodon": "AeroGarden vs Click & Grow (2026) — which is better?\n\nhttps://sillgarden.com/guides/aerogarden-vs-click-and-grow/\n\n#IndoorGarden #ApartmentLiving #Herbs",
+    "reddit": "Title idea: AeroGarden vs Click & Grow (2026) — which is better?\n\nBody: aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.\n\nLink: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/\nDisclosure: https://sillgarden.com/disclosure/",
+    "devto": "Syndicate canonical: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/"
+  }
 }
