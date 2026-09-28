@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-09-27 18:43 UTC",
+  "generated_at": "2026-09-28 12:57 UTC",
   "wow": {
-    "ga4_sessions_7d": -3.0,
-    "gsc_impressions_7d": 2.0,
+    "ga4_sessions_7d": -1.0,
+    "gsc_impressions_7d": -1.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 0,
-    "gsc_impressions_7d": 10,
+    "sessions_7d": 2,
+    "gsc_impressions_7d": 8,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
-    "indexed_urls": 21
+    "indexed_urls": 23
   },
   "top_queries": [
     {
@@ -21,13 +21,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 41.0
-    },
-    {
-      "query": "aerogarden comparison",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 55.0
     },
     {
       "query": "aerogarden farm vs farm plus",
@@ -49,22 +42,32 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 41.5
-    },
-    {
-      "query": "countertop garden",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 93.0
     }
   ],
   "learnings": [
+    "WORKING peer pattern: long-form depth (~1362 words avg) — expand thin guides with decision rules, not fluff.",
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
+    "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "WORKING: GSC impressions with 0 clicks on comparison queries → Tighten AeroGarden vs Click & Grow title/FAQ for both brand orders",
-    "WORKING: Indexed pages but weak topical coverage → Ship long-tail apartment guides (low-light, under $50, running cost)",
-    "WORKING: YouTube Shorts can drive early sessions → Keep UTM’d guide links in descriptions; refresh descriptions weekly",
-    "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages.",
-    "Top search demand: \"aerogarden bounty vs harvest\" (1 impr, pos 41.0).",
-    "YouTube channel: 38 videos, 378 views, 0 site sessions from YouTube.",
-    "YouTube publish log entries: 2."
-  ]
+    "WORKING: Indexed pages but weak topical coverage → Ship long-tail apartment guides (low-light, under $50, running cost) only when sessions_7d > 0",
+    "WORKING: YouTube Shorts get views but YT→site sessions = 0 → Put kit hub + kit-picker + year-one-cost UTM links first in descriptions; post channel comments on top Shorts; pin in Studio when API cannot",
+    "WORKING: sessions_7d ≈ 0 and affiliate clicks = 0 → Kit-first acquisition: distribute /kits/* stacks (physical Amazon/Click&Grow), not new thin guides or AI-spittable digital products",
+    "WORKING: New money URLs (kits/tools) shipped → Nudge IndexNow + sitemap; write GSC P0 Request-indexing list for money URLs; GSC button is not API-automatable",
+    "WORKING: Need monetization beyond guide CTAs → Enrich site with kit stacks, refills hub, kit-picker, year-one-cost — physical accessory bundles only",
+    "IGNORE: Cloudflare pageviews alone → Prefer GA4 sessions — edge counts include bots",
+    "IGNORE: Ship AI-regenerable digital products (PDFs/checklists for sale) → Banned for this brand — sell/affiliate physical stacks only",
+    "IGNORE: Automate GSC Request indexing via scraping or Indexing API for normal pages → Not allowed / invalid — use sitemap + IndexNow + manual Request indexing for P0 money URLs",
+    "IGNORE: Ship more thin guides while sessions_7d = 0 → Pause new guides; refresh money pages + distribute kit links instead",
+    "DISTRIBUTE: When sessions are flat, Reddit/Pinterest/YouTube must lead with kit stacks (studio-silence, kitchen-capacity, under-50), not guide-only links",
+    "DISTRIBUTE: Always include disclosure URL when naming products",
+    "DISTRIBUTE: YouTube pin/comment copy: kit-picker + /kits/ + year-one-cost",
+    "DISTRIBUTE: After shipping money pages, refresh products/growth/distribution/gsc-request-indexing-urls.md P0 list",
+    "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages."
+  ],
+  "competitive": {
+    "ok_peers": 5,
+    "generated_at": "2026-09-28 12:58 UTC"
+  }
 }

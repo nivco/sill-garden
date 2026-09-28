@@ -46,6 +46,10 @@ def build_learning() -> dict:
         status = item.get("status") or "working"
         prefix = "WORKING" if status == "working" else "IGNORE"
         learnings.append(f"{prefix}: {item.get('signal')} → {item.get('action')}")
+    for item in playbook.get("ignore") or []:
+        learnings.append(f"IGNORE: {item.get('signal')} → {item.get('action')}")
+    for rule in (playbook.get("distribution_rules") or [])[:4]:
+        learnings.append(f"DISTRIBUTE: {rule}")
 
     impr = float(gsc.get("impressions") or hero.get("gsc_impressions_7d") or 0)
     clicks = float(gsc.get("clicks") or hero.get("gsc_clicks_7d") or 0)

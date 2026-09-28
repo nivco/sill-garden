@@ -1,4 +1,5 @@
 {
+  "updated_at": "2026-09-28",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -7,12 +8,27 @@
     },
     {
       "signal": "Indexed pages but weak topical coverage",
-      "action": "Ship long-tail apartment guides (low-light, under $50, running cost)",
+      "action": "Ship long-tail apartment guides (low-light, under $50, running cost) only when sessions_7d > 0",
       "status": "working"
     },
     {
-      "signal": "YouTube Shorts can drive early sessions",
-      "action": "Keep UTM’d guide links in descriptions; refresh descriptions weekly",
+      "signal": "YouTube Shorts get views but YT→site sessions = 0",
+      "action": "Put kit hub + kit-picker + year-one-cost UTM links first in descriptions; post channel comments on top Shorts; pin in Studio when API cannot",
+      "status": "working"
+    },
+    {
+      "signal": "sessions_7d ≈ 0 and affiliate clicks = 0",
+      "action": "Kit-first acquisition: distribute /kits/* stacks (physical Amazon/Click&Grow), not new thin guides or AI-spittable digital products",
+      "status": "working"
+    },
+    {
+      "signal": "New money URLs (kits/tools) shipped",
+      "action": "Nudge IndexNow + sitemap; write GSC P0 Request-indexing list for money URLs; GSC button is not API-automatable",
+      "status": "working"
+    },
+    {
+      "signal": "Need monetization beyond guide CTAs",
+      "action": "Enrich site with kit stacks, refills hub, kit-picker, year-one-cost — physical accessory bundles only",
       "status": "working"
     }
   ],
@@ -21,6 +37,38 @@
       "signal": "Cloudflare pageviews alone",
       "action": "Prefer GA4 sessions — edge counts include bots",
       "status": "ignore"
+    },
+    {
+      "signal": "Ship AI-regenerable digital products (PDFs/checklists for sale)",
+      "action": "Banned for this brand — sell/affiliate physical stacks only",
+      "status": "ignore"
+    },
+    {
+      "signal": "Automate GSC Request indexing via scraping or Indexing API for normal pages",
+      "action": "Not allowed / invalid — use sitemap + IndexNow + manual Request indexing for P0 money URLs",
+      "status": "ignore"
+    },
+    {
+      "signal": "Ship more thin guides while sessions_7d = 0",
+      "action": "Pause new guides; refresh money pages + distribute kit links instead",
+      "status": "ignore"
     }
+  ],
+  "money_urls": [
+    "https://sillgarden.com/kits/",
+    "https://sillgarden.com/kits/studio-silence/",
+    "https://sillgarden.com/kits/kitchen-capacity/",
+    "https://sillgarden.com/kits/under-50/",
+    "https://sillgarden.com/kits/refills/",
+    "https://sillgarden.com/tools/kit-picker/",
+    "https://sillgarden.com/tools/year-one-cost/",
+    "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+    "https://sillgarden.com/guides/compare-aerogarden-models/"
+  ],
+  "distribution_rules": [
+    "When sessions are flat, Reddit/Pinterest/YouTube must lead with kit stacks (studio-silence, kitchen-capacity, under-50), not guide-only links",
+    "Always include disclosure URL when naming products",
+    "YouTube pin/comment copy: kit-picker + /kits/ + year-one-cost",
+    "After shipping money pages, refresh products/growth/distribution/gsc-request-indexing-urls.md P0 list"
   ]
 }

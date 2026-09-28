@@ -1,6 +1,6 @@
 ---
-title: "AeroGarden vs Click & Grow for apartments (2026)"
-description: "AeroGarden vs Click & Grow (and Click and Grow vs AeroGarden) for small apartments — noise, pods, footprint, refill cost, and a clear studio vs kitchen pick."
+title: AeroGarden vs Click & Grow for apartments (2026)
+description: "aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost."
 pubDate: 2026-08-13
 updatedDate: 2026-09-28
 cluster: systems

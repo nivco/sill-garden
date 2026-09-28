@@ -132,7 +132,7 @@ def main() -> int:
         for line in competitive.get("learnings") or []:
             if line not in (learning.get("learnings") or []):
                 learning.setdefault("learnings", []).insert(0, line)
-        learning["learnings"] = (learning.get("learnings") or [])[:14]
+        learning["learnings"] = (learning.get("learnings") or [])[:20]
         if not args.dry_run:
             from metrics_learning import OUT as LEARNING_OUT
 

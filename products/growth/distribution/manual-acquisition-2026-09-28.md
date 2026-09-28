@@ -1,28 +1,17 @@
-# Manual acquisition — do today (2026-09-28)
+# Manual acquisition — 2026-09-28
 
-API cannot post Reddit or click GSC “Request indexing.”
+1. GSC P0: `gsc-request-indexing-urls.md`
+2. Reddit: kit-first draft in `reddit-ready-*.md`
+3. Pinterest: kit pins
+4. YouTube pin comment:
 
-## 1. GSC Request indexing
+```
+Apartment kit pick (noise vs capacity) + year-one cost:
+https://sillgarden.com/tools/kit-picker/
+https://sillgarden.com/kits/
+https://sillgarden.com/tools/year-one-cost/
+```
 
-Use the exact list: `gsc-request-indexing-urls.md` (P0 first).
+Primary kit lane today: Kitchen Capacity Kit — AeroGarden Harvest stack → https://sillgarden.com/kits/kitchen-capacity/
 
-## 2. Reddit (paste from `reddit-ready-2026-09-28.md`)
-
-1. Thread #1 — vs + kit stacks (primary)  
-2. Thread #2 or #3 — Bounty or Under-$50  
-
-## 3. Pinterest
-
-Create pins from `pinterest-ready-2026-09-28.md` (kit URLs first).
-
-## 4. YouTube
-
-Pin the comment in `reddit-ready-2026-09-28.md` on your top Shorts. Descriptions already get UTM’d links on refresh.
-
-## 5. Paid Pulse
-
-Prompts in `reddit-ready-2026-09-28.md`.
-
-## 6. Social short
-
-Copy in `distribution/latest.json`.
+Rules: products/growth/AGENT-LESSONS.md

@@ -160,10 +160,11 @@ def analyze() -> dict:
         reasons.append("Affiliate clicks_7d = 0")
 
     actions = [
-        "Post 1 Reddit value thread today (use products/growth/distribution/latest.json)",
-        "Request indexing in GSC for any not-indexed guides (traffic action-queue P1)",
-        "Publish next long-form YouTube only if title matches a live GSC query",
-        "Do not ship more thin guides until sessions_7d > 0",
+        "Post 1 kit-first Reddit thread (products/growth/distribution/latest.json — /kits/* not guide-only)",
+        "Pin kit-picker + /kits/ + year-one-cost on top YouTube Shorts",
+        "Request indexing in GSC for any not-indexed money URLs (kits/tools first)",
+        "Do not ship thin guides or AI-spittable digital products until sessions_7d > 0",
+        "Enrich monetization via kit stacks / refills / tools, not more prose",
     ]
 
     return {

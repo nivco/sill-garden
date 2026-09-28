@@ -339,8 +339,9 @@ def propose_actions(metrics: dict, research_pack: dict) -> list[dict]:
                     "slug": spec["slug"],
                     "spec": spec,
                     "reason": (
-                        f"Paused: sessions_7d={sessions_7d}. Refresh existing money guides "
-                        "instead of shipping thin new pages."
+                        f"Paused: sessions_7d={sessions_7d}. Do not ship thin guides — "
+                        "enrich /kits/*, /kits/refills/, kit-picker, year-one-cost and kit-first "
+                        "distribution instead (see products/growth/AGENT-LESSONS.md)."
                     ),
                     "bucket": "new",
                     "status_hint": "skipped_zero_sessions",

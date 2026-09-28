@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 05:29 UTC",
+  "generated_at": "2026-09-28 12:58 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -56,8 +56,8 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 400,
-        "images": 21,
+        "word_count_est": 422,
+        "images": 22,
         "has_faq": true,
         "has_table": false,
         "has_og_image": false,
@@ -121,6 +121,32 @@
         "comparison_signal": false,
         "year_in_title": false
       }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 3828,
+        "images": 0,
+        "has_faq": false,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
     }
   ],
   "our_probe": {
@@ -129,10 +155,10 @@
     "error": null,
     "signals": {
       "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
-      "title": "AeroGarden vs Click & Grow (2026) — which is better? · Sill Garden",
-      "description": "aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.",
+      "title": "AeroGarden vs Click & Grow for apartments (2026) · Sill Garden",
+      "description": "AeroGarden vs Click & Grow (and Click and Grow vs AeroGarden) for small apartments — noise, pods, footprint, refill cost, and a clear studio vs kitchen pick.",
       "h1": [
-        "AeroGarden vs Click & Grow (2026) — which is better?"
+        "AeroGarden vs Click & Grow for apartments (2026)"
       ],
       "h2_sample": [
         "What we’d put on the counter",
@@ -144,13 +170,13 @@
         "Our call",
         "Next"
       ],
-      "word_count_est": 845,
-      "images": 8,
+      "word_count_est": 984,
+      "images": 6,
       "has_faq": true,
       "has_table": true,
       "has_og_image": true,
-      "has_json_ld": false,
-      "cta_mentions": 3,
+      "has_json_ld": true,
+      "cta_mentions": 8,
       "hero_signal": true,
       "comparison_signal": true,
       "year_in_title": true
@@ -167,12 +193,9 @@
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Fix the title/H1 to match query intent, not brand-only branding.** Add comparison-led landing pages with titles like “AeroGarden Bounty vs Harvest: Which Is Better for Small Apartments?” and “AeroGarden vs Click & Gr",
-    "LLM peer insight: . **Add a top-of-page comparison table above the fold.** Ship a simple 5–7 row table for each target query with columns like Price, footprint, setup time, pod compatibility, app/Wi‑Fi, best for, and maintenance. For exam",
-    "LLM peer insight: . **Add a FAQ block that resolves purchase objections.** Mirror what peer sites are already doing by adding 5–7 concise FAQs under each comparison page: “Which is better for apartments?”, “Which system is quieter?”, “Whi",
-    "LLM peer insight: . **Rebuild the hero into a recommendation-first layout with one primary"
+    "WORKING peer pattern: long-form depth (~1362 words avg) — expand thin guides with decision rules, not fluff."
   ],
-  "llm_notes": "1. **Fix the title/H1 to match query intent, not brand-only branding.** Add comparison-led landing pages with titles like “AeroGarden Bounty vs Harvest: Which Is Better for Small Apartments?” and “AeroGarden vs Click & Grow: Best Indoor Garden for Beginners?” so the page directly matches your GSC demand instead of a generic Sill-style brand title. Keep one clear H1 per page, and use the same keyword pair in the intro so the page is obviously about the comparison, not just a product roundup.\n\n2. **Add a top-of-page comparison table above the fold.** Ship a simple 5–7 row table for each target query with columns like Price, footprint, setup time, pod compatibility, app/Wi‑Fi, best for, and maintenance. For example, on “AeroGarden Farm vs Farm Plus,” include footprint, grow sites, light height, Wi‑Fi/app support, and apartment fit; on “Click & Grow vs AeroGarden,” include seed refill model, automation, and noise/maintenance. Make the table visible before the first long paragraph so users get the answer fast.\n\n3. **Add a FAQ block that resolves purchase objections.** Mirror what peer sites are already doing by adding 5–7 concise FAQs under each comparison page: “Which is better for apartments?”, “Which system is quieter?”, “Which has lower ongoing pod costs?”, “Which is easier for beginners?”, “Do I need Wi‑Fi?”, and “Which grows faster?” Keep answers to 2–3 sentences and include one direct recommendation per answer. This gives you more long-tail capture and a better chance to own snippet-style answers.\n\n4. **Rebuild the hero into a recommendation-first layout with one primary ",
+  "llm_notes": null,
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -180,13 +203,6 @@
       "title": "Add/refresh FAQ from peer + GSC questions",
       "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
       "auto": true
-    },
-    {
-      "type": "content_table",
-      "priority": "P1",
-      "title": "Ensure comparison tables near top of vs guides",
-      "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
-      "auto": false
     },
     {
       "type": "visuality",
@@ -203,6 +219,6 @@
       "auto": false
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }

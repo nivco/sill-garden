@@ -106,12 +106,26 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
                 "P0",
                 "acquisition",
                 f"No GA4 sessions yet ({flat_days}d flat)",
-                "PRIORITY: post 1 Reddit value thread from products/growth/distribution/latest.json "
-                "(r/ApartmentGardening or r/hydroponics — no spam, answer first). "
-                "Also request indexing on home + missing guides in Search Console. "
-                "Do not ship more guides until sessions_7d > 0.",
+                "KIT-FIRST: post Reddit + Pinterest from products/growth/distribution/latest.json "
+                "linking /kits/studio-silence/, /kits/kitchen-capacity/, or /kits/under-50/ "
+                "(physical stacks — not guide-only, not digital products). "
+                "Pin kit-picker + kits + year-one-cost on top YouTube Shorts. "
+                "Request indexing on money URLs in GSC. Do not ship thin guides until sessions_7d > 0. "
+                "See products/growth/AGENT-LESSONS.md.",
             )
         )
+        yt_sess = int(hero.get("youtube_sessions_7d") or 0)
+        yt_views = int(hero.get("youtube_views_total") or 0)
+        if yt_views > 0 and yt_sess == 0:
+            actions.append(
+                task(
+                    "P0",
+                    "youtube",
+                    "YouTube views with 0 site sessions — kit links on Shorts",
+                    "Run (after API quota): gh workflow run 'YouTube refresh descriptions' -f dry_run=false. "
+                    "Or Studio-pin kit comment on top Shorts. Descriptions must lead with /kits/ + kit-picker + year-one-cost.",
+                )
+            )
     else:
         state["zeroSessionDays"] = 0
     indexing = load_json(INDEXING_STATUS, {})
@@ -119,13 +133,24 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
     sitemap_total = int(indexing.get("sitemap_url_count") or 0)
     missing = indexing.get("not_indexed_urls") or []
 
-    # One indexing action covering all missing guides (not one row each).
+    # One indexing action covering missing money URLs + guides.
+    missing_money: list[str] = []
     missing_guides: list[str] = []
     for row in missing:
         url = str(row.get("url") or "")
-        if "/guides/" not in url or url.rstrip("/").endswith("/guides"):
-            continue
-        missing_guides.append(url.rstrip("/").split("/")[-1])
+        if any(x in url for x in ("/kits/", "/tools/")):
+            missing_money.append(url)
+        elif "/guides/" in url and not url.rstrip("/").endswith("/guides"):
+            missing_guides.append(url.rstrip("/").split("/")[-1])
+    if missing_money:
+        actions.append(
+            task(
+                "P0",
+                "indexing",
+                f"Request indexing for {len(missing_money)} money URLs",
+                "Search Console → URL Inspection → Request indexing: " + ", ".join(missing_money),
+            )
+        )
     if missing_guides:
         actions.append(
             task(

@@ -1,12 +1,9 @@
 {
-  "generated_at": "2026-09-28 07:05 UTC",
+  "generated_at": "2026-09-28 12:57 UTC",
   "severity": "warn",
   "stalled": false,
-  "zero_session_days": [
-    "2026-09-28",
-    "2026-09-27"
-  ],
-  "zero_session_day_count": 2,
+  "zero_session_days": [],
+  "zero_session_day_count": 0,
   "low_session_days": [
     "2026-09-28",
     "2026-09-27",
@@ -17,36 +14,32 @@
   "low_session_day_count": 5,
   "youtube_flat": false,
   "metrics": {
-    "sessions_7d": 0,
+    "sessions_7d": 2,
     "gsc_impressions_7d": 8,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_views_total": 378,
     "youtube_sessions_7d": 0,
     "next_eligible_date": "2026-10-01",
-    "distribution_url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/"
+    "distribution_url": "https://sillgarden.com/kits/"
   },
   "reasons": [
-    "GA4 sessions_7d=0 for 2 calendar day(s)",
+    "GA4 sessions_7d=2 (<5) for 5 day(s)",
     "GSC 8 impressions / 0 clicks",
     "YouTube -> site sessions = 0",
     "Affiliate clicks_7d = 0"
   ],
   "actions": [
-    "Post 1 Reddit value thread today (use products/growth/distribution/latest.json)",
-    "Request indexing in GSC for any not-indexed guides (traffic action-queue P1)",
-    "Publish next long-form YouTube only if title matches a live GSC query",
-    "Do not ship more thin guides until sessions_7d > 0"
+    "Post 1 kit-first Reddit thread (products/growth/distribution/latest.json — /kits/* not guide-only)",
+    "Pin kit-picker + /kits/ + year-one-cost on top YouTube Shorts",
+    "Request indexing in GSC for any not-indexed money URLs (kits/tools first)",
+    "Do not ship thin guides or AI-spittable digital products until sessions_7d > 0",
+    "Enrich monetization via kit stacks / refills / tools, not more prose"
   ],
   "thresholds": {
     "zero_session_days_critical": 3,
     "low_session_threshold": 5,
     "low_session_days_critical": 7,
     "youtube_flat_points": 6
-  },
-  "email": {
-    "ok": true,
-    "via": "resend",
-    "detail": "resend -> nivooo@gmail.com"
   }
 }
