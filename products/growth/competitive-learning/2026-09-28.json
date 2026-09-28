@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 12:58 UTC",
+  "generated_at": "2026-09-28 13:06 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -156,7 +156,7 @@
     "signals": {
       "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
       "title": "AeroGarden vs Click & Grow for apartments (2026) · Sill Garden",
-      "description": "AeroGarden vs Click & Grow (and Click and Grow vs AeroGarden) for small apartments — noise, pods, footprint, refill cost, and a clear studio vs kitchen pick.",
+      "description": "aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.",
       "h1": [
         "AeroGarden vs Click & Grow for apartments (2026)"
       ],
@@ -170,7 +170,7 @@
         "Our call",
         "Next"
       ],
-      "word_count_est": 984,
+      "word_count_est": 972,
       "images": 6,
       "has_faq": true,
       "has_table": true,

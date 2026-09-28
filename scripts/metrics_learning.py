@@ -51,6 +51,15 @@ def build_learning() -> dict:
     for rule in (playbook.get("distribution_rules") or [])[:4]:
         learnings.append(f"DISTRIBUTE: {rule}")
 
+    try:
+        from action_impact_learning import impact_lesson_lines, session_lesson_lines
+
+        for line in session_lesson_lines(8) + impact_lesson_lines(limit=6):
+            if line not in learnings:
+                learnings.append(line)
+    except Exception:  # noqa: BLE001
+        pass
+
     impr = float(gsc.get("impressions") or hero.get("gsc_impressions_7d") or 0)
     clicks = float(gsc.get("clicks") or hero.get("gsc_clicks_7d") or 0)
     if impr > 0 and clicks == 0:

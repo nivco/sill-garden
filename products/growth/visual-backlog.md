@@ -1,6 +1,6 @@
 # Visuality backlog (from competitive learning)
 
-Updated: 2026-09-28 12:58 UTC
+Updated: 2026-09-28 13:06 UTC
 
 - [ ] Home hero: one brand + one CTA; no card clutter in first viewport
 - [ ] Guide pages: Quick verdict + product picks before long prose

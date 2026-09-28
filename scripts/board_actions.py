@@ -163,8 +163,13 @@ def measure_impacts(
     metrics: dict | None = None,
     today: str | None = None,
 ) -> list[dict[str, Any]]:
-    """Placeholder for 7-day impact measurement; kept for API parity with MTS."""
-    return []
+    """Score growth actions whose 3–7d windows elapsed (see action_impact_learning)."""
+    try:
+        from action_impact_learning import measure_due_actions
+
+        return measure_due_actions(metrics=metrics, today=today)
+    except Exception:  # noqa: BLE001
+        return []
 
 
 def _metrics_slice(snapshot: dict) -> dict:

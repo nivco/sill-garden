@@ -35,6 +35,11 @@ from growth_actions import (
 )
 from guide_content import patch_guide_seo
 from metrics_learning import build_learning
+from action_impact_learning import (
+    hero_metrics,
+    impact_lesson_lines,
+    session_lesson_lines,
+)
 
 ROOT = Path(__file__).resolve().parents[1]
 GROWTH = ROOT / "products" / "growth"
@@ -123,8 +128,33 @@ def main() -> int:
     from competitive_learning import run_competitive_learning
 
     learning = build_learning()
+    # Fold session retros (how we decided) into the daily learning set.
+    for line in session_lesson_lines(10):
+        if line not in (learning.get("learnings") or []):
+            learning.setdefault("learnings", []).insert(0, line)
+
     metrics = metrics_from_latest()
     outcome = analyze_outcome()
+
+    # Score prior actions / ingest session retros before applying new ones.
+    impact: dict = {"closed": [], "recorded": [], "lessons": [], "summary_lines": []}
+    if not args.dry_run:
+        try:
+            from action_impact_learning import measure_due_actions, ingest_session_retros
+
+            ingest_session_retros()
+            closed = measure_due_actions(metrics=hero_metrics())
+            impact["closed"] = closed
+            impact["lessons"] = impact_lesson_lines(closed) + session_lesson_lines(8)
+            impact["summary_lines"] = [
+                f"{c.get('kind')}:{c.get('target')} [{c.get('verdict')}] {c.get('outcome')}"
+                for c in closed
+            ]
+            for line in impact["lessons"]:
+                if line not in (learning.get("learnings") or []):
+                    learning.setdefault("learnings", []).insert(0, line)
+        except Exception as exc:  # noqa: BLE001
+            print(f"impact learning failed: {exc}", file=sys.stderr)
 
     competitive = {"learnings": [], "proposed_actions": []}
     try:
@@ -132,7 +162,7 @@ def main() -> int:
         for line in competitive.get("learnings") or []:
             if line not in (learning.get("learnings") or []):
                 learning.setdefault("learnings", []).insert(0, line)
-        learning["learnings"] = (learning.get("learnings") or [])[:20]
+        learning["learnings"] = (learning.get("learnings") or [])[:24]
         if not args.dry_run:
             from metrics_learning import OUT as LEARNING_OUT
 
@@ -140,6 +170,10 @@ def main() -> int:
             snap["competitive"] = {
                 "ok_peers": competitive.get("ok_peers"),
                 "generated_at": competitive.get("generated_at"),
+            }
+            snap["impact"] = {
+                "closed_today": len(impact.get("closed") or []),
+                "lessons": (impact.get("lessons") or [])[:8],
             }
             save_json(LEARNING_OUT, snap)
     except Exception as exc:  # noqa: BLE001
@@ -197,6 +231,24 @@ def main() -> int:
         if index_result.get("ok"):
             applied.append("IndexNow ping")
 
+    # Record today's actions with metric baselines for 3–7d impact scoring.
+    if not args.dry_run:
+        try:
+            from action_impact_learning import record_actions
+
+            to_record: list = list(auto) + [
+                {"type": "distribution", "target": (pack.get("target") or {}).get("slug") or "pack",
+                 "title": "kit-first distribution pack", "primary_metric": "sessions_7d"}
+            ]
+            for line in applied:
+                if isinstance(line, str):
+                    to_record.append(line)
+            impact["recorded"] = record_actions(to_record, metrics=hero_metrics())
+            if impact.get("closed"):
+                applied.append(f"impact scored {len(impact['closed'])} prior action(s)")
+        except Exception as exc:  # noqa: BLE001
+            applied.append(f"impact record failed: {exc}")
+
     payload = {
         "generated_at": now_utc(),
         "dry_run": args.dry_run,
@@ -219,7 +271,12 @@ def main() -> int:
         },
         "distribution": pack,
         "indexnow": index_result,
-        "impact_lines": format_impact_lines(auto),
+        "impact_lines": (impact.get("summary_lines") or []) + format_impact_lines(auto),
+        "impact": {
+            "closed": len(impact.get("closed") or []),
+            "recorded": len(impact.get("recorded") or []),
+            "lessons": (impact.get("lessons") or [])[:8],
+        },
         "outcome_health": outcome,
     }
     summary_path = write_daily_summary(payload)
@@ -238,6 +295,10 @@ def main() -> int:
     state["last_applied"] = applied
     state["last_summary"] = str(summary_path.relative_to(ROOT)).replace("\\", "/")
     state["last_outcome_severity"] = outcome.get("severity")
+    state["last_impact"] = {
+        "closed": len(impact.get("closed") or []),
+        "recorded": len(impact.get("recorded") or []),
+    }
     if pack_path:
         state["last_distribution"] = str(pack_path.relative_to(ROOT)).replace("\\", "/")
     save_json(STATE_PATH, state)
@@ -245,6 +306,10 @@ def main() -> int:
     print(f"Growth agent {'DRY RUN' if args.dry_run else 'OK'} · applied={len(applied)}")
     for line in applied:
         print(f"  - {line}")
+    if impact.get("summary_lines"):
+        print("Impact:")
+        for line in impact["summary_lines"][:6]:
+            print(f"  - {line}")
     print(f"Outcome: {outcome.get('severity')} · zero_days={outcome.get('zero_session_day_count')}")
     print(f"Summary: {summary_path}")
     print(f"Email: {email_status}")

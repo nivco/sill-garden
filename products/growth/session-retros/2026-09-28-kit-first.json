@@ -1,0 +1,101 @@
+{
+  "id": "2026-09-28-kit-first",
+  "date": "2026-09-28",
+  "title": "Kit-first monetization + indexing + YouTube pin cycle",
+  "questions_asked": [
+    {
+      "q": "Can we automate Request indexing on Google?",
+      "decision": "No - GSC UI button has no API for normal pages. Automate sitemap PUT + IndexNow + URL Inspection; keep a P0 money URL list for manual Request indexing.",
+      "implemented": ["scripts/nudge_google_indexing.py", "products/growth/distribution/gsc-request-indexing-urls.md", ".github/workflows/nudge-indexing.yml"]
+    },
+    {
+      "q": "I requested indexing for all P0 URLs (or they were already indexed) - verify and give next steps",
+      "decision": "Verified live: all P0 money URLs indexed (kits/tools crawled today). Switch from indexing work to acquisition (Reddit/Pinterest/YT pin).",
+      "implemented": ["CI nudge refresh of products/analytics/indexing-status.json"]
+    },
+    {
+      "q": "What's next? How is the YouTube channel for sillgarden doing?",
+      "decision": "YT is early (38 videos, ~378 views, 1 sub, 0 YT->site). Next = manual distribution; stop shipping volume for its own sake.",
+      "implemented": []
+    },
+    {
+      "q": "Let's do #2 - pin kit links on best Shorts",
+      "decision": "API cannot pin; put kit links first in descriptions + post channel comments; Studio pin pack when quota blocks. Soft-skip YouTube quota so CI does not email false failures.",
+      "implemented": [
+        "scripts/youtube_common.py (kit block in descriptions)",
+        "scripts/youtube_post_kit_comments.py",
+        ".github/workflows/youtube-refresh-descriptions.yml (daily 07:30 UTC + comments)",
+        "scripts/youtube_access_gate.py (quota soft-skip)"
+      ]
+    },
+    {
+      "q": "Do YouTube kit refresh once quota resets; ensure GitHub has everything; teach growth agent to learn and do similar",
+      "decision": "Encode kit-first WORKING/IGNORE rules; make distribution packs kit-first when sessions flat; schedule YT retry after PT midnight.",
+      "implemented": [
+        "products/analytics/working-playbook.json",
+        "products/growth/AGENT-LESSONS.md",
+        "scripts/growth_actions.py",
+        "scripts/traffic_optimizer.py",
+        "scripts/outcome_health.py",
+        "scripts/content_agent.py",
+        "scripts/metrics_learning.py"
+      ]
+    },
+    {
+      "q": "I saw a lot of failed workflow emails",
+      "decision": "Only 3/200 recent failures - YouTube quota + one push race. Soft-fail quota; OAuth-dead emails only when auth_dead.",
+      "implemented": ["scripts/youtube_access_gate.py", ".github/workflows/oauth-health-check.yml"]
+    },
+    {
+      "q": "Automation must learn from this session's questions/decisions/implementations and check impact of its own actions",
+      "decision": "Store session retros; log every auto action with baseline metrics; re-measure after 3-7 days; promote WORKING / demote FAIL into the playbook.",
+      "implemented": [
+        "products/growth/session-retros/2026-09-28-kit-first.json",
+        "scripts/action_impact_learning.py",
+        "daily_growth_agent impact loop"
+      ]
+    }
+  ],
+  "decision_framework": [
+    "Diagnose bottleneck with live metrics (sessions, GSC, YT->site, indexing) before shipping more content",
+    "When sessions_7d ~ 0: enrichment + acquisition > new thin guides",
+    "Monetize with physical kit stacks only - never AI-spittable digital products",
+    "Automate what APIs allow; leave human-only steps (GSC Request indexing, Studio pin, Reddit) as paste packs",
+    "After shipping money URLs: index/nudge -> distribute -> measure impact -> update playbook"
+  ],
+  "shipped_surfaces": [
+    "/kits/",
+    "/kits/studio-silence/",
+    "/kits/kitchen-capacity/",
+    "/kits/under-50/",
+    "/kits/refills/",
+    "/tools/kit-picker/",
+    "/tools/year-one-cost/",
+    "/tools/apartment-herb-checklist/"
+  ],
+  "baseline_metrics_at_close": {
+    "note": "Captured at session close for later impact scoring",
+    "sessions_7d": 0,
+    "gsc_impressions_7d": 8,
+    "gsc_clicks_7d": 0,
+    "affiliate_clicks_7d": 0,
+    "youtube_views_total": 378,
+    "youtube_sessions_7d": 0,
+    "youtube_subs": 1,
+    "indexed_money_urls": "P0 kits/tools indexed 2026-09-28"
+  },
+  "success_criteria_3_7d": [
+    "GA4 sessions_7d > 0 from organic or referral",
+    "Any affiliate_click events on kit/tool pages",
+    "youtube_sessions_7d > 0 after kit links on Shorts",
+    "GSC clicks > 0 on comparison queries"
+  ],
+  "rules_to_keep": [
+    "Kit-first distribution when traffic is flat",
+    "Pause thin new guides while sessions_7d = 0",
+    "No AI digital product sales",
+    "GSC Request indexing is manual; nudge is automated",
+    "YouTube descriptions/comments lead with kits + picker + year-one-cost",
+    "Quota soft-skip - never spam failure emails for transient API limits"
+  ]
+}

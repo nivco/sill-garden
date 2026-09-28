@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 12:57 UTC",
+  "generated_at": "2026-09-28 13:06 UTC",
   "severity": "warn",
   "stalled": false,
   "zero_session_days": [],
@@ -21,7 +21,7 @@
     "youtube_views_total": 378,
     "youtube_sessions_7d": 0,
     "next_eligible_date": "2026-10-01",
-    "distribution_url": "https://sillgarden.com/kits/"
+    "distribution_url": "https://sillgarden.com/kits/kitchen-capacity/"
   },
   "reasons": [
     "GA4 sessions_7d=2 (<5) for 5 day(s)",

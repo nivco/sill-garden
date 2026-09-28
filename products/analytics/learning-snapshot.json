@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 12:57 UTC",
+  "generated_at": "2026-09-28 13:06 UTC",
   "wow": {
     "ga4_sessions_7d": -1.0,
     "gsc_impressions_7d": -1.0,
@@ -50,6 +50,8 @@
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
+    "SESSION-FRAME: Monetize with physical kit stacks only — never AI-spittable digital products",
+    "SESSION-FRAME: When sessions_7d ≈ 0: enrichment + acquisition > new thin guides",
     "WORKING: GSC impressions with 0 clicks on comparison queries → Tighten AeroGarden vs Click & Grow title/FAQ for both brand orders",
     "WORKING: Indexed pages but weak topical coverage → Ship long-tail apartment guides (low-light, under $50, running cost) only when sessions_7d > 0",
     "WORKING: YouTube Shorts get views but YT→site sessions = 0 → Put kit hub + kit-picker + year-one-cost UTM links first in descriptions; post channel comments on top Shorts; pin in Studio when API cannot",
@@ -64,10 +66,25 @@
     "DISTRIBUTE: Always include disclosure URL when naming products",
     "DISTRIBUTE: YouTube pin/comment copy: kit-picker + /kits/ + year-one-cost",
     "DISTRIBUTE: After shipping money pages, refresh products/growth/distribution/gsc-request-indexing-urls.md P0 list",
-    "GSC has impressions with 0 clicks — tighten titles/meta on early-ranking guides before more thin pages."
+    "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
+    "SESSION-RULE: Kit-first distribution when traffic is flat",
+    "SESSION-RULE: Pause thin new guides while sessions_7d = 0"
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-09-28 12:58 UTC"
+    "generated_at": "2026-09-28 13:06 UTC"
+  },
+  "impact": {
+    "closed_today": 0,
+    "lessons": [
+      "IMPACT: 3 action(s) still measuring (3-7d windows)",
+      "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
+      "SESSION-RULE: Kit-first distribution when traffic is flat",
+      "SESSION-RULE: Pause thin new guides while sessions_7d = 0",
+      "SESSION-RULE: No AI digital product sales",
+      "SESSION-RULE: GSC Request indexing is manual; nudge is automated",
+      "SESSION-RULE: YouTube descriptions/comments lead with kits + picker + year-one-cost",
+      "SESSION-RULE: Quota soft-skip — never spam failure emails for transient API limits"
+    ]
   }
 }

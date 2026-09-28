@@ -1,0 +1,246 @@
+{
+  "version": 1,
+  "actions": [
+    {
+      "id": "202374334371a6",
+      "kind": "session_cycle",
+      "target": "2026-09-28-kit-first",
+      "title": "Kit-first monetization + indexing + YouTube pin cycle",
+      "detail": "Kit-first distribution when traffic is flat; Pause thin new guides while sessions_7d = 0; No AI digital product sales",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "sessions_7d",
+      "success_criteria": [
+        "GA4 sessions_7d > 0 from organic or referral",
+        "Any affiliate_click events on kit/tool pages",
+        "youtube_sessions_7d > 0 after kit links on Shorts",
+        "GSC clicks > 0 on comparison queries"
+      ]
+    },
+    {
+      "id": "f53decd184752d",
+      "kind": "distribution",
+      "target": "kits-kitchen-capacity",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 2.0,
+        "gsc_impressions_7d": 8.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 378.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "cf420589eb1877",
+      "kind": "applied",
+      "target": "wrote visual-backlog.md",
+      "title": "wrote visual-backlog.md",
+      "detail": "wrote visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 2.0,
+        "gsc_impressions_7d": 8.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 378.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "3e1fe21ea8fde3",
+      "kind": "ship_surface",
+      "target": "kits",
+      "title": "Shipped /kits/",
+      "detail": "From session retro 2026-09-28-kit-first",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    },
+    {
+      "id": "9b656bdac7fac8",
+      "kind": "ship_surface",
+      "target": "studio-silence",
+      "title": "Shipped /kits/studio-silence/",
+      "detail": "From session retro 2026-09-28-kit-first",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    },
+    {
+      "id": "f23e5a0eb80ffb",
+      "kind": "ship_surface",
+      "target": "kitchen-capacity",
+      "title": "Shipped /kits/kitchen-capacity/",
+      "detail": "From session retro 2026-09-28-kit-first",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    },
+    {
+      "id": "63a3a7f71d8a29",
+      "kind": "ship_surface",
+      "target": "under-50",
+      "title": "Shipped /kits/under-50/",
+      "detail": "From session retro 2026-09-28-kit-first",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    },
+    {
+      "id": "1ccffc125f463a",
+      "kind": "ship_surface",
+      "target": "refills",
+      "title": "Shipped /kits/refills/",
+      "detail": "From session retro 2026-09-28-kit-first",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    },
+    {
+      "id": "fc7048fef54460",
+      "kind": "ship_surface",
+      "target": "kit-picker",
+      "title": "Shipped /tools/kit-picker/",
+      "detail": "From session retro 2026-09-28-kit-first",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    },
+    {
+      "id": "ba7180b5b359c0",
+      "kind": "ship_surface",
+      "target": "year-one-cost",
+      "title": "Shipped /tools/year-one-cost/",
+      "detail": "From session retro 2026-09-28-kit-first",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    },
+    {
+      "id": "b99bb0dd545332",
+      "kind": "ship_surface",
+      "target": "apartment-herb-checklist",
+      "title": "Shipped /tools/apartment-herb-checklist/",
+      "detail": "From session retro 2026-09-28-kit-first",
+      "source": "session_retro",
+      "status": "measuring",
+      "executed_at": "2026-09-28",
+      "measure_after": "2026-10-01",
+      "final_after": "2026-10-05",
+      "metrics_before": {
+        "sessions_7d": 0,
+        "gsc_impressions_7d": 8,
+        "gsc_clicks_7d": 0,
+        "affiliate_clicks_7d": 0,
+        "youtube_sessions_7d": 0,
+        "youtube_views_total": 378
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    }
+  ],
+  "session_retros_ingested": [
+    "2026-09-28-kit-first"
+  ],
+  "updated_at": "2026-09-28 13:07 UTC"
+}
