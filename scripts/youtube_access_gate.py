@@ -47,6 +47,8 @@ def check() -> dict:
         "checked_at": datetime.now(timezone.utc).isoformat(),
         "channel": None,
         "error": None,
+        "quota_exceeded": False,
+        "auth_dead": False,
         "next_steps": list(FIX_STEPS),
     }
     try:
@@ -90,7 +92,14 @@ def check() -> dict:
     except Exception as exc:  # noqa: BLE001
         status["error"] = str(exc)[:800]
         err_l = status["error"].lower()
-        if "invalid_grant" in err_l or "expired or revoked" in err_l:
+        if "quotaexceeded" in err_l or ("quota" in err_l and "exceeded" in err_l):
+            status["quota_exceeded"] = True
+            status["next_steps"] = [
+                "YouTube Data API daily quota exhausted — not an OAuth failure.",
+                "Retry after ~00:00 America/Los_Angeles (workflow cron 07:30 UTC).",
+            ]
+        elif "invalid_grant" in err_l or "expired or revoked" in err_l:
+            status["auth_dead"] = True
             status["next_steps"] = [
                 "Refresh token revoked (common when OAuth app is still in Testing).",
                 *FIX_STEPS,
@@ -100,6 +109,8 @@ def check() -> dict:
     if output:
         with open(output, "a", encoding="utf-8") as handle:
             handle.write(f"ready={'true' if status['ready'] else 'false'}\n")
+            handle.write(f"quota_exceeded={'true' if status.get('quota_exceeded') else 'false'}\n")
+            handle.write(f"auth_dead={'true' if status.get('auth_dead') else 'false'}\n")
     return status
 
 
@@ -119,6 +130,14 @@ def main() -> int:
         print("YouTube access gate: upload OAuth OK")
         return 0
 
+    # Quota is transient — never red-fail CI / spam failure emails.
+    if status.get("quota_exceeded"):
+        print(
+            "YouTube access gate: daily API quota exceeded — soft skip (retry after midnight PT).",
+            file=sys.stderr,
+        )
+        return 0
+
     msg = "YouTube access gate FAILED — upload OAuth not ready; publish skipped."
     if args.warn_only:
         print(f"WARNING: {msg}", file=sys.stderr)
@@ -129,7 +148,7 @@ def main() -> int:
     print(msg, file=sys.stderr)
     for step in status.get("next_steps") or []:
         print(f"  -> {step}", file=sys.stderr)
-    # Bare run and --strict both fail closed.
+    # Bare run and --strict both fail closed for real auth problems.
     return 1
 
 
