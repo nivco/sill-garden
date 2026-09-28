@@ -1,0 +1,35 @@
+aerogarden-vs-click-and-grow.md|hero|/images/guide-compare-budget.jpg|Click & Grow Smart Garden with herbs under a built-in LED
+aerogarden-vs-click-and-grow.md|inline|/images/inline-greenery.jpg|Lush indoor basil greenery
+aerogarden-vs-click-and-grow.md|inline|/images/inline-basil-alt.jpg|Basil leaves — the herb most countertop kits grow first
+basil-countertop-first-harvest.md|hero|/images/guide-basil.jpg|Outdoor basil plant — still useful foliage, pinch blooms early
+basil-countertop-first-harvest.md|inline|/images/inline-basil.jpg|Basil by a window — pinch flower spikes so leaves stay sweet
+best-countertop-garden-apartments.md|hero|/images/guide-kitchen-herbs.jpg|Flowering Thai basil — pinch blooms if you want more cooking leaves
+best-countertop-garden-apartments.md|inline|/images/inline-kitchen.jpg|Small potted greenery suited to a quiet counter corner
+best-countertop-garden-apartments.md|inline|/images/inline-herbs-board.jpg|Coriander seedlings in labeled cups — a simple first setup
+best-low-light-herbs-apartment.md|hero|/images/guide-windowsill.jpg|Rosemary and herbs on an indoor window
+best-low-light-herbs-apartment.md|inline|/images/inline-thyme.jpg|Flowering thyme — still a solid low-light apartment herb
+cheapest-indoor-herb-garden-apartment.md|hero|/images/guide-herbs.jpg|Basil and rosemary in pots — a low-cost apartment herb start
+cheapest-indoor-herb-garden-apartment.md|inline|/images/inline-pots.jpg|Budget pots ready for seed starting
+click-and-grow-vs-idoo-auk.md|hero|/images/guide-idoo-compare.jpg|Terracotta herb pots by a kitchen window — compact apartment start
+compare-aerogarden-models.md|hero|/images/kit-aerogarden-harvest.jpg|AeroGarden countertop hydroponic kit growing vegetables under LED light
+compare-aerogarden-models.md|inline|/images/inline-cilantro.jpg|Fresh cilantro and coriander leaves
+countertop-garden-pod-refill-cost.md|hero|/images/guide-pod-cost.jpg|Basil leaves representing ongoing herb harvest value
+countertop-garden-pod-refill-cost.md|inline|/images/inline-refill.jpg|Fresh basil harvest that has to justify refill cost
+countertop-garden-running-cost.md|hero|/images/guide-light.jpg|Herb leaf close-up under light
+countertop-garden-running-cost.md|inline|/images/inline-parsley-alt.jpg|Fresh flat-leaf parsley — a low ongoing grocery-cost crop
+countertop-garden-system-guide.md|hero|/images/kit-click-grow-smart-garden.jpg|Compact countertop garden kit for apartment systems
+countertop-garden-system-guide.md|inline|/images/inline-counter-plant.jpg|Compact basil pot on a counter
+grow-light-schedules-herbs.md|hero|/images/guide-troubleshooting.jpg|Leafy herb close-up for checking light stress
+grow-light-schedules-herbs.md|inline|/images/inline-rosemary-alt.jpg|Flowering rosemary under long day schedules
+grow-light-schedules-herbs.md|inline|/images/inline-leaves.jpg|Potted rosemary under a long daily light schedule
+kratky-jar-herbs-apartment.md|hero|/images/guide-kratky.jpg|Healthy hydroponic roots under a jar lid — the Kratky air-gap idea
+landlord-safe-indoor-garden-setup.md|hero|/images/inline-parsley.jpg|Balcony herb pots with saucers — moveable and landlord-friendly
+landlord-safe-indoor-garden-setup.md|inline|/images/inline-oregano.jpg|Oregano seedlings in a labeled cup (with tomato starters nearby)
+mint-windowsill-first-harvest.md|hero|/images/guide-diy-herbs.jpg|Potted mint on a bright windowsill
+mint-windowsill-first-harvest.md|inline|/images/inline-mint-harvest.jpg|Young mint in a pot — trim leaf pairs, not flower spikes
+quiet-countertop-gardens-studios.md|hero|/images/guide-quiet.jpg|Young green plant in a quiet corner
+quiet-countertop-gardens-studios.md|inline|/images/inline-herb-close.jpg|Leafy herb under bright growing light — cover or schedule lights at night
+windowsill-herbs-without-kit.md|hero|/images/about-sill.jpg|Rosemary on an indoor sill
+windowsill-herbs-without-kit.md|inline|/images/inline-shelf-herbs.jpg|Shelf herbs and seedlings on a real kitchen windowsill
+windowsill-herbs-without-kit.md|inline|/images/hero-sill.jpg|Basil and rosemary in pots on a bright sill
+yellow-leaves-leggy-seedlings-indoor-herbs.md|hero|/images/inline-yellow-plant.jpg|Curly parsley with yellowing leaves that need a light or water check
