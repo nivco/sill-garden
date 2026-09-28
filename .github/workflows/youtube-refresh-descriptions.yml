@@ -21,7 +21,7 @@ jobs:
   refresh:
     runs-on: ubuntu-latest
     env:
-      AUTOMATION_LIVE: ${{ vars.AUTOMATION_LIVE || '0' }}
+      AUTOMATION_LIVE: "1"
       YOUTUBE_USER_TOKEN_JSON: ${{ secrets.YOUTUBE_USER_TOKEN_JSON }}
       YOUTUBE_OAUTH_CLIENT_JSON: ${{ secrets.YOUTUBE_OAUTH_CLIENT_JSON }}
     steps:
