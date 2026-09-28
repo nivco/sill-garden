@@ -23,6 +23,10 @@ BLOCKED = {
     "inline-mold-tray.jpg",
     "inline-rosemary.jpg",
     "inline-seedlings.jpg",
+    "guide-mint.jpg",
+    "inline-mint.jpg",
+    "inline-mint2.jpg",
+    "inline-mint-fresh.jpg",
     "inline-apartment.jpg",
 }
 
@@ -35,7 +39,10 @@ HEROES: dict[str, tuple[str, str]] = {
         "/images/kit-aerogarden-harvest.jpg",
         "AeroGarden countertop hydroponic kit growing vegetables under LED light",
     ),
-    "countertop-garden-system-guide.md": ("/images/guide-diy-herbs.jpg", "Kitchen herb mint in a pot"),
+    "countertop-garden-system-guide.md": (
+        "/images/kit-click-grow-smart-garden.jpg",
+        "Compact countertop garden kit for apartment systems",
+    ),
     "best-countertop-garden-apartments.md": (
         "/images/guide-kitchen-herbs.jpg",
         "Culinary herb plant ready for cooking",
@@ -51,7 +58,10 @@ HEROES: dict[str, tuple[str, str]] = {
         "Leafy herb close-up for checking light stress",
     ),
     "landlord-safe-indoor-garden-setup.md": ("/images/guide-setup.jpg", "Two plants on a windowsill"),
-    "basil-countertop-first-harvest.md": ("/images/guide-basil.jpg", "Basil garden plant"),
+    "basil-countertop-first-harvest.md": (
+        "/images/guide-basil.jpg",
+        "Outdoor basil plant — still useful foliage, pinch blooms early",
+    ),
     "best-low-light-herbs-apartment.md": (
         "/images/guide-windowsill.jpg",
         "Rosemary and herbs on an indoor window",
@@ -61,7 +71,10 @@ HEROES: dict[str, tuple[str, str]] = {
         "/images/inline-yellow-plant.jpg",
         "Curly parsley with yellowing leaves that need a light or water check",
     ),
-    "mint-windowsill-first-harvest.md": ("/images/guide-mint.jpg", "Mint plant growing in soft indoor light"),
+    "mint-windowsill-first-harvest.md": (
+        "/images/guide-diy-herbs.jpg",
+        "Potted mint on a bright windowsill",
+    ),
     "kratky-jar-herbs-apartment.md": ("/images/guide-kratky.jpg", "Simple hydroponic herb setup indoors"),
     "countertop-garden-pod-refill-cost.md": (
         "/images/guide-pod-cost.jpg",
@@ -77,7 +90,6 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
     "aerogarden-vs-click-and-grow.md": [
         ("inline-greenery.jpg", "Lush indoor basil greenery"),
         ("inline-basil-alt.jpg", "Basil leaves — the herb most countertop kits grow first"),
-        ("kit-click-grow-smart-garden.jpg", "Click & Grow Smart Garden units growing herbs indoors"),
         ("inline-chives-fresh.jpg", "Fresh chives — a common refill herb after the first pod cycle"),
     ],
     "compare-aerogarden-models.md": [
@@ -97,9 +109,7 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
         ("inline-chives.jpg", "Chives for a cheap first harvest"),
     ],
     "quiet-countertop-gardens-studios.md": [
-        ("inline-mint2.jpg", "Quiet herb corner for a small kitchen"),
-        ("inline-mint.jpg", "Compact mint suited to silent setups"),
-        ("inline-herb-close.jpg", "Stevia leaf detail under bright growing light"),
+        ("inline-herb-close.jpg", "Leafy herb under bright growing light — cover or schedule lights at night"),
     ],
     "countertop-garden-running-cost.md": [
         ("inline-parsley-alt.jpg", "Parsley as a low-cost ongoing crop"),
@@ -114,8 +124,7 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
         ("inline-parsley.jpg", "Potted herbs with saucers for spill control"),
     ],
     "basil-countertop-first-harvest.md": [
-        ("inline-mint-fresh.jpg", "Companion herbs beside basil on a sill"),
-        ("inline-basil.jpg", "Fresh basil leaves ready for a first kitchen harvest"),
+        ("inline-basil.jpg", "Basil by a window — pinch flower spikes so leaves stay sweet"),
     ],
     "best-low-light-herbs-apartment.md": [
         ("inline-thyme.jpg", "Thyme that handles softer apartment light"),
@@ -126,7 +135,7 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
     ],
     "yellow-leaves-leggy-seedlings-indoor-herbs.md": [],
     "mint-windowsill-first-harvest.md": [
-        ("inline-mint-harvest.jpg", "Mint foliage ready for a first trim"),
+        ("inline-mint-harvest.jpg", "Young mint in a pot — trim leaf pairs, not flower spikes"),
     ],
     "kratky-jar-herbs-apartment.md": [
         ("inline-jar-herbs.jpg", "Jar-friendly hydro herbs on a compact apartment setup"),

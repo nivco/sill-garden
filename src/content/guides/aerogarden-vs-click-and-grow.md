@@ -62,8 +62,6 @@ Searching **AeroGarden vs Click & Grow** (or **Click and Grow vs AeroGarden**) u
 - You only need a few herbs at a time.
 - You prefer a narrower footprint on a shallow sill or shelf.
 
-![Click & Grow Smart Garden units growing herbs indoors](/images/kit-click-grow-smart-garden.jpg)
-
 ## Refill reality (both)
 
 Proprietary pods are convenient and expensive per plant. Once you know which herbs you actually eat, blank sponges / compatible inserts plus your own seed usually cut ongoing cost. Start with the branded pods for the first cycle so you’re not debugging seed and hardware at once.

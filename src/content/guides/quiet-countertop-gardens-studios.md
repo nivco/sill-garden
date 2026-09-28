@@ -22,15 +22,11 @@ products:
 
 In a studio, the grow light and the pump are roommate problems. Solve those two and countertop gardening is easy. Ignore them and you’ll unplug the garden by week two.
 
-![Quiet herb corner for a small kitchen](/images/inline-mint2.jpg)
-
 ## Noise ranking (typical)
 
 1. **Silent** — Click & Grow–style wick gardens, Kratky jars  
 2. **Low hum** — AeroGarden Harvest-class pumps  
 3. **Noticeable** — Larger towers with stronger pumps / waterfalls  
-
-![Compact mint suited to silent setups](/images/inline-mint.jpg)
 
 > **Silence pick:** [Click & Grow Smart Garden 3 on Amazon](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1)
 
@@ -42,7 +38,7 @@ Most kits run ~14–16 hours of bright LED. In one room that means:
 - Use a bamboo shade or trifold board as a light hood if the unit sits near the bed.
 - Avoid aiming the LED at a mirror or glossy backsplash.
 
-![Stevia leaf detail under bright growing light](/images/inline-herb-close.jpg)
+![Leafy herb under bright growing light — cover or schedule lights at night](/images/inline-herb-close.jpg)
 
 ## Placement that works
 

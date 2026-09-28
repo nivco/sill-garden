@@ -6,8 +6,8 @@ updatedDate: 2026-08-26
 cluster: systems
 type: guide
 featured: false
-image: /images/guide-diy-herbs.jpg
-imageAlt: Kitchen herb mint in a pot
+image: /images/kit-click-grow-smart-garden.jpg
+imageAlt: Compact countertop garden kit for apartment systems
 verdict: A real countertop system is light + water + drip control — not just a pretty pot. Buy a 3–6 pod kit if you want herbs with almost no learning curve; use jars + clip light if budget and silence come first.
 products:
 - name: Click & Grow Smart Garden 3

@@ -5,7 +5,7 @@ pubDate: 2026-08-11
 cluster: herbs
 type: guide
 image: /images/guide-basil.jpg
-imageAlt: Basil garden plant
+imageAlt: Outdoor basil plant — still useful foliage, pinch blooms early
 verdict: Give basil strong light, pinch the tops early, and harvest leaves often. Weak light makes tall, tasteless stems — no nutrient bottle fixes that.
 products:
   - name: AeroGarden Harvest (6-pod class)
@@ -21,15 +21,13 @@ products:
 
 Basil is the reason most people buy a countertop garden. It’s also the plant that shows light problems first.
 
-![Companion herbs beside basil on a sill](/images/inline-mint-fresh.jpg)
-
 ## Light
 
 - Kit LED on for ~15–16 hours is fine for basil.
 - Keep the light close (follow the brand’s height guidance) so plants don’t stretch.
 - On a sill without a kit, basil wants the brightest window you have — or a clip lamp.
 
-![Fresh basil leaves ready for a first kitchen harvest](/images/inline-basil.jpg)
+![Basil by a window — pinch flower spikes so leaves stay sweet](/images/inline-basil.jpg)
 
 ## Pinching
 

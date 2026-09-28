@@ -4,8 +4,8 @@ description: How to grow usable mint on an apartment sill — pot size, light, p
 pubDate: 2026-08-27
 cluster: herbs
 type: guide
-image: /images/guide-mint.jpg
-imageAlt: Mint plant growing in soft indoor light
+image: /images/guide-diy-herbs.jpg
+imageAlt: Potted mint on a bright windowsill
 verdict: Mint is the easiest apartment herb if you give it a wide pot, consistent moisture, and trim often. Start in soil on a sill before you buy a hydro kit just for mint.
 products:
   - name: Herb pots with saucers
@@ -25,7 +25,7 @@ products:
 
 Mint is forgiving, fragrant, and useful weekly — tea, yogurt, salads, garnish. It is also pushy: in a shared pot it will crowd basil. Give mint its own container.
 
-![Mint foliage ready for a first trim](/images/inline-mint-harvest.jpg)
+![Young mint in a pot — trim leaf pairs, not flower spikes](/images/inline-mint-harvest.jpg)
 
 ## Setup that works in rentals
 
