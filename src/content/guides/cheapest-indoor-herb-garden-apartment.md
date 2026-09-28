@@ -40,8 +40,6 @@ A jar, net pot, and nutrient solution can grow lettuce or basil quietly. Add a d
 
 Buy a Click & Grow–class 3-pod unit when you keep forgetting watering, your sill never cooperates, or you want a gift that works on day one. Compare options in [best countertop gardens for apartments](/guides/best-countertop-garden-apartments/).
 
-![Chives for a cheap first harvest](/images/inline-chives.jpg)
-
 ## Do not cheap out on these
 
 - A waterproof tray

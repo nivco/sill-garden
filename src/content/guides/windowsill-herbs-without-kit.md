@@ -22,7 +22,7 @@ products:
 
 Not every apartment needs a plug-in hydroponic garden. If you have a bright window and patience for watering, soil pots on the sill still work — with clear limits.
 
-![Shelf herbs near apartment light](/images/inline-shelf-herbs.jpg)
+![Shelf herbs and seedlings on a real kitchen windowsill](/images/inline-shelf-herbs.jpg)
 
 ## Light is the real product
 

@@ -6,7 +6,7 @@ cluster: systems
 type: comparison
 featured: true
 image: /images/guide-idoo-compare.jpg
-imageAlt: Compact potted plants suited to apartment counters
+imageAlt: Terracotta herb pots by a kitchen window — compact apartment start
 verdict: Pick Click & Grow Smart Garden 3 for proven silence and easy pods. Pick iDOO-class 10–12 pod kits when you want more capacity per dollar and will tolerate pump noise. Treat Auk-class kits as design-forward alternatives — verify reviews for your exact model.
 products:
 - name: Click & Grow Smart Garden 3

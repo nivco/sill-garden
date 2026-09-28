@@ -62,7 +62,7 @@ Parsley germinates slowly, so buying a small starter plant is easier than starti
 
 Oregano tolerates a weaker sill if the roots are allowed to dry slightly between watering. Harvest lightly until the plant has enough branches to recover.
 
-![Thyme that handles softer apartment light](/images/inline-thyme.jpg)
+![Flowering thyme — still a solid low-light apartment herb](/images/inline-thyme.jpg)
 
 ## Herbs that usually need help
 

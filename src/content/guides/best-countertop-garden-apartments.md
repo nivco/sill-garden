@@ -6,7 +6,7 @@ cluster: systems
 type: pillar
 featured: true
 image: /images/guide-kitchen-herbs.jpg
-imageAlt: Culinary herb plant ready for cooking
+imageAlt: Flowering Thai basil — pinch blooms if you want more cooking leaves
 verdict: Start with a 3–6 pod countertop kit if you want herbs with almost no learning curve. Use a mason-jar Kratky setup if you want to spend under $40 and learn the basics first.
 products:
 - name: AeroGarden Harvest (6-pod class)
@@ -23,7 +23,7 @@ updatedDate: 2026-09-12
 ---
 Apartment counters are short on space and patience. The right first system is the one you’ll actually keep plugged in — not the tallest tower on Amazon.
 
-![Kitchen counter with living greenery](/images/inline-kitchen.jpg)
+![Small potted greenery suited to a quiet counter corner](/images/inline-kitchen.jpg)
 
 ## What “best” means here
 

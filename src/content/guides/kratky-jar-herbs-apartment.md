@@ -5,7 +5,7 @@ pubDate: 2026-08-27
 cluster: setup
 type: howto
 image: /images/guide-kratky.jpg
-imageAlt: Simple hydroponic herb setup indoors
+imageAlt: Healthy hydroponic roots under a jar lid — the Kratky air-gap idea
 verdict: Kratky jars are the quietest apartment herb lane under $40 — if you can provide light. Use a waterproof tray and start with lettuce or basil, not rosemary.
 products:
   - name: Kratky mason jar kit
@@ -24,10 +24,6 @@ products:
 ---
 
 The **Kratky method** is passive hydroponics: plant in a net pot, roots reach a nutrient solution, air gap stays above the water line, and you mostly leave it alone. No pump — which means no hum in a studio.
-
-![Jar-friendly hydro herbs on a compact apartment setup](/images/inline-jar-herbs.jpg)
-
-![Roots reaching nutrient solution with an air gap](/images/inline-water-roots.jpg)
 
 ## Why apartments like it
 

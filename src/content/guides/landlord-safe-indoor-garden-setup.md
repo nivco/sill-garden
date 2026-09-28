@@ -4,8 +4,8 @@ description: Keep your deposit — trays, humidity, no drilling, and placement r
 pubDate: 2026-08-12
 cluster: setup
 type: howto
-image: /images/guide-setup.jpg
-imageAlt: Two plants on a windowsill
+image: /images/inline-parsley.jpg
+imageAlt: Balcony herb pots with saucers — moveable and landlord-friendly
 verdict: Use a waterproof tray, skip wall mounts, watch humidity near windows, and stick to freestanding countertop gear. That’s 90% of rental risk handled.
 products:
   - name: Waterproof boot / drip tray
@@ -22,7 +22,7 @@ products:
 
 Landlords rarely ban “herbs.” They care about water damage, mold, and holes in walls. Build your garden around those three.
 
-![Moveable pots that do not need drilling](/images/inline-oregano.jpg)
+![Oregano seedlings in a labeled cup (with tomato starters nearby)](/images/inline-oregano.jpg)
 
 ## Checklist
 
@@ -33,8 +33,6 @@ Landlords rarely ban “herbs.” They care about water damage, mold, and holes 
 - [ ] **Don’t overfill reservoirs** before travel days  
 - [ ] **Power strip with surge protection** — not a daisy chain of cheap adapters  
 - [ ] **Pet plan** — covered reservoirs or placement pets can’t tip  
-
-![Potted herbs with saucers for spill control](/images/inline-parsley.jpg)
 
 ## Humidity note
 

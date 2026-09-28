@@ -27,8 +27,6 @@ The sticker price of a countertop garden is not the lifetime price. **Pods** are
 
 ![Fresh basil harvest that has to justify refill cost](/images/inline-refill.jpg)
 
-![Grocery clamshell herbs vs growing your own](/images/inline-grocery-herbs.jpg)
-
 ## Rough math (apartment cook)
 
 | Approach | Month 1 | Months 2–6 | Best for |

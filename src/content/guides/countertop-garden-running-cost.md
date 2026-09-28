@@ -22,7 +22,7 @@ products:
 
 The sticker price of a countertop garden is the down payment. Running cost is electricity + consumables. Most apartment growers overestimate power and underestimate pods.
 
-![Parsley as a low-cost ongoing crop](/images/inline-parsley-alt.jpg)
+![Fresh flat-leaf parsley — a low ongoing grocery-cost crop](/images/inline-parsley-alt.jpg)
 
 ## Three cost buckets
 

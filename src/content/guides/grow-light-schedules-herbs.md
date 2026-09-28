@@ -21,15 +21,13 @@ products:
 
 Plants need a dark stretch. Your neighbors (and your circadian rhythm) need the LED off at night. Set the schedule before you plant.
 
-![Bottom view of an LED grow fixture](/images/inline-led-grow.jpg)
-
 ## Default schedule
 
 - **On:** 14–16 hours  
 - **Off:** 8–10 hours  
 - **Start time:** Match your morning — e.g. lights on at 7am, off at 11pm, or compress for studios
 
-![Rosemary foliage under long day schedules](/images/inline-rosemary-alt.jpg)
+![Flowering rosemary under long day schedules](/images/inline-rosemary-alt.jpg)
 
 ## Studio tip
 

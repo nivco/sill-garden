@@ -68,8 +68,6 @@ Proprietary pods are convenient and expensive per plant. Once you know which her
 
 Estimate your monthly pod spend with the [kit picker](/tools/kit-picker/) before you buy hardware.
 
-![Fresh chives — a common refill herb after the first pod cycle](/images/inline-chives-fresh.jpg)
-
 ## FAQ
 
 **Is AeroGarden better than Click & Grow?**  
