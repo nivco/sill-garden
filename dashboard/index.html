@@ -107,6 +107,25 @@
     .pill.ok { color: var(--ok); border-color: #14532d; background: #052e16; }
     .pill.bad { color: #fca5a5; border-color: #7f1d1d; background: #450a0a; }
     .pill.warn { color: #fcd34d; border-color: #854d0e; background: #422006; }
+    .yt-head {
+      display: flex; flex-wrap: wrap; gap: 0.55rem 1rem;
+      align-items: baseline; justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+    .yt-head .channel { font-size: 1.05rem; font-weight: 650; }
+    .yt-kpis {
+      display: grid;
+      grid-template-columns: repeat(auto-fill, minmax(110px, 1fr));
+      gap: 0.5rem;
+      margin-bottom: 0.85rem;
+    }
+    .yt-kpis .card { padding: 0.55rem 0.65rem; }
+    .yt-kpis .v { font-size: 1.2rem; }
+    .yt-meta { color: var(--muted); font-size: 0.82rem; margin: 0 0 0.75rem; }
+    .yt-meta .pill { margin-right: 0.35rem; }
+    .num { text-align: right; font-variant-numeric: tabular-nums; white-space: nowrap; }
+    .fmt-short { color: var(--harvest); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; }
+    .fmt-long { color: var(--leaf2); font-size: 0.72rem; font-weight: 700; text-transform: uppercase; }
     ul.insights { margin: 0; padding-left: 1.1rem; color: var(--muted); font-size: 0.9rem; }
     ul.insights li { margin-bottom: 0.35rem; }
     .checks { list-style: none; margin: 0; padding: 0; }
@@ -167,36 +186,35 @@
 
   <div class="grid-2">
     <section class="card">
-      <h2>Traffic sources (GA4 · 7d)</h2>
-      <div id="trafficSources"></div>
-    </section>
-    <section class="card">
-      <h2>Top pages (GA4 · 7d)</h2>
-      <div id="pages"></div>
-    </section>
-  </div>
-
-  <div class="grid-2">
-    <section class="card">
       <h2>Search queries (GSC · 7d)</h2>
       <div id="queries"></div>
     </section>
     <section class="card">
-      <h2>YouTube</h2>
-      <div id="youtube"></div>
+      <h2>Traffic sources (GA4 · 7d)</h2>
+      <div id="trafficSources"></div>
     </section>
   </div>
 
+  <section class="card" style="margin-bottom: 1rem">
+    <h2>YouTube</h2>
+    <div id="youtube"></div>
+  </section>
+
   <div class="grid-2">
+    <section class="card">
+      <h2>Top pages (GA4 · 7d)</h2>
+      <div id="pages"></div>
+    </section>
     <section class="card">
       <h2>Growth automations</h2>
       <div id="growth"></div>
     </section>
-    <section class="card">
-      <h2>Distribution pack</h2>
-      <div id="distribution"></div>
-    </section>
   </div>
+
+  <section class="card" style="margin-bottom: 1rem">
+    <h2>Distribution pack</h2>
+    <div id="distribution"></div>
+  </section>
 
   <section class="card" style="margin-bottom: 1rem">
     <h2>Affiliate programs and earnings</h2>
@@ -335,13 +353,101 @@
       const yt = sources.youtube || {};
       const ch = yt.channel || {};
       const vids = yt.recent_videos || [];
+      const ops = data.youtube_ops || {};
+      const policy = ops.policy || {};
+      const metaById = ops.video_meta || {};
+
+      const dayLabel = (iso) => {
+        if (!iso) return '—';
+        const d = new Date(iso);
+        if (Number.isNaN(d.getTime())) return String(iso).slice(0, 10);
+        return d.toLocaleDateString(undefined, { month: 'short', day: 'numeric', year: 'numeric' });
+      };
+      const daysAgo = (iso) => {
+        if (!iso) return null;
+        const d = new Date(iso);
+        if (Number.isNaN(d.getTime())) return null;
+        return Math.floor((Date.now() - d.getTime()) / 86400000);
+      };
+      const inferFormat = (v) => {
+        const fromOps = (metaById[v.id] || {}).format;
+        if (fromOps) return fromOps;
+        const t = String(v.title || '');
+        if (/#shorts?\b/i.test(t) || /\bshorts?\b/i.test(t)) return 'short';
+        return 'long';
+      };
+
       if (ch.id) {
+        const latestFromVids = vids.reduce((best, v) => {
+          const p = v.published;
+          if (!p) return best;
+          return !best || p > best ? p : best;
+        }, null);
+        const lastUploadAt = [ops.last_upload_at, latestFromVids].filter(Boolean).sort().pop() || null;
+        const lastAgo = daysAgo(lastUploadAt);
+        const nextEligible = ops.next_eligible_date || '—';
+        const oauthPill = ops.oauth_ready
+          ? '<span class="pill ok">OAuth OK</span>'
+          : `<span class="pill bad">OAuth ${ops.oauth_error ? 'error' : 'off'}</span>`;
+        const publishPill = ops.auto_publish_enabled
+          ? '<span class="pill ok">Auto-publish on</span>'
+          : '<span class="pill warn">Auto-publish off</span>';
+        const shortsOff = Number(policy.short_slots_per_day) === 0;
+        const cadencePill = shortsOff
+          ? '<span class="pill warn">Shorts paused</span>'
+          : '<span class="pill ok">Shorts enabled</span>';
+        const channelUrl = ch.handle
+          ? `https://www.youtube.com/${esc(ch.handle)}`
+          : `https://www.youtube.com/channel/${esc(ch.id)}`;
+        const minDays = policy.min_days_between != null ? policy.min_days_between : '—';
+        const cadenceLine = [
+          `Cadence: every ${esc(minDays)}+ days`,
+          `max ${esc(policy.max_uploads_per_day != null ? policy.max_uploads_per_day : '—')}/day`,
+          shortsOff ? 'shorts off' : `${esc(policy.short_slots_per_day)} short slot(s)/day`,
+          `library ${n(ops.published_long)} long / ${n(ops.published_short)} short`,
+        ].join(' · ');
+
+        const rows = vids.slice(0, 12).map((v) => {
+          const fmtKind = inferFormat(v);
+          const published = v.published || (metaById[v.id] || {}).uploaded_at;
+          const ago = daysAgo(published);
+          const agoHint = ago == null ? '' : ago === 0 ? 'today' : ago === 1 ? '1d ago' : `${ago}d ago`;
+          return `<tr>
+            <td>
+              <a href="${esc(v.url || ('https://www.youtube.com/watch?v=' + v.id))}" target="_blank" rel="noopener">${esc(v.title || v.id)}</a>
+              <div class="muted" style="font-size:0.75rem">${agoHint}</div>
+            </td>
+            <td><span class="${fmtKind === 'short' ? 'fmt-short' : 'fmt-long'}">${esc(fmtKind)}</span></td>
+            <td class="num">${esc(dayLabel(published))}</td>
+            <td class="num">${n(v.views)}</td>
+            <td class="num">${n(v.likes)}</td>
+          </tr>`;
+        }).join('');
+
         $('youtube').innerHTML = `
-          <p><strong>${esc(ch.title || 'Channel')}</strong> ${ch.handle ? `(${esc(ch.handle)})` : ''}<br>
-             ${n(ch.subscribers)} subs · ${n(ch.views)} views · ${n(ch.videos)} videos · ${n(hero.youtube_sessions_7d)} site sessions</p>
-          ${vids.length ? table(['Video', 'Views'], vids.slice(0, 6).map((v) =>
-            `<tr><td><a href="${esc(v.url)}" target="_blank" rel="noopener">${esc(v.title || v.id)}</a></td><td>${n(v.views)}</td></tr>`
-          ).join('')) : '<p class="muted">No recent videos</p>'}`;
+          <div class="yt-head">
+            <div class="channel">
+              <a href="${channelUrl}" target="_blank" rel="noopener">${esc(ch.title || 'Channel')}</a>
+              ${ch.handle ? `<span class="muted">${esc(ch.handle)}</span>` : ''}
+            </div>
+            <div>
+              ${oauthPill}${publishPill}${cadencePill}
+              <a href="https://studio.youtube.com/" target="_blank" rel="noopener" style="margin-left:0.5rem;font-size:0.82rem">Studio ↗</a>
+            </div>
+          </div>
+          <div class="yt-kpis">
+            ${heroCard('Subscribers', n(ch.subscribers), '', false)}
+            ${heroCard('Channel views', n(ch.views), 'Lifetime', false)}
+            ${heroCard('Videos', n(ch.videos), `${n(ops.published_total)} tracked`, false)}
+            ${heroCard('YT → site', n(hero.youtube_sessions_7d), 'GA4 · 7d', true)}
+            ${heroCard('Last upload', lastAgo == null ? '—' : lastAgo === 0 ? 'Today' : lastAgo === 1 ? '1 day ago' : `${lastAgo}d ago`, dayLabel(lastUploadAt), false)}
+            ${heroCard('Next eligible', esc(nextEligible), 'From publish-state', false)}
+          </div>
+          <p class="yt-meta">${esc(cadenceLine)}</p>
+          ${policy.notes ? `<p class="yt-meta">${esc(policy.notes)}</p>` : ''}
+          ${vids.length
+            ? table(['Video', 'Format', 'Published', 'Views', 'Likes'], rows)
+            : '<p class="muted">No recent videos</p>'}`;
       } else {
         $('youtube').innerHTML = `<p class="muted">${yt.error || yt.skipped || 'Not connected'}</p>`;
       }

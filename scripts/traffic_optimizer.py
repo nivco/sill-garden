@@ -99,14 +99,21 @@ def build_queue(data: dict, state: dict) -> tuple[list[dict], dict, list[str]]:
             )
         )
     elif sessions == 0:
+        flat_days = int(state.get("zeroSessionDays") or 0) + 1
+        state["zeroSessionDays"] = flat_days
         actions.append(
             task(
                 "P0",
                 "acquisition",
-                "No GA4 sessions yet",
-                "Share 1–2 guides or request indexing on home + top guides in Search Console.",
+                f"No GA4 sessions yet ({flat_days}d flat)",
+                "PRIORITY: post 1 Reddit value thread from products/growth/distribution/latest.json "
+                "(r/ApartmentGardening or r/hydroponics — no spam, answer first). "
+                "Also request indexing on home + missing guides in Search Console. "
+                "Do not ship more guides until sessions_7d > 0.",
             )
         )
+    else:
+        state["zeroSessionDays"] = 0
     indexing = load_json(INDEXING_STATUS, {})
     indexed = int(indexing.get("indexed_count") or 0)
     sitemap_total = int(indexing.get("sitemap_url_count") or 0)

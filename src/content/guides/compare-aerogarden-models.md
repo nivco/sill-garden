@@ -1,11 +1,11 @@
 ---
 title: AeroGarden Bounty vs Harvest (2026) — which model should you buy?
-description: "AeroGarden Bounty vs Harvest (and Bounty vs Bounty Elite) for apartments — pods, footprint, noise, and the model that actually fits a counter."
+description: "AeroGarden Bounty vs Harvest (and Farm) for apartments — pods, footprint, noise, and which model fits a real counter."
 pubDate: 2026-08-26
-updatedDate: 2026-09-16
+updatedDate: 2026-09-28
 cluster: systems
 type: comparison
-featured: false
+featured: true
 image: /images/guide-countertop.jpg
 imageAlt: Potted plants on a wooden shelf
 verdict: Start with Harvest-class (≈6 pods) for most apartments. Step up to Bounty only if you cook herbs daily and have counter depth. Skip Farm-scale towers unless you have floor space.
@@ -21,7 +21,7 @@ products:
   asin: B01MRVMKQH
   partner: click-grow
 ---
-Searching **compare AeroGarden models** usually means: which kit fits a real apartment counter, not a showroom.
+Searching **AeroGarden Bounty vs Harvest** (or **Harvest vs Bounty**, **AeroGarden Farm vs Farm Plus**) usually means: which kit fits a real apartment counter, not a showroom.
 
 ![Fresh cilantro and coriander leaves](/images/inline-cilantro.jpg)
 
@@ -59,6 +59,9 @@ Harvest-class. Enough pods for cooking herbs without dominating the kitchen.
 
 **AeroGarden Bounty vs Harvest — which wins?**  
 Harvest for most apartments. Bounty only if you already fill six pods every cycle and have the counter depth. Bounty Elite is the same footprint with a taller light — skip it unless that light height is the reason you are upgrading.
+
+**AeroGarden Farm vs Farm Plus?**  
+Both are floor/tower-class. For apartments, neither is the first buy — start Harvest, then Bounty. Farm Plus only if you already outgrew Bounty and have dedicated floor space.
 
 **AeroGarden Bounty vs Bounty Elite?**  
 Same pod count and counter depth. Elite is the taller LED. Buy Elite only if plants hit the Harvest/Bounty light; otherwise Harvest is the better apartment default.

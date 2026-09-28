@@ -40,6 +40,7 @@ MAX_NEW_GUIDES = 1
 # Query → existing slug for FAQ / SEO refresh
 QUERY_GUIDE_RULES: list[tuple[tuple[str, ...], str]] = [
     (("aerogarden vs", "click and grow vs", "aerogarden comparison", "compare aerogarden"), "aerogarden-vs-click-and-grow"),
+    (("bounty vs harvest", "harvest vs bounty", "farm vs farm", "aerogarden bounty", "aerogarden harvest"), "compare-aerogarden-models"),
     (("countertop garden", "counter top garden"), "best-countertop-garden-apartments"),
     (("low light", "north facing"), "best-low-light-herbs-apartment"),
     (("cheap", "under $50", "budget"), "cheapest-indoor-herb-garden-apartment"),

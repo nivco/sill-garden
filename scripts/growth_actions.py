@@ -40,10 +40,28 @@ def pick_distribution_target(metrics: dict | None = None) -> dict | None:
     guides = load_guides()
     if not guides:
         return None
+    by_slug = {g.slug: g for g in guides}
+    # Prefer exact demand pages over fuzzy slug matching.
+    query_prefer = [
+        (("bounty vs harvest", "harvest vs bounty", "bounty vs bounty"), "compare-aerogarden-models"),
+        (("aerogarden vs click", "click and grow vs aerogarden", "click & grow vs"), "aerogarden-vs-click-and-grow"),
+        (("farm vs farm plus",), "compare-aerogarden-models"),
+    ]
+    top = (metrics.get("top_queries") or [])[:8]
+    for q in top:
+        query = (q.get("query") or "").lower()
+        for needles, slug in query_prefer:
+            if any(n in query for n in needles) and slug in by_slug:
+                g = by_slug[slug]
+                return {
+                    "slug": g.slug,
+                    "title": g.title,
+                    "url": g.url,
+                    "description": g.description,
+                    "reason": f"matches query “{q.get('query')}”",
+                }
     featured = [g for g in guides if g.frontmatter.get("featured")]
     pool = featured or guides
-    # Prefer guides matching top GSC queries.
-    top = (metrics.get("top_queries") or [])[:5]
     for q in top:
         query = (q.get("query") or "").lower()
         for g in pool:
@@ -71,21 +89,43 @@ def build_distribution_pack(metrics: dict | None = None) -> dict:
     if not target:
         return {"ok": False, "error": "no guides"}
     base = site_url()
+    title = target["title"]
+    url = target["url"]
+    desc = target["description"]
+    # Value-first Reddit drafts — acquisition when SEO is still invisible.
+    reddit_body = (
+        f"I've been testing quiet apartment herb setups (windowsill + small kits) and wrote up "
+        f"what actually worked vs what was clutter.\n\n"
+        f"**Short take:** {desc}\n\n"
+        f"Full notes (affiliate disclosure on site): {url}\n\n"
+        f"Happy to answer questions about noise, light, or refill cost."
+    )
     pack = {
         "generated_at": now_utc(),
         "target": target,
+        "priority": "P0_when_sessions_zero",
         "channels": {
-            "x": f"{target['title']}\n\n{target['url']}\n\n#IndoorGarden #ApartmentLiving",
-            "bluesky": f"{target['title']}\n\n{target['description']}\n\n{target['url']}",
-            "mastodon": f"{target['title']}\n\n{target['url']}\n\n#IndoorGarden #ApartmentLiving #Herbs",
+            "x": f"{title}\n\n{url}\n\n#IndoorGarden #ApartmentLiving",
+            "bluesky": f"{title}\n\n{desc}\n\n{url}",
+            "mastodon": f"{title}\n\n{url}\n\n#IndoorGarden #ApartmentLiving #Herbs",
             "reddit": (
-                f"Title idea: {target['title']}\n\n"
-                f"Body: {target['description']}\n\n"
-                f"Link: {target['url']}\n"
-                f"Disclosure: {base}/disclosure/"
+                f"Sub: r/ApartmentGardening (alt: r/hydroponics, r/gardening)\n"
+                f"Title: {title}\n\n"
+                f"Body:\n{reddit_body}\n\n"
+                f"Disclosure page: {base}/disclosure/"
             ),
-            "devto": f"Syndicate canonical: {target['url']}",
+            "pinterest": (
+                f"Pin title: {title}\n"
+                f"Description: {desc} Quiet apartment-friendly picks.\n"
+                f"Link: {url}"
+            ),
+            "devto": f"Syndicate canonical: {url}",
         },
+        "checklist": [
+            "Post Reddit draft today (value-first, disclose affiliates)",
+            "Pin Pinterest image from guide hero",
+            "Share YouTube video that matches the same query",
+        ],
     }
     return pack
 
@@ -123,6 +163,20 @@ def write_daily_summary(payload: dict) -> Path:
     lines.extend(["", "## Learnings"])
     for item in payload.get("learnings") or []:
         lines.append(f"- {item}")
+    health = payload.get("outcome_health") or {}
+    if health:
+        lines.extend(
+            [
+                "",
+                "## Outcome health",
+                f"- Severity: {health.get('severity')}",
+                f"- Zero-session days: {health.get('zero_session_day_count')}",
+            ]
+        )
+        for reason in health.get("reasons") or []:
+            lines.append(f"- {reason}")
+        for action in health.get("actions") or []:
+            lines.append(f"- TODO: {action}")
     path.parent.mkdir(parents=True, exist_ok=True)
     path.write_text("\n".join(lines) + "\n", encoding="utf-8")
     return path

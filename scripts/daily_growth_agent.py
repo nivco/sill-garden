@@ -78,29 +78,23 @@ def apply_changes(changes: list[dict], *, dry_run: bool) -> list[str]:
 
 
 def maybe_send_email(summary_path: Path, payload: dict) -> str:
-    """Send growth summary when SMTP secrets exist; otherwise skip."""
-    import os
-    import smtplib
-    from email.message import EmailMessage
+    """Send growth summary when SMTP/Resend secrets exist; otherwise skip."""
+    from notify_email import send_email
 
-    to_addr = (os.environ.get("GROWTH_REPORT_EMAIL") or "").strip()
-    host = (os.environ.get("GROWTH_SMTP_HOST") or "").strip()
-    user = (os.environ.get("GROWTH_SMTP_USER") or "").strip()
-    password = (os.environ.get("GROWTH_SMTP_PASS") or "").strip()
-    port = int(os.environ.get("GROWTH_SMTP_PORT") or "587")
-    if not (to_addr and host and user and password):
-        return "email skipped (missing GROWTH_* secrets)"
+    health = payload.get("outcome_health") or {}
+    severity = health.get("severity") or "ok"
+    day = now_utc()[:10]
+    if severity == "critical":
+        subject = f"ALERT: Sill Garden growth stalled — {day}"
+    elif severity == "warn":
+        subject = f"Sill Garden growth WARN — {day}"
+    else:
+        subject = f"Sill Garden growth — {day}"
     body = summary_path.read_text(encoding="utf-8")
-    msg = EmailMessage()
-    msg["Subject"] = f"Sill Garden growth — {now_utc()[:10]}"
-    msg["From"] = user
-    msg["To"] = to_addr
-    msg.set_content(body)
-    with smtplib.SMTP(host, port, timeout=30) as smtp:
-        smtp.starttls()
-        smtp.login(user, password)
-        smtp.send_message(msg)
-    return f"email sent to {to_addr}"
+    result = send_email(subject=subject, body=body)
+    if result.get("ok"):
+        return f"email sent via {result.get('via')} ({result.get('detail')})"
+    return f"email skipped/failed: {result.get('detail')}"
 
 
 def main() -> int:
@@ -115,8 +109,11 @@ def main() -> int:
     if args.refresh:
         run_analytics()
 
+    from outcome_health import analyze as analyze_outcome
+
     learning = build_learning()
     metrics = metrics_from_latest()
+    outcome = analyze_outcome()
     proposed = dedupe_proposed(propose_ctr_first_changes(metrics, max_items=8))
     auto = pick_auto_changes(proposed, max_items=MAX_CHANGES)
     applied = apply_changes(auto, dry_run=args.dry_run)
@@ -132,6 +129,18 @@ def main() -> int:
             auto=False,
             priority="P1",
         )
+
+    if outcome.get("stalled") and not args.dry_run:
+        enqueue(
+            role="cmo",
+            action_type="acquisition_stall",
+            title="ALERT: zero sessions for 5+ days — distribute manually",
+            detail=" | ".join(outcome.get("reasons") or []) or "sessions flat",
+            target="acquisition",
+            auto=False,
+            priority="P0",
+        )
+        applied.append("outcome_health: stalled → P0 acquisition enqueued")
 
     pack = build_distribution_pack(metrics)
     pack_path = None
@@ -162,8 +171,12 @@ def main() -> int:
         "distribution": pack,
         "indexnow": index_result,
         "impact_lines": format_impact_lines(auto),
+        "outcome_health": outcome,
     }
     summary_path = write_daily_summary(payload)
+    if not args.dry_run:
+        save_json(GROWTH / "outcome-health.json", outcome)
+
     email_status = "email skipped"
     if not args.dry_run and not args.skip_email:
         try:
@@ -175,6 +188,7 @@ def main() -> int:
     state["last_run"] = now_utc()
     state["last_applied"] = applied
     state["last_summary"] = str(summary_path.relative_to(ROOT)).replace("\\", "/")
+    state["last_outcome_severity"] = outcome.get("severity")
     if pack_path:
         state["last_distribution"] = str(pack_path.relative_to(ROOT)).replace("\\", "/")
     save_json(STATE_PATH, state)
@@ -182,6 +196,7 @@ def main() -> int:
     print(f"Growth agent {'DRY RUN' if args.dry_run else 'OK'} · applied={len(applied)}")
     for line in applied:
         print(f"  - {line}")
+    print(f"Outcome: {outcome.get('severity')} · zero_days={outcome.get('zero_session_day_count')}")
     print(f"Summary: {summary_path}")
     print(f"Email: {email_status}")
     return 0

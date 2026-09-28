@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-28 02:52 UTC",
+  "generated_at": "2026-09-28 05:20 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -590,11 +590,11 @@
     {
       "priority": "P0",
       "category": "acquisition",
-      "title": "No GA4 sessions yet",
-      "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
+      "title": "No GA4 sessions yet (1d flat)",
+      "detail": "PRIORITY: post 1 Reddit value thread from products/growth/distribution/latest.json (r/ApartmentGardening or r/hydroponics \u2014 no spam, answer first). Also request indexing on home + missing guides in Search Console. Do not ship more guides until sessions_7d > 0.",
       "auto": false,
       "done": false,
-      "created": "2026-09-27 18:43 UTC"
+      "created": "2026-09-28 05:19 UTC"
     },
     {
       "priority": "P1",
@@ -603,25 +603,25 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
       "auto": false,
       "done": false,
-      "created": "2026-09-27 18:43 UTC"
+      "created": "2026-09-28 05:19 UTC"
     },
     {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden comparison\u201d pos 55/1 impr; \u201caerogarden farm vs farm plus\u201d pos 36/2 impr; \u201caerogarden vs click and grow\u201d pos 47/3 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden farm vs farm plus\u201d pos 36/2 impr; \u201caerogarden vs click and grow\u201d pos 47/3 impr; \u201cclick and grow vs aerogarden\u201d pos 42/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-27 18:43 UTC"
+      "created": "2026-09-28 05:19 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-27 02:52 UTC (15.9h ago; min 20h).",
+      "detail": "Last ping 2026-09-28 02:52 UTC (2.5h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-27 18:43 UTC"
+      "created": "2026-09-28 05:19 UTC"
     },
     {
       "priority": "P2",

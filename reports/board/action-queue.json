@@ -424,6 +424,19 @@
       "priority": "P1",
       "done": false,
       "created": "2026-09-14 19:39 UTC"
+    },
+    {
+      "id": "96b15e332e9f",
+      "fingerprint": "96b15e332e9f",
+      "role": "cmo",
+      "type": "acquisition_stall",
+      "title": "ALERT: sessions collapsed to 0 — distribute manually today",
+      "detail": "Sessions fell from ~10-14/wk to 0. Post Reddit draft from distribution/latest.json (compare-aerogarden-models / Bounty vs Harvest). Do not wait for SEO.",
+      "target": "acquisition",
+      "auto": false,
+      "priority": "P0",
+      "done": false,
+      "created": "2026-09-28 05:21 UTC"
     }
   ],
   "applied_log": [
@@ -590,5 +603,5 @@
       "reason": "CTR-first query desc: 3 impr, pos 47.3, 0 clicks"
     }
   ],
-  "updated": "2026-09-27 18:43 UTC"
+  "updated": "2026-09-28 05:21 UTC"
 }

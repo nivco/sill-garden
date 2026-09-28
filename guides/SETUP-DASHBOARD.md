@@ -18,6 +18,14 @@ python scripts\dashboard_server.py
 
 Open **http://127.0.0.1:8793/dashboard**
 
+## Anti-stall (outcome health)
+
+Bots can stay green while sessions stay at 0. `scripts/outcome_health.py` fails closed after **5 calendar days** of zero sessions, emails an ALERT, and enqueues a P0 acquisition task. Workflow: `.github/workflows/outcome-health.yml` (daily after growth agent).
+
+```powershell
+python scripts\outcome_health.py --email
+```
+
 Loading the page paints the cached scorecard, then pulls live GA4 + Search Console
 automatically (~10s) and re-runs the traffic optimizer. The header line tells you
 which one you are looking at (`live`, or `cached · 12m old`). **Refresh** repeats the

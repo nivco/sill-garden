@@ -1,0 +1,69 @@
+name: Outcome health (anti-stall)
+
+# Fail closed when sessions stay at 0 for 5+ days even if other bots are green.
+on:
+  schedule:
+    - cron: "30 16 * * *" # after daily growth agent
+  workflow_dispatch:
+    inputs:
+      force_email:
+        description: "Force email even if OK"
+        required: false
+        default: "false"
+      warn_only:
+        description: "Warn only (do not fail the job)"
+        required: false
+        default: "false"
+
+concurrency:
+  group: sill-outcome-health-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  health:
+    runs-on: ubuntu-latest
+    env:
+      AUTOMATION_LIVE: "1"
+      GROWTH_REPORT_EMAIL: ${{ secrets.GROWTH_REPORT_EMAIL }}
+      GROWTH_SMTP_HOST: ${{ secrets.GROWTH_SMTP_HOST }}
+      GROWTH_SMTP_USER: ${{ secrets.GROWTH_SMTP_USER }}
+      GROWTH_SMTP_PASS: ${{ secrets.GROWTH_SMTP_PASS }}
+      GROWTH_SMTP_PORT: ${{ secrets.GROWTH_SMTP_PORT }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Outcome health gate
+        id: gate
+        continue-on-error: ${{ github.event.inputs.warn_only == 'true' }}
+        run: |
+          EXTRA="--email"
+          if [ "${{ github.event.inputs.force_email }}" = "true" ]; then
+            EXTRA="$EXTRA --force-email"
+          fi
+          if [ "${{ github.event.inputs.warn_only }}" = "true" ]; then
+            EXTRA="$EXTRA --warn-only"
+          fi
+          python scripts/outcome_health.py $EXTRA
+      - name: Commit health snapshot
+        if: always()
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_git_push.sh "chore: outcome health $(date -u +%Y-%m-%d)" \
+            products/growth/outcome-health.json \
+            reports/board/action-queue.json \
+            products/traffic/ || true
+      - name: Fail job when stalled
+        if: steps.gate.outcome == 'failure'
+        run: |
+          echo "::error::Sill Garden growth stalled — green bots hid zero sessions. See products/growth/outcome-health.json"
+          exit 1

@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-27 18:43 UTC",
+  "generated_at": "2026-09-28 05:21 UTC",
   "wow": {
     "ga4_sessions_7d": -3.0,
-    "gsc_impressions_7d": 2.0,
+    "gsc_impressions_7d": -1.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 0,
-    "gsc_impressions_7d": 10,
+    "gsc_impressions_7d": 8,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -21,13 +21,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 41.0
-    },
-    {
-      "query": "aerogarden comparison",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 55.0
     },
     {
       "query": "aerogarden farm vs farm plus",
@@ -49,13 +42,6 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 41.5
-    },
-    {
-      "query": "countertop garden",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 93.0
     }
   ],
   "learnings": [

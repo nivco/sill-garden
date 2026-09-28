@@ -21,9 +21,12 @@ GROWTH_DIST = ROOT / "products" / "growth" / "distribution" / "latest.json"
 AI_CITATION = ROOT / "products" / "growth" / "ai-citation" / "latest.json"
 LEARNING = ROOT / "products" / "analytics" / "learning-snapshot.json"
 BOARD_QUEUE = ROOT / "reports" / "board" / "action-queue.json"
+YOUTUBE_QUEUE = ROOT / "products" / "youtube" / "auto-queue.json"
+YOUTUBE_STATE = ROOT / "products" / "youtube" / "publish-state.json"
+YOUTUBE_ACCESS = ROOT / "products" / "youtube" / "youtube-access-status.json"
 PORT = 8793
 NO_CACHE = ("Cache-Control", "no-store, no-cache, must-revalidate")
-SERVER_TAG = "v2-live-refresh"
+SERVER_TAG = "v3-youtube-panel"
 
 _refresh_lock = False
 
@@ -52,6 +55,65 @@ def run_script(name: str, timeout: int = 240) -> subprocess.CompletedProcess:
         timeout=timeout,
         check=False,
     )
+
+
+def youtube_ops_payload() -> dict:
+    """Publish cadence + OAuth status for the YouTube dashboard panel."""
+    queue = read_json(YOUTUBE_QUEUE)
+    state = read_json(YOUTUBE_STATE)
+    access = read_json(YOUTUBE_ACCESS)
+    uploads = state.get("uploads") if isinstance(state.get("uploads"), dict) else {}
+    if not uploads and isinstance(state.get("published"), dict):
+        uploads = state["published"]
+
+    by_id: dict[str, dict] = {}
+    last_upload_at: str | None = None
+    long_count = 0
+    short_count = 0
+    for slug, entry in uploads.items():
+        if not isinstance(entry, dict):
+            continue
+        yid = str(entry.get("youtube_id") or "").strip()
+        fmt = str(entry.get("format") or "").strip().lower()
+        if not fmt:
+            if str(slug).startswith("short-") or "/short-" in str(entry.get("storyboard") or ""):
+                fmt = "short"
+            else:
+                fmt = "long"
+        if fmt == "short":
+            short_count += 1
+        else:
+            long_count += 1
+        uploaded = entry.get("uploaded_at") or entry.get("published_at")
+        if isinstance(uploaded, str) and uploaded:
+            if last_upload_at is None or uploaded > last_upload_at:
+                last_upload_at = uploaded
+        if yid:
+            by_id[yid] = {
+                "format": fmt,
+                "uploaded_at": uploaded,
+                "slug": slug,
+            }
+
+    return {
+        "oauth_ready": bool(access.get("ready")),
+        "oauth_checked_at": access.get("checked_at"),
+        "oauth_error": access.get("error"),
+        "auto_publish_enabled": bool(queue.get("auto_publish_enabled")),
+        "next_eligible_date": state.get("next_eligible_date"),
+        "last_upload_at": last_upload_at,
+        "published_long": long_count,
+        "published_short": short_count,
+        "published_total": len(uploads),
+        "policy": {
+            "min_days_between": queue.get("min_days_between"),
+            "max_days_between": queue.get("max_days_between"),
+            "max_uploads_per_day": queue.get("max_uploads_per_day"),
+            "short_slots_per_day": queue.get("short_slots_per_day"),
+            "notes": queue.get("notes"),
+        },
+        "video_meta": by_id,
+    }
 
 
 def scorecard_payload(source: str) -> dict:
@@ -85,6 +147,7 @@ def scorecard_payload(source: str) -> dict:
             ]
         ),
     }
+    data["youtube_ops"] = youtube_ops_payload()
     data["_source"] = source
     data["_server"] = SERVER_TAG
     if LATEST_JSON.is_file():
