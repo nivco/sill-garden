@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-28 19:02 UTC",
+  "generated_at": "2026-09-28 20:54 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 8,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 8,
+    "gsc_impressions_7d": 10,
     "indexed_urls": 31,
     "sitemap_urls": 32,
     "cf_pageviews_7d": 0,
@@ -19,7 +19,7 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 0.0,
+    "engagement_rate_pct": 33.3,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": null
   },
@@ -34,9 +34,9 @@
         "activeUsers": 1,
         "sessions": 3,
         "screenPageViews": 8,
-        "engagedSessions": 0,
-        "averageSessionDuration_sec": 1066.0,
-        "engagementRate_pct": 0.0
+        "engagedSessions": 1,
+        "averageSessionDuration_sec": 933.0,
+        "engagementRate_pct": 33.3
       },
       "top_pages": [
         {
@@ -62,18 +62,18 @@
         },
         {
           "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "3"
+          "sessions": "2"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "3",
-          "engagedSessions": "0"
+          "engagedSessions": "1"
         },
         {
           "sessionSourceMedium": "(not set)",
-          "sessions": "3",
+          "sessions": "2",
           "engagedSessions": "0"
         }
       ],
@@ -96,7 +96,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 10,
       "top_queries": [
         {
           "query": "aerogarden bounty vs harvest",
@@ -111,6 +111,13 @@
           "impressions": 2,
           "ctr": 0.0,
           "position": 36.0
+        },
+        {
+          "query": "aerogarden trellis for 2019 bounty models",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 44.5
         },
         {
           "query": "aerogarden vs click and grow",
@@ -650,7 +657,7 @@
       "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "error": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&forHandle=sillgarden&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-s"
+      "error": "HTTP 403 https://www.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id=WSnB43l2SmQ%2C_BkvP9voGJM%2C35k4h5j8D20%2CCTmzbmQ5FAw%2C2k80pmMSYgs%2CcceEHXgSlYc%2CpvMlVD1InHQ%2CF073SleZ9aA&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request ca"
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -701,21 +708,12 @@
   "actions": [
     {
       "priority": "P0",
-      "category": "acquisition",
-      "title": "No GA4 sessions yet",
-      "detail": "Share 1\u20132 guides or request indexing on home + top guides in Search Console.",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-28 02:52 UTC"
-    },
-    {
-      "priority": "P1",
       "category": "indexing",
-      "title": "Request indexing for 2 guides",
-      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: kratky-jar-herbs-apartment, yellow-leaves-leggy-seedlings-indoor-herbs.",
+      "title": "Request indexing for 1 money URLs",
+      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/tools/",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 02:52 UTC"
+      "created": "2026-09-28 19:02 UTC"
     },
     {
       "priority": "P1",
@@ -724,92 +722,38 @@
       "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden farm vs farm plus\u201d pos 36/2 impr; \u201caerogarden vs click and grow\u201d pos 47/3 impr; \u201cclick and grow vs aerogarden\u201d pos 42/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 02:52 UTC"
+      "created": "2026-09-28 19:02 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "monetization",
+      "title": "Traffic without affiliate clicks",
+      "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-28 19:02 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "setup",
+      "title": "Finish setup: YouTube",
+      "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&forHandle=sillgarden&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": ",
+      "auto": false,
+      "done": false,
+      "created": "2026-09-28 19:02 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-09-28 02:52 UTC (16.2h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-09-28 02:52 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Refresh Google analytics OAuth so metrics stay live.",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "data",
-      "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
-      "detail": "From monthly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "created": "2026-09-28 19:02 UTC"
     }
   ],
   "insights": [
-    "GSC: 8 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden farm vs farm plus\u201d (pos 36), \u201caerogarden vs click and grow\u201d (pos 47). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 10 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden farm vs farm plus\u201d (pos 36), \u201caerogarden trellis for 2019 bounty models\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -845,7 +789,7 @@
       {
         "name": "YouTube",
         "ok": false,
-        "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&forHandle=sillgarden&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-s"
+        "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id=WSnB43l2SmQ%2C_BkvP9voGJM%2C35k4h5j8D20%2CCTmzbmQ5FAw%2C2k80pmMSYgs%2CcceEHXgSlYc%2CpvMlVD1InHQ%2CF073SleZ9aA&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request ca"
       },
       {
         "name": "Affiliate click counters",

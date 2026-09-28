@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 13:06 UTC",
+  "generated_at": "2026-09-28 20:54 UTC",
   "severity": "warn",
   "stalled": false,
   "zero_session_days": [],
@@ -14,19 +14,18 @@
   "low_session_day_count": 5,
   "youtube_flat": false,
   "metrics": {
-    "sessions_7d": 2,
-    "gsc_impressions_7d": 8,
+    "sessions_7d": 3,
+    "gsc_impressions_7d": 10,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
-    "youtube_views_total": 378,
+    "youtube_views_total": 0,
     "youtube_sessions_7d": 0,
     "next_eligible_date": "2026-10-01",
     "distribution_url": "https://sillgarden.com/kits/kitchen-capacity/"
   },
   "reasons": [
-    "GA4 sessions_7d=2 (<5) for 5 day(s)",
-    "GSC 8 impressions / 0 clicks",
-    "YouTube -> site sessions = 0",
+    "GA4 sessions_7d=3 (<5) for 5 day(s)",
+    "GSC 10 impressions / 0 clicks",
     "Affiliate clicks_7d = 0"
   ],
   "actions": [
