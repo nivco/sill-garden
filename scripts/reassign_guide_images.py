@@ -10,30 +10,75 @@ ROOT = Path(__file__).resolve().parents[1]
 GUIDES = ROOT / "src" / "content" / "guides"
 IMG = ROOT / "public" / "images"
 
+# Intentionally unused (mismatched subjects from prior audits).
+BLOCKED = {
+    "guide-countertop.jpg",
+    "guide-systems.jpg",
+    "guide-yellow-leaves.jpg",
+    "inline-cilantro-alt.jpg",
+    "inline-grow-tray.jpg",
+    "inline-harvest.jpg",
+    "inline-hydro-herbs.jpg",
+    "inline-leggy.jpg",
+    "inline-mold-tray.jpg",
+    "inline-rosemary.jpg",
+    "inline-seedlings.jpg",
+    "inline-apartment.jpg",
+}
+
 HEROES: dict[str, tuple[str, str]] = {
-    "aerogarden-vs-click-and-grow.md": ("/images/guide-compare-budget.jpg", "Click & Grow Smart Garden with herbs under a built-in LED"),
-    "compare-aerogarden-models.md": ("/images/kit-aerogarden-harvest.jpg", "AeroGarden countertop hydroponic kit growing vegetables under LED light"),
+    "aerogarden-vs-click-and-grow.md": (
+        "/images/guide-compare-budget.jpg",
+        "Click & Grow Smart Garden with herbs under a built-in LED",
+    ),
+    "compare-aerogarden-models.md": (
+        "/images/kit-aerogarden-harvest.jpg",
+        "AeroGarden countertop hydroponic kit growing vegetables under LED light",
+    ),
     "countertop-garden-system-guide.md": ("/images/guide-diy-herbs.jpg", "Kitchen herb mint in a pot"),
-    "best-countertop-garden-apartments.md": ("/images/guide-kitchen-herbs.jpg", "Culinary herb plant ready for cooking"),
-    "cheapest-indoor-herb-garden-apartment.md": ("/images/guide-compare-budget.jpg", "Smart countertop herb garden kit"),
+    "best-countertop-garden-apartments.md": (
+        "/images/guide-kitchen-herbs.jpg",
+        "Culinary herb plant ready for cooking",
+    ),
+    "cheapest-indoor-herb-garden-apartment.md": (
+        "/images/guide-herbs.jpg",
+        "Basil and rosemary in pots — a low-cost apartment herb start",
+    ),
     "quiet-countertop-gardens-studios.md": ("/images/guide-quiet.jpg", "Young green plant in a quiet corner"),
     "countertop-garden-running-cost.md": ("/images/guide-light.jpg", "Herb leaf close-up under light"),
-    "grow-light-schedules-herbs.md": ("/images/guide-troubleshooting.jpg", "Basil leaf detail for light checks"),
+    "grow-light-schedules-herbs.md": (
+        "/images/guide-troubleshooting.jpg",
+        "Leafy herb close-up for checking light stress",
+    ),
     "landlord-safe-indoor-garden-setup.md": ("/images/guide-setup.jpg", "Two plants on a windowsill"),
     "basil-countertop-first-harvest.md": ("/images/guide-basil.jpg", "Basil garden plant"),
-    "best-low-light-herbs-apartment.md": ("/images/guide-windowsill.jpg", "Rosemary and herbs on an indoor window"),
+    "best-low-light-herbs-apartment.md": (
+        "/images/guide-windowsill.jpg",
+        "Rosemary and herbs on an indoor window",
+    ),
     "windowsill-herbs-without-kit.md": ("/images/about-sill.jpg", "Rosemary on an indoor sill"),
     "yellow-leaves-leggy-seedlings-indoor-herbs.md": (
         "/images/inline-yellow-plant.jpg",
         "Curly parsley with yellowing leaves that need a light or water check",
     ),
+    "mint-windowsill-first-harvest.md": ("/images/guide-mint.jpg", "Mint plant growing in soft indoor light"),
+    "kratky-jar-herbs-apartment.md": ("/images/guide-kratky.jpg", "Simple hydroponic herb setup indoors"),
+    "countertop-garden-pod-refill-cost.md": (
+        "/images/guide-pod-cost.jpg",
+        "Basil leaves representing ongoing herb harvest value",
+    ),
+    "click-and-grow-vs-idoo-auk.md": (
+        "/images/guide-idoo-compare.jpg",
+        "Compact potted plants suited to apartment counters",
+    ),
 }
 
-# Prefer topical inlines first; leftovers fill remaining guides.
 PREFERRED: dict[str, list[tuple[str, str]]] = {
     "aerogarden-vs-click-and-grow.md": [
         ("inline-greenery.jpg", "Lush indoor basil greenery"),
-        ("inline-basil.jpg", "Living basil by a window"),
+        ("inline-basil-alt.jpg", "Basil leaves — the herb most countertop kits grow first"),
+        ("kit-click-grow-smart-garden.jpg", "Click & Grow Smart Garden units growing herbs indoors"),
+        ("inline-chives-fresh.jpg", "Fresh chives — a common refill herb after the first pod cycle"),
     ],
     "compare-aerogarden-models.md": [
         ("inline-cilantro.jpg", "Fresh cilantro and coriander leaves"),
@@ -45,7 +90,7 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
     ],
     "best-countertop-garden-apartments.md": [
         ("inline-kitchen.jpg", "Kitchen counter with living greenery"),
-        ("inline-pots.jpg", "Seedlings started in labeled cups for a first kitchen harvest"),
+        ("inline-herbs-board.jpg", "Coriander seedlings in labeled cups — a simple first setup"),
     ],
     "cheapest-indoor-herb-garden-apartment.md": [
         ("inline-pots.jpg", "Budget pots ready for seed starting"),
@@ -54,14 +99,15 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
     "quiet-countertop-gardens-studios.md": [
         ("inline-mint2.jpg", "Quiet herb corner for a small kitchen"),
         ("inline-mint.jpg", "Compact mint suited to silent setups"),
+        ("inline-herb-close.jpg", "Stevia leaf detail under bright growing light"),
     ],
     "countertop-garden-running-cost.md": [
         ("inline-parsley-alt.jpg", "Parsley as a low-cost ongoing crop"),
-        ("inline-basil-alt.jpg", "Basil leaves that justify electricity cost"),
     ],
     "grow-light-schedules-herbs.md": [
         ("inline-led-grow.jpg", "Bottom view of an LED grow fixture"),
         ("inline-rosemary-alt.jpg", "Rosemary foliage under long day schedules"),
+        ("inline-leaves.jpg", "Potted rosemary under a long daily light schedule"),
     ],
     "landlord-safe-indoor-garden-setup.md": [
         ("inline-oregano.jpg", "Moveable pots that do not need drilling"),
@@ -72,16 +118,25 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
         ("inline-basil.jpg", "Fresh basil leaves ready for a first kitchen harvest"),
     ],
     "best-low-light-herbs-apartment.md": [
-        ("inline-yellow-plant.jpg", "Yellowing parsley when light is too weak"),
         ("inline-thyme.jpg", "Thyme that handles softer apartment light"),
     ],
     "windowsill-herbs-without-kit.md": [
         ("inline-shelf-herbs.jpg", "Shelf herbs near apartment light"),
-        ("inline-seedlings-alt.jpg", "Seedlings started without a hydro kit"),
+        ("hero-sill.jpg", "Basil and rosemary in pots on a bright sill"),
     ],
-    "yellow-leaves-leggy-seedlings-indoor-herbs.md": [
-        ("inline-yellow-plant.jpg", "Curly parsley with yellow leaves from weak light or wet roots"),
+    "yellow-leaves-leggy-seedlings-indoor-herbs.md": [],
+    "mint-windowsill-first-harvest.md": [
+        ("inline-mint-harvest.jpg", "Mint foliage ready for a first trim"),
     ],
+    "kratky-jar-herbs-apartment.md": [
+        ("inline-jar-herbs.jpg", "Jar-friendly hydro herbs on a compact apartment setup"),
+        ("inline-water-roots.jpg", "Roots reaching nutrient solution with an air gap"),
+    ],
+    "countertop-garden-pod-refill-cost.md": [
+        ("inline-refill.jpg", "Fresh basil harvest that has to justify refill cost"),
+        ("inline-grocery-herbs.jpg", "Grocery clamshell herbs vs growing your own"),
+    ],
+    "click-and-grow-vs-idoo-auk.md": [],
 }
 
 
@@ -91,6 +146,8 @@ def main() -> None:
     for guide, pairs in PREFERRED.items():
         clean: list[tuple[str, str]] = []
         for fn, alt in pairs:
+            if fn in BLOCKED:
+                continue
             if not (IMG / fn).is_file():
                 continue
             if fn in owned:
@@ -100,12 +157,11 @@ def main() -> None:
         pools[guide] = clean
 
     leftovers = [
-        (p.name, "Indoor herbs for apartments")
-        for p in sorted(IMG.glob("inline-*.jpg"))
-        if p.name not in owned
+        (p.name, p.stem.replace("-", " ").title())
+        for p in sorted(IMG.glob("*.jpg"))
+        if p.name not in owned and p.name not in BLOCKED and not p.name.startswith("og-")
     ]
 
-    # Top up each guide to max 2 preferred already; extras from leftovers for guides that need more body slots later
     for guide in pools:
         while len(pools[guide]) < 2 and leftovers:
             fn, alt = leftovers.pop(0)
@@ -124,36 +180,25 @@ def main() -> None:
             text = re.sub(r"^imageAlt:\s*.*$", f"imageAlt: {halt}", text, count=1, flags=re.M)
         else:
             text = re.sub(r"^(image:\s*.*)$", rf"\1\nimageAlt: {halt}", text, count=1, flags=re.M)
-
-        pool = list(pools.get(name, []))
-        # also allow leftovers for this guide if body has many images
-        local = pool + leftovers
-        leftovers = []  # consume sequentially across guides? better: only use guide pool + shared leftover stack
-        # restore approach: guide pool first, then shared leftovers
-        shared = [
-            (p.name, "Indoor herbs for apartments")
-            for p in sorted(IMG.glob("inline-*.jpg"))
-            if p.name not in owned or any(p.name == fn for fn, _ in pool)
-        ]
-        # simpler second pass below
         path.write_text(text, encoding="utf-8")
 
-    # Second pass: replace/remove body images with globally unique assignment
     used_inline: set[str] = set()
-    leftover_stack = [
-        p.name for p in sorted(IMG.glob("inline-*.jpg"))
-    ]
-    # Prefer preferred order: build queue per guide then global leftover
-    guide_queues: dict[str, list[str]] = {}
     reserved: set[str] = set()
+    guide_queues: dict[str, list[str]] = {}
+    alt_for: dict[str, str] = {}
     for guide, pairs in pools.items():
         q = []
-        for fn, _ in pairs:
+        for fn, alt in pairs:
             if fn not in reserved:
                 reserved.add(fn)
                 q.append(fn)
+                alt_for[fn] = alt
         guide_queues[guide] = q
-    global_q = [n for n in leftover_stack if n not in reserved]
+    global_q = [
+        p.name
+        for p in sorted(IMG.glob("*.jpg"))
+        if p.name not in reserved and p.name not in BLOCKED and not p.name.startswith("og-")
+    ]
 
     for name in HEROES:
         path = GUIDES / name
@@ -168,16 +213,11 @@ def main() -> None:
             elif global_q:
                 fn = global_q.pop(0)
             if not fn or fn in used_inline:
-                return ""  # drop excess / conflict
+                return ""
             used_inline.add(fn)
-            alt = "Indoor herbs for apartments"
-            for g_pairs in pools.values():
-                for f2, a2 in g_pairs:
-                    if f2 == fn:
-                        alt = a2
+            alt = alt_for.get(fn, fn.replace("-", " ").replace(".jpg", "").title())
             return f"![{alt}](/images/{fn})\n\n"
 
-        # Only replace markdown images in body (after frontmatter)
         parts = text.split("---", 2)
         if len(parts) < 3:
             print("bad fm", name)
@@ -195,11 +235,11 @@ def main() -> None:
         m = re.search(r"^image:\s*(.*)$", t, re.M)
         if m:
             used_h[m.group(1).strip()].append(path.name)
-        for fn in re.findall(r"\(/images/(inline-[^)]+)\)", t):
+        for fn in re.findall(r"\(/images/([^)]+)\)", t):
             used_i[fn].append(path.name)
     print("hero dups", {k: v for k, v in used_h.items() if len(v) > 1})
     print("inline dups", {k: v for k, v in used_i.items() if len(v) > 1})
-    print("guides", len(list(GUIDES.glob('*.md'))), "unique inlines used", len(used_i))
+    print("guides", len(list(GUIDES.glob("*.md"))), "unique images used", len(used_i))
 
 
 if __name__ == "__main__":

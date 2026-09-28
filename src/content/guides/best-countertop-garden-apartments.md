@@ -34,7 +34,7 @@ For Sill Garden, a good apartment system must clear four bars:
 3. **Light included** — most sills don’t give 6+ hours of strong sun.
 4. **Honest running cost** — pods and nutrients matter as much as the sticker price.
 
-![Seedlings started in labeled cups for a first kitchen harvest](/images/inline-pots.jpg)
+![Coriander seedlings in labeled cups — a simple first setup](/images/inline-herbs-board.jpg)
 
 > **Shop the shortlist**  
 > [AeroGarden Harvest](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · [Click & Grow Smart Garden 3](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1) · see the product picks above for current prices.
@@ -47,15 +47,11 @@ For Sill Garden, a good apartment system must clear four bars:
 | Budget 10–12 pod | More basil/lettuce capacity | $40–$90 | Pump noise and light quality vary |
 | Kratky jar DIY | Learning + ultra-quiet | $25–$40 | More babysitting; needs decent light |
 
-![Indoor herbs for apartments](/images/inline-cilantro-alt.jpg)
-
 ## Our default pick
 
 If you cook with fresh herbs weekly and have ~12×8 inches of counter: choose a **6-pod Harvest-class kit**. It’s the middle ground apartment review sites keep recommending for a reason — enough capacity without dominating the kitchen.
 
 If you sleep in the same room as the kitchen (studio): prioritize **no-pump / silent** systems even if they hold fewer plants.
-
-![Indoor herbs for apartments](/images/inline-harvest.jpg)
 
 > **Key takeaway**
 > Buy the smallest kit you’ll actually use every week. Upgrading later is easier than living with a noisy tower you hate.

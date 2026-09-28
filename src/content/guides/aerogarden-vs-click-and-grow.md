@@ -40,9 +40,7 @@ Searching **AeroGarden vs Click & Grow** (or the reverse, **Click and Grow vs Ae
 | Best apartment fit | Most 1-beds with a counter corner | Studios / bedrooms that share space |
 | Watch-out | Pump noise + pod pricing | Fewer plants; pod lock-in |
 
-![Living basil by a window](/images/inline-basil.jpg)
-
-![Miracle-Gro AeroGarden growing plants under its LED hood](/images/kit-aerogarden-harvest.jpg)
+![Basil leaves — the herb most countertop kits grow first](/images/inline-basil-alt.jpg)
 
 > **Ready to decide?**  
 > Capacity pick: [AeroGarden Harvest on Amazon](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · Silence pick: [Click & Grow Smart Garden 3](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1)
@@ -59,15 +57,13 @@ Searching **AeroGarden vs Click & Grow** (or the reverse, **Click and Grow vs Ae
 - You only need a few herbs at a time.
 - You prefer a narrower footprint on a shallow sill or shelf.
 
-![Indoor herbs for apartments](/images/inline-apartment.jpg)
-
 ![Click & Grow Smart Garden units growing herbs indoors](/images/kit-click-grow-smart-garden.jpg)
 
 ## Refill reality (both)
 
 Proprietary pods are convenient and expensive per plant. Once you know which herbs you actually eat, blank sponges / compatible inserts plus your own seed usually cut ongoing cost. Start with the branded pods for the first cycle so you’re not debugging seed and hardware at once.
 
-![Indoor herbs for apartments](/images/inline-chives-fresh.jpg)
+![Fresh chives — a common refill herb after the first pod cycle](/images/inline-chives-fresh.jpg)
 
 ## FAQ
 

@@ -28,7 +28,7 @@ Not every apartment needs a plug-in hydroponic garden. If you have a bright wind
 
 Most “I can’t grow herbs” stories are low light. South- or west-facing helps. North-facing usually needs a small LED. If seedlings stretch tall and pale, they’re begging for photons, not more water.
 
-![Seedlings started without a hydro kit](/images/inline-seedlings-alt.jpg)
+![Basil and rosemary in pots on a bright sill](/images/hero-sill.jpg)
 
 ## Beginner sill herbs
 

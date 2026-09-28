@@ -22,8 +22,6 @@ updatedDate: 2026-09-12
 ---
 A dim apartment window can grow herbs, but it cannot grow every herb well. The best low-light herbs are plants that tolerate slower growth without stretching into weak, pale stems.
 
-![Yellowing parsley when light is too weak](/images/inline-yellow-plant.jpg)
-
 ## Quick answer
 
 | Herb | Low-light fit | What to expect |

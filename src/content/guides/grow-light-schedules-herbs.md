@@ -5,7 +5,7 @@ pubDate: 2026-08-11
 cluster: setup
 type: howto
 image: /images/guide-troubleshooting.jpg
-imageAlt: Basil leaf detail for light checks
+imageAlt: Leafy herb close-up for checking light stress
 verdict: Run herbs about 14–16 hours on, 8–10 hours off. Align the dark period with your sleep if the garden shares your bedroom.
 products:
   - name: 24-hour outlet timer
@@ -35,9 +35,7 @@ Plants need a dark stretch. Your neighbors (and your circadian rhythm) need the 
 
 If the unit has a dumb timer that starts whenever you plug it in, plug it in at the start of your day so darkness lands while you sleep. App-based kits are easier: set exact hours once.
 
-![Indoor herbs for apartments](/images/inline-leaves.jpg)
-
-![Indoor herbs for apartments](/images/inline-rosemary.jpg)
+![Potted rosemary under a long daily light schedule](/images/inline-leaves.jpg)
 
 ## Wattage anxiety
 

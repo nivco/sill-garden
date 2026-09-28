@@ -24,8 +24,6 @@ products:
 
 Yellow leaves and leggy stems are the two problems that show up in almost every apartment herb inbox. They look like “disease.” They are usually physics: not enough photons, or roots sitting wet.
 
-![Curly parsley with yellow leaves from weak light or wet roots](/images/inline-yellow-plant.jpg)
-
 ## Leggy seedlings (tall, pale, floppy)
 
 **Cause:** light is too weak or too far.
