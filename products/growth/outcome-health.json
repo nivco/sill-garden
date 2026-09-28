@@ -29,7 +29,7 @@
   "reasons": [
     "GA4 sessions_7d=0 for 2 calendar day(s)",
     "GSC 8 impressions / 0 clicks",
-    "YouTube → site sessions = 0",
+    "YouTube -> site sessions = 0",
     "Affiliate clicks_7d = 0"
   ],
   "actions": [
@@ -43,5 +43,10 @@
     "low_session_threshold": 5,
     "low_session_days_critical": 7,
     "youtube_flat_points": 6
+  },
+  "email": {
+    "ok": true,
+    "via": "resend",
+    "detail": "sent to nivooo@gmail.com; {\"id\":\"01a0e676-1906-7550-9544-d29f4744a79c\"}"
   }
 }
