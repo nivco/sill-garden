@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-09-28T11:17:24.260805+00:00",
+  "checked_at": "2026-09-28T12:24:01.374052+00:00",
   "site": "sc-domain:sillgarden.com",
   "sitemap": {
     "path": "https://sillgarden.com/sitemap-index.xml",
@@ -17,7 +17,7 @@
       }
     ]
   },
-  "sitemap_url_count": 26,
+  "sitemap_url_count": 32,
   "urls": [
     {
       "url": "https://sillgarden.com/",
@@ -52,6 +52,66 @@
       ]
     },
     {
+      "url": "https://sillgarden.com/kits/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
+    },
+    {
+      "url": "https://sillgarden.com/kits/studio-silence/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
+    },
+    {
+      "url": "https://sillgarden.com/kits/kitchen-capacity/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
+    },
+    {
+      "url": "https://sillgarden.com/kits/under-50/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
+    },
+    {
+      "url": "https://sillgarden.com/kits/refills/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
+    },
+    {
       "url": "https://sillgarden.com/tools/",
       "verdict": "NEUTRAL",
       "coverage_state": "URL is unknown to Google",
@@ -65,6 +125,18 @@
     },
     {
       "url": "https://sillgarden.com/tools/kit-picker/",
+      "verdict": "NEUTRAL",
+      "coverage_state": "URL is unknown to Google",
+      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
+      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
+      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
+      "last_crawl_time": null,
+      "google_canonical": null,
+      "user_canonical": null,
+      "referring_urls": []
+    },
+    {
+      "url": "https://sillgarden.com/tools/year-one-cost/",
       "verdict": "NEUTRAL",
       "coverage_state": "URL is unknown to Google",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
@@ -391,13 +463,19 @@
     }
   ],
   "nudge": {
-    "ran_at": "2026-09-28T11:14:37.161399+00:00",
+    "ran_at": "2026-09-28T12:20:27.775631+00:00",
     "note": "GSC UI 'Request indexing' cannot be called via API for normal pages. This run resubmits the sitemap, IndexNow-pings priority URLs, and refreshes inspection.",
     "priority": [
       "https://sillgarden.com/",
       "https://sillgarden.com/about/",
+      "https://sillgarden.com/kits/",
+      "https://sillgarden.com/kits/studio-silence/",
+      "https://sillgarden.com/kits/kitchen-capacity/",
+      "https://sillgarden.com/kits/under-50/",
+      "https://sillgarden.com/kits/refills/",
       "https://sillgarden.com/tools/",
       "https://sillgarden.com/tools/kit-picker/",
+      "https://sillgarden.com/tools/year-one-cost/",
       "https://sillgarden.com/tools/apartment-herb-checklist/",
       "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
       "https://sillgarden.com/guides/compare-aerogarden-models/",
@@ -414,18 +492,42 @@
     },
     "indexnow": {
       "ok": true,
-      "count": 26
+      "count": 32
     }
   },
   "indexed_count": 23,
-  "not_indexed_count": 3,
+  "not_indexed_count": 9,
   "not_indexed_urls": [
+    {
+      "url": "https://sillgarden.com/kits/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/kits/studio-silence/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/kits/kitchen-capacity/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/kits/under-50/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/kits/refills/",
+      "coverage_state": "URL is unknown to Google"
+    },
     {
       "url": "https://sillgarden.com/tools/",
       "coverage_state": "URL is unknown to Google"
     },
     {
       "url": "https://sillgarden.com/tools/kit-picker/",
+      "coverage_state": "URL is unknown to Google"
+    },
+    {
+      "url": "https://sillgarden.com/tools/year-one-cost/",
       "coverage_state": "URL is unknown to Google"
     },
     {
