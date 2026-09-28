@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-28 21:27 UTC",
+  "generated_at": "2026-09-28 21:52 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -657,7 +657,7 @@
       "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "error": "HTTP 403 https://www.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id=WSnB43l2SmQ%2C_BkvP9voGJM%2C35k4h5j8D20%2CCTmzbmQ5FAw%2C2k80pmMSYgs%2CcceEHXgSlYc%2CpvMlVD1InHQ%2CF073SleZ9aA&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request ca"
+      "error": "HTTP 403 https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails%2Csnippet&playlistId=UUc31HDBMhoJtsmZYk0Fo56w&maxResults=8&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u00"
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -852,7 +852,7 @@
       {
         "name": "YouTube",
         "ok": false,
-        "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/videos?part=snippet%2Cstatistics&id=WSnB43l2SmQ%2C_BkvP9voGJM%2C35k4h5j8D20%2CCTmzbmQ5FAw%2C2k80pmMSYgs%2CcceEHXgSlYc%2CpvMlVD1InHQ%2CF073SleZ9aA&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request ca"
+        "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails%2Csnippet&playlistId=UUc31HDBMhoJtsmZYk0Fo56w&maxResults=8&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u00"
       },
       {
         "name": "Affiliate click counters",
