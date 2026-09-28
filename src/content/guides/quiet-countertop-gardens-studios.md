@@ -40,9 +40,9 @@ Most kits run ~14–16 hours of bright LED. In one room that means:
 - Use a bamboo shade or trifold board as a light hood if the unit sits near the bed.
 - Avoid aiming the LED at a mirror or glossy backsplash.
 
-![Indoor herbs for apartments](/images/inline-herb-close.jpg)
+![Stevia leaf detail under bright growing light](/images/inline-herb-close.jpg)
 
-![Indoor herbs for apartments](/images/inline-hydro-herbs.jpg)
+![Cut leafy herbs ready for cooking](/images/inline-hydro-herbs.jpg)
 
 ## Placement that works
 

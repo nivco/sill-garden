@@ -34,7 +34,7 @@ For Sill Garden, a good apartment system must clear four bars:
 3. **Light included** — most sills don’t give 6+ hours of strong sun.
 4. **Honest running cost** — pods and nutrients matter as much as the sticker price.
 
-![Indoor grow tray with young plants](/images/inline-grow-tray.jpg)
+![Seedlings started in labeled cups for a first kitchen harvest](/images/inline-pots.jpg)
 
 ## Three starting lanes
 

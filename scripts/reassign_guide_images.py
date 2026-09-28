@@ -11,8 +11,8 @@ GUIDES = ROOT / "src" / "content" / "guides"
 IMG = ROOT / "public" / "images"
 
 HEROES: dict[str, tuple[str, str]] = {
-    "aerogarden-vs-click-and-grow.md": ("/images/guide-systems.jpg", "Indoor plant in a pot on a table"),
-    "compare-aerogarden-models.md": ("/images/guide-countertop.jpg", "Potted plants on a wooden shelf"),
+    "aerogarden-vs-click-and-grow.md": ("/images/guide-compare-budget.jpg", "Click & Grow Smart Garden with herbs under a built-in LED"),
+    "compare-aerogarden-models.md": ("/images/guide-kitchen-herbs.jpg", "Culinary herbs suited to a kitchen counter kit"),
     "countertop-garden-system-guide.md": ("/images/guide-diy-herbs.jpg", "Kitchen herb mint in a pot"),
     "best-countertop-garden-apartments.md": ("/images/guide-kitchen-herbs.jpg", "Culinary herb plant ready for cooking"),
     "cheapest-indoor-herb-garden-apartment.md": ("/images/guide-compare-budget.jpg", "Smart countertop herb garden kit"),
@@ -23,6 +23,10 @@ HEROES: dict[str, tuple[str, str]] = {
     "basil-countertop-first-harvest.md": ("/images/guide-basil.jpg", "Basil garden plant"),
     "best-low-light-herbs-apartment.md": ("/images/guide-windowsill.jpg", "Rosemary and herbs on an indoor window"),
     "windowsill-herbs-without-kit.md": ("/images/about-sill.jpg", "Rosemary on an indoor sill"),
+    "yellow-leaves-leggy-seedlings-indoor-herbs.md": (
+        "/images/inline-yellow-plant.jpg",
+        "Curly parsley with yellowing leaves that need a light or water check",
+    ),
 }
 
 # Prefer topical inlines first; leftovers fill remaining guides.
@@ -37,11 +41,11 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
     ],
     "countertop-garden-system-guide.md": [
         ("inline-counter-plant.jpg", "Compact basil pot on a counter"),
-        ("inline-seedlings.jpg", "Young starts in a compact system"),
+        ("inline-seedlings-alt.jpg", "Herb seedlings started in paper cups near a window"),
     ],
     "best-countertop-garden-apartments.md": [
         ("inline-kitchen.jpg", "Kitchen counter with living greenery"),
-        ("inline-grow-tray.jpg", "Indoor grow tray with young plants"),
+        ("inline-pots.jpg", "Seedlings started in labeled cups for a first kitchen harvest"),
     ],
     "cheapest-indoor-herb-garden-apartment.md": [
         ("inline-pots.jpg", "Budget pots ready for seed starting"),
@@ -65,7 +69,7 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
     ],
     "basil-countertop-first-harvest.md": [
         ("inline-mint-fresh.jpg", "Companion herbs beside basil on a sill"),
-        ("inline-herbs-board.jpg", "Cut basil ready for cooking"),
+        ("inline-basil.jpg", "Fresh basil leaves ready for a first kitchen harvest"),
     ],
     "best-low-light-herbs-apartment.md": [
         ("inline-yellow-plant.jpg", "Yellowing parsley when light is too weak"),
@@ -74,6 +78,9 @@ PREFERRED: dict[str, list[tuple[str, str]]] = {
     "windowsill-herbs-without-kit.md": [
         ("inline-shelf-herbs.jpg", "Shelf herbs near apartment light"),
         ("inline-seedlings-alt.jpg", "Seedlings started without a hydro kit"),
+    ],
+    "yellow-leaves-leggy-seedlings-indoor-herbs.md": [
+        ("inline-yellow-plant.jpg", "Curly parsley with yellow leaves from weak light or wet roots"),
     ],
 }
 

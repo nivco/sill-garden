@@ -29,7 +29,7 @@ Basil is the reason most people buy a countertop garden. It’s also the plant t
 - Keep the light close (follow the brand’s height guidance) so plants don’t stretch.
 - On a sill without a kit, basil wants the brightest window you have — or a clip lamp.
 
-![Cut basil ready for cooking](/images/inline-herbs-board.jpg)
+![Fresh basil leaves ready for a first kitchen harvest](/images/inline-basil.jpg)
 
 ## Pinching
 

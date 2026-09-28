@@ -4,8 +4,8 @@ description: Fix yellow leaves, stretchy seedlings, and weak flavor on apartment
 pubDate: 2026-08-27
 cluster: setup
 type: troubleshoot
-image: /images/guide-yellow-leaves.jpg
-imageAlt: Herb leaves showing stress and color change
+image: /images/inline-yellow-plant.jpg
+imageAlt: Curly parsley with yellowing leaves that need a light or water check
 verdict: Most apartment herb failures are light and watering — not the wrong nutrient brand. Fix stretch and yellowing before you buy another kit.
 products:
   - name: Clip-on LED grow light
@@ -24,9 +24,7 @@ products:
 
 Yellow leaves and leggy stems are the two problems that show up in almost every apartment herb inbox. They look like “disease.” They are usually physics: not enough photons, or roots sitting wet.
 
-![Leggy seedlings that need stronger or closer light](/images/inline-leggy.jpg)
-
-![Stressed herb foliage that needs a light or water check](/images/inline-mold-tray.jpg)
+![Curly parsley with yellow leaves from weak light or wet roots](/images/inline-yellow-plant.jpg)
 
 ## Leggy seedlings (tall, pale, floppy)
 

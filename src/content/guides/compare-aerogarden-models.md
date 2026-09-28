@@ -6,8 +6,8 @@ updatedDate: 2026-09-28
 cluster: systems
 type: comparison
 featured: true
-image: /images/guide-countertop.jpg
-imageAlt: Potted plants on a wooden shelf
+image: /images/guide-kitchen-herbs.jpg
+imageAlt: Culinary herbs suited to a kitchen counter kit
 verdict: Start with Harvest-class (≈6 pods) for most apartments. Step up to Bounty only if you cook herbs daily and have counter depth. Skip Farm-scale towers unless you have floor space.
 products:
 - name: AeroGarden Harvest / Harvest Lite

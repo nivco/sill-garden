@@ -42,7 +42,7 @@ A **countertop garden system** is anything that reliably grows edible herbs on a
 | Learning curve | Very low | Medium |
 | Best when | You want herbs this month | You want silence + budget control |
 
-![Young starts in a compact system](/images/inline-seedlings.jpg)
+![Herb seedlings started in paper cups near a window](/images/inline-seedlings-alt.jpg)
 
 ## FAQ
 

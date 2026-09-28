@@ -12,12 +12,12 @@ export const photoCredits = [
   },
   {
     file: 'guide-systems.jpg',
-    credit: 'Potted spider plant indoors (Openverse / CC0)',
+    credit: 'Variegated spider plant in a white pot (Openverse / CC0) — prefer kit photos for comparison heroes',
     url: 'https://openverse.org/image/f0601024-9e37-4397-82fc-372fb62bd588',
   },
   {
     file: 'guide-countertop.jpg',
-    credit: 'Potted plants on a wooden shelf (Openverse / CC0)',
+    credit: 'Ivy and ornamentals on a shelf (Openverse / CC0) — not a countertop hydro kit',
     url: 'https://openverse.org/image/56222643-f83b-4318-a815-c17f0d782bc7',
   },
   {
@@ -124,12 +124,17 @@ export const photoCredits = [
   { file: 'guide-mint.jpg', credit: 'Mint / Mentha (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
   { file: 'guide-diy-herbs.jpg', credit: 'Kitchen herb Mentha (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
   { file: 'guide-kitchen-herbs.jpg', credit: 'Culinary herb plant (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
-  { file: 'guide-compare-budget.jpg', credit: 'Smart herb garden (Openverse / CC BY-SA)', url: 'https://openverse.org/' },
-  { file: 'guide-troubleshooting.jpg', credit: 'Basil leaf detail (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-compare-budget.jpg', credit: 'Click & Grow Smart Garden product shot (Openverse / CC BY-SA)', url: 'https://openverse.org/' },
+  { file: 'guide-troubleshooting.jpg', credit: 'Leafy herb close-up (often stevia) — not always basil (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
   { file: 'guide-kratky.jpg', credit: 'Hydroponics (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
-  { file: 'guide-yellow-leaves.jpg', credit: 'Plant stress / pathology (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'guide-yellow-leaves.jpg', credit: 'DEPRECATED for heroes — archival wood-stain micrograph (Wikimedia); do not use for yellow-leaf guides', url: 'https://commons.wikimedia.org/' },
   { file: 'guide-pod-cost.jpg', credit: 'Basil foliage (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
   { file: 'guide-idoo-compare.jpg', credit: 'Potted plants (Wikimedia Commons)', url: 'https://commons.wikimedia.org/' },
+  { file: 'inline-leggy.jpg', credit: 'Soil thermometer with dill seedlings — not leggy herbs; avoid for stretch/leggy captions', url: 'https://commons.wikimedia.org/' },
+  { file: 'inline-mold-tray.jpg', credit: 'Sapling in abandoned room — not herb stress; avoid for yellow-leaf captions', url: 'https://commons.wikimedia.org/' },
+  { file: 'inline-grow-tray.jpg', credit: 'Greenhouse begonias — not a countertop grow tray; avoid for kit guides', url: 'https://openverse.org/' },
+  { file: 'inline-herbs-board.jpg', credit: 'Coriander seedlings in a labeled cup (not cut basil)', url: 'https://openverse.org/image/4f2caaa1-78d7-4505-aa71-00efee3619a3' },
+  { file: 'inline-hydro-herbs.jpg', credit: 'Cut leafy herbs on a book cover — not a hydro kit', url: 'https://openverse.org/' },
 ] as const;
 
 export const unsplashLicenseUrl = 'https://creativecommons.org/publicdomain/zero/1.0/';

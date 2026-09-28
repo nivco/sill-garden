@@ -6,8 +6,8 @@ updatedDate: 2026-09-28
 cluster: systems
 type: comparison
 featured: true
-image: /images/guide-systems.jpg
-imageAlt: Indoor plant in a pot on a table
+image: /images/guide-compare-budget.jpg
+imageAlt: Click & Grow Smart Garden with herbs under a built-in LED
 verdict: Pick AeroGarden Harvest-class if you want faster growth and a bigger herb set. Pick Click & Grow Smart Garden 3 if silence and a smaller footprint matter more than yield.
 products:
 - name: AeroGarden Harvest / Harvest Lite
