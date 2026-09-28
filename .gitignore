@@ -33,3 +33,7 @@ products/youtube/**/*.mp4
 products/youtube/**/concat.txt
 
 .tmp-yt-bak/
+
+# local email rate-limit ledger
+products/growth/email-send-ledger.json
+
