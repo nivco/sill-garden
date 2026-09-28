@@ -47,18 +47,41 @@ def main() -> int:
             fetch_rss_items(args.feed), set(state.get("posted_guids") or [])
         )
     except Exception as exc:
-        print(f"Bluesky: feed unavailable — skip ({exc}).", file=sys.stderr)
-        return 0
+        print(f"Bluesky: feed unavailable — {exc}", file=sys.stderr)
+        item = None
+
+    # MTS-style fallback: post today's distribution pack when RSS has nothing new.
     if not item:
-        print("Bluesky: no new feed items.")
+        dist_path = ROOT / "products" / "growth" / "distribution" / "latest.json"
+        if dist_path.is_file():
+            try:
+                pack = json.loads(dist_path.read_text(encoding="utf-8"))
+                text_dist = ((pack.get("channels") or {}).get("bluesky") or "").strip()
+                url = ((pack.get("target") or {}).get("url") or "").strip()
+                if text_dist:
+                    item = {
+                        "guid": f"dist:{url or date.today().isoformat()}",
+                        "title": text_dist.split("\n", 1)[0][:120],
+                        "link": url or "https://sillgarden.com/",
+                        "dist_text": text_dist,
+                    }
+            except (json.JSONDecodeError, OSError):
+                item = None
+    if not item:
+        print("Bluesky: no new feed items and no distribution pack.")
         return 0
 
-    suffix = "\n\n#IndoorGarden #ApartmentLiving"
-    available = 300 - len(item["link"]) - len(suffix) - 2
-    title = item["title"]
-    if len(title) > available:
-        title = title[: max(1, available - 1)].rstrip() + "…"
-    text = f"{title}\n\n{item['link']}{suffix}"
+    if item.get("dist_text"):
+        text = item["dist_text"]
+        if len(text) > 300:
+            text = text[:297].rstrip() + "..."
+    else:
+        suffix = "\n\n#IndoorGarden #ApartmentLiving"
+        available = 300 - len(item["link"]) - len(suffix) - 2
+        title = item["title"]
+        if len(title) > available:
+            title = title[: max(1, available - 1)].rstrip() + "..."
+        text = f"{title}\n\n{item['link']}{suffix}"
     if dry_run:
         print(f"DRY RUN — Bluesky would post:\n{text}")
         return 0
@@ -92,7 +115,7 @@ def main() -> int:
         {
             "date": date.today().isoformat(),
             "guid": item["guid"],
-            "link": item["link"],
+            "link": item.get("link"),
             "uri": result.get("uri"),
             "cid": result.get("cid"),
         }

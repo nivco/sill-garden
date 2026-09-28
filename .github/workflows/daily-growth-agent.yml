@@ -2,7 +2,7 @@ name: Daily growth agent
 
 on:
   schedule:
-    - cron: "0 15 * * *" # 15:00 UTC daily
+    - cron: "0 15 * * *" # 15:00 UTC daily — same window as MTS
   workflow_dispatch:
     inputs:
       dry_run:
@@ -33,6 +33,9 @@ jobs:
       GROWTH_SMTP_USER: ${{ secrets.GROWTH_SMTP_USER }}
       GROWTH_SMTP_PASS: ${{ secrets.GROWTH_SMTP_PASS }}
       GROWTH_SMTP_PORT: ${{ secrets.GROWTH_SMTP_PORT }}
+      BUTTONDOWN_API_KEY: ${{ secrets.BUTTONDOWN_API_KEY }}
+      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
+      EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
       CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
       CLOUDFLARE_ZONE_ID: "37b02453651a4e74cc1eaed7241a6338"
       YOUTUBE_API_KEY: ${{ secrets.YOUTUBE_API_KEY }}
@@ -40,8 +43,6 @@ jobs:
       GOOGLE_SERVICE_ACCOUNT_JSON: ${{ secrets.GOOGLE_SERVICE_ACCOUNT_JSON }}
       GOOGLE_USER_TOKEN_JSON: ${{ secrets.GOOGLE_USER_TOKEN_JSON }}
       GOOGLE_OAUTH_CLIENT_JSON: ${{ secrets.GOOGLE_OAUTH_CLIENT_JSON }}
-      RESEND_API_KEY: ${{ secrets.RESEND_API_KEY }}
-      EMAIL_FROM: ${{ secrets.EMAIL_FROM }}
     steps:
       - uses: actions/checkout@v4
         with:
@@ -51,9 +52,9 @@ jobs:
           python-version: "3.12"
       - name: Install deps
         run: pip install -r requirements-analytics.txt
-      - name: Measurement gate (warn only)
-        run: python scripts/measurement_gate.py --warn-only
-      - name: Daily growth agent
+      - name: Measurement gate (GA4 + GSC)
+        run: python scripts/measurement_gate.py --strict
+      - name: Daily growth agent (refresh -> learn -> apply -> email)
         run: |
           EXTRA="--refresh"
           if [ "${{ github.event.inputs.dry_run }}" = "true" ]; then

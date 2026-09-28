@@ -1,0 +1,54 @@
+name: Weekly autonomous traffic
+
+# MTS-parity distribution loop: Bluesky + IndexNow nudges on a schedule.
+on:
+  schedule:
+    # Mon/Wed/Sat 16:00 UTC — Bluesky (respects cooldown)
+    - cron: "0 16 * * 1,3,6"
+  workflow_dispatch:
+    inputs:
+      force_bluesky:
+        description: "Ignore Bluesky cooldown"
+        required: false
+        default: "false"
+
+concurrency:
+  group: sill-bot-commit-${{ github.ref }}
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  traffic:
+    runs-on: ubuntu-latest
+    env:
+      AUTOMATION_LIVE: "1"
+      BLUESKY_IDENTIFIER: ${{ secrets.BLUESKY_IDENTIFIER }}
+      BLUESKY_APP_PASSWORD: ${{ secrets.BLUESKY_APP_PASSWORD }}
+      BLUESKY_MIN_DAYS: "3"
+      INDEXNOW_KEY: ${{ secrets.INDEXNOW_KEY }}
+      BING_WEBMASTER_API_KEY: ${{ secrets.BING_WEBMASTER_API_KEY }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: IndexNow nudge
+        continue-on-error: true
+        run: python scripts/submit_indexing.py
+      - name: Post to Bluesky
+        run: |
+          EXTRA=""
+          if [ "${{ github.event.inputs.force_bluesky }}" = "true" ]; then
+            EXTRA="--force"
+          fi
+          python scripts/social_bluesky_post.py $EXTRA
+      - name: Commit automation state
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          bash scripts/ci_git_push.sh "chore: weekly traffic automation state" \
+            products/syndication/ products/growth/ || true

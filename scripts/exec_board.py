@@ -283,28 +283,23 @@ def send_board_email(
     force: bool = False,
     dry_run: bool = False,
 ) -> dict:
-    import smtplib
-    from email.message import EmailMessage
+    from growth_report_builder import build_unified_growth_email
+    from growth_report_email import send_growth_report
 
-    to_addr = (os.environ.get("GROWTH_REPORT_EMAIL") or "").strip()
-    host = (os.environ.get("GROWTH_SMTP_HOST") or "").strip()
-    user = (os.environ.get("GROWTH_SMTP_USER") or "").strip()
-    password = (os.environ.get("GROWTH_SMTP_PASS") or "").strip()
-    port = int(os.environ.get("GROWTH_SMTP_PORT") or "587")
-    if not (to_addr and host and user and password):
-        return {"via": "skipped", "reason": "missing GROWTH_* secrets"}
-    if dry_run:
-        return {"via": "dry-run", "to": to_addr}
-    msg = EmailMessage()
-    msg["Subject"] = f"Sill Garden · Board ({cadence}) — {today}"
-    msg["From"] = user
-    msg["To"] = to_addr
-    msg.set_content(body)
-    with smtplib.SMTP(host, port, timeout=30) as smtp:
-        smtp.starttls()
-        smtp.login(user, password)
-        smtp.send_message(msg)
-    return {"via": "smtp", "to": to_addr}
+    # Prefer the unified MTS-style scorecard; fall back to board markdown body.
+    report = build_unified_growth_email(
+        header_title=f"Sill Garden Board ({cadence})",
+        cadence=cadence,
+    )
+    email_body = report["email_body"] + "\n\n---\n## Board report\n\n" + body
+    subject = report["email_subject"]
+    return send_growth_report(
+        subject,
+        email_body,
+        dry_run=dry_run,
+        force=force,
+        channel="sill-exec-board",
+    )
 
 
 def should_send_email(cadence: str, send_email: bool, skip_email: bool) -> bool:
@@ -419,7 +414,7 @@ def main() -> int:
     if should_send_email(cadence, args.send_email, args.skip_email):
         try:
             result = send_board_email(cadence, today, report_md, force=args.force_email)
-            print(f"  email: {result.get('via', result)}")
+            print(f"  email: {result.get('via') or result.get('detail') or result}")
         except RuntimeError as exc:
             print(f"  email FAILED (report saved): {exc}", file=sys.stderr)
     return 0

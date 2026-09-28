@@ -78,23 +78,33 @@ def apply_changes(changes: list[dict], *, dry_run: bool) -> list[str]:
 
 
 def maybe_send_email(summary_path: Path, payload: dict) -> str:
-    """Send growth summary when SMTP/Resend secrets exist; otherwise skip."""
-    from notify_email import send_email
+    """Send MTS-style unified growth email (Resend/Buttondown/SMTP + guards)."""
+    from growth_report_builder import build_unified_growth_email
+    from growth_report_email import send_growth_report
 
-    health = payload.get("outcome_health") or {}
-    severity = health.get("severity") or "ok"
-    day = now_utc()[:10]
-    if severity == "critical":
-        subject = f"ALERT: Sill Garden growth stalled — {day}"
-    elif severity == "warn":
-        subject = f"Sill Garden growth WARN — {day}"
-    else:
-        subject = f"Sill Garden growth — {day}"
-    body = summary_path.read_text(encoding="utf-8")
-    result = send_email(subject=subject, body=body)
+    report = build_unified_growth_email(
+        header_title="Sill Garden Traffic & Growth Summary",
+        applied=payload.get("applied") or [],
+        learnings=payload.get("learnings") or [],
+        outcome=payload.get("outcome_health") or {},
+        distribution=payload.get("distribution") or {},
+    )
+    reports_dir = GROWTH / "daily-reports"
+    reports_dir.mkdir(parents=True, exist_ok=True)
+    save_json(reports_dir / f"{report['date']}.json", report)
+    # Keep markdown summary as the human-readable archive; email uses unified body.
+    summary_path.write_text(report["email_body"] + "\n", encoding="utf-8")
+    result = send_growth_report(
+        report["email_subject"],
+        report["email_body"],
+        dry_run=False,
+        channel="sill-growth",
+    )
     if result.get("ok"):
         return f"email sent via {result.get('via')} ({result.get('detail')})"
-    return f"email skipped/failed: {result.get('detail')}"
+    if result.get("skipped"):
+        return f"email skipped: {result.get('detail')}"
+    return f"email failed: {result.get('detail')}"
 
 
 def main() -> int:

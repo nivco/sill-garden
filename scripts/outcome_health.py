@@ -24,7 +24,6 @@ from pathlib import Path
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 from automation_common import load_dotenv, load_json, now_utc, save_json
 from board_actions import enqueue
-from notify_email import send_email
 
 ROOT = Path(__file__).resolve().parents[1]
 LATEST = ROOT / "products" / "analytics" / "latest.json"
@@ -278,7 +277,17 @@ def main() -> int:
             if report["severity"] != "ok"
             else f"Sill Garden outcome health OK — {now_utc()[:10]}"
         )
-        result = send_email(subject=subject, body=render_email(report))
+        try:
+            from growth_report_email import send_growth_report
+
+            result = send_growth_report(
+                subject,
+                render_email(report),
+                force=args.force_email,
+                channel="sill-outcome",
+            )
+        except Exception as exc:  # noqa: BLE001
+            result = {"ok": False, "detail": str(exc)}
         print(f"email: {result}")
         report["email"] = result
         save_json(OUT, report)

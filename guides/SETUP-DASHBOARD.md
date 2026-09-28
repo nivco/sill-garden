@@ -20,11 +20,14 @@ Open **http://127.0.0.1:8793/dashboard**
 
 ## Anti-stall (outcome health)
 
-Bots can stay green while sessions stay at 0. `scripts/outcome_health.py` fails closed after **5 calendar days** of zero sessions, emails an ALERT, and enqueues a P0 acquisition task. Workflow: `.github/workflows/outcome-health.yml` (daily after growth agent).
+Bots can stay green while sessions stay at 0. `scripts/outcome_health.py` fails closed after **3 calendar days** of zero sessions, emails an ALERT, and enqueues a P0 acquisition task. Workflow: `.github/workflows/outcome-health.yml` (daily after growth agent).
 
 ```powershell
 python scripts\outcome_health.py --email
+python scripts\send_growth_summary_now.py --force   # MTS-style unified scorecard email
 ```
+
+Ops mirrors Maker Tool Stack: unified growth email (Buttondown/Resend/SMTP + quiet hours + send guard), weekly Bluesky traffic loop, strict measurement gate on the daily growth agent.
 
 Loading the page paints the cached scorecard, then pulls live GA4 + Search Console
 automatically (~10s) and re-runs the traffic optimizer. The header line tells you
