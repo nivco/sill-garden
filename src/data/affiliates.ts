@@ -1,6 +1,7 @@
 /**
- * Canonical Amazon affiliate picks for Sill Garden.
+ * Canonical Amazon / partner affiliate picks for Sill Garden.
  * Prefer stable ASINs; fall back to search when listings churn.
+ * Monetize physical gear only — not AI-spittable digital products.
  */
 export type AffiliateProduct = {
   id: string;
@@ -55,6 +56,12 @@ export const affiliateProducts = {
     note: 'After one branded pod cycle, grow what you cook',
     search: 'Genovese basil seeds for planting',
   },
+  mintSeeds: {
+    id: 'mint-seeds',
+    name: 'Spearmint seeds',
+    note: 'Forgiving apartment herb once you leave branded pods',
+    search: 'spearmint seeds for planting',
+  },
   bootTray: {
     id: 'boot-tray',
     name: 'Waterproof boot / drip tray',
@@ -66,6 +73,43 @@ export const affiliateProducts = {
     name: 'Small herb pots with saucers',
     note: 'Windowsill set without a hydro kit',
     search: 'herb pots with saucers indoor',
+  },
+  aerogardenSponges: {
+    id: 'aerogarden-sponges',
+    name: 'AeroGarden grow sponges / blank pods',
+    note: 'Cut refill cost after cycle one',
+    search: 'AeroGarden grow sponges blank pods',
+  },
+  clickGrowRefills: {
+    id: 'click-grow-refills',
+    name: 'Click & Grow plant pods / refills',
+    note: 'Branded pods for the first harvest',
+    search: 'Click and Grow plant pods refill',
+    partner: 'click-grow',
+  },
+  clickGrowCompatible: {
+    id: 'click-grow-compatible',
+    name: 'Click & Grow compatible blank inserts',
+    note: 'Use your own seed after you know what you eat',
+    search: 'Click and Grow compatible pods blank',
+  },
+  liquidPlantFood: {
+    id: 'liquid-plant-food',
+    name: 'Indoor herb / hydro plant food',
+    note: 'Needed for blank pods and Kratky jars',
+    search: 'indoor hydroponic plant food nutrients',
+  },
+  bambooLightHood: {
+    id: 'bamboo-light-hood',
+    name: 'Desk / light privacy screen',
+    note: 'Cuts LED bleed in studios near a bed',
+    search: 'bamboo desk privacy panel small',
+  },
+  pottingMix: {
+    id: 'potting-mix',
+    name: 'Light potting mix (not garden soil)',
+    note: 'For sill pots — drainage matters in rentals',
+    search: 'indoor potting mix for herbs',
   },
 } as const satisfies Record<string, AffiliateProduct>;
 
@@ -83,4 +127,8 @@ export function picks(...ids: AffiliateProductId[]) {
       ...('partner' in p && p.partner ? { partner: p.partner } : {}),
     };
   });
+}
+
+export function productById(id: AffiliateProductId): AffiliateProduct {
+  return affiliateProducts[id];
 }

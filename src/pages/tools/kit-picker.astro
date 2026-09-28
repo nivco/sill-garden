@@ -237,6 +237,7 @@ const description =
 
       if (lane === 'clickgrow') {
         addLink(amazonCg, 'Click & Grow on Amazon', true);
+        addLink('/kits/studio-silence/', 'Studio Silence Kit stack', false);
         addLink('/guides/aerogarden-vs-click-and-grow/', 'Read the comparison', false);
       } else if (lane === 'bounty') {
         addLink(
@@ -244,11 +245,14 @@ const description =
           'Browse Bounty on Amazon',
           true
         );
+        addLink('/kits/kitchen-capacity/', 'Kitchen Capacity Kit stack', false);
         addLink('/guides/compare-aerogarden-models/', 'Bounty vs Harvest guide', false);
       } else {
         addLink(amazonHarvest, 'AeroGarden Harvest on Amazon', true);
+        addLink('/kits/kitchen-capacity/', 'Kitchen Capacity Kit stack', false);
         addLink('/guides/aerogarden-vs-click-and-grow/', 'Read the comparison', false);
       }
+      addLink('/tools/year-one-cost/', 'Year-one cost sheet', false);
       addLink('/tools/apartment-herb-checklist/', 'Print checklist', false);
 
       result.hidden = false;

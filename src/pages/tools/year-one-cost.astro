@@ -1,0 +1,252 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProductStack from '../../components/ProductStack.astro';
+import { affiliateProducts } from '../../data/affiliates';
+---
+
+<BaseLayout
+  title="Year-one apartment kit cost"
+  description="Rough year-one cost for AeroGarden, Click & Grow, and under-$50 sill setups — electricity, pods, and accessories — with buy links."
+  image="/images/guide-light.jpg"
+>
+  <section class="wrap cost fade-up">
+    <p class="cost__eyebrow">Free tool</p>
+    <h1>Year-one apartment kit cost</h1>
+    <p class="cost__deck">
+      Assumptions you can argue with — not fake precision. Prices move; use the shop links for live
+      totals. This is about <strong>physical gear + refills</strong>, not a paid spreadsheet.
+    </p>
+
+    <aside class="verdict">
+      <div class="verdict__label">Rule of thumb</div>
+      <p>
+        Electricity on a small LED kit is usually a few dollars a month. <strong>Pods</strong> are the
+        real bill unless you switch to blanks + seed after cycle one.
+      </p>
+    </aside>
+
+    <form id="cost-form" class="cost-form" novalidate>
+      <fieldset>
+        <legend>Lane</legend>
+        <label><input type="radio" name="lane" value="silence" checked /> Studio silence (Click & Grow 3)</label>
+        <label><input type="radio" name="lane" value="capacity" /> Kitchen capacity (Harvest-class)</label>
+        <label><input type="radio" name="lane" value="budget" /> Under-$50 sill (pots + clip light)</label>
+      </fieldset>
+      <fieldset>
+        <legend>Refills after month 1</legend>
+        <label><input type="radio" name="refill" value="branded" checked /> Stay on branded pods</label>
+        <label><input type="radio" name="refill" value="blanks" /> Switch to blanks + own seed</label>
+        <label><input type="radio" name="refill" value="soil" /> Soil / no pods (budget lane)</label>
+      </fieldset>
+      <fieldset>
+        <legend>Your electricity rate (¢ / kWh)</legend>
+        <input type="number" name="kwh" value="16" min="5" max="60" step="1" />
+      </fieldset>
+      <button type="submit" class="btn btn-primary">Estimate year one</button>
+    </form>
+
+    <aside id="cost-result" class="cost-result" hidden>
+      <div class="verdict">
+        <div class="verdict__label">Rough year-one total</div>
+        <p id="cost-total"></p>
+      </div>
+      <ul id="cost-breakdown" class="cost-breakdown"></ul>
+      <p id="cost-caveat" class="cost-caveat"></p>
+      <div id="cost-links"></div>
+    </aside>
+
+    <h2>Shop the stacks</h2>
+    <p class="cost__sub">Estimates above; live prices on the merchant pages.</p>
+    <ProductStack
+      products={[
+        affiliateProducts.clickAndGrow3,
+        affiliateProducts.aerogardenHarvest,
+        affiliateProducts.bootTray,
+        affiliateProducts.aerogardenSponges,
+        affiliateProducts.clipGrowLight,
+      ]}
+    />
+
+    <p class="cost__more">
+      <a href="/kits/">Starter kits</a>
+      ·
+      <a href="/kits/refills/">Refills</a>
+      ·
+      <a href="/tools/kit-picker/">Quiet kit picker</a>
+      ·
+      <a href="/disclosure/">Disclosure</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .cost {
+    padding: 2.5rem 0 3.5rem;
+    max-width: 42rem;
+  }
+
+  .cost__eyebrow {
+    margin: 0 0 0.35rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--harvest);
+  }
+
+  .cost h1 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
+  }
+
+  .cost__deck,
+  .cost__sub {
+    color: var(--ink-muted);
+  }
+
+  .cost-form {
+    display: grid;
+    gap: 1rem;
+    margin: 1.5rem 0;
+  }
+
+  fieldset {
+    margin: 0;
+    padding: 1rem 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  legend {
+    font-family: var(--font-display);
+    padding: 0 0.25rem;
+    color: var(--leaf-deep);
+  }
+
+  label {
+    display: flex;
+    gap: 0.5rem;
+    margin-top: 0.5rem;
+    cursor: pointer;
+  }
+
+  input[type='number'] {
+    margin-top: 0.5rem;
+    width: 6rem;
+    padding: 0.45rem 0.55rem;
+    border: 1px solid var(--line);
+    border-radius: 6px;
+    font: inherit;
+  }
+
+  .cost-result {
+    margin: 1.25rem 0 2rem;
+  }
+
+  .cost-breakdown {
+    margin: 0.75rem 0;
+    padding-left: 1.1rem;
+  }
+
+  .cost-caveat {
+    color: var(--ink-muted);
+    font-size: 0.95rem;
+  }
+
+  .cost h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.35rem;
+  }
+
+  .cost__more {
+    margin-top: 1.75rem;
+    color: var(--ink-muted);
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var form = document.getElementById('cost-form');
+    var result = document.getElementById('cost-result');
+    if (!form || !result) return;
+
+    var lanes = {
+      silence: {
+        label: 'Studio silence',
+        hardware: 90,
+        watts: 10,
+        pods: 3,
+        kit: '/kits/studio-silence/',
+      },
+      capacity: {
+        label: 'Kitchen capacity',
+        hardware: 100,
+        watts: 20,
+        pods: 6,
+        kit: '/kits/kitchen-capacity/',
+      },
+      budget: {
+        label: 'Under-$50 sill',
+        hardware: 45,
+        watts: 15,
+        pods: 0,
+        kit: '/kits/under-50/',
+      },
+    };
+
+    function val(name) {
+      var el = form.querySelector('[name="' + name + '"]:checked') || form.querySelector('[name="' + name + '"]');
+      return el ? el.value : '';
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      var laneKey = val('lane') || 'silence';
+      var refill = val('refill') || 'branded';
+      var kwhCents = parseFloat(val('kwh') || '16') || 16;
+      var lane = lanes[laneKey] || lanes.silence;
+
+      var power = lane.watts * 15 * 365 * (kwhCents / 100) / 1000;
+      var accessories = laneKey === 'budget' ? 0 : 25;
+      var refillYear = 0;
+      if (lane.pods > 0) {
+        if (refill === 'branded') refillYear = lane.pods * 6 * 12;
+        else if (refill === 'blanks') refillYear = lane.pods * 2.5 * 12;
+      } else {
+        refillYear = 40;
+      }
+
+      var total = Math.round(lane.hardware + accessories + power + refillYear);
+      document.getElementById('cost-total').textContent =
+        'About $' + total + ' for year one (' + lane.label + ')';
+
+      var ul = document.getElementById('cost-breakdown');
+      ul.innerHTML = '';
+      [
+        'Hardware (rough): $' + lane.hardware,
+        'Tray / shade / extras: ~$' + accessories,
+        'Electricity (~' + lane.watts + 'W × 15h): ~$' + Math.round(power),
+        'Refills / media: ~$' + Math.round(refillYear),
+      ].forEach(function (line) {
+        var li = document.createElement('li');
+        li.textContent = line;
+        ul.appendChild(li);
+      });
+
+      document.getElementById('cost-caveat').textContent =
+        'Illustrative only — check live prices. Switching to blanks after month one usually cuts the refill line hardest.';
+
+      var links = document.getElementById('cost-links');
+      links.innerHTML = '';
+      var a = document.createElement('a');
+      a.className = 'btn btn-primary';
+      a.href = lane.kit;
+      a.textContent = 'Open ' + lane.label + ' kit';
+      links.appendChild(a);
+
+      result.hidden = false;
+      result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    });
+  })();
+</script>

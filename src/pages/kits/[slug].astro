@@ -1,0 +1,108 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProductStack from '../../components/ProductStack.astro';
+import { starterKits, kitProducts } from '../../data/kits';
+import { site } from '../../lib/site';
+
+export function getStaticPaths() {
+  return starterKits.map((kit) => ({ params: { slug: kit.slug }, props: { kit } }));
+}
+
+const { kit } = Astro.props;
+const products = kitProducts(kit);
+const primary = products[0];
+---
+
+<BaseLayout
+  title={kit.title}
+  description={kit.description}
+  image="/images/guide-compare-budget.jpg"
+>
+  <section class="wrap kit fade-up">
+    <p class="kit__eyebrow">{kit.eyebrow}</p>
+    <h1>{kit.title}</h1>
+    <p class="kit__deck">{kit.description}</p>
+
+    <aside class="verdict">
+      <div class="verdict__label">Who it’s for</div>
+      <p>{kit.whoFor}</p>
+    </aside>
+
+    <p class="kit__note">
+      {site.name} does not sell PDFs, courses, or “AI herb plans.” These are
+      <strong>physical products</strong> that ship to your kitchen — kits, trays, lights, seeds —
+      with affiliate links. <a href="/disclosure/">Disclosure</a>.
+    </p>
+
+    <h2>Buy this stack</h2>
+    <p class="kit__sub">Primary kit first, then the accessories that protect deposits and cut refill waste.</p>
+    <ProductStack products={products} primaryName={primary?.name} />
+
+    <p class="kit__year">{kit.yearOneNote}</p>
+
+    <p class="kit__more">
+      <a href={kit.guideHref}>{kit.guideLabel} →</a>
+      ·
+      <a href="/kits/">All starter kits</a>
+      ·
+      <a href="/kits/refills/">Refills & consumables</a>
+      ·
+      <a href="/tools/year-one-cost/">Year-one cost sheet</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .kit {
+    padding: 2.5rem 0 3.5rem;
+    max-width: 42rem;
+  }
+
+  .kit__eyebrow {
+    margin: 0 0 0.35rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--harvest);
+  }
+
+  .kit h1 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
+  }
+
+  .kit__deck {
+    margin: 0 0 1.25rem;
+    color: var(--ink-muted);
+  }
+
+  .kit__note {
+    margin: 1.25rem 0 1.75rem;
+    font-size: 0.95rem;
+    color: var(--ink-muted);
+  }
+
+  .kit h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.35rem;
+  }
+
+  .kit__sub {
+    margin: 0 0 1rem;
+    color: var(--ink-muted);
+  }
+
+  .kit__year {
+    margin: 1.5rem 0 0;
+    padding: 1rem 1.1rem;
+    background: rgba(47, 93, 58, 0.06);
+    border-radius: var(--radius);
+  }
+
+  .kit__more {
+    margin-top: 1.75rem;
+    color: var(--ink-muted);
+    font-size: 0.95rem;
+  }
+</style>

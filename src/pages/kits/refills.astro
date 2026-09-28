@@ -1,0 +1,75 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+import ProductStack from '../../components/ProductStack.astro';
+import { refillGroups } from '../../data/kits';
+import { affiliateProducts } from '../../data/affiliates';
+---
+
+<BaseLayout
+  title="Refills & consumables"
+  description="Pods, blank inserts, seeds, nutrients, and trays — the recurring purchases after your apartment countertop kit."
+  image="/images/guide-pod-cost.jpg"
+>
+  <section class="wrap refill fade-up">
+    <h1>Refills & consumables</h1>
+    <p class="refill__deck">
+      Hardware is a one-time click. <strong>Pods and media</strong> are where most people keep spending.
+      Start branded for cycle one, then move to blanks + seed when you know what you cook.
+      Physical products only — <a href="/disclosure/">affiliate disclosure</a>.
+    </p>
+
+    {
+      refillGroups.map((group) => (
+        <section class="refill__group">
+          <h2>{group.title}</h2>
+          <p>{group.blurb}</p>
+          <ProductStack products={group.productIds.map((id) => affiliateProducts[id])} />
+        </section>
+      ))
+    }
+
+    <p class="refill__more">
+      <a href="/kits/">Starter kits</a>
+      ·
+      <a href="/guides/countertop-garden-pod-refill-cost/">Pod refill cost guide</a>
+      ·
+      <a href="/tools/year-one-cost/">Year-one cost sheet</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .refill {
+    padding: 2.5rem 0 3.5rem;
+    max-width: 42rem;
+  }
+
+  .refill h1 {
+    margin: 0 0 0.6rem;
+  }
+
+  .refill__deck {
+    margin: 0 0 2rem;
+    color: var(--ink-muted);
+  }
+
+  .refill__group {
+    margin-bottom: 2.25rem;
+  }
+
+  .refill__group h2 {
+    margin: 0 0 0.4rem;
+    font-size: 1.35rem;
+    color: var(--leaf-deep);
+  }
+
+  .refill__group > p {
+    margin: 0 0 1rem;
+    color: var(--ink-muted);
+  }
+
+  .refill__more {
+    margin-top: 0.5rem;
+    color: var(--ink-muted);
+  }
+</style>
