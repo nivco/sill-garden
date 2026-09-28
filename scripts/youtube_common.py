@@ -95,19 +95,37 @@ def affiliate_links(story: dict) -> list[tuple[str, str]]:
     return links
 
 
+def kit_comment_text(campaign: str = "yt-pin-kits") -> str:
+    """Pinned / channel-comment copy for Shorts — money URLs first."""
+    return "\n".join(
+        [
+            "Apartment kit pick (noise vs capacity) + year-one cost:",
+            add_utm("https://sillgarden.com/tools/kit-picker/", campaign, medium="video"),
+            add_utm("https://sillgarden.com/kits/", campaign, medium="video"),
+            add_utm("https://sillgarden.com/tools/year-one-cost/", campaign, medium="video"),
+        ]
+    )
+
+
 def build_description(story: dict, path: Path) -> str:
     campaign = campaign_name(story, path)
     lines = [
         str(story.get("description") or "").strip(),
         "",
-        "Full apartment comparison (start here):",
+        "Apartment starter kits (buy stacks, not PDFs):",
+        add_utm("https://sillgarden.com/kits/", campaign, medium="video"),
+        "",
+        "60-second quiet vs capacity picker:",
+        add_utm("https://sillgarden.com/tools/kit-picker/", campaign, medium="video"),
+        "",
+        "Year-one cost (kit + refills):",
+        add_utm("https://sillgarden.com/tools/year-one-cost/", campaign, medium="video"),
+        "",
+        "Full apartment comparison:",
         add_utm("https://sillgarden.com/guides/aerogarden-vs-click-and-grow/", campaign),
         "",
         "This video's matching guide:",
         guide_url(story, path),
-        "",
-        "Free quiet kit + pod-cost picker:",
-        add_utm("https://sillgarden.com/tools/kit-picker/", campaign, medium="video"),
         "",
         "Printable apartment herb checklist:",
         add_utm("https://sillgarden.com/tools/apartment-herb-checklist/", campaign, medium="video"),

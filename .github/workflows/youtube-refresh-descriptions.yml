@@ -46,6 +46,15 @@ jobs:
             EXTRA="--dry-run"
           fi
           python scripts/youtube_refresh_descriptions.py $EXTRA
+      - name: Post kit-link comments on top Shorts
+        if: steps.gate.outputs.ready == 'true'
+        run: |
+          EXTRA=""
+          if [ "${{ github.event.inputs.dry_run }}" = "true" ] || \
+             { [ "${{ github.event_name }}" = "schedule" ] && [ "$AUTOMATION_LIVE" != "1" ]; }; then
+            EXTRA="--dry-run"
+          fi
+          python scripts/youtube_post_kit_comments.py --limit 8 $EXTRA
       - name: Commit publish / OAuth status
         if: github.event.inputs.dry_run != 'true'
         run: |
