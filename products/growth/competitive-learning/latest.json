@@ -1,0 +1,208 @@
+{
+  "generated_at": "2026-09-28 05:29 UTC",
+  "site": "sillgarden",
+  "peers": [
+    {
+      "name": "AeroGarden",
+      "kind": "brand",
+      "why": "Category leader for countertop gardens",
+      "url": "https://www.aerogarden.com/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.aerogarden.com/",
+        "title": "AeroGarden | ScottsMiracle-Gro US",
+        "description": "Learn how AeroGarden indoor gardening systems make it easy to grow fresh herbs, vegetables, and flowers year round. Discover smart growing solutions from Scotts Miracle-Gro.",
+        "h1": [
+          "AeroGarden Indoor Gardening Systems by Scotts Miracle-Gro",
+          "Top Categories"
+        ],
+        "h2_sample": [
+          "Fresh is always in season",
+          "Categories",
+          "Homegrown hits different right now",
+          "Shop last chance clearance up to 60% off",
+          "Plant this holiday herb now",
+          "The lunch they picked themselves always tastes better",
+          "Trending products",
+          "Bring the outdoors in"
+        ],
+        "word_count_est": 719,
+        "images": 49,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": true,
+        "has_json_ld": true,
+        "cta_mentions": 3,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Click & Grow",
+      "kind": "brand",
+      "why": "Quiet kit competitor — silence/studio positioning",
+      "url": "https://www.clickandgrow.com/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.clickandgrow.com/",
+        "title": "Indoor Herb Gardens and Indoor Gardening Kits | Click & Grow",
+        "description": "The Click & Grow Smart Indoor Gardens are the most advanced and easiest indoor gardening solutions. Enjoy fresh herbs grown in your own indoor garden all year round.",
+        "h1": [
+          "Click & Grow"
+        ],
+        "h2_sample": [],
+        "word_count_est": 400,
+        "images": 21,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": false,
+        "cta_mentions": 3,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "The Sill",
+      "kind": "editorial",
+      "why": "Apartment plant brand — visual merchandising + guides",
+      "url": "https://www.thesill.com/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.thesill.com/",
+        "title": "The Sill | Indoor & Outdoor Plants Delivered to Your Door",
+        "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 835,
+        "images": 0,
+        "has_faq": false,
+        "has_table": false,
+        "has_og_image": true,
+        "has_json_ld": false,
+        "cta_mentions": 11,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardener's Supply",
+      "kind": "retail",
+      "why": "Affiliate/retail peer — product card + CTA patterns",
+      "url": "https://www.gardeners.com/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeners.com/",
+        "title": "Gardening Supplies, Planters, Raised Beds & More | Gardener’s Supply",
+        "description": "Discover innovative gardening supplies, raised beds, planters, composters, indoor growing products and expert gardening solutions from Gardener’s Supply.",
+        "h1": [
+          "Gardeners Supply"
+        ],
+        "h2_sample": [],
+        "word_count_est": 1006,
+        "images": 2,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": true,
+        "has_json_ld": false,
+        "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    }
+  ],
+  "our_probe": {
+    "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+    "ok": true,
+    "error": null,
+    "signals": {
+      "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+      "title": "AeroGarden vs Click & Grow (2026) — which is better? · Sill Garden",
+      "description": "aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.",
+      "h1": [
+        "AeroGarden vs Click & Grow (2026) — which is better?"
+      ],
+      "h2_sample": [
+        "What we’d put on the counter",
+        "Quick answer",
+        "AeroGarden vs Click & Grow — side by side",
+        "Click and Grow vs AeroGarden — who should buy which",
+        "Refill reality (both)",
+        "FAQ",
+        "Our call",
+        "Next"
+      ],
+      "word_count_est": 845,
+      "images": 8,
+      "has_faq": true,
+      "has_table": true,
+      "has_og_image": true,
+      "has_json_ld": false,
+      "cta_mentions": 3,
+      "hero_signal": true,
+      "comparison_signal": true,
+      "year_in_title": true
+    }
+  },
+  "gsc_queries": [
+    "aerogarden bounty vs harvest",
+    "aerogarden farm vs farm plus",
+    "aerogarden vs click and grow",
+    "click and grow vs aerogarden"
+  ],
+  "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
+    "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
+    "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Fix the title/H1 to match query intent, not brand-only branding.** Add comparison-led landing pages with titles like “AeroGarden Bounty vs Harvest: Which Is Better for Small Apartments?” and “AeroGarden vs Click & Gr",
+    "LLM peer insight: . **Add a top-of-page comparison table above the fold.** Ship a simple 5–7 row table for each target query with columns like Price, footprint, setup time, pod compatibility, app/Wi‑Fi, best for, and maintenance. For exam",
+    "LLM peer insight: . **Add a FAQ block that resolves purchase objections.** Mirror what peer sites are already doing by adding 5–7 concise FAQs under each comparison page: “Which is better for apartments?”, “Which system is quieter?”, “Whi",
+    "LLM peer insight: . **Rebuild the hero into a recommendation-first layout with one primary"
+  ],
+  "llm_notes": "1. **Fix the title/H1 to match query intent, not brand-only branding.** Add comparison-led landing pages with titles like “AeroGarden Bounty vs Harvest: Which Is Better for Small Apartments?” and “AeroGarden vs Click & Grow: Best Indoor Garden for Beginners?” so the page directly matches your GSC demand instead of a generic Sill-style brand title. Keep one clear H1 per page, and use the same keyword pair in the intro so the page is obviously about the comparison, not just a product roundup.\n\n2. **Add a top-of-page comparison table above the fold.** Ship a simple 5–7 row table for each target query with columns like Price, footprint, setup time, pod compatibility, app/Wi‑Fi, best for, and maintenance. For example, on “AeroGarden Farm vs Farm Plus,” include footprint, grow sites, light height, Wi‑Fi/app support, and apartment fit; on “Click & Grow vs AeroGarden,” include seed refill model, automation, and noise/maintenance. Make the table visible before the first long paragraph so users get the answer fast.\n\n3. **Add a FAQ block that resolves purchase objections.** Mirror what peer sites are already doing by adding 5–7 concise FAQs under each comparison page: “Which is better for apartments?”, “Which system is quieter?”, “Which has lower ongoing pod costs?”, “Which is easier for beginners?”, “Do I need Wi‑Fi?”, and “Which grows faster?” Keep answers to 2–3 sentences and include one direct recommendation per answer. This gives you more long-tail capture and a better chance to own snippet-style answers.\n\n4. **Rebuild the hero into a recommendation-first layout with one primary ",
+  "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
+    {
+      "type": "content_table",
+      "priority": "P1",
+      "title": "Ensure comparison tables near top of vs guides",
+      "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
+      "auto": false
+    },
+    {
+      "type": "visuality",
+      "priority": "P1",
+      "title": "Visuality iteration: hero/CTA/og image hygiene",
+      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
+      "auto": false
+    },
+    {
+      "type": "cro_cta",
+      "priority": "P1",
+      "title": "Strengthen above-fold verdict + product CTAs",
+      "detail": "Peers repeat CTAs. Keep Quick verdict + product picks before long narrative.",
+      "auto": false
+    }
+  ],
+  "ok_peers": 4,
+  "peer_count": 4
+}

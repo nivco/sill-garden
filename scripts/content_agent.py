@@ -226,11 +226,11 @@ def _optional_llm_research(query: str) -> str | None:
         # Prefer shared helper if Sill has ai_growth_agent
         ai_path = ROOT / "scripts" / "ai_growth_agent.py"
         if ai_path.is_file():
-            from ai_growth_agent import _openai_chat, _perplexity_chat
+            from ai_growth_agent import openai_answer, perplexity_answer
 
             if os.environ.get("PERPLEXITY_API_KEY", "").strip():
-                return (_perplexity_chat(prompt, os.environ["PERPLEXITY_API_KEY"].strip()) or "")[:900]
-            return (_openai_chat(prompt, os.environ["OPENAI_API_KEY"].strip()) or "")[:900]
+                return (perplexity_answer(prompt, os.environ["PERPLEXITY_API_KEY"].strip()) or "")[:900]
+            return (openai_answer(prompt, os.environ["OPENAI_API_KEY"].strip()) or "")[:900]
     except Exception as exc:  # noqa: BLE001
         return f"(research skipped: {exc})"[:200]
     return None
@@ -264,7 +264,16 @@ def research(metrics: dict) -> dict:
         _probe_public_page("https://sillgarden.com/llms.txt"),
         _probe_public_page("https://sillgarden.com/guides/aerogarden-vs-click-and-grow/"),
         _probe_public_page("https://www.aerogarden.com/"),
+        _probe_public_page("https://www.clickandgrow.com/"),
+        _probe_public_page("https://www.thesill.com/"),
     ]
+    competitive = {}
+    try:
+        from competitive_learning import run_competitive_learning
+
+        competitive = run_competitive_learning(max_peers=4, include_llm=True)
+    except Exception as exc:  # noqa: BLE001
+        competitive = {"error": str(exc)[:160]}
     llm_notes: dict[str, str] = {}
     for q in zero_click[:3]:
         query = (q.get("query") or "").strip()
@@ -276,6 +285,11 @@ def research(metrics: dict) -> dict:
         "generated": now_utc(),
         "zero_click_queries": zero_click[:15],
         "network_probes": network,
+        "competitive": {
+            "ok_peers": competitive.get("ok_peers"),
+            "learnings": (competitive.get("learnings") or [])[:8],
+            "actions": competitive.get("proposed_actions") or [],
+        },
         "llm_notes": llm_notes,
         "guide_count": len(docs),
         "existing_slugs": [d.slug for d in docs],

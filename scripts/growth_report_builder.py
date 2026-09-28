@@ -160,6 +160,13 @@ def build_unified_growth_email(
     for item in learnings[:5]:
         lines.append(f"- LEARN: {item}")
 
+    comp = _load(ROOT / "products" / "growth" / "competitive-learning" / "latest.json")
+    if isinstance(comp, dict) and (comp.get("learnings") or comp.get("ok_peers") is not None):
+        lines.extend(["", "## Competitive learning (peer sites)"])
+        lines.append(f"- Peers ok: {_disp(comp.get('ok_peers'))}/{_disp(comp.get('peer_count'))}")
+        for item in (comp.get("learnings") or [])[:5]:
+            lines.append(f"- {item}")
+
     target = (dist.get("target") or {}) if isinstance(dist, dict) else {}
     channels = (dist.get("channels") or {}) if isinstance(dist, dict) else {}
     lines.extend(["", "## Distribution pack"])

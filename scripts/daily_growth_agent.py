@@ -120,13 +120,46 @@ def main() -> int:
         run_analytics()
 
     from outcome_health import analyze as analyze_outcome
+    from competitive_learning import run_competitive_learning
 
     learning = build_learning()
     metrics = metrics_from_latest()
     outcome = analyze_outcome()
+
+    competitive = {"learnings": [], "proposed_actions": []}
+    try:
+        competitive = run_competitive_learning(max_peers=5, include_llm=True)
+        for line in competitive.get("learnings") or []:
+            if line not in (learning.get("learnings") or []):
+                learning.setdefault("learnings", []).insert(0, line)
+        learning["learnings"] = (learning.get("learnings") or [])[:14]
+        if not args.dry_run:
+            from metrics_learning import OUT as LEARNING_OUT
+
+            snap = dict(learning)
+            snap["competitive"] = {
+                "ok_peers": competitive.get("ok_peers"),
+                "generated_at": competitive.get("generated_at"),
+            }
+            save_json(LEARNING_OUT, snap)
+    except Exception as exc:  # noqa: BLE001
+        competitive = {"error": str(exc)[:200], "learnings": []}
+        print(f"competitive learning failed: {exc}", file=sys.stderr)
+
     proposed = dedupe_proposed(propose_ctr_first_changes(metrics, max_items=8))
     auto = pick_auto_changes(proposed, max_items=MAX_CHANGES)
     applied = apply_changes(auto, dry_run=args.dry_run)
+
+    # Content + visuality iteration from peer learning
+    if not args.dry_run:
+        try:
+            from visual_content_iteration import apply_iterations
+
+            vis = apply_iterations(dry_run=False)
+            applied.extend(vis.get("applied") or [])
+        except Exception as exc:  # noqa: BLE001
+            applied.append(f"visual_iteration failed: {exc}")
+            print(f"visual iteration failed: {exc}", file=sys.stderr)
 
     manual = [p for p in proposed if p not in auto]
     for item in manual:
@@ -178,6 +211,12 @@ def main() -> int:
             for p in proposed
         ],
         "learnings": learning.get("learnings") or [],
+        "competitive": {
+            "ok_peers": competitive.get("ok_peers"),
+            "peer_count": competitive.get("peer_count"),
+            "learnings": (competitive.get("learnings") or [])[:6],
+            "actions": competitive.get("proposed_actions") or [],
+        },
         "distribution": pack,
         "indexnow": index_result,
         "impact_lines": format_impact_lines(auto),

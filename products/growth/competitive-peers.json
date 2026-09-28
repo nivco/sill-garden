@@ -1,0 +1,41 @@
+{
+  "peers": [
+    {
+      "name": "AeroGarden",
+      "url": "https://www.aerogarden.com/",
+      "kind": "brand",
+      "why": "Category leader for countertop gardens"
+    },
+    {
+      "name": "Click & Grow",
+      "url": "https://www.clickandgrow.com/",
+      "kind": "brand",
+      "why": "Quiet kit competitor — silence/studio positioning"
+    },
+    {
+      "name": "The Sill",
+      "url": "https://www.thesill.com/",
+      "kind": "editorial",
+      "why": "Apartment plant brand — visual merchandising + guides"
+    },
+    {
+      "name": "Gardener's Supply",
+      "url": "https://www.gardeners.com/",
+      "kind": "retail",
+      "why": "Affiliate/retail peer — product card + CTA patterns"
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries"
+    },
+    {
+      "name": "Apartment Therapy plants",
+      "url": "https://www.apartmenttherapy.com/tags/plants",
+      "kind": "editorial",
+      "why": "Lifestyle visual storytelling for apartments"
+    }
+  ],
+  "notes": "Edit to rotate peer set for learning."
+}

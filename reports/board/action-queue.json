@@ -424,6 +424,45 @@
       "priority": "P1",
       "done": false,
       "created": "2026-09-14 19:39 UTC"
+    },
+    {
+      "id": "a61b7e8056f7",
+      "fingerprint": "a61b7e8056f7",
+      "role": "content",
+      "type": "content_table",
+      "title": "Ensure comparison tables near top of vs guides",
+      "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
+      "target": "competitive-learning",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-09-28 05:29 UTC"
+    },
+    {
+      "id": "e64e7a569295",
+      "fingerprint": "e64e7a569295",
+      "role": "cro",
+      "type": "visuality",
+      "title": "Visuality iteration: hero/CTA/og image hygiene",
+      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
+      "target": "competitive-learning",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-09-28 05:29 UTC"
+    },
+    {
+      "id": "c2292b2553f7",
+      "fingerprint": "c2292b2553f7",
+      "role": "cro",
+      "type": "cro_cta",
+      "title": "Strengthen above-fold verdict + product CTAs",
+      "detail": "Peers repeat CTAs. Keep Quick verdict + product picks before long narrative.",
+      "target": "competitive-learning",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-09-28 05:29 UTC"
     }
   ],
   "applied_log": [
@@ -590,5 +629,5 @@
       "reason": "CTR-first query desc: 3 impr, pos 47.3, 0 clicks"
     }
   ],
-  "updated": "2026-09-27 18:43 UTC"
+  "updated": "2026-09-28 05:29 UTC"
 }
