@@ -1,0 +1,102 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const description =
+  'Free apartment herb tools from Sill Garden — quiet kit picker, pod-cost estimate, and a printable checklist.';
+
+const tools = [
+  {
+    href: '/tools/kit-picker/',
+    title: 'Quiet kit + pod-cost picker',
+    blurb: 'Four questions → AeroGarden vs Click & Grow lane plus a rough monthly pod spend.',
+  },
+  {
+    href: '/tools/apartment-herb-checklist/',
+    title: 'Apartment herb checklist',
+    blurb: 'One-page printable for renters — light, trays, quiet kits, first herbs.',
+  },
+];
+---
+
+<BaseLayout title="Free tools" description={description} image="/images/guide-herbs.jpg">
+  <section class="wrap tools fade-up">
+    <h1>Free tools</h1>
+    <p class="tools__deck">
+      Practical helpers for apartment counters — not another thin blog post. Use these, then read the full
+      comparison guides if you still need detail.
+    </p>
+    <div class="tools__list">
+      {
+        tools.map((t) => (
+          <a class="tool-link" href={t.href}>
+            <h2>{t.title}</h2>
+            <p>{t.blurb}</p>
+          </a>
+        ))
+      }
+    </div>
+    <p class="tools__more">
+      Start with guides:
+      <a href="/guides/aerogarden-vs-click-and-grow/">AeroGarden vs Click & Grow</a>
+      ·
+      <a href="/guides/compare-aerogarden-models/">Bounty vs Harvest</a>
+      ·
+      <a href="/guides/best-countertop-garden-apartments/">Best countertop systems</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .tools {
+    padding: 2.5rem 0 3.5rem;
+    max-width: 40rem;
+  }
+
+  .tools h1 {
+    margin: 0 0 0.6rem;
+  }
+
+  .tools__deck {
+    margin: 0 0 1.5rem;
+    color: var(--ink-muted);
+  }
+
+  .tools__list {
+    display: grid;
+    gap: 0.85rem;
+  }
+
+  .tool-link {
+    display: block;
+    padding: 1.15rem 1.2rem;
+    text-decoration: none;
+    color: inherit;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    transition: border-color 160ms ease, transform 160ms ease;
+  }
+
+  .tool-link:hover {
+    border-color: var(--leaf);
+    transform: translateY(-2px);
+    color: inherit;
+  }
+
+  .tool-link h2 {
+    margin: 0 0 0.35rem;
+    font-size: 1.25rem;
+    color: var(--leaf-deep);
+  }
+
+  .tool-link p {
+    margin: 0;
+    color: var(--ink-muted);
+  }
+
+  .tools__more {
+    margin-top: 1.75rem;
+    color: var(--ink-muted);
+    font-size: 0.95rem;
+  }
+</style>

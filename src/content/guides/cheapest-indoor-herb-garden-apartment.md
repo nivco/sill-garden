@@ -1,6 +1,6 @@
 ---
-title: Best budget herb garden under 50 — apartment guide (2026)
-description: "best budget herb garden under 50 for apartments — clear picks, noise, light, and refill cost."
+title: Cheapest indoor herb garden for apartments under $50 (2026)
+description: "Cheapest indoor herb garden for apartments under $50 — pots, Kratky jars, clip lights, and when a small kit is worth it."
 pubDate: 2026-08-17
 cluster: systems
 type: guide

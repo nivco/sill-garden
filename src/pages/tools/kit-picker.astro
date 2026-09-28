@@ -1,0 +1,263 @@
+---
+import BaseLayout from '../../layouts/BaseLayout.astro';
+
+const description =
+  'Free apartment kit picker: quiet vs capacity, plus a monthly pod-cost estimate for AeroGarden and Click & Grow setups.';
+---
+
+<BaseLayout title="Quiet kit + pod-cost picker" description={description} image="/images/guide-compare-budget.jpg">
+  <section class="wrap tool fade-up">
+    <p class="tool__eyebrow">Free tool</p>
+    <h1>Quiet kit + pod-cost picker</h1>
+    <p class="tool__deck">
+      Answer four apartment questions. Get a clear kit lane and a rough monthly pod spend — before you buy
+      hardware you will hate by week two.
+    </p>
+
+    <form id="picker" class="picker" novalidate>
+      <fieldset>
+        <legend>Where does the kit live?</legend>
+        <label><input type="radio" name="room" value="kitchen" checked /> Separate kitchen (noise OK)</label>
+        <label><input type="radio" name="room" value="studio" /> Studio / same room as bed (silence first)</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>How often do you cook with fresh herbs?</legend>
+        <label><input type="radio" name="cook" value="low" checked /> A few times a month</label>
+        <label><input type="radio" name="cook" value="mid" /> Weekly</label>
+        <label><input type="radio" name="cook" value="high" /> Almost every day</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Counter depth</legend>
+        <label><input type="radio" name="depth" value="shallow" checked /> Shallow / crowded sill</label>
+        <label><input type="radio" name="depth" value="normal" /> Normal counter corner</label>
+        <label><input type="radio" name="depth" value="deep" /> Deep counter / island</label>
+      </fieldset>
+
+      <fieldset>
+        <legend>Refill plan after month one</legend>
+        <label><input type="radio" name="refill" value="branded" checked /> Stick with branded pods</label>
+        <label><input type="radio" name="refill" value="blanks" /> Switch to blanks + own seed</label>
+      </fieldset>
+
+      <button type="submit" class="btn btn-primary">Show my pick</button>
+    </form>
+
+    <aside id="result" class="result" hidden>
+      <div class="verdict">
+        <div class="verdict__label">Your lane</div>
+        <p id="result-verdict"></p>
+      </div>
+      <p id="result-cost" class="result__cost"></p>
+      <p id="result-why" class="result__why"></p>
+      <div class="result__links" id="result-links"></div>
+    </aside>
+
+    <p class="tool__note">
+      Estimates only — retail prices move. Full write-ups:
+      <a href="/guides/aerogarden-vs-click-and-grow/">AeroGarden vs Click & Grow</a>
+      ·
+      <a href="/guides/compare-aerogarden-models/">Bounty vs Harvest</a>
+      ·
+      <a href="/guides/countertop-garden-pod-refill-cost/">Pod refill cost</a>
+    </p>
+  </section>
+</BaseLayout>
+
+<style>
+  .tool {
+    padding: 2.5rem 0 3.5rem;
+    max-width: 40rem;
+  }
+
+  .tool__eyebrow {
+    margin: 0 0 0.35rem;
+    font-size: 0.75rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--harvest);
+  }
+
+  .tool h1 {
+    margin: 0 0 0.75rem;
+    font-size: clamp(1.9rem, 4vw, 2.6rem);
+  }
+
+  .tool__deck {
+    margin: 0 0 1.75rem;
+    color: var(--ink-muted);
+  }
+
+  .picker {
+    display: grid;
+    gap: 1.25rem;
+    margin-bottom: 1.5rem;
+  }
+
+  fieldset {
+    margin: 0;
+    padding: 1rem 1.1rem 1.1rem;
+    border: 1px solid var(--line);
+    border-radius: var(--radius);
+    background: var(--surface);
+  }
+
+  legend {
+    font-family: var(--font-display);
+    font-size: 1.05rem;
+    padding: 0 0.25rem;
+    color: var(--leaf-deep);
+  }
+
+  label {
+    display: flex;
+    gap: 0.55rem;
+    align-items: flex-start;
+    margin-top: 0.55rem;
+    cursor: pointer;
+  }
+
+  .result {
+    margin-top: 0.5rem;
+  }
+
+  .result__cost {
+    font-size: 1.15rem;
+    font-weight: 600;
+    color: var(--leaf-deep);
+  }
+
+  .result__why {
+    color: var(--ink-muted);
+  }
+
+  .result__links {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.65rem;
+    margin-top: 0.75rem;
+  }
+
+  .tool__note {
+    margin-top: 2rem;
+    font-size: 0.95rem;
+    color: var(--ink-muted);
+  }
+</style>
+
+<script is:inline>
+  (function () {
+    var form = document.getElementById('picker');
+    var result = document.getElementById('result');
+    if (!form || !result) return;
+
+    var amazonHarvest =
+      'https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1';
+    var amazonCg =
+      'https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1';
+
+    function val(name) {
+      var el = form.querySelector('input[name="' + name + '"]:checked');
+      return el ? el.value : '';
+    }
+
+    function estimate(pods, refill) {
+      // Rough branded vs blank monthly ranges for apartment cooks
+      if (refill === 'blanks') {
+        return { low: Math.round(pods * 1.5), high: Math.round(pods * 3) };
+      }
+      return { low: Math.round(pods * 4), high: Math.round(pods * 8) };
+    }
+
+    function pick() {
+      var room = val('room');
+      var cook = val('cook');
+      var depth = val('depth');
+      var refill = val('refill');
+
+      var lane = 'aerogarden';
+      var title = 'AeroGarden Harvest-class';
+      var pods = 6;
+      var why =
+        'You have kitchen separation and enough cooking to use six pods. Harvest-class is the apartment default.';
+
+      if (room === 'studio' || depth === 'shallow') {
+        lane = 'clickgrow';
+        title = 'Click & Grow Smart Garden 3';
+        pods = 3;
+        why =
+          'Silence and footprint beat capacity when the kit shares a bedroom or sits on a shallow sill.';
+      } else if (cook === 'high' && depth === 'deep') {
+        lane = 'bounty';
+        title = 'AeroGarden Bounty-class';
+        pods = 9;
+        why =
+          'Daily herb cooking plus deep counter depth is the rare case where Bounty beats Harvest.';
+      } else if (cook === 'low' && room === 'kitchen') {
+        lane = 'clickgrow';
+        title = 'Click & Grow Smart Garden 3 (or Harvest if you expand)';
+        pods = 3;
+        why =
+          'Light cooking does not need six pods yet. Start small; upgrade later if every slot stays full.';
+      }
+
+      var cost = estimate(pods, refill);
+      var costLine =
+        'Rough pod spend: about $' +
+        cost.low +
+        '–$' +
+        cost.high +
+        '/month for ~' +
+        pods +
+        ' active pods (' +
+        (refill === 'blanks' ? 'blanks + seed' : 'branded pods') +
+        ').';
+
+      document.getElementById('result-verdict').textContent = title;
+      document.getElementById('result-cost').textContent = costLine;
+      document.getElementById('result-why').textContent = why;
+
+      var links = document.getElementById('result-links');
+      links.innerHTML = '';
+
+      function addLink(href, label, primary) {
+        var a = document.createElement('a');
+        a.href = href;
+        a.className = primary ? 'btn btn-primary' : 'btn btn-ghost';
+        a.textContent = label;
+        if (href.indexOf('amazon.com') !== -1) {
+          a.rel = 'sponsored noopener';
+          a.target = '_blank';
+          a.setAttribute('data-affiliate-network', 'amazon-associates');
+        }
+        links.appendChild(a);
+      }
+
+      if (lane === 'clickgrow') {
+        addLink(amazonCg, 'Click & Grow on Amazon', true);
+        addLink('/guides/aerogarden-vs-click-and-grow/', 'Read the comparison', false);
+      } else if (lane === 'bounty') {
+        addLink(
+          'https://www.amazon.com/s?k=AeroGarden+Bounty&tag=sillgarden09-20&linkCode=ll2',
+          'Browse Bounty on Amazon',
+          true
+        );
+        addLink('/guides/compare-aerogarden-models/', 'Bounty vs Harvest guide', false);
+      } else {
+        addLink(amazonHarvest, 'AeroGarden Harvest on Amazon', true);
+        addLink('/guides/aerogarden-vs-click-and-grow/', 'Read the comparison', false);
+      }
+      addLink('/tools/apartment-herb-checklist/', 'Print checklist', false);
+
+      result.hidden = false;
+      result.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+    }
+
+    form.addEventListener('submit', function (e) {
+      e.preventDefault();
+      pick();
+    });
+  })();
+</script>

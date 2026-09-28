@@ -32,8 +32,13 @@ SITEMAP = "https://sillgarden.com/sitemap-index.xml"
 PRIORITY = [
     "https://sillgarden.com/",
     "https://sillgarden.com/about/",
+    "https://sillgarden.com/tools/",
+    "https://sillgarden.com/tools/kit-picker/",
+    "https://sillgarden.com/tools/apartment-herb-checklist/",
     "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
     "https://sillgarden.com/guides/compare-aerogarden-models/",
+    "https://sillgarden.com/guides/best-countertop-garden-apartments/",
+    "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
     "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
     "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
 ]

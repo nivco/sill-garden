@@ -1,13 +1,23 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { getCollection } from 'astro:content';
-import { site, clusters } from '../lib/site';
+import { site } from '../lib/site';
 
 const guides = (await getCollection('guides')).sort(
   (a, b) => b.data.pubDate.valueOf() - a.data.pubDate.valueOf(),
 );
-const featured = guides.filter((g) => g.data.featured).slice(0, 3);
-const latest = guides.slice(0, 6);
+
+const moneySlugs = [
+  'aerogarden-vs-click-and-grow',
+  'compare-aerogarden-models',
+  'best-countertop-garden-apartments',
+] as const;
+
+const startHere = moneySlugs
+  .map((id) => guides.find((g) => g.id === id))
+  .filter((g): g is (typeof guides)[number] => Boolean(g));
+
+const latest = guides.filter((g) => !moneySlugs.includes(g.id as (typeof moneySlugs)[number])).slice(0, 6);
 ---
 
 <BaseLayout>
@@ -29,8 +39,8 @@ const latest = guides.slice(0, 6);
         Windowsill and countertop gardens for apartments — quiet setups, honest picks, real harvests.
       </p>
       <div class="hero__actions">
-        <a class="btn btn-primary" href="/guides/best-countertop-garden-apartments/">Pick a system</a>
-        <a class="btn btn-ghost" href="/guides/">Browse guides</a>
+        <a class="btn btn-primary" href="/tools/kit-picker/">Pick a kit</a>
+        <a class="btn btn-ghost" href="/guides/aerogarden-vs-click-and-grow/">AeroGarden vs Click & Grow</a>
       </div>
     </div>
   </section>
@@ -42,51 +52,36 @@ const latest = guides.slice(0, 6);
     </aside>
   </section>
 
-  <section class="paths wrap fade-up" style="animation-delay: 100ms">
-    <h2 class="section-title">Start where you are</h2>
-    <p class="section-deck">Three paths. One niche: small kitchens and bright sills.</p>
-    <div class="paths__grid">
+  <section class="start wrap fade-up" style="animation-delay: 100ms">
+    <h2 class="section-title">Start here</h2>
+    <p class="section-deck">
+      Three money pages that match what people actually search — then a free picker if you want a
+      recommendation in under a minute.
+    </p>
+    <ol class="start__list">
       {
-        Object.entries(clusters).map(([key, c]) => (
-          <a class="path" href={`/guides/#${key}`}>
-            <h3>{c.title}</h3>
-            <p>{c.blurb}</p>
-          </a>
+        startHere.map((g, i) => (
+          <li>
+            <a href={`/guides/${g.id}/`}>
+              <span class="start__n">{i + 1}</span>
+              <span>
+                <strong>{g.data.title}</strong>
+                <span class="start__desc">{g.data.description}</span>
+              </span>
+            </a>
+          </li>
         ))
       }
-    </div>
+    </ol>
+    <p class="start__tools">
+      <a class="btn btn-primary" href="/tools/kit-picker/">Quiet kit + pod-cost picker</a>
+      <a class="btn btn-ghost" href="/tools/apartment-herb-checklist/">Print checklist</a>
+    </p>
   </section>
 
-  {
-    featured.length > 0 && (
-      <section class="featured wrap">
-        <h2 class="section-title">Featured comparisons</h2>
-        <p class="section-deck">Decision pages — what we’d put on a real apartment counter.</p>
-        <div class="cards">
-          {featured.map((g, i) => (
-            <a
-              class="card fade-up"
-              href={`/guides/${g.id}/`}
-              style={`animation-delay: ${120 + i * 60}ms`}
-            >
-              {g.data.image && (
-                <img src={g.data.image} alt="" width="640" height="400" loading="lazy" />
-              )}
-              <div class="card__body">
-                <span class="card__type">{g.data.type}</span>
-                <h3>{g.data.title}</h3>
-                <p>{g.data.description}</p>
-              </div>
-            </a>
-          ))}
-        </div>
-      </section>
-    )
-  }
-
   <section class="latest wrap">
-    <h2 class="section-title">Latest guides</h2>
-    <p class="section-deck">New apartment-friendly reads — systems, herbs, and setup fixes.</p>
+    <h2 class="section-title">More guides</h2>
+    <p class="section-deck">Herbs, quiet setups, and landlord-safe fixes — after the decision pages above.</p>
     <div class="cards">
       {
         latest.map((g, i) => (
@@ -109,6 +104,8 @@ const latest = guides.slice(0, 6);
     </div>
     <p style="margin-top: 1.5rem;">
       <a href="/guides/">View all guides →</a>
+      ·
+      <a href="/tools/">Free tools →</a>
     </p>
   </section>
 </BaseLayout>
@@ -189,8 +186,7 @@ const latest = guides.slice(0, 6);
     color: #fff;
   }
 
-  .paths,
-  .featured,
+  .start,
   .latest {
     padding: 3.5rem 0 0;
   }
@@ -206,40 +202,59 @@ const latest = guides.slice(0, 6);
     max-width: 36rem;
   }
 
-  .paths__grid {
+  .start__list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
     display: grid;
-    gap: 1rem;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
+    gap: 0.75rem;
   }
 
-  .path {
-    display: block;
-    padding: 1.35rem 1.35rem 1.4rem;
+  .start__list a {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    gap: 0.9rem;
+    align-items: start;
+    padding: 1rem 1.1rem;
     text-decoration: none;
     color: inherit;
     background: var(--surface);
     border: 1px solid var(--line);
-    border-radius: 8px;
-    box-shadow: var(--shadow);
+    border-radius: var(--radius);
     transition: border-color 160ms ease, transform 160ms ease;
   }
 
-  .path:hover {
+  .start__list a:hover {
     border-color: var(--leaf);
     transform: translateY(-2px);
     color: inherit;
   }
 
-  .path h3 {
-    margin: 0 0 0.4rem;
-    font-size: 1.25rem;
+  .start__n {
+    display: inline-flex;
+    width: 1.75rem;
+    height: 1.75rem;
+    align-items: center;
+    justify-content: center;
+    border-radius: 999px;
+    background: rgba(47, 93, 58, 0.12);
     color: var(--leaf-deep);
+    font-weight: 700;
+    font-size: 0.9rem;
   }
 
-  .path p {
-    margin: 0;
+  .start__desc {
+    display: block;
+    margin-top: 0.25rem;
     color: var(--ink-muted);
-    font-size: 0.98rem;
+    font-size: 0.95rem;
+  }
+
+  .start__tools {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+    margin-top: 1.25rem;
   }
 
   .cards {
@@ -310,5 +325,4 @@ const latest = guides.slice(0, 6);
       opacity: 1;
     }
   }
-
 </style>

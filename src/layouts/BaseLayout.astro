@@ -117,6 +117,7 @@ const schemas = [...baseSchemas, ...extraSchemas];
         <a class="brand" href="/">{site.name}</a>
         <nav class="nav" aria-label="Primary">
           <a href="/guides/" aria-current={path.startsWith('/guides') ? 'page' : undefined}>Guides</a>
+          <a href="/tools/" aria-current={path.startsWith('/tools') ? 'page' : undefined}>Tools</a>
           <a href="/about/" aria-current={path.startsWith('/about') ? 'page' : undefined}>About</a>
           <a href="/disclosure/" aria-current={path.startsWith('/disclosure') ? 'page' : undefined}
             >Disclosure</a
@@ -139,6 +140,7 @@ const schemas = [...baseSchemas, ...extraSchemas];
         </div>
         <nav aria-label="Footer">
           <a href="/guides/">Guides</a>
+          <a href="/tools/">Tools</a>
           <a href="/about/">About</a>
           <a href="/disclosure/">Affiliate disclosure</a>
           <a href="/privacy/">Privacy</a>
