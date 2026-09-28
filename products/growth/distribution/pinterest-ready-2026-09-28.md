@@ -1,58 +1,67 @@
-# Pinterest-ready pins — 2026-09-28
+# Pinterest-ready pins — kits first (2026-09-28)
 
-Use existing site images (no new stock needed). Vertical crop in Canva/Pin creator if needed (1000×1500 ideal).
-
-Affiliate disclosure on every pin that names a product: “As an Amazon Associate I earn from qualifying purchases.” Link disclosure page in description when promoting kits.
+Vertical crop ~1000×1500. Disclosure when naming products.
 
 ---
 
-## Pin 1 — Comparison (primary)
+## Pin 1 — Studio Silence Kit (primary $)
 
-**Image:** `/images/guide-compare-budget.jpg` or kit photos  
-**Title:** AeroGarden vs Click & Grow for apartments (2026)  
+**Image:** `/images/kit-click-grow-smart-garden.jpg` or `guide-compare-budget.jpg`  
+**Title:** Studio Silence Kit — quiet apartment herb garden  
 **Description:**  
-Quiet studio vs kitchen capacity — noise, pods, refill cost. Free kit picker + full guide.  
-https://sillgarden.com/guides/aerogarden-vs-click-and-grow/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-ag-vs-cg  
-Disclosure: https://sillgarden.com/disclosure/  
-**Board ideas:** Apartment gardening, Indoor herbs, Small kitchen tips
-
----
-
-## Pin 2 — Bounty vs Harvest
-
-**Image:** `/images/kit-aerogarden-harvest.jpg`  
-**Title:** AeroGarden Bounty vs Harvest — which fits a 1-bed?  
-**Description:**  
-Harvest is the apartment default. Bounty only if you cook herbs daily and have counter depth.  
-https://sillgarden.com/guides/compare-aerogarden-models/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-bounty-harvest  
+No-pump kit + tray + light shade for studios. Physical stack, not a PDF.  
+https://sillgarden.com/kits/studio-silence/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-studio-silence  
 Disclosure: https://sillgarden.com/disclosure/
 
 ---
 
-## Pin 3 — Kit picker tool
+## Pin 2 — Kitchen Capacity Kit
 
-**Image:** `/images/hero-sill.jpg`  
-**Title:** Free quiet kit + pod-cost picker  
+**Image:** `/images/kit-aerogarden-harvest.jpg`  
+**Title:** Kitchen Capacity Kit — AeroGarden Harvest stack  
 **Description:**  
-Four apartment questions → Click & Grow vs AeroGarden lane + rough monthly pod spend.  
-https://sillgarden.com/tools/kit-picker/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-kit-picker
+Harvest-class + blanks/seeds so month two doesn’t empty the wallet.  
+https://sillgarden.com/kits/kitchen-capacity/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-kitchen-capacity  
+Disclosure: https://sillgarden.com/disclosure/
 
 ---
 
-## Pin 4 — Printable checklist
-
-**Image:** `/images/guide-herbs.jpg`  
-**Title:** Apartment herb garden checklist (print / PDF)  
-**Description:**  
-One-page renter checklist — trays, noise, first herbs, week-one ops. Print or Save as PDF.  
-https://sillgarden.com/tools/apartment-herb-checklist/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-checklist
-
----
-
-## Pin 5 — Under $50
+## Pin 3 — Under $50
 
 **Image:** `/images/inline-pots.jpg`  
-**Title:** Cheapest indoor herb garden under $50  
+**Title:** Under-$50 apartment sill herb kit  
 **Description:**  
-Pots, Kratky jars, clip lights — when a kit is worth it for apartments.  
-https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-under50
+Pots, tray, mix, seeds, clip light — renter-safe start.  
+https://sillgarden.com/kits/under-50/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-under50  
+Disclosure: https://sillgarden.com/disclosure/
+
+---
+
+## Pin 4 — Year-one cost
+
+**Image:** `/images/guide-light.jpg`  
+**Title:** Year-one countertop garden cost (free tool)  
+**Description:**  
+Hardware + power + pods — then shop the matching kit.  
+https://sillgarden.com/tools/year-one-cost/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-year-one
+
+---
+
+## Pin 5 — Comparison → kit
+
+**Image:** `/images/guide-compare-budget.jpg`  
+**Title:** AeroGarden vs Click & Grow for apartments  
+**Description:**  
+Noise vs capacity — then open the starter kit stack.  
+Guide: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-ag-vs-cg  
+Kits: https://sillgarden.com/kits/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-kits  
+Disclosure: https://sillgarden.com/disclosure/
+
+---
+
+## Pin 6 — Checklist
+
+**Image:** `/images/guide-herbs.jpg`  
+**Title:** Apartment herb checklist (print / PDF)  
+**Description:**  
+https://sillgarden.com/tools/apartment-herb-checklist/?utm_source=pinterest&utm_medium=social&utm_campaign=pin-checklist

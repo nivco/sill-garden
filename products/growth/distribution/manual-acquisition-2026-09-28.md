@@ -1,46 +1,28 @@
-# Manual acquisition checklist — 2026-09-28
+# Manual acquisition — do today (2026-09-28)
 
-Site enrichments are shipped. These steps still need a human (API cannot post Reddit or click GSC “Request indexing”).
+API cannot post Reddit or click GSC “Request indexing.”
 
-## 1. Reddit (post today)
+## 1. GSC Request indexing
 
-Paste from `reddit-ready-2026-09-28.md`:
-- Thread 1 → AeroGarden vs Click & Grow (`r/Apartmentliving` or `r/hydroponics`)
-- Thread 2 → Bounty vs Harvest
+Use the exact list: `gsc-request-indexing-urls.md` (P0 first).
 
-Optional add-on in comments: free kit picker https://sillgarden.com/tools/kit-picker/
+## 2. Reddit (paste from `reddit-ready-2026-09-28.md`)
 
-## 2. Google Search Console
+1. Thread #1 — vs + kit stacks (primary)  
+2. Thread #2 or #3 — Bounty or Under-$50  
 
-Request indexing (UI button) for:
-- https://sillgarden.com/
-- https://sillgarden.com/tools/kit-picker/
-- https://sillgarden.com/tools/apartment-herb-checklist/
-- https://sillgarden.com/guides/aerogarden-vs-click-and-grow/
-- https://sillgarden.com/guides/compare-aerogarden-models/
-- https://sillgarden.com/guides/best-countertop-garden-apartments/
+## 3. Pinterest
 
-Sitemap already nudged via IndexNow / sitemap PUT when the nudge workflow runs.
+Create pins from `pinterest-ready-2026-09-28.md` (kit URLs first).
 
-## 3. Paid Pulse (re-test prompts)
+## 4. YouTube
 
-1. AeroGarden vs Click & Grow for a small apartment kitchen — which should I buy?
-2. Quietest countertop garden for a studio apartment?
-3. AeroGarden Bounty vs Harvest for apartments — which model?
-4. How much does a countertop garden cost to run each month?
-5. Best countertop garden for apartments 2026
-6. What is sillgarden.com?
-7. Free tool to pick AeroGarden vs Click & Grow for apartments?
+Pin the comment in `reddit-ready-2026-09-28.md` on your top Shorts. Descriptions already get UTM’d links on refresh.
 
-## 4. Pinterest
+## 5. Paid Pulse
 
-Create 5 pins from `pinterest-ready-2026-09-28.md` using existing `/images/` assets.
+Prompts in `reddit-ready-2026-09-28.md`.
 
-## 5. Social short (X / Bluesky when ready)
+## 6. Social short
 
-Use `distribution/latest.json` channel copy. Prefer linking the comparison guide or kit picker.
-
-## 6. YouTube
-
-Descriptions refreshed automatically to include UTM’d kit picker + comparison URLs. Optionally pin a comment on top Shorts:
-“Apartment kit pick (noise vs capacity): https://sillgarden.com/tools/kit-picker/”
+Copy in `distribution/latest.json`.

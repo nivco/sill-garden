@@ -1,22 +1,31 @@
 {
-  "generated_at": "2026-09-28 14:10 UTC",
+  "generated_at": "2026-09-28 15:20 UTC",
   "target": {
-    "slug": "aerogarden-vs-click-and-grow",
-    "title": "AeroGarden vs Click & Grow for apartments (2026)",
-    "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
-    "description": "AeroGarden vs Click & Grow for small apartments — noise, pods, footprint, refill cost, and a clear studio vs kitchen pick.",
-    "reason": "zero sessions — push money comparison + new tools"
+    "slug": "kits",
+    "title": "Apartment starter kits",
+    "url": "https://sillgarden.com/kits/",
+    "description": "Physical studio silence, kitchen capacity, and under-$50 sill stacks with affiliate product links.",
+    "reason": "zero sessions — push monetized kit stacks"
+  },
+  "kits": {
+    "hub": "https://sillgarden.com/kits/",
+    "studio_silence": "https://sillgarden.com/kits/studio-silence/",
+    "kitchen_capacity": "https://sillgarden.com/kits/kitchen-capacity/",
+    "under_50": "https://sillgarden.com/kits/under-50/",
+    "refills": "https://sillgarden.com/kits/refills/"
   },
   "tools": {
     "kit_picker": "https://sillgarden.com/tools/kit-picker/",
+    "year_one_cost": "https://sillgarden.com/tools/year-one-cost/",
     "checklist": "https://sillgarden.com/tools/apartment-herb-checklist/"
   },
   "channels": {
-    "x": "AeroGarden vs Click & Grow for apartments (2026)\n\nNoise, pods, refill cost — plus a free kit picker:\nhttps://sillgarden.com/tools/kit-picker/\n\nGuide: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/\n\n#IndoorGarden #ApartmentLiving",
-    "bluesky": "AeroGarden vs Click & Grow for apartments (2026)\n\nClear studio vs kitchen pick + free quiet kit / pod-cost picker.\n\nhttps://sillgarden.com/guides/aerogarden-vs-click-and-grow/\nhttps://sillgarden.com/tools/kit-picker/",
-    "mastodon": "AeroGarden vs Click & Grow for apartments (2026)\n\nhttps://sillgarden.com/guides/aerogarden-vs-click-and-grow/\n\nFree picker: https://sillgarden.com/tools/kit-picker/\n\n#IndoorGarden #ApartmentLiving #Herbs",
-    "reddit": "Title: AeroGarden vs Click & Grow for a small apartment — which would you buy first?\n\nBody: I put together an apartment-focused comparison of AeroGarden Harvest-class vs Click & Grow Smart Garden 3 (noise, footprint, refill cost — not brand ads).\n\nQuick take:\n- More herbs / separate kitchen → AeroGarden Harvest-class\n- Studio / sleep in the same room → Click & Grow (no pump)\n\nFull write-up: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/\nFree kit picker: https://sillgarden.com/tools/kit-picker/\nDisclosure: https://sillgarden.com/disclosure/\n\nCurious what people here actually kept plugged in after month two.",
+    "x": "Apartment herb starter kits (physical stacks — not a PDF)\n\nSilence: https://sillgarden.com/kits/studio-silence/\nCapacity: https://sillgarden.com/kits/kitchen-capacity/\nUnder $50: https://sillgarden.com/kits/under-50/\n\n#IndoorGarden #ApartmentLiving",
+    "bluesky": "Apartment herb starter kits for studios vs kitchens.\n\nhttps://sillgarden.com/kits/\nPicker: https://sillgarden.com/tools/kit-picker/\nYear-one cost: https://sillgarden.com/tools/year-one-cost/",
+    "mastodon": "Apartment starter kits (silence / capacity / under $50)\n\nhttps://sillgarden.com/kits/\n\n#IndoorGarden #ApartmentLiving #Herbs",
+    "reddit": "See products/growth/distribution/reddit-ready-2026-09-28.md",
     "pinterest": "See products/growth/distribution/pinterest-ready-2026-09-28.md",
-    "devto": "Syndicate canonical: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/"
-  }
+    "youtube_pin": "Apartment kit pick (noise vs capacity): https://sillgarden.com/tools/kit-picker/ — stacks: https://sillgarden.com/kits/ — year-one cost: https://sillgarden.com/tools/year-one-cost/"
+  },
+  "gsc_urls_file": "products/growth/distribution/gsc-request-indexing-urls.md"
 }

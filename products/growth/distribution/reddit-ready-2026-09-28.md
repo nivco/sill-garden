@@ -1,68 +1,92 @@
-# Paste-ready distribution — 2026-09-28
+# Paste-ready distribution — kits first (2026-09-28)
 
-Use these as-is. Affiliate disclosure is required where you promote products.
+Affiliate disclosure required when you name products. Prefer **kit stacks** (money) over guide-only links.
 
-## Reddit (r/Apartmentliving, r/hydroponics, or r/gardening)
+## Reddit #1 (primary — post today)
 
-**Title**
+**Subs:** r/Apartmentliving · alt: r/hydroponics, r/gardening  
+
+**Title**  
 AeroGarden vs Click & Grow for a small apartment — which would you buy first?
 
-**Body**
-I put together an apartment-focused comparison of AeroGarden Harvest-class vs Click & Grow Smart Garden 3 (noise, footprint, refill cost — not brand ads).
+**Body**  
+I put together an apartment-focused comparison (noise, footprint, refill cost — not brand ads) and bundled the “buy this + tray/refills” stacks so you’re not guessing accessories.
 
-Quick take from the guide:
-- More herbs / separate kitchen → AeroGarden Harvest-class
-- Studio / sleep in the same room → Click & Grow (no pump)
+Quick take:
+- More herbs / separate kitchen → AeroGarden Harvest-class → https://sillgarden.com/kits/kitchen-capacity/
+- Studio / sleep in the same room → Click & Grow (no pump) → https://sillgarden.com/kits/studio-silence/
 
-Full write-up (with disclosure): https://sillgarden.com/guides/aerogarden-vs-click-and-grow/
-
+Full comparison: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/  
+60-second picker: https://sillgarden.com/tools/kit-picker/  
 Disclosure: https://sillgarden.com/disclosure/
 
 Curious what people here actually kept plugged in after month two.
 
-Free quiet kit + pod-cost picker if you want a 60-second recommendation: https://sillgarden.com/tools/kit-picker/
+---
+
+## Reddit #2
+
+**Title**  
+AeroGarden Bounty vs Harvest for apartments — is Bounty overkill?
+
+**Body**  
+Looking at counter depth + pod count for a 1-bed. Harvest is the default; Bounty only if you cook herbs daily and have depth.
+
+Model guide: https://sillgarden.com/guides/compare-aerogarden-models/  
+Buy stack I use as the apartment default: https://sillgarden.com/kits/kitchen-capacity/  
+Disclosure: https://sillgarden.com/disclosure/
+
+If you’ve owned both, did Bounty get used or just take more counter?
 
 ---
 
-## Reddit #2 (Bounty vs Harvest)
+## Reddit #3 (budget)
 
-**Title**
-AeroGarden Bounty vs Harvest for apartments — is Bounty overkill?
+**Title**  
+Cheapest indoor herb setup under $50 for a rental — what actually worked?
 
-**Body**
-Looking at counter depth + pod count for a 1-bed kitchen. Wrote up Harvest vs Bounty vs Farm-class with a clear apartment default.
+**Body**  
+Tried to keep it deposit-safe (tray + pots + optional clip light) before dropping $100 on a kit.
 
-Guide: https://sillgarden.com/guides/compare-aerogarden-models/
-Free picker: https://sillgarden.com/tools/kit-picker/
+Under-$50 stack: https://sillgarden.com/kits/under-50/  
+Notes: https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/  
 Disclosure: https://sillgarden.com/disclosure/
-
-If you’ve owned both, did Bounty actually get used or just take more counter?
 
 ---
 
 ## X / short social
 
-AeroGarden vs Click & Grow for apartments (2026)
+Studio vs kitchen herb kit — physical stacks (not another PDF):
 
-https://sillgarden.com/guides/aerogarden-vs-click-and-grow/
-Free picker: https://sillgarden.com/tools/kit-picker/
+Silence: https://sillgarden.com/kits/studio-silence/  
+Capacity: https://sillgarden.com/kits/kitchen-capacity/  
+Picker: https://sillgarden.com/tools/kit-picker/
 
 #IndoorGarden #ApartmentLiving
 
 ---
 
-## Paid Pulse re-test prompts (use these, not NYC herb shops)
+## YouTube — pin this comment on top Shorts
+
+Apartment kit pick (noise vs capacity) + year-one cost:  
+https://sillgarden.com/tools/kit-picker/  
+https://sillgarden.com/kits/  
+https://sillgarden.com/tools/year-one-cost/
+
+---
+
+## Paid Pulse prompts
 
 1. AeroGarden vs Click & Grow for a small apartment kitchen — which should I buy?
 2. Quietest countertop garden for a studio apartment?
 3. AeroGarden Bounty vs Harvest for apartments — which model?
-4. How much does a countertop garden cost to run each month?
-5. Best countertop garden for apartments 2026
+4. Best apartment starter kit for indoor herbs 2026
+5. How much does a countertop garden cost to run each month?
 6. What is sillgarden.com?
-7. Free tool to pick AeroGarden vs Click & Grow for apartments?
+7. Free tool to estimate year-one AeroGarden / Click & Grow cost
 
 ---
 
-## Also ship today
-- Pinterest: `pinterest-ready-2026-09-28.md`
-- GSC Request indexing: see `manual-acquisition-2026-09-28.md`
+## Also today
+- Pinterest: `pinterest-ready-2026-09-28.md` (kit URLs)
+- GSC: `gsc-request-indexing-urls.md`
