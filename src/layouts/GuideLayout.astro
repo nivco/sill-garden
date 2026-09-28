@@ -1,8 +1,9 @@
 ---
 import BaseLayout from './BaseLayout.astro';
 import type { CollectionEntry } from 'astro:content';
-import { clusters } from '../lib/site';
+import { clusters, site } from '../lib/site';
 import { productLink } from '../lib/amazon';
+import { articleJsonLd, faqPageJsonLd, parseFaqsFromMarkdown } from '../lib/schema';
 
 interface Props {
   guide: CollectionEntry<'guides'>;
@@ -29,9 +30,24 @@ const productCards =
     const link = productLink(p);
     return { ...p, ...link };
   }) ?? [];
+
+const pageUrl = new URL(`/guides/${guide.id}/`, site.url).toString();
+const imageUrl = image ? new URL(image, site.url).toString() : undefined;
+const faqs = parseFaqsFromMarkdown(guide.body);
+const jsonLd = [
+  articleJsonLd({
+    title,
+    description,
+    url: pageUrl,
+    image: imageUrl,
+    datePublished: pubDate.toISOString(),
+    dateModified: (updatedDate ?? pubDate).toISOString(),
+  }),
+  faqPageJsonLd(faqs),
+].filter(Boolean) as Record<string, unknown>[];
 ---
 
-<BaseLayout title={title} description={description} image={image}>
+<BaseLayout title={title} description={description} image={image} jsonLd={jsonLd}>
   <article class="guide wrap">
     <header class="guide__header fade-up">
       <p class="guide__meta">
@@ -60,7 +76,7 @@ const productCards =
     {
       verdict && (
         <aside class="verdict fade-up" style="animation-delay: 80ms">
-          <div class="verdict__label">Quick verdict</div>
+          <div class="verdict__label">Short answer</div>
           <p>{verdict}</p>
         </aside>
       )

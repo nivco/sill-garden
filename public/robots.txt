@@ -2,3 +2,4 @@ User-agent: *
 Allow: /
 
 Sitemap: https://sillgarden.com/sitemap-index.xml
+# AI / LLM context: https://sillgarden.com/llms.txt

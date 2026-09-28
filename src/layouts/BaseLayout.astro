@@ -1,12 +1,14 @@
 ---
 import '../styles/global.css';
 import { site } from '../lib/site';
+import { organizationJsonLd, websiteJsonLd } from '../lib/schema';
 
 interface Props {
   title?: string;
   description?: string;
   image?: string;
   noindex?: boolean;
+  jsonLd?: Record<string, unknown> | Record<string, unknown>[] | null;
 }
 
 const {
@@ -14,12 +16,21 @@ const {
   description = site.description,
   image = '/images/hero-sill.jpg',
   noindex = false,
+  jsonLd = null,
 } = Astro.props;
 
 const pageTitle = title ? `${title} · ${site.name}` : `${site.name} — ${site.tagline}`;
 const canonical = new URL(Astro.url.pathname, site.url).toString();
 const ogImage = new URL(image, site.url).toString();
 const path = Astro.url.pathname;
+const isHome = path === '/' || path === '';
+const baseSchemas = isHome ? [organizationJsonLd(), websiteJsonLd()] : [];
+const extraSchemas = jsonLd
+  ? Array.isArray(jsonLd)
+    ? jsonLd.filter(Boolean)
+    : [jsonLd]
+  : [];
+const schemas = [...baseSchemas, ...extraSchemas];
 ---
 
 <!doctype html>
@@ -38,6 +49,12 @@ const path = Astro.url.pathname;
     <meta property="og:image" content={ogImage} />
     <meta name="twitter:card" content="summary_large_image" />
     <link rel="icon" href="/favicon.svg" type="image/svg+xml" />
+    <link rel="alternate" type="application/rss+xml" title={`${site.name} RSS`} href="/feed.xml" />
+    {
+      schemas.map((schema) => (
+        <script type="application/ld+json" set:html={JSON.stringify(schema)} />
+      ))
+    }
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link

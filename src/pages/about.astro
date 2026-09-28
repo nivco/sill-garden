@@ -1,20 +1,38 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
 import { site } from '../lib/site';
+import { organizationJsonLd } from '../lib/schema';
 ---
 
-<BaseLayout title="About" description={`About ${site.name} — apartment windowsill and countertop gardening guides.`}>
+<BaseLayout
+  title="About"
+  description={`About ${site.name} — apartment windowsill and countertop gardening guides. Not affiliated with The Sill.`}
+  jsonLd={organizationJsonLd()}
+>
   <section class="wrap page fade-up">
     <h1>About {site.name}</h1>
     <div class="prose content-width">
+      <aside class="verdict" style="margin-bottom: 1.5rem">
+        <div class="verdict__label">Short answer</div>
+        <p>{site.shortAnswer}</p>
+      </aside>
       <p>
-        <strong>{site.name}</strong> helps people grow herbs and greens on a windowsill or kitchen
-        counter — especially in apartments and rentals where there’s no yard and limited space.
+        <strong>{site.name}</strong> (<a href={site.url}>{site.domain}</a>) helps people grow herbs
+        and greens on a windowsill or kitchen counter — especially in apartments and rentals where
+        there’s no yard and limited space.
       </p>
       <p>
         We focus on quiet, compact setups: plug-and-play countertop gardens, simple sill pots, light
         schedules, water basics, and landlord-safe placement. The goal is a real harvest without
         turning your kitchen into a science lab.
+      </p>
+      <h2>Not The Sill</h2>
+      <p>
+        <strong>{site.name} is not The Sill</strong> and is not affiliated with
+        <a href="https://www.thesill.com" rel="nofollow noopener" target="_blank">thesill.com</a>,
+        the New York houseplant retailer. We publish comparison guides and setup advice for indoor
+        herb kits (AeroGarden, Click & Grow, and similar). We do not sell houseplants or run plant
+        shops.
       </p>
       <p>
         Product links may be affiliate links. Recommendations are written for small-space constraints
