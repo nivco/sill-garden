@@ -1,17 +1,12 @@
 {
-  "ready": true,
-  "checked_at": "2026-09-29T07:31:13.055500+00:00",
-  "channel": {
-    "id": "UCc31HDBMhoJtsmZYk0Fo56w",
-    "title": "Sill Garden",
-    "handle": "@sillgarden",
-    "subscribers": "1",
-    "views": "380"
-  },
-  "error": null,
-  "quota_exceeded": false,
+  "ready": false,
+  "checked_at": "2026-09-29T15:31:12.502281+00:00",
+  "channel": null,
+  "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&mine=true&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
+  "quota_exceeded": true,
   "auth_dead": false,
   "next_steps": [
-    "YouTube upload OAuth OK"
+    "YouTube Data API daily quota exhausted \u2014 not an OAuth failure.",
+    "Retry after ~00:00 America/Los_Angeles (workflow cron 07:30 UTC)."
   ]
 }
