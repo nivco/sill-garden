@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-29 03:33 UTC",
+  "generated_at": "2026-09-29 11:46 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -14,14 +14,14 @@
     "sitemap_urls": 32,
     "cf_pageviews_7d": 0,
     "youtube_sessions_7d": 0,
-    "youtube_subs": null,
-    "youtube_views_total": null,
+    "youtube_subs": 1,
+    "youtube_views_total": 380,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 33.3,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": null
+    "youtube_videos": 39
   },
   "sources": {
     "site": {
@@ -657,7 +657,80 @@
       "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "error": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics%2CcontentDetails&id=UCc31HDBMhoJtsmZYk0Fo56w&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/y"
+      "channel": {
+        "id": "UCc31HDBMhoJtsmZYk0Fo56w",
+        "title": "Sill Garden",
+        "handle": "@sillgarden",
+        "subscribers": 1,
+        "views": 380,
+        "videos": 39
+      },
+      "recent_videos": [
+        {
+          "id": "WSnB43l2SmQ",
+          "title": "Click and Grow vs AeroGarden in 2026 \u2014 Honest Pick",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-28T05:22:45Z",
+          "url": "https://www.youtube.com/watch?v=WSnB43l2SmQ"
+        },
+        {
+          "id": "_BkvP9voGJM",
+          "title": "Apartment Herb Garden Under $40 (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-09-25T18:13:34Z",
+          "url": "https://www.youtube.com/watch?v=_BkvP9voGJM"
+        },
+        {
+          "id": "35k4h5j8D20",
+          "title": "Click and Grow vs AeroGarden in 2026 \u2014 Honest Pick",
+          "views": 4,
+          "likes": 0,
+          "published": "2026-09-22T17:54:56Z",
+          "url": "https://www.youtube.com/watch?v=35k4h5j8D20"
+        },
+        {
+          "id": "CTmzbmQ5FAw",
+          "title": "AeroGarden Bounty vs Harvest \u2014 which model should you buy? #Shorts",
+          "views": 32,
+          "likes": 0,
+          "published": "2026-09-19T21:31:54Z",
+          "url": "https://www.youtube.com/watch?v=CTmzbmQ5FAw"
+        },
+        {
+          "id": "2k80pmMSYgs",
+          "title": "AeroGarden Bounty vs Harvest (2026) \u2014 Which Should You Buy?",
+          "views": 2,
+          "likes": 0,
+          "published": "2026-09-19T21:30:55Z",
+          "url": "https://www.youtube.com/watch?v=2k80pmMSYgs"
+        },
+        {
+          "id": "cceEHXgSlYc",
+          "title": "Mint on a windowsill \u2014 first harvest guide #Shorts",
+          "views": 2,
+          "likes": 0,
+          "published": "2026-09-05T12:31:14Z",
+          "url": "https://www.youtube.com/watch?v=cceEHXgSlYc"
+        },
+        {
+          "id": "pvMlVD1InHQ",
+          "title": "Mint on a windowsill \u2014 first harvest guide \u2014 Apartment Guide (2026)",
+          "views": 1,
+          "likes": 0,
+          "published": "2026-09-04T17:21:59Z",
+          "url": "https://www.youtube.com/watch?v=pvMlVD1InHQ"
+        },
+        {
+          "id": "F073SleZ9aA",
+          "title": "Kratky jar herbs for apartments (silent DIY) #Shorts",
+          "views": 6,
+          "likes": 0,
+          "published": "2026-09-04T13:19:23Z",
+          "url": "https://www.youtube.com/watch?v=F073SleZ9aA"
+        }
+      ]
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -713,7 +786,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/tools/",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     },
     {
       "priority": "P1",
@@ -722,7 +795,7 @@
       "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden farm vs farm plus\u201d pos 36/2 impr; \u201caerogarden trellis for 2019 bounty models\u201d pos 44/2 impr; \u201caerogarden vs click and grow\u201d pos 47/3 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     },
     {
       "priority": "P1",
@@ -731,28 +804,29 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     },
     {
       "priority": "P2",
       "category": "setup",
       "title": "Finish setup: YouTube",
-      "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails%2Csnippet&playlistId=UUc31HDBMhoJtsmZYk0Fo56w&maxResults=8&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n",
+      "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics%2CcontentDetails&id=UCc31HDBMhoJtsmZYk0Fo56w&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 4",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-28 02:52 UTC (19.0h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 9 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden farm vs farm plus\u201d (pos 36), \u201caerogarden trellis for 2019 bounty models\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -773,8 +847,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -788,8 +862,8 @@
       },
       {
         "name": "YouTube",
-        "ok": false,
-        "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics%2CcontentDetails&id=UCc31HDBMhoJtsmZYk0Fo56w&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/y"
+        "ok": true,
+        "detail": "Sill Garden"
       },
       {
         "name": "Affiliate click counters",
