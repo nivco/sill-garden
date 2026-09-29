@@ -1,20 +1,34 @@
 {
-  "generated_at": "2026-09-28 20:54 UTC",
+  "generated_at": "2026-09-29 19:41 UTC",
   "wow": {
-    "ga4_sessions_7d": 3.0,
-    "gsc_impressions_7d": 1.0,
+    "ga4_sessions_7d": 0.0,
+    "gsc_impressions_7d": 5.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 3,
-    "gsc_impressions_7d": 10,
+    "gsc_impressions_7d": 13,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
     "indexed_urls": 31
   },
   "top_queries": [
+    {
+      "query": "aerogarden bounty vs bounty basic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 43.0
+    },
+    {
+      "query": "aerogarden bounty vs bounty elite",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 42.0
+    },
     {
       "query": "aerogarden bounty vs harvest",
       "clicks": 0,
@@ -46,20 +60,27 @@
     {
       "query": "click and grow vs aerogarden",
       "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 42.0
+    },
+    {
+      "query": "indoor herb garden kit recommendations pdf",
+      "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 41.5
+      "position": 77.0
     }
   ],
   "learnings": [
-    "LLM peer insight: - “AeroGarden Bounty vs Harvest: Which Is Better for Your Space?”",
-    "LLM peer insight: . Rewrite titles and H1s to match the exact search intent clusters.",
-    "LLM peer insight: Keep it skimmable and mobile-friendly with short cells and one highlighted “recommended pick” row.",
-    "LLM peer insight: Add one-line verdict rows like “Best for tall plants,” “Best for beginners,” “Best value.”",
-    "LLM peer insight: Include the exact query targets: **AeroGarden Bounty vs Harvest**, **Farm vs Farm Plus**, **AeroGarden vs Click & Grow**.",
-    "LLM peer insight: Use a 3-column table: **Model / Best for / Key tradeoff**.",
-    "LLM peer insight: . Add a dedicated **comparison-module block** to every AeroGarden/Click & Grow page, placed above the fold or immediately after the intro.",
-    "WORKING peer pattern: long-form depth (~1337 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: Build 5–7 FAQs tied to the exact query intent, not generic indoor-garden FAQs.",
+    "LLM peer insight: . Add dedicated FAQ sections per comparison page.",
+    "LLM peer insight: Put the recommendation in the first row or a highlighted “Best for” row so the page answers the query immediately.",
+    "LLM peer insight: Include only decision-driving fields: pod count, max grow height, light wattage, Wi‑Fi/app, touchscreen, reservoir size, and “best for.”",
+    "LLM peer insight: Create a 3-column comparison table for the highest-intent queries: Bounty vs Bounty Basic, Bounty vs Bounty Elite, Bounty vs Harvest, Farm vs Farm Plus.",
+    "LLM peer insight: . Add comparison-first content blocks above the fold.",
+    "LLM peer insight: Here are 5 concrete, shippable improvements for Sill Garden this week:",
+    "WORKING peer pattern: long-form depth (~1330 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -79,12 +100,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-09-28 20:54 UTC"
+    "generated_at": "2026-09-29 19:41 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 11 action(s) still measuring (3-7d windows)",
+      "IMPACT: 13 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

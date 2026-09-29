@@ -1,21 +1,22 @@
 {
-  "generated_at": "2026-09-28 22:13 UTC",
+  "generated_at": "2026-09-29 19:41 UTC",
   "severity": "warn",
   "stalled": false,
   "zero_session_days": [],
   "zero_session_day_count": 0,
   "low_session_days": [
+    "2026-09-29",
     "2026-09-28",
     "2026-09-27",
     "2026-09-26",
     "2026-09-25",
     "2026-09-24"
   ],
-  "low_session_day_count": 5,
+  "low_session_day_count": 6,
   "youtube_flat": false,
   "metrics": {
     "sessions_7d": 3,
-    "gsc_impressions_7d": 10,
+    "gsc_impressions_7d": 13,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_views_total": 0,
@@ -24,8 +25,8 @@
     "distribution_url": "https://sillgarden.com/guides/compare-aerogarden-models/"
   },
   "reasons": [
-    "GA4 sessions_7d=3 (<5) for 5 day(s)",
-    "GSC 10 impressions / 0 clicks",
+    "GA4 sessions_7d=3 (<5) for 6 day(s)",
+    "GSC 13 impressions / 0 clicks",
     "Affiliate clicks_7d = 0"
   ],
   "actions": [
@@ -40,10 +41,5 @@
     "low_session_threshold": 5,
     "low_session_days_critical": 7,
     "youtube_flat_points": 6
-  },
-  "email": {
-    "ok": false,
-    "skipped": true,
-    "detail": "quiet hours Israel (01:13 IDT); send only 08:00-23:00 Asia/Jerusalem"
   }
 }

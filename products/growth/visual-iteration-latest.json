@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-28 20:54 UTC",
+  "generated_at": "2026-09-29 19:41 UTC",
   "applied": [
     "wrote visual-backlog.md"
   ],
@@ -13,10 +13,10 @@
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1337 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . Add a dedicated **comparison-module block** to every AeroGarden/Click & Grow page, placed above the fold or immediately after the intro.",
-    "LLM peer insight: Use a 3-column table: **Model / Best for / Key tradeoff**.",
-    "LLM peer insight: Include the exact query targets: **AeroGarden Bounty vs Harvest**, **Farm vs Farm Plus**, **AeroGarden vs Click & Grow**."
+    "WORKING peer pattern: long-form depth (~1330 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: Here are 5 concrete, shippable improvements for Sill Garden this week:",
+    "LLM peer insight: . Add comparison-first content blocks above the fold.",
+    "LLM peer insight: Create a 3-column comparison table for the highest-intent queries: Bounty vs Bounty Basic, Bounty vs Bounty Elite, Bounty vs Harvest, Farm vs Farm Plus."
   ],
   "dry_run": false
 }
