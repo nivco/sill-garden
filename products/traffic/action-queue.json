@@ -1,8 +1,10 @@
 {
-  "generated_at": "2026-09-28 21:52 UTC",
+  "generated_at": "2026-09-29 03:33 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
-  "applied": [],
+  "applied": [
+    "IndexNow ping"
+  ],
   "actions": [
     {
       "priority": "P0",
@@ -11,7 +13,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/tools/",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     },
     {
       "priority": "P1",
@@ -20,7 +22,7 @@
       "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden farm vs farm plus\u201d pos 36/2 impr; \u201caerogarden trellis for 2019 bounty models\u201d pos 44/2 impr; \u201caerogarden vs click and grow\u201d pos 47/3 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     },
     {
       "priority": "P1",
@@ -29,25 +31,25 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     },
     {
       "priority": "P2",
       "category": "setup",
       "title": "Finish setup: YouTube",
-      "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/playlistItems?part=contentDetails%2Csnippet&playlistId=UUc31HDBMhoJtsmZYk0Fo56w&maxResults=8&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n",
+      "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics%2CcontentDetails&id=UCc31HDBMhoJtsmZYk0Fo56w&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 4",
       "auto": false,
       "done": false,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-09-28 02:52 UTC (19.0h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-09-28 21:52 UTC"
+      "created": "2026-09-29 03:33 UTC"
     }
   ]
 }
