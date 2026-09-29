@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-29 19:41 UTC",
+  "generated_at": "2026-09-29 20:18 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -121,32 +121,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 3828,
-        "images": 0,
-        "has_faq": false,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -197,16 +171,16 @@
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1330 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: Here are 5 concrete, shippable improvements for Sill Garden this week:",
-    "LLM peer insight: . Add comparison-first content blocks above the fold.",
-    "LLM peer insight: Create a 3-column comparison table for the highest-intent queries: Bounty vs Bounty Basic, Bounty vs Bounty Elite, Bounty vs Harvest, Farm vs Farm Plus.",
-    "LLM peer insight: Include only decision-driving fields: pod count, max grow height, light wattage, Wi‑Fi/app, touchscreen, reservoir size, and “best for.”",
-    "LLM peer insight: Put the recommendation in the first row or a highlighted “Best for” row so the page answers the query immediately.",
-    "LLM peer insight: . Add dedicated FAQ sections per comparison page.",
-    "LLM peer insight: Build 5–7 FAQs tied to the exact query intent, not generic indoor-garden FAQs."
+    "LLM peer insight: Here are 5 ship-this-week improvements for Sill Garden, prioritized for the query set and peer patterns:",
+    "LLM peer insight: . **Add a tight comparison table block to every AeroGarden model page**",
+    "LLM peer insight: Build one table per page: **Bounty Basic vs Bounty vs Bounty Elite**, **Bounty vs Harvest**, **Farm vs Farm Plus**.",
+    "LLM peer insight: Columns should be: **pods, grow height, wattage, Wi‑Fi/app, touchscreen, finish/material, included trellis, best for, our pick**.",
+    "LLM peer insight: Put the verdict in the last column, e.g. **“Best value for herbs”**, **“Best for tall fruiting plants”**, **“Skip unless you need more height”**.",
+    "LLM peer insight: Make the table appear **above the fold or immediately after the intro** so it can answer comparison-intent queries fast.",
+    "LLM peer insight: . **Rewrite titles and H1s to match the exact query language**",
+    "LLM peer insight: - **AeroGarden Bounty vs Bounty Basic: Which Should You Buy?**"
   ],
-  "llm_notes": "Here are 5 concrete, shippable improvements for Sill Garden this week:\n\n1. Add comparison-first content blocks above the fold.\n- Create a 3-column comparison table for the highest-intent queries: Bounty vs Bounty Basic, Bounty vs Bounty Elite, Bounty vs Harvest, Farm vs Farm Plus.\n- Include only decision-driving fields: pod count, max grow height, light wattage, Wi‑Fi/app, touchscreen, reservoir size, and “best for.”\n- Put the recommendation in the first row or a highlighted “Best for” row so the page answers the query immediately.\n\n2. Add dedicated FAQ sections per comparison page.\n- Build 5–7 FAQs tied to the exact query intent, not generic indoor-garden FAQs.\n- Examples:\n- “Is the Bounty Basic worth it vs Bounty?”\n- “Can the Harvest grow tomatoes?”\n- “What is the real difference between Farm and Farm Plus?”\n- “Do 2019 Bounty models need a special trellis?”\n- Make each FAQ answer 2–4 sentences, with one explicit recommendation and one caveat.\n\n3. Rewrite titles and H1s to match the search language more closely.\n- Use exact-match phrasing in titles for comparison pages, e.g. “AeroGarden Bounty vs Harvest: Which Should You Buy?”\n- Use one clear H1 per page; avoid pages with no H1.\n- Put the model names first in the title, then the verdict angle:\n- “Bounty vs Bounty Basic”\n- “Bounty vs Bounty Elite”\n- “Farm vs Farm Plus”\n- “2019 Bounty Trellis: Compatible Options”\n- This aligns Sill’s pages with the intent already showing up in GSC.\n\n4. Add a strong hero + CTA layout that mirrors the peer pattern.\n- Use a simple hero with:\n- Product/compare headline\n- 1-sentence verdict\n- 1 ",
+  "llm_notes": "Here are 5 ship-this-week improvements for Sill Garden, prioritized for the query set and peer patterns:\n\n1. **Add a tight comparison table block to every AeroGarden model page**\n- Build one table per page: **Bounty Basic vs Bounty vs Bounty Elite**, **Bounty vs Harvest**, **Farm vs Farm Plus**.\n- Columns should be: **pods, grow height, wattage, Wi‑Fi/app, touchscreen, finish/material, included trellis, best for, our pick**.\n- Put the verdict in the last column, e.g. **“Best value for herbs”**, **“Best for tall fruiting plants”**, **“Skip unless you need more height”**.\n- Make the table appear **above the fold or immediately after the intro** so it can answer comparison-intent queries fast.\n\n2. **Rewrite titles and H1s to match the exact query language**\n- Use query-mirroring titles like:\n  - **AeroGarden Bounty vs Bounty Basic: Which Should You Buy?**\n  - **AeroGarden Bounty vs Bounty Elite: Key Differences**\n  - **AeroGarden Bounty vs Harvest: Size, Power, and Best Use**\n  - **AeroGarden Farm vs Farm Plus: What Changes?**\n  - **AeroGarden Trellis for 2019 Bounty Models: Compatibility Guide**\n- Keep the H1 nearly identical to the title but cleaner.\n- Add a short subhead with the answer, e.g. **“Bounty Basic is the best value; Elite is only worth it for the premium finish and stronger light.”**\n\n3. **Add a 6–8 question FAQ section per page**\n- Pull questions directly from user intent:\n  - **What is the difference between Bounty Basic and Bounty?**\n  - **Does the Bounty Elite have better lighting?**\n  - **Is Harvest big enough for tomatoes?**\n  - **Does the Farm Plus add hei",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -237,6 +211,6 @@
       "auto": false
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
