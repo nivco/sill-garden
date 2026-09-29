@@ -1,6 +1,6 @@
 {
   "ready": false,
-  "checked_at": "2026-09-29T15:31:12.502281+00:00",
+  "checked_at": "2026-09-29T19:05:23.786588+00:00",
   "channel": null,
   "error": "<HttpError 403 when requesting https://youtube.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&mine=true&alt=json returned \"The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.\". Details: \"[{'message': 'The request cannot be completed because you have exceeded your <a href=\"/youtube/v3/getting-started#quota\">quota</a>.', 'domain': 'youtube.quota', 'reason': 'quotaExceeded'}]\">",
   "quota_exceeded": true,
