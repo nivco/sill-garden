@@ -541,6 +541,19 @@
       "priority": "P3",
       "done": false,
       "created": "2026-09-29 19:14 UTC"
+    },
+    {
+      "id": "96b15e332e9f",
+      "fingerprint": "96b15e332e9f",
+      "role": "cmo",
+      "type": "acquisition_stall",
+      "title": "ALERT: zero sessions for 5+ days — distribute manually",
+      "detail": "GA4 sessions_7d=3 (<5) for 7 day(s) | GSC 15 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0",
+      "target": "acquisition",
+      "auto": false,
+      "priority": "P0",
+      "done": false,
+      "created": "2026-09-30 19:42 UTC"
     }
   ],
   "applied_log": [
@@ -713,5 +726,5 @@
       "reason": "CTR-first query desc: 3 impr, pos 47.3, 0 clicks"
     }
   ],
-  "updated": "2026-09-30 11:32 UTC"
+  "updated": "2026-09-30 19:42 UTC"
 }

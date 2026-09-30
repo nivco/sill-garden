@@ -342,10 +342,94 @@
         "youtube_views_total": null
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "8de1887482c6ab",
+      "kind": "distribution",
+      "target": "compare-aerogarden-models",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-09-30",
+      "measure_after": "2026-10-03",
+      "final_after": "2026-10-07",
+      "metrics_before": {
+        "sessions_7d": 3.0,
+        "gsc_impressions_7d": 15.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 380.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "9e7f9b3b6f5c8a",
+      "kind": "applied",
+      "target": "wrote visual-backlog.md",
+      "title": "wrote visual-backlog.md",
+      "detail": "wrote visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-09-30",
+      "measure_after": "2026-10-03",
+      "final_after": "2026-10-07",
+      "metrics_before": {
+        "sessions_7d": 3.0,
+        "gsc_impressions_7d": 15.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 380.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "db9024aef038c3",
+      "kind": "applied",
+      "target": "stalled → P0 acquisition enqueued",
+      "title": "outcome_health: stalled → P0 acquisition enqueued",
+      "detail": "outcome_health: stalled → P0 acquisition enqueued",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-09-30",
+      "measure_after": "2026-10-03",
+      "final_after": "2026-10-07",
+      "metrics_before": {
+        "sessions_7d": 3.0,
+        "gsc_impressions_7d": 15.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 380.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "0eb255688fea1a",
+      "kind": "applied",
+      "target": "IndexNow ping",
+      "title": "IndexNow ping",
+      "detail": "IndexNow ping",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-09-30",
+      "measure_after": "2026-10-03",
+      "final_after": "2026-10-07",
+      "metrics_before": {
+        "sessions_7d": 3.0,
+        "gsc_impressions_7d": 15.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 380.0
+      },
+      "primary_metric": "gsc_impressions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-09-30 11:32 UTC"
+  "updated_at": "2026-09-30 19:42 UTC"
 }

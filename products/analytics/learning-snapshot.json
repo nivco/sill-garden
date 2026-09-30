@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-29 19:41 UTC",
+  "generated_at": "2026-09-30 19:42 UTC",
   "wow": {
     "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 5.0,
+    "gsc_impressions_7d": 2.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 3,
-    "gsc_impressions_7d": 13,
+    "gsc_impressions_7d": 15,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -37,13 +37,6 @@
       "position": 41.0
     },
     {
-      "query": "aerogarden farm vs farm plus",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 36.0
-    },
-    {
       "query": "aerogarden trellis for 2019 bounty models",
       "clicks": 0,
       "impressions": 2,
@@ -53,9 +46,9 @@
     {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 47.3
+      "position": 47.0
     },
     {
       "query": "click and grow vs aerogarden",
@@ -73,14 +66,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: Build 5–7 FAQs tied to the exact query intent, not generic indoor-garden FAQs.",
-    "LLM peer insight: . Add dedicated FAQ sections per comparison page.",
-    "LLM peer insight: Put the recommendation in the first row or a highlighted “Best for” row so the page answers the query immediately.",
-    "LLM peer insight: Include only decision-driving fields: pod count, max grow height, light wattage, Wi‑Fi/app, touchscreen, reservoir size, and “best for.”",
-    "LLM peer insight: Create a 3-column comparison table for the highest-intent queries: Bounty vs Bounty Basic, Bounty vs Bounty Elite, Bounty vs Harvest, Farm vs Farm Plus.",
-    "LLM peer insight: . Add comparison-first content blocks above the fold.",
-    "LLM peer insight: Here are 5 concrete, shippable improvements for Sill Garden this week:",
-    "WORKING peer pattern: long-form depth (~1330 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - This targets the exact comparison queries instead of forcing one generic product page to rank for all four.",
+    "LLM peer insight: - Add unique sections for each query variant:",
+    "LLM peer insight: - Add a 40–60-word answer directly below the H1: “Choose Bounty for more growing height and nine pods; choose Harvest for a smaller six-pod setup; choose Elite when Wi‑Fi and premium controls matter.”",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Basic vs Elite vs Harvest`",
+    "LLM peer insight: - **SEO title:** `AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Should You Buy?`",
+    "LLM peer insight: . **Create a comparison-led title and H1**",
+    "LLM peer insight: Ship these five changes this week, mapped directly to your GSC demand and the gaps in the peer set:",
+    "WORKING peer pattern: long-form depth (~1309 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -100,12 +93,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-09-29 19:41 UTC"
+    "generated_at": "2026-09-30 19:42 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 13 action(s) still measuring (3-7d windows)",
+      "IMPACT: 16 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",
