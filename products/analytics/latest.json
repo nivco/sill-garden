@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-30 07:58 UTC",
+  "generated_at": "2026-09-30 11:32 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -661,7 +661,7 @@
       ]
     },
     "cloudflare": {
-      "error": "Actor 'com.cloudflare.api.token.575a6b3ae16d0ac72a906be104f772aa' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338",
+      "error": "Actor 'com.cloudflare.api.token.18c0a2b15d2ceb5eea0df9c1c2741325' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338",
       "page_views": null,
       "uniques": null
     },
@@ -835,13 +835,14 @@
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 15 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 43), \u201caerogarden bounty vs bounty elite\u201d (pos 42), \u201caerogarden bounty vs harvest\u201d (pos 41). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 5,
     "total": 7,
     "checks": [
       {
@@ -856,8 +857,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -867,7 +868,7 @@
       {
         "name": "Cloudflare analytics",
         "ok": false,
-        "detail": "Actor 'com.cloudflare.api.token.575a6b3ae16d0ac72a906be104f772aa' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338"
+        "detail": "Actor 'com.cloudflare.api.token.18c0a2b15d2ceb5eea0df9c1c2741325' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338"
       },
       {
         "name": "YouTube",
@@ -882,6 +883,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 3 | Aff clicks 0 | GSC 0c/15i | YT views 380 | Setup 6/7"
+    "headline": "Sessions 3 | Aff clicks 0 | GSC 0c/15i | YT views 380 | Setup 5/7"
   }
 }
