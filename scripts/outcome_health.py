@@ -83,8 +83,13 @@ def analyze() -> dict:
     gsc_impr = int(hero.get("gsc_impressions_7d") or 0)
     gsc_clicks = int(hero.get("gsc_clicks_7d") or 0)
     aff = int(hero.get("affiliate_clicks_7d") or 0)
-    yt_views = int(hero.get("youtube_views_total") or 0)
-    yt_sess = int(hero.get("youtube_sessions_7d") or 0)
+    # Keep null when YouTube API failed (quota) — do not coerce to 0 (looks like a dead channel).
+    yt_views = _yt_views(latest)
+    yt_sess = (
+        int(hero.get("youtube_sessions_7d"))
+        if hero.get("youtube_sessions_7d") is not None
+        else None
+    )
 
     zero_days: list[str] = []
     seen_days: set[str] = set()

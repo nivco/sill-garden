@@ -450,35 +450,39 @@ def fetch_ga4(property_id: str) -> dict:
 
 
 def fetch_gsc(site_url: str) -> dict:
+    """Site totals must come from a no-dimension query.
+
+    Summing top query rows undercounts: GSC hides some queries (privacy) and any
+    beyond rowLimit never appear — MTS uses the same totals-first pattern.
+    """
     token = google_token(["https://www.googleapis.com/auth/webmasters.readonly"])
-    body = {
-        "startDate": (datetime.now(timezone.utc).date()).isoformat(),  # overwritten below
-        "endDate": datetime.now(timezone.utc).date().isoformat(),
-        "dimensions": ["query"],
-        "rowLimit": 15,
-    }
-    # last 7 days
     from datetime import timedelta
 
     end = datetime.now(timezone.utc).date()
     start = end - timedelta(days=7)
-    body["startDate"] = start.isoformat()
-    body["endDate"] = end.isoformat()
-
+    date_range = {"startDate": start.isoformat(), "endDate": end.isoformat()}
     encoded = urllib.parse.quote(site_url, safe="")
+    base = f"https://www.googleapis.com/webmasters/v3/sites/{encoded}/searchAnalytics/query"
+    headers = {"Authorization": f"Bearer {token}"}
+
+    totals_report = http_json(base, method="POST", headers=headers, body=date_range)
+    totals_row = (totals_report.get("rows") or [{}])[0] if totals_report.get("rows") else {}
+    clicks = int(float(totals_row.get("clicks") or 0))
+    impressions = int(float(totals_row.get("impressions") or 0))
+    avg_position = (
+        round(float(totals_row.get("position") or 0), 1) if totals_row else None
+    )
+
     report = http_json(
-        f"https://www.googleapis.com/webmasters/v3/sites/{encoded}/searchAnalytics/query",
+        base,
         method="POST",
-        headers={"Authorization": f"Bearer {token}"},
-        body=body,
+        headers=headers,
+        body={**date_range, "dimensions": ["query"], "rowLimit": 15},
     )
     rows = []
-    clicks = impressions = 0.0
     for row in report.get("rows") or []:
         c = float(row.get("clicks") or 0)
         im = float(row.get("impressions") or 0)
-        clicks += c
-        impressions += im
         keys = row.get("keys") or [""]
         rows.append(
             {
@@ -490,10 +494,12 @@ def fetch_gsc(site_url: str) -> dict:
             }
         )
     return {
-        "clicks": int(clicks),
-        "impressions": int(impressions),
+        "clicks": clicks,
+        "impressions": impressions,
+        "avg_position": avg_position,
         "top_queries": rows,
         "site_url": site_url,
+        "window": {"start": start.isoformat(), "end": end.isoformat()},
     }
 
 
@@ -523,7 +529,6 @@ def fetch_cloudflare(zone_id: str, token: str) -> dict:
             "until": (end + timedelta(days=1)).isoformat(),
         },
     }
-    # Cloudflare GraphQL variable types are finicky — use REST analytics if GraphQL fails
     try:
         data = http_json(
             "https://api.cloudflare.com/client/v4/graphql",
@@ -531,8 +536,20 @@ def fetch_cloudflare(zone_id: str, token: str) -> dict:
             headers={"Authorization": f"Bearer {token}"},
             body=query,
         )
+        # GraphQL often returns HTTP 200 with errors[] (e.g. missing Analytics Read).
+        # Treat that as failure — do not report fake zeros as "Connected".
+        errors = data.get("errors") or []
+        if errors:
+            msg = str(errors[0].get("message") or errors[0])[:240]
+            return {"error": msg, "page_views": None, "uniques": None}
         zones = (((data.get("data") or {}).get("viewer") or {}).get("zones") or [])
-        groups = (zones[0].get("httpRequests1dGroups") if zones else None) or []
+        if not zones:
+            return {
+                "error": "Cloudflare GraphQL returned no zones — check CLOUDFLARE_ZONE_ID + token permissions (Analytics Read)",
+                "page_views": None,
+                "uniques": None,
+            }
+        groups = zones[0].get("httpRequests1dGroups") or []
         daily = []
         page_views = uniques = 0
         for g in groups:
@@ -945,6 +962,11 @@ def main() -> int:
         insights.append("Traffic without affiliate clicks — check product CTAs and event firing.")
     if yt.get("skipped"):
         insights.append("Optional: set YOUTUBE_API_KEY + channel handle when you publish Sill Garden videos.")
+    if cf.get("error"):
+        insights.append(
+            "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) — "
+            "CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans."
+        )
     if amz.get("skipped"):
         insights.append("Amazon has no public API — paste weekly numbers into amazon-manual.json.")
 
@@ -966,7 +988,9 @@ def main() -> int:
             "headline": (
                 f"Sessions {hero.get('sessions_7d') if hero.get('sessions_7d') is not None else '-'} | "
                 f"Aff clicks {hero.get('affiliate_clicks_7d') if hero.get('affiliate_clicks_7d') is not None else '-'} | "
-                f"GSC {hero.get('gsc_clicks_7d') if hero.get('gsc_clicks_7d') is not None else '-'} | "
+                f"GSC {hero.get('gsc_clicks_7d') if hero.get('gsc_clicks_7d') is not None else '-'}c/"
+                f"{hero.get('gsc_impressions_7d') if hero.get('gsc_impressions_7d') is not None else '-'}i | "
+                f"YT views {hero.get('youtube_views_total') if hero.get('youtube_views_total') is not None else '-'} | "
                 f"Setup {ready}/{len(checklist)}"
             )
         },
