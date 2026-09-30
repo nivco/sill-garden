@@ -1,15 +1,15 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-09-29 20:18 UTC",
+  "generated_at": "2026-09-30 03:18 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
     "sessions_7d": 3,
     "users_7d": 1,
-    "pageviews_7d": 8,
+    "pageviews_7d": 9,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 13,
+    "gsc_impressions_7d": 10,
     "indexed_urls": 31,
     "sitemap_urls": 32,
     "cf_pageviews_7d": 0,
@@ -19,7 +19,7 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 33.3,
+    "engagement_rate_pct": 100.0,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": null
   },
@@ -33,16 +33,16 @@
       "totals": {
         "activeUsers": 1,
         "sessions": 3,
-        "screenPageViews": 8,
-        "engagedSessions": 1,
-        "averageSessionDuration_sec": 933.0,
-        "engagementRate_pct": 33.3
+        "screenPageViews": 9,
+        "engagedSessions": 3,
+        "averageSessionDuration_sec": 645.6,
+        "engagementRate_pct": 100.0
       },
       "top_pages": [
         {
           "pagePath": "/",
           "sessions": "3",
-          "screenPageViews": "5"
+          "screenPageViews": "6"
         },
         {
           "pagePath": "/guides/",
@@ -59,22 +59,13 @@
         {
           "sessionDefaultChannelGroup": "Direct",
           "sessions": "3"
-        },
-        {
-          "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "2"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "3",
-          "engagedSessions": "1"
-        },
-        {
-          "sessionSourceMedium": "(not set)",
-          "sessions": "2",
-          "engagedSessions": "0"
+          "engagedSessions": "3"
         }
       ],
       "events": {},
@@ -96,7 +87,7 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 13,
+      "impressions": 10,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -120,13 +111,6 @@
           "position": 41.0
         },
         {
-          "query": "aerogarden farm vs farm plus",
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0.0,
-          "position": 36.0
-        },
-        {
           "query": "aerogarden trellis for 2019 bounty models",
           "clicks": 0,
           "impressions": 2,
@@ -136,9 +120,9 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 47.3
+          "position": 47.0
         },
         {
           "query": "click and grow vs aerogarden",
@@ -678,7 +662,7 @@
       "note": "Cloudflare edge includes bots \u2014 prefer GA4 for human traffic"
     },
     "youtube": {
-      "skipped": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
+      "error": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&forHandle=sillgarden&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-s"
     },
     "amazon": {
       "updated": "YYYY-MM-DD",
@@ -837,9 +821,8 @@
     }
   ],
   "insights": [
-    "GSC: 13 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 43), \u201caerogarden bounty vs bounty elite\u201d (pos 42), \u201caerogarden bounty vs harvest\u201d (pos 41). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 10 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 43), \u201caerogarden bounty vs bounty elite\u201d (pos 42), \u201caerogarden bounty vs harvest\u201d (pos 41). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
-    "Optional: set YOUTUBE_API_KEY + channel handle when you publish Sill Garden videos.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
@@ -874,7 +857,7 @@
       {
         "name": "YouTube",
         "ok": false,
-        "detail": "Set YOUTUBE_CHANNEL_HANDLE or YOUTUBE_CHANNEL_ID"
+        "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&forHandle=sillgarden&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/v3/getting-s"
       },
       {
         "name": "Affiliate click counters",
