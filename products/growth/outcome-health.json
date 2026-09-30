@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30 19:42 UTC",
+  "generated_at": "2026-09-30 20:55 UTC",
   "severity": "critical",
   "stalled": true,
   "zero_session_days": [],
@@ -17,7 +17,7 @@
   "youtube_flat": false,
   "metrics": {
     "sessions_7d": 3,
-    "gsc_impressions_7d": 15,
+    "gsc_impressions_7d": 22,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_views_total": 380,
@@ -27,7 +27,7 @@
   },
   "reasons": [
     "GA4 sessions_7d=3 (<5) for 7 day(s)",
-    "GSC 15 impressions / 0 clicks",
+    "GSC 22 impressions / 0 clicks",
     "YouTube -> site sessions = 0",
     "Affiliate clicks_7d = 0"
   ],
@@ -43,5 +43,10 @@
     "low_session_threshold": 5,
     "low_session_days_critical": 7,
     "youtube_flat_points": 6
+  },
+  "email": {
+    "ok": false,
+    "skipped": true,
+    "detail": "quiet hours Israel (23:55 IDT); send only 08:00-23:00 Asia/Jerusalem"
   }
 }
