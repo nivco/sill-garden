@@ -18,7 +18,7 @@ products:
 - name: 24-hour outlet timer
   note: Give supplemental light a consistent daily schedule
   search: 24 hour mechanical outlet timer
-updatedDate: 2026-09-12
+updatedDate: 2026-09-30
 ---
 A dim apartment window can grow herbs, but it cannot grow every herb well. The best low-light herbs are plants that tolerate slower growth without stretching into weak, pale stems.
 
@@ -100,3 +100,6 @@ If you want built-in lighting and less watering work, compare the [best countert
 
 **Herbs that can grow indoors with low light?**  
 For "herbs that can grow indoors with low light", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Low light indoor herbs?**  
+For "low light indoor herbs", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.

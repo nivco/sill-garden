@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-09-30 19:42 UTC",
+  "generated_at": "2026-09-30 20:23 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -121,32 +121,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 3833,
-        "images": 0,
-        "has_faq": false,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -189,23 +163,24 @@
     "aerogarden trellis for 2019 bounty models",
     "aerogarden vs click and grow",
     "click and grow vs aerogarden",
-    "indoor herb garden kit recommendations pdf"
+    "indoor herb garden kit recommendations pdf",
+    "low light indoor herbs"
   ],
   "learnings": [
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1309 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: Ship these five changes this week, mapped directly to your GSC demand and the gaps in the peer set:",
-    "LLM peer insight: . **Create a comparison-led title and H1**",
-    "LLM peer insight: - **SEO title:** `AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Should You Buy?`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Basic vs Elite vs Harvest`",
-    "LLM peer insight: - Add a 40–60-word answer directly below the H1: “Choose Bounty for more growing height and nine pods; choose Harvest for a smaller six-pod setup; choose Elite when Wi‑Fi and premium controls matter.”",
-    "LLM peer insight: - Add unique sections for each query variant:",
-    "LLM peer insight: - This targets the exact comparison queries instead of forcing one generic product page to rank for all four."
+    "LLM peer insight: Here are 5 concrete changes Sill can ship this week to win more of those queries and close the content/visual gaps versus peers.",
+    "LLM peer insight: . **Build a dedicated comparison hub with 4 fast-answer tables**",
+    "LLM peer insight: Create one parent page for **AeroGarden vs Click & Grow** and sub-sections for:",
+    "LLM peer insight: **AeroGarden trellis for 2019 Bounty models**",
+    "LLM peer insight: Put a **top-of-page comparison table** with 6–8 decision columns: price, plant capacity, light height, auto-watering, app/control, noise, footprint, and best for.",
+    "LLM peer insight: Add a **“which one should you buy?” verdict row** above the fold.",
+    "LLM peer insight: Include a **“last updated”** line so the page feels current and trustworthy.",
+    "LLM peer insight: . **Rewrite titles and H1s around query intent, not generic brand pages**"
   ],
-  "llm_notes": "Ship these five changes this week, mapped directly to your GSC demand and the gaps in the peer set:\n\n1. **Create a comparison-led title and H1**\n   - **SEO title:** `AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Should You Buy?`\n   - **H1:** `AeroGarden Bounty vs Basic vs Elite vs Harvest`\n   - Add a 40–60-word answer directly below the H1: “Choose Bounty for more growing height and nine pods; choose Harvest for a smaller six-pod setup; choose Elite when Wi‑Fi and premium controls matter.”\n   - Add unique sections for each query variant:\n     - Bounty vs Bounty Basic\n     - Bounty vs Bounty Elite\n     - Bounty vs Harvest\n   - This targets the exact comparison queries instead of forcing one generic product page to rank for all four.\n\n2. **Put a scannable comparison table above the fold**\n   - Place it immediately after the introductory answer, before long-form reviews.\n   - Use rows for:\n     - Pod capacity\n     - Grow-light wattage\n     - Maximum plant height\n     - Wi‑Fi/app controls\n     - Display type\n     - Reservoir size\n     - Best for\n     - Typical price range\n     - Replacement-pod cost\n   - Use clear verdict labels such as **Best for herbs**, **Best for tomatoes**, **Best compact option**, and **Best controls**.\n   - Do not publish unverified specifications: mark uncertain cells “varies by revision” and link to the model manual or manufacturer listing.\n   - This is a major format gap: every peer listed lacks a comparison table, while your query set is explicitly comparison-driven.\n\n3. **Add a dedicated 2019 Bounty trellis FAQ and compatibility box**",
+  "llm_notes": "Here are 5 concrete changes Sill can ship this week to win more of those queries and close the content/visual gaps versus peers.\n\n1. **Build a dedicated comparison hub with 4 fast-answer tables**\n- Create one parent page for **AeroGarden vs Click & Grow** and sub-sections for:\n- **Bounty vs Bounty Basic**\n- **Bounty vs Bounty Elite**\n- **Bounty vs Harvest**\n- **AeroGarden trellis for 2019 Bounty models**\n- Put a **top-of-page comparison table** with 6–8 decision columns: price, plant capacity, light height, auto-watering, app/control, noise, footprint, and best for.\n- Add a **“which one should you buy?” verdict row** above the fold.\n- Include a **“last updated”** line so the page feels current and trustworthy.\n\n2. **Rewrite titles and H1s around query intent, not generic brand pages**\n- Replace generic titles with exact-match intent:\n- **AeroGarden Bounty vs Bounty Basic: Which Should You Buy?**\n- **AeroGarden Bounty vs Bounty Elite: Differences, Specs, and Best Use**\n- **AeroGarden Bounty vs Harvest: Size, Features, and Value Compared**\n- **AeroGarden Trellis for 2019 Bounty Models: Compatibility Guide**\n- **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**\n- Use a single clear **H1** that mirrors the title.\n- Add a short subhead that answers the query in plain English, e.g. “Best for beginners, small spaces, or higher-output growers.”\n\n3. **Add FAQ blocks that answer purchase blockers and compatibility questions**\n- Add 5–7 FAQs per page, with concise answers.\n- For the Bounty comparisons, include:\n- “What is the main difference between Bounty and Bounty Basic?",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -236,6 +211,6 @@
       "auto": false
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
