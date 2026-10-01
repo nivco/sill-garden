@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-09-30 19:42 UTC",
+  "generated_at": "2026-10-01 19:56 UTC",
   "wow": {
     "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 2.0,
+    "gsc_impressions_7d": 5.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 3,
-    "gsc_impressions_7d": 15,
+    "gsc_impressions_7d": 20,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -30,13 +30,6 @@
       "position": 42.0
     },
     {
-      "query": "aerogarden bounty vs harvest",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 41.0
-    },
-    {
       "query": "aerogarden trellis for 2019 bounty models",
       "clicks": 0,
       "impressions": 2,
@@ -46,16 +39,9 @@
     {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 47.0
-    },
-    {
-      "query": "click and grow vs aerogarden",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 42.0
+      "position": 47.7
     },
     {
       "query": "indoor herb garden kit recommendations pdf",
@@ -63,17 +49,24 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 77.0
+    },
+    {
+      "query": "low light indoor herbs",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 72.0
     }
   ],
   "learnings": [
-    "LLM peer insight: - This targets the exact comparison queries instead of forcing one generic product page to rank for all four.",
-    "LLM peer insight: - Add unique sections for each query variant:",
-    "LLM peer insight: - Add a 40–60-word answer directly below the H1: “Choose Bounty for more growing height and nine pods; choose Harvest for a smaller six-pod setup; choose Elite when Wi‑Fi and premium controls matter.”",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Basic vs Elite vs Harvest`",
-    "LLM peer insight: - **SEO title:** `AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Should You Buy?`",
-    "LLM peer insight: . **Create a comparison-led title and H1**",
-    "LLM peer insight: Ship these five changes this week, mapped directly to your GSC demand and the gaps in the peer set:",
-    "WORKING peer pattern: long-form depth (~1309 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Ship a decision-focused comparison table above the fold**",
+    "LLM peer insight: - This directly targets the existing “Bounty vs Basic” and “Bounty vs Elite” queries instead of burying them in generic indoor-garden copy.",
+    "LLM peer insight: - Use jump links: **Quick verdict**, **Comparison table**, **Basic vs Elite**, **2019 trellis compatibility**, **Alternatives**, **FAQ**.",
+    "LLM peer insight: - Add a 40–60 word answer directly below the H1: “Choose the Basic for herbs on a budget; choose the Elite for Wi‑Fi, touchscreen controls, stronger lighting, and fruiting plants.”",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite: Key Differences, Features, and Best Use**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Bounty vs Elite: Which 9-Pod Garden Is Best?**",
+    "LLM peer insight: . **Create one comparison-led title and page structure**",
+    "WORKING peer pattern: long-form depth (~1308 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -86,14 +79,14 @@
     "WORKING: sessions_7d ≈ 0 and affiliate clicks = 0 → Kit-first acquisition: distribute /kits/* stacks (physical Amazon/Click&Grow), not new thin guides or AI-spittable digital products",
     "WORKING: New money URLs (kits/tools) shipped → Nudge IndexNow + sitemap; write GSC P0 Request-indexing list for money URLs; GSC button is not API-automatable",
     "WORKING: Need monetization beyond guide CTAs → Enrich site with kit stacks, refills hub, kit-picker, year-one-cost — physical accessory bundles only",
-    "IGNORE: Cloudflare pageviews alone → Prefer GA4 sessions — edge counts include bots",
-    "IGNORE: Ship AI-regenerable digital products (PDFs/checklists for sale) → Banned for this brand — sell/affiliate physical stacks only",
-    "IGNORE: Automate GSC Request indexing via scraping or Indexing API for normal pages → Not allowed / invalid — use sitemap + IndexNow + manual Request indexing for P0 money URLs",
-    "IGNORE: Ship more thin guides while sessions_7d = 0 → Pause new guides; refresh money pages + distribute kit links instead"
+    "WORKING: Impact+: session_cycle on 2026-09-28-kit-first → Repeat — positive sessions_7d +3 after Kit-first monetization + indexing + YouTube pin cycle",
+    "WORKING: Impact+: distribution on kits-kitchen-capacity → Repeat — positive sessions_7d +1 after kit-first distribution pack",
+    "WORKING: Impact+: applied on wrote visual-backlog.md → Repeat — positive sessions_7d +1 after wrote visual-backlog.md",
+    "WORKING: Impact+: applied on IndexNow ping → Repeat — positive gsc_impressions_7d +10 after IndexNow ping"
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-09-30 19:42 UTC"
+    "generated_at": "2026-10-01 19:57 UTC"
   },
   "impact": {
     "closed_today": 0,

@@ -1,6 +1,6 @@
 # Visuality backlog (from competitive learning)
 
-Updated: 2026-09-30 19:42 UTC
+Updated: 2026-10-01 19:57 UTC
 
 - [ ] Home hero: one brand + one CTA; no card clutter in first viewport
 - [ ] Guide pages: Quick verdict + product picks before long prose
@@ -12,7 +12,7 @@ Updated: 2026-09-30 19:42 UTC
 - VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.
 - VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.
 - WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.
-- WORKING peer pattern: long-form depth (~1309 words avg) — expand thin guides with decision rules, not fluff.
-- LLM peer insight: Ship these five changes this week, mapped directly to your GSC demand and the gaps in the peer set:
-- LLM peer insight: . **Create a comparison-led title and H1**
-- LLM peer insight: - **SEO title:** `AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Should You Buy?`
+- WORKING peer pattern: long-form depth (~1308 words avg) — expand thin guides with decision rules, not fluff.
+- LLM peer insight: . **Create one comparison-led title and page structure**
+- LLM peer insight: - Title: **AeroGarden Bounty Basic vs Bounty vs Elite: Which 9-Pod Garden Is Best?**
+- LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite: Key Differences, Features, and Best Use**
