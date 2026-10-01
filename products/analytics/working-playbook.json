@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-09-28",
+  "updated_at": "2026-10-01",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -30,6 +30,34 @@
       "signal": "Need monetization beyond guide CTAs",
       "action": "Enrich site with kit stacks, refills hub, kit-picker, year-one-cost — physical accessory bundles only",
       "status": "working"
+    },
+    {
+      "signal": "Impact+: session_cycle on 2026-09-28-kit-first",
+      "action": "Repeat — positive sessions_7d +3 after Kit-first monetization + indexing + YouTube pin cycle",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "202374334371a6"
+    },
+    {
+      "signal": "Impact+: distribution on kits-kitchen-capacity",
+      "action": "Repeat — positive sessions_7d +1 after kit-first distribution pack",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "f53decd184752d"
+    },
+    {
+      "signal": "Impact+: applied on wrote visual-backlog.md",
+      "action": "Repeat — positive sessions_7d +1 after wrote visual-backlog.md",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "cf420589eb1877"
+    },
+    {
+      "signal": "Impact+: applied on IndexNow ping",
+      "action": "Repeat — positive gsc_impressions_7d +10 after IndexNow ping",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "cdea96f2c75ad9"
     }
   ],
   "ignore": [
