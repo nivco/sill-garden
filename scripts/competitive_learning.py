@@ -305,7 +305,7 @@ def propose_actions(learnings: list[str]) -> list[dict]:
                 "priority": "P1",
                 "title": "Ensure comparison tables near top of vs guides",
                 "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
-                "auto": False,
+                "auto": True,
             }
         )
     if "hero" in joined or "visual" in joined or "og:image" in joined:
@@ -325,7 +325,7 @@ def propose_actions(learnings: list[str]) -> list[dict]:
                 "priority": "P1",
                 "title": "Strengthen above-fold verdict + product CTAs",
                 "detail": "Peers repeat CTAs. Keep Quick verdict + product picks before long narrative.",
-                "auto": False,
+                "auto": True,
             }
         )
     if "year" in joined or "2026" in joined:

@@ -1,22 +1,23 @@
 {
-  "generated_at": "2026-10-02 19:37 UTC",
+  "generated_at": "2026-10-02 21:16 UTC",
   "applied": [
-    "wrote visual-backlog.md"
+    "faq:aerogarden-vs-click-and-grow:Aerogarden bounty vs bounty basic?",
+    "faq:aerogarden-vs-click-and-grow:Aerogarden bounty vs bounty elite?",
+    "faq:aerogarden-vs-click-and-grow:Aerogarden harvest vs bounty hydroponics?",
+    "updated visual-backlog.md"
   ],
   "queued": [
-    "Ensure comparison tables near top of vs guides",
-    "Visuality iteration: hero/CTA/og image hygiene",
-    "Strengthen above-fold verdict + product CTAs"
+    "Visuality iteration: hero/CTA/og image hygiene"
   ],
   "learnings_used": [
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1319 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the GSC demand rather than copying broad peer-site layouts.",
-    "LLM peer insight: . **Create exact-match comparison titles and above-the-fold summaries**",
-    "LLM peer insight: - **AeroGarden Bounty Basic vs Bounty Elite: Which Should You Buy?**"
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Create one search-intent comparison hub with exact-match titles**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite vs Standard: Differences, Specs & Best Pick**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Bounty Elite**",
+    "LLM peer insight: - **AeroGarden Harvest vs Bounty: Which Is Better for Vegetables?**"
   ],
   "dry_run": false
 }
