@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02 19:37 UTC",
+  "generated_at": "2026-10-02 20:52 UTC",
   "severity": "critical",
   "stalled": true,
   "zero_session_days": [],
@@ -45,5 +45,10 @@
     "low_session_threshold": 5,
     "low_session_days_critical": 7,
     "youtube_flat_points": 6
+  },
+  "email": {
+    "ok": false,
+    "skipped": true,
+    "detail": "quiet hours Israel (23:52 IDT); send only 08:00-23:00 Asia/Jerusalem"
   }
 }
