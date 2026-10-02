@@ -647,7 +647,7 @@
       "source": "daily_growth_agent",
       "status": "measuring",
       "executed_at": "2026-09-29",
-      "measure_after": "2026-10-02",
+      "measure_after": "2026-10-06",
       "final_after": "2026-10-06",
       "metrics_before": {
         "sessions_7d": 3.0,
@@ -657,7 +657,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": null
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 1,
+        "pageviews_7d": 9,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 21,
+        "indexed_urls": 31,
+        "sitemap_urls": 32,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 395,
+        "engagement_rate_pct": 100.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 40
+      },
+      "delta": {
+        "sessions_7d": 0.0,
+        "gsc_impressions_7d": 8.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0
+      },
+      "verdict": "flat",
+      "outcome": "flat sessions_7d (0)",
+      "measured_at": "2026-10-02 11:32 UTC",
+      "interim_outcome": "flat sessions_7d (0)"
     },
     {
       "id": "3f1b7dd9f734eb",
@@ -668,7 +695,7 @@
       "source": "daily_growth_agent",
       "status": "measuring",
       "executed_at": "2026-09-29",
-      "measure_after": "2026-10-02",
+      "measure_after": "2026-10-06",
       "final_after": "2026-10-06",
       "metrics_before": {
         "sessions_7d": 3.0,
@@ -678,7 +705,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": null
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 1,
+        "pageviews_7d": 9,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 21,
+        "indexed_urls": 31,
+        "sitemap_urls": 32,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 395,
+        "engagement_rate_pct": 100.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 40
+      },
+      "delta": {
+        "sessions_7d": 0.0,
+        "gsc_impressions_7d": 8.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0
+      },
+      "verdict": "flat",
+      "outcome": "flat sessions_7d (0)",
+      "measured_at": "2026-10-02 11:32 UTC",
+      "interim_outcome": "flat sessions_7d (0)"
     },
     {
       "id": "b2eba5adcbb414",
@@ -687,7 +741,7 @@
       "title": "IndexNow ping",
       "detail": "IndexNow ping",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-09-29",
       "measure_after": "2026-10-02",
       "final_after": "2026-10-06",
@@ -699,7 +753,33 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": null
       },
-      "primary_metric": "gsc_impressions_7d"
+      "primary_metric": "gsc_impressions_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 1,
+        "pageviews_7d": 9,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 21,
+        "indexed_urls": 31,
+        "sitemap_urls": 32,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 395,
+        "engagement_rate_pct": 100.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 40
+      },
+      "delta": {
+        "sessions_7d": 0.0,
+        "gsc_impressions_7d": 8.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0
+      },
+      "verdict": "positive",
+      "outcome": "positive gsc_impressions_7d +8",
+      "measured_at": "2026-10-02 11:32 UTC"
     },
     {
       "id": "8de1887482c6ab",
@@ -873,5 +953,5 @@
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-01 19:57 UTC"
+  "updated_at": "2026-10-02 11:32 UTC"
 }
