@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-01 19:56 UTC",
+  "generated_at": "2026-10-02 19:37 UTC",
   "wow": {
     "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 5.0,
+    "gsc_impressions_7d": 1.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 3,
-    "gsc_impressions_7d": 20,
+    "gsc_impressions_7d": 21,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -30,6 +30,13 @@
       "position": 42.0
     },
     {
+      "query": "aerogarden harvest vs bounty hydroponics",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 44.0
+    },
+    {
       "query": "aerogarden trellis for 2019 bounty models",
       "clicks": 0,
       "impressions": 2,
@@ -39,9 +46,9 @@
     {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 47.7
+      "position": 48.0
     },
     {
       "query": "indoor herb garden kit recommendations pdf",
@@ -59,14 +66,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: . **Ship a decision-focused comparison table above the fold**",
-    "LLM peer insight: - This directly targets the existing “Bounty vs Basic” and “Bounty vs Elite” queries instead of burying them in generic indoor-garden copy.",
-    "LLM peer insight: - Use jump links: **Quick verdict**, **Comparison table**, **Basic vs Elite**, **2019 trellis compatibility**, **Alternatives**, **FAQ**.",
-    "LLM peer insight: - Add a 40–60 word answer directly below the H1: “Choose the Basic for herbs on a budget; choose the Elite for Wi‑Fi, touchscreen controls, stronger lighting, and fruiting plants.”",
-    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite: Key Differences, Features, and Best Use**",
-    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Bounty vs Elite: Which 9-Pod Garden Is Best?**",
-    "LLM peer insight: . **Create one comparison-led title and page structure**",
-    "WORKING peer pattern: long-form depth (~1308 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Put a two-sentence verdict directly below each H1. Example: “Choose the Bounty Basic if you want nine pods at the lowest cost. Choose the Elite only if its stronger light, stainless finish, or smart features justify th",
+    "LLM peer insight: - **Best AeroGarden Trellis for 2019 Bounty Models**",
+    "LLM peer insight: - **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
+    "LLM peer insight: - **AeroGarden Harvest vs Bounty: Pods, Height, Light and Price Compared**",
+    "LLM peer insight: - **AeroGarden Bounty Basic vs Bounty Elite: Which Should You Buy?**",
+    "LLM peer insight: . **Create exact-match comparison titles and above-the-fold summaries**",
+    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the GSC demand rather than copying broad peer-site layouts.",
+    "WORKING peer pattern: long-form depth (~1319 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -86,12 +93,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-01 19:57 UTC"
+    "generated_at": "2026-10-02 19:37 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 16 action(s) still measuring (3-7d windows)",
+      "IMPACT: 19 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",
