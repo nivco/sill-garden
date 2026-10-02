@@ -1,12 +1,12 @@
 {
-  "checked_at": "2026-09-28T12:40:54.601657+00:00",
+  "checked_at": "2026-10-02T20:26:52.019779+00:00",
   "site": "sc-domain:sillgarden.com",
   "sitemap": {
     "path": "https://sillgarden.com/sitemap-index.xml",
     "last_submitted": "2026-08-13T21:17:58.407Z",
     "is_pending": false,
     "is_sitemaps_index": true,
-    "last_downloaded": "2026-09-19T15:46:23.456Z",
+    "last_downloaded": "2026-09-28T23:37:39.821Z",
     "warnings": "0",
     "errors": "0",
     "contents": [
@@ -58,7 +58,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T12:22:44Z",
+      "last_crawl_time": "2026-09-28T17:41:41Z",
       "google_canonical": "https://sillgarden.com/kits/",
       "user_canonical": "https://sillgarden.com/kits/",
       "referring_urls": []
@@ -70,7 +70,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T12:29:30Z",
+      "last_crawl_time": "2026-09-28T18:08:02Z",
       "google_canonical": "https://sillgarden.com/kits/studio-silence/",
       "user_canonical": "https://sillgarden.com/kits/studio-silence/",
       "referring_urls": [
@@ -84,10 +84,12 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T12:29:30Z",
+      "last_crawl_time": "2026-09-28T18:34:19Z",
       "google_canonical": "https://sillgarden.com/kits/kitchen-capacity/",
       "user_canonical": "https://sillgarden.com/kits/kitchen-capacity/",
-      "referring_urls": []
+      "referring_urls": [
+        "https://sillgarden.com/kits/"
+      ]
     },
     {
       "url": "https://sillgarden.com/kits/under-50/",
@@ -96,10 +98,12 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T12:31:31Z",
+      "last_crawl_time": "2026-09-28T16:02:26Z",
       "google_canonical": "https://sillgarden.com/kits/under-50/",
       "user_canonical": "https://sillgarden.com/kits/under-50/",
-      "referring_urls": []
+      "referring_urls": [
+        "https://sillgarden.com/tools/year-one-cost/"
+      ]
     },
     {
       "url": "https://sillgarden.com/kits/refills/",
@@ -108,10 +112,12 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T12:31:31Z",
+      "last_crawl_time": "2026-09-28T18:59:38Z",
       "google_canonical": "https://sillgarden.com/kits/refills/",
       "user_canonical": "https://sillgarden.com/kits/refills/",
-      "referring_urls": []
+      "referring_urls": [
+        "https://sillgarden.com/kits/under-50/"
+      ]
     },
     {
       "url": "https://sillgarden.com/tools/",
@@ -132,10 +138,11 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T12:35:45Z",
+      "last_crawl_time": "2026-09-28T17:54:51Z",
       "google_canonical": "https://sillgarden.com/tools/kit-picker/",
       "user_canonical": "https://sillgarden.com/tools/kit-picker/",
       "referring_urls": [
+        "https://sillgarden.com/tools/year-one-cost/",
         "https://sillgarden.com/kits/"
       ]
     },
@@ -146,7 +153,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T12:33:31Z",
+      "last_crawl_time": "2026-09-28T18:21:10Z",
       "google_canonical": "https://sillgarden.com/tools/year-one-cost/",
       "user_canonical": "https://sillgarden.com/tools/year-one-cost/",
       "referring_urls": [
@@ -160,7 +167,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T12:35:45Z",
+      "last_crawl_time": "2026-09-28T18:47:33Z",
       "google_canonical": "https://sillgarden.com/tools/apartment-herb-checklist/",
       "user_canonical": "https://sillgarden.com/tools/apartment-herb-checklist/",
       "referring_urls": [
@@ -276,7 +283,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-07T08:25:35Z",
+      "last_crawl_time": "2026-09-29T04:43:08Z",
       "google_canonical": "https://sillgarden.com/disclosure/",
       "user_canonical": "https://sillgarden.com/disclosure/",
       "referring_urls": [
@@ -471,7 +478,7 @@
     }
   ],
   "nudge": {
-    "ran_at": "2026-09-28T12:37:25.471284+00:00",
+    "ran_at": "2026-10-02T20:23:15.816009+00:00",
     "note": "GSC UI 'Request indexing' cannot be called via API for normal pages. This run resubmits the sitemap, IndexNow-pings priority URLs, and refreshes inspection.",
     "priority": [
       "https://sillgarden.com/",

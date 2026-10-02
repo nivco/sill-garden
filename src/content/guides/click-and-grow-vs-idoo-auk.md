@@ -32,6 +32,16 @@ Search demand for **Click and Grow vs Auk** and budget hydro kits is rising. The
 | Known mid-tier brand | **AeroGarden** Harvest-class |
 | Design-led counter piece | **Auk-class** — read recent noise/reliability reviews |
 
+## Side-by-side (apartment counters)
+
+| | Click & Grow 3 | iDOO-class 12-pod | AeroGarden Harvest |
+|--|----------------|-------------------|--------------------|
+| Typical pods | 3 | 10–12 | 6 |
+| Noise | Silent (wick) | Pump (check reviews) | Low pump hum |
+| Footprint | Narrow / sill-friendly | Wider counter block | Counter corner |
+| Refill model | Branded pods | Often open / clone pods | AeroGarden pods |
+| Best when | Sleep nearby | Max herbs / dollar | Brand + reminders |
+
 ## What to compare (ignore the rest)
 
 1. **Footprint** on a real cutting-board-sized counter  

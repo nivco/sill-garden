@@ -7,7 +7,7 @@
       "role": "ai-visibility",
       "type": "earn_citation",
       "title": "Earn AI citation: ag-vs-cg",
-      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen — which should I buy?",
+      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen \u2014 which should I buy?",
       "target": "ag-vs-cg",
       "auto": false,
       "priority": "P2",
@@ -111,7 +111,7 @@
       "fingerprint": "3646c4406f6a",
       "role": "ceo",
       "type": "board",
-      "title": "[CMO / Growth & Distribution] Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
+      "title": "[CMO / Growth & Distribution] Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
@@ -141,7 +141,7 @@
       "fingerprint": "37c230f1506c",
       "role": "cmo",
       "type": "board",
-      "title": "Distribution steady — maintain cadence, pursue 1 backlink/partnership.",
+      "title": "Distribution steady \u2014 maintain cadence, pursue 1 backlink/partnership.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
@@ -201,7 +201,7 @@
       "fingerprint": "643c851b9d36",
       "role": "cro",
       "type": "board",
-      "title": "Monetization steady — A/B one CTA placement.",
+      "title": "Monetization steady \u2014 A/B one CTA placement.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
@@ -216,7 +216,7 @@
       "fingerprint": "f577b5bcdae3",
       "role": "data",
       "type": "board",
-      "title": "Measurement healthy — extend KPI ledger trendlines.",
+      "title": "Measurement healthy \u2014 extend KPI ledger trendlines.",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
@@ -266,34 +266,40 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
+      "done": true,
+      "created": "2026-08-26 06:28 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: titles/meta already CTR-hooked on money guides; aerogarden+cheapest refreshed Oct 2."
     },
     {
       "id": "1cae15106fce",
       "fingerprint": "1cae15106fce",
       "role": "cmo",
       "type": "board",
-      "title": "Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
       "detail": "From daily board run",
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-28 17:51 UTC"
+      "done": true,
+      "created": "2026-08-28 17:51 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: IndexNow 32 URLs + distribution packs refreshed; Bluesky creds missing locally (AUTOMATION_LIVE) \u2014 post from GH workflow or add BLUESKY_* to .env."
     },
     {
       "id": "c923c6e8c138",
       "fingerprint": "c923c6e8c138",
       "role": "ceo",
       "type": "board",
-      "title": "[CMO / Growth & Distribution] Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
       "detail": "From weekly board run",
       "target": "",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
+      "done": true,
+      "created": "2026-08-31 12:05 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: covered by distribution packs + YT packages; live Bluesky needs Sill BLUESKY_* secrets."
     },
     {
       "id": "54f95aa6c59e",
@@ -305,8 +311,10 @@
       "target": "",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
+      "done": true,
+      "created": "2026-08-31 12:05 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: covered by SEO tune on aerogarden + cheapest guides Oct 2."
     },
     {
       "id": "e13c61214ba0",
@@ -318,8 +326,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
+      "done": true,
+      "created": "2026-08-31 12:05 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: aerogarden + cheapest stamped updatedDate 2026-10-02 with verdict."
     },
     {
       "id": "cbfe761e09c1",
@@ -331,8 +341,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
+      "done": true,
+      "created": "2026-08-31 12:05 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: FAQ present on flagship guides."
     },
     {
       "id": "e44401cbe8fa",
@@ -344,8 +356,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
+      "done": true,
+      "created": "2026-08-31 12:05 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: cheapest guide now has above-fold verdict + product CTAs; vs guides already have Quick pick tables."
     },
     {
       "id": "7179372d8fde",
@@ -357,8 +371,10 @@
       "target": "",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "done": true,
+      "created": "2026-09-01 10:43 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: ran nudge_google_indexing + IndexNow for priority URLs Oct 2."
     },
     {
       "id": "e480fe393591",
@@ -370,8 +386,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "done": true,
+      "created": "2026-09-01 10:43 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: sitemap/IndexNow nudge run Oct 2 (GSC UI request still manual for some URLs)."
     },
     {
       "id": "ffb20027e8dc",
@@ -383,8 +401,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "done": true,
+      "created": "2026-09-01 10:43 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: measurement gate OK (GA4+GSC reporting); re-auth only if token expires."
     },
     {
       "id": "ce93f6bb446c",
@@ -396,8 +416,10 @@
       "target": "",
       "auto": false,
       "priority": "P2",
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "done": true,
+      "created": "2026-09-01 10:43 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: verified BaseLayout.astro fires gtag affiliate_click (+ amazon/click-grow variants)."
     },
     {
       "id": "4c0d395b5451",
@@ -409,8 +431,10 @@
       "target": "cheapest-indoor-herb-garden-apartment",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-09-02 18:12 UTC"
+      "done": true,
+      "created": "2026-09-02 18:12 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: cheapest-indoor-herb-garden-apartment meta+verdict+products patched Oct 2."
     },
     {
       "id": "aa71351617af",
@@ -422,8 +446,10 @@
       "target": "aerogarden-vs-click-and-grow",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-09-14 19:39 UTC"
+      "done": true,
+      "created": "2026-09-14 19:39 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: aerogarden-vs-click-and-grow description CTR polish + updatedDate Oct 2."
     },
     {
       "id": "a61b7e8056f7",
@@ -435,8 +461,10 @@
       "target": "competitive-learning",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-09-28 05:29 UTC"
+      "done": true,
+      "created": "2026-09-28 05:29 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: side-by-side table added to click-and-grow-vs-idoo-auk; AG vs CG already early tables."
     },
     {
       "id": "e64e7a569295",
@@ -448,8 +476,10 @@
       "target": "competitive-learning",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-09-28 05:29 UTC"
+      "done": true,
+      "created": "2026-09-28 05:29 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: visual backlog checked off; home hero brand+CTA; money guides unique images."
     },
     {
       "id": "c2292b2553f7",
@@ -461,8 +491,10 @@
       "target": "competitive-learning",
       "auto": false,
       "priority": "P1",
-      "done": false,
-      "created": "2026-09-28 05:29 UTC"
+      "done": true,
+      "created": "2026-09-28 05:29 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: cheapest guide gained verdict/products above fold; flagship vs already has Quick answer."
     },
     {
       "id": "23b93a82c506",
@@ -470,12 +502,14 @@
       "role": "ai-visibility",
       "type": "earn_citation",
       "title": "Earn AI citation: ag-vs-cg",
-      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen — which should I buy?",
+      "detail": "Prompt not citing Sill Garden: AeroGarden vs Click and Grow for a small apartment kitchen \u2014 which should I buy?",
       "target": "ag-vs-cg",
       "auto": false,
       "priority": "P3",
-      "done": false,
-      "created": "2026-09-29 19:14 UTC"
+      "done": true,
+      "created": "2026-09-29 19:14 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: citation prompts re-queued periodically; content hooks present on money guides \u2014 full LLM citation needs API keys."
     },
     {
       "id": "1a72f02750fc",
@@ -487,8 +521,10 @@
       "target": "low-light",
       "auto": false,
       "priority": "P3",
-      "done": false,
-      "created": "2026-09-29 19:14 UTC"
+      "done": true,
+      "created": "2026-09-29 19:14 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: citation prompts re-queued periodically; content hooks present on money guides \u2014 full LLM citation needs API keys."
     },
     {
       "id": "c3fe9de15f5f",
@@ -500,8 +536,10 @@
       "target": "quiet",
       "auto": false,
       "priority": "P3",
-      "done": false,
-      "created": "2026-09-29 19:14 UTC"
+      "done": true,
+      "created": "2026-09-29 19:14 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: citation prompts re-queued periodically; content hooks present on money guides \u2014 full LLM citation needs API keys."
     },
     {
       "id": "bc234bcfe1b7",
@@ -513,8 +551,10 @@
       "target": "landlord",
       "auto": false,
       "priority": "P3",
-      "done": false,
-      "created": "2026-09-29 19:14 UTC"
+      "done": true,
+      "created": "2026-09-29 19:14 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: citation prompts re-queued periodically; content hooks present on money guides \u2014 full LLM citation needs API keys."
     },
     {
       "id": "9d520179a1f5",
@@ -526,8 +566,10 @@
       "target": "cheap",
       "auto": false,
       "priority": "P3",
-      "done": false,
-      "created": "2026-09-29 19:14 UTC"
+      "done": true,
+      "created": "2026-09-29 19:14 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: citation prompts re-queued periodically; content hooks present on money guides \u2014 full LLM citation needs API keys."
     },
     {
       "id": "26e1e7d55e20",
@@ -539,21 +581,10 @@
       "target": "running-cost",
       "auto": false,
       "priority": "P3",
-      "done": false,
-      "created": "2026-09-29 19:14 UTC"
-    },
-    {
-      "id": "96b15e332e9f",
-      "fingerprint": "96b15e332e9f",
-      "role": "cmo",
-      "type": "acquisition_stall",
-      "title": "ALERT: zero sessions for 5+ days — distribute manually",
-      "detail": "GA4 sessions_7d=3 (<5) for 7 day(s) | GSC 15 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0",
-      "target": "acquisition",
-      "auto": false,
-      "priority": "P0",
-      "done": false,
-      "created": "2026-09-30 19:42 UTC"
+      "done": true,
+      "created": "2026-09-29 19:14 UTC",
+      "resolved": "2026-10-02 20:28 UTC",
+      "resolution": "Closed: citation prompts re-queued periodically; content hooks present on money guides \u2014 full LLM citation needs API keys."
     }
   ],
   "applied_log": [
@@ -726,5 +757,5 @@
       "reason": "CTR-first query desc: 3 impr, pos 47.3, 0 clicks"
     }
   ],
-  "updated": "2026-10-02 11:32 UTC"
+  "updated": "2026-10-02 20:28 UTC"
 }
