@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-02 20:13 UTC",
+  "generated_at": "2026-10-03 03:09 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 3,
-    "users_7d": 1,
-    "pageviews_7d": 9,
+    "sessions_7d": 6,
+    "users_7d": 4,
+    "pageviews_7d": 12,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 21,
+    "gsc_impressions_7d": 18,
     "indexed_urls": 31,
     "sitemap_urls": 32,
     "cf_pageviews_7d": null,
-    "youtube_sessions_7d": 0,
+    "youtube_sessions_7d": 1,
     "youtube_subs": 1,
     "youtube_views_total": 397,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 100.0,
+    "engagement_rate_pct": 50.0,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 40
   },
@@ -31,18 +31,23 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 1,
-        "sessions": 3,
-        "screenPageViews": 9,
+        "activeUsers": 4,
+        "sessions": 6,
+        "screenPageViews": 12,
         "engagedSessions": 3,
-        "averageSessionDuration_sec": 645.6,
-        "engagementRate_pct": 100.0
+        "averageSessionDuration_sec": 322.8,
+        "engagementRate_pct": 50.0
       },
       "top_pages": [
         {
           "pagePath": "/",
           "sessions": "3",
           "screenPageViews": "6"
+        },
+        {
+          "pagePath": "/tools/year-one-cost/",
+          "sessions": "3",
+          "screenPageViews": "3"
         },
         {
           "pagePath": "/guides/",
@@ -59,6 +64,14 @@
         {
           "sessionDefaultChannelGroup": "Direct",
           "sessions": "3"
+        },
+        {
+          "sessionDefaultChannelGroup": "Cross-network",
+          "sessions": "2"
+        },
+        {
+          "sessionDefaultChannelGroup": "Organic Video",
+          "sessions": "1"
         }
       ],
       "source_medium": [
@@ -66,6 +79,16 @@
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "3",
           "engagedSessions": "3"
+        },
+        {
+          "sessionSourceMedium": "(data not available)",
+          "sessions": "2",
+          "engagedSessions": "0"
+        },
+        {
+          "sessionSourceMedium": "youtube / ",
+          "sessions": "1",
+          "engagedSessions": "0"
         }
       ],
       "events": {},
@@ -82,13 +105,13 @@
         }
       ],
       "affiliate_link_dimension": null,
-      "sessions_from_youtube": 0,
+      "sessions_from_youtube": 1,
       "affiliate_clicks_7d": 0
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 21,
-      "avg_position": 42.5,
+      "impressions": 18,
+      "avg_position": 44.3,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -121,9 +144,9 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 48.0
+          "position": 49.0
         },
         {
           "query": "indoor herb garden kit recommendations pdf",
@@ -142,19 +165,19 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-09-25",
-        "end": "2026-10-02"
+        "start": "2026-09-26",
+        "end": "2026-10-03"
       }
     },
     "indexing": {
-      "checked_at": "2026-09-28T12:40:54.601657+00:00",
+      "checked_at": "2026-10-02T20:26:52.019779+00:00",
       "site": "sc-domain:sillgarden.com",
       "sitemap": {
         "path": "https://sillgarden.com/sitemap-index.xml",
         "last_submitted": "2026-08-13T21:17:58.407Z",
         "is_pending": false,
         "is_sitemaps_index": true,
-        "last_downloaded": "2026-09-19T15:46:23.456Z",
+        "last_downloaded": "2026-09-28T23:37:39.821Z",
         "warnings": "0",
         "errors": "0",
         "contents": [
@@ -206,7 +229,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-28T12:22:44Z",
+          "last_crawl_time": "2026-09-28T17:41:41Z",
           "google_canonical": "https://sillgarden.com/kits/",
           "user_canonical": "https://sillgarden.com/kits/",
           "referring_urls": []
@@ -218,7 +241,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-28T12:29:30Z",
+          "last_crawl_time": "2026-09-28T18:08:02Z",
           "google_canonical": "https://sillgarden.com/kits/studio-silence/",
           "user_canonical": "https://sillgarden.com/kits/studio-silence/",
           "referring_urls": [
@@ -232,10 +255,12 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-28T12:29:30Z",
+          "last_crawl_time": "2026-09-28T18:34:19Z",
           "google_canonical": "https://sillgarden.com/kits/kitchen-capacity/",
           "user_canonical": "https://sillgarden.com/kits/kitchen-capacity/",
-          "referring_urls": []
+          "referring_urls": [
+            "https://sillgarden.com/kits/"
+          ]
         },
         {
           "url": "https://sillgarden.com/kits/under-50/",
@@ -244,10 +269,12 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-28T12:31:31Z",
+          "last_crawl_time": "2026-09-28T16:02:26Z",
           "google_canonical": "https://sillgarden.com/kits/under-50/",
           "user_canonical": "https://sillgarden.com/kits/under-50/",
-          "referring_urls": []
+          "referring_urls": [
+            "https://sillgarden.com/tools/year-one-cost/"
+          ]
         },
         {
           "url": "https://sillgarden.com/kits/refills/",
@@ -256,10 +283,12 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-28T12:31:31Z",
+          "last_crawl_time": "2026-09-28T18:59:38Z",
           "google_canonical": "https://sillgarden.com/kits/refills/",
           "user_canonical": "https://sillgarden.com/kits/refills/",
-          "referring_urls": []
+          "referring_urls": [
+            "https://sillgarden.com/kits/under-50/"
+          ]
         },
         {
           "url": "https://sillgarden.com/tools/",
@@ -280,10 +309,11 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-28T12:35:45Z",
+          "last_crawl_time": "2026-09-28T17:54:51Z",
           "google_canonical": "https://sillgarden.com/tools/kit-picker/",
           "user_canonical": "https://sillgarden.com/tools/kit-picker/",
           "referring_urls": [
+            "https://sillgarden.com/tools/year-one-cost/",
             "https://sillgarden.com/kits/"
           ]
         },
@@ -294,7 +324,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-28T12:33:31Z",
+          "last_crawl_time": "2026-09-28T18:21:10Z",
           "google_canonical": "https://sillgarden.com/tools/year-one-cost/",
           "user_canonical": "https://sillgarden.com/tools/year-one-cost/",
           "referring_urls": [
@@ -308,7 +338,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-28T12:35:45Z",
+          "last_crawl_time": "2026-09-28T18:47:33Z",
           "google_canonical": "https://sillgarden.com/tools/apartment-herb-checklist/",
           "user_canonical": "https://sillgarden.com/tools/apartment-herb-checklist/",
           "referring_urls": [
@@ -424,7 +454,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-09-07T08:25:35Z",
+          "last_crawl_time": "2026-09-29T04:43:08Z",
           "google_canonical": "https://sillgarden.com/disclosure/",
           "user_canonical": "https://sillgarden.com/disclosure/",
           "referring_urls": [
@@ -619,7 +649,7 @@
         }
       ],
       "nudge": {
-        "ran_at": "2026-09-28T12:37:25.471284+00:00",
+        "ran_at": "2026-10-02T20:23:15.816009+00:00",
         "note": "GSC UI 'Request indexing' cannot be called via API for normal pages. This run resubmits the sitemap, IndexNow-pings priority URLs, and refreshes inspection.",
         "priority": [
           "https://sillgarden.com/",
@@ -898,7 +928,7 @@
     }
   ],
   "insights": [
-    "GSC: 21 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 43), \u201caerogarden bounty vs bounty elite\u201d (pos 42), \u201caerogarden harvest vs bounty hydroponics\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 18 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 43), \u201caerogarden bounty vs bounty elite\u201d (pos 42), \u201caerogarden harvest vs bounty hydroponics\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -945,6 +975,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 3 | Aff clicks 0 | GSC 0c/21i | YT views 397 | Setup 6/7"
+    "headline": "Sessions 6 | Aff clicks 0 | GSC 0c/18i | YT views 397 | Setup 6/7"
   }
 }
