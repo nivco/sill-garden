@@ -48,7 +48,7 @@ Searching **AeroGarden vs Click & Grow** (or **Click and Grow vs AeroGarden**) u
 ![Basil leaves — the herb most countertop kits grow first](/images/inline-basil-alt.jpg)
 
 > **Ready to decide?**  
-> Capacity pick: [AeroGarden Harvest on Amazon](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · Silence pick: [Click & Grow Smart Garden 3](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1) · Or use the [quiet kit + pod-cost picker](/tools/kit-picker/).
+> Capacity: [AeroGarden Harvest on Amazon](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · Silence: [Click & Grow Smart Garden 3](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1) · [Studio Silence Kit](/kits/studio-silence/) · [Kitchen Capacity Kit](/kits/kitchen-capacity/) · [Kit picker](/tools/kit-picker/) · [Year-one cost](/tools/year-one-cost/)
 
 ## Click and Grow vs AeroGarden — who should buy which
 

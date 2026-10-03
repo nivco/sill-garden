@@ -1,8 +1,15 @@
 {
-  "updated": "YYYY-MM-DD",
-  "source": "Amazon Associates Central → Reports (paste weekly)",
+  "updated": null,
+  "source": "Amazon Associates Central → Reports → Orders / Earnings (last 7 days)",
+  "tag": "sillgarden09-20",
   "clicks_7d": null,
   "ordered_items_7d": null,
   "earnings_7d_usd": null,
-  "notes": "Amazon has no public earnings API. Update these fields after checking Associates reports."
+  "notes": "Paste weekly numbers here after checking Associates. No public API. Leave nulls until you have a real week.",
+  "how_to": [
+    "Open https://affiliate-program.amazon.com/ → Reports",
+    "Set range to last 7 days",
+    "Copy Clicks, Ordered Items, and Earnings (USD) into the fields above",
+    "Set updated to YYYY-MM-DD and push — board/dashboard will pick it up on next analytics refresh"
+  ]
 }

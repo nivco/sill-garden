@@ -1,14 +1,14 @@
 ---
-title: AeroGarden Bounty vs Harvest for apartments (2026)
-description: "AeroGarden Bounty vs Harvest (and Farm vs Farm Plus) for apartments — pods, footprint, noise, counter depth, and which model fits a real kitchen."
+title: AeroGarden Bounty vs Harvest (and Bounty Basic) for apartments (2026)
+description: "AeroGarden Bounty vs Bounty Basic vs Harvest for apartments (2026) — pods, footprint, noise, counter depth, and which model to buy first."
 pubDate: 2026-08-26
-updatedDate: 2026-10-02
+updatedDate: 2026-10-03
 cluster: systems
 type: comparison
 featured: true
 image: /images/kit-aerogarden-harvest.jpg
 imageAlt: AeroGarden countertop hydroponic kit growing vegetables under LED light
-verdict: Start with Harvest-class (≈6 pods) for most apartments. Step up to Bounty only if you cook herbs daily and have counter depth. Skip Farm-scale towers unless you have floor space.
+verdict: Start with Harvest-class (≈6 pods) for most apartments. Step up to Bounty only if you cook herbs daily and have counter depth. Bounty Basic vs Elite is mostly light height — skip Elite unless plants keep hitting the light. Skip Farm-scale towers unless you have floor space.
 products:
 - name: AeroGarden Harvest / Harvest Lite
   note: Best first apartment kit
@@ -21,7 +21,7 @@ products:
   asin: B01MRVMKQH
   partner: click-grow
 ---
-Searching **AeroGarden Bounty vs Harvest** (or **Harvest vs Bounty**, **AeroGarden Farm vs Farm Plus**) usually means: which kit fits a real apartment counter, not a showroom.
+Searching **AeroGarden Bounty vs Harvest** (or **Harvest vs Bounty**, **AeroGarden Bounty vs Bounty Basic**, **Farm vs Farm Plus**) usually means: which kit fits a real apartment counter, not a showroom.
 
 ![Fresh cilantro and coriander leaves](/images/inline-cilantro.jpg)
 
@@ -31,6 +31,7 @@ Searching **AeroGarden Bounty vs Harvest** (or **Harvest vs Bounty**, **AeroGard
 |-----------|-------------|
 | First kit / small counter | **Harvest** (≈6 pods) |
 | Heavy herb cooking | **Bounty** (more pods + taller light) |
+| Bounty Basic vs Elite | Same footprint — Elite only for taller LED |
 | Floor space + big greens | **Farm** / tower class |
 | Studio silence > yield | Consider **Click & Grow** instead |
 
@@ -49,7 +50,7 @@ Searching **AeroGarden Bounty vs Harvest** (or **Harvest vs Bounty**, **AeroGard
 | Watch-out | Outgrow capacity | Needs counter depth | Overkill for most rentals |
 
 > **Ready to pick a model?**  
-> [Check AeroGarden Harvest on Amazon](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · [Browse AeroGarden Bounty](https://www.amazon.com/s?k=AeroGarden+Bounty&tag=sillgarden09-20&linkCode=ll2) · [Silent alternative: Click & Grow](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1) · [Kit picker tool](/tools/kit-picker/)
+> [Check AeroGarden Harvest on Amazon](https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1) · [Browse AeroGarden Bounty](https://www.amazon.com/s?k=AeroGarden+Bounty&tag=sillgarden09-20&linkCode=ll2) · [Silent alternative: Click & Grow](https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1) · [Kitchen Capacity Kit](/kits/kitchen-capacity/) · [Kit picker](/tools/kit-picker/) · [Year-one cost](/tools/year-one-cost/)
 
 ## AeroGarden comparison — decision rules
 
@@ -71,8 +72,14 @@ Often yes. If you cook basil/mint a few times a week, Harvest covers it. Bounty 
 **AeroGarden Farm vs Farm Plus?**  
 Both are floor/tower-class. For apartments, neither is the first buy — start Harvest, then Bounty. Farm Plus only if you already outgrew Bounty and have dedicated floor space.
 
+**AeroGarden Bounty vs Bounty Basic?**  
+Same decision lane as Harvest → Bounty. “Basic” is the entry Bounty-class kit (more pods than Harvest, needs deeper counter). Buy it only after Harvest feels full every cycle — not as a first apartment kit.
+
 **AeroGarden Bounty vs Bounty Elite?**  
 Same pod count and counter depth. Elite is the taller LED. Buy Elite only if plants hit the Harvest/Bounty light; otherwise Harvest is the better apartment default.
+
+**AeroGarden Harvest vs Bounty hydroponics — which for apartments?**  
+Harvest. Same hydroponic idea; Bounty is capacity + height. Apartments usually lose on counter depth before they lose on grow speed.
 
 **Which grows faster — Harvest or Bounty?**  
 Similar plant speed per pod. Bounty just grows *more* at once if you fill it.
@@ -86,15 +93,10 @@ See our dedicated [AeroGarden vs Click & Grow](/guides/aerogarden-vs-click-and-g
 > **Key takeaway**
 > For apartments, buy the smallest AeroGarden that covers the herbs you actually cook. Capacity vanity is how kits become clutter.
 
-
-**Aerogarden bounty vs bounty basic?**  
-For "aerogarden bounty vs bounty basic", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
-
-**Aerogarden harvest vs bounty hydroponics?**  
-For "aerogarden harvest vs bounty hydroponics", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Related
 
 - [Quiet kit + pod-cost picker](/tools/kit-picker/)
+- [Kitchen Capacity Kit](/kits/kitchen-capacity/)
 - [AeroGarden vs Click & Grow](/guides/aerogarden-vs-click-and-grow/)
 - [Best countertop gardens for apartments](/guides/best-countertop-garden-apartments/)
 - [Quiet countertop gardens for studios](/guides/quiet-countertop-gardens-studios/)

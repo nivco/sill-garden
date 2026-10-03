@@ -1,5 +1,5 @@
 {
-  "checked_at": "2026-10-02T20:26:52.019779+00:00",
+  "checked_at": "2026-10-03T06:00:54.015190+00:00",
   "site": "sc-domain:sillgarden.com",
   "sitemap": {
     "path": "https://sillgarden.com/sitemap-index.xml",
@@ -121,14 +121,14 @@
     },
     {
       "url": "https://sillgarden.com/tools/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": null,
-      "user_canonical": null,
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-10-02T21:12:26Z",
+      "google_canonical": "https://sillgarden.com/tools/",
+      "user_canonical": "https://sillgarden.com/tools/",
       "referring_urls": []
     },
     {
@@ -478,7 +478,7 @@
     }
   ],
   "nudge": {
-    "ran_at": "2026-10-02T20:23:15.816009+00:00",
+    "ran_at": "2026-10-03T05:57:14.871197+00:00",
     "note": "GSC UI 'Request indexing' cannot be called via API for normal pages. This run resubmits the sitemap, IndexNow-pings priority URLs, and refreshes inspection.",
     "priority": [
       "https://sillgarden.com/",
@@ -510,12 +510,7 @@
       "count": 32
     }
   },
-  "indexed_count": 31,
-  "not_indexed_count": 1,
-  "not_indexed_urls": [
-    {
-      "url": "https://sillgarden.com/tools/",
-      "coverage_state": "URL is unknown to Google"
-    }
-  ]
+  "indexed_count": 32,
+  "not_indexed_count": 0,
+  "not_indexed_urls": []
 }
