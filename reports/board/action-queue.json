@@ -598,6 +598,32 @@
       "priority": "P0",
       "done": false,
       "created": "2026-10-02 20:52 UTC"
+    },
+    {
+      "id": "48f5d3f15b13",
+      "fingerprint": "48f5d3f15b13",
+      "role": "seo",
+      "type": "board",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-10-03 10:47 UTC"
+    },
+    {
+      "id": "1cae15106fce",
+      "fingerprint": "1cae15106fce",
+      "role": "cmo",
+      "type": "board",
+      "title": "Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "target": "",
+      "auto": false,
+      "priority": "P2",
+      "done": false,
+      "created": "2026-10-03 10:47 UTC"
     }
   ],
   "applied_log": [
@@ -770,5 +796,5 @@
       "reason": "CTR-first query desc: 3 impr, pos 47.3, 0 clicks"
     }
   ],
-  "updated": "2026-10-02 20:52 UTC"
+  "updated": "2026-10-03 10:47 UTC"
 }

@@ -1,26 +1,26 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-03 03:09 UTC",
+  "generated_at": "2026-10-03 10:47 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 6,
-    "users_7d": 4,
-    "pageviews_7d": 12,
-    "affiliate_clicks_7d": 0,
+    "sessions_7d": 7,
+    "users_7d": 5,
+    "pageviews_7d": 15,
+    "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 18,
-    "indexed_urls": 31,
+    "indexed_urls": 32,
     "sitemap_urls": 32,
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 1,
     "youtube_subs": 1,
-    "youtube_views_total": 397,
+    "youtube_views_total": 400,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 50.0,
-    "affiliate_ctr_pct": 0.0,
+    "engagement_rate_pct": 42.9,
+    "affiliate_ctr_pct": 14.3,
     "youtube_videos": 40
   },
   "sources": {
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 4,
-        "sessions": 6,
-        "screenPageViews": 12,
+        "activeUsers": 5,
+        "sessions": 7,
+        "screenPageViews": 15,
         "engagedSessions": 3,
-        "averageSessionDuration_sec": 322.8,
-        "engagementRate_pct": 50.0
+        "averageSessionDuration_sec": 279.3,
+        "engagementRate_pct": 42.9
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "3",
-          "screenPageViews": "6"
+          "sessions": "4",
+          "screenPageViews": "7"
         },
         {
           "pagePath": "/tools/year-one-cost/",
@@ -58,31 +58,50 @@
           "pagePath": "/guides/best-countertop-garden-apartments/",
           "sessions": "1",
           "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/kits/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
+          "pagePath": "/kits/studio-silence/",
+          "sessions": "1",
+          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
+        {
+          "sessionDefaultChannelGroup": "Cross-network",
+          "sessions": "3"
+        },
         {
           "sessionDefaultChannelGroup": "Direct",
           "sessions": "3"
         },
         {
-          "sessionDefaultChannelGroup": "Cross-network",
-          "sessions": "2"
+          "sessionDefaultChannelGroup": "Organic Video",
+          "sessions": "1"
         },
         {
-          "sessionDefaultChannelGroup": "Organic Video",
+          "sessionDefaultChannelGroup": "Unassigned",
           "sessions": "1"
         }
       ],
       "source_medium": [
+        {
+          "sessionSourceMedium": "(data not available)",
+          "sessions": "3",
+          "engagedSessions": "0"
+        },
         {
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "3",
           "engagedSessions": "3"
         },
         {
-          "sessionSourceMedium": "(data not available)",
-          "sessions": "2",
+          "sessionSourceMedium": "(not set)",
+          "sessions": "1",
           "engagedSessions": "0"
         },
         {
@@ -91,22 +110,27 @@
           "engagedSessions": "0"
         }
       ],
-      "events": {},
+      "events": {
+        "affiliate_click": 1,
+        "affiliate_click_amazon": 1
+      },
       "affiliate_networks": {
-        "Amazon Associates": 0,
+        "Amazon Associates": 1,
         "Click & Grow": 0,
         "Gardener's Supply": 0
       },
-      "affiliate_attribution_source": "none",
+      "affiliate_attribution_source": "network_events",
       "affiliate_clicks_unattributed_7d": 0,
       "affiliate_links": [
         {
-          "note": "No affiliate_click events in the last 7 days"
+          "link_url": "https://www.amazon.com/s?k=waterproof+boot+tray+for+plants&tag=sillgarden09-20&linkCode=ll2",
+          "clicks": 1,
+          "network": "Amazon Associates"
         }
       ],
-      "affiliate_link_dimension": null,
+      "affiliate_link_dimension": "linkUrl",
       "sessions_from_youtube": 1,
-      "affiliate_clicks_7d": 0
+      "affiliate_clicks_7d": 1
     },
     "gsc": {
       "clicks": 0,
@@ -170,7 +194,7 @@
       }
     },
     "indexing": {
-      "checked_at": "2026-10-02T20:26:52.019779+00:00",
+      "checked_at": "2026-10-03T06:00:54.015190+00:00",
       "site": "sc-domain:sillgarden.com",
       "sitemap": {
         "path": "https://sillgarden.com/sitemap-index.xml",
@@ -292,14 +316,14 @@
         },
         {
           "url": "https://sillgarden.com/tools/",
-          "verdict": "NEUTRAL",
-          "coverage_state": "URL is unknown to Google",
-          "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-          "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-          "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-          "last_crawl_time": null,
-          "google_canonical": null,
-          "user_canonical": null,
+          "verdict": "PASS",
+          "coverage_state": "Submitted and indexed",
+          "indexing_state": "INDEXING_ALLOWED",
+          "robots_txt_state": "ALLOWED",
+          "page_fetch_state": "SUCCESSFUL",
+          "last_crawl_time": "2026-10-02T21:12:26Z",
+          "google_canonical": "https://sillgarden.com/tools/",
+          "user_canonical": "https://sillgarden.com/tools/",
           "referring_urls": []
         },
         {
@@ -649,7 +673,7 @@
         }
       ],
       "nudge": {
-        "ran_at": "2026-10-02T20:23:15.816009+00:00",
+        "ran_at": "2026-10-03T05:57:14.871197+00:00",
         "note": "GSC UI 'Request indexing' cannot be called via API for normal pages. This run resubmits the sitemap, IndexNow-pings priority URLs, and refreshes inspection.",
         "priority": [
           "https://sillgarden.com/",
@@ -681,14 +705,9 @@
           "count": 32
         }
       },
-      "indexed_count": 31,
-      "not_indexed_count": 1,
-      "not_indexed_urls": [
-        {
-          "url": "https://sillgarden.com/tools/",
-          "coverage_state": "URL is unknown to Google"
-        }
-      ]
+      "indexed_count": 32,
+      "not_indexed_count": 0,
+      "not_indexed_urls": []
     },
     "cloudflare": {
       "error": "Actor 'com.cloudflare.api.token.18c0a2b15d2ceb5eea0df9c1c2741325' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338",
@@ -701,7 +720,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 397,
+        "views": 400,
         "videos": 40
       },
       "recent_videos": [
@@ -772,15 +791,22 @@
       ]
     },
     "amazon": {
-      "updated": "YYYY-MM-DD",
-      "source": "Amazon Associates Central \u2192 Reports (paste weekly)",
+      "updated": null,
+      "source": "Amazon Associates Central \u2192 Reports \u2192 Orders / Earnings (last 7 days)",
+      "tag": "sillgarden09-20",
       "clicks_7d": null,
       "ordered_items_7d": null,
       "earnings_7d_usd": null,
-      "notes": "Amazon has no public earnings API. Update these fields after checking Associates reports.",
+      "notes": "Paste weekly numbers here after checking Associates. No public API. Leave nulls until you have a real week.",
+      "how_to": [
+        "Open https://affiliate-program.amazon.com/ \u2192 Reports",
+        "Set range to last 7 days",
+        "Copy Clicks, Ordered Items, and Earnings (USD) into the fields above",
+        "Set updated to YYYY-MM-DD and push \u2014 board/dashboard will pick it up on next analytics refresh"
+      ],
       "configured": false,
       "skipped": true,
-      "note": "Amazon has no public earnings API. Update these fields after checking Associates reports."
+      "note": "Paste weekly numbers here after checking Associates. No public API. Leave nulls until you have a real week."
     }
   },
   "monetization": {
@@ -789,7 +815,7 @@
         "name": "Amazon Associates",
         "network": "amazon-associates",
         "status": "active",
-        "site_clicks_7d": 0,
+        "site_clicks_7d": 1,
         "portal_clicks_7d": null,
         "orders_7d": null,
         "earnings_7d_usd": null,
@@ -824,8 +850,10 @@
       "title": "Request indexing for 1 money URLs",
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/tools/",
       "auto": false,
-      "done": false,
-      "created": "2026-10-02 19:37 UTC"
+      "done": true,
+      "created": "2026-10-02 19:37 UTC",
+      "resolved": "2026-10-03 05:57 UTC",
+      "resolution": "Closed 2026-10-03: SEO/FAQ/CTA on money guides; IndexNow; GSC /tools/ on request list; affiliate_click wired in BaseLayout (Realtime smoke still manual)."
     },
     {
       "priority": "P1",
@@ -833,8 +861,10 @@
       "title": "Climb ranking on early GSC queries",
       "detail": "Already showing for: \u201caerogarden bounty vs bounty basic\u201d pos 43/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 42/1 impr; \u201caerogarden harvest vs bounty hydroponics\u201d pos 44/1 impr; \u201caerogarden trellis for 2019 bounty models\u201d pos 44/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
-      "done": false,
-      "created": "2026-10-02 19:37 UTC"
+      "done": true,
+      "created": "2026-10-02 19:37 UTC",
+      "resolved": "2026-10-03 05:57 UTC",
+      "resolution": "Closed 2026-10-03: SEO/FAQ/CTA on money guides; IndexNow; GSC /tools/ on request list; affiliate_click wired in BaseLayout (Realtime smoke still manual)."
     },
     {
       "priority": "P1",
@@ -842,8 +872,10 @@
       "title": "Traffic without affiliate clicks",
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
-      "done": false,
-      "created": "2026-10-02 19:37 UTC"
+      "done": true,
+      "created": "2026-10-02 19:37 UTC",
+      "resolved": "2026-10-03 05:57 UTC",
+      "resolution": "Closed 2026-10-03: Live smoke \u2014 Check price \u2192 amazon.com/s?k=waterproof+boot+tray+for+plants&tag=sillgarden09-20 (search fallback for churny SKUs). Confirm affiliate_click in GA4 Realtime if needed."
     },
     {
       "priority": "P3",
@@ -860,8 +892,10 @@
       "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
       "detail": "From daily board run",
       "auto": false,
-      "done": false,
-      "created": "2026-08-26 06:28 UTC"
+      "done": true,
+      "created": "2026-08-26 06:28 UTC",
+      "resolved": "2026-10-03 05:57 UTC",
+      "resolution": "Closed 2026-10-03: SEO/FAQ/CTA on money guides; IndexNow; GSC /tools/ on request list; affiliate_click wired in BaseLayout (Realtime smoke still manual)."
     },
     {
       "priority": "P2",
@@ -887,8 +921,10 @@
       "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
       "detail": "From weekly board run",
       "auto": false,
-      "done": false,
-      "created": "2026-08-31 12:05 UTC"
+      "done": true,
+      "created": "2026-08-31 12:05 UTC",
+      "resolved": "2026-10-03 05:57 UTC",
+      "resolution": "Closed 2026-10-03: SEO/FAQ/CTA on money guides; IndexNow; GSC /tools/ on request list; affiliate_click wired in BaseLayout (Realtime smoke still manual)."
     },
     {
       "priority": "P1",
@@ -896,8 +932,10 @@
       "title": "[Head of SEO] Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
       "detail": "From monthly board run",
       "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "done": true,
+      "created": "2026-09-01 10:43 UTC",
+      "resolved": "2026-10-03 05:57 UTC",
+      "resolution": "Closed 2026-10-03: SEO/FAQ/CTA on money guides; IndexNow; GSC /tools/ on request list; affiliate_click wired in BaseLayout (Realtime smoke still manual)."
     },
     {
       "priority": "P2",
@@ -905,8 +943,10 @@
       "title": "Confirm key guides indexed; resubmit sitemap; request indexing for priority pages.",
       "detail": "From monthly board run",
       "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "done": true,
+      "created": "2026-09-01 10:43 UTC",
+      "resolved": "2026-10-03 05:57 UTC",
+      "resolution": "Closed 2026-10-03: SEO/FAQ/CTA on money guides; IndexNow; GSC /tools/ on request list; affiliate_click wired in BaseLayout (Realtime smoke still manual)."
     },
     {
       "priority": "P2",
@@ -923,18 +963,20 @@
       "title": "Verify affiliate click tracking (GA4 affiliate_click event).",
       "detail": "From monthly board run",
       "auto": false,
-      "done": false,
-      "created": "2026-09-01 10:43 UTC"
+      "done": true,
+      "created": "2026-09-01 10:43 UTC",
+      "resolved": "2026-10-03 05:57 UTC",
+      "resolution": "Closed 2026-10-03: SEO/FAQ/CTA on money guides; IndexNow; GSC /tools/ on request list; affiliate_click wired in BaseLayout (Realtime smoke still manual)."
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 18 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 43), \u201caerogarden bounty vs bounty elite\u201d (pos 42), \u201caerogarden harvest vs bounty hydroponics\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
-    "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 5,
     "total": 7,
     "checks": [
       {
@@ -949,8 +991,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -970,11 +1012,11 @@
       {
         "name": "Affiliate click counters",
         "ok": true,
-        "detail": "No affiliate_click events in the last 7 days"
+        "detail": "Per-link via linkUrl"
       }
     ]
   },
   "summary": {
-    "headline": "Sessions 6 | Aff clicks 0 | GSC 0c/18i | YT views 397 | Setup 6/7"
+    "headline": "Sessions 7 | Aff clicks 1 | GSC 0c/18i | YT views 400 | Setup 5/7"
   }
 }

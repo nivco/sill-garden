@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-02",
+  "updated_at": "2026-10-03",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -58,6 +58,20 @@
       "status": "working",
       "from_impact": true,
       "action_id": "cdea96f2c75ad9"
+    },
+    {
+      "signal": "Impact+: distribution on compare-aerogarden-models",
+      "action": "Repeat — positive sessions_7d +4 after kit-first distribution pack",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "8de1887482c6ab"
+    },
+    {
+      "signal": "Impact+: applied on stalled → P0 acquisition enqueued",
+      "action": "Repeat — positive sessions_7d +4 after outcome_health: stalled → P0 acquisition enqueued",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "db9024aef038c3"
     }
   ],
   "ignore": [

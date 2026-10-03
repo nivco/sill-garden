@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-02 19:37 UTC",
+  "generated_at": "2026-10-03 10:47 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
   "applied": [],
@@ -8,7 +8,7 @@
       "priority": "P0",
       "category": "indexing",
       "title": "Request indexing for 1 money URLs",
-      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/tools/",
+      "detail": "Search Console → URL Inspection → Request indexing: https://sillgarden.com/tools/",
       "auto": false,
       "done": true,
       "created": "2026-10-02 19:37 UTC",
@@ -19,7 +19,7 @@
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden bounty vs bounty basic\u201d pos 43/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 42/1 impr; \u201caerogarden harvest vs bounty hydroponics\u201d pos 44/1 impr; \u201caerogarden trellis for 2019 bounty models\u201d pos 44/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: “aerogarden bounty vs bounty basic” pos 43/1 impr; “aerogarden bounty vs bounty elite” pos 42/1 impr; “aerogarden harvest vs bounty hydroponics” pos 44/1 impr; “aerogarden trellis for 2019 bounty models” pos 44/2 impr. Keep the matching guide title/FAQ tight; promote via YouTube — don't spam re-index.",
       "auto": false,
       "done": true,
       "created": "2026-10-02 19:37 UTC",
@@ -60,7 +60,7 @@
     {
       "priority": "P2",
       "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "title": "Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.",
       "detail": "From daily board run",
       "auto": false,
       "done": false,
@@ -69,7 +69,7 @@
     {
       "priority": "P1",
       "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "title": "[CMO / Growth & Distribution] Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distri",
       "detail": "From weekly board run",
       "auto": false,
       "done": false,
