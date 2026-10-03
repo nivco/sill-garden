@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-03 18:23 UTC",
+  "generated_at": "2026-10-03 18:52 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 713,
+        "word_count_est": 643,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -117,32 +117,6 @@
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 3833,
-        "images": 0,
-        "has_faq": false,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -195,17 +169,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1321 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Build query-matched comparison pages with decision-led titles.**",
-    "LLM peer insight: Ship three pages targeting the existing GSC demand:",
-    "LLM peer insight: - **“AeroGarden Bounty Basic vs Bounty vs Elite: Which 9-Pod Garden Is Best?”**",
-    "LLM peer insight: - **“AeroGarden Harvest vs Bounty: Which Hydroponic Garden Should You Buy?”**",
-    "LLM peer insight: - **“AeroGarden vs Click & Grow: Best Indoor Garden for Herbs, Greens, and Tomatoes?”**",
-    "LLM peer insight: Use one clear H1 matching each title, then add a one-sentence verdict directly below it. Distinguish models by pod count, grow height, light wattage, controls, Wi-Fi, maintenance, and ideal user. Current comparison cover",
-    "LLM peer insight: . **Add above-the-fold comparison tables—not just prose.**"
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Create query-matched comparison pages with decision-led titles.**",
+    "LLM peer insight: Ship five pages—or one tightly structured hub with dedicated sections—using titles such as:",
+    "LLM peer insight: - “AeroGarden Bounty vs Bounty Basic: Which 9-Pod Garden Is Better?”",
+    "LLM peer insight: - “AeroGarden Bounty vs Bounty Elite: Is the Extra Cost Worth It?”",
+    "LLM peer insight: - “AeroGarden Harvest vs Bounty: Best for Herbs, Greens, and Tomatoes”",
+    "LLM peer insight: - “AeroGarden Trellis for 2019 Bounty Models: Compatibility and Setup”",
+    "LLM peer insight: - “AeroGarden vs Click & Grow: Which Indoor Garden Should You Buy?”",
+    "LLM peer insight: Put the exact comparison in the H1, add a 40–60-word verdict immediately below it, and include “best for” recommendations for apartment renters, beginners, frequent travelers, and tomato growers. Official AeroGarden info"
   ],
-  "llm_notes": "1. **Build query-matched comparison pages with decision-led titles.**  \n   Ship three pages targeting the existing GSC demand:\n   - **“AeroGarden Bounty Basic vs Bounty vs Elite: Which 9-Pod Garden Is Best?”**\n   - **“AeroGarden Harvest vs Bounty: Which Hydroponic Garden Should You Buy?”**\n   - **“AeroGarden vs Click & Grow: Best Indoor Garden for Herbs, Greens, and Tomatoes?”**  \n   Use one clear H1 matching each title, then add a one-sentence verdict directly below it. Distinguish models by pod count, grow height, light wattage, controls, Wi-Fi, maintenance, and ideal user. Current comparison coverage shows these are the decision variables shoppers care about.[1][9][10]\n\n2. **Add above-the-fold comparison tables—not just prose.**  \n   Put a compact table immediately after the verdict, with columns for each model and rows for:\n   - Pod capacity\n   - Maximum plant height\n   - LED wattage\n   - Reservoir size\n   - Wi-Fi/app support\n   - Touchscreen or controls\n   - Best crops\n   - Typical price\n   - Best for  \n   Highlight the winner in each use case rather than claiming one universal winner. For example, Harvest suits herbs and greens, while Bounty’s larger capacity and taller clearance better support tomatoes and peppers.[1][9] Include a “What you actually get for the upgrade” row so the Bounty Elite’s premium is evaluated against practical benefits, not finish alone.\n\n3. **Create a dedicated “Trellis for 2019 AeroGarden Bounty Models” support page.**  \n   Use the exact title: **“AeroGarden Trellis for 2019 Bounty Models: Fit, Setup, and Alternatives.”** Open with a compati",
+  "llm_notes": "1. **Create query-matched comparison pages with decision-led titles.**  \n   Ship five pages—or one tightly structured hub with dedicated sections—using titles such as:\n   - “AeroGarden Bounty vs Bounty Basic: Which 9-Pod Garden Is Better?”\n   - “AeroGarden Bounty vs Bounty Elite: Is the Extra Cost Worth It?”\n   - “AeroGarden Harvest vs Bounty: Best for Herbs, Greens, and Tomatoes”\n   - “AeroGarden Trellis for 2019 Bounty Models: Compatibility and Setup”\n   - “AeroGarden vs Click & Grow: Which Indoor Garden Should You Buy?”\n\n   Put the exact comparison in the H1, add a 40–60-word verdict immediately below it, and include “best for” recommendations for apartment renters, beginners, frequent travelers, and tomato growers. Official AeroGarden information distinguishes Bounty Basic, Bounty, and Bounty Elite by light wattage and features, so the comparison pages should not treat the models as interchangeable.[5]\n\n2. **Add a scannable specification table above the first long section.**  \n   Use columns for **Model, pod capacity, light power, maximum plant height, Wi-Fi/app, touchscreen, finish, best for, and current price**. Highlight differences rather than filling cells with marketing copy. For example, the Bounty family is generally a 9-pod platform, while Harvest is a smaller 6-pod system; published comparisons also position Harvest around 12 inches of grow height versus roughly 24 inches for Bounty.[1][4] Add a final row labeled **Our pick** with a one-sentence justification.\n\n3. **Turn FAQs into answer-first SEO blocks.**  \n   Add 6–8 visible FAQs to every comparison page, w",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -236,6 +210,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
