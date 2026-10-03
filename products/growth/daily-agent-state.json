@@ -1,15 +1,17 @@
 {
-  "last_run": "2026-10-02 19:37 UTC",
+  "last_run": "2026-10-03 18:23 UTC",
   "last_applied": [
-    "wrote visual-backlog.md",
-    "outcome_health: stalled → P0 acquisition enqueued",
+    "faq:aerogarden-vs-click-and-grow:Aerogarden trellis for 2019 bounty models?",
+    "faq:compare-aerogarden-models:Aerogarden trellis for 2019 bounty models?",
+    "faq:compare-aerogarden-models:Aerogarden vs click and grow?",
+    "updated visual-backlog.md",
     "IndexNow ping"
   ],
-  "last_summary": "products/growth/daily-summaries/2026-10-02.md",
-  "last_distribution": "products/growth/distribution/2026-10-02.json",
-  "last_outcome_severity": "critical",
+  "last_summary": "products/growth/daily-summaries/2026-10-03.md",
+  "last_distribution": "products/growth/distribution/2026-10-03.json",
+  "last_outcome_severity": "ok",
   "last_impact": {
     "closed": 0,
-    "recorded": 4
+    "recorded": 5
   }
 }

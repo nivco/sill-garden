@@ -118,6 +118,9 @@ Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Sta
 
 **Aerogarden harvest vs bounty hydroponics?**  
 Harvest-class suits herbs on a small counter; Bounty suits taller plants and heavier daily cooking. If you mainly grow basil/mint, Harvest-class is usually enough.
+
+**Aerogarden trellis for 2019 bounty models?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Our call
 
 **Default:** AeroGarden Harvest-class for most readers.  

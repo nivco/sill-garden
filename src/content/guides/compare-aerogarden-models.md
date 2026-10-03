@@ -93,6 +93,12 @@ See our dedicated [AeroGarden vs Click & Grow](/guides/aerogarden-vs-click-and-g
 > **Key takeaway**
 > For apartments, buy the smallest AeroGarden that covers the herbs you actually cook. Capacity vanity is how kits become clutter.
 
+
+**Aerogarden trellis for 2019 bounty models?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Aerogarden vs click and grow?**  
+AeroGarden uses a small pump and usually grows faster with more pods; Click & Grow is silent and sill-friendly. Pick silence vs capacity first.
 ## Related
 
 - [Quiet kit + pod-cost picker](/tools/kit-picker/)

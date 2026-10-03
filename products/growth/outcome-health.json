@@ -1,37 +1,24 @@
 {
-  "generated_at": "2026-10-02 20:52 UTC",
-  "severity": "critical",
-  "stalled": true,
+  "generated_at": "2026-10-03 18:23 UTC",
+  "severity": "ok",
+  "stalled": false,
   "zero_session_days": [],
   "zero_session_day_count": 0,
-  "low_session_days": [
-    "2026-10-02",
-    "2026-10-01",
-    "2026-09-30",
-    "2026-09-29",
-    "2026-09-28",
-    "2026-09-27",
-    "2026-09-26",
-    "2026-09-25",
-    "2026-09-24"
-  ],
-  "low_session_day_count": 9,
+  "low_session_days": [],
+  "low_session_day_count": 0,
   "youtube_flat": false,
   "metrics": {
-    "sessions_7d": 3,
-    "gsc_impressions_7d": 21,
+    "sessions_7d": 10,
+    "gsc_impressions_7d": 18,
     "gsc_clicks_7d": 0,
-    "affiliate_clicks_7d": 0,
-    "youtube_views_total": 397,
-    "youtube_sessions_7d": 0,
+    "affiliate_clicks_7d": 1,
+    "youtube_views_total": 400,
+    "youtube_sessions_7d": 1,
     "next_eligible_date": "2026-10-04",
     "distribution_url": "https://sillgarden.com/guides/compare-aerogarden-models/"
   },
   "reasons": [
-    "GA4 sessions_7d=3 (<5) for 9 day(s)",
-    "GSC 21 impressions / 0 clicks",
-    "YouTube -> site sessions = 0",
-    "Affiliate clicks_7d = 0"
+    "GSC 18 impressions / 0 clicks"
   ],
   "actions": [
     "Post 1 kit-first Reddit thread (products/growth/distribution/latest.json — /kits/* not guide-only)",
@@ -45,10 +32,5 @@
     "low_session_threshold": 5,
     "low_session_days_critical": 7,
     "youtube_flat_points": 6
-  },
-  "email": {
-    "ok": false,
-    "skipped": true,
-    "detail": "quiet hours Israel (23:52 IDT); send only 08:00-23:00 Asia/Jerusalem"
   }
 }

@@ -624,6 +624,32 @@
       "priority": "P2",
       "done": false,
       "created": "2026-10-03 10:47 UTC"
+    },
+    {
+      "id": "e64e7a569295",
+      "fingerprint": "e64e7a569295",
+      "role": "cro",
+      "type": "visuality",
+      "title": "Visuality iteration: hero/CTA/og image hygiene",
+      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
+      "target": "competitive-learning",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-10-03 18:23 UTC"
+    },
+    {
+      "id": "aa71351617af",
+      "fingerprint": "aa71351617af",
+      "role": "seo",
+      "type": "tune_guide_seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 44.5, 0 clicks",
+      "target": "aerogarden-vs-click-and-grow",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-10-03 18:23 UTC"
     }
   ],
   "applied_log": [
@@ -796,5 +822,5 @@
       "reason": "CTR-first query desc: 3 impr, pos 47.3, 0 clicks"
     }
   ],
-  "updated": "2026-10-03 10:47 UTC"
+  "updated": "2026-10-03 18:23 UTC"
 }

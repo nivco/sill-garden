@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-10-02 19:37 UTC",
+  "generated_at": "2026-10-03 18:23 UTC",
   "wow": {
-    "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 1.0,
+    "ga4_sessions_7d": 7.0,
+    "gsc_impressions_7d": -3.0,
     "gsc_clicks_7d": 0.0,
-    "affiliate_clicks_7d": 0.0
+    "affiliate_clicks_7d": 1.0
   },
   "hero": {
-    "sessions_7d": 3,
-    "gsc_impressions_7d": 21,
+    "sessions_7d": 10,
+    "gsc_impressions_7d": 18,
     "gsc_clicks_7d": 0,
-    "affiliate_clicks_7d": 0,
-    "youtube_sessions_7d": 0,
-    "indexed_urls": 31
+    "affiliate_clicks_7d": 1,
+    "youtube_sessions_7d": 1,
+    "indexed_urls": 32
   },
   "top_queries": [
     {
@@ -46,9 +46,9 @@
     {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 48.0
+      "position": 49.0
     },
     {
       "query": "indoor herb garden kit recommendations pdf",
@@ -66,14 +66,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: - Put a two-sentence verdict directly below each H1. Example: “Choose the Bounty Basic if you want nine pods at the lowest cost. Choose the Elite only if its stronger light, stainless finish, or smart features justify th",
-    "LLM peer insight: - **Best AeroGarden Trellis for 2019 Bounty Models**",
-    "LLM peer insight: - **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
-    "LLM peer insight: - **AeroGarden Harvest vs Bounty: Pods, Height, Light and Price Compared**",
-    "LLM peer insight: - **AeroGarden Bounty Basic vs Bounty Elite: Which Should You Buy?**",
-    "LLM peer insight: . **Create exact-match comparison titles and above-the-fold summaries**",
-    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the GSC demand rather than copying broad peer-site layouts.",
-    "WORKING peer pattern: long-form depth (~1319 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Add above-the-fold comparison tables—not just prose.**",
+    "LLM peer insight: Use one clear H1 matching each title, then add a one-sentence verdict directly below it. Distinguish models by pod count, grow height, light wattage, controls, Wi-Fi, maintenance, and ideal user. Current comparison cover",
+    "LLM peer insight: - **“AeroGarden vs Click & Grow: Best Indoor Garden for Herbs, Greens, and Tomatoes?”**",
+    "LLM peer insight: - **“AeroGarden Harvest vs Bounty: Which Hydroponic Garden Should You Buy?”**",
+    "LLM peer insight: - **“AeroGarden Bounty Basic vs Bounty vs Elite: Which 9-Pod Garden Is Best?”**",
+    "LLM peer insight: Ship three pages targeting the existing GSC demand:",
+    "LLM peer insight: . **Build query-matched comparison pages with decision-led titles.**",
+    "WORKING peer pattern: long-form depth (~1321 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -93,7 +93,7 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-02 19:37 UTC"
+    "generated_at": "2026-10-03 18:23 UTC"
   },
   "impact": {
     "closed_today": 0,
