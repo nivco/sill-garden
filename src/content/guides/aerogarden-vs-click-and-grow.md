@@ -2,7 +2,7 @@
 title: AeroGarden vs Click & Grow for apartments (2026)
 description: "AeroGarden vs Click and Grow for apartments (2026) — noise, footprint, refill cost, and which kit to buy first for a small kitchen."
 pubDate: 2026-08-13
-updatedDate: 2026-10-03
+updatedDate: 2026-10-04
 cluster: systems
 type: comparison
 featured: true
@@ -120,6 +120,9 @@ Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Sta
 Harvest-class suits herbs on a small counter; Bounty suits taller plants and heavier daily cooking. If you mainly grow basil/mint, Harvest-class is usually enough.
 
 **Aerogarden trellis for 2019 bounty models?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Indoor herb garden kit recommendations pdf?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Our call
 

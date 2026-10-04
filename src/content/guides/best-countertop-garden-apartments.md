@@ -19,7 +19,7 @@ products:
 - name: Budget 10–12 pod kits (iDOO / similar)
   note: More plants per dollar; check pump noise reviews
   search: iDOO hydroponics 12 pod indoor garden
-updatedDate: 2026-09-12
+updatedDate: 2026-10-04
 ---
 Apartment counters are short on space and patience. The right first system is the one you’ll actually keep plugged in — not the tallest tower on Amazon.
 
@@ -90,3 +90,6 @@ A countertop garden needs light, water, and a drip tray. Kits are fastest; jars 
 
 **Countertop gardens?**  
 A countertop garden needs light, water, and a drip tray. Kits are fastest; jars plus a clip-on LED are quieter and cheaper if you will maintain them.
+
+**Aerogarden vs click and grow?**  
+AeroGarden uses a small pump and usually grows faster with more pods; Click & Grow is silent and sill-friendly. Pick silence vs capacity first.

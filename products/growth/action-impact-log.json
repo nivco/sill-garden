@@ -1353,10 +1353,115 @@
         "youtube_views_total": 400.0
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "be7104364bafb5",
+      "kind": "distribution",
+      "target": "compare-aerogarden-models",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-04",
+      "measure_after": "2026-10-07",
+      "final_after": "2026-10-11",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 16.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 401.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "5786c5d6d7cbed",
+      "kind": "applied",
+      "target": "Aerogarden vs click and grow?",
+      "title": "faq:best-countertop-garden-apartments:Aerogarden vs click and grow?",
+      "detail": "faq:best-countertop-garden-apartments:Aerogarden vs click and grow?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-04",
+      "measure_after": "2026-10-07",
+      "final_after": "2026-10-11",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 16.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 401.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "ad0554de522ac0",
+      "kind": "applied",
+      "target": "Indoor herb garden kit recommendations pdf?",
+      "title": "faq:aerogarden-vs-click-and-grow:Indoor herb garden kit recommendations pdf?",
+      "detail": "faq:aerogarden-vs-click-and-grow:Indoor herb garden kit recommendations pdf?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-04",
+      "measure_after": "2026-10-07",
+      "final_after": "2026-10-11",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 16.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 401.0
+      },
+      "primary_metric": "affiliate_clicks_7d"
+    },
+    {
+      "id": "3b16fec031c186",
+      "kind": "applied",
+      "target": "updated visual-backlog.md",
+      "title": "updated visual-backlog.md",
+      "detail": "updated visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-04",
+      "measure_after": "2026-10-07",
+      "final_after": "2026-10-11",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 16.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 401.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "cfeba33b550216",
+      "kind": "applied",
+      "target": "IndexNow ping",
+      "title": "IndexNow ping",
+      "detail": "IndexNow ping",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-04",
+      "measure_after": "2026-10-07",
+      "final_after": "2026-10-11",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 16.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 401.0
+      },
+      "primary_metric": "gsc_impressions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-04 11:28 UTC"
+  "updated_at": "2026-10-04 18:26 UTC"
 }

@@ -2,7 +2,7 @@
 title: AeroGarden Bounty vs Harvest (and Bounty Basic) for apartments (2026)
 description: "AeroGarden Bounty vs Bounty Basic vs Harvest for apartments (2026) — pods, footprint, noise, counter depth, and which model to buy first."
 pubDate: 2026-08-26
-updatedDate: 2026-10-03
+updatedDate: 2026-10-04
 cluster: systems
 type: comparison
 featured: true
@@ -99,6 +99,9 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 
 **Aerogarden vs click and grow?**  
 AeroGarden uses a small pump and usually grows faster with more pods; Click & Grow is silent and sill-friendly. Pick silence vs capacity first.
+
+**Indoor herb garden kit recommendations pdf?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Related
 
 - [Quiet kit + pod-cost picker](/tools/kit-picker/)

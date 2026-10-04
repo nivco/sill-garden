@@ -1,17 +1,17 @@
 {
-  "generated_at": "2026-10-03 18:23 UTC",
+  "generated_at": "2026-10-04 18:25 UTC",
   "wow": {
-    "ga4_sessions_7d": 7.0,
-    "gsc_impressions_7d": -3.0,
+    "ga4_sessions_7d": 4.0,
+    "gsc_impressions_7d": -2.0,
     "gsc_clicks_7d": 0.0,
-    "affiliate_clicks_7d": 1.0
+    "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 10,
-    "gsc_impressions_7d": 18,
+    "sessions_7d": 11,
+    "gsc_impressions_7d": 16,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
-    "youtube_sessions_7d": 1,
+    "youtube_sessions_7d": 3,
     "indexed_urls": 32
   },
   "top_queries": [
@@ -37,13 +37,6 @@
       "position": 44.0
     },
     {
-      "query": "aerogarden trellis for 2019 bounty models",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 44.5
-    },
-    {
       "query": "aerogarden vs click and grow",
       "clicks": 0,
       "impressions": 1,
@@ -66,14 +59,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: . **Add above-the-fold comparison tables—not just prose.**",
-    "LLM peer insight: Use one clear H1 matching each title, then add a one-sentence verdict directly below it. Distinguish models by pod count, grow height, light wattage, controls, Wi-Fi, maintenance, and ideal user. Current comparison cover",
-    "LLM peer insight: - **“AeroGarden vs Click & Grow: Best Indoor Garden for Herbs, Greens, and Tomatoes?”**",
-    "LLM peer insight: - **“AeroGarden Harvest vs Bounty: Which Hydroponic Garden Should You Buy?”**",
-    "LLM peer insight: - **“AeroGarden Bounty Basic vs Bounty vs Elite: Which 9-Pod Garden Is Best?”**",
-    "LLM peer insight: Ship three pages targeting the existing GSC demand:",
-    "LLM peer insight: . **Build query-matched comparison pages with decision-led titles.**",
-    "WORKING peer pattern: long-form depth (~1321 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Use exact model names consistently in title, H1, introduction, image filenames, and internal anchor text. Google uses page titles and prominent headings when generating search-result title links.[2][9]",
+    "LLM peer insight: - Include “last updated” and a clear methodology: capacity, height, light adjustment, pump/noise, app features, refill costs, and apartment suitability.",
+    "LLM peer insight: - Add a short `AeroGarden vs Click & Grow` section linking to a dedicated comparison page.",
+    "LLM peer insight: - Add a second section titled `AeroGarden Harvest vs Bounty: Which Hydroponic Garden Fits Your Space?`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite`",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`",
+    "LLM peer insight: . **Publish one comparison hub targeting the exact GSC demand**",
+    "WORKING peer pattern: long-form depth (~1307 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -93,12 +86,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-03 18:23 UTC"
+    "generated_at": "2026-10-04 18:26 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 19 action(s) still measuring (3-7d windows)",
+      "IMPACT: 20 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",
