@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-04 18:26 UTC",
+  "generated_at": "2026-10-04 18:52 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -56,7 +56,7 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 417,
+        "word_count_est": 416,
         "images": 21,
         "has_faq": true,
         "has_table": false,
@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 643,
+        "word_count_est": 713,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -117,32 +117,6 @@
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 3833,
-        "images": 0,
-        "has_faq": false,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -194,17 +168,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1307 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Publish one comparison hub targeting the exact GSC demand**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite`",
-    "LLM peer insight: - Add a second section titled `AeroGarden Harvest vs Bounty: Which Hydroponic Garden Fits Your Space?`",
-    "LLM peer insight: - Add a short `AeroGarden vs Click & Grow` section linking to a dedicated comparison page.",
-    "LLM peer insight: - Include “last updated” and a clear methodology: capacity, height, light adjustment, pump/noise, app features, refill costs, and apartment suitability.",
-    "LLM peer insight: - Use exact model names consistently in title, H1, introduction, image filenames, and internal anchor text. Google uses page titles and prominent headings when generating search-result title links.[2][9]"
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: Ship these five changes this week, prioritizing the comparison intent already visible in GSC:",
+    "LLM peer insight: . **Rewrite the page title and H1 around comparisons**",
+    "LLM peer insight: - Title: **“Best Indoor Herb Garden Kits: AeroGarden vs Click & Grow (2026)”**",
+    "LLM peer insight: - H1: **“AeroGarden vs Click & Grow: Which Indoor Garden Is Best?”**",
+    "LLM peer insight: - Add separate comparison pages or sections targeting:",
+    "LLM peer insight: - Put the recommendation in the first 100 words, e.g. “Choose Bounty for more growing capacity; choose Harvest for a smaller countertop footprint.”",
+    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
+    "LLM peer insight: - Use columns for **AeroGarden Harvest, Bounty Basic, Bounty, Bounty Elite, and Click & Grow**."
   ],
-  "llm_notes": "1. **Publish one comparison hub targeting the exact GSC demand**\n\n   - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`\n   - **H1:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite`\n   - Add a second section titled `AeroGarden Harvest vs Bounty: Which Hydroponic Garden Fits Your Space?`\n   - Add a short `AeroGarden vs Click & Grow` section linking to a dedicated comparison page.\n   - Include “last updated” and a clear methodology: capacity, height, light adjustment, pump/noise, app features, refill costs, and apartment suitability.\n   - Use exact model names consistently in title, H1, introduction, image filenames, and internal anchor text. Google uses page titles and prominent headings when generating search-result title links.[2][9]\n\n2. **Add a decision-first comparison table above the fold**\n\n   Build a scannable table immediately after a two-sentence verdict:\n\n   | Model | Best for | Grow slots | Height/footprint | App | Main drawback | Current price |\n   |---|---|---:|---|---|---|---|\n   | Bounty Basic | Small herb harvests | Verify | Verify | Verify | Verify | Check retailer |\n   | Bounty | Larger harvests | Verify | Verify | Verify | Verify | Check retailer |\n   | Bounty Elite | Maximum automation | Verify | Verify | Verify | Verify | Check retailer |\n   | Harvest | Compact beginners | Verify | Verify | Verify | Verify | Check retailer |\n\n   - Highlight the winner in each use case: **best for small kitchens**, **best for families**, **best for lowest upfront cost**, and **best for beginners**.\n   - Add “How to choose” buttons t",
+  "llm_notes": "Ship these five changes this week, prioritizing the comparison intent already visible in GSC:\n\n1. **Rewrite the page title and H1 around comparisons**\n   - Title: **“Best Indoor Herb Garden Kits: AeroGarden vs Click & Grow (2026)”**\n   - H1: **“AeroGarden vs Click & Grow: Which Indoor Garden Is Best?”**\n   - Add separate comparison pages or sections targeting:\n     - “AeroGarden Bounty vs Bounty Basic”\n     - “AeroGarden Bounty vs Bounty Elite”\n     - “AeroGarden Harvest vs Bounty”\n   - Put the recommendation in the first 100 words, e.g. “Choose Bounty for more growing capacity; choose Harvest for a smaller countertop footprint.”\n\n2. **Add a decision-first comparison table above the fold**\n   - Use columns for **AeroGarden Harvest, Bounty Basic, Bounty, Bounty Elite, and Click & Grow**.\n   - Include rows for: plant capacity, light-adjustment range, water capacity, app/timer support, footprint, replacement-pod availability, approximate operating cost, and best-for.\n   - Add a final row with a clear verdict and button: **“See today’s price”**.\n   - Make the table horizontally scrollable on mobile, with the product names and first column sticky.\n   - Link each product name to a detailed review rather than forcing users to hunt through the page.\n\n3. **Create a useful FAQ that directly mirrors GSC queries**\n   - Add visible questions such as:\n     - “Is AeroGarden Bounty better than Bounty Basic?”\n     - “What is the difference between Bounty and Bounty Elite?”\n     - “Is AeroGarden Harvest better than Bounty?”\n     - “Is AeroGarden better than Click & Grow?”\n     - “Which indoo",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -233,8 +207,15 @@
       "title": "Strengthen above-fold verdict + product CTAs",
       "detail": "Peers repeat CTAs. Keep Quick verdict + product picks before long narrative.",
       "auto": true
+    },
+    {
+      "type": "seo_year_stamp",
+      "priority": "P2",
+      "title": "Year-stamp commercial titles where missing",
+      "detail": "Peers stamp year in titles. Growth/content agent should keep (2026) on money guides.",
+      "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
