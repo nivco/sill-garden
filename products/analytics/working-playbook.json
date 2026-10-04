@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-03",
+  "updated_at": "2026-10-04",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -94,6 +94,13 @@
       "signal": "Ship more thin guides while sessions_7d = 0",
       "action": "Pause new guides; refresh money pages + distribute kit links instead",
       "status": "ignore"
+    },
+    {
+      "signal": "Impact-: applied on IndexNow ping",
+      "action": "Revisit approach — negative gsc_impressions_7d -4. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "9cc01865b13e1a"
     }
   ],
   "money_urls": [
