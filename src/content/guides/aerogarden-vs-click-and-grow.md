@@ -2,7 +2,7 @@
 title: AeroGarden vs Click & Grow for apartments (2026)
 description: "AeroGarden vs Click and Grow for apartments (2026) — noise, footprint, refill cost, and which kit to buy first for a small kitchen."
 pubDate: 2026-08-13
-updatedDate: 2026-10-04
+updatedDate: 2026-10-05
 cluster: systems
 type: comparison
 featured: true
@@ -123,6 +123,9 @@ Harvest-class suits herbs on a small counter; Bounty suits taller plants and hea
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 
 **Indoor herb garden kit recommendations pdf?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Low light indoor herbs?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Our call
 

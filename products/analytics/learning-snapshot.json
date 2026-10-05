@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-04 18:25 UTC",
+  "generated_at": "2026-10-05 21:42 UTC",
   "wow": {
-    "ga4_sessions_7d": 4.0,
-    "gsc_impressions_7d": -2.0,
+    "ga4_sessions_7d": 0.0,
+    "gsc_impressions_7d": 1.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 11,
-    "gsc_impressions_7d": 16,
+    "gsc_impressions_7d": 17,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
     "youtube_sessions_7d": 3,
@@ -16,18 +16,18 @@
   },
   "top_queries": [
     {
-      "query": "aerogarden bounty vs bounty basic",
+      "query": "aerogarden bounty vs harvest",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 43.0
+      "position": 41.0
     },
     {
-      "query": "aerogarden bounty vs bounty elite",
+      "query": "aerogarden harvest vs bounty",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 42.0
+      "position": 40.0
     },
     {
       "query": "aerogarden harvest vs bounty hydroponics",
@@ -44,13 +44,6 @@
       "position": 49.0
     },
     {
-      "query": "indoor herb garden kit recommendations pdf",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 77.0
-    },
-    {
       "query": "low light indoor herbs",
       "clicks": 0,
       "impressions": 1,
@@ -59,14 +52,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: - Use exact model names consistently in title, H1, introduction, image filenames, and internal anchor text. Google uses page titles and prominent headings when generating search-result title links.[2][9]",
-    "LLM peer insight: - Include “last updated” and a clear methodology: capacity, height, light adjustment, pump/noise, app features, refill costs, and apartment suitability.",
-    "LLM peer insight: - Add a short `AeroGarden vs Click & Grow` section linking to a dedicated comparison page.",
-    "LLM peer insight: - Add a second section titled `AeroGarden Harvest vs Bounty: Which Hydroponic Garden Fits Your Space?`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`",
-    "LLM peer insight: . **Publish one comparison hub targeting the exact GSC demand**",
-    "WORKING peer pattern: long-form depth (~1307 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Best for: herbs, greens, tomatoes, peppers, or frequent travelers",
+    "LLM peer insight: - Maximum plant height: about 12 in vs 24 in",
+    "LLM peer insight: . **Add a scannable comparison table immediately below the introduction.**",
+    "LLM peer insight: - Add secondary sections targeting exact variants: “AeroGarden Harvest vs Bounty Hydroponics,” “Harvest or Bounty for Herbs?” and “Is Bounty Worth It?”",
+    "LLM peer insight: - Add a short verdict above the fold: “Choose Harvest for herbs and a lower price; choose Bounty for taller plants, more pods, and less frequent refilling.” The Bounty generally offers 9 pods and roughly 24 inches of gro",
+    "LLM peer insight: - Title: **AeroGarden Harvest vs Bounty: Which Indoor Garden Should You Buy?**",
+    "LLM peer insight: . **Publish a dedicated comparison page targeting the highest-intent queries.**",
+    "WORKING peer pattern: long-form depth (~1306 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -86,12 +79,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-04 18:26 UTC"
+    "generated_at": "2026-10-05 21:42 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 20 action(s) still measuring (3-7d windows)",
+      "IMPACT: 12 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

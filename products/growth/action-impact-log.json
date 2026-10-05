@@ -1566,10 +1566,94 @@
         "youtube_views_total": 401.0
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "c66c527429cc06",
+      "kind": "distribution",
+      "target": "compare-aerogarden-models",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-05",
+      "measure_after": "2026-10-08",
+      "final_after": "2026-10-12",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 17.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 402.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "e7b6c10a1cb9fc",
+      "kind": "applied",
+      "target": "Low light indoor herbs?",
+      "title": "faq:aerogarden-vs-click-and-grow:Low light indoor herbs?",
+      "detail": "faq:aerogarden-vs-click-and-grow:Low light indoor herbs?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-05",
+      "measure_after": "2026-10-08",
+      "final_after": "2026-10-12",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 17.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 402.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "e04cde67901760",
+      "kind": "applied",
+      "target": "updated visual-backlog.md",
+      "title": "updated visual-backlog.md",
+      "detail": "updated visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-05",
+      "measure_after": "2026-10-08",
+      "final_after": "2026-10-12",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 17.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 402.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "2771e32ebdb631",
+      "kind": "applied",
+      "target": "IndexNow ping",
+      "title": "IndexNow ping",
+      "detail": "IndexNow ping",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-05",
+      "measure_after": "2026-10-08",
+      "final_after": "2026-10-12",
+      "metrics_before": {
+        "sessions_7d": 11.0,
+        "gsc_impressions_7d": 17.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 1.0,
+        "youtube_sessions_7d": 3.0,
+        "youtube_views_total": 402.0
+      },
+      "primary_metric": "gsc_impressions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-05 12:57 UTC"
+  "updated_at": "2026-10-05 21:42 UTC"
 }
