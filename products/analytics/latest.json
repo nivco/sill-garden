@@ -1,15 +1,15 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-04 18:52 UTC",
+  "generated_at": "2026-10-05 03:21 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 11,
-    "users_7d": 7,
-    "pageviews_7d": 17,
+    "sessions_7d": 12,
+    "users_7d": 9,
+    "pageviews_7d": 19,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 16,
+    "gsc_impressions_7d": 15,
     "indexed_urls": 32,
     "sitemap_urls": 32,
     "cf_pageviews_7d": null,
@@ -19,8 +19,8 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 36.4,
-    "affiliate_ctr_pct": 9.1,
+    "engagement_rate_pct": 33.3,
+    "affiliate_ctr_pct": 8.3,
     "youtube_videos": 41
   },
   "sources": {
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 7,
-        "sessions": 11,
-        "screenPageViews": 17,
+        "activeUsers": 9,
+        "sessions": 12,
+        "screenPageViews": 19,
         "engagedSessions": 4,
-        "averageSessionDuration_sec": 177.7,
-        "engagementRate_pct": 36.4
+        "averageSessionDuration_sec": 162.9,
+        "engagementRate_pct": 33.3
       },
       "top_pages": [
         {
           "pagePath": "/tools/year-one-cost/",
-          "sessions": "6",
-          "screenPageViews": "5"
+          "sessions": "7",
+          "screenPageViews": "7"
         },
         {
           "pagePath": "/",
@@ -73,7 +73,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "6"
+          "sessions": "8"
         },
         {
           "sessionDefaultChannelGroup": "Organic Video",
@@ -82,26 +82,17 @@
         {
           "sessionDefaultChannelGroup": "Referral",
           "sessions": "1"
-        },
-        {
-          "sessionDefaultChannelGroup": "Unassigned",
-          "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "6",
+          "sessions": "8",
           "engagedSessions": "3"
         },
         {
           "sessionSourceMedium": "youtube\\u0026utm_medium / (not set)",
           "sessions": "2",
-          "engagedSessions": "0"
-        },
-        {
-          "sessionSourceMedium": "(not set)",
-          "sessions": "1",
           "engagedSessions": "0"
         },
         {
@@ -139,22 +130,22 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 16,
-      "avg_position": 44.3,
+      "impressions": 15,
+      "avg_position": 27.9,
       "top_queries": [
         {
-          "query": "aerogarden bounty vs bounty basic",
+          "query": "aerogarden bounty vs harvest",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
-          "position": 43.0
+          "position": 41.0
         },
         {
-          "query": "aerogarden bounty vs bounty elite",
+          "query": "aerogarden harvest vs bounty",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
-          "position": 42.0
+          "position": 40.0
         },
         {
           "query": "aerogarden harvest vs bounty hydroponics",
@@ -171,13 +162,6 @@
           "position": 49.0
         },
         {
-          "query": "indoor herb garden kit recommendations pdf",
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0.0,
-          "position": 77.0
-        },
-        {
           "query": "low light indoor herbs",
           "clicks": 0,
           "impressions": 1,
@@ -187,8 +171,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-09-27",
-        "end": "2026-10-04"
+        "start": "2026-09-28",
+        "end": "2026-10-05"
       }
     },
     "indexing": {
@@ -907,7 +891,7 @@
     }
   ],
   "insights": [
-    "GSC: 16 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty basic\u201d (pos 43), \u201caerogarden bounty vs bounty elite\u201d (pos 42), \u201caerogarden harvest vs bounty hydroponics\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 15 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden harvest vs bounty\u201d (pos 40), \u201caerogarden harvest vs bounty hydroponics\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -953,6 +937,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 11 | Aff clicks 1 | GSC 0c/16i | YT views 401 | Setup 6/7"
+    "headline": "Sessions 12 | Aff clicks 1 | GSC 0c/15i | YT views 401 | Setup 6/7"
   }
 }
