@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-04",
+  "updated_at": "2026-10-05",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -72,6 +72,62 @@
       "status": "working",
       "from_impact": true,
       "action_id": "db9024aef038c3"
+    },
+    {
+      "signal": "Impact+: ship_surface on kits",
+      "action": "Repeat — positive affiliate_clicks_7d +1 after Shipped /kits/",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "3e1fe21ea8fde3"
+    },
+    {
+      "signal": "Impact+: ship_surface on studio-silence",
+      "action": "Repeat — positive affiliate_clicks_7d +1 after Shipped /kits/studio-silence/",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "9b656bdac7fac8"
+    },
+    {
+      "signal": "Impact+: ship_surface on kitchen-capacity",
+      "action": "Repeat — positive affiliate_clicks_7d +1 after Shipped /kits/kitchen-capacity/",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "f23e5a0eb80ffb"
+    },
+    {
+      "signal": "Impact+: ship_surface on under-50",
+      "action": "Repeat — positive affiliate_clicks_7d +1 after Shipped /kits/under-50/",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "63a3a7f71d8a29"
+    },
+    {
+      "signal": "Impact+: ship_surface on refills",
+      "action": "Repeat — positive affiliate_clicks_7d +1 after Shipped /kits/refills/",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "1ccffc125f463a"
+    },
+    {
+      "signal": "Impact+: ship_surface on kit-picker",
+      "action": "Repeat — positive affiliate_clicks_7d +1 after Shipped /tools/kit-picker/",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "fc7048fef54460"
+    },
+    {
+      "signal": "Impact+: ship_surface on year-one-cost",
+      "action": "Repeat — positive affiliate_clicks_7d +1 after Shipped /tools/year-one-cost/",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "ba7180b5b359c0"
+    },
+    {
+      "signal": "Impact+: ship_surface on apartment-herb-checklist",
+      "action": "Repeat — positive affiliate_clicks_7d +1 after Shipped /tools/apartment-herb-checklist/",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "b99bb0dd545332"
     }
   ],
   "ignore": [
