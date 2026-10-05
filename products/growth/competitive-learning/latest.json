@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-05 21:42 UTC",
+  "generated_at": "2026-10-05 22:14 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -121,32 +121,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 3833,
-        "images": 0,
-        "has_faq": false,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -193,17 +167,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1306 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Publish a dedicated comparison page targeting the highest-intent queries.**",
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Build two exact-match comparison pages and make them the primary SEO targets.**",
     "LLM peer insight: - Title: **AeroGarden Harvest vs Bounty: Which Indoor Garden Should You Buy?**",
-    "LLM peer insight: - Add a short verdict above the fold: “Choose Harvest for herbs and a lower price; choose Bounty for taller plants, more pods, and less frequent refilling.” The Bounty generally offers 9 pods and roughly 24 inches of gro",
-    "LLM peer insight: - Add secondary sections targeting exact variants: “AeroGarden Harvest vs Bounty Hydroponics,” “Harvest or Bounty for Herbs?” and “Is Bounty Worth It?”",
-    "LLM peer insight: . **Add a scannable comparison table immediately below the introduction.**",
-    "LLM peer insight: - Maximum plant height: about 12 in vs 24 in",
-    "LLM peer insight: - Best for: herbs, greens, tomatoes, peppers, or frequent travelers"
+    "LLM peer insight: - Title: **AeroGarden vs Click & Grow: Which Smart Indoor Garden Is Better?**",
+    "LLM peer insight: - Put the verdict in the first 100 words, then add a jump-link TOC and “best for” labels. The Bounty supports 9 pods and up to 24 inches of growth, while the Harvest supports 6 pods and about 12 inches, making those the ",
+    "LLM peer insight: . **Add a decision-focused comparison table above the fold.**",
+    "LLM peer insight: Use columns for **Model, pod capacity, maximum plant height, light power, app/Wi-Fi, reservoir size, best for, and current price**. Include a final **Winner by use case** row:",
+    "LLM peer insight: - Compact, low-maintenance setup: Click & Grow",
+    "LLM peer insight: - Apartment with limited natural light: either system with an integrated grow light"
   ],
-  "llm_notes": "1. **Publish a dedicated comparison page targeting the highest-intent queries.**  \n   - Title: **AeroGarden Harvest vs Bounty: Which Indoor Garden Should You Buy?**  \n   - H1: **AeroGarden Harvest vs Bounty**  \n   - Add a short verdict above the fold: “Choose Harvest for herbs and a lower price; choose Bounty for taller plants, more pods, and less frequent refilling.” The Bounty generally offers 9 pods and roughly 24 inches of grow height versus Harvest’s 6 pods and roughly 12 inches.[3][4]  \n   - Add secondary sections targeting exact variants: “AeroGarden Harvest vs Bounty Hydroponics,” “Harvest or Bounty for Herbs?” and “Is Bounty Worth It?”\n\n2. **Add a scannable comparison table immediately below the introduction.**  \n   Use rows for:\n   - Pod capacity: 6 vs 9  \n   - Maximum plant height: about 12 in vs 24 in  \n   - Light output: lower vs higher  \n   - Reservoir size and refill frequency  \n   - App/Wi-Fi support  \n   - Best crops  \n   - Counter-space requirement  \n   - Typical price range  \n   - Best for: herbs, greens, tomatoes, peppers, or frequent travelers  \n   \n   Make the recommendation column explicit: **Best value**, **Best for tall crops**, and **Best for low-maintenance growing**. Comparison pages commonly distinguish Harvest as the herb-focused option and Bounty as the better choice for tall or fruiting plants.[3][4]\n\n3. **Create a second comparison block for “AeroGarden vs Click & Grow.”**  \n   - Title: **AeroGarden vs Click & Grow: Which Is Better for an Apartment?**  \n   - H1 or subsection: **AeroGarden vs Click & Grow**  \n   - Compare setup, pod ecosystem",
+  "llm_notes": "1. **Build two exact-match comparison pages and make them the primary SEO targets.**  \n   - Title: **AeroGarden Harvest vs Bounty: Which Indoor Garden Should You Buy?**  \n   - H1: **AeroGarden Harvest vs Bounty**  \n   - Title: **AeroGarden vs Click & Grow: Which Smart Indoor Garden Is Better?**  \n   - H1: **AeroGarden vs Click & Grow**  \n   - Put the verdict in the first 100 words, then add a jump-link TOC and “best for” labels. The Bounty supports 9 pods and up to 24 inches of growth, while the Harvest supports 6 pods and about 12 inches, making those the clearest buying distinctions.[1][5][6]\n\n2. **Add a decision-focused comparison table above the fold.**  \n   Use columns for **Model, pod capacity, maximum plant height, light power, app/Wi-Fi, reservoir size, best for, and current price**. Include a final **Winner by use case** row:\n   - Small herb garden: Harvest\n   - More plants or taller herbs: Bounty\n   - Compact, low-maintenance setup: Click & Grow\n   - Apartment with limited natural light: either system with an integrated grow light  \n   Keep specifications sourced and date-stamped; the Bounty’s official listing identifies 9 pods, a 40W LED, Wi-Fi compatibility, and a 24-inch adjustable height.[1]\n\n3. **Create a low-light hub page that answers the non-brand query directly.**  \n   Title: **Best Low-Light Indoor Herbs for Apartments**  \n   H1: **Low-Light Indoor Herbs That Actually Grow Indoors**  \n   Include a ranked table with **herb, minimum light guidance, difficulty, growth habit, and recommended setup**. Lead with mint, chives, parsley, lemon balm, and cilantro;",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -234,6 +208,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
