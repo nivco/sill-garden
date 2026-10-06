@@ -105,6 +105,9 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 
 **Low light indoor herbs?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Aerogarden harvest vs harvest elite?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Related
 
 - [Quiet kit + pod-cost picker](/tools/kit-picker/)

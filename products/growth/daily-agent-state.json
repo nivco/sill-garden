@@ -1,14 +1,13 @@
 {
-  "last_run": "2026-10-05 21:42 UTC",
+  "last_run": "2026-10-06 19:53 UTC",
   "last_applied": [
-    "faq:aerogarden-vs-click-and-grow:Low light indoor herbs?",
-    "faq:compare-aerogarden-models:Low light indoor herbs?",
-    "faq:best-countertop-garden-apartments:Low light indoor herbs?",
+    "faq:aerogarden-vs-click-and-grow:Aerogarden harvest vs harvest elite?",
+    "faq:compare-aerogarden-models:Aerogarden harvest vs harvest elite?",
     "updated visual-backlog.md",
     "IndexNow ping"
   ],
-  "last_summary": "products/growth/daily-summaries/2026-10-05.md",
-  "last_distribution": "products/growth/distribution/2026-10-05.json",
+  "last_summary": "products/growth/daily-summaries/2026-10-06.md",
+  "last_distribution": "products/growth/distribution/2026-10-06.json",
   "last_outcome_severity": "ok",
   "last_impact": {
     "closed": 0,
