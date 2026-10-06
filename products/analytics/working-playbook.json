@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05",
+  "updated_at": "2026-10-06",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -157,6 +157,34 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "9cc01865b13e1a"
+    },
+    {
+      "signal": "Impact-: distribution on compare-aerogarden-models",
+      "action": "Revisit approach — negative sessions_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "85b6eb59df9286"
+    },
+    {
+      "signal": "Impact-: applied on Aerogarden trellis for 2019 bounty models?",
+      "action": "Revisit approach — negative sessions_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "03fdbe947b50e9"
+    },
+    {
+      "signal": "Impact-: applied on Aerogarden vs click and grow?",
+      "action": "Revisit approach — negative sessions_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "a16246f5d32f04"
+    },
+    {
+      "signal": "Impact-: applied on updated visual-backlog.md",
+      "action": "Revisit approach — negative sessions_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "b6ed786fb9fd64"
     }
   ],
   "money_urls": [
