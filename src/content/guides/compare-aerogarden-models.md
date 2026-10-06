@@ -1,8 +1,8 @@
 ---
-title: AeroGarden Bounty vs Harvest (and Bounty Basic) for apartments (2026)
-description: "AeroGarden Bounty vs Bounty Basic vs Harvest for apartments (2026) — pods, footprint, noise, counter depth, and which model to buy first."
+title: AeroGarden Harvest vs Bounty (Basic & Elite) for apartments (2026)
+description: "AeroGarden Harvest vs Bounty vs Bounty Basic vs Elite for apartments — pods, footprint, noise, counter depth, and which model to buy first in 2026."
 pubDate: 2026-08-26
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 cluster: systems
 type: comparison
 featured: true
@@ -21,7 +21,7 @@ products:
   asin: B01MRVMKQH
   partner: click-grow
 ---
-Searching **AeroGarden Bounty vs Harvest** (or **Harvest vs Bounty**, **AeroGarden Bounty vs Bounty Basic**, **Farm vs Farm Plus**) usually means: which kit fits a real apartment counter, not a showroom.
+Searching **AeroGarden Harvest vs Bounty** (or **Bounty vs Harvest**, **AeroGarden Bounty vs Bounty Basic**, **Bounty Basic vs Elite**, **Farm vs Farm Plus**) usually means: which kit fits a real apartment counter, not a showroom.
 
 ![Fresh cilantro and coriander leaves](/images/inline-cilantro.jpg)
 

@@ -1,8 +1,8 @@
 ---
-title: AeroGarden vs Click & Grow for apartments (2026)
-description: "AeroGarden vs Click and Grow for apartments (2026) — noise, footprint, refill cost, and which kit to buy first for a small kitchen."
+title: AeroGarden vs Click & Grow — which apartment kit to buy (2026)
+description: "AeroGarden vs Click and Grow for a small apartment kitchen (2026) — noise, footprint, refill cost, and the clear first buy for studios vs cooks."
 pubDate: 2026-08-13
-updatedDate: 2026-10-05
+updatedDate: 2026-10-06
 cluster: systems
 type: comparison
 featured: true

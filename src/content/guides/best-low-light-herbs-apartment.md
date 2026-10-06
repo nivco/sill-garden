@@ -1,7 +1,8 @@
 ---
-title: Best low-light herbs for apartment windowsills (2026)
-description: "Herbs that tolerate a dim or north-facing apartment window, plus when a small grow light is worth it."
+title: Best low light indoor herbs for apartment windowsills (2026)
+description: "Low light indoor herbs for apartments — mint, chives, parsley, oregano on a dim sill, plus when a clip grow light is worth it (2026)."
 pubDate: 2026-08-17
+updatedDate: 2026-10-06
 cluster: herbs
 type: guide
 featured: true
