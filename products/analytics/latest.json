@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-05 22:14 UTC",
+  "generated_at": "2026-10-06 04:08 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 15,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 17,
+    "gsc_impressions_7d": 10,
     "indexed_urls": 32,
     "sitemap_urls": 32,
     "cf_pageviews_7d": null,
@@ -125,8 +125,8 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 17,
-      "avg_position": 25.4,
+      "impressions": 10,
+      "avg_position": 15.0,
       "top_queries": [
         {
           "query": "aerogarden bounty vs harvest",
@@ -148,26 +148,12 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 44.0
-        },
-        {
-          "query": "aerogarden vs click and grow",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 49.0
-        },
-        {
-          "query": "low light indoor herbs",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 72.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-09-28",
-        "end": "2026-10-05"
+        "start": "2026-09-29",
+        "end": "2026-10-06"
       }
     },
     "indexing": {
@@ -871,7 +857,7 @@
     }
   ],
   "insights": [
-    "GSC: 17 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden harvest vs bounty\u201d (pos 40), \u201caerogarden harvest vs bounty hydroponics\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 10 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden harvest vs bounty\u201d (pos 40), \u201caerogarden harvest vs bounty hydroponics\u201d (pos 44). Tighten title/H1 on the matching guide to climb.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -917,6 +903,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 11 | Aff clicks 1 | GSC 0c/17i | YT views 402 | Setup 6/7"
+    "headline": "Sessions 11 | Aff clicks 1 | GSC 0c/10i | YT views 402 | Setup 6/7"
   }
 }
