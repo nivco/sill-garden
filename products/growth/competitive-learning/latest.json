@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-06 19:53 UTC",
+  "generated_at": "2026-10-06 20:37 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -110,39 +110,13 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 860,
+        "word_count_est": 861,
         "images": 2,
         "has_faq": true,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 3828,
-        "images": 0,
-        "has_faq": false,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -192,17 +166,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1277 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create a dedicated comparison page targeting all four GSC variants.**",
-    "LLM peer insight: - Title: **AeroGarden Harvest vs Bounty: Which Indoor Garden Should You Buy?**",
-    "LLM peer insight: - Add the exact secondary phrase in a subheading: **AeroGarden Harvest vs Bounty Hydroponics**",
-    "LLM peer insight: - Add a separate section: **AeroGarden Harvest vs Harvest Elite**",
-    "LLM peer insight: - Write a clear verdict near the top: Harvest suits herbs and small spaces; Bounty suits taller plants, more pods, and longer unattended periods. Harvest Elite is the upgraded-finish version with vacation mode.[1][2][3]",
-    "LLM peer insight: . **Ship a decision-first comparison table above the long-form review.**",
-    "LLM peer insight: | Feature | Harvest | Harvest Elite | Bounty |"
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Build the page around the exact comparison intent.**",
+    "LLM peer insight: - Title: **AeroGarden Bounty vs Harvest: Which Indoor Garden Is Better?**",
+    "LLM peer insight: - Add a secondary section/H2: **AeroGarden Harvest vs Harvest Elite: What’s the Difference?**",
+    "LLM peer insight: - Include “hydroponic” naturally in the introduction and one H2: **Bounty vs Harvest Hydroponics: Capacity, Height, and Features**.",
+    "LLM peer insight: - Put the verdict within the first 100 words: Harvest for herbs and small spaces; Bounty for more plants, taller crops, and larger harvests.",
+    "LLM peer insight: . **Add a decision-focused comparison table above the fold.**",
+    "LLM peer insight: - LED power: Harvest 20W; Bounty models vary—verify the exact model before publishing",
+    "LLM peer insight: - Maximum grow height: Harvest up to 12 inches; Bounty up to 24 inches"
   ],
-  "llm_notes": "1. **Create a dedicated comparison page targeting all four GSC variants.**  \n   - Title: **AeroGarden Harvest vs Bounty: Which Indoor Garden Should You Buy?**\n   - H1: **AeroGarden Harvest vs Bounty**\n   - Add the exact secondary phrase in a subheading: **AeroGarden Harvest vs Bounty Hydroponics**\n   - Add a separate section: **AeroGarden Harvest vs Harvest Elite**\n   - Write a clear verdict near the top: Harvest suits herbs and small spaces; Bounty suits taller plants, more pods, and longer unattended periods. Harvest Elite is the upgraded-finish version with vacation mode.[1][2][3]\n\n2. **Ship a decision-first comparison table above the long-form review.**  \n   Use scannable rows, not paragraphs:\n\n   | Feature | Harvest | Harvest Elite | Bounty |\n   |---|---:|---:|---:|\n   | Pod capacity | 6 | 6 | 9 |\n   | LED wattage | 20W | 20W | 40W or 30W, depending on model |\n   | Maximum grow height | 12 in | 12 in | Up to 24 in |\n   | Display/control | Basic controls | Digital display | Touchscreen or model-specific control panel |\n   | Vacation mode | No | Yes | Yes on supported models |\n   | Best for | Herbs, compact counters | Herbs plus premium finish | Taller plants and larger harvests |\n\n   Add a note directly above the table: **“Bounty specifications vary by model—check the model name before buying.”** Official listings identify meaningful differences between Bounty versions, including 30W versus 40W lighting and different control systems.[1][2][3]\n\n3. **Add an FAQ block designed around purchase objections and query expansion.**  \n   Use these questions as H2/H3 headings with",
+  "llm_notes": "1. **Build the page around the exact comparison intent.**  \n   - Title: **AeroGarden Bounty vs Harvest: Which Indoor Garden Is Better?**  \n   - H1: **AeroGarden Bounty vs Harvest**  \n   - Add a secondary section/H2: **AeroGarden Harvest vs Harvest Elite: What’s the Difference?**  \n   - Include “hydroponic” naturally in the introduction and one H2: **Bounty vs Harvest Hydroponics: Capacity, Height, and Features**.  \n   - Put the verdict within the first 100 words: Harvest for herbs and small spaces; Bounty for more plants, taller crops, and larger harvests.\n\n2. **Add a decision-focused comparison table above the fold.**  \n   Use scannable rows for:\n   - Pod capacity: Harvest 6; Bounty 9\n   - LED power: Harvest 20W; Bounty models vary—verify the exact model before publishing\n   - Maximum grow height: Harvest up to 12 inches; Bounty up to 24 inches\n   - Controls: Harvest push-button display; Bounty models may include touchscreen controls\n   - Vacation mode: Harvest Elite includes it; confirm availability for the specific Harvest/Bounty version\n   - Best for: herbs and greens vs tomatoes, peppers, and larger plants\n   - Footprint, noise, price, and warranty  \n   \n   Add a visible **“Check current price”** button in each product column. Official specifications identify Harvest as a 6-pod, 20W model with up to 12 inches of grow height, while Bounty specifications list 9 pods and up to 24 inches of height.[1][2][5]\n\n3. **Create an FAQ block targeting the four GSC query variants.**  \n   Add these exact questions:\n   - **Is AeroGarden Bounty better than Harvest?**\n   - **What is the",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -233,6 +207,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
