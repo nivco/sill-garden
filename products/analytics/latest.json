@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-07 03:36 UTC",
+  "generated_at": "2026-10-07 05:53 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -152,7 +152,7 @@
       }
     },
     "indexing": {
-      "checked_at": "2026-10-06T10:03:57.877189+00:00",
+      "checked_at": "2026-10-03T06:00:54.015190+00:00",
       "site": "sc-domain:sillgarden.com",
       "sitemap": {
         "path": "https://sillgarden.com/sitemap-index.xml",
@@ -165,7 +165,7 @@
         "contents": [
           {
             "type": "web",
-            "submitted": "32",
+            "submitted": "23",
             "indexed": "0"
           }
         ]
@@ -349,7 +349,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-10-04T07:08:13Z",
+          "last_crawl_time": "2026-09-18T20:17:54Z",
           "google_canonical": "https://sillgarden.com/guides/compare-aerogarden-models/",
           "user_canonical": "https://sillgarden.com/guides/compare-aerogarden-models/",
           "referring_urls": [
@@ -364,7 +364,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-10-04T11:01:11Z",
+          "last_crawl_time": "2026-09-14T12:22:40Z",
           "google_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
           "user_canonical": "https://sillgarden.com/guides/best-countertop-garden-apartments/",
           "referring_urls": [
@@ -378,7 +378,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-10-04T15:26:20Z",
+          "last_crawl_time": "2026-09-05T04:26:52Z",
           "google_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
           "user_canonical": "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
           "referring_urls": [
@@ -621,7 +621,7 @@
           "indexing_state": "INDEXING_ALLOWED",
           "robots_txt_state": "ALLOWED",
           "page_fetch_state": "SUCCESSFUL",
-          "last_crawl_time": "2026-10-04T12:56:02Z",
+          "last_crawl_time": "2026-09-07T10:55:11Z",
           "google_canonical": "https://sillgarden.com/privacy/",
           "user_canonical": "https://sillgarden.com/privacy/",
           "referring_urls": [
@@ -631,7 +631,7 @@
         }
       ],
       "nudge": {
-        "ran_at": "2026-10-06T10:00:33.400741+00:00",
+        "ran_at": "2026-10-03T05:57:14.871197+00:00",
         "note": "GSC UI 'Request indexing' cannot be called via API for normal pages. This run resubmits the sitemap, IndexNow-pings priority URLs, and refreshes inspection.",
         "priority": [
           "https://sillgarden.com/",
@@ -668,7 +668,7 @@
       "not_indexed_urls": []
     },
     "cloudflare": {
-      "error": "Actor 'com.cloudflare.api.token.18c0a2b15d2ceb5eea0df9c1c2741325' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338",
+      "error": "Actor 'com.cloudflare.api.token.575a6b3ae16d0ac72a906be104f772aa' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338",
       "page_views": null,
       "uniques": null
     },
@@ -806,82 +806,19 @@
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden harvest vs bounty\u201d pos 40/1 impr; \u201caerogarden harvest vs bounty hydroponics\u201d pos 44/1 impr; \u201caerogarden harvest vs harvest elite\u201d pos 52/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden harvest vs bounty\u201d pos 40/1 impr; \u201caerogarden harvest vs bounty hydroponics\u201d pos 44/1 impr; \u201caerogarden vs click and grow\u201d pos 49/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-10-06 19:53 UTC"
+      "created": "2026-10-05 18:41 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-10-06 04:08 UTC (15.8h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-10-06 19:53 UTC"
-    },
-    {
-      "priority": "P0",
-      "category": "cmo",
-      "title": "ALERT: zero sessions for 5+ days \u2014 distribute manually",
-      "detail": "Automation is healthy but acquisition is dead. GA4 sessions_7d=3 (<5) for 9 day(s) | GSC 21 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0. Post Reddit/Pinterest from distribution/latest.json today.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-02 20:52 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "cro",
-      "title": "Visuality iteration: hero/CTA/og image hygiene",
-      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 44.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
+      "created": "2026-10-05 18:41 UTC"
     }
   ],
   "insights": [
@@ -916,7 +853,7 @@
       {
         "name": "Cloudflare analytics",
         "ok": false,
-        "detail": "Actor 'com.cloudflare.api.token.18c0a2b15d2ceb5eea0df9c1c2741325' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338"
+        "detail": "Actor 'com.cloudflare.api.token.575a6b3ae16d0ac72a906be104f772aa' does not have permission 'com.cloudflare.api.account.zone.analytics.read' for zone 37b02453651a4e74cc1eaed7241a6338"
       },
       {
         "name": "YouTube",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07 03:36 UTC",
+  "generated_at": "2026-10-07 05:53 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
   "applied": [
@@ -13,7 +13,7 @@
       "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden harvest vs bounty\u201d pos 40/1 impr; \u201caerogarden harvest vs harvest elite\u201d pos 52/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-10-07 03:36 UTC"
+      "created": "2026-10-07 05:53 UTC"
     },
     {
       "priority": "P3",
@@ -22,7 +22,7 @@
       "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-10-07 03:36 UTC"
+      "created": "2026-10-07 05:53 UTC"
     }
   ]
 }

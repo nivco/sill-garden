@@ -19,7 +19,6 @@ products:
 - name: 24-hour outlet timer
   note: Give supplemental light a consistent daily schedule
   search: 24 hour mechanical outlet timer
-updatedDate: 2026-09-30
 ---
 A dim apartment window can grow herbs, but it cannot grow every herb well. The best low-light herbs are plants that tolerate slower growth without stretching into weak, pale stems.
 
