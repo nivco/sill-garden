@@ -160,3 +160,6 @@ date,cadence,role,metric,value,source
 2026-10-06,daily,seo,gsc_impressions_7d,10,analytics/latest.json
 2026-10-06,daily,seo,gsc_clicks_7d,0,analytics/latest.json
 2026-10-06,daily,cmo,ga4_sessions_7d,9,analytics/latest.json
+2026-10-07,daily,seo,gsc_impressions_7d,9,analytics/latest.json
+2026-10-07,daily,seo,gsc_clicks_7d,0,analytics/latest.json
+2026-10-07,daily,cmo,ga4_sessions_7d,9,analytics/latest.json
