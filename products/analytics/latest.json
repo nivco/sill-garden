@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-07 12:15 UTC",
+  "generated_at": "2026-10-07 18:13 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -15,7 +15,7 @@
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 3,
     "youtube_subs": 1,
-    "youtube_views_total": 403,
+    "youtube_views_total": 404,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -678,7 +678,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 403,
+        "views": 404,
         "videos": 41
       },
       "recent_videos": [
@@ -819,16 +819,78 @@
       "auto": true,
       "done": true,
       "created": "2026-10-07 05:53 UTC"
+    },
+    {
+      "priority": "P0",
+      "category": "cmo",
+      "title": "ALERT: zero sessions for 5+ days \u2014 distribute manually",
+      "detail": "Automation is healthy but acquisition is dead. GA4 sessions_7d=3 (<5) for 9 day(s) | GSC 21 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0. Post Reddit/Pinterest from distribution/latest.json today.",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-02 20:52 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-03 10:47 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-03 10:47 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "cro",
+      "title": "Visuality iteration: hero/CTA/og image hygiene",
+      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-03 18:23 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 44.5, 0 clicks",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-03 18:23 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-05 12:57 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-05 12:57 UTC"
     }
   ],
   "insights": [
-    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "GSC: 9 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden harvest vs bounty\u201d (pos 40), \u201caerogarden harvest vs harvest elite\u201d (pos 52). Tighten title/H1 on the matching guide to climb.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 5,
+    "ready": 6,
     "total": 7,
     "checks": [
       {
@@ -843,8 +905,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": false,
-        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
+        "ok": true,
+        "detail": "G-M5MRT0QTHX"
       },
       {
         "name": "Search Console",
@@ -869,6 +931,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 9 | Aff clicks 1 | GSC 0c/9i | YT views 403 | Setup 5/7"
+    "headline": "Sessions 9 | Aff clicks 1 | GSC 0c/9i | YT views 404 | Setup 6/7"
   }
 }
