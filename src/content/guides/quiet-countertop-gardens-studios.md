@@ -1,5 +1,5 @@
 ---
-title: Quiet countertop gardens for studios
+title: Quiet countertop gardens for studios (2026)
 description: Silent and low-hum options when your kitchen and bedroom share one room.
 pubDate: 2026-08-12
 cluster: systems
@@ -8,18 +8,18 @@ image: /images/guide-quiet.jpg
 imageAlt: Young green plant in a quiet corner
 verdict: Prefer no-pump systems or cover the light at night. A bamboo shade and a smart schedule beat returning the unit because it ruins sleep.
 products:
-  - name: Click & Grow Smart Garden 3
-    note: No pump — strongest silence pick
-    asin: B01MRVMKQH
-    partner: click-grow
-  - name: Kratky mason jar setup
-    note: Silent DIY; needs light strategy
-    search: Kratky hydroponic mason jar kit
-  - name: Clip-on LED grow light
-    note: For jars/pots on dim studio sills
-    search: LED clip grow light indoor plants
+- name: Click & Grow Smart Garden 3
+  note: No pump — strongest silence pick
+  asin: B01MRVMKQH
+  partner: click-grow
+- name: Kratky mason jar setup
+  note: Silent DIY; needs light strategy
+  search: Kratky hydroponic mason jar kit
+- name: Clip-on LED grow light
+  note: For jars/pots on dim studio sills
+  search: LED clip grow light indoor plants
+updatedDate: 2026-10-08
 ---
-
 In a studio, the grow light and the pump are roommate problems. Solve those two and countertop gardening is easy. Ignore them and you’ll unplug the garden by week two.
 
 ## Noise ranking (typical)
@@ -53,3 +53,8 @@ Most kits run ~14–16 hours of bright LED. In one room that means:
 
 - [Landlord-safe setup checklist](/guides/landlord-safe-indoor-garden-setup/)
 - [AeroGarden vs Click & Grow](/guides/aerogarden-vs-click-and-grow/)
+
+## FAQ
+
+**Best quiet herb garden under 50?**  
+For "best quiet herb garden under 50", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
