@@ -428,8 +428,17 @@
       "storyboard": "products/youtube/video-related-aerogarden-trellis-for-2019-bounty-models/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-10-08T14:47:43.846229+00:00"
+    },
+    "video-related-aerogarden-harvest-vs-bounty-hydroponics": {
+      "youtube_id": "znYwZvnXYmQ",
+      "url": "https://youtu.be/znYwZvnXYmQ",
+      "title": "Aerogarden harvest vs bounty hydroponics (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-10-08T19:39:00.450739+00:00",
+      "storyboard": "products/youtube/video-related-aerogarden-harvest-vs-bounty-hydroponics/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-10-08T14:47:45.322993+00:00",
-  "next_eligible_date": "2026-10-07"
+  "next_eligible_date": "2026-10-11"
 }
