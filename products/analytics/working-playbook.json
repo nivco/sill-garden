@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-07",
+  "updated_at": "2026-10-08",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -185,6 +185,13 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "b6ed786fb9fd64"
+    },
+    {
+      "signal": "Impact-: applied on Low light indoor herbs?",
+      "action": "Revisit approach — negative sessions_7d -2. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "e7b6c10a1cb9fc"
     }
   ],
   "money_urls": [
