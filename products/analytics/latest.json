@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-07 18:13 UTC",
+  "generated_at": "2026-10-08 03:50 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 10,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 9,
+    "gsc_impressions_7d": 24,
     "indexed_urls": 32,
     "sitemap_urls": 32,
     "cf_pageviews_7d": null,
@@ -120,22 +120,15 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 9,
-      "avg_position": 17.3,
+      "impressions": 24,
+      "avg_position": 8.1,
       "top_queries": [
         {
-          "query": "aerogarden bounty vs harvest",
+          "query": "aerogarden comparison chart",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
-          "position": 41.0
-        },
-        {
-          "query": "aerogarden harvest vs bounty",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 40.0
+          "position": 34.0
         },
         {
           "query": "aerogarden harvest vs harvest elite",
@@ -143,12 +136,68 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 52.0
+        },
+        {
+          "query": "best cheap herb garden under 50",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 2.0
+        },
+        {
+          "query": "best compact herb garden under 50",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 2.0
+        },
+        {
+          "query": "best healthy herb garden under 50",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0.0,
+          "position": 9.8
+        },
+        {
+          "query": "best homemade herb garden under 50",
+          "clicks": 0,
+          "impressions": 3,
+          "ctr": 0.0,
+          "position": 2.0
+        },
+        {
+          "query": "best quick herb garden under 50",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 6.0
+        },
+        {
+          "query": "best quiet herb garden under 50",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 4.0
+        },
+        {
+          "query": "best simple herb garden under 50",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 2.0
+        },
+        {
+          "query": "herb garden for small apartments 2026",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 5.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-09-30",
-        "end": "2026-10-07"
+        "start": "2026-10-01",
+        "end": "2026-10-08"
       }
     },
     "indexing": {
@@ -717,7 +766,7 @@
         {
           "id": "35k4h5j8D20",
           "title": "Click and Grow vs AeroGarden in 2026 \u2014 Honest Pick",
-          "views": 6,
+          "views": 7,
           "likes": 0,
           "published": "2026-09-22T17:54:56Z",
           "url": "https://www.youtube.com/watch?v=35k4h5j8D20"
@@ -809,83 +858,20 @@
       "detail": "Already showing for: \u201caerogarden bounty vs harvest\u201d pos 41/1 impr; \u201caerogarden harvest vs bounty\u201d pos 40/1 impr; \u201caerogarden harvest vs harvest elite\u201d pos 52/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-10-07 05:53 UTC"
+      "created": "2026-10-07 18:13 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-10-07 05:53 UTC (12.3h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-10-07 05:53 UTC"
-    },
-    {
-      "priority": "P0",
-      "category": "cmo",
-      "title": "ALERT: zero sessions for 5+ days \u2014 distribute manually",
-      "detail": "Automation is healthy but acquisition is dead. GA4 sessions_7d=3 (<5) for 9 day(s) | GSC 21 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0. Post Reddit/Pinterest from distribution/latest.json today.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-02 20:52 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "cro",
-      "title": "Visuality iteration: hero/CTA/og image hygiene",
-      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 44.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
+      "created": "2026-10-07 18:13 UTC"
     }
   ],
   "insights": [
-    "GSC: 9 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs harvest\u201d (pos 41), \u201caerogarden harvest vs bounty\u201d (pos 40), \u201caerogarden harvest vs harvest elite\u201d (pos 52). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 24 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison chart\u201d (pos 34), \u201caerogarden harvest vs harvest elite\u201d (pos 52), \u201cbest cheap herb garden under 50\u201d (pos 2). Tighten title/H1 on the matching guide to climb.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -931,6 +917,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 9 | Aff clicks 1 | GSC 0c/9i | YT views 404 | Setup 6/7"
+    "headline": "Sessions 9 | Aff clicks 1 | GSC 0c/24i | YT views 404 | Setup 6/7"
   }
 }
