@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-06 19:53 UTC",
+  "generated_at": "2026-10-08 20:18 UTC",
   "wow": {
-    "ga4_sessions_7d": -2.0,
-    "gsc_impressions_7d": -6.0,
+    "ga4_sessions_7d": 0.0,
+    "gsc_impressions_7d": 26.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 9,
-    "gsc_impressions_7d": 11,
+    "gsc_impressions_7d": 35,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
     "youtube_sessions_7d": 3,
@@ -16,25 +16,11 @@
   },
   "top_queries": [
     {
-      "query": "aerogarden bounty vs harvest",
+      "query": "aerogarden comparison chart",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 41.0
-    },
-    {
-      "query": "aerogarden harvest vs bounty",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 40.0
-    },
-    {
-      "query": "aerogarden harvest vs bounty hydroponics",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 44.0
+      "position": 34.0
     },
     {
       "query": "aerogarden harvest vs harvest elite",
@@ -42,17 +28,73 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 52.0
+    },
+    {
+      "query": "best cheap herb garden under 50",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 7.3
+    },
+    {
+      "query": "best compact herb garden under 50",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 2.0
+    },
+    {
+      "query": "best healthy herb garden under 50",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 9.5
+    },
+    {
+      "query": "best homemade herb garden under 50",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 2.0
+    },
+    {
+      "query": "best natural herb garden under 50",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 2.0
+    },
+    {
+      "query": "best quick herb garden under 50",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 6.0
+    },
+    {
+      "query": "best quiet herb garden under 50",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 4.0
+    },
+    {
+      "query": "best simple herb garden under 50",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 2.0
     }
   ],
   "learnings": [
-    "LLM peer insight: | Feature | Harvest | Harvest Elite | Bounty |",
-    "LLM peer insight: . **Ship a decision-first comparison table above the long-form review.**",
-    "LLM peer insight: - Write a clear verdict near the top: Harvest suits herbs and small spaces; Bounty suits taller plants, more pods, and longer unattended periods. Harvest Elite is the upgraded-finish version with vacation mode.[1][2][3]",
-    "LLM peer insight: - Add a separate section: **AeroGarden Harvest vs Harvest Elite**",
-    "LLM peer insight: - Add the exact secondary phrase in a subheading: **AeroGarden Harvest vs Bounty Hydroponics**",
-    "LLM peer insight: - Title: **AeroGarden Harvest vs Bounty: Which Indoor Garden Should You Buy?**",
-    "LLM peer insight: . **Create a dedicated comparison page targeting all four GSC variants.**",
-    "WORKING peer pattern: long-form depth (~1277 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Add a scannable comparison table above the first long section.**",
+    "LLM peer insight: - This directly targets your highest-intent query instead of relying on a generic category title.",
+    "LLM peer insight: - Use supporting H2s: **Harvest vs Harvest Elite**, **Best AeroGarden for Small Apartments**, and **Best AeroGarden Under $50**.",
+    "LLM peer insight: - Add a 40–60-word answer directly below the H1 summarizing the key differences.",
+    "LLM peer insight: - H1: **AeroGarden Comparison Chart: Which Indoor Garden Is Best for You?**",
+    "LLM peer insight: - Title: **AeroGarden Comparison Chart: Harvest vs Harvest Elite and More**",
+    "LLM peer insight: . **Create a query-matched comparison page with a stronger title and H1.**",
+    "WORKING peer pattern: long-form depth (~1312 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -72,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-06 19:53 UTC"
+    "generated_at": "2026-10-08 20:18 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 9 action(s) still measuring (3-7d windows)",
+      "IMPACT: 5 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

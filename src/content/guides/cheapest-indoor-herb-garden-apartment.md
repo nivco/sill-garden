@@ -1,12 +1,12 @@
 ---
 title: Cheapest indoor herb garden for apartments under $50 (2026)
-description: "Cheapest indoor herb garden under $50 for apartments (2026) — windowsill pots, Kratky jars, clip lights, and when a 3-pod kit is worth the upgrade."
+description: "best cheap herb garden under 50 for apartments — clear picks, noise, light, and refill cost."
 pubDate: 2026-08-17
 cluster: systems
 type: guide
 image: /images/guide-herbs.jpg
 imageAlt: Basil and rosemary in pots — a low-cost apartment herb start
-updatedDate: 2026-10-02
+updatedDate: 2026-10-08
 verdict: Start under $50 with soil pots + a waterproof tray if your sill gets real daylight. Add a clip LED before you buy pods. Upgrade to a Click & Grow Smart Garden 3 only when watering fatigue or weak light keeps killing DIY starts.
 products:
 - name: Click & Grow Smart Garden 3

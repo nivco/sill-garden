@@ -2,7 +2,7 @@
 title: AeroGarden vs Click & Grow — which apartment kit to buy (2026)
 description: "AeroGarden vs Click and Grow for a small apartment kitchen (2026) — noise, footprint, refill cost, and the clear first buy for studios vs cooks."
 pubDate: 2026-08-13
-updatedDate: 2026-10-06
+updatedDate: 2026-10-08
 cluster: systems
 type: comparison
 featured: true
@@ -129,6 +129,9 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 
 **Aerogarden harvest vs harvest elite?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Aerogarden comparison chart?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Our call
 

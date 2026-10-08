@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-07 21:28 UTC",
+  "generated_at": "2026-10-08 20:18 UTC",
   "severity": "ok",
   "stalled": false,
   "zero_session_days": [],
@@ -9,16 +9,16 @@
   "youtube_flat": false,
   "metrics": {
     "sessions_7d": 9,
-    "gsc_impressions_7d": 9,
+    "gsc_impressions_7d": 35,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
-    "youtube_views_total": 404,
+    "youtube_views_total": 406,
     "youtube_sessions_7d": 3,
-    "next_eligible_date": "2026-10-07",
+    "next_eligible_date": "2026-10-11",
     "distribution_url": "https://sillgarden.com/guides/compare-aerogarden-models/"
   },
   "reasons": [
-    "GSC 9 impressions / 0 clicks"
+    "GSC 35 impressions / 0 clicks"
   ],
   "actions": [
     "Post 1 kit-first Reddit thread (products/growth/distribution/latest.json — /kits/* not guide-only)",

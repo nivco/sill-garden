@@ -20,4 +20,4 @@ https://sillgarden.com/guides/compare-aerogarden-models/
 
 Sitemap: `https://sillgarden.com/sitemap-index.xml`
 
-_Generated 2026-10-06 19:53 UTC_
+_Generated 2026-10-08 20:18 UTC_
