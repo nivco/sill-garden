@@ -1,6 +1,6 @@
 # Visuality backlog (from competitive learning)
 
-Updated: 2026-10-08 20:18 UTC
+Updated: 2026-10-09 19:52 UTC
 
 - [x] Home hero: one brand + one CTA; no card clutter in first viewport
 - [x] Guide pages: Quick verdict + product picks before long prose
@@ -12,7 +12,7 @@ Updated: 2026-10-08 20:18 UTC
 - VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.
 - VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.
 - WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.
-- WORKING peer pattern: long-form depth (~1312 words avg) — expand thin guides with decision rules, not fluff.
-- LLM peer insight: . **Create a query-matched comparison page with a stronger title and H1.**
-- LLM peer insight: - Title: **AeroGarden Comparison Chart: Harvest vs Harvest Elite and More**
-- LLM peer insight: - H1: **AeroGarden Comparison Chart: Which Indoor Garden Is Best for You?**
+- WORKING peer pattern: long-form depth (~1322 words avg) — expand thin guides with decision rules, not fluff.
+- LLM peer insight: . **Create a query-matched comparison page with a precise title and H1.**
+- LLM peer insight: - Title: **AeroGarden Harvest vs Harvest Elite: Features, Price & Which One to Buy**
+- LLM peer insight: - H1: **AeroGarden Harvest vs. Harvest Elite**

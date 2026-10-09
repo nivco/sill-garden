@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-08 20:18 UTC",
+  "generated_at": "2026-10-09 19:52 UTC",
   "wow": {
-    "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 26.0,
+    "ga4_sessions_7d": 1.0,
+    "gsc_impressions_7d": 9.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 9,
-    "gsc_impressions_7d": 35,
+    "sessions_7d": 10,
+    "gsc_impressions_7d": 33,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
     "youtube_sessions_7d": 3,
@@ -87,14 +87,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: . **Add a scannable comparison table above the first long section.**",
-    "LLM peer insight: - This directly targets your highest-intent query instead of relying on a generic category title.",
-    "LLM peer insight: - Use supporting H2s: **Harvest vs Harvest Elite**, **Best AeroGarden for Small Apartments**, and **Best AeroGarden Under $50**.",
-    "LLM peer insight: - Add a 40–60-word answer directly below the H1 summarizing the key differences.",
-    "LLM peer insight: - H1: **AeroGarden Comparison Chart: Which Indoor Garden Is Best for You?**",
-    "LLM peer insight: - Title: **AeroGarden Comparison Chart: Harvest vs Harvest Elite and More**",
-    "LLM peer insight: . **Create a query-matched comparison page with a stronger title and H1.**",
-    "WORKING peer pattern: long-form depth (~1312 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: | Feature | AeroGarden Harvest | Harvest Elite |",
+    "LLM peer insight: . **Ship a scannable comparison table instead of another prose-heavy review.**",
+    "LLM peer insight: - Add a visible “Jump to comparison” link below the introduction.",
+    "LLM peer insight: - Add a 40–60-word verdict directly below the H1: choose Harvest for the lowest-cost entry; choose Elite for the stainless-steel finish, LCD controls, and vacation mode. The Elite grows six plants under a 20W light with ",
+    "LLM peer insight: - H1: **AeroGarden Harvest vs. Harvest Elite**",
+    "LLM peer insight: - Title: **AeroGarden Harvest vs Harvest Elite: Features, Price & Which One to Buy**",
+    "LLM peer insight: . **Create a query-matched comparison page with a precise title and H1.**",
+    "WORKING peer pattern: long-form depth (~1322 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-08 20:18 UTC"
+    "generated_at": "2026-10-09 19:52 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 5 action(s) still measuring (3-7d windows)",
+      "IMPACT: 10 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

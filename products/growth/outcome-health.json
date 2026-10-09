@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-08 21:25 UTC",
+  "generated_at": "2026-10-09 19:52 UTC",
   "severity": "ok",
   "stalled": false,
   "zero_session_days": [],
@@ -8,17 +8,17 @@
   "low_session_day_count": 0,
   "youtube_flat": false,
   "metrics": {
-    "sessions_7d": 9,
-    "gsc_impressions_7d": 35,
+    "sessions_7d": 10,
+    "gsc_impressions_7d": 33,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 1,
-    "youtube_views_total": 406,
+    "youtube_views_total": 405,
     "youtube_sessions_7d": 3,
     "next_eligible_date": "2026-10-11",
     "distribution_url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/"
   },
   "reasons": [
-    "GSC 35 impressions / 0 clicks"
+    "GSC 33 impressions / 0 clicks"
   ],
   "actions": [
     "Post 1 kit-first Reddit thread (products/growth/distribution/latest.json — /kits/* not guide-only)",
