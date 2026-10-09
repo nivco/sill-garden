@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-09 19:52 UTC",
+  "generated_at": "2026-10-09 20:23 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 579,
+        "word_count_est": 578,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -117,32 +117,6 @@
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4034,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -196,17 +170,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1322 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create a query-matched comparison page with a precise title and H1.**",
-    "LLM peer insight: - Title: **AeroGarden Harvest vs Harvest Elite: Features, Price & Which One to Buy**",
-    "LLM peer insight: - H1: **AeroGarden Harvest vs. Harvest Elite**",
-    "LLM peer insight: - Add a 40–60-word verdict directly below the H1: choose Harvest for the lowest-cost entry; choose Elite for the stainless-steel finish, LCD controls, and vacation mode. The Elite grows six plants under a 20W light with ",
-    "LLM peer insight: - Add a visible “Jump to comparison” link below the introduction.",
-    "LLM peer insight: . **Ship a scannable comparison table instead of another prose-heavy review.**",
-    "LLM peer insight: | Feature | AeroGarden Harvest | Harvest Elite |"
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Create a query-matched comparison page and title**",
+    "LLM peer insight: - Title: **AeroGarden Comparison Chart: Harvest vs. Harvest Elite vs. Bounty**",
+    "LLM peer insight: - Add a one-sentence answer above the table: “Harvest and Harvest Elite both grow six pods under a 20W LED; Elite adds a stainless-steel finish and digital reminders.”",
+    "LLM peer insight: - Include columns for pods, light wattage, maximum plant height, footprint, controls, reminders, included pods, price, and best-for.",
+    "LLM peer insight: - Make each product name an affiliate CTA, but keep the comparison data visible without requiring a click.",
+    "LLM peer insight: . **Publish a dedicated Harvest vs. Harvest Elite decision page**",
+    "LLM peer insight: - Title: **AeroGarden Harvest vs. Harvest Elite: Which 6-Pod Garden Is Better?**",
+    "LLM peer insight: - H1: **AeroGarden Harvest vs. Harvest Elite**"
   ],
-  "llm_notes": "1. **Create a query-matched comparison page with a precise title and H1.**  \n   - Title: **AeroGarden Harvest vs Harvest Elite: Features, Price & Which One to Buy**  \n   - H1: **AeroGarden Harvest vs. Harvest Elite**  \n   - Add a 40–60-word verdict directly below the H1: choose Harvest for the lowest-cost entry; choose Elite for the stainless-steel finish, LCD controls, and vacation mode. The Elite grows six plants under a 20W light with up to 12 inches of grow height.[1][3][9]  \n   - Add a visible “Jump to comparison” link below the introduction.\n\n2. **Ship a scannable comparison table instead of another prose-heavy review.**  \n   Include these rows:\n\n   | Feature | AeroGarden Harvest | Harvest Elite |\n   |---|---|---|\n   | Plant capacity | 6 pods | 6 pods |\n   | Grow height | 12 inches | 12 inches |\n   | Light | 20W LED | 20W LED |\n   | Finish | Matte plastic | Stainless steel |\n   | LCD controls | No | Yes |\n   | Vacation mode | No | Yes |\n   | Best for | Lowest upfront cost | Better controls and appearance |\n\n   Put the table above the first long section, repeat the preferred CTA beneath it, and add a “last checked” date plus affiliate disclosure. The core product differences—finish and vacation mode—are supported by AeroGarden’s product information.[1][9]\n\n3. **Build one dedicated “under $50” roundup targeting all three lower-funnel queries.**  \n   - Title: **5 Best Indoor Herb Gardens Under $50 in 2026**  \n   - H1: **Best Cheap, Compact Indoor Herb Gardens Under $50**  \n   - Use a short “best for” format: **Best overall**, **Best compact**, **Best for healthy growth**",
+  "llm_notes": "1. **Create a query-matched comparison page and title**\n   - Title: **AeroGarden Comparison Chart: Harvest vs. Harvest Elite vs. Bounty**\n   - H1: **AeroGarden Comparison Chart**\n   - Add a one-sentence answer above the table: “Harvest and Harvest Elite both grow six pods under a 20W LED; Elite adds a stainless-steel finish and digital reminders.”\n   - Include columns for pods, light wattage, maximum plant height, footprint, controls, reminders, included pods, price, and best-for.\n   - Make each product name an affiliate CTA, but keep the comparison data visible without requiring a click.\n\n2. **Publish a dedicated Harvest vs. Harvest Elite decision page**\n   - Title: **AeroGarden Harvest vs. Harvest Elite: Which 6-Pod Garden Is Better?**\n   - H1: **AeroGarden Harvest vs. Harvest Elite**\n   - Open with a verdict box:\n     - **Choose Harvest** for the lower-cost basic setup.\n     - **Choose Harvest Elite** for stainless steel, digital controls, and automatic reminders.\n   - Use a side-by-side table. Both models should be clearly shown as six-pod systems with 20W LED lighting and up to 12 inches of grow height; the Elite specifications are supported by AeroGarden’s product page.[1]\n   - Add a “Who should buy which?” section and a final CTA directly below the verdict.\n\n3. **Build one budget roundup targeting all three “under $50” query variants**\n   - Title: **5 Best Indoor Herb Gardens Under $50: Cheap, Compact, and Healthy Picks**\n   - H1: **Best Indoor Herb Gardens Under $50**\n   - Add three visible buying labels near the top:\n     - **Best cheap herb garden**\n     - **Best ",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -237,6 +211,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
