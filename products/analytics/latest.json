@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-08 20:53 UTC",
+  "generated_at": "2026-10-09 03:55 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 10,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 35,
+    "gsc_impressions_7d": 33,
     "indexed_urls": 32,
     "sitemap_urls": 32,
     "cf_pageviews_7d": null,
@@ -120,8 +120,8 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 35,
-      "avg_position": 9.2,
+      "impressions": 33,
+      "avg_position": 9.5,
       "top_queries": [
         {
           "query": "aerogarden comparison chart",
@@ -217,8 +217,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-01",
-        "end": "2026-10-08"
+        "start": "2026-10-02",
+        "end": "2026-10-09"
       }
     },
     "indexing": {
@@ -755,7 +755,7 @@
         {
           "id": "znYwZvnXYmQ",
           "title": "Aerogarden harvest vs bounty hydroponics (2026)",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-10-08T19:39:26Z",
           "url": "https://www.youtube.com/watch?v=znYwZvnXYmQ"
@@ -955,7 +955,7 @@
     }
   ],
   "insights": [
-    "GSC: 35 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison chart\u201d (pos 34), \u201caerogarden harvest vs harvest elite\u201d (pos 52), \u201cbest cheap herb garden under 50\u201d (pos 7). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 33 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison chart\u201d (pos 34), \u201caerogarden harvest vs harvest elite\u201d (pos 52), \u201cbest cheap herb garden under 50\u201d (pos 7). Tighten title/H1 on the matching guide to climb.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -1001,6 +1001,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 9 | Aff clicks 1 | GSC 0c/35i | YT views 406 | Setup 6/7"
+    "headline": "Sessions 9 | Aff clicks 1 | GSC 0c/33i | YT views 406 | Setup 6/7"
   }
 }
