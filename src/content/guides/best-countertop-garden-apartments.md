@@ -19,7 +19,7 @@ products:
 - name: Budget 10–12 pod kits (iDOO / similar)
   note: More plants per dollar; check pump noise reviews
   search: iDOO hydroponics 12 pod indoor garden
-updatedDate: 2026-10-09
+updatedDate: 2026-10-10
 ---
 Apartment counters are short on space and patience. The right first system is the one you’ll actually keep plugged in — not the tallest tower on Amazon.
 
@@ -101,4 +101,7 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 
 **Best cheap herb garden under 50?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Best compact herb garden under 50?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
