@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-09",
-  "generated": "2026-10-09 20:23 UTC",
+  "date": "2026-10-10",
+  "generated": "2026-10-10 19:37 UTC",
   "research": {
-    "generated": "2026-10-09 20:23 UTC",
+    "generated": "2026-10-10 19:37 UTC",
     "zero_click_queries": [
       {
         "query": "aerogarden comparison chart",
@@ -148,10 +148,10 @@
         "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
         "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
         "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-        "LLM peer insight: . **Create a query-matched comparison page and title**",
-        "LLM peer insight: - Title: **AeroGarden Comparison Chart: Harvest vs. Harvest Elite vs. Bounty**",
-        "LLM peer insight: - Add a one-sentence answer above the table: “Harvest and Harvest Elite both grow six pods under a 20W LED; Elite adds a stainless-steel finish and digital reminders.”",
-        "LLM peer insight: - Include columns for pods, light wattage, maximum plant height, footprint, controls, reminders, included pods, price, and best-for."
+        "LLM peer insight: . **Create a dedicated comparison page targeting the highest-intent query.**",
+        "LLM peer insight: - Title: **AeroGarden Comparison Chart: Every Model Compared for Size, Pods, Price & Features**",
+        "LLM peer insight: - Add a scannable table with: model, pod capacity, grow-light wattage, maximum plant height, footprint, display/reminders, vacation mode, ideal user, and current price.",
+        "LLM peer insight: - Add a “Best for” verdict in each row rather than forcing readers to interpret specs."
       ],
       "actions": [
         {
@@ -185,9 +185,9 @@
       ]
     },
     "llm_notes": {
-      "aerogarden comparison chart": "- **Noise:** AeroGarden models use submersible pumps, producing a low hum; roughly **25–40 dB**, audible in very quiet bedrooms.[1][2][8]\n- **Cost:** Typical AeroGarden units cost about **$79–$129 upfront**; annual pods and nutrients can add roughly **$70–$180**.[3][7]\n- **Apartment fit:** Countertop models occupy about **under 1 sq. ft.**, fit kitchens or desks, and suit small apartments better than vertical towers.[2][4][7]",
-      "aerogarden harvest vs harvest elite": "- **Noise:** Both use a pump and produce a quiet, audible hum; the Harvest Elite is not meaningfully quieter than the Harvest.[1][3]\n- **Cost:** The standard Harvest is typically cheaper—about **$109.95** versus **$124.95** for the Harvest Elite; Elite’s premium mainly buys the stainless-steel finish.[9]\n- **Apartment fit:** Both are compact six-pod countertop gardens with a 20W light and roughly 12 inches of grow clearance; suitable for kitchens, desks, and studios, but allow about 30 inches of vertical clearance.[5][9]",
-      "best cheap herb garden under 50": "- **Noise:** A passive Kratky herb garden has no pump, so it runs silently; typical setup costs $25–$36.[6]\n- **Cost:** A five-jar herb garden costs about $15–$25; a small DWC system costs $30–$50.[2]\n- **Apartment fit:** Best for apartments: compact windowsill or counter setups using basil, mint, parsley, cilantro, or chives; they require no plumbing or drilling.[2]"
+      "aerogarden comparison chart": "- **Noise:** AeroGarden models use small submersible pumps and produce a low hum; measured examples range around **25–35 dB**, generally apartment-friendly but noticeable in a silent bedroom.[1][3]\n- **Cost:** Typical 2026 entry prices are roughly **$89–$129** for Harvest models; electricity may add about **$19/year** for a 20-watt Harvest, excluding pods and nutrients.[3][8]\n- **Apartment fit:** Best for counters and small kitchens: common models occupy about **0.56–0.61 sq ft**, include the grow light, and need no grow tent or floor plumbing.[2][6][8]",
+      "aerogarden harvest vs harvest elite": "- **Noise:** Both use a small pump producing a quiet, intermittent hum; it can be noticeable in a silent bedroom.[1][6]\n- **Cost:** Harvest is typically cheaper—about $66–$110 versus roughly $125 for Harvest Elite; electricity is similar because both use a 20W light.[6][10]\n- **Apartment fit:** Both hold six plants and fit compact counters; Elite adds a stainless-steel finish and, on some versions, Wi‑Fi or vacation mode, but not more growing capacity.[4][6]",
+      "best cheap herb garden under 50": "- **Noise:** Kratky jar gardens are silent because they use no pump; a complete setup costs about $25–$36.[5][8]\n- **Cost:** A five-jar herb garden costs roughly $15–$25; adding an LED panel may bring the total to $25–$50.[3][5]\n- **Apartment fit:** Compact jars need only a sunny windowsill, avoid plumbing or drilling, and suit basil, mint, parsley, cilantro, and chives.[3][10]"
     },
     "guide_count": 17,
     "existing_slugs": [
@@ -213,5 +213,5 @@
   "proposed": [],
   "applied": [],
   "indexnow": null,
-  "summary_md": "# Sill Garden Content Agent — 2026-10-09\n\nGenerated: 2026-10-09 20:23 UTC\n\n## Research\n- Guides: 17\n- Zero-click GSC queries: 13\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden comparison chart — 1 impr, pos 34.0\n- aerogarden harvest vs harvest elite — 1 impr, pos 52.0\n- best cheap herb garden under 50 — 3 impr, pos 7.3\n- best compact herb garden under 50 — 1 impr, pos 2.0\n- best healthy herb garden under 50 — 6 impr, pos 9.5\n- best homemade herb garden under 50 — 6 impr, pos 2.0\n- best natural herb garden under 50 — 1 impr, pos 2.0\n- best quick herb garden under 50 — 2 impr, pos 6.0\n"
+  "summary_md": "# Sill Garden Content Agent — 2026-10-10\n\nGenerated: 2026-10-10 19:37 UTC\n\n## Research\n- Guides: 17\n- Zero-click GSC queries: 13\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden comparison chart — 1 impr, pos 34.0\n- aerogarden harvest vs harvest elite — 1 impr, pos 52.0\n- best cheap herb garden under 50 — 3 impr, pos 7.3\n- best compact herb garden under 50 — 1 impr, pos 2.0\n- best healthy herb garden under 50 — 6 impr, pos 9.5\n- best homemade herb garden under 50 — 6 impr, pos 2.0\n- best natural herb garden under 50 — 1 impr, pos 2.0\n- best quick herb garden under 50 — 2 impr, pos 6.0\n"
 }
