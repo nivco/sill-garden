@@ -141,6 +141,9 @@ You do not need a PDF. Use this comparison chart, the [kit picker](/tools/kit-pi
 **Low light indoor herbs?**  
 See [best low-light herbs for apartments](/guides/best-low-light-herbs-apartment/). Kits help, but herb choice still matters on weak sills.
 
+
+**Best budget herb garden under 50?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Related
 
 - [Quiet kit + pod-cost picker](/tools/kit-picker/)

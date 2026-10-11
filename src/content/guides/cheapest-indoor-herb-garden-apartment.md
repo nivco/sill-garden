@@ -1,6 +1,6 @@
 ---
 title: Cheapest indoor herb garden for apartments under $50 (2026)
-description: "Best cheap / budget / homemade herb garden under $50 for apartments (2026) — simple pots, quiet Kratky jars, waterproof trays, and when a 3-pod kit is worth it."
+description: "best cheap herb garden under 50 for apartments — clear picks, noise, light, and refill cost."
 pubDate: 2026-08-17
 cluster: systems
 type: guide

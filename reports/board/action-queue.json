@@ -780,6 +780,19 @@
       "priority": "P3",
       "done": false,
       "created": "2026-10-06 19:23 UTC"
+    },
+    {
+      "id": "8c01d70e5926",
+      "fingerprint": "8c01d70e5926",
+      "role": "seo",
+      "type": "tune_guide_seo",
+      "title": "tune_guide_seo: quiet-countertop-gardens-studios",
+      "detail": "CTR-first query: 3 impr, pos 8.7, 0 clicks",
+      "target": "quiet-countertop-gardens-studios",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-10-11 19:15 UTC"
     }
   ],
   "applied_log": [
@@ -956,7 +969,13 @@
       "type": "tune_guide_seo",
       "slug": "cheapest-indoor-herb-garden-apartment",
       "reason": "CTR-first query desc: 3 impr, pos 7.3, 0 clicks"
+    },
+    {
+      "at": "2026-10-11 19:15 UTC",
+      "type": "tune_guide_seo",
+      "slug": "cheapest-indoor-herb-garden-apartment",
+      "reason": "CTR-first query desc: 6 impr, pos 4.7, 0 clicks"
     }
   ],
-  "updated": "2026-10-11 11:46 UTC"
+  "updated": "2026-10-11 19:15 UTC"
 }

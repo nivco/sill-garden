@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-10 19:00 UTC",
+  "generated_at": "2026-10-11 19:15 UTC",
   "wow": {
-    "ga4_sessions_7d": -2.0,
-    "gsc_impressions_7d": -2.0,
+    "ga4_sessions_7d": -1.0,
+    "gsc_impressions_7d": 30.0,
     "gsc_clicks_7d": 0.0,
-    "affiliate_clicks_7d": -1.0
+    "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 7,
-    "gsc_impressions_7d": 31,
+    "sessions_7d": 6,
+    "gsc_impressions_7d": 61,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -30,56 +30,56 @@
       "position": 52.0
     },
     {
-      "query": "best cheap herb garden under 50",
+      "query": "aerogarden vs click and grow",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 50.0
+    },
+    {
+      "query": "best budget herb garden under 50",
       "clicks": 0,
       "impressions": 3,
       "ctr": 0.0,
-      "position": 7.3
+      "position": 2.7
+    },
+    {
+      "query": "best cheap herb garden under 50",
+      "clicks": 0,
+      "impressions": 6,
+      "ctr": 0.0,
+      "position": 4.7
     },
     {
       "query": "best compact herb garden under 50",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
       "position": 2.0
     },
     {
       "query": "best healthy herb garden under 50",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 9.5
+      "position": 9.4
     },
     {
       "query": "best homemade herb garden under 50",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 2.0
+      "position": 2.1
     },
     {
-      "query": "best natural herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 2.0
-    },
-    {
-      "query": "best quick herb garden under 50",
+      "query": "best lightweight herb garden under 50",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 6.0
+      "position": 10.5
     },
     {
-      "query": "best quiet herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 4.0
-    },
-    {
-      "query": "best simple herb garden under 50",
+      "query": "best natural herb garden under 50",
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
@@ -87,14 +87,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: Include columns for **Model, price, footprint, pod capacity, light height, water capacity, app/connectivity, best for, and current deal**. Highlight a single winner in each category:",
-    "LLM peer insight: . **Ship a scannable comparison table above the fold.**",
-    "LLM peer insight: - Use the exact terms **“AeroGarden comparison chart”** and **“AeroGarden Harvest vs Harvest Elite”** in the introduction and one subheading. Titles and prominent page headings can both influence Google’s title link.[2]",
-    "LLM peer insight: - Add a 40–60-word summary directly under the H1 stating who should choose each model.",
-    "LLM peer insight: - H1: **AeroGarden Comparison Chart: Harvest, Harvest Elite, and Compact Alternatives**",
-    "LLM peer insight: - SEO title: **AeroGarden Comparison Chart: Harvest vs Harvest Elite + Best Alternatives**",
-    "LLM peer insight: . **Create a keyword-led comparison page with a decisive title and H1.**",
-    "WORKING peer pattern: long-form depth (~1318 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Use a visible CTA beneath the table: **“Compare current prices”**.",
+    "LLM peer insight: - Put the comparison table above the first major image or long-form explanation.",
+    "LLM peer insight: - Add a short introduction answering the query immediately.",
+    "LLM peer insight: - **H1:** `AeroGarden Comparison Chart: Which Indoor Garden Is Best?`",
+    "LLM peer insight: - **Title:** `AeroGarden Comparison Chart: Harvest, Harvest Elite & Click & Grow`",
+    "LLM peer insight: . **Create a dedicated comparison hub with a search-matched title**",
+    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the existing GSC demand.",
+    "WORKING peer pattern: long-form depth (~1297 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-10 19:01 UTC"
+    "generated_at": "2026-10-11 19:15 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 14 action(s) still measuring (3-7d windows)",
+      "IMPACT: 12 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

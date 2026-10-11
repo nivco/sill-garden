@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10 20:13 UTC",
+  "generated_at": "2026-10-11 19:15 UTC",
   "severity": "ok",
   "stalled": false,
   "zero_session_days": [],
@@ -8,17 +8,17 @@
   "low_session_day_count": 0,
   "youtube_flat": false,
   "metrics": {
-    "sessions_7d": 7,
-    "gsc_impressions_7d": 31,
+    "sessions_7d": 6,
+    "gsc_impressions_7d": 61,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
-    "youtube_views_total": 405,
+    "youtube_views_total": 410,
     "youtube_sessions_7d": 0,
-    "next_eligible_date": "2026-10-11",
-    "distribution_url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/"
+    "next_eligible_date": "2026-10-14",
+    "distribution_url": "https://sillgarden.com/kits/under-50/"
   },
   "reasons": [
-    "GSC 31 impressions / 0 clicks",
+    "GSC 61 impressions / 0 clicks",
     "YouTube -> site sessions = 0",
     "Affiliate clicks_7d = 0"
   ],

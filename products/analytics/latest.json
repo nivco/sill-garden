@@ -1,12 +1,12 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-11 17:08 UTC",
+  "generated_at": "2026-10-11 19:15 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 3,
-    "users_7d": 2,
-    "pageviews_7d": 1,
+    "sessions_7d": 6,
+    "users_7d": 5,
+    "pageviews_7d": 4,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
     "gsc_impressions_7d": 61,
@@ -15,13 +15,13 @@
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 405,
+    "youtube_views_total": 410,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
     "engagement_rate_pct": 0.0,
     "affiliate_ctr_pct": 0.0,
-    "youtube_videos": 42
+    "youtube_videos": 43
   },
   "sources": {
     "site": {
@@ -31,9 +31,9 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 2,
-        "sessions": 3,
-        "screenPageViews": 1,
+        "activeUsers": 5,
+        "sessions": 6,
+        "screenPageViews": 4,
         "engagedSessions": 0,
         "averageSessionDuration_sec": 0.0,
         "engagementRate_pct": 0.0
@@ -41,17 +41,17 @@
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "3",
-          "screenPageViews": "1"
+          "sessions": "6",
+          "screenPageViews": "4"
         }
       ],
       "entry_channels": [
         {
-          "sessionDefaultChannelGroup": "Cross-network",
-          "sessions": "1"
+          "sessionDefaultChannelGroup": "Direct",
+          "sessions": "4"
         },
         {
-          "sessionDefaultChannelGroup": "Direct",
+          "sessionDefaultChannelGroup": "Cross-network",
           "sessions": "1"
         },
         {
@@ -61,12 +61,12 @@
       ],
       "source_medium": [
         {
-          "sessionSourceMedium": "(data not available)",
-          "sessions": "1",
+          "sessionSourceMedium": "(direct) / (none)",
+          "sessions": "4",
           "engagedSessions": "0"
         },
         {
-          "sessionSourceMedium": "(direct) / (none)",
+          "sessionSourceMedium": "(data not available)",
           "sessions": "1",
           "engagedSessions": "0"
         },
@@ -807,10 +807,18 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 405,
-        "videos": 42
+        "views": 410,
+        "videos": 43
       },
       "recent_videos": [
+        {
+          "id": "jdnMVOKBocQ",
+          "title": "Best healthy herb garden under 50 (2026)",
+          "views": 0,
+          "likes": 0,
+          "published": "2026-10-11T18:37:00Z",
+          "url": "https://www.youtube.com/watch?v=jdnMVOKBocQ"
+        },
         {
           "id": "znYwZvnXYmQ",
           "title": "Aerogarden harvest vs bounty hydroponics (2026)",
@@ -866,14 +874,6 @@
           "likes": 0,
           "published": "2026-09-19T21:31:54Z",
           "url": "https://www.youtube.com/watch?v=CTmzbmQ5FAw"
-        },
-        {
-          "id": "2k80pmMSYgs",
-          "title": "AeroGarden Bounty vs Harvest (2026) \u2014 Which Should You Buy?",
-          "views": 5,
-          "likes": 0,
-          "published": "2026-09-19T21:30:55Z",
-          "url": "https://www.youtube.com/watch?v=2k80pmMSYgs"
         }
       ]
     },
@@ -932,13 +932,31 @@
   },
   "actions": [
     {
+      "priority": "P0",
+      "category": "indexing",
+      "title": "Request indexing for 1 money URLs",
+      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/kits/homemade-kratky/",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-11 17:08 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "indexing",
+      "title": "Request indexing for 3 guides",
+      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: pet-safe-low-smell-apartment-herbs, parsley-countertop-first-harvest, cilantro-countertop-first-harvest.",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-11 17:08 UTC"
+    },
+    {
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
       "detail": "Already showing for: \u201caerogarden comparison chart\u201d pos 34/1 impr; \u201caerogarden harvest vs harvest elite\u201d pos 52/1 impr; \u201caerogarden vs click and grow\u201d pos 50/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-10-11 03:13 UTC"
+      "created": "2026-10-11 17:08 UTC"
     },
     {
       "priority": "P1",
@@ -947,79 +965,16 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-10-11 03:13 UTC"
+      "created": "2026-10-11 17:08 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow ping",
-      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
+      "title": "IndexNow throttled",
+      "detail": "Last ping 2026-10-11 03:13 UTC (13.9h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-10-11 03:13 UTC"
-    },
-    {
-      "priority": "P0",
-      "category": "cmo",
-      "title": "ALERT: zero sessions for 5+ days \u2014 distribute manually",
-      "detail": "Automation is healthy but acquisition is dead. GA4 sessions_7d=3 (<5) for 9 day(s) | GSC 21 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0. Post Reddit/Pinterest from distribution/latest.json today.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-02 20:52 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "cro",
-      "title": "Visuality iteration: hero/CTA/og image hygiene",
-      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 44.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
+      "created": "2026-10-11 17:08 UTC"
     }
   ],
   "insights": [
@@ -1070,6 +1025,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 3 | Aff clicks 0 | GSC 0c/61i | YT views 405 | Setup 6/7"
+    "headline": "Sessions 6 | Aff clicks 0 | GSC 0c/61i | YT views 410 | Setup 6/7"
   }
 }

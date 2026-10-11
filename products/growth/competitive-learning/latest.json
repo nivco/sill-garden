@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-10 19:37 UTC",
+  "generated_at": "2026-10-11 19:15 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 578,
+        "word_count_est": 453,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -121,6 +121,32 @@
         "comparison_signal": false,
         "year_in_title": false
       }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4035,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
     }
   ],
   "our_probe": {
@@ -144,7 +170,7 @@
         "Our call",
         "Next"
       ],
-      "word_count_est": 1224,
+      "word_count_est": 1308,
       "images": 6,
       "has_faq": true,
       "has_table": true,
@@ -159,28 +185,28 @@
   "gsc_queries": [
     "aerogarden comparison chart",
     "aerogarden harvest vs harvest elite",
+    "aerogarden vs click and grow",
+    "best budget herb garden under 50",
     "best cheap herb garden under 50",
     "best compact herb garden under 50",
     "best healthy herb garden under 50",
-    "best homemade herb garden under 50",
-    "best natural herb garden under 50",
-    "best quick herb garden under 50"
+    "best homemade herb garden under 50"
   ],
   "learnings": [
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Create a dedicated comparison page targeting the highest-intent query.**",
-    "LLM peer insight: - Title: **AeroGarden Comparison Chart: Every Model Compared for Size, Pods, Price & Features**",
-    "LLM peer insight: - Add a scannable table with: model, pod capacity, grow-light wattage, maximum plant height, footprint, display/reminders, vacation mode, ideal user, and current price.",
-    "LLM peer insight: - Add a “Best for” verdict in each row rather than forcing readers to interpret specs.",
-    "LLM peer insight: - Place a CTA directly below the table: **See today’s price for the best AeroGarden for your space**.",
-    "LLM peer insight: . **Publish a focused Harvest-versus-Elite section or article.**",
-    "LLM peer insight: - Title: **AeroGarden Harvest vs Harvest Elite: Which One Should You Buy?**",
-    "LLM peer insight: - H1: **AeroGarden Harvest vs Harvest Elite**"
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1297 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the existing GSC demand.",
+    "LLM peer insight: . **Create a dedicated comparison hub with a search-matched title**",
+    "LLM peer insight: - **Title:** `AeroGarden Comparison Chart: Harvest, Harvest Elite & Click & Grow`",
+    "LLM peer insight: - **H1:** `AeroGarden Comparison Chart: Which Indoor Garden Is Best?`",
+    "LLM peer insight: - Add a short introduction answering the query immediately.",
+    "LLM peer insight: - Put the comparison table above the first major image or long-form explanation.",
+    "LLM peer insight: - Use a visible CTA beneath the table: **“Compare current prices”**."
   ],
-  "llm_notes": "1. **Create a dedicated comparison page targeting the highest-intent query.**  \n   - Title: **AeroGarden Comparison Chart: Every Model Compared for Size, Pods, Price & Features**\n   - H1: **AeroGarden Comparison Chart**\n   - Add a scannable table with: model, pod capacity, grow-light wattage, maximum plant height, footprint, display/reminders, vacation mode, ideal user, and current price.\n   - Add a “Best for” verdict in each row rather than forcing readers to interpret specs.\n   - Place a CTA directly below the table: **See today’s price for the best AeroGarden for your space**.\n\n2. **Publish a focused Harvest-versus-Elite section or article.**  \n   - Title: **AeroGarden Harvest vs Harvest Elite: Which One Should You Buy?**\n   - H1: **AeroGarden Harvest vs Harvest Elite**\n   - Lead with the decision: both models generally offer six pods, a 20W LED, and roughly 12 inches of growing height; Elite’s practical differentiators are its stainless-steel finish, digital display, and vacation mode.[3][5]\n   - Use a two-column comparison table:\n     | Feature | Harvest | Harvest Elite |\n     |---|---|---|\n     | Capacity | 6 pods | 6 pods |\n     | Light | 20W LED | 20W LED |\n     | Maximum height | About 12 in | About 12 in |\n     | Display | Basic controls | Digital reminders |\n     | Vacation mode | No | Yes |\n     | Best for | Lowest cost | Frequent travelers/design-conscious buyers |\n   - Add a bold verdict box: **Buy Harvest for value; buy Elite if vacation mode or the stainless finish matters.**\n\n3. **Build a genuinely useful “under $50” buying hub.**  \n   - Title: **5 Best Ind",
+  "llm_notes": "Ship these five changes this week, prioritizing pages that match the existing GSC demand.\n\n1. **Create a dedicated comparison hub with a search-matched title**\n\n   - **Title:** `AeroGarden Comparison Chart: Harvest, Harvest Elite & Click & Grow`\n   - **H1:** `AeroGarden Comparison Chart: Which Indoor Garden Is Best?`\n   - Add a short introduction answering the query immediately.\n   - Put the comparison table above the first major image or long-form explanation.\n   - Include jump links to:\n     - AeroGarden Harvest vs. Harvest Elite\n     - AeroGarden vs. Click & Grow\n     - Best herb garden under $50\n   - Use a visible CTA beneath the table: **“Compare current prices”**.\n\n2. **Add two decision-focused comparison tables**\n\n   Use factual, scannable fields rather than generic pros and cons.\n\n   **Harvest vs. Harvest Elite**\n\n   | Feature | AeroGarden Harvest | Harvest Elite |\n   |---|---|---|\n   | Plant capacity | 6 pods | 6 pods |\n   | Grow light | 20W full-spectrum LED | 20W full-spectrum LED |\n   | Maximum plant height | About 12 inches | About 12 inches |\n   | Digital display | No | Yes |\n   | Vacation mode | No | Yes |\n   | Best for | Lowest-cost everyday growing | Travelers and countertop appearance |\n\n   Both models reportedly share the same six-pod capacity and 20W light; the Elite’s meaningful upgrades are its display, stainless finish, and vacation mode.[1][2]\n\n   **AeroGarden vs. Click & Grow**\n\n   Compare:\n   - Upfront price\n   - Pod or seed flexibility\n   - Ongoing pod cost\n   - Reservoir capacity\n   - Light adjustability\n   - Maintenance frequency\n   - Best plant",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -211,6 +237,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
