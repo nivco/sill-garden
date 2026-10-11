@@ -4,26 +4,26 @@ In Google Search Console → URL inspection → paste URL → **Request indexing
 
 Do the P0 list first (quota is limited). Maintained by growth agent from working-playbook money_urls.
 
-## P0 — money URLs
+## P0 — money URLs (kits first)
 
 ```
+https://sillgarden.com/kits/homemade-kratky/
+https://sillgarden.com/kits/under-50/
 https://sillgarden.com/kits/
 https://sillgarden.com/kits/studio-silence/
 https://sillgarden.com/kits/kitchen-capacity/
-https://sillgarden.com/kits/under-50/
-https://sillgarden.com/kits/homemade-kratky/
 https://sillgarden.com/kits/refills/
 https://sillgarden.com/tools/kit-picker/
 https://sillgarden.com/tools/year-one-cost/
-https://sillgarden.com/guides/aerogarden-vs-click-and-grow/
-https://sillgarden.com/guides/compare-aerogarden-models/
 https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/
+https://sillgarden.com/guides/compare-aerogarden-models/
 https://sillgarden.com/guides/quiet-countertop-gardens-studios/
 https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/
 https://sillgarden.com/guides/parsley-countertop-first-harvest/
 https://sillgarden.com/guides/cilantro-countertop-first-harvest/
+https://sillgarden.com/guides/aerogarden-vs-click-and-grow/
 ```
 
 Sitemap: `https://sillgarden.com/sitemap-index.xml`
 
-_Updated 2026-10-11 — homemade kit + under-$50 / comparison / herb enrichments_
+_Updated 2026-10-11 — kit traffic push; homemade-kratky first_

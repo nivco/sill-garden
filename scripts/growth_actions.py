@@ -39,6 +39,13 @@ KIT_TARGETS = [
         "description": "Pots, tray, mix, seeds, clip light — renter-safe start.",
         "lane": "budget",
     },
+    {
+        "slug": "kits-homemade-kratky",
+        "title": "Homemade Kratky Kit — silent DIY under $50",
+        "url": "https://sillgarden.com/kits/homemade-kratky/",
+        "description": "Mason jars + tray + nutrients + clip light — homemade quiet lane.",
+        "lane": "homemade",
+    },
 ]
 
 
@@ -121,7 +128,9 @@ def _kit_for_query(query: str) -> dict:
     q = query.lower()
     if any(x in q for x in ("quiet", "noise", "studio", "click and grow", "click & grow")):
         return KIT_TARGETS[0]
-    if any(x in q for x in ("under 50", "cheap", "budget", "$50")):
+    if any(x in q for x in ("homemade", "kratky", "diy", "jar")):
+        return KIT_TARGETS[3]
+    if any(x in q for x in ("under 50", "cheap", "budget", "$50", "simple", "natural")):
         return KIT_TARGETS[2]
     if any(x in q for x in ("bounty", "harvest", "aerogarden", "capacity")):
         return KIT_TARGETS[1]

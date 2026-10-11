@@ -1,0 +1,12 @@
+{
+  "generated_at": "2026-10-11 10:45 UTC",
+  "note": "Mirror of latest.json for dated archive",
+  "priority": "P0_kit_first",
+  "primary_kit": "https://sillgarden.com/kits/under-50/",
+  "packs": {
+    "reddit": "reddit-ready-2026-10-11.md",
+    "pinterest": "pinterest-ready-2026-10-11.md",
+    "manual": "manual-acquisition-2026-10-11.md",
+    "gsc": "gsc-request-indexing-urls.md"
+  }
+}
