@@ -1,12 +1,13 @@
 ---
 title: Kratky jar herbs for apartments (silent DIY)
-description: Grow basil and lettuce in mason jars with the Kratky method — silent, cheap, and landlord-safe when you use a tray.
+description: Grow basil and lettuce in mason jars with the Kratky method — silent, cheap homemade herb garden under $50, landlord-safe with a tray.
 pubDate: 2026-08-27
+updatedDate: 2026-10-11
 cluster: setup
 type: howto
 image: /images/guide-kratky.jpg
 imageAlt: Healthy hydroponic roots under a jar lid — the Kratky air-gap idea
-verdict: Kratky jars are the quietest apartment herb lane under $40 — if you can provide light. Use a waterproof tray and start with lettuce or basil, not rosemary.
+verdict: Kratky jars are the quietest apartment herb lane under $40 — if you can provide light. Use a waterproof tray and start with lettuce or basil, not rosemary. Shop the physical stack as the Homemade Kratky Kit.
 products:
   - name: Kratky mason jar kit
     note: Nets, lids, and jars in one search
@@ -51,11 +52,15 @@ The **Kratky method** is passive hydroponics: plant in a net pot, roots reach a 
 
 Woody herbs (rosemary, thyme) are awkward in small jars. Start with lettuce, basil, or mint cuttings.
 
+> **Shop the stack:** [Homemade Kratky Kit](/kits/homemade-kratky/) · [Under-$50 Sill Kit](/kits/under-50/) (soil alternative) · [Year-one cost](/tools/year-one-cost/)
+
 > **Key takeaway**
 > Kratky is a learning lane and a silence lane — not a replacement for every kit. If you hate measuring nutrients, buy a small Click & Grow after one successful jar cycle.
 
 ## Related
 
+- [Homemade Kratky Kit](/kits/homemade-kratky/)
 - [Cheapest indoor herb garden](/guides/cheapest-indoor-herb-garden-apartment/)
 - [Landlord-safe setup](/guides/landlord-safe-indoor-garden-setup/)
 - [Quiet gardens for studios](/guides/quiet-countertop-gardens-studios/)
+- [Pet-safe / low-smell herbs](/guides/pet-safe-low-smell-apartment-herbs/)

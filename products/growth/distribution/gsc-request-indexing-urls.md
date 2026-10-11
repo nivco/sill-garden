@@ -11,13 +11,19 @@ https://sillgarden.com/kits/
 https://sillgarden.com/kits/studio-silence/
 https://sillgarden.com/kits/kitchen-capacity/
 https://sillgarden.com/kits/under-50/
+https://sillgarden.com/kits/homemade-kratky/
 https://sillgarden.com/kits/refills/
 https://sillgarden.com/tools/kit-picker/
 https://sillgarden.com/tools/year-one-cost/
 https://sillgarden.com/guides/aerogarden-vs-click-and-grow/
 https://sillgarden.com/guides/compare-aerogarden-models/
+https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/
+https://sillgarden.com/guides/quiet-countertop-gardens-studios/
+https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/
+https://sillgarden.com/guides/parsley-countertop-first-harvest/
+https://sillgarden.com/guides/cilantro-countertop-first-harvest/
 ```
 
 Sitemap: `https://sillgarden.com/sitemap-index.xml`
 
-_Generated 2026-10-10 19:01 UTC_
+_Updated 2026-10-11 — homemade kit + under-$50 / comparison / herb enrichments_

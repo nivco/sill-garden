@@ -31,6 +31,7 @@ import { affiliateProducts } from '../../data/affiliates';
         <label><input type="radio" name="lane" value="silence" checked /> Studio silence (Click & Grow 3)</label>
         <label><input type="radio" name="lane" value="capacity" /> Kitchen capacity (Harvest-class)</label>
         <label><input type="radio" name="lane" value="budget" /> Under-$50 sill (pots + clip light)</label>
+        <label><input type="radio" name="lane" value="homemade" /> Homemade Kratky (jars + nutrients)</label>
       </fieldset>
       <fieldset>
         <legend>Refills after month 1</legend>
@@ -61,6 +62,7 @@ import { affiliateProducts } from '../../data/affiliates';
       products={[
         affiliateProducts.clickAndGrow3,
         affiliateProducts.aerogardenHarvest,
+        affiliateProducts.kratkyJar,
         affiliateProducts.bootTray,
         affiliateProducts.aerogardenSponges,
         affiliateProducts.clipGrowLight,
@@ -193,6 +195,13 @@ import { affiliateProducts } from '../../data/affiliates';
         pods: 0,
         kit: '/kits/under-50/',
       },
+      homemade: {
+        label: 'Homemade Kratky',
+        hardware: 40,
+        watts: 15,
+        pods: 0,
+        kit: '/kits/homemade-kratky/',
+      },
     };
 
     function val(name) {
@@ -208,11 +217,13 @@ import { affiliateProducts } from '../../data/affiliates';
       var lane = lanes[laneKey] || lanes.silence;
 
       var power = lane.watts * 15 * 365 * (kwhCents / 100) / 1000;
-      var accessories = laneKey === 'budget' ? 0 : 25;
+      var accessories = laneKey === 'budget' || laneKey === 'homemade' ? 0 : 25;
       var refillYear = 0;
       if (lane.pods > 0) {
         if (refill === 'branded') refillYear = lane.pods * 6 * 12;
         else if (refill === 'blanks') refillYear = lane.pods * 2.5 * 12;
+      } else if (laneKey === 'homemade') {
+        refillYear = 55;
       } else {
         refillYear = 40;
       }

@@ -46,16 +46,32 @@ export const starterKits: StarterKit[] = [
   {
     slug: 'under-50',
     title: 'Under-$50 Sill Kit',
-    eyebrow: 'Budget / DIY first',
+    eyebrow: 'Budget / cheap / simple',
     description:
-      'Pots, tray, seeds, and a clip light — the cheapest honest path when daylight is decent or you will add one lamp.',
-    whoFor: 'Bright sills, renters testing the habit before a $100 kit.',
+      'Pots, tray, seeds, and a clip light — the cheap, compact, waterproof-tray path for “best herb garden under $50” searches when daylight is decent or you will add one lamp.',
+    whoFor:
+      'Bright sills, renters testing the habit before a $100 kit, and anyone who wants simple/natural soil herbs without pods.',
     primaryId: 'herbPots',
     stackIds: ['herbPots', 'bootTray', 'pottingMix', 'basilSeeds', 'clipGrowLight'],
     guideHref: '/guides/cheapest-indoor-herb-garden-apartment/',
     guideLabel: 'Cheapest apartment herb garden',
     yearOneNote:
       'Skip branded pods entirely. Your recurring spend is seeds, mix top-ups, and electricity for the clip light.',
+  },
+  {
+    slug: 'homemade-kratky',
+    title: 'Homemade Kratky Kit',
+    eyebrow: 'Homemade / quiet DIY',
+    description:
+      'Mason-jar Kratky, tray, nutrients, seeds, and a clip light — the homemade silent lane under ~$50 when you want jars instead of soil pots.',
+    whoFor:
+      'Studios that need zero pump noise, tinkerers, and “best homemade herb garden under 50” shoppers with honest light.',
+    primaryId: 'kratkyJar',
+    stackIds: ['kratkyJar', 'bootTray', 'liquidPlantFood', 'basilSeeds', 'clipGrowLight'],
+    guideHref: '/guides/kratky-jar-herbs-apartment/',
+    guideLabel: 'Kratky jar herbs guide',
+    yearOneNote:
+      'No branded pods. Recurring cost is nutrient solution, seed, and clip-light electricity. Replace jars only if seals fail.',
   },
 ];
 
