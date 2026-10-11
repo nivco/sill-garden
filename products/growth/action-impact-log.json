@@ -1700,7 +1700,7 @@
       "title": "faq:aerogarden-vs-click-and-grow:Indoor herb garden kit recommendations pdf?",
       "detail": "faq:aerogarden-vs-click-and-grow:Indoor herb garden kit recommendations pdf?",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-04",
       "measure_after": "2026-10-11",
       "final_after": "2026-10-11",
@@ -1714,32 +1714,32 @@
       },
       "primary_metric": "affiliate_clicks_7d",
       "metrics_after": {
-        "sessions_7d": 9,
-        "users_7d": 8,
-        "pageviews_7d": 10,
-        "affiliate_clicks_7d": 1,
+        "sessions_7d": 3,
+        "users_7d": 2,
+        "pageviews_7d": 1,
+        "affiliate_clicks_7d": 0,
         "gsc_clicks_7d": 0,
-        "gsc_impressions_7d": 9,
+        "gsc_impressions_7d": 59,
         "indexed_urls": 32,
-        "sitemap_urls": 32,
-        "youtube_sessions_7d": 3,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
         "youtube_subs": 1,
-        "youtube_views_total": 403,
-        "engagement_rate_pct": 11.1,
-        "affiliate_ctr_pct": 11.1,
-        "youtube_videos": 41
+        "youtube_views_total": 405,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 42
       },
       "delta": {
-        "sessions_7d": -2.0,
-        "gsc_impressions_7d": -7.0,
+        "sessions_7d": -8.0,
+        "gsc_impressions_7d": 43.0,
         "gsc_clicks_7d": 0.0,
-        "affiliate_clicks_7d": 0.0,
-        "youtube_sessions_7d": 0.0,
-        "youtube_views_total": 2.0
+        "affiliate_clicks_7d": -1.0,
+        "youtube_sessions_7d": -3.0,
+        "youtube_views_total": 4.0
       },
-      "verdict": "flat",
-      "outcome": "flat affiliate_clicks_7d (0)",
-      "measured_at": "2026-10-07 12:15 UTC",
+      "verdict": "negative",
+      "outcome": "negative affiliate_clicks_7d -1",
+      "measured_at": "2026-10-11 11:46 UTC",
       "interim_outcome": "flat affiliate_clicks_7d (0)"
     },
     {
@@ -2232,7 +2232,7 @@
       "title": "CTR-first query desc: 3 impr, pos 7.3, 0 clicks",
       "detail": "CTR-first query desc: 3 impr, pos 7.3, 0 clicks",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-08",
       "measure_after": "2026-10-11",
       "final_after": "2026-10-15",
@@ -2244,7 +2244,34 @@
         "youtube_sessions_7d": 3.0,
         "youtube_views_total": 406.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 2,
+        "pageviews_7d": 1,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 59,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 405,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 42
+      },
+      "delta": {
+        "sessions_7d": -6.0,
+        "gsc_impressions_7d": 24.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": -1.0,
+        "youtube_sessions_7d": -3.0,
+        "youtube_views_total": -1.0
+      },
+      "verdict": "negative",
+      "outcome": "negative sessions_7d -6",
+      "measured_at": "2026-10-11 11:46 UTC"
     },
     {
       "id": "31584fcce342f2",
@@ -2253,7 +2280,7 @@
       "title": "kit-first distribution pack",
       "detail": "",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-08",
       "measure_after": "2026-10-11",
       "final_after": "2026-10-15",
@@ -2265,7 +2292,34 @@
         "youtube_sessions_7d": 3.0,
         "youtube_views_total": 406.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 2,
+        "pageviews_7d": 1,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 59,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 405,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 42
+      },
+      "delta": {
+        "sessions_7d": -6.0,
+        "gsc_impressions_7d": 24.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": -1.0,
+        "youtube_sessions_7d": -3.0,
+        "youtube_views_total": -1.0
+      },
+      "verdict": "negative",
+      "outcome": "negative sessions_7d -6",
+      "measured_at": "2026-10-11 11:46 UTC"
     },
     {
       "id": "72503a613bb8eb",
@@ -2276,7 +2330,7 @@
       "source": "daily_growth_agent",
       "status": "measuring",
       "executed_at": "2026-10-08",
-      "measure_after": "2026-10-11",
+      "measure_after": "2026-10-15",
       "final_after": "2026-10-15",
       "metrics_before": {
         "sessions_7d": 9.0,
@@ -2286,7 +2340,35 @@
         "youtube_sessions_7d": 3.0,
         "youtube_views_total": 406.0
       },
-      "primary_metric": "gsc_clicks_7d"
+      "primary_metric": "gsc_clicks_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 2,
+        "pageviews_7d": 1,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 59,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 405,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 42
+      },
+      "delta": {
+        "sessions_7d": -6.0,
+        "gsc_impressions_7d": 24.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": -1.0,
+        "youtube_sessions_7d": -3.0,
+        "youtube_views_total": -1.0
+      },
+      "verdict": "flat",
+      "outcome": "flat gsc_clicks_7d (0)",
+      "measured_at": "2026-10-11 11:46 UTC",
+      "interim_outcome": "flat gsc_clicks_7d (0)"
     },
     {
       "id": "aad29b1b8babca",
@@ -2295,7 +2377,7 @@
       "title": "faq:aerogarden-vs-click-and-grow:Aerogarden comparison chart?",
       "detail": "faq:aerogarden-vs-click-and-grow:Aerogarden comparison chart?",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-08",
       "measure_after": "2026-10-11",
       "final_after": "2026-10-15",
@@ -2307,7 +2389,34 @@
         "youtube_sessions_7d": 3.0,
         "youtube_views_total": 406.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 2,
+        "pageviews_7d": 1,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 59,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 405,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 42
+      },
+      "delta": {
+        "sessions_7d": -6.0,
+        "gsc_impressions_7d": 24.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": -1.0,
+        "youtube_sessions_7d": -3.0,
+        "youtube_views_total": -1.0
+      },
+      "verdict": "negative",
+      "outcome": "negative sessions_7d -6",
+      "measured_at": "2026-10-11 11:46 UTC"
     },
     {
       "id": "cba9f977550009",
@@ -2316,7 +2425,7 @@
       "title": "updated visual-backlog.md",
       "detail": "updated visual-backlog.md",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-08",
       "measure_after": "2026-10-11",
       "final_after": "2026-10-15",
@@ -2328,7 +2437,34 @@
         "youtube_sessions_7d": 3.0,
         "youtube_views_total": 406.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 2,
+        "pageviews_7d": 1,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 59,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 405,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 42
+      },
+      "delta": {
+        "sessions_7d": -6.0,
+        "gsc_impressions_7d": 24.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": -1.0,
+        "youtube_sessions_7d": -3.0,
+        "youtube_views_total": -1.0
+      },
+      "verdict": "negative",
+      "outcome": "negative sessions_7d -6",
+      "measured_at": "2026-10-11 11:46 UTC"
     },
     {
       "id": "013e699b746e6a",
@@ -2337,7 +2473,7 @@
       "title": "IndexNow ping",
       "detail": "IndexNow ping",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-08",
       "measure_after": "2026-10-11",
       "final_after": "2026-10-15",
@@ -2349,7 +2485,34 @@
         "youtube_sessions_7d": 3.0,
         "youtube_views_total": 406.0
       },
-      "primary_metric": "gsc_impressions_7d"
+      "primary_metric": "gsc_impressions_7d",
+      "metrics_after": {
+        "sessions_7d": 3,
+        "users_7d": 2,
+        "pageviews_7d": 1,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 59,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 405,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 42
+      },
+      "delta": {
+        "sessions_7d": -6.0,
+        "gsc_impressions_7d": 24.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": -1.0,
+        "youtube_sessions_7d": -3.0,
+        "youtube_views_total": -1.0
+      },
+      "verdict": "positive",
+      "outcome": "positive gsc_impressions_7d +24",
+      "measured_at": "2026-10-11 11:46 UTC"
     },
     {
       "id": "101a0d8b5be843",
@@ -2523,5 +2686,5 @@
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-10 19:01 UTC"
+  "updated_at": "2026-10-11 11:46 UTC"
 }

@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-05",
+  "updated_at": "2026-10-11",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -157,6 +157,41 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "9cc01865b13e1a"
+    },
+    {
+      "signal": "Impact-: applied on Indoor herb garden kit recommendations pdf?",
+      "action": "Revisit approach — negative affiliate_clicks_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "ad0554de522ac0"
+    },
+    {
+      "signal": "Impact-: tune_guide_seo on cheapest-indoor-herb-garden-apartment",
+      "action": "Revisit approach — negative sessions_7d -6. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "aebf086eb4ae97"
+    },
+    {
+      "signal": "Impact-: distribution on aerogarden-vs-click-and-grow",
+      "action": "Revisit approach — negative sessions_7d -6. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "31584fcce342f2"
+    },
+    {
+      "signal": "Impact-: applied on Aerogarden comparison chart?",
+      "action": "Revisit approach — negative sessions_7d -6. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "aad29b1b8babca"
+    },
+    {
+      "signal": "Impact-: applied on updated visual-backlog.md",
+      "action": "Revisit approach — negative sessions_7d -6. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "cba9f977550009"
     }
   ],
   "money_urls": [
