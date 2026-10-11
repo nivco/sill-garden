@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-10 19:36 UTC",
+  "generated_at": "2026-10-11 03:13 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 5,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 31,
+    "gsc_impressions_7d": 59,
     "indexed_urls": 32,
     "sitemap_urls": 32,
     "cf_pageviews_7d": null,
@@ -100,8 +100,8 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 31,
-      "avg_position": 10.0,
+      "impressions": 59,
+      "avg_position": 9.3,
       "top_queries": [
         {
           "query": "aerogarden comparison chart",
@@ -118,53 +118,74 @@
           "position": 52.0
         },
         {
-          "query": "best cheap herb garden under 50",
+          "query": "aerogarden vs click and grow",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 50.0
+        },
+        {
+          "query": "best budget herb garden under 50",
           "clicks": 0,
           "impressions": 3,
           "ctr": 0.0,
-          "position": 7.3
+          "position": 2.7
+        },
+        {
+          "query": "best cheap herb garden under 50",
+          "clicks": 0,
+          "impressions": 6,
+          "ctr": 0.0,
+          "position": 4.7
         },
         {
           "query": "best compact herb garden under 50",
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 2,
           "ctr": 0.0,
           "position": 2.0
         },
         {
           "query": "best healthy herb garden under 50",
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 7,
           "ctr": 0.0,
-          "position": 9.5
+          "position": 9.4
         },
         {
           "query": "best homemade herb garden under 50",
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 7,
           "ctr": 0.0,
-          "position": 2.0
+          "position": 2.1
+        },
+        {
+          "query": "best lightweight herb garden under 50",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 10.5
         },
         {
           "query": "best natural herb garden under 50",
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 2,
           "ctr": 0.0,
           "position": 2.0
         },
         {
           "query": "best quick herb garden under 50",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 6.0
+          "position": 4.7
         },
         {
           "query": "best quiet herb garden under 50",
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 4.0
+          "position": 8.7
         },
         {
           "query": "best simple herb garden under 50",
@@ -174,31 +195,24 @@
           "position": 2.0
         },
         {
-          "query": "best waterproof herb garden under 50",
+          "query": "best waterproof herb garden under 100",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
-          "position": 5.0
+          "position": 12.0
         },
         {
-          "query": "click and grow vs aerogarden",
+          "query": "best waterproof herb garden under 50",
           "clicks": 0,
           "impressions": 2,
           "ctr": 0.0,
-          "position": 38.0
-        },
-        {
-          "query": "herb garden for small apartments 2026",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 5.0
+          "position": 7.5
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-03",
-        "end": "2026-10-10"
+        "start": "2026-10-04",
+        "end": "2026-10-11"
       }
     },
     "indexing": {
@@ -944,7 +958,7 @@
     }
   ],
   "insights": [
-    "GSC: 31 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison chart\u201d (pos 34), \u201caerogarden harvest vs harvest elite\u201d (pos 52), \u201cbest cheap herb garden under 50\u201d (pos 7). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 59 impressions, 0 clicks \u2014 early queries: \u201caerogarden comparison chart\u201d (pos 34), \u201caerogarden harvest vs harvest elite\u201d (pos 52), \u201caerogarden vs click and grow\u201d (pos 50). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -991,6 +1005,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 7 | Aff clicks 0 | GSC 0c/31i | YT views 405 | Setup 6/7"
+    "headline": "Sessions 7 | Aff clicks 0 | GSC 0c/59i | YT views 405 | Setup 6/7"
   }
 }
