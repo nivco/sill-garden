@@ -832,6 +832,19 @@
       "priority": "P2",
       "done": false,
       "created": "2026-10-12 13:49 UTC"
+    },
+    {
+      "id": "4c0d395b5451",
+      "fingerprint": "4c0d395b5451",
+      "role": "seo",
+      "type": "tune_guide_seo",
+      "title": "tune_guide_seo: cheapest-indoor-herb-garden-apartment",
+      "detail": "CTR-first query: 3 impr, pos 2.7, 0 clicks",
+      "target": "cheapest-indoor-herb-garden-apartment",
+      "auto": false,
+      "priority": "P1",
+      "done": false,
+      "created": "2026-10-12 22:17 UTC"
     }
   ],
   "applied_log": [
@@ -1016,5 +1029,5 @@
       "reason": "CTR-first query desc: 6 impr, pos 4.7, 0 clicks"
     }
   ],
-  "updated": "2026-10-12 13:49 UTC"
+  "updated": "2026-10-12 22:17 UTC"
 }

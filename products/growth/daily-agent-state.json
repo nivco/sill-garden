@@ -1,18 +1,17 @@
 {
-  "last_run": "2026-10-11 19:15 UTC",
+  "last_run": "2026-10-12 22:17 UTC",
   "last_applied": [
-    "tune_guide_seo:cheapest-indoor-herb-garden-apartment — CTR-first query desc: 6 impr, pos 4.7, 0 clicks",
-    "faq:aerogarden-vs-click-and-grow:Best budget herb garden under 50?",
-    "faq:compare-aerogarden-models:Best budget herb garden under 50?",
-    "faq:best-countertop-garden-apartments:Best budget herb garden under 50?",
+    "faq:aerogarden-vs-click-and-grow:Aerogarden bounty basic?",
+    "faq:compare-aerogarden-models:Aerogarden bounty basic?",
+    "faq:aerogarden-vs-click-and-grow:Auk vs click and grow?",
     "updated visual-backlog.md",
     "IndexNow ping"
   ],
-  "last_summary": "products/growth/daily-summaries/2026-10-11.md",
-  "last_distribution": "products/growth/distribution/2026-10-11.json",
+  "last_summary": "products/growth/daily-summaries/2026-10-12.md",
+  "last_distribution": "products/growth/distribution/2026-10-12.json",
   "last_outcome_severity": "ok",
   "last_impact": {
     "closed": 0,
-    "recorded": 6
+    "recorded": 5
   }
 }
