@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-12 22:17 UTC",
+  "generated_at": "2026-10-12 22:38 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -121,32 +121,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4038,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -196,17 +170,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1333 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create query-matched comparison pages and titles**",
-    "LLM peer insight: - **“AeroGarden Bounty Basic Review: Features, Cost, and Best Alternatives”**",
-    "LLM peer insight: - **“AeroGarden Comparison Chart: Bounty Basic vs Click & Grow vs AUK”**",
-    "LLM peer insight: - **“AeroGarden vs Click & Grow: Which Indoor Garden Is Better?”**",
-    "LLM peer insight: - **“AUK vs Click & Grow: Open-System vs Pre-Seeded Pods”**",
-    "LLM peer insight: - Put the exact comparison phrase near the beginning of each title, H1, URL, and introduction.",
-    "LLM peer insight: - Add a concise verdict directly below the H1: “Choose AeroGarden for plant variety, Click & Grow for simplicity, and AUK for growing your own seeds.”"
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Create a comparison-led title and hero section**",
+    "LLM peer insight: - Change the primary title to: **“Best Indoor Herb Gardens for Apartments: AeroGarden vs Click & Grow”**",
+    "LLM peer insight: - Use an H1 that matches the search intent: **“AeroGarden vs Click & Grow: Which Indoor Garden Is Best?”**",
+    "LLM peer insight: - Add a hero image showing both systems side by side on a small kitchen counter.",
+    "LLM peer insight: - Place two above-the-fold CTAs: **“See the comparison”** and **“Shop the best budget pick.”**",
+    "LLM peer insight: - Add a one-line verdict beneath the buttons: **“Choose AeroGarden for stronger growth and flexible seeds; choose Click & Grow for simpler, lower-maintenance growing.”**[2][3]",
+    "LLM peer insight: . **Publish a scannable comparison table immediately below the hero**",
+    "LLM peer insight: - Build a table with these rows: **Best for, pod capacity, growing method, light strength, plant height, seed flexibility, maintenance, ongoing pod cost, footprint, and price.**"
   ],
-  "llm_notes": "1. **Create query-matched comparison pages and titles**\n   - Publish separate pages targeting:\n     - **“AeroGarden Bounty Basic Review: Features, Cost, and Best Alternatives”**\n     - **“AeroGarden Comparison Chart: Bounty Basic vs Click & Grow vs AUK”**\n     - **“AeroGarden vs Click & Grow: Which Indoor Garden Is Better?”**\n     - **“AUK vs Click & Grow: Open-System vs Pre-Seeded Pods”**\n   - Put the exact comparison phrase near the beginning of each title, H1, URL, and introduction.\n   - Add a concise verdict directly below the H1: “Choose AeroGarden for plant variety, Click & Grow for simplicity, and AUK for growing your own seeds.”\n\n2. **Add a decision-first comparison table**\n   - Place the table immediately after the opening summary, not below long-form copy.\n   - Use buyer-focused rows:\n     - Best for\n     - Growing method\n     - Seed flexibility\n     - Watering system\n     - Grow-light automation\n     - Plant capacity\n     - Pod/refill dependence\n     - Ongoing cost\n     - Noise and footprint\n     - Ease of cleaning\n     - Warranty\n   - Add a final **“Our pick”** column and mark each row with short labels such as “Best,” “Tie,” or “Depends.”\n   - For Click & Grow, explain that its system uses pre-seeded pods with nutrients and automated light and watering; for AUK, highlight its open-system design, which supports users’ own seeds.[1][10]\n\n3. **Build an FAQ block around GSC question variants**\n   - Add 8–10 visible FAQs below the table, with matching FAQ schema where eligible:\n     - Is the AeroGarden Bounty Basic worth it?\n     - What is the difference between Aer",
+  "llm_notes": "1. **Create a comparison-led title and hero section**\n   - Change the primary title to: **“Best Indoor Herb Gardens for Apartments: AeroGarden vs Click & Grow”**\n   - Use an H1 that matches the search intent: **“AeroGarden vs Click & Grow: Which Indoor Garden Is Best?”**\n   - Add a hero image showing both systems side by side on a small kitchen counter.\n   - Place two above-the-fold CTAs: **“See the comparison”** and **“Shop the best budget pick.”**\n   - Add a one-line verdict beneath the buttons: **“Choose AeroGarden for stronger growth and flexible seeds; choose Click & Grow for simpler, lower-maintenance growing.”**[2][3]\n\n2. **Publish a scannable comparison table immediately below the hero**\n   - Build a table with these rows: **Best for, pod capacity, growing method, light strength, plant height, seed flexibility, maintenance, ongoing pod cost, footprint, and price.**\n   - Include specific models rather than comparing brands generally: **AeroGarden Bounty Basic vs Click & Grow Smart Garden 9.**\n   - Add a final row labeled **“Our pick”** and explain the choice in one sentence.\n   - Include a “last checked” date and link each product name to its review or retailer CTA.\n   - Prioritize the differences users care about: AeroGarden generally offers stronger lighting and more plant flexibility, while Click & Grow emphasizes passive watering and simplicity.[2][3][5]\n\n3. **Add dedicated query-matching sections for GSC opportunities**\n   - Create an H2: **“AeroGarden Bounty Basic: Is It Worth Buying?”**\n   - Create an H2: **“AeroGarden Bounty Basic vs Click & Grow Smart Garden",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -237,6 +211,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }

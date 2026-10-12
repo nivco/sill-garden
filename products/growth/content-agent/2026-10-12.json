@@ -1,0 +1,236 @@
+{
+  "date": "2026-10-12",
+  "generated": "2026-10-12 22:38 UTC",
+  "research": {
+    "generated": "2026-10-12 22:38 UTC",
+    "zero_click_queries": [
+      {
+        "query": "aerogarden bounty basic",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 54.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden comparison chart",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 34.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden vs click and grow",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 49.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "auk vs click and grow",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 10.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best budget herb garden under 50",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0.0,
+        "position": 2.7,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best cheap herb garden under 50",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0.0,
+        "position": 4.4,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best compact herb garden under 50",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 2.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best healthy herb garden under 50",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0.0,
+        "position": 9.4,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best homemade herb garden under 50",
+        "clicks": 0,
+        "impressions": 7,
+        "ctr": 0.0,
+        "position": 2.1,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best lightweight herb garden under 50",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 10.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best natural herb garden under 50",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 2.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best quick herb garden under 50",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0.0,
+        "position": 4.7,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best quiet herb garden under 50",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0.0,
+        "position": 8.7,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best simple herb garden under 50",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0.0,
+        "position": 3.3,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best waterproof herb garden under 100",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 12.0,
+        "ctr_pct": 0.0
+      }
+    ],
+    "network_probes": [
+      {
+        "url": "https://sillgarden.com/llms.txt",
+        "ok": true,
+        "status": 200,
+        "mentions_year": false
+      },
+      {
+        "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      },
+      {
+        "url": "https://www.aerogarden.com/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      },
+      {
+        "url": "https://www.clickandgrow.com/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      },
+      {
+        "url": "https://www.thesill.com/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      }
+    ],
+    "competitive": {
+      "ok_peers": 4,
+      "learnings": [
+        "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
+        "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
+        "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
+        "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+        "LLM peer insight: . **Create a comparison-led title and hero section**",
+        "LLM peer insight: - Change the primary title to: **“Best Indoor Herb Gardens for Apartments: AeroGarden vs Click & Grow”**",
+        "LLM peer insight: - Use an H1 that matches the search intent: **“AeroGarden vs Click & Grow: Which Indoor Garden Is Best?”**",
+        "LLM peer insight: - Add a hero image showing both systems side by side on a small kitchen counter."
+      ],
+      "actions": [
+        {
+          "type": "content_faq",
+          "priority": "P1",
+          "title": "Add/refresh FAQ from peer + GSC questions",
+          "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+          "auto": true
+        },
+        {
+          "type": "content_table",
+          "priority": "P1",
+          "title": "Ensure comparison tables near top of vs guides",
+          "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
+          "auto": true
+        },
+        {
+          "type": "visuality",
+          "priority": "P1",
+          "title": "Visuality iteration: hero/CTA/og image hygiene",
+          "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
+          "auto": false
+        },
+        {
+          "type": "cro_cta",
+          "priority": "P1",
+          "title": "Strengthen above-fold verdict + product CTAs",
+          "detail": "Peers repeat CTAs. Keep Quick verdict + product picks before long narrative.",
+          "auto": true
+        }
+      ]
+    },
+    "llm_notes": {
+      "aerogarden bounty basic": "- **Noise:** Low pump hum with audible water circulation during cycles; generally fine in kitchens, but noticeable in very quiet bedrooms.[5]\n- **Cost:** About **$180** for the Bounty Basic; ongoing pods and nutrients cost roughly **$15–$90 annually**, depending on whether generic supplies are used.[5]\n- **Apartment fit:** Good countertop option: nine pods, roughly **14 inches in diameter**, with grow-light height extending to **24 inches**; reserve adequate counter and vertical space.[4][5]",
+      "aerogarden comparison chart": "- **Noise:** AeroGarden units use small submersible pumps, producing a low hum; comparable models are typically around **25–35 dB**.[1][3]\n- **Cost:** Entry models cost roughly **$77–$129**; electricity is about **$1.50–$2 per month**, excluding pods and nutrients.[3][5][7]\n- **Apartment fit:** Countertop designs occupy about **0.5–0.6 sq. ft.**, suit kitchens, desks, and studios, and avoid the floor space required by tower gardens.[4][6][9]",
+      "aerogarden vs click and grow": "- **Noise:** Click & Grow is silent because it uses passive wicking; AeroGarden has an audible, low pump hum.[2][5]\n- **Cost:** Click & Grow pods are proprietary and can make ongoing costs higher; AeroGarden costs more upfront but supports cheaper generic seeds and nutrients.[1][6]\n- **Apartment fit:** Click & Grow suits bedrooms, desks, and narrow counters; AeroGarden offers higher yields but needs more counter space and tolerates pump noise.[2][8]"
+    },
+    "guide_count": 20,
+    "existing_slugs": [
+      "aerogarden-vs-click-and-grow",
+      "basil-countertop-first-harvest",
+      "best-countertop-garden-apartments",
+      "best-low-light-herbs-apartment",
+      "cheapest-indoor-herb-garden-apartment",
+      "cilantro-countertop-first-harvest",
+      "click-and-grow-vs-idoo-auk",
+      "compare-aerogarden-models",
+      "countertop-garden-pod-refill-cost",
+      "countertop-garden-running-cost",
+      "countertop-garden-system-guide",
+      "grow-light-schedules-herbs",
+      "kratky-jar-herbs-apartment",
+      "landlord-safe-indoor-garden-setup",
+      "mint-windowsill-first-harvest",
+      "parsley-countertop-first-harvest",
+      "pet-safe-low-smell-apartment-herbs",
+      "quiet-countertop-gardens-studios",
+      "windowsill-herbs-without-kit",
+      "yellow-leaves-leggy-seedlings-indoor-herbs"
+    ]
+  },
+  "proposed": [],
+  "applied": [],
+  "indexnow": null,
+  "summary_md": "# Sill Garden Content Agent — 2026-10-12\n\nGenerated: 2026-10-12 22:38 UTC\n\n## Research\n- Guides: 20\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty basic — 1 impr, pos 54.0\n- aerogarden comparison chart — 1 impr, pos 34.0\n- aerogarden vs click and grow — 2 impr, pos 49.5\n- auk vs click and grow — 1 impr, pos 10.0\n- best budget herb garden under 50 — 3 impr, pos 2.7\n- best cheap herb garden under 50 — 7 impr, pos 4.4\n- best compact herb garden under 50 — 2 impr, pos 2.0\n- best healthy herb garden under 50 — 7 impr, pos 9.4\n"
+}
