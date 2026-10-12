@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-11",
+  "updated_at": "2026-10-12",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -128,6 +128,27 @@
       "status": "working",
       "from_impact": true,
       "action_id": "b99bb0dd545332"
+    },
+    {
+      "signal": "Impact+: distribution on aerogarden-vs-click-and-grow",
+      "action": "Repeat — positive sessions_7d +9 after kit-first distribution pack",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "101a0d8b5be843"
+    },
+    {
+      "signal": "Impact+: applied on Best cheap herb garden under 50?",
+      "action": "Repeat — positive sessions_7d +9 after faq:aerogarden-vs-click-and-grow:Best cheap herb garden under 50?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "0e1bd1fbfb893d"
+    },
+    {
+      "signal": "Impact+: applied on updated visual-backlog.md",
+      "action": "Repeat — positive sessions_7d +9 after updated visual-backlog.md",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "65cf8fe44d4343"
     }
   ],
   "ignore": [
