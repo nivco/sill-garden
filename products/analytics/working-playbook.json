@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-12",
+  "updated_at": "2026-10-13",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -149,6 +149,20 @@
       "status": "working",
       "from_impact": true,
       "action_id": "65cf8fe44d4343"
+    },
+    {
+      "signal": "Impact+: applied on Aerogarden harvest vs harvest elite?",
+      "action": "Repeat — positive sessions_7d +10 after faq:aerogarden-vs-click-and-grow:Aerogarden harvest vs harvest elite?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "81ab31e1002a4f"
+    },
+    {
+      "signal": "Impact+: applied on Best compact herb garden under 50?",
+      "action": "Repeat — positive sessions_7d +12 after faq:aerogarden-vs-click-and-grow:Best compact herb garden under 50?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "07bb3f42edcaa1"
     }
   ],
   "ignore": [
