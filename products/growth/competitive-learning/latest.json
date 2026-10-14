@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-13 20:52 UTC",
+  "generated_at": "2026-10-14 19:00 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -110,13 +110,39 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 881,
+        "word_count_est": 880,
         "images": 2,
         "has_faq": true,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4038,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -170,17 +196,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Create one intent-led title and H1 for each money page**",
-    "LLM peer insight: - **Title:** “Best Indoor Herb Gardens Under $50: 5 Cheap Picks Compared”",
-    "LLM peer insight: - **H1:** “Best Cheap Herb Gardens Under $50”",
-    "LLM peer insight: - Put the exact product/query phrase near the beginning of the title, H1, introduction, and one subheading. This directly matches your GSC demand instead of relying on broad category titles like the peers’ homepages.",
-    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
-    "LLM peer insight: Build a scannable table with these columns:",
-    "LLM peer insight: Include an explicit winner label, such as:",
-    "LLM peer insight: - **Best overall:** AeroGarden Bounty Basic"
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the existing GSC demand.",
+    "LLM peer insight: . **Create one comparison-led title and H1 for the highest-intent query**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Click & Grow vs AUK: Which Indoor Garden Is Best?**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Click & Grow vs AUK**",
+    "LLM peer insight: - Add a 40–60-word verdict immediately below the H1:",
+    "LLM peer insight: - **Best harvest:** AeroGarden Bounty Basic",
+    "LLM peer insight: - **Simplest low-maintenance option:** Click & Grow"
   ],
-  "llm_notes": "1. **Create one intent-led title and H1 for each money page**\n   - **Title:** “Best Indoor Herb Gardens Under $50: 5 Cheap Picks Compared”\n   - **H1:** “Best Cheap Herb Gardens Under $50”\n   - Add dedicated sections/pages for:\n     - “AeroGarden Bounty Basic Review”\n     - “AeroGarden vs. Click & Grow”\n     - “AUK vs. Click & Grow”\n   - Put the exact product/query phrase near the beginning of the title, H1, introduction, and one subheading. This directly matches your GSC demand instead of relying on broad category titles like the peers’ homepages.\n\n2. **Add a decision-first comparison table above the fold**\n   Build a scannable table with these columns:\n   - Product\n   - Price\n   - Plant capacity\n   - Pod/seed compatibility\n   - Light adjustability\n   - Watering effort\n   - Best for\n   - Current deal\n   - “Check price” CTA\n   Include an explicit winner label, such as:\n   - **Best overall:** AeroGarden Bounty Basic\n   - **Easiest:** Click & Grow\n   - **Best under $50:** the lowest-cost qualifying model\n   - **Best for flexibility:** AUK or AeroGarden, depending on verified seed compatibility  \n   \n   Peers use FAQs but generally omit comparison tables; this is a clear opportunity. The Bounty Basic is commonly described as a nine-pod system with an adjustable light and app/display guidance, while Click & Grow emphasizes pre-filled growing medium and simpler maintenance.[1][2]\n\n3. **Rewrite the hero into a product-selection module, not a generic banner**\n   Use this structure:\n   - Eyebrow: **“Apartment herb gardens, tested for small kitchens”**\n   - H1: **“Find the Best Indoo",
+  "llm_notes": "Ship these five changes this week, prioritizing pages that match the existing GSC demand.\n\n1. **Create one comparison-led title and H1 for the highest-intent query**\n   - Title: **AeroGarden Bounty Basic vs Click & Grow vs AUK: Which Indoor Garden Is Best?**\n   - H1: **AeroGarden Bounty Basic vs Click & Grow vs AUK**\n   - Add a 40–60-word verdict immediately below the H1:\n     - **Best harvest:** AeroGarden Bounty Basic\n     - **Best-looking countertop unit:** AUK\n     - **Simplest low-maintenance option:** Click & Grow\n   - Use separate sections for “Best for,” “What it costs to run,” “Counter space,” “Pod/seed flexibility,” and “Noise and maintenance.”\n   - Do not imply current prices without displaying a clear “price checked” date. Product comparisons commonly differ on pod capacity, growing medium, and ongoing consumables, so those distinctions should be explicit.[6][8]\n\n2. **Add a scannable comparison table above the fold**\n   - Place it directly after the opening verdict, before long-form reviews.\n   - Use these columns: **System | Capacity | Growing method | Seed flexibility | Best for | Main drawback | Typical price band**.\n   - Include a final column with a consistent CTA: **Check price**, **Read full review**, or **See alternatives**.\n   - Highlight one winner per row rather than using vague star ratings:\n     - Harvest capacity\n     - Small-space fit\n     - Lowest ongoing cost\n     - Easiest setup\n   - Include an editorial note that specifications and prices change. A comparison table fills a clear gap: the reviewed peer pages use FAQs and CTAs but no tables, whi",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -211,6 +237,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }

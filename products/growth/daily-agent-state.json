@@ -1,14 +1,14 @@
 {
-  "last_run": "2026-10-13 20:24 UTC",
+  "last_run": "2026-10-14 19:00 UTC",
   "last_applied": [
-    "faq:compare-aerogarden-models:Auk vs click and grow?",
-    "faq:best-countertop-garden-apartments:Auk vs click and grow?",
-    "faq:compare-aerogarden-models:Best cheap herb garden under 50?",
+    "faq:compare-aerogarden-models:Best compact herb garden under 50?",
+    "faq:aerogarden-vs-click-and-grow:Best healthy herb garden under 50?",
+    "faq:compare-aerogarden-models:Best healthy herb garden under 50?",
     "updated visual-backlog.md",
     "IndexNow ping"
   ],
-  "last_summary": "products/growth/daily-summaries/2026-10-13.md",
-  "last_distribution": "products/growth/distribution/2026-10-13.json",
+  "last_summary": "products/growth/daily-summaries/2026-10-14.md",
+  "last_distribution": "products/growth/distribution/2026-10-14.json",
   "last_outcome_severity": "ok",
   "last_impact": {
     "closed": 0,

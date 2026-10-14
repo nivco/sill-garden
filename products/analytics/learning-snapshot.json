@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-13 20:24 UTC",
+  "generated_at": "2026-10-14 19:00 UTC",
   "wow": {
-    "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": -12.0,
+    "ga4_sessions_7d": 2.0,
+    "gsc_impressions_7d": -6.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 19,
-    "gsc_impressions_7d": 64,
+    "sessions_7d": 21,
+    "gsc_impressions_7d": 53,
     "gsc_clicks_7d": 1,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -46,9 +46,9 @@
     {
       "query": "best cheap herb garden under 50",
       "clicks": 0,
-      "impressions": 6,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 4.8
+      "position": 2.2
     },
     {
       "query": "best compact herb garden under 50",
@@ -60,16 +60,16 @@
     {
       "query": "best healthy herb garden under 50",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
       "position": 9.0
     },
     {
       "query": "best homemade herb garden under 50",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 2.2
+      "position": 3.0
     },
     {
       "query": "best lightweight herb garden under 50",
@@ -81,19 +81,19 @@
     {
       "query": "best natural herb garden under 50",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
       "position": 2.0
     }
   ],
   "learnings": [
-    "LLM peer insight: - Put the exact product names in the first 60 characters, followed by the user benefit or decision.",
-    "LLM peer insight: - **Title:** “AUK vs Click & Grow: Which Herb Garden Should You Buy?”",
-    "LLM peer insight: - **Title:** “AeroGarden vs Click & Grow: Which Indoor Garden Is Better?”",
-    "LLM peer insight: - **H1:** “AeroGarden Bounty Basic Review”",
-    "LLM peer insight: - **Title:** “AeroGarden Bounty Basic Review: Is It Worth It for Apartments?”",
-    "LLM peer insight: - Publish three focused pages instead of one broad “indoor garden” page:",
-    "LLM peer insight: . **Create query-led comparison titles and H1s**",
+    "LLM peer insight: - **Simplest low-maintenance option:** Click & Grow",
+    "LLM peer insight: - **Best harvest:** AeroGarden Bounty Basic",
+    "LLM peer insight: - Add a 40–60-word verdict immediately below the H1:",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Click & Grow vs AUK**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Click & Grow vs AUK: Which Indoor Garden Is Best?**",
+    "LLM peer insight: . **Create one comparison-led title and H1 for the highest-intent query**",
+    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the existing GSC demand.",
     "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-13 20:24 UTC"
+    "generated_at": "2026-10-14 19:00 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 12 action(s) still measuring (3-7d windows)",
+      "IMPACT: 11 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

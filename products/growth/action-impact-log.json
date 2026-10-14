@@ -3395,10 +3395,115 @@
         "youtube_views_total": 410.0
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "90bc33970899c5",
+      "kind": "distribution",
+      "target": "aerogarden-vs-click-and-grow",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-14",
+      "measure_after": "2026-10-17",
+      "final_after": "2026-10-21",
+      "metrics_before": {
+        "sessions_7d": 21.0,
+        "gsc_impressions_7d": 53.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 413.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "9301072e0a6856",
+      "kind": "applied",
+      "target": "Best compact herb garden under 50?",
+      "title": "faq:compare-aerogarden-models:Best compact herb garden under 50?",
+      "detail": "faq:compare-aerogarden-models:Best compact herb garden under 50?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-14",
+      "measure_after": "2026-10-17",
+      "final_after": "2026-10-21",
+      "metrics_before": {
+        "sessions_7d": 21.0,
+        "gsc_impressions_7d": 53.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 413.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "8819f68e7470d1",
+      "kind": "applied",
+      "target": "Best healthy herb garden under 50?",
+      "title": "faq:aerogarden-vs-click-and-grow:Best healthy herb garden under 50?",
+      "detail": "faq:aerogarden-vs-click-and-grow:Best healthy herb garden under 50?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-14",
+      "measure_after": "2026-10-17",
+      "final_after": "2026-10-21",
+      "metrics_before": {
+        "sessions_7d": 21.0,
+        "gsc_impressions_7d": 53.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 413.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "9e9a15c985a680",
+      "kind": "applied",
+      "target": "updated visual-backlog.md",
+      "title": "updated visual-backlog.md",
+      "detail": "updated visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-14",
+      "measure_after": "2026-10-17",
+      "final_after": "2026-10-21",
+      "metrics_before": {
+        "sessions_7d": 21.0,
+        "gsc_impressions_7d": 53.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 413.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "25c0ff0de83fe3",
+      "kind": "applied",
+      "target": "IndexNow ping",
+      "title": "IndexNow ping",
+      "detail": "IndexNow ping",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-14",
+      "measure_after": "2026-10-17",
+      "final_after": "2026-10-21",
+      "metrics_before": {
+        "sessions_7d": 21.0,
+        "gsc_impressions_7d": 53.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 413.0
+      },
+      "primary_metric": "gsc_impressions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-14 10:49 UTC"
+  "updated_at": "2026-10-14 19:00 UTC"
 }

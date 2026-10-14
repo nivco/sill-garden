@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-13 20:24 UTC",
+  "generated_at": "2026-10-14 19:00 UTC",
   "applied": [
-    "faq:compare-aerogarden-models:Auk vs click and grow?",
-    "faq:best-countertop-garden-apartments:Auk vs click and grow?",
-    "faq:compare-aerogarden-models:Best cheap herb garden under 50?",
+    "faq:compare-aerogarden-models:Best compact herb garden under 50?",
+    "faq:aerogarden-vs-click-and-grow:Best healthy herb garden under 50?",
+    "faq:compare-aerogarden-models:Best healthy herb garden under 50?",
     "updated visual-backlog.md"
   ],
   "queued": [
@@ -15,9 +15,9 @@
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create query-led comparison titles and H1s**",
-    "LLM peer insight: - Publish three focused pages instead of one broad “indoor garden” page:",
-    "LLM peer insight: - **Title:** “AeroGarden Bounty Basic Review: Is It Worth It for Apartments?”"
+    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the existing GSC demand.",
+    "LLM peer insight: . **Create one comparison-led title and H1 for the highest-intent query**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Click & Grow vs AUK: Which Indoor Garden Is Best?**"
   ],
   "dry_run": false
 }
