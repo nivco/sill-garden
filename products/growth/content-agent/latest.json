@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-13",
-  "generated": "2026-10-13 20:52 UTC",
+  "date": "2026-10-14",
+  "generated": "2026-10-14 19:48 UTC",
   "research": {
-    "generated": "2026-10-13 20:52 UTC",
+    "generated": "2026-10-14 19:48 UTC",
     "zero_click_queries": [
       {
         "query": "aerogarden bounty basic",
@@ -39,9 +39,9 @@
       {
         "query": "best cheap herb garden under 50",
         "clicks": 0,
-        "impressions": 6,
+        "impressions": 4,
         "ctr": 0.0,
-        "position": 4.8,
+        "position": 2.2,
         "ctr_pct": 0.0
       },
       {
@@ -55,7 +55,7 @@
       {
         "query": "best healthy herb garden under 50",
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 1,
         "ctr": 0.0,
         "position": 9.0,
         "ctr_pct": 0.0
@@ -63,9 +63,9 @@
       {
         "query": "best homemade herb garden under 50",
         "clicks": 0,
-        "impressions": 4,
+        "impressions": 1,
         "ctr": 0.0,
-        "position": 2.2,
+        "position": 3.0,
         "ctr_pct": 0.0
       },
       {
@@ -79,7 +79,7 @@
       {
         "query": "best natural herb garden under 50",
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 1,
         "ctr": 0.0,
         "position": 2.0,
         "ctr_pct": 0.0
@@ -119,9 +119,9 @@
       {
         "query": "best waterproof herb garden under 50",
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 1,
         "ctr": 0.0,
-        "position": 7.5,
+        "position": 10.0,
         "ctr_pct": 0.0
       }
     ],
@@ -164,10 +164,10 @@
         "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
         "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
         "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-        "LLM peer insight: . **Create one intent-led title and H1 for each money page**",
-        "LLM peer insight: - **Title:** “Best Indoor Herb Gardens Under $50: 5 Cheap Picks Compared”",
-        "LLM peer insight: - **H1:** “Best Cheap Herb Gardens Under $50”",
-        "LLM peer insight: - Put the exact product/query phrase near the beginning of the title, H1, introduction, and one subheading. This directly matches your GSC demand instead of relying on broad category titles like the peers’ homepages."
+        "LLM peer insight: Ship these five changes this week, prioritized around your existing GSC demand and the gaps visible across peers:",
+        "LLM peer insight: . **Create a dedicated comparison page targeting the highest-intent queries**",
+        "LLM peer insight: - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Best for Apartments?`",
+        "LLM peer insight: - Add a 40–60-word answer immediately below the H1: AeroGarden is the better choice for faster growth, stronger lighting, larger plants, and more seed flexibility; Click & Grow is simpler, quieter, cleaner-looking, and e"
       ],
       "actions": [
         {
@@ -201,9 +201,9 @@
       ]
     },
     "llm_notes": {
-      "aerogarden bounty basic": "- **Noise:** Low pump hum; usually unobtrusive, but audible in a very quiet room—especially at night.[2][5]\n- **Cost:** About **$130–$180** upfront; budget roughly **$60–$100 annually** for pods and nutrients, plus electricity.[5][9]\n- **Apartment fit:** Compact, reservoir-based, and countertop-sized, with nine pods and a light adjustable to 24 inches; best for kitchens or offices where light and occasional pump noise are acceptable.[4][5]",
-      "aerogarden vs click and grow": "- **Noise:** Click & Grow is silent because it uses passive wicking; AeroGarden’s pump produces a noticeable low hum in quiet rooms.[1][3]\n- **Cost:** AeroGarden Harvest costs about $129 upfront and roughly $309 annually with supplies; Click & Grow Smart Garden 9 costs about $249 and roughly $459 annually.[1]\n- **Apartment fit:** Click & Grow suits bedrooms, studios, and narrow shelves; AeroGarden offers more plants in a smaller countertop footprint but needs tolerance for pump noise.[3][5]",
-      "auk vs click and grow": "- **Noise:** Both AUK and Click & Grow are effectively silent because they use passive watering/no pump.[1][10]\n- **Cost:** AUK starts at about **$249+**; Click & Grow Smart Garden 3 costs roughly **$99–$129**, but replacement pods add ongoing expense.[1][9]\n- **Apartment fit:** Click & Grow is better for very small spaces—about **10 × 7 inches** and three plants; AUK is compact but offers greater yield and likely needs more counter space.[1][9]"
+      "aerogarden bounty basic": "- **Noise:** Low pump hum; audible in a very quiet room, especially at night.[5]\n- **Cost:** About **$130–$180** for the unit; expect roughly **$60–$100 annually** for pods and nutrients.[5][9]\n- **Apartment fit:** Suitable for kitchen counters, with nine pods and an adjustable light up to 24 inches; reserve counter space and avoid bedrooms if light or pump noise is disruptive.[4][10]",
+      "aerogarden vs click and grow": "- **Noise:** Click & Grow is effectively silent because it uses passive wicking; AeroGarden’s circulating pump produces a noticeable low hum, especially in quiet rooms.[1][2]\n- **Cost:** AeroGarden generally costs less to operate because it accepts generic seeds and nutrients; Click & Grow’s proprietary pods raise ongoing costs.[1][2]\n- **Apartment fit:** Click & Grow suits bedrooms, studios, and narrow shelves better; AeroGarden offers greater plant variety and yield but needs more counter space and tolerates pump noise.[2][6]",
+      "auk vs click and grow": "- **Noise:** AUK uses a water pump and may produce hum/trickling; Click & Grow uses passive wicking and is silent.[1][2]\n- **Cost:** AUK starts around **$229**; Click & Grow Smart Garden 3 costs about **$99–129**, but proprietary pods add ongoing expense.[1][5]\n- **Apartment fit:** Click & Grow is better for small desks, shelves, bedrooms, and studios; AUK is countertop-friendly but needs more space and costs more.[1][5]"
     },
     "guide_count": 20,
     "existing_slugs": [
@@ -232,5 +232,5 @@
   "proposed": [],
   "applied": [],
   "indexnow": null,
-  "summary_md": "# Sill Garden Content Agent — 2026-10-13\n\nGenerated: 2026-10-13 20:52 UTC\n\n## Research\n- Guides: 20\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty basic — 1 impr, pos 54.0\n- aerogarden vs click and grow — 3 impr, pos 49.7\n- auk vs click and grow — 1 impr, pos 10.0\n- best budget herb garden under 50 — 3 impr, pos 2.7\n- best cheap herb garden under 50 — 6 impr, pos 4.8\n- best compact herb garden under 50 — 1 impr, pos 2.0\n- best healthy herb garden under 50 — 3 impr, pos 9.0\n- best homemade herb garden under 50 — 4 impr, pos 2.2\n"
+  "summary_md": "# Sill Garden Content Agent — 2026-10-14\n\nGenerated: 2026-10-14 19:48 UTC\n\n## Research\n- Guides: 20\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty basic — 1 impr, pos 54.0\n- aerogarden vs click and grow — 3 impr, pos 49.7\n- auk vs click and grow — 1 impr, pos 10.0\n- best budget herb garden under 50 — 3 impr, pos 2.7\n- best cheap herb garden under 50 — 4 impr, pos 2.2\n- best compact herb garden under 50 — 1 impr, pos 2.0\n- best healthy herb garden under 50 — 1 impr, pos 9.0\n- best homemade herb garden under 50 — 1 impr, pos 3.0\n"
 }
