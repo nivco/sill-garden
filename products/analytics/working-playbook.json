@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-13",
+  "updated_at": "2026-10-14",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -163,6 +163,27 @@
       "status": "working",
       "from_impact": true,
       "action_id": "07bb3f42edcaa1"
+    },
+    {
+      "signal": "Impact+: tune_guide_seo on cheapest-indoor-herb-garden-apartment",
+      "action": "Repeat — positive sessions_7d +15 after CTR-first query desc: 6 impr, pos 4.7, 0 clicks",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "91bb9286039b13"
+    },
+    {
+      "signal": "Impact+: applied on cheapest-indoor-herb-garden-apartment",
+      "action": "Repeat — positive gsc_clicks_7d +1 after tune_guide_seo:cheapest-indoor-herb-garden-apartment — CTR-first query desc: 6 impr, pos 4.7, 0 clicks",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "4749d1a3d1db89"
+    },
+    {
+      "signal": "Impact+: applied on Best budget herb garden under 50?",
+      "action": "Repeat — positive sessions_7d +15 after faq:aerogarden-vs-click-and-grow:Best budget herb garden under 50?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "cf6d529f9ab184"
     }
   ],
   "ignore": [
