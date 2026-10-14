@@ -448,8 +448,17 @@
       "storyboard": "products/youtube/video-related-best-healthy-herb-garden-under-50/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-10-14T12:59:36.424713+00:00"
+    },
+    "video-pet-safe-low-smell-apartment-herbs": {
+      "youtube_id": "LnR7BPw3ILw",
+      "url": "https://youtu.be/LnR7BPw3ILw",
+      "title": "Pet-safe and low-smell herbs for apartments (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-10-14T18:18:12.383923+00:00",
+      "storyboard": "products/youtube/video-pet-safe-low-smell-apartment-herbs/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-10-14T12:59:37.496584+00:00",
-  "next_eligible_date": "2026-10-14"
+  "next_eligible_date": "2026-10-17"
 }
