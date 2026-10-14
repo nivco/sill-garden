@@ -1,21 +1,21 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-13 20:52 UTC",
+  "generated_at": "2026-10-14 02:57 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 19,
-    "users_7d": 19,
-    "pageviews_7d": 18,
+    "sessions_7d": 20,
+    "users_7d": 20,
+    "pageviews_7d": 19,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 64,
+    "gsc_impressions_7d": 53,
     "indexed_urls": 32,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 410,
+    "youtube_views_total": 413,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -31,9 +31,9 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 19,
-        "sessions": 19,
-        "screenPageViews": 18,
+        "activeUsers": 20,
+        "sessions": 20,
+        "screenPageViews": 19,
         "engagedSessions": 0,
         "averageSessionDuration_sec": 0.2,
         "engagementRate_pct": 0.0
@@ -46,14 +46,14 @@
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
-          "sessions": "2",
-          "screenPageViews": "2"
+          "sessions": "3",
+          "screenPageViews": "3"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "17"
+          "sessions": "18"
         },
         {
           "sessionDefaultChannelGroup": "Organic Search",
@@ -67,7 +67,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "17",
+          "sessions": "18",
           "engagedSessions": "0"
         },
         {
@@ -100,7 +100,7 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 64,
+      "impressions": 53,
       "avg_position": 11.8,
       "top_queries": [
         {
@@ -134,9 +134,9 @@
         {
           "query": "best cheap herb garden under 50",
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 4,
           "ctr": 0.0,
-          "position": 4.8
+          "position": 2.2
         },
         {
           "query": "best compact herb garden under 50",
@@ -148,16 +148,16 @@
         {
           "query": "best healthy herb garden under 50",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 1,
           "ctr": 0.0,
           "position": 9.0
         },
         {
           "query": "best homemade herb garden under 50",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 2.2
+          "position": 3.0
         },
         {
           "query": "best lightweight herb garden under 50",
@@ -169,7 +169,7 @@
         {
           "query": "best natural herb garden under 50",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
           "position": 2.0
         },
@@ -204,15 +204,15 @@
         {
           "query": "best waterproof herb garden under 50",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 7.5
+          "position": 10.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-06",
-        "end": "2026-10-13"
+        "start": "2026-10-07",
+        "end": "2026-10-14"
       }
     },
     "indexing": {
@@ -812,7 +812,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 410,
+        "views": 413,
         "videos": 43
       },
       "recent_videos": [
@@ -1092,6 +1092,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 19 | Aff clicks 0 | GSC 1c/64i | YT views 410 | Setup 6/7"
+    "headline": "Sessions 20 | Aff clicks 0 | GSC 1c/53i | YT views 413 | Setup 6/7"
   }
 }
