@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-14",
+  "updated_at": "2026-10-15",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -184,6 +184,20 @@
       "status": "working",
       "from_impact": true,
       "action_id": "cf6d529f9ab184"
+    },
+    {
+      "signal": "Impact+: applied on Aerogarden bounty basic?",
+      "action": "Repeat — positive sessions_7d +2 after faq:aerogarden-vs-click-and-grow:Aerogarden bounty basic?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "f97f10a0091135"
+    },
+    {
+      "signal": "Impact+: applied on Auk vs click and grow?",
+      "action": "Repeat — positive sessions_7d +2 after faq:aerogarden-vs-click-and-grow:Auk vs click and grow?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "e51b2d635c21ff"
     }
   ],
   "ignore": [
