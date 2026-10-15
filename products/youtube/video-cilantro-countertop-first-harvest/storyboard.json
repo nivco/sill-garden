@@ -1,0 +1,80 @@
+{
+  "id": "video-cilantro-countertop-first-harvest",
+  "title": "Cilantro on a countertop \u2014 first harvest guide (2026)",
+  "filename": "sill-cilantro-countertop-first-harvest.mp4",
+  "voice": "en-US-AvaMultilingualNeural",
+  "guide_slug": "cilantro-countertop-first-harvest",
+  "related_topic": false,
+  "utm_campaign": "video-cilantro-countertop-first-harvest",
+  "description": "Grow cilantro indoors without instant bolting \u2014 light, cool temps, cut-and-come-again harvest, and when to reseed.",
+  "tags": [
+    "cilantro countertop first harvest",
+    "apartment gardening",
+    "indoor herb garden",
+    "small space garden",
+    "sill garden"
+  ],
+  "slides": [
+    {
+      "type": "title",
+      "chapter": "Quick answer",
+      "title": "Cilantro on a countertop \u2014 first harvest guide (2026)",
+      "subtitle": "Grow cilantro indoors without instant bolting \u2014 light, cool temps, cut-and-come-again harvest, and when to reseed.",
+      "badge": "Apartment guide",
+      "photo": "images/inline-cilantro.jpg",
+      "photo_right": "images/inline-counter-plant.jpg",
+      "narration": "Cilantro on a countertop \u2014 first harvest guide (2026). Here is the practical Sill Garden answer for a small apartment, without buying more equipment than you need."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Start here",
+      "title": "Start with the apartment constraints",
+      "photo": "images/inline-apartment.jpg",
+      "bullets": [
+        "Measure the usable sill, shelf, or counter space",
+        "Check daylight before buying a grow light",
+        "Protect rental surfaces with trays and saucers",
+        "Choose a setup you can maintain every week"
+      ],
+      "narration": "Start with your real constraints: usable space, available daylight, water protection, and how much weekly maintenance you will actually do."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "What works",
+      "title": "The simple setup that works",
+      "photo": "images/inline-pots.jpg",
+      "bullets": [
+        "Use the smallest reliable setup for the job",
+        "Put every pot or reservoir on a waterproof tray",
+        "Automate light timing before adding more plants",
+        "Watch plant response and adjust one thing at a time"
+      ],
+      "narration": "Keep the first setup simple. Protect the surface, automate the light schedule, and adjust from what the plants show you instead of changing everything at once."
+    },
+    {
+      "type": "photo_bullets",
+      "chapter": "Avoid mistakes",
+      "title": "Three expensive mistakes to avoid",
+      "photo": "images/inline-shelf-herbs.jpg",
+      "bullets": [
+        "Buying for maximum capacity instead of daily fit",
+        "Treating weak light as a watering problem",
+        "Ignoring noise, glare, or spill risk in a small room"
+      ],
+      "narration": "Avoid buying the largest system first. Weak light is not fixed by extra water, and in a small room noise, glare, and spill risk matter every day."
+    },
+    {
+      "type": "verdict",
+      "chapter": "Verdict",
+      "title": "The Sill Garden verdict",
+      "body": "Cilantro bolts fast in heat and strong continuous LED. Give it bright-but-cool light, harvest young leaves often, and plan to reseed every few weeks instead of nursing one woody plant forever.",
+      "picks": [
+        "Start small and prove the routine first",
+        "Upgrade light or capacity only when the plants require it"
+      ],
+      "cta": "Full guide \u2192 sillgarden.com/guides/cilantro-countertop-first-harvest",
+      "photo": "images/inline-cilantro.jpg",
+      "narration": "Our verdict: Cilantro bolts fast in heat and strong continuous LED. Give it bright-but-cool light, harvest young leaves often, and plan to reseed every few weeks instead of nursing one woody plant forever. Read the full step-by-step guide at Sill Garden dot com."
+    }
+  ]
+}
