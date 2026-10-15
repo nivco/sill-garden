@@ -1027,7 +1027,13 @@
       "type": "tune_guide_seo",
       "slug": "cheapest-indoor-herb-garden-apartment",
       "reason": "CTR-first query desc: 6 impr, pos 4.7, 0 clicks"
+    },
+    {
+      "at": "2026-10-15 18:44 UTC",
+      "type": "tune_guide_seo",
+      "slug": "aerogarden-vs-click-and-grow",
+      "reason": "CTR-first query desc: 3 impr, pos 46.3, 0 clicks"
     }
   ],
-  "updated": "2026-10-15 10:31 UTC"
+  "updated": "2026-10-15 18:44 UTC"
 }
