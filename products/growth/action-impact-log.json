@@ -3433,7 +3433,7 @@
       "title": "kit-first distribution pack",
       "detail": "",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-13",
       "measure_after": "2026-10-16",
       "final_after": "2026-10-20",
@@ -3445,7 +3445,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": 410.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 21,
+        "users_7d": 21,
+        "pageviews_7d": 20,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 1,
+        "gsc_impressions_7d": 46,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 414,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 44
+      },
+      "delta": {
+        "sessions_7d": 2.0,
+        "gsc_impressions_7d": -18.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 4.0
+      },
+      "verdict": "positive",
+      "outcome": "positive sessions_7d +2",
+      "measured_at": "2026-10-16 10:18 UTC"
     },
     {
       "id": "d32284547110ef",
@@ -3454,7 +3481,7 @@
       "title": "faq:compare-aerogarden-models:Auk vs click and grow?",
       "detail": "faq:compare-aerogarden-models:Auk vs click and grow?",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-13",
       "measure_after": "2026-10-16",
       "final_after": "2026-10-20",
@@ -3466,7 +3493,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": 410.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 21,
+        "users_7d": 21,
+        "pageviews_7d": 20,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 1,
+        "gsc_impressions_7d": 46,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 414,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 44
+      },
+      "delta": {
+        "sessions_7d": 2.0,
+        "gsc_impressions_7d": -18.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 4.0
+      },
+      "verdict": "positive",
+      "outcome": "positive sessions_7d +2",
+      "measured_at": "2026-10-16 10:18 UTC"
     },
     {
       "id": "9903a5714efeda",
@@ -3475,7 +3529,7 @@
       "title": "faq:compare-aerogarden-models:Best cheap herb garden under 50?",
       "detail": "faq:compare-aerogarden-models:Best cheap herb garden under 50?",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-13",
       "measure_after": "2026-10-16",
       "final_after": "2026-10-20",
@@ -3487,7 +3541,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": 410.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 21,
+        "users_7d": 21,
+        "pageviews_7d": 20,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 1,
+        "gsc_impressions_7d": 46,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 414,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 44
+      },
+      "delta": {
+        "sessions_7d": 2.0,
+        "gsc_impressions_7d": -18.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 4.0
+      },
+      "verdict": "positive",
+      "outcome": "positive sessions_7d +2",
+      "measured_at": "2026-10-16 10:18 UTC"
     },
     {
       "id": "fd539a16e49731",
@@ -3496,7 +3577,7 @@
       "title": "updated visual-backlog.md",
       "detail": "updated visual-backlog.md",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-13",
       "measure_after": "2026-10-16",
       "final_after": "2026-10-20",
@@ -3508,7 +3589,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": 410.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 21,
+        "users_7d": 21,
+        "pageviews_7d": 20,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 1,
+        "gsc_impressions_7d": 46,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 414,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 44
+      },
+      "delta": {
+        "sessions_7d": 2.0,
+        "gsc_impressions_7d": -18.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 4.0
+      },
+      "verdict": "positive",
+      "outcome": "positive sessions_7d +2",
+      "measured_at": "2026-10-16 10:18 UTC"
     },
     {
       "id": "7310c471ac1187",
@@ -3517,7 +3625,7 @@
       "title": "IndexNow ping",
       "detail": "IndexNow ping",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-10-13",
       "measure_after": "2026-10-16",
       "final_after": "2026-10-20",
@@ -3529,7 +3637,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": 410.0
       },
-      "primary_metric": "gsc_impressions_7d"
+      "primary_metric": "gsc_impressions_7d",
+      "metrics_after": {
+        "sessions_7d": 21,
+        "users_7d": 21,
+        "pageviews_7d": 20,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 1,
+        "gsc_impressions_7d": 46,
+        "indexed_urls": 32,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 414,
+        "engagement_rate_pct": 0.0,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 44
+      },
+      "delta": {
+        "sessions_7d": 2.0,
+        "gsc_impressions_7d": -18.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 4.0
+      },
+      "verdict": "negative",
+      "outcome": "negative gsc_impressions_7d -18",
+      "measured_at": "2026-10-16 10:18 UTC"
     },
     {
       "id": "90bc33970899c5",
@@ -3766,5 +3901,5 @@
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-15 18:44 UTC"
+  "updated_at": "2026-10-16 10:18 UTC"
 }
