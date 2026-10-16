@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-16 10:23 UTC",
+  "generated_at": "2026-10-16 18:29 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -56,7 +56,7 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 414,
+        "word_count_est": 415,
         "images": 22,
         "has_faq": true,
         "has_table": false,
@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 634,
+        "word_count_est": 535,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -156,7 +156,7 @@
     "signals": {
       "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
       "title": "AeroGarden vs Click & Grow — which apartment kit to buy (2026) · Sill Garden",
-      "description": "AeroGarden vs Click and Grow for a small apartment kitchen (2026) — noise, footprint, refill cost, and the clear first buy for studios vs cooks.",
+      "description": "aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.",
       "h1": [
         "AeroGarden vs Click & Grow — which apartment kit to buy (2026)"
       ],
@@ -170,7 +170,7 @@
         "Our call",
         "Next"
       ],
-      "word_count_est": 1308,
+      "word_count_est": 1468,
       "images": 6,
       "has_faq": true,
       "has_table": true,
@@ -183,30 +183,30 @@
     }
   },
   "gsc_queries": [
+    "aerogarden bounty",
     "aerogarden bounty basic",
-    "aerogarden vs click and grow",
-    "auk vs click and grow",
-    "best cheap herb garden under 50",
-    "best quiet herb garden under 50",
-    "best simple herb garden under 50",
-    "bounty basic",
-    "click and grow vs aerogarden"
+    "aerogarden bounty vs bounty basic",
+    "aerogarden bounty vs bounty elite",
+    "aerogarden bounty vs harvest",
+    "aerogarden comparison",
+    "aerogarden elite bounty",
+    "aerogarden harvest vs harvest elite"
   ],
   "learnings": [
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Retitle and restructure the comparison page around GSC demand**",
-    "LLM peer insight: - Title: **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
-    "LLM peer insight: - H1: **AeroGarden vs Click & Grow: Best Indoor Garden for Your Apartment**",
-    "LLM peer insight: - Add early sections targeting related queries:",
-    "LLM peer insight: - “AUK vs Click & Grow: What’s the Difference?”",
-    "LLM peer insight: - Use one clear verdict near the top: Click & Grow for simplicity and quieter operation; AeroGarden for capacity, faster growth, and flexibility. AeroGarden generally uses a pump and nutrient solution, while Click & Grow",
-    "LLM peer insight: . **Add a decision-first comparison table above the fold**"
+    "WORKING peer pattern: long-form depth (~1313 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Create a query-matched comparison page**",
+    "LLM peer insight: - Title: **AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Indoor Garden Is Best?**",
+    "LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Basic: Key Differences Explained**",
+    "LLM peer insight: - Add a 40–60 word verdict above the fold:",
+    "LLM peer insight: > Choose Bounty Basic for the lowest-cost 9-pod setup, Bounty for app control and a color touchscreen, and Bounty Elite for the brightest light and premium finish. Choose Harvest if six pods and a smaller footprint are e",
+    "LLM peer insight: - Include separate sections targeting each GSC query: “Bounty vs Bounty Basic,” “Bounty vs Bounty Elite,” and “Bounty vs Harvest.”",
+    "LLM peer insight: - Place it immediately below the introductory verdict."
   ],
-  "llm_notes": "Ship these five changes this week:\n\n1. **Retitle and restructure the comparison page around GSC demand**\n   - Title: **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**\n   - H1: **AeroGarden vs Click & Grow: Best Indoor Garden for Your Apartment**\n   - Add early sections targeting related queries:\n     - “AeroGarden Bounty Basic Review”\n     - “AUK vs Click & Grow: What’s the Difference?”\n     - “Best Cheap Herb Gardens Under $50”\n     - “Quietest Herb Gardens Under $50”\n   - Use one clear verdict near the top: Click & Grow for simplicity and quieter operation; AeroGarden for capacity, faster growth, and flexibility. AeroGarden generally uses a pump and nutrient solution, while Click & Grow uses passive watering and Smart Soil pods.[2][5]\n\n2. **Add a decision-first comparison table above the fold**\n   \n   | Feature | AeroGarden Bounty Basic | Click & Grow | AUK/low-cost alternative |\n   |---|---|---|---|\n   | Best for | Larger harvests and more plant variety | Easiest setup | Lowest upfront price |\n   | Watering | Pump-driven reservoir | Passive wick system | Varies by model |\n   | Noise | Possible pump hum | Generally quieter | Verify pump rating |\n   | Ongoing supplies | Nutrients plus pods/seeds | Replacement Smart Soil pods | Nutrients or pods vary |\n   | Choose it if… | You want output and flexibility | You want a clean, low-maintenance countertop garden | You need to stay under $50 |\n\n   Put “**Best overall**,” “**Best quiet option**,” and “**Best under $50**” badges directly in the table. Competing comparison pages commonly differentiate the products by ma",
+  "llm_notes": "1. **Create a query-matched comparison page**\n   - Title: **AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Indoor Garden Is Best?**\n   - H1: **AeroGarden Bounty vs Bounty Basic: Key Differences Explained**\n   - Add a 40–60 word verdict above the fold:\n     > Choose Bounty Basic for the lowest-cost 9-pod setup, Bounty for app control and a color touchscreen, and Bounty Elite for the brightest light and premium finish. Choose Harvest if six pods and a smaller footprint are enough.\n   - Include separate sections targeting each GSC query: “Bounty vs Bounty Basic,” “Bounty vs Bounty Elite,” and “Bounty vs Harvest.”\n\n2. **Ship a scannable comparison table**\n   - Place it immediately below the introductory verdict.\n   - Use confirmed differentiators rather than generic marketing copy:\n\n| Model | Pods | LED light | Maximum plant height | Controls | Best for |\n|---|---:|---:|---:|---|---|\n| Bounty Basic | 9 | 30W | 24 in | Basic display, reminders, vacation mode | Value shoppers |\n| Bounty | 9 | 40W | 24 in | Color touchscreen, Wi-Fi/app, dimming | Most apartment growers |\n| Bounty Elite | 9 | 50W | 24 in | Touchscreen, Wi-Fi/app, dimming, sunrise/sunset lighting | Maximum control |\n| Harvest | 6 | 20W | 12 in | Digital display and automated lighting | Small counters and beginners |\n\n   - Add a final column for **“Best alternative”** linking to the relevant model section.\n   - Mark uncertain or retailer-dependent specifications as “varies by version” instead of presenting them as universal.\n\n3. **Add an FAQ block built around the actual queries**\n   - Use 6–8 questions",
   "proposed_actions": [
     {
       "type": "content_faq",

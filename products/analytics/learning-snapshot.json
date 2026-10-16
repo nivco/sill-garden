@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16 10:23 UTC",
+  "generated_at": "2026-10-16 18:29 UTC",
   "wow": {
     "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": -7.0,
+    "gsc_impressions_7d": 10.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 21,
-    "gsc_impressions_7d": 46,
+    "gsc_impressions_7d": 62,
     "gsc_clicks_7d": 1,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -16,11 +16,60 @@
   },
   "top_queries": [
     {
+      "query": "aerogarden bounty",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 58.0
+    },
+    {
       "query": "aerogarden bounty basic",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 54.0
+    },
+    {
+      "query": "aerogarden bounty vs bounty basic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 35.0
+    },
+    {
+      "query": "aerogarden bounty vs bounty elite",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 19.0
+    },
+    {
+      "query": "aerogarden bounty vs harvest",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 42.0
+    },
+    {
+      "query": "aerogarden comparison",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 64.0
+    },
+    {
+      "query": "aerogarden elite bounty",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 93.0
+    },
+    {
+      "query": "aerogarden harvest vs harvest elite",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 33.5
     },
     {
       "query": "aerogarden vs click and grow",
@@ -35,59 +84,17 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 9.5
-    },
-    {
-      "query": "best cheap herb garden under 50",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 3.5
-    },
-    {
-      "query": "best quiet herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 5.0
-    },
-    {
-      "query": "best simple herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 6.0
-    },
-    {
-      "query": "bounty basic",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 41.0
-    },
-    {
-      "query": "click and grow vs aerogarden",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 45.0
-    },
-    {
-      "query": "herb garden for small apartments 2026",
-      "clicks": 0,
-      "impressions": 20,
-      "ctr": 0.0,
-      "position": 5.5
     }
   ],
   "learnings": [
-    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
-    "LLM peer insight: - Use one clear verdict near the top: Click & Grow for simplicity and quieter operation; AeroGarden for capacity, faster growth, and flexibility. AeroGarden generally uses a pump and nutrient solution, while Click & Grow",
-    "LLM peer insight: - “AUK vs Click & Grow: What’s the Difference?”",
-    "LLM peer insight: - Add early sections targeting related queries:",
-    "LLM peer insight: - H1: **AeroGarden vs Click & Grow: Best Indoor Garden for Your Apartment**",
-    "LLM peer insight: - Title: **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
-    "LLM peer insight: . **Retitle and restructure the comparison page around GSC demand**",
-    "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Place it immediately below the introductory verdict.",
+    "LLM peer insight: - Include separate sections targeting each GSC query: “Bounty vs Bounty Basic,” “Bounty vs Bounty Elite,” and “Bounty vs Harvest.”",
+    "LLM peer insight: > Choose Bounty Basic for the lowest-cost 9-pod setup, Bounty for app control and a color touchscreen, and Bounty Elite for the brightest light and premium finish. Choose Harvest if six pods and a smaller footprint are e",
+    "LLM peer insight: - Add a 40–60 word verdict above the fold:",
+    "LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Basic: Key Differences Explained**",
+    "LLM peer insight: - Title: **AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Indoor Garden Is Best?**",
+    "LLM peer insight: . **Create a query-matched comparison page**",
+    "WORKING peer pattern: long-form depth (~1313 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -107,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-16 10:23 UTC"
+    "generated_at": "2026-10-16 18:29 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 11 action(s) still measuring (3-7d windows)",
+      "IMPACT: 17 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

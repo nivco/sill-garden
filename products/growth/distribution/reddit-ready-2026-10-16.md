@@ -6,12 +6,12 @@ Title: AeroGarden vs Click & Grow for a small apartment — which would you buy 
 Body:
 I put together apartment-focused kit stacks (noise, footprint, refill cost — not brand ads) so you’re not guessing accessories.
 
-**Lane:** aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.
+**Lane:** AeroGarden comparison chart 2026 — Harvest vs Harvest Elite vs Bounty vs Bounty Basic vs Elite for apartments: pods, footprint, noise, counter depth, and which model to buy first.
 
 Buy stack: https://sillgarden.com/kits/kitchen-capacity/
 60-second picker: https://sillgarden.com/tools/kit-picker/
 Year-one cost: https://sillgarden.com/tools/year-one-cost/
-Matching guide: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/
+Matching guide: https://sillgarden.com/guides/compare-aerogarden-models/
 
 Disclosure: https://sillgarden.com/disclosure/
 

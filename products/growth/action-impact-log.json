@@ -4022,10 +4022,52 @@
         "youtube_views_total": 414.0
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "1a4878f9156162",
+      "kind": "distribution",
+      "target": "compare-aerogarden-models",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-16",
+      "measure_after": "2026-10-19",
+      "final_after": "2026-10-23",
+      "metrics_before": {
+        "sessions_7d": 21.0,
+        "gsc_impressions_7d": 62.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 414.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "b6eae8e69e7569",
+      "kind": "applied",
+      "target": "Aerogarden elite bounty?",
+      "title": "faq:aerogarden-vs-click-and-grow:Aerogarden elite bounty?",
+      "detail": "faq:aerogarden-vs-click-and-grow:Aerogarden elite bounty?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-16",
+      "measure_after": "2026-10-19",
+      "final_after": "2026-10-23",
+      "metrics_before": {
+        "sessions_7d": 21.0,
+        "gsc_impressions_7d": 62.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 414.0
+      },
+      "primary_metric": "sessions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-16 10:23 UTC"
+  "updated_at": "2026-10-16 18:29 UTC"
 }

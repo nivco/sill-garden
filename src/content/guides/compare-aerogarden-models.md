@@ -165,6 +165,9 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 
 **Best quiet herb garden under 50?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Aerogarden elite bounty?**  
+Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Standard. Most apartments should buy capacity they will harvest — Elite is optional, not required.
 ## Related
 
 - [Quiet kit + pod-cost picker](/tools/kit-picker/)
