@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-10-15 18:44 UTC",
+  "generated_at": "2026-10-16 10:23 UTC",
   "applied": [
-    "faq:aerogarden-vs-click-and-grow:Best homemade herb garden under 50?",
-    "faq:compare-aerogarden-models:Best homemade herb garden under 50?",
-    "faq:best-countertop-garden-apartments:Best homemade herb garden under 50?",
+    "faq:aerogarden-vs-click-and-grow:Best quiet herb garden under 50?",
+    "faq:compare-aerogarden-models:Best quiet herb garden under 50?",
+    "faq:best-countertop-garden-apartments:Best quiet herb garden under 50?",
     "updated visual-backlog.md"
   ],
   "queued": [
@@ -15,9 +15,9 @@
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create query-matched comparison and buyer-guide titles**",
-    "LLM peer insight: - Publish or retitle pages around the exact GSC demand:",
-    "LLM peer insight: - **“AeroGarden Bounty Basic Review: 9-Plant Capacity, Cost, and Apartment Fit”**"
+    "LLM peer insight: . **Retitle and restructure the comparison page around GSC demand**",
+    "LLM peer insight: - Title: **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
+    "LLM peer insight: - H1: **AeroGarden vs Click & Grow: Best Indoor Garden for Your Apartment**"
   ],
   "dry_run": false
 }

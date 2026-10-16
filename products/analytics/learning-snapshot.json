@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-15 18:44 UTC",
+  "generated_at": "2026-10-16 10:23 UTC",
   "wow": {
     "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 8.0,
+    "gsc_impressions_7d": -7.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 21,
-    "gsc_impressions_7d": 61,
+    "gsc_impressions_7d": 46,
     "gsc_clicks_7d": 1,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -37,39 +37,18 @@
       "position": 9.5
     },
     {
-      "query": "best budget herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 4.0
-    },
-    {
       "query": "best cheap herb garden under 50",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 2.8
-    },
-    {
-      "query": "best homemade herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 3.0
-    },
-    {
-      "query": "best natural herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 2.0
+      "position": 3.5
     },
     {
       "query": "best quiet herb garden under 50",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 9.0
+      "position": 5.0
     },
     {
       "query": "best simple herb garden under 50",
@@ -84,16 +63,30 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 41.0
+    },
+    {
+      "query": "click and grow vs aerogarden",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 45.0
+    },
+    {
+      "query": "herb garden for small apartments 2026",
+      "clicks": 0,
+      "impressions": 20,
+      "ctr": 0.0,
+      "position": 5.5
     }
   ],
   "learnings": [
-    "LLM peer insight: - Put the primary keyword near the beginning, add the year only if the page will be maintained, and make the promise specific: price, capacity, maintenance, and apartment suitability.",
-    "LLM peer insight: - **“5 Best Herb Gardens Under $50 for Small Apartments”**",
-    "LLM peer insight: - **“AUK vs. Click & Grow: Features, Pod Costs, and Best Use Cases”**",
-    "LLM peer insight: - **“AeroGarden vs. Click & Grow: Which Indoor Garden Is Better?”**",
-    "LLM peer insight: - **“AeroGarden Bounty Basic Review: 9-Plant Capacity, Cost, and Apartment Fit”**",
-    "LLM peer insight: - Publish or retitle pages around the exact GSC demand:",
-    "LLM peer insight: . **Create query-matched comparison and buyer-guide titles**",
+    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
+    "LLM peer insight: - Use one clear verdict near the top: Click & Grow for simplicity and quieter operation; AeroGarden for capacity, faster growth, and flexibility. AeroGarden generally uses a pump and nutrient solution, while Click & Grow",
+    "LLM peer insight: - “AUK vs Click & Grow: What’s the Difference?”",
+    "LLM peer insight: - Add early sections targeting related queries:",
+    "LLM peer insight: - H1: **AeroGarden vs Click & Grow: Best Indoor Garden for Your Apartment**",
+    "LLM peer insight: - Title: **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
+    "LLM peer insight: . **Retitle and restructure the comparison page around GSC demand**",
     "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
@@ -114,12 +107,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-15 18:44 UTC"
+    "generated_at": "2026-10-16 10:23 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 10 action(s) still measuring (3-7d windows)",
+      "IMPACT: 11 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-15 19:32 UTC",
+  "generated_at": "2026-10-16 10:23 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -56,7 +56,7 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 415,
+        "word_count_est": 414,
         "images": 22,
         "has_faq": true,
         "has_table": false,
@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 535,
+        "word_count_est": 634,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -117,6 +117,32 @@
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4038,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -160,33 +186,40 @@
     "aerogarden bounty basic",
     "aerogarden vs click and grow",
     "auk vs click and grow",
-    "best budget herb garden under 50",
     "best cheap herb garden under 50",
-    "best homemade herb garden under 50",
-    "best natural herb garden under 50",
-    "best quiet herb garden under 50"
+    "best quiet herb garden under 50",
+    "best simple herb garden under 50",
+    "bounty basic",
+    "click and grow vs aerogarden"
   ],
   "learnings": [
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: Ship these five changes this week, prioritized around the queries already generating demand:",
-    "LLM peer insight: . **Create query-specific titles and H1s**",
-    "LLM peer insight: - Publish or optimize pages with exact-intent titles:",
-    "LLM peer insight: - **AeroGarden Bounty Basic Review: Is It Worth It?**",
-    "LLM peer insight: - **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
-    "LLM peer insight: - **AUK vs Click & Grow: Which Herb Garden Should You Buy?**",
-    "LLM peer insight: - **7 Best Budget Herb Gardens Under $50**",
-    "LLM peer insight: - Make the H1 match the title closely, then add a one-sentence verdict directly below it."
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Retitle and restructure the comparison page around GSC demand**",
+    "LLM peer insight: - Title: **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
+    "LLM peer insight: - H1: **AeroGarden vs Click & Grow: Best Indoor Garden for Your Apartment**",
+    "LLM peer insight: - Add early sections targeting related queries:",
+    "LLM peer insight: - “AUK vs Click & Grow: What’s the Difference?”",
+    "LLM peer insight: - Use one clear verdict near the top: Click & Grow for simplicity and quieter operation; AeroGarden for capacity, faster growth, and flexibility. AeroGarden generally uses a pump and nutrient solution, while Click & Grow",
+    "LLM peer insight: . **Add a decision-first comparison table above the fold**"
   ],
-  "llm_notes": "Ship these five changes this week, prioritized around the queries already generating demand:\n\n1. **Create query-specific titles and H1s**\n   - Publish or optimize pages with exact-intent titles:\n     - **AeroGarden Bounty Basic Review: Is It Worth It?**\n     - **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**\n     - **AUK vs Click & Grow: Which Herb Garden Should You Buy?**\n     - **7 Best Budget Herb Gardens Under $50**\n   - Make the H1 match the title closely, then add a one-sentence verdict directly below it.\n   - Example: “**Best for:** apartment growers who want more growing capacity and don’t mind adding nutrients.”\n   - Keep titles benefit-led rather than generic; peer titles describe broad categories, while these pages should capture specific comparison and budget intent.\n\n2. **Add a decision-first comparison table above the fold**\n   - Place it immediately after the introduction, before long-form reviews.\n   - Use columns for **price, pod capacity, growing method, refill cost, maintenance, app, best for, and verdict**.\n   - Include at least AeroGarden, Click & Grow, and AUK; use “price checked” dates and clearly label affiliate links.\n   - Example rows:\n     - AeroGarden: hydroponic system, larger capacity, more flexibility, requires nutrient additions.\n     - Click & Grow: Smart Soil pods, simpler setup, no separate nutrients, typically higher refill cost per pod.[1][2]\n   - Add a final column with decisive labels: **Best for maximum yield**, **Best for simplicity**, or **Best budget pick**.\n\n3. **Build a dedicated “under $50” buying block**\n   - Add ",
+  "llm_notes": "Ship these five changes this week:\n\n1. **Retitle and restructure the comparison page around GSC demand**\n   - Title: **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**\n   - H1: **AeroGarden vs Click & Grow: Best Indoor Garden for Your Apartment**\n   - Add early sections targeting related queries:\n     - “AeroGarden Bounty Basic Review”\n     - “AUK vs Click & Grow: What’s the Difference?”\n     - “Best Cheap Herb Gardens Under $50”\n     - “Quietest Herb Gardens Under $50”\n   - Use one clear verdict near the top: Click & Grow for simplicity and quieter operation; AeroGarden for capacity, faster growth, and flexibility. AeroGarden generally uses a pump and nutrient solution, while Click & Grow uses passive watering and Smart Soil pods.[2][5]\n\n2. **Add a decision-first comparison table above the fold**\n   \n   | Feature | AeroGarden Bounty Basic | Click & Grow | AUK/low-cost alternative |\n   |---|---|---|---|\n   | Best for | Larger harvests and more plant variety | Easiest setup | Lowest upfront price |\n   | Watering | Pump-driven reservoir | Passive wick system | Varies by model |\n   | Noise | Possible pump hum | Generally quieter | Verify pump rating |\n   | Ongoing supplies | Nutrients plus pods/seeds | Replacement Smart Soil pods | Nutrients or pods vary |\n   | Choose it if… | You want output and flexibility | You want a clean, low-maintenance countertop garden | You need to stay under $50 |\n\n   Put “**Best overall**,” “**Best quiet option**,” and “**Best under $50**” badges directly in the table. Competing comparison pages commonly differentiate the products by ma",
   "proposed_actions": [
     {
       "type": "content_faq",
       "priority": "P1",
       "title": "Add/refresh FAQ from peer + GSC questions",
       "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
+    {
+      "type": "content_table",
+      "priority": "P1",
+      "title": "Ensure comparison tables near top of vs guides",
+      "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
       "auto": true
     },
     {
@@ -204,6 +237,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }

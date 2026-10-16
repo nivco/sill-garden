@@ -1,8 +1,8 @@
 ---
 title: AeroGarden vs Click & Grow — which apartment kit to buy (2026)
-description: "click and grow vs aerogarden for apartments — clear picks, noise, light, and refill cost."
+description: "aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost."
 pubDate: 2026-08-13
-updatedDate: 2026-10-15
+updatedDate: 2026-10-16
 cluster: systems
 type: comparison
 featured: true
@@ -153,6 +153,9 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 
 **Best homemade herb garden under 50?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Best quiet herb garden under 50?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Our call
 
