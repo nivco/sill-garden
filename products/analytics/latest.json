@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-15 19:32 UTC",
+  "generated_at": "2026-10-16 02:32 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 20,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 61,
+    "gsc_impressions_7d": 46,
     "indexed_urls": 32,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -109,8 +109,8 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 61,
-      "avg_position": 13.5,
+      "impressions": 46,
+      "avg_position": 15.4,
       "top_queries": [
         {
           "query": "aerogarden bounty basic",
@@ -134,39 +134,18 @@
           "position": 9.5
         },
         {
-          "query": "best budget herb garden under 50",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 4.0
-        },
-        {
           "query": "best cheap herb garden under 50",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 2.8
-        },
-        {
-          "query": "best homemade herb garden under 50",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 3.0
-        },
-        {
-          "query": "best natural herb garden under 50",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 2.0
+          "position": 3.5
         },
         {
           "query": "best quiet herb garden under 50",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 9.0
+          "position": 5.0
         },
         {
           "query": "best simple herb garden under 50",
@@ -185,22 +164,22 @@
         {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 46.3
+          "position": 45.0
         },
         {
           "query": "herb garden for small apartments 2026",
           "clicks": 0,
-          "impressions": 23,
+          "impressions": 20,
           "ctr": 0.0,
-          "position": 5.7
+          "position": 5.5
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-08",
-        "end": "2026-10-15"
+        "start": "2026-10-09",
+        "end": "2026-10-16"
       }
     },
     "indexing": {
@@ -1080,6 +1059,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 21 | Aff clicks 0 | GSC 1c/61i | YT views 414 | Setup 6/7"
+    "headline": "Sessions 21 | Aff clicks 0 | GSC 1c/46i | YT views 414 | Setup 6/7"
   }
 }
