@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-16 18:29 UTC",
+  "generated_at": "2026-10-17 17:35 UTC",
   "wow": {
     "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 10.0,
+    "gsc_impressions_7d": 14.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 21,
-    "gsc_impressions_7d": 62,
+    "gsc_impressions_7d": 60,
     "gsc_clicks_7d": 1,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -87,14 +87,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: - Place it immediately below the introductory verdict.",
-    "LLM peer insight: - Include separate sections targeting each GSC query: “Bounty vs Bounty Basic,” “Bounty vs Bounty Elite,” and “Bounty vs Harvest.”",
-    "LLM peer insight: > Choose Bounty Basic for the lowest-cost 9-pod setup, Bounty for app control and a color touchscreen, and Bounty Elite for the brightest light and premium finish. Choose Harvest if six pods and a smaller footprint are e",
-    "LLM peer insight: - Add a 40–60 word verdict above the fold:",
-    "LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Basic: Key Differences Explained**",
-    "LLM peer insight: - Title: **AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest: Which Indoor Garden Is Best?**",
-    "LLM peer insight: . **Create a query-matched comparison page**",
-    "WORKING peer pattern: long-form depth (~1313 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Put the table directly below the opening verdict, not deep in the article.",
+    "LLM peer insight: . **Ship a scannable comparison table covering every GSC variant**",
+    "LLM peer insight: - Add a visible “Best for” label beneath each model: **Best value**, **Best smart features**, **Best finish/light power**.",
+    "LLM peer insight: - Above the fold, show three product images side by side, a one-line verdict, and three CTAs: **Compare Models**, **See Current Price**, **Read the Full Review**.",
+    "LLM peer insight: - Use an H1 with the same wording or a close variant.",
+    "LLM peer insight: - Replace a generic title with: **“AeroGarden Bounty vs Bounty Basic vs Elite: Which 9-Pod Garden Should You Buy?”**",
+    "LLM peer insight: . **Create a query-matched comparison title and hero**",
+    "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-16 18:29 UTC"
+    "generated_at": "2026-10-17 17:35 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 17 action(s) still measuring (3-7d windows)",
+      "IMPACT: 18 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",
