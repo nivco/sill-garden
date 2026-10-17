@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-16 19:06 UTC",
+  "generated_at": "2026-10-17 02:25 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,13 +9,13 @@
     "pageviews_7d": 21,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 62,
+    "gsc_impressions_7d": 60,
     "indexed_urls": 32,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 414,
+    "youtube_views_total": 415,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -114,8 +114,8 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 62,
-      "avg_position": 19.5,
+      "impressions": 60,
+      "avg_position": 20.0,
       "top_queries": [
         {
           "query": "aerogarden bounty",
@@ -225,8 +225,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-09",
-        "end": "2026-10-16"
+        "start": "2026-10-10",
+        "end": "2026-10-17"
       }
     },
     "indexing": {
@@ -826,7 +826,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 414,
+        "views": 415,
         "videos": 44
       },
       "recent_videos": [
@@ -1106,6 +1106,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 22 | Aff clicks 0 | GSC 1c/62i | YT views 414 | Setup 6/7"
+    "headline": "Sessions 22 | Aff clicks 0 | GSC 1c/60i | YT views 415 | Setup 6/7"
   }
 }
