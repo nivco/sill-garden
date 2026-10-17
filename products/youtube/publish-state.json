@@ -458,8 +458,17 @@
       "storyboard": "products/youtube/video-pet-safe-low-smell-apartment-herbs/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-10-17T11:42:54.245783+00:00"
+    },
+    "video-cilantro-countertop-first-harvest": {
+      "youtube_id": "1F5Kue-J_c4",
+      "url": "https://youtu.be/1F5Kue-J_c4",
+      "title": "Cilantro on a countertop \u2014 first harvest guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-10-17T16:49:50.763610+00:00",
+      "storyboard": "products/youtube/video-cilantro-countertop-first-harvest/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-10-17T11:42:56.442446+00:00",
-  "next_eligible_date": "2026-10-17"
+  "next_eligible_date": "2026-10-20"
 }
