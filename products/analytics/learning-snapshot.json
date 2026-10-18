@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-17 17:35 UTC",
+  "generated_at": "2026-10-18 17:37 UTC",
   "wow": {
-    "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 14.0,
-    "gsc_clicks_7d": 0.0,
+    "ga4_sessions_7d": -1.0,
+    "gsc_impressions_7d": 29.0,
+    "gsc_clicks_7d": -1.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 21,
-    "gsc_impressions_7d": 60,
-    "gsc_clicks_7d": 1,
+    "sessions_7d": 20,
+    "gsc_impressions_7d": 89,
+    "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
     "indexed_urls": 32
@@ -23,25 +23,32 @@
       "position": 58.0
     },
     {
-      "query": "aerogarden bounty basic",
+      "query": "aerogarden bounty basic vs elite",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 54.0
+      "position": 10.0
+    },
+    {
+      "query": "aerogarden bounty dimensions",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 80.0
     },
     {
       "query": "aerogarden bounty vs bounty basic",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 35.0
+      "position": 28.0
     },
     {
       "query": "aerogarden bounty vs bounty elite",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 19.0
+      "position": 16.5
     },
     {
       "query": "aerogarden bounty vs harvest",
@@ -49,6 +56,13 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 42.0
+    },
+    {
+      "query": "aerogarden bounty white",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 74.0
     },
     {
       "query": "aerogarden comparison",
@@ -70,30 +84,16 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 33.5
-    },
-    {
-      "query": "aerogarden vs click and grow",
-      "clicks": 0,
-      "impressions": 4,
-      "ctr": 0.0,
-      "position": 49.0
-    },
-    {
-      "query": "auk vs click and grow",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 9.5
     }
   ],
   "learnings": [
-    "LLM peer insight: - Put the table directly below the opening verdict, not deep in the article.",
-    "LLM peer insight: . **Ship a scannable comparison table covering every GSC variant**",
-    "LLM peer insight: - Add a visible “Best for” label beneath each model: **Best value**, **Best smart features**, **Best finish/light power**.",
-    "LLM peer insight: - Above the fold, show three product images side by side, a one-line verdict, and three CTAs: **Compare Models**, **See Current Price**, **Read the Full Review**.",
-    "LLM peer insight: - Use an H1 with the same wording or a close variant.",
-    "LLM peer insight: - Replace a generic title with: **“AeroGarden Bounty vs Bounty Basic vs Elite: Which 9-Pod Garden Should You Buy?”**",
-    "LLM peer insight: . **Create a query-matched comparison title and hero**",
+    "LLM peer insight: | Dimensions | 17.25″ W × 11.25″ D × 34″ H | 17.25″ W × 11.25″ D × 34″ H | 17.25″ W × 11.25″ D × 34″ H |",
+    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |",
+    "LLM peer insight: . **Ship a prominent comparison table above the first long-form section.**",
+    "LLM peer insight: - Add a 40–60-word answer immediately below the H1: Basic and standard Bounty share the same 9-pod capacity and \\(17.25 \\times 11.25 \\times 34\\)-inch dimensions; Elite’s key upgrades are its 50W light, touchscreen, Wi-Fi",
+    "LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Basic vs Elite: Which Should You Buy?**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Review: Bounty vs Basic vs Elite (Dimensions & Differences)**",
+    "LLM peer insight: . **Rewrite the page title and H1 around the comparison intent.**",
     "WORKING peer pattern: long-form depth (~1332 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-17 17:35 UTC"
+    "generated_at": "2026-10-18 17:37 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 18 action(s) still measuring (3-7d windows)",
+      "IMPACT: 17 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

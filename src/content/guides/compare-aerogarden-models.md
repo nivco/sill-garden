@@ -2,7 +2,7 @@
 title: AeroGarden Harvest vs Bounty (Basic & Elite) for apartments (2026)
 description: "AeroGarden comparison chart 2026 — Harvest vs Harvest Elite vs Bounty vs Bounty Basic vs Elite for apartments: pods, footprint, noise, counter depth, and which model to buy first."
 pubDate: 2026-08-26
-updatedDate: 2026-10-16
+updatedDate: 2026-10-18
 cluster: systems
 type: comparison
 featured: true
@@ -167,6 +167,9 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 
 **Aerogarden elite bounty?**  
+Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Standard. Most apartments should buy capacity they will harvest — Elite is optional, not required.
+
+**Aerogarden bounty basic vs elite?**  
 Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Standard. Most apartments should buy capacity they will harvest — Elite is optional, not required.
 ## Related
 
