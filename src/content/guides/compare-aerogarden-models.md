@@ -171,6 +171,12 @@ Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Sta
 
 **Aerogarden bounty basic vs elite?**  
 Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Standard. Most apartments should buy capacity they will harvest — Elite is optional, not required.
+
+**Aerogarden bounty dimensions?**  
+For "aerogarden bounty dimensions", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Aerogarden bounty white?**  
+For "aerogarden bounty white", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Related
 
 - [Quiet kit + pod-cost picker](/tools/kit-picker/)
