@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-17",
+  "updated_at": "2026-10-18",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -262,6 +262,27 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "cba9f977550009"
+    },
+    {
+      "signal": "Impact-: tune_guide_seo on aerogarden-vs-click-and-grow",
+      "action": "Revisit approach — negative sessions_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "8689f48a686ba1"
+    },
+    {
+      "signal": "Impact-: applied on aerogarden-vs-click-and-grow",
+      "action": "Revisit approach — negative gsc_clicks_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "63b35b9ecb4fcd"
+    },
+    {
+      "signal": "Impact-: applied on Best homemade herb garden under 50?",
+      "action": "Revisit approach — negative sessions_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "6f2b86d5c522d9"
     }
   ],
   "money_urls": [
