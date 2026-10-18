@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-17 18:00 UTC",
+  "generated_at": "2026-10-18 02:25 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -8,8 +8,8 @@
     "users_7d": 21,
     "pageviews_7d": 21,
     "affiliate_clicks_7d": 0,
-    "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 60,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 58,
     "indexed_urls": 32,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -104,9 +104,9 @@
       "affiliate_clicks_7d": 0
     },
     "gsc": {
-      "clicks": 1,
-      "impressions": 60,
-      "avg_position": 20.0,
+      "clicks": 0,
+      "impressions": 58,
+      "avg_position": 20.5,
       "top_queries": [
         {
           "query": "aerogarden bounty",
@@ -114,13 +114,6 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 58.0
-        },
-        {
-          "query": "aerogarden bounty basic",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 54.0
         },
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -165,59 +158,66 @@
           "position": 33.5
         },
         {
+          "query": "aerogarden model comparison",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 28.0
+        },
+        {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
           "impressions": 4,
           "ctr": 0.0,
-          "position": 49.0
+          "position": 47.0
         },
         {
           "query": "auk vs click and grow",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 9.5
+          "position": 9.0
+        },
+        {
+          "query": "best budget herb garden under 50",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 3.0
         },
         {
           "query": "best cheap herb garden under 50",
           "clicks": 0,
           "impressions": 2,
           "ctr": 0.0,
-          "position": 3.5
+          "position": 3.0
         },
         {
           "query": "best quiet herb garden under 50",
           "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 5.0
-        },
-        {
-          "query": "best simple herb garden under 50",
-          "clicks": 0,
-          "impressions": 1,
+          "impressions": 2,
           "ctr": 0.0,
           "position": 6.0
         },
         {
-          "query": "bounty basic",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 41.0
-        },
-        {
           "query": "click and grow vs aerogarden",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 46.0
+          "position": 49.0
+        },
+        {
+          "query": "herb garden for small apartments 2026",
+          "clicks": 0,
+          "impressions": 18,
+          "ctr": 0.0,
+          "position": 5.8
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-10",
-        "end": "2026-10-17"
+        "start": "2026-10-11",
+        "end": "2026-10-18"
       }
     },
     "indexing": {
@@ -824,7 +824,7 @@
         {
           "id": "1F5Kue-J_c4",
           "title": "Cilantro on a countertop \u2014 first harvest guide (2026)",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-10-17T16:50:09Z",
           "url": "https://www.youtube.com/watch?v=1F5Kue-J_c4"
@@ -1051,6 +1051,7 @@
     }
   ],
   "insights": [
+    "GSC: 58 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty\u201d (pos 58), \u201caerogarden bounty vs bounty basic\u201d (pos 35), \u201caerogarden bounty vs bounty elite\u201d (pos 19). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -1097,6 +1098,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 21 | Aff clicks 0 | GSC 1c/60i | YT views 415 | Setup 6/7"
+    "headline": "Sessions 21 | Aff clicks 0 | GSC 0c/58i | YT views 415 | Setup 6/7"
   }
 }
