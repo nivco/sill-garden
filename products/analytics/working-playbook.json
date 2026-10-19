@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-18",
+  "updated_at": "2026-10-19",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -283,6 +283,27 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "6f2b86d5c522d9"
+    },
+    {
+      "signal": "Impact-: applied on Best quiet herb garden under 50?",
+      "action": "Revisit approach — negative sessions_7d -18. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "ba1381bfcc8e4c"
+    },
+    {
+      "signal": "Impact-: distribution on compare-aerogarden-models",
+      "action": "Revisit approach — negative sessions_7d -18. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "1a4878f9156162"
+    },
+    {
+      "signal": "Impact-: applied on Aerogarden elite bounty?",
+      "action": "Revisit approach — negative sessions_7d -18. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "b6eae8e69e7569"
     }
   ],
   "money_urls": [
