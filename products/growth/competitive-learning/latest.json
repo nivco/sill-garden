@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-18 18:19 UTC",
+  "generated_at": "2026-10-19 20:46 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -56,8 +56,8 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 390,
-        "images": 21,
+        "word_count_est": 420,
+        "images": 22,
         "has_faq": true,
         "has_table": false,
         "has_og_image": false,
@@ -110,7 +110,7 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 880,
+        "word_count_est": 942,
         "images": 2,
         "has_faq": true,
         "has_table": false,
@@ -160,27 +160,27 @@
     "aerogarden bounty",
     "aerogarden bounty basic vs elite",
     "aerogarden bounty dimensions",
+    "aerogarden bounty elite dimensions",
     "aerogarden bounty vs bounty basic",
     "aerogarden bounty vs bounty elite",
     "aerogarden bounty vs harvest",
-    "aerogarden bounty white",
-    "aerogarden comparison"
+    "aerogarden bounty white"
   ],
   "learnings": [
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Retitle and restructure around the comparison intent**",
-    "LLM peer insight: - Use an SEO title such as: **AeroGarden Bounty vs Bounty Basic vs Elite: Differences, Dimensions & Best Pick**",
-    "LLM peer insight: - Set one clear H1: **AeroGarden Bounty vs Bounty Basic vs Elite**",
-    "LLM peer insight: - Add an opening verdict within the first 100 words:",
-    "LLM peer insight: - **Best smart/premium option:** Bounty Elite",
-    "LLM peer insight: - Add descriptive H2s matching GSC queries:",
-    "LLM peer insight: - “Which AeroGarden Bounty Should You Buy?”",
-    "LLM peer insight: . **Ship a scannable comparison table above the fold**"
+    "LLM peer insight: . **Retitle and restructure the page around the exact GSC demand**",
+    "LLM peer insight: - Use title: **“AeroGarden Bounty vs Bounty Basic vs Elite: Differences, Dimensions & Best Buy”**",
+    "LLM peer insight: - Set H1 to: **“AeroGarden Bounty vs Bounty Basic vs Elite”**",
+    "LLM peer insight: - Add an opening answer block: “All three models hold 9 pods and grow plants up to 24 inches tall. The main differences are light power, controls, finish, and price.”",
+    "LLM peer insight: - Use H2s matching queries: **“AeroGarden Bounty Dimensions,” “Bounty Basic vs Bounty Elite,” “Which AeroGarden Bounty Should You Buy?”**",
+    "LLM peer insight: - The standard Bounty is listed at 17.25 × 11.25 × 34 inches, while the Elite is 17.258 × 11.25 × 34 inches.[1][4]",
+    "LLM peer insight: . **Add a decision-first comparison table above the long-form review**",
+    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |"
   ],
-  "llm_notes": "1. **Retitle and restructure around the comparison intent**\n   - Use an SEO title such as: **AeroGarden Bounty vs Bounty Basic vs Elite: Differences, Dimensions & Best Pick**\n   - Set one clear H1: **AeroGarden Bounty vs Bounty Basic vs Elite**\n   - Add an opening verdict within the first 100 words:\n     - **Best overall:** Bounty\n     - **Best budget option:** Bounty Basic\n     - **Best smart/premium option:** Bounty Elite\n   - Add descriptive H2s matching GSC queries:\n     - “AeroGarden Bounty Dimensions”\n     - “Bounty vs Bounty Basic”\n     - “Bounty vs Bounty Elite”\n     - “Which AeroGarden Bounty Should You Buy?”\n\n2. **Ship a scannable comparison table above the fold**\n   - Place it immediately after the introductory verdict, before long-form commentary.\n   - Include the attributes searchers need to choose:\n   \n   | Feature | Bounty Basic | Bounty | Bounty Elite |\n   |---|---:|---:|---:|\n   | Pod capacity | 9 | 9 | 9 |\n   | Width | 17.25 in | 17.25 in | 17.258 in |\n   | Depth | 11.25 in | 11.25 in | 11.25 in |\n   | Maximum height | 34 in | 34 in | 34 in |\n   | Grow-light power | 30W | Verify current model | 50W |\n   | Light adjustment | Basic/non-dimmable | Verify current model | Dimmable |\n   | Wi-Fi/app control | No | Verify current model | Yes |\n   | Touchscreen | No | Verify current model | Yes |\n   | Best for | Lowest price | Balanced value | Smart features and stronger light |\n\n   - Add a footnote distinguishing **34-inch maximum height with the light extended** from countertop footprint.\n   - Link each model name in the table to its review or affiliate CTA.\n\n3. ",
+  "llm_notes": "Ship these five updates this week:\n\n1. **Retitle and restructure the page around the exact GSC demand**\n   - Use title: **“AeroGarden Bounty vs Bounty Basic vs Elite: Differences, Dimensions & Best Buy”**\n   - Set H1 to: **“AeroGarden Bounty vs Bounty Basic vs Elite”**\n   - Add an opening answer block: “All three models hold 9 pods and grow plants up to 24 inches tall. The main differences are light power, controls, finish, and price.”\n   - Use H2s matching queries: **“AeroGarden Bounty Dimensions,” “Bounty Basic vs Bounty Elite,” “Which AeroGarden Bounty Should You Buy?”**\n   - The standard Bounty is listed at 17.25 × 11.25 × 34 inches, while the Elite is 17.258 × 11.25 × 34 inches.[1][4]\n\n2. **Add a decision-first comparison table above the long-form review**\n   \n   | Feature | Bounty Basic | Bounty | Bounty Elite |\n   |---|---:|---:|---:|\n   | Pod capacity | 9 | 9 | 9 |\n   | LED light | 30W* | 40W | 50W |\n   | Maximum grow height | 24 in | 24 in | 24 in |\n   | Controls | Basic control panel* | Color touchscreen, Wi‑Fi | Color touchscreen, Wi‑Fi |\n   | Finish | Matte plastic* | Black | Stainless steel |\n   | Dimensions | 17.25 × 11.25 × 34 in* | 17.25 × 11.25 × 34 in | 17.258 × 11.25 × 34 in |\n   \n   Add footnotes for Basic specifications and mark them as **legacy/discontinued or seller-dependent** where applicable. The official Bounty and Elite listings confirm the shared 9-pod capacity, 24-inch grow height, and near-identical footprint.[1][4] A comparison table directly answers “Basic vs Elite dimensions” faster than paragraphs.\n\n3. **Create a dedicated FAQ block target",
   "proposed_actions": [
     {
       "type": "content_faq",
