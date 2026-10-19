@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-18 18:19 UTC",
+  "generated_at": "2026-10-19 02:39 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 20,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 89,
+    "gsc_impressions_7d": 84,
     "indexed_urls": 32,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -96,8 +96,8 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 89,
-      "avg_position": 27.9,
+      "impressions": 84,
+      "avg_position": 28.2,
       "top_queries": [
         {
           "query": "aerogarden bounty",
@@ -186,9 +186,9 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 47.0
+          "position": 46.0
         },
         {
           "query": "auk vs click and grow",
@@ -207,8 +207,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-11",
-        "end": "2026-10-18"
+        "start": "2026-10-12",
+        "end": "2026-10-19"
       }
     },
     "indexing": {
@@ -1042,7 +1042,7 @@
     }
   ],
   "insights": [
-    "GSC: 89 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty\u201d (pos 58), \u201caerogarden bounty basic vs elite\u201d (pos 10), \u201caerogarden bounty dimensions\u201d (pos 80). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 84 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty\u201d (pos 58), \u201caerogarden bounty basic vs elite\u201d (pos 10), \u201caerogarden bounty dimensions\u201d (pos 80). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -1089,6 +1089,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 20 | Aff clicks 0 | GSC 0c/89i | YT views 416 | Setup 6/7"
+    "headline": "Sessions 20 | Aff clicks 0 | GSC 0c/84i | YT views 416 | Setup 6/7"
   }
 }
