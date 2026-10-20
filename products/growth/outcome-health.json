@@ -37,10 +37,5 @@
     "low_session_threshold": 5,
     "low_session_days_critical": 7,
     "youtube_flat_points": 6
-  },
-  "email": {
-    "ok": true,
-    "via": "resend",
-    "detail": "resend -> nivooo@gmail.com"
   }
 }

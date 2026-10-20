@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-19 20:46 UTC",
+  "generated_at": "2026-10-20 17:16 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 634,
+        "word_count_est": 535,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -117,6 +117,32 @@
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4037,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -170,17 +196,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Retitle and restructure the page around the exact GSC demand**",
-    "LLM peer insight: - Use title: **“AeroGarden Bounty vs Bounty Basic vs Elite: Differences, Dimensions & Best Buy”**",
-    "LLM peer insight: - Set H1 to: **“AeroGarden Bounty vs Bounty Basic vs Elite”**",
-    "LLM peer insight: - Add an opening answer block: “All three models hold 9 pods and grow plants up to 24 inches tall. The main differences are light power, controls, finish, and price.”",
-    "LLM peer insight: - Use H2s matching queries: **“AeroGarden Bounty Dimensions,” “Bounty Basic vs Bounty Elite,” “Which AeroGarden Bounty Should You Buy?”**",
-    "LLM peer insight: - The standard Bounty is listed at 17.25 × 11.25 × 34 inches, while the Elite is 17.258 × 11.25 × 34 inches.[1][4]",
-    "LLM peer insight: . **Add a decision-first comparison table above the long-form review**",
-    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |"
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1326 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Build a query-matched comparison page title and H1**",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Basic vs Elite: Dimensions, Features & Best Buy`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Bounty vs Elite`",
+    "LLM peer insight: - Add a short intro answering the highest-intent queries immediately: all three models use 9 pods, reach 24 inches of grow height, and measure approximately **34″ H × 17.25″ W × 11.25″ D**.[1][2][3]",
+    "LLM peer insight: - Include “dimensions” in the title, H1, first paragraph, image alt text, and one FAQ question.",
+    "LLM peer insight: . **Add a decision-focused comparison table above the fold**",
+    "LLM peer insight: - Place it directly after the introduction, before the long review."
   ],
-  "llm_notes": "Ship these five updates this week:\n\n1. **Retitle and restructure the page around the exact GSC demand**\n   - Use title: **“AeroGarden Bounty vs Bounty Basic vs Elite: Differences, Dimensions & Best Buy”**\n   - Set H1 to: **“AeroGarden Bounty vs Bounty Basic vs Elite”**\n   - Add an opening answer block: “All three models hold 9 pods and grow plants up to 24 inches tall. The main differences are light power, controls, finish, and price.”\n   - Use H2s matching queries: **“AeroGarden Bounty Dimensions,” “Bounty Basic vs Bounty Elite,” “Which AeroGarden Bounty Should You Buy?”**\n   - The standard Bounty is listed at 17.25 × 11.25 × 34 inches, while the Elite is 17.258 × 11.25 × 34 inches.[1][4]\n\n2. **Add a decision-first comparison table above the long-form review**\n   \n   | Feature | Bounty Basic | Bounty | Bounty Elite |\n   |---|---:|---:|---:|\n   | Pod capacity | 9 | 9 | 9 |\n   | LED light | 30W* | 40W | 50W |\n   | Maximum grow height | 24 in | 24 in | 24 in |\n   | Controls | Basic control panel* | Color touchscreen, Wi‑Fi | Color touchscreen, Wi‑Fi |\n   | Finish | Matte plastic* | Black | Stainless steel |\n   | Dimensions | 17.25 × 11.25 × 34 in* | 17.25 × 11.25 × 34 in | 17.258 × 11.25 × 34 in |\n   \n   Add footnotes for Basic specifications and mark them as **legacy/discontinued or seller-dependent** where applicable. The official Bounty and Elite listings confirm the shared 9-pod capacity, 24-inch grow height, and near-identical footprint.[1][4] A comparison table directly answers “Basic vs Elite dimensions” faster than paragraphs.\n\n3. **Create a dedicated FAQ block target",
+  "llm_notes": "1. **Build a query-matched comparison page title and H1**\n   - **Title:** `AeroGarden Bounty vs Basic vs Elite: Dimensions, Features & Best Buy`\n   - **H1:** `AeroGarden Bounty Basic vs Bounty vs Elite`\n   - Add a short intro answering the highest-intent queries immediately: all three models use 9 pods, reach 24 inches of grow height, and measure approximately **34″ H × 17.25″ W × 11.25″ D**.[1][2][3]\n   - Include “dimensions” in the title, H1, first paragraph, image alt text, and one FAQ question.\n\n2. **Add a decision-focused comparison table above the fold**\n   - Place it directly after the introduction, before the long review.\n   - Use these columns: **Feature | Bounty Basic | Bounty | Bounty Elite**.\n   - Include: price, pod capacity, LED wattage, maximum grow height, dimensions, Wi-Fi/app, touchscreen, dimming, finish, and best use.\n   - Make the key distinctions visually scannable: Basic is the simplest model; the standard Bounty adds touchscreen/Wi-Fi features; Elite adds the 50W light and stainless-steel finish.[2][3][10]\n   - Add a final row: **Best for** — “budget herbs,” “smart features without premium finish,” and “premium finish/strongest light.”\n\n3. **Create an FAQ block targeting the exact GSC queries**\n   - Add 6–8 visible questions beneath the table, using FAQ schema where eligible:\n     - `What are the AeroGarden Bounty dimensions?`\n     - `Are the Bounty Basic and Elite the same size?`\n     - `What is the difference between AeroGarden Bounty Basic and Elite?`\n     - `Does the AeroGarden Bounty Elite grow more plants?`\n     - `Is the AeroGarden Bounty Elit",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -211,6 +237,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
