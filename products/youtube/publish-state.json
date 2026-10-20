@@ -468,8 +468,17 @@
       "storyboard": "products/youtube/video-cilantro-countertop-first-harvest/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-10-20T17:21:58.425850+00:00"
+    },
+    "video-parsley-countertop-first-harvest": {
+      "youtube_id": "hZsKuTU2Hvs",
+      "url": "https://youtu.be/hZsKuTU2Hvs",
+      "title": "Parsley on a countertop \u2014 first harvest guide (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-10-20T18:17:29.361371+00:00",
+      "storyboard": "products/youtube/video-parsley-countertop-first-harvest/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-10-20T17:22:03.713011+00:00",
-  "next_eligible_date": "2026-10-20"
+  "next_eligible_date": "2026-10-23"
 }
