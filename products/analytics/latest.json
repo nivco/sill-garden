@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-20 18:48 UTC",
+  "generated_at": "2026-10-20 19:41 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -954,16 +954,16 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/kits/homemade-kratky/",
       "auto": false,
       "done": false,
-      "created": "2026-10-20 17:15 UTC"
+      "created": "2026-10-20 18:48 UTC"
     },
     {
       "priority": "P1",
       "category": "indexing",
-      "title": "Request indexing for 3 guides",
-      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: pet-safe-low-smell-apartment-herbs, parsley-countertop-first-harvest, cilantro-countertop-first-harvest.",
+      "title": "Request indexing for 2 guides",
+      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: parsley-countertop-first-harvest, cilantro-countertop-first-harvest.",
       "auto": false,
       "done": false,
-      "created": "2026-10-20 17:15 UTC"
+      "created": "2026-10-20 18:48 UTC"
     },
     {
       "priority": "P1",
@@ -972,7 +972,7 @@
       "detail": "Already showing for: \u201caerogarden bounty\u201d pos 58/1 impr; \u201caerogarden bounty dimensions\u201d pos 80/1 impr; \u201caerogarden bounty elite dimensions\u201d pos 61/1 impr; \u201caerogarden bounty vs bounty basic\u201d pos 22/3 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-10-20 17:15 UTC"
+      "created": "2026-10-20 18:48 UTC"
     },
     {
       "priority": "P1",
@@ -981,16 +981,16 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-10-20 17:15 UTC"
+      "created": "2026-10-20 18:48 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
       "title": "IndexNow throttled",
-      "detail": "Last ping 2026-10-20 02:51 UTC (14.4h ago; min 20h).",
+      "detail": "Last ping 2026-10-20 02:51 UTC (16.0h ago; min 20h).",
       "auto": true,
       "done": true,
-      "created": "2026-10-20 17:15 UTC"
+      "created": "2026-10-20 18:48 UTC"
     },
     {
       "priority": "P0",
