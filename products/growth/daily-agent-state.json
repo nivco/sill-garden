@@ -1,5 +1,5 @@
 {
-  "last_run": "2026-10-20 17:16 UTC",
+  "last_run": "2026-10-20 18:48 UTC",
   "last_applied": [
     "faq:aerogarden-vs-click-and-grow:Aerogarden bounty elite dimensions?",
     "faq:aerogarden-vs-click-and-grow:Aerogarden bounty white?",
@@ -11,6 +11,6 @@
   "last_outcome_severity": "warn",
   "last_impact": {
     "closed": 0,
-    "recorded": 5
+    "recorded": 0
   }
 }

@@ -1,8 +1,8 @@
 {
-  "generated_at": "2026-10-20 17:15 UTC",
+  "generated_at": "2026-10-20 18:48 UTC",
   "wow": {
-    "ga4_sessions_7d": -17.0,
-    "gsc_impressions_7d": 33.0,
+    "ga4_sessions_7d": 0.0,
+    "gsc_impressions_7d": 14.0,
     "gsc_clicks_7d": 1.0,
     "affiliate_clicks_7d": 0.0
   },
@@ -12,7 +12,7 @@
     "gsc_clicks_7d": 1,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
-    "indexed_urls": 32
+    "indexed_urls": 33
   },
   "top_queries": [
     {
@@ -87,14 +87,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: - Place it directly after the introduction, before the long review.",
-    "LLM peer insight: . **Add a decision-focused comparison table above the fold**",
-    "LLM peer insight: - Include “dimensions” in the title, H1, first paragraph, image alt text, and one FAQ question.",
-    "LLM peer insight: - Add a short intro answering the highest-intent queries immediately: all three models use 9 pods, reach 24 inches of grow height, and measure approximately **34″ H × 17.25″ W × 11.25″ D**.[1][2][3]",
+    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |",
+    "LLM peer insight: Use this as the first major content block after the intro:",
+    "LLM peer insight: . **Ship a scannable comparison table above the long-form review**",
+    "LLM peer insight: - Add a 40–60-word intro that answers the main intent immediately: all three models use a 9-pod layout and reach roughly 24 inches of grow height; the key differences are light power, controls, smart features, and finish",
     "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Bounty vs Elite`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Basic vs Elite: Dimensions, Features & Best Buy`",
-    "LLM peer insight: . **Build a query-matched comparison page title and H1**",
-    "WORKING peer pattern: long-form depth (~1326 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Elite: Dimensions, Features & Best Pick`",
+    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
+    "WORKING peer pattern: long-form depth (~1345 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-20 17:16 UTC"
+    "generated_at": "2026-10-20 18:48 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 9 action(s) still measuring (3-7d windows)",
+      "IMPACT: 14 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

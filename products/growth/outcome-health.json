@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-20 17:15 UTC",
+  "generated_at": "2026-10-20 18:48 UTC",
   "severity": "warn",
   "stalled": false,
   "zero_session_days": [],
@@ -17,7 +17,7 @@
     "affiliate_clicks_7d": 0,
     "youtube_views_total": 418,
     "youtube_sessions_7d": 0,
-    "next_eligible_date": "2026-10-20",
+    "next_eligible_date": "2026-10-23",
     "distribution_url": "https://sillgarden.com/guides/compare-aerogarden-models/"
   },
   "reasons": [

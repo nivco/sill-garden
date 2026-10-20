@@ -166,6 +166,12 @@ Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Sta
 
 **Aerogarden bounty dimensions?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Aerogarden bounty elite dimensions?**  
+Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Standard. Most apartments should buy capacity they will harvest — Elite is optional, not required.
+
+**Aerogarden bounty white?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Our call
 
 **Default:** AeroGarden Harvest-class for most readers.  
