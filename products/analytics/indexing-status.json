@@ -1,18 +1,18 @@
 {
-  "checked_at": "2026-10-11T10:59:36.107676+00:00",
+  "checked_at": "2026-10-20T17:21:04.968688+00:00",
   "site": "sc-domain:sillgarden.com",
   "sitemap": {
     "path": "https://sillgarden.com/sitemap-index.xml",
     "last_submitted": "2026-08-13T21:17:58.407Z",
     "is_pending": false,
     "is_sitemaps_index": true,
-    "last_downloaded": "2026-10-09T10:33:45.787Z",
+    "last_downloaded": "2026-10-19T03:40:25.138Z",
     "warnings": "0",
     "errors": "0",
     "contents": [
       {
         "type": "web",
-        "submitted": "32",
+        "submitted": "36",
         "indexed": "0"
       }
     ]
@@ -58,7 +58,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T17:41:41Z",
+      "last_crawl_time": "2026-10-15T16:59:01Z",
       "google_canonical": "https://sillgarden.com/kits/",
       "user_canonical": "https://sillgarden.com/kits/",
       "referring_urls": []
@@ -70,7 +70,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T18:08:02Z",
+      "last_crawl_time": "2026-10-16T15:01:17Z",
       "google_canonical": "https://sillgarden.com/kits/studio-silence/",
       "user_canonical": "https://sillgarden.com/kits/studio-silence/",
       "referring_urls": [
@@ -84,7 +84,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T18:34:19Z",
+      "last_crawl_time": "2026-10-18T07:12:54Z",
       "google_canonical": "https://sillgarden.com/kits/kitchen-capacity/",
       "user_canonical": "https://sillgarden.com/kits/kitchen-capacity/",
       "referring_urls": [
@@ -98,24 +98,27 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T16:02:26Z",
+      "last_crawl_time": "2026-10-13T09:39:03Z",
       "google_canonical": "https://sillgarden.com/kits/under-50/",
       "user_canonical": "https://sillgarden.com/kits/under-50/",
       "referring_urls": [
+        "https://sillgarden.com/guides/parsley-countertop-first-harvest/",
         "https://sillgarden.com/tools/year-one-cost/"
       ]
     },
     {
       "url": "https://sillgarden.com/kits/homemade-kratky/",
       "verdict": "NEUTRAL",
-      "coverage_state": "URL is unknown to Google",
+      "coverage_state": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": null,
       "user_canonical": null,
-      "referring_urls": []
+      "referring_urls": [
+        "https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/"
+      ]
     },
     {
       "url": "https://sillgarden.com/kits/refills/",
@@ -124,7 +127,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T18:59:38Z",
+      "last_crawl_time": "2026-10-13T14:03:48Z",
       "google_canonical": "https://sillgarden.com/kits/refills/",
       "user_canonical": "https://sillgarden.com/kits/refills/",
       "referring_urls": [
@@ -138,7 +141,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-10-02T21:12:26Z",
+      "last_crawl_time": "2026-10-20T07:16:08Z",
       "google_canonical": "https://sillgarden.com/tools/",
       "user_canonical": "https://sillgarden.com/tools/",
       "referring_urls": []
@@ -165,7 +168,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T18:21:10Z",
+      "last_crawl_time": "2026-10-13T15:18:48Z",
       "google_canonical": "https://sillgarden.com/tools/year-one-cost/",
       "user_canonical": "https://sillgarden.com/tools/year-one-cost/",
       "referring_urls": [
@@ -193,7 +196,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-20T22:14:48Z",
+      "last_crawl_time": "2026-10-12T02:58:02Z",
       "google_canonical": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
       "user_canonical": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
       "referring_urls": [
@@ -208,7 +211,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-10-04T07:08:13Z",
+      "last_crawl_time": "2026-10-12T22:00:48Z",
       "google_canonical": "https://sillgarden.com/guides/compare-aerogarden-models/",
       "user_canonical": "https://sillgarden.com/guides/compare-aerogarden-models/",
       "referring_urls": [
@@ -266,48 +269,55 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-28T07:02:30Z",
+      "last_crawl_time": "2026-10-13T03:08:29Z",
       "google_canonical": "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
       "user_canonical": "https://sillgarden.com/guides/kratky-jar-herbs-apartment/",
       "referring_urls": [
+        "https://sillgarden.com/guides/parsley-countertop-first-harvest/",
         "https://sillgarden.com/"
       ]
     },
     {
       "url": "https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/",
-      "verdict": "NEUTRAL",
-      "coverage_state": "URL is unknown to Google",
-      "indexing_state": "INDEXING_STATE_UNSPECIFIED",
-      "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
-      "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
-      "last_crawl_time": null,
-      "google_canonical": null,
-      "user_canonical": null,
-      "referring_urls": []
+      "verdict": "PASS",
+      "coverage_state": "Submitted and indexed",
+      "indexing_state": "INDEXING_ALLOWED",
+      "robots_txt_state": "ALLOWED",
+      "page_fetch_state": "SUCCESSFUL",
+      "last_crawl_time": "2026-10-13T05:55:32Z",
+      "google_canonical": "https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/",
+      "user_canonical": "https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/",
+      "referring_urls": [
+        "https://sillgarden.com/guides/kratky-jar-herbs-apartment/"
+      ]
     },
     {
       "url": "https://sillgarden.com/guides/parsley-countertop-first-harvest/",
       "verdict": "NEUTRAL",
-      "coverage_state": "URL is unknown to Google",
+      "coverage_state": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": null,
       "user_canonical": null,
-      "referring_urls": []
+      "referring_urls": [
+        "https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/"
+      ]
     },
     {
       "url": "https://sillgarden.com/guides/cilantro-countertop-first-harvest/",
       "verdict": "NEUTRAL",
-      "coverage_state": "URL is unknown to Google",
+      "coverage_state": "Discovered - currently not indexed",
       "indexing_state": "INDEXING_STATE_UNSPECIFIED",
       "robots_txt_state": "ROBOTS_TXT_STATE_UNSPECIFIED",
       "page_fetch_state": "PAGE_FETCH_STATE_UNSPECIFIED",
       "last_crawl_time": null,
       "google_canonical": null,
       "user_canonical": null,
-      "referring_urls": []
+      "referring_urls": [
+        "https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/"
+      ]
     },
     {
       "url": "https://sillgarden.com/guides/yellow-leaves-leggy-seedlings-indoor-herbs/",
@@ -345,7 +355,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-29T04:43:08Z",
+      "last_crawl_time": "2026-10-16T00:24:40Z",
       "google_canonical": "https://sillgarden.com/disclosure/",
       "user_canonical": "https://sillgarden.com/disclosure/",
       "referring_urls": [
@@ -360,7 +370,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-10-07T05:09:41Z",
+      "last_crawl_time": "2026-10-16T16:50:00Z",
       "google_canonical": "https://sillgarden.com/guides/",
       "user_canonical": "https://sillgarden.com/guides/",
       "referring_urls": [
@@ -389,7 +399,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-14T21:57:58Z",
+      "last_crawl_time": "2026-10-13T14:03:49Z",
       "google_canonical": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
       "user_canonical": "https://sillgarden.com/guides/best-low-light-herbs-apartment/",
       "referring_urls": [
@@ -445,7 +455,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-08-29T05:34:03Z",
+      "last_crawl_time": "2026-10-18T14:42:59Z",
       "google_canonical": "https://sillgarden.com/guides/countertop-garden-system-guide/",
       "user_canonical": "https://sillgarden.com/guides/countertop-garden-system-guide/",
       "referring_urls": [
@@ -487,7 +497,7 @@
       "indexing_state": "INDEXING_ALLOWED",
       "robots_txt_state": "ALLOWED",
       "page_fetch_state": "SUCCESSFUL",
-      "last_crawl_time": "2026-09-22T22:42:33Z",
+      "last_crawl_time": "2026-10-16T01:39:40Z",
       "google_canonical": "https://sillgarden.com/guides/mint-windowsill-first-harvest/",
       "user_canonical": "https://sillgarden.com/guides/mint-windowsill-first-harvest/",
       "referring_urls": [
@@ -526,7 +536,7 @@
     }
   ],
   "nudge": {
-    "ran_at": "2026-10-11T10:55:45.464007+00:00",
+    "ran_at": "2026-10-20T17:17:09.337053+00:00",
     "note": "GSC UI 'Request indexing' cannot be called via API for normal pages. This run resubmits the sitemap, IndexNow-pings priority URLs, and refreshes inspection.",
     "priority": [
       "https://sillgarden.com/",
@@ -563,24 +573,20 @@
       "count": 36
     }
   },
-  "indexed_count": 32,
-  "not_indexed_count": 4,
+  "indexed_count": 33,
+  "not_indexed_count": 3,
   "not_indexed_urls": [
     {
       "url": "https://sillgarden.com/kits/homemade-kratky/",
-      "coverage_state": "URL is unknown to Google"
-    },
-    {
-      "url": "https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/",
-      "coverage_state": "URL is unknown to Google"
+      "coverage_state": "Discovered - currently not indexed"
     },
     {
       "url": "https://sillgarden.com/guides/parsley-countertop-first-harvest/",
-      "coverage_state": "URL is unknown to Google"
+      "coverage_state": "Discovered - currently not indexed"
     },
     {
       "url": "https://sillgarden.com/guides/cilantro-countertop-first-harvest/",
-      "coverage_state": "URL is unknown to Google"
+      "coverage_state": "Discovered - currently not indexed"
     }
   ]
 }

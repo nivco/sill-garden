@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 634,
+        "word_count_est": 535,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -121,6 +121,32 @@
         "comparison_signal": false,
         "year_in_title": false
       }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4037,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
     }
   ],
   "our_probe": {
@@ -129,10 +155,10 @@
     "error": null,
     "signals": {
       "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
-      "title": "AeroGarden vs Click & Grow (2026) — Which Apartment Kit to Buy · Sill Garden",
-      "description": "AeroGarden vs Click and Grow for apartments (2026): noise, footprint, pods, refill cost — clear pick for kitchen vs studio.",
+      "title": "AeroGarden vs Click & Grow — which apartment kit to buy (2026) · Sill Garden",
+      "description": "aerogarden vs click and grow for apartments — clear picks, noise, light, and refill cost.",
       "h1": [
-        "AeroGarden vs Click & Grow (2026) — Which Apartment Kit to Buy"
+        "AeroGarden vs Click & Grow — which apartment kit to buy (2026)"
       ],
       "h2_sample": [
         "What we’d put on the counter",
@@ -144,7 +170,7 @@
         "Our call",
         "Next"
       ],
-      "word_count_est": 1557,
+      "word_count_est": 1468,
       "images": 6,
       "has_faq": true,
       "has_table": true,
@@ -170,17 +196,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Create a dedicated comparison page targeting all five GSC queries.**",
-    "LLM peer insight: Use this title: **“AeroGarden Bounty vs Bounty Basic vs Elite: Dimensions, Features & Which to Buy”**",
-    "LLM peer insight: Set the H1 to the same phrase, then add exact-match H2s:",
-    "LLM peer insight: Put the direct answer in the first 100 words: all three models use the same roughly **17.25 × 11.25 × 34-inch footprint**, hold nine pods, and support up to 24 inches of plant growth.[1][5][7]",
-    "LLM peer insight: . **Add a prominent above-the-fold comparison table.**",
-    "LLM peer insight: Place it immediately below the introduction, before long-form review content. Include:",
-    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |",
-    "LLM peer insight: | Dimensions | 17.25″ W × 11.25″ D × 34″ H | Same | Same |"
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1326 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Build a query-matched comparison page title and H1**",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Basic vs Elite: Dimensions, Features & Best Buy`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Bounty vs Elite`",
+    "LLM peer insight: - Add a short intro answering the highest-intent queries immediately: all three models use 9 pods, reach 24 inches of grow height, and measure approximately **34″ H × 17.25″ W × 11.25″ D**.[1][2][3]",
+    "LLM peer insight: - Include “dimensions” in the title, H1, first paragraph, image alt text, and one FAQ question.",
+    "LLM peer insight: . **Add a decision-focused comparison table above the fold**",
+    "LLM peer insight: - Place it directly after the introduction, before the long review."
   ],
-  "llm_notes": "1. **Create a dedicated comparison page targeting all five GSC queries.**  \n   Use this title: **“AeroGarden Bounty vs Bounty Basic vs Elite: Dimensions, Features & Which to Buy”**  \n   Set the H1 to the same phrase, then add exact-match H2s:\n   - “AeroGarden Bounty Dimensions”\n   - “AeroGarden Bounty Basic vs Elite”\n   - “AeroGarden Bounty vs Bounty Basic”\n   \n   Put the direct answer in the first 100 words: all three models use the same roughly **17.25 × 11.25 × 34-inch footprint**, hold nine pods, and support up to 24 inches of plant growth.[1][5][7]\n\n2. **Add a prominent above-the-fold comparison table.**  \n   Place it immediately below the introduction, before long-form review content. Include:\n\n   | Feature | Bounty Basic | Bounty | Bounty Elite |\n   |---|---:|---:|---:|\n   | Pods | 9 | 9 | 9 |\n   | Dimensions | 17.25″ W × 11.25″ D × 34″ H | Same | Same |\n   | Maximum grow height | 24″ | 24″ | 24″ |\n   | LED light | 30 W | 40 W | 50 W |\n   | Wi-Fi/app | No | Yes | Yes |\n   | Screen | Button/LCD controls | Color touchscreen | Color touchscreen |\n   | Finish | Matte | Matte | Stainless steel |\n\n   Mark the winning option in each row with a small “Best for” label. The official product information supports the major differences in wattage, connectivity, controls, finish, pod capacity, and grow height.[5]\n\n3. **Build an FAQ block around the exact search language.**  \n   Add concise, schema-eligible answers for:\n   - “What are the AeroGarden Bounty dimensions?”\n   - “Are the Bounty Basic and Elite the same size?”\n   - “What is the difference between AeroGarden Bounty and Bo",
+  "llm_notes": "1. **Build a query-matched comparison page title and H1**\n   - **Title:** `AeroGarden Bounty vs Basic vs Elite: Dimensions, Features & Best Buy`\n   - **H1:** `AeroGarden Bounty Basic vs Bounty vs Elite`\n   - Add a short intro answering the highest-intent queries immediately: all three models use 9 pods, reach 24 inches of grow height, and measure approximately **34″ H × 17.25″ W × 11.25″ D**.[1][2][3]\n   - Include “dimensions” in the title, H1, first paragraph, image alt text, and one FAQ question.\n\n2. **Add a decision-focused comparison table above the fold**\n   - Place it directly after the introduction, before the long review.\n   - Use these columns: **Feature | Bounty Basic | Bounty | Bounty Elite**.\n   - Include: price, pod capacity, LED wattage, maximum grow height, dimensions, Wi-Fi/app, touchscreen, dimming, finish, and best use.\n   - Make the key distinctions visually scannable: Basic is the simplest model; the standard Bounty adds touchscreen/Wi-Fi features; Elite adds the 50W light and stainless-steel finish.[2][3][10]\n   - Add a final row: **Best for** — “budget herbs,” “smart features without premium finish,” and “premium finish/strongest light.”\n\n3. **Create an FAQ block targeting the exact GSC queries**\n   - Add 6–8 visible questions beneath the table, using FAQ schema where eligible:\n     - `What are the AeroGarden Bounty dimensions?`\n     - `Are the Bounty Basic and Elite the same size?`\n     - `What is the difference between AeroGarden Bounty Basic and Elite?`\n     - `Does the AeroGarden Bounty Elite grow more plants?`\n     - `Is the AeroGarden Bounty Elit",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -211,6 +237,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
