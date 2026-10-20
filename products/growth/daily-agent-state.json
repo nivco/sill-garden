@@ -1,14 +1,15 @@
 {
-  "last_run": "2026-10-20 17:16 UTC",
+  "last_run": "2026-10-18 17:38 UTC",
   "last_applied": [
-    "faq:aerogarden-vs-click-and-grow:Aerogarden bounty elite dimensions?",
-    "faq:aerogarden-vs-click-and-grow:Aerogarden bounty white?",
+    "faq:aerogarden-vs-click-and-grow:Aerogarden bounty basic vs elite?",
+    "faq:compare-aerogarden-models:Aerogarden bounty basic vs elite?",
+    "faq:aerogarden-vs-click-and-grow:Aerogarden bounty dimensions?",
     "updated visual-backlog.md",
     "IndexNow ping"
   ],
-  "last_summary": "products/growth/daily-summaries/2026-10-20.md",
-  "last_distribution": "products/growth/distribution/2026-10-20.json",
-  "last_outcome_severity": "warn",
+  "last_summary": "products/growth/daily-summaries/2026-10-18.md",
+  "last_distribution": "products/growth/distribution/2026-10-18.json",
+  "last_outcome_severity": "ok",
   "last_impact": {
     "closed": 0,
     "recorded": 5
