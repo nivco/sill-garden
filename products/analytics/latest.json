@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-19 20:46 UTC",
+  "generated_at": "2026-10-20 02:51 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 4,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 103,
+    "gsc_impressions_7d": 89,
     "indexed_urls": 32,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -110,8 +110,8 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 103,
-      "avg_position": 25.6,
+      "impressions": 89,
+      "avg_position": 27.4,
       "top_queries": [
         {
           "query": "aerogarden bounty",
@@ -212,17 +212,17 @@
           "position": 46.0
         },
         {
-          "query": "auk vs click and grow",
+          "query": "best budget herb garden under 50",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
-          "position": 9.0
+          "position": 3.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-12",
-        "end": "2026-10-19"
+        "start": "2026-10-13",
+        "end": "2026-10-20"
       }
     },
     "indexing": {
@@ -869,7 +869,7 @@
         {
           "id": "3SimWem3R74",
           "title": "Click and Grow vs AeroGarden in 2026 \u2014 Honest Pick",
-          "views": 5,
+          "views": 6,
           "likes": 0,
           "published": "2026-10-01T19:24:36Z",
           "url": "https://www.youtube.com/watch?v=3SimWem3R74"
@@ -993,7 +993,7 @@
     }
   ],
   "insights": [
-    "GSC: 103 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty\u201d (pos 58), \u201caerogarden bounty basic vs elite\u201d (pos 10), \u201caerogarden bounty dimensions\u201d (pos 80). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 89 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty\u201d (pos 58), \u201caerogarden bounty basic vs elite\u201d (pos 10), \u201caerogarden bounty dimensions\u201d (pos 80). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -1040,6 +1040,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 4 | Aff clicks 0 | GSC 0c/103i | YT views 417 | Setup 6/7"
+    "headline": "Sessions 4 | Aff clicks 0 | GSC 0c/89i | YT views 417 | Setup 6/7"
   }
 }

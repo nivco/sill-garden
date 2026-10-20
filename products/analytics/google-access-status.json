@@ -1,12 +1,10 @@
 {
-  "checked": "2026-10-19 18:04 UTC",
+  "checked": "2026-10-20 02:51 UTC",
   "ga4_property_id": "549929269",
   "gsc_site_url": "sc-domain:sillgarden.com",
   "auth_mode": "oauth",
-  "ga4_data_api": "HTTP 503 https://analyticsdata.googleapis.com/v1beta/properties/549929269:runReport: {\n  \"error\": {\n    \"code\": 503,\n    \"message\": \"The service is currently unavailable.\",\n    \"status\": \"UNAVAILABLE\"\n  }\n}\n",
+  "ga4_data_api": "ok",
   "gsc_api": "ok",
-  "ready": false,
-  "next_steps": [
-    "Fix GA4: grant OAuth/SA Viewer on property 549929269"
-  ]
+  "ready": true,
+  "next_steps": []
 }
