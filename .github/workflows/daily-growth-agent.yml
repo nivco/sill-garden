@@ -55,7 +55,8 @@ jobs:
       - name: Install deps
         run: pip install -r requirements-analytics.txt
       - name: Measurement gate (GA4 + GSC)
-        run: python scripts/measurement_gate.py --strict
+        # --strict always re-probes; measurement_gate retries transient 503s
+        run: python scripts/measurement_gate.py --strict --refresh
       - name: Daily growth agent (refresh -> learn -> apply -> email)
         run: |
           EXTRA="--refresh"

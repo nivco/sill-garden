@@ -1,8 +1,8 @@
 ---
-title: AeroGarden Harvest vs Bounty (Basic & Elite) for apartments (2026)
-description: "AeroGarden comparison chart 2026 — Harvest vs Harvest Elite vs Bounty vs Bounty Basic vs Elite for apartments: pods, footprint, noise, counter depth, and which model to buy first."
+title: AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison
+description: "AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026)."
 pubDate: 2026-08-26
-updatedDate: 2026-10-19
+updatedDate: 2026-10-20
 cluster: systems
 type: comparison
 featured: true

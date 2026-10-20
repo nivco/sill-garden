@@ -33,32 +33,63 @@ def _latest_google_errors() -> tuple[str | None, str | None]:
     )
 
 
-def google_access_ready(*, refresh: bool = False) -> dict:
+def _is_transient_google_error(msg: object) -> bool:
+    text = str(msg or "").upper()
+    return any(
+        needle in text
+        for needle in (
+            "503",
+            "UNAVAILABLE",
+            "DEADLINE",
+            "TIMEOUT",
+            "TEMPORARILY",
+            "RATE LIMIT",
+            "429",
+        )
+    )
+
+
+def google_access_ready(*, refresh: bool = False, retries: int = 2) -> dict:
+    """Probe (or read) GA4/GSC readiness.
+
+    Transient Google 503/UNAVAILABLE failures must not permanently block the
+    daily growth agent — re-probe with short backoff when the cached status
+    looks like a blip.
+    """
+    import time
+
     sys.path.insert(0, str(ROOT / "scripts"))
     from analytics_summary import load_dotenv
 
     load_dotenv()
-    status: dict = {"ready": False, "ga4": None, "gsc": None, "source": None}
 
-    if refresh or not STATUS.is_file():
+    def _load_status() -> dict:
+        status: dict = {"ready": False, "ga4": None, "gsc": None, "source": None}
+        if STATUS.is_file():
+            try:
+                file_status = json.loads(STATUS.read_text(encoding="utf-8"))
+                status.update(
+                    {
+                        "ready": bool(file_status.get("ready")),
+                        "ga4": file_status.get("ga4_data_api"),
+                        "gsc": file_status.get("gsc_api"),
+                        "source": "google-access-status.json",
+                        "checked": file_status.get("checked"),
+                        "next_steps": file_status.get("next_steps") or [],
+                    }
+                )
+            except (json.JSONDecodeError, OSError):
+                pass
+        return status
+
+    def _probe() -> dict:
         from check_google_access import main as probe_main
 
         probe_main()
-    if STATUS.is_file():
-        try:
-            file_status = json.loads(STATUS.read_text(encoding="utf-8"))
-            status.update(
-                {
-                    "ready": bool(file_status.get("ready")),
-                    "ga4": file_status.get("ga4_data_api"),
-                    "gsc": file_status.get("gsc_api"),
-                    "source": "google-access-status.json",
-                    "checked": file_status.get("checked"),
-                    "next_steps": file_status.get("next_steps") or [],
-                }
-            )
-        except (json.JSONDecodeError, OSError):
-            pass
+        return _load_status()
+
+    need_probe = refresh or not STATUS.is_file()
+    status = _probe() if need_probe else _load_status()
 
     # Trust a successful access probe. Stale invalid_scope (etc.) left in
     # latest.json from older runs must not keep failing the gate.
@@ -66,8 +97,23 @@ def google_access_ready(*, refresh: bool = False) -> dict:
         status["ready"] = True
         return status
 
+    # Cached/probe failure that looks transient → retry live probes.
+    attempts = max(0, int(retries))
+    if _is_transient_google_error(status.get("ga4")) or _is_transient_google_error(status.get("gsc")):
+        for i in range(attempts):
+            time.sleep(2 + i * 2)
+            status = _probe()
+            if status.get("ga4") == "ok" and status.get("gsc") == "ok":
+                status["ready"] = True
+                status["recovered_from_transient"] = True
+                return status
+
     ga4_err, gsc_err = _latest_google_errors()
     if ga4_err or gsc_err:
+        # Don't let a stale latest.json 503 override a fresh ok probe.
+        if status.get("ga4") == "ok" and status.get("gsc") == "ok":
+            status["ready"] = True
+            return status
         status["ready"] = False
         status["latest_ga4_error"] = ga4_err
         status["latest_gsc_error"] = gsc_err
@@ -83,7 +129,9 @@ def google_access_ready(*, refresh: bool = False) -> dict:
 
 
 def require_google_access(*, strict: bool = True, warn_only: bool = False) -> int:
-    status = google_access_ready(refresh=False)
+    # Always re-probe under --strict so a transient 503 left in the status
+    # file by an earlier workflow step cannot skip the whole growth day.
+    status = google_access_ready(refresh=True, retries=2)
     print(json.dumps(status, indent=2))
     if status.get("ready"):
         print("Measurement gate: GA4 + GSC OK")
