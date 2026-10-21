@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-20 19:41 UTC",
+  "generated_at": "2026-10-21 02:45 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 3,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 117,
+    "gsc_impressions_7d": 108,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -105,8 +105,8 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 117,
-      "avg_position": 24.6,
+      "impressions": 108,
+      "avg_position": 25.4,
       "top_queries": [
         {
           "query": "aerogarden bounty",
@@ -202,9 +202,9 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 45.5
+          "position": 42.5
         },
         {
           "query": "best budget herb garden under 50",
@@ -216,8 +216,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-13",
-        "end": "2026-10-20"
+        "start": "2026-10-14",
+        "end": "2026-10-21"
       }
     },
     "indexing": {
@@ -838,7 +838,7 @@
         {
           "id": "1F5Kue-J_c4",
           "title": "Cilantro on a countertop \u2014 first harvest guide (2026)",
-          "views": 1,
+          "views": 2,
           "likes": 0,
           "published": "2026-10-17T16:50:09Z",
           "url": "https://www.youtube.com/watch?v=1F5Kue-J_c4"
@@ -1103,6 +1103,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 3 | Aff clicks 0 | GSC 1c/117i | YT views 418 | Setup 6/7"
+    "headline": "Sessions 3 | Aff clicks 0 | GSC 1c/108i | YT views 418 | Setup 6/7"
   }
 }
