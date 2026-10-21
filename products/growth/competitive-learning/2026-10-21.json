@@ -1,0 +1,242 @@
+{
+  "generated_at": "2026-10-21 19:00 UTC",
+  "site": "sillgarden",
+  "peers": [
+    {
+      "name": "AeroGarden",
+      "kind": "brand",
+      "why": "Category leader for countertop gardens",
+      "url": "https://www.aerogarden.com/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.aerogarden.com/",
+        "title": "AeroGarden | ScottsMiracle-Gro US",
+        "description": "Learn how AeroGarden indoor gardening systems make it easy to grow fresh herbs, vegetables, and flowers year round. Discover smart growing solutions from Scotts Miracle-Gro.",
+        "h1": [
+          "AeroGarden Indoor Gardening Systems by Scotts Miracle-Gro",
+          "Top Categories"
+        ],
+        "h2_sample": [
+          "Fresh is always in season",
+          "Categories",
+          "Shop last chance clearance up to 60% off",
+          "Comfort food loves herbs",
+          "A garden the whole family can get into",
+          "Trending products",
+          "Bring the outdoors in",
+          "Your Thanksgiving feast has never been fresher"
+        ],
+        "word_count_est": 695,
+        "images": 48,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": true,
+        "has_json_ld": true,
+        "cta_mentions": 3,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Click & Grow",
+      "kind": "brand",
+      "why": "Quiet kit competitor — silence/studio positioning",
+      "url": "https://www.clickandgrow.com/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.clickandgrow.com/",
+        "title": "Indoor Herb Gardens and Indoor Gardening Kits | Click & Grow",
+        "description": "The Click & Grow Smart Indoor Gardens are the most advanced and easiest indoor gardening solutions. Enjoy fresh herbs grown in your own indoor garden all year round.",
+        "h1": [
+          "Click & Grow"
+        ],
+        "h2_sample": [],
+        "word_count_est": 350,
+        "images": 18,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": false,
+        "cta_mentions": 4,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "The Sill",
+      "kind": "editorial",
+      "why": "Apartment plant brand — visual merchandising + guides",
+      "url": "https://www.thesill.com/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.thesill.com/",
+        "title": "The Sill | Indoor & Outdoor Plants Delivered to Your Door",
+        "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 76,
+        "images": 0,
+        "has_faq": false,
+        "has_table": false,
+        "has_og_image": true,
+        "has_json_ld": false,
+        "cta_mentions": 11,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardener's Supply",
+      "kind": "retail",
+      "why": "Affiliate/retail peer — product card + CTA patterns",
+      "url": "https://www.gardeners.com/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeners.com/",
+        "title": "Gardening Supplies, Planters, Raised Beds & More | Gardener’s Supply",
+        "description": "Discover innovative gardening supplies, raised beds, planters, composters, indoor growing products and expert gardening solutions from Gardener’s Supply.",
+        "h1": [
+          "Gardeners Supply"
+        ],
+        "h2_sample": [],
+        "word_count_est": 749,
+        "images": 2,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": true,
+        "has_json_ld": false,
+        "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4037,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    }
+  ],
+  "our_probe": {
+    "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+    "ok": true,
+    "error": null,
+    "signals": {
+      "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+      "title": "AeroGarden vs Click & Grow (2026) — Which Apartment Kit to Buy · Sill Garden",
+      "description": "AeroGarden vs Click and Grow for apartments (2026): noise, footprint, pods, refill cost — clear pick for kitchen vs studio.",
+      "h1": [
+        "AeroGarden vs Click & Grow (2026) — Which Apartment Kit to Buy"
+      ],
+      "h2_sample": [
+        "What we’d put on the counter",
+        "Quick answer",
+        "AeroGarden vs Click & Grow — side by side",
+        "Click and Grow vs AeroGarden — who should buy which",
+        "Refill reality (both)",
+        "FAQ",
+        "Our call",
+        "Next"
+      ],
+      "word_count_est": 1557,
+      "images": 6,
+      "has_faq": true,
+      "has_table": true,
+      "has_og_image": true,
+      "has_json_ld": true,
+      "cta_mentions": 8,
+      "hero_signal": true,
+      "comparison_signal": true,
+      "year_in_title": true
+    }
+  },
+  "gsc_queries": [
+    "aerogarden bounty",
+    "aerogarden bounty basic",
+    "aerogarden bounty basic vs elite",
+    "aerogarden bounty dimensions",
+    "aerogarden bounty elite dimensions",
+    "aerogarden bounty vs bounty basic",
+    "aerogarden bounty vs bounty elite",
+    "aerogarden bounty vs harvest"
+  ],
+  "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
+    "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
+    "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1181 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Build a query-matched comparison page**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite: Dimensions, Specs & Which to Buy**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite**",
+    "LLM peer insight: - Put the answer above the fold: “Both fit the same 17.25 × 11.25 × 34 in footprint and grow up to 9 plants; Elite adds a stronger light, touchscreen, Wi-Fi, and stainless finish.”[3][8]",
+    "LLM peer insight: | Feature | Bounty Basic | Bounty Elite |",
+    "LLM peer insight: | Dimensions | 17.25 × 11.25 × 34 in | 17.25 × 11.25 × 34 in |",
+    "LLM peer insight: | Controls | Control panel | Color touchscreen |"
+  ],
+  "llm_notes": "1. **Build a query-matched comparison page**\n   - Title: **AeroGarden Bounty Basic vs Elite: Dimensions, Specs & Which to Buy**\n   - H1: **AeroGarden Bounty Basic vs Elite**\n   - Put the answer above the fold: “Both fit the same 17.25 × 11.25 × 34 in footprint and grow up to 9 plants; Elite adds a stronger light, touchscreen, Wi-Fi, and stainless finish.”[3][8]\n   - Add a scannable comparison table:\n\n| Feature | Bounty Basic | Bounty Elite |\n|---|---:|---:|\n| Pod capacity | 9 | 9 |\n| Maximum grow height | 24 in | 24 in |\n| Dimensions | 17.25 × 11.25 × 34 in | 17.25 × 11.25 × 34 in |\n| LED light | 30W | 50W |\n| Controls | Control panel | Color touchscreen |\n| Wi-Fi/app | No | Yes |\n| Finish | Matte black | Stainless steel |\n\n   - Add “Check today’s price” buttons in both model columns and a single recommendation below: **Basic for herbs and greens; Elite for fruiting plants or stronger light control.**\n\n2. **Create an SEO-focused dimensions section**\n   - Add an H2: **AeroGarden Bounty Dimensions: Will It Fit Your Counter?**\n   - Show dimensions in both formats users search: **17.25 inches wide × 11.25 inches deep × 34 inches high with the light extended**.[3][8]\n   - Include a simple top-down visual showing the 17.25-inch front width and 11.25-inch counter depth.\n   - Add practical clearance guidance: “Reserve extra space above the unit so the light hood can rise to its full 24-inch growing height.”\n   - Use image alt text such as `AeroGarden Bounty Basic dimensions 17.25 x 11.25 x 34 inches`.\n\n3. **Add an FAQ block targeting every GSC modifier**\n   - Use visible questions,",
+  "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
+    {
+      "type": "content_table",
+      "priority": "P1",
+      "title": "Ensure comparison tables near top of vs guides",
+      "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
+      "auto": true
+    },
+    {
+      "type": "visuality",
+      "priority": "P1",
+      "title": "Visuality iteration: hero/CTA/og image hygiene",
+      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
+      "auto": false
+    },
+    {
+      "type": "cro_cta",
+      "priority": "P1",
+      "title": "Strengthen above-fold verdict + product CTAs",
+      "detail": "Peers repeat CTAs. Keep Quick verdict + product picks before long narrative.",
+      "auto": true
+    }
+  ],
+  "ok_peers": 5,
+  "peer_count": 5
+}

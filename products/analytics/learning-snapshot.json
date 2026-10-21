@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-10-20 18:48 UTC",
+  "generated_at": "2026-10-21 19:00 UTC",
   "wow": {
-    "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 14.0,
+    "ga4_sessions_7d": 4.0,
+    "gsc_impressions_7d": 3.0,
     "gsc_clicks_7d": 1.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 3,
-    "gsc_impressions_7d": 117,
-    "gsc_clicks_7d": 1,
+    "sessions_7d": 7,
+    "gsc_impressions_7d": 120,
+    "gsc_clicks_7d": 2,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
     "indexed_urls": 33
@@ -21,6 +21,13 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 58.0
+    },
+    {
+      "query": "aerogarden bounty basic",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 49.0
     },
     {
       "query": "aerogarden bounty basic vs elite",
@@ -77,24 +84,17 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 63.0
-    },
-    {
-      "query": "aerogarden elite bounty",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 69.5
     }
   ],
   "learnings": [
-    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |",
-    "LLM peer insight: Use this as the first major content block after the intro:",
-    "LLM peer insight: . **Ship a scannable comparison table above the long-form review**",
-    "LLM peer insight: - Add a 40–60-word intro that answers the main intent immediately: all three models use a 9-pod layout and reach roughly 24 inches of grow height; the key differences are light power, controls, smart features, and finish",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Bounty vs Elite`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Elite: Dimensions, Features & Best Pick`",
-    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
-    "WORKING peer pattern: long-form depth (~1345 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: | Controls | Control panel | Color touchscreen |",
+    "LLM peer insight: | Dimensions | 17.25 × 11.25 × 34 in | 17.25 × 11.25 × 34 in |",
+    "LLM peer insight: | Feature | Bounty Basic | Bounty Elite |",
+    "LLM peer insight: - Put the answer above the fold: “Both fit the same 17.25 × 11.25 × 34 in footprint and grow up to 9 plants; Elite adds a stronger light, touchscreen, Wi-Fi, and stainless finish.”[3][8]",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite: Dimensions, Specs & Which to Buy**",
+    "LLM peer insight: . **Build a query-matched comparison page**",
+    "WORKING peer pattern: long-form depth (~1181 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-20 18:48 UTC"
+    "generated_at": "2026-10-21 19:00 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 14 action(s) still measuring (3-7d windows)",
+      "IMPACT: 5 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

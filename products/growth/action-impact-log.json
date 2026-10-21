@@ -5166,10 +5166,73 @@
         "youtube_views_total": 418.0
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "7643efcb698b1c",
+      "kind": "distribution",
+      "target": "compare-aerogarden-models",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-21",
+      "measure_after": "2026-10-24",
+      "final_after": "2026-10-28",
+      "metrics_before": {
+        "sessions_7d": 7.0,
+        "gsc_impressions_7d": 120.0,
+        "gsc_clicks_7d": 2.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 420.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "c3dcf57dc68c60",
+      "kind": "applied",
+      "target": "updated visual-backlog.md",
+      "title": "updated visual-backlog.md",
+      "detail": "updated visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-21",
+      "measure_after": "2026-10-24",
+      "final_after": "2026-10-28",
+      "metrics_before": {
+        "sessions_7d": 7.0,
+        "gsc_impressions_7d": 120.0,
+        "gsc_clicks_7d": 2.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 420.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "2a32a2694555e9",
+      "kind": "applied",
+      "target": "IndexNow ping",
+      "title": "IndexNow ping",
+      "detail": "IndexNow ping",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-21",
+      "measure_after": "2026-10-24",
+      "final_after": "2026-10-28",
+      "metrics_before": {
+        "sessions_7d": 7.0,
+        "gsc_impressions_7d": 120.0,
+        "gsc_clicks_7d": 2.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 420.0
+      },
+      "primary_metric": "gsc_impressions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-21 10:47 UTC"
+  "updated_at": "2026-10-21 19:01 UTC"
 }
