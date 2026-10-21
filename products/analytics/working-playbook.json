@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-20",
+  "updated_at": "2026-10-21",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -304,6 +304,34 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "b6eae8e69e7569"
+    },
+    {
+      "signal": "Impact-: applied on Best compact herb garden under 50?",
+      "action": "Revisit approach — negative sessions_7d -19. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "9301072e0a6856"
+    },
+    {
+      "signal": "Impact-: applied on Best healthy herb garden under 50?",
+      "action": "Revisit approach — negative sessions_7d -19. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "8819f68e7470d1"
+    },
+    {
+      "signal": "Impact-: applied on Aerogarden bounty basic vs elite?",
+      "action": "Revisit approach — negative sessions_7d -18. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "3950d7b63c2ecc"
+    },
+    {
+      "signal": "Impact-: applied on Aerogarden bounty dimensions?",
+      "action": "Revisit approach — negative sessions_7d -18. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "00f5535033fea6"
     }
   ],
   "money_urls": [
