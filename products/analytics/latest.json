@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-21 19:44 UTC",
+  "generated_at": "2026-10-22 02:43 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 7,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 2,
-    "gsc_impressions_7d": 120,
+    "gsc_impressions_7d": 104,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -96,16 +96,9 @@
     },
     "gsc": {
       "clicks": 2,
-      "impressions": 120,
-      "avg_position": 24.5,
+      "impressions": 104,
+      "avg_position": 23.5,
       "top_queries": [
-        {
-          "query": "aerogarden bounty",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 58.0
-        },
         {
           "query": "aerogarden bounty basic",
           "clicks": 0,
@@ -137,23 +130,23 @@
         {
           "query": "aerogarden bounty vs bounty basic",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 22.3
+          "position": 16.0
         },
         {
           "query": "aerogarden bounty vs bounty elite",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 16.5
+          "position": 14.0
         },
         {
           "query": "aerogarden bounty vs harvest",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 42.5
+          "position": 43.0
         },
         {
           "query": "aerogarden bounty white",
@@ -165,9 +158,9 @@
         {
           "query": "aerogarden comparison",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 63.0
+          "position": 62.0
         },
         {
           "query": "aerogarden comparison chart",
@@ -179,16 +172,16 @@
         {
           "query": "aerogarden elite bounty",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 69.5
+          "position": 46.0
         },
         {
           "query": "aerogarden harvest vs harvest elite",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 28.3
+          "position": 18.0
         },
         {
           "query": "aerogarden model comparison",
@@ -203,12 +196,19 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 21.0
+        },
+        {
+          "query": "aerogarden vs click and grow",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 42.5
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-14",
-        "end": "2026-10-21"
+        "start": "2026-10-15",
+        "end": "2026-10-22"
       }
     },
     "indexing": {
@@ -1094,6 +1094,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 7 | Aff clicks 0 | GSC 2c/120i | YT views 420 | Setup 6/7"
+    "headline": "Sessions 7 | Aff clicks 0 | GSC 2c/104i | YT views 420 | Setup 6/7"
   }
 }
