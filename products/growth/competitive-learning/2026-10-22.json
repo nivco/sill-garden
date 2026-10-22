@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22 18:55 UTC",
+  "generated_at": "2026-10-22 19:36 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -121,32 +121,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4037,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -196,17 +170,17 @@
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1346 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create a query-matched comparison page title and hero**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Best Pick`",
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Build one query-matched comparison page**",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which to Buy`",
     "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite`",
-    "LLM peer insight: - Put a 2–3 sentence verdict directly under the H1: “Choose the Basic for herbs and leafy greens. Choose the Elite if you want the stronger light, stainless-steel finish, or taller clearance.”",
-    "LLM peer insight: - Add two above-the-fold buttons: **Check Bounty Basic price** and **Check Bounty Elite price**.",
-    "LLM peer insight: - Use a split hero image showing both units side by side, with the light arms fully extended.",
-    "LLM peer insight: . **Add a genuinely useful comparison table near the top**"
+    "LLM peer insight: - Add a 40–60 word answer immediately below the H1: “Both models grow 9 plants, but the Elite is the stainless-steel upgrade. Compare footprint, height, light, controls, and price before choosing.”",
+    "LLM peer insight: - Use the exact variants in subheads: `AeroGarden Bounty Basic`, `AeroGarden Bounty Elite`, `AeroGarden Bounty vs Bounty Basic`.",
+    "LLM peer insight: - This directly targets all five GSC query themes instead of forcing users to infer the comparison.",
+    "LLM peer insight: . **Add a scannable specifications table above the fold**",
+    "LLM peer insight: | Feature | Bounty Basic | Bounty Elite |"
   ],
-  "llm_notes": "1. **Create a query-matched comparison page title and hero**\n   - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Best Pick`\n   - **H1:** `AeroGarden Bounty Basic vs Elite`\n   - Put a 2–3 sentence verdict directly under the H1: “Choose the Basic for herbs and leafy greens. Choose the Elite if you want the stronger light, stainless-steel finish, or taller clearance.”\n   - Add two above-the-fold buttons: **Check Bounty Basic price** and **Check Bounty Elite price**.\n   - Use a split hero image showing both units side by side, with the light arms fully extended.\n\n2. **Add a genuinely useful comparison table near the top**\n   - Place it immediately below the hero, before long-form commentary.\n   - Include the fields users are explicitly searching for: pod capacity, footprint, height with light extended, grow height, LED wattage, finish, controls, Wi-Fi/app support, seed-pod inclusion, and best use.\n   - Example structure:\n\n| Feature | Bounty Basic | Bounty Elite |\n|---|---:|---:|\n| Pod capacity | 9 | 9 |\n| Counter footprint | Verify and state the exact model-specific dimensions | 17.25 × 11.25 in footprint |\n| Height with light extended | 24 in grow height; clarify total assembled height | 34 in total height / 24 in grow height |\n| LED | 30W or model-specific verified wattage | 50W |\n| Finish | Matte black | Stainless steel |\n| Best for | Herbs and leafy greens | Fruiting plants and premium finish |\n\n   - Resolve conflicting retailer specifications before publishing: some listings report the Basic at roughly 18.12 × 14 × 11.5 inches, while other listings us",
+  "llm_notes": "1. **Build one query-matched comparison page**\n   - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which to Buy`\n   - **H1:** `AeroGarden Bounty Basic vs Elite`\n   - Add a 40–60 word answer immediately below the H1: “Both models grow 9 plants, but the Elite is the stainless-steel upgrade. Compare footprint, height, light, controls, and price before choosing.”\n   - Use the exact variants in subheads: `AeroGarden Bounty Basic`, `AeroGarden Bounty Elite`, `AeroGarden Bounty vs Bounty Basic`.\n   - This directly targets all five GSC query themes instead of forcing users to infer the comparison.\n\n2. **Add a scannable specifications table above the fold**\n   \n   | Feature | Bounty Basic | Bounty Elite |\n   |---|---:|---:|\n   | Plant capacity | 9 pods | 9 pods |\n   | Counter footprint | 18.12″ W × 14″ D | 17.26″ W × 11.25″ D |\n   | Maximum height | Confirm model listing | 34″ with light extended |\n   | Light | 30W listed by AeroGarden comparison data | 50W |\n   | Finish | Black/matte | Stainless steel |\n   | Best for | Herbs and leafy greens | Larger plants and premium finish |\n\n   - Put “**Check your counter depth: the Basic listing is wider/deeper, while Elite is taller when extended**” directly beneath the table.\n   - Cite or link each specification to the retailer/manufacturer source; dimensions vary across listings, so label conflicting measurements rather than silently combining them. The official Elite listing gives 17.258″ W × 11.25″ D × 34″ H.[1] Retailer listings give the Basic as 18.12″ W × 14″ D × 11.5″ H in its packaged/assembled listing.[2]\n\n3. *",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -237,6 +211,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
