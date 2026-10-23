@@ -478,8 +478,17 @@
       "storyboard": "products/youtube/video-parsley-countertop-first-harvest/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-10-23T12:46:12.835438+00:00"
+    },
+    "video-related-aerogarden-bounty-basic-vs-elite": {
+      "youtube_id": "f4s2_Ksur48",
+      "url": "https://youtu.be/f4s2_Ksur48",
+      "title": "Aerogarden bounty basic vs elite (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-10-23T18:05:44.007723+00:00",
+      "storyboard": "products/youtube/video-related-aerogarden-bounty-basic-vs-elite/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-10-23T12:46:14.807682+00:00",
-  "next_eligible_date": "2026-10-23"
+  "next_eligible_date": "2026-10-26"
 }
