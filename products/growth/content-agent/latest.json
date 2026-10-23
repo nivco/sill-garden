@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-22",
-  "generated": "2026-10-22 19:36 UTC",
+  "date": "2026-10-23",
+  "generated": "2026-10-23 19:36 UTC",
   "research": {
-    "generated": "2026-10-22 19:36 UTC",
+    "generated": "2026-10-23 19:36 UTC",
     "zero_click_queries": [
       {
         "query": "aerogarden bounty basic",
@@ -39,17 +39,17 @@
       {
         "query": "aerogarden bounty vs bounty basic",
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 3,
         "ctr": 0.0,
-        "position": 16.0,
+        "position": 17.7,
         "ctr_pct": 0.0
       },
       {
         "query": "aerogarden bounty vs bounty elite",
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "ctr": 0.0,
-        "position": 14.0,
+        "position": 16.5,
         "ctr_pct": 0.0
       },
       {
@@ -71,9 +71,9 @@
       {
         "query": "aerogarden comparison",
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "ctr": 0.0,
-        "position": 62.0,
+        "position": 57.0,
         "ctr_pct": 0.0
       },
       {
@@ -87,41 +87,41 @@
       {
         "query": "aerogarden elite bounty",
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "ctr": 0.0,
-        "position": 46.0,
+        "position": 61.0,
         "ctr_pct": 0.0
       },
       {
         "query": "aerogarden harvest vs harvest elite",
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "ctr": 0.0,
-        "position": 18.0,
+        "position": 16.0,
         "ctr_pct": 0.0
       },
       {
         "query": "aerogarden model comparison",
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 2,
         "ctr": 0.0,
-        "position": 26.7,
+        "position": 26.0,
         "ctr_pct": 0.0
       },
       {
         "query": "aerogarden trellis for 2019 bounty models",
         "clicks": 0,
-        "impressions": 1,
+        "impressions": 2,
         "ctr": 0.0,
-        "position": 21.0,
+        "position": 25.5,
         "ctr_pct": 0.0
       },
       {
         "query": "aerogarden vs click and grow",
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 3,
         "ctr": 0.0,
-        "position": 42.5,
+        "position": 45.7,
         "ctr_pct": 0.0
       }
     ],
@@ -160,23 +160,16 @@
     "competitive": {
       "ok_peers": 4,
       "learnings": [
-        "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
         "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
         "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
         "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-        "LLM peer insight: . **Build one query-matched comparison page**",
+        "LLM peer insight: . **Create a query-matched comparison page title and H1**",
         "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which to Buy`",
-        "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite`",
-        "LLM peer insight: - Add a 40–60 word answer immediately below the H1: “Both models grow 9 plants, but the Elite is the stainless-steel upgrade. Compare footprint, height, light, controls, and price before choosing.”"
+        "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs. Bounty Elite`",
+        "LLM peer insight: - Add an opening answer block: “Both grow 9 plants with 24 inches of grow height. The Basic uses a 30W LED, while the Elite uses a 50W LED and adds upgraded controls/features.” The manufacturer lists the Basic at 17.25\" ",
+        "LLM peer insight: - Use the exact supporting subheads: `AeroGarden Bounty Basic Dimensions`, `AeroGarden Bounty Elite Dimensions`, and `Bounty Basic vs. Elite: Key Differences`."
       ],
       "actions": [
-        {
-          "type": "content_faq",
-          "priority": "P1",
-          "title": "Add/refresh FAQ from peer + GSC questions",
-          "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
-          "auto": true
-        },
         {
           "type": "content_table",
           "priority": "P1",
@@ -201,9 +194,9 @@
       ]
     },
     "llm_notes": {
-      "aerogarden bounty basic": "- **Noise:** The small pump produces a soft hum audible nearby, but generally not through apartment walls or closed doors.[2]\n- **Cost:** The Bounty Basic was listed around **$121–$150**, though availability is now limited; pods typically cost **$7–$15 per grow cycle**, plus about **$20–$30 annually** for nutrients.[2][5][7]\n- **Apartment fit:** Suitable for most apartments: it holds nine plants and needs roughly **17 × 11 inches** of counter space, plus overhead clearance for its adjustable light.[2]",
-      "aerogarden bounty basic vs elite": "- **Noise:** Both use a water pump and produce a low hum; the Elite has been measured around 42 dB, noticeable in a quiet bedroom but generally fine in a kitchen.[3][6]\n- **Cost:** Basic typically sells for about $90–$180; Elite commonly costs $130–$275, with higher electricity use from its 50W light versus Basic’s 30W.[3][8][9]\n- **Apartment fit:** Both hold nine pods and reach roughly 24 inches, so they occupy similar counter space; Basic is the better apartment value for herbs and greens, while Elite’s stronger light suits fruiting plants.[3][8][9]",
-      "aerogarden bounty dimensions": "- **Noise:** Quiet pump produces a low hum; it may become noticeably louder when the water level is low.[1][5]\n- **Cost:** Approximately **$115–$169** for the unit in 2026, plus recurring costs for pods, nutrients, and electricity.[4][7][8]\n- **Apartment fit:** Countertop footprint is roughly **17 × 11 inches**, with an adjustable light reaching about **24–34 inches**; suitable for apartments if vertical clearance is available.[1][4]"
+      "aerogarden bounty basic": "- **Noise:** Low pump hum; generally apartment-friendly, but it can get louder when water is low or the pump ages.[1][2]\n- **Cost:** Typically about **$110–$180** upfront; pods/refills cost roughly **$7–$15 per grow cycle**, plus nutrients.[2][7]\n- **Apartment fit:** Good for counters, with nine planting sites, but reserve about **17 × 11 inches** and overhead clearance for the adjustable light.[2]",
+      "aerogarden bounty basic vs elite": "- **Noise:** Both use a cycling water pump; expect a low hum—generally fine in a kitchen, but potentially noticeable in a quiet bedroom.[1][4]\n- **Cost:** Bounty Basic typically sells for about **$90–$180**; Bounty Elite lists around **$275–$399** and adds higher electricity use plus similar pod costs.[3][6]\n- **Apartment fit:** Both hold nine pods and reach about 24 inches tall; they fit a countertop, but the Elite’s bright 50W light and larger vertical footprint may be intrusive in small studios.[3][6]",
+      "aerogarden bounty dimensions": "- **Noise:** Small submersible pump; approximately **35 dB**, generally quiet but potentially noticeable in a silent bedroom.[5]\n- **Cost:** Listed at **$114.98**; its 40W light costs roughly **a few dollars monthly** in electricity, plus seeds and nutrients.[3][10]\n- **Apartment fit:** Measures **17.25″ W × 11.25″ D × 34″ H** and supports nine pods; it fits on a counter or table, but needs clearance for taller plants.[10]"
     },
     "guide_count": 20,
     "existing_slugs": [
@@ -232,5 +225,5 @@
   "proposed": [],
   "applied": [],
   "indexnow": null,
-  "summary_md": "# Sill Garden Content Agent — 2026-10-22\n\nGenerated: 2026-10-22 19:36 UTC\n\n## Research\n- Guides: 20\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty basic — 1 impr, pos 49.0\n- aerogarden bounty basic vs elite — 4 impr, pos 11.2\n- aerogarden bounty dimensions — 1 impr, pos 80.0\n- aerogarden bounty elite dimensions — 1 impr, pos 61.0\n- aerogarden bounty vs bounty basic — 2 impr, pos 16.0\n- aerogarden bounty vs bounty elite — 1 impr, pos 14.0\n- aerogarden bounty vs harvest — 2 impr, pos 44.0\n- aerogarden bounty white — 1 impr, pos 74.0\n"
+  "summary_md": "# Sill Garden Content Agent — 2026-10-23\n\nGenerated: 2026-10-23 19:36 UTC\n\n## Research\n- Guides: 20\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty basic — 1 impr, pos 49.0\n- aerogarden bounty basic vs elite — 4 impr, pos 11.2\n- aerogarden bounty dimensions — 1 impr, pos 80.0\n- aerogarden bounty elite dimensions — 1 impr, pos 61.0\n- aerogarden bounty vs bounty basic — 3 impr, pos 17.7\n- aerogarden bounty vs bounty elite — 2 impr, pos 16.5\n- aerogarden bounty vs harvest — 2 impr, pos 44.0\n- aerogarden bounty white — 1 impr, pos 74.0\n"
 }
