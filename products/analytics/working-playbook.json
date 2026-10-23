@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-21",
+  "updated_at": "2026-10-23",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -198,6 +198,20 @@
       "status": "working",
       "from_impact": true,
       "action_id": "e51b2d635c21ff"
+    },
+    {
+      "signal": "Impact+: applied on Aerogarden bounty elite dimensions?",
+      "action": "Repeat — positive sessions_7d +4 after faq:aerogarden-vs-click-and-grow:Aerogarden bounty elite dimensions?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "7455707b2856c8"
+    },
+    {
+      "signal": "Impact+: applied on Aerogarden bounty white?",
+      "action": "Repeat — positive sessions_7d +4 after faq:aerogarden-vs-click-and-grow:Aerogarden bounty white?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "af7f6e2846132e"
     }
   ],
   "ignore": [
