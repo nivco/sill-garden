@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-22 18:54 UTC",
+  "generated_at": "2026-10-23 18:46 UTC",
   "wow": {
-    "ga4_sessions_7d": 5.0,
-    "gsc_impressions_7d": 7.0,
-    "gsc_clicks_7d": 1.0,
+    "ga4_sessions_7d": 0.0,
+    "gsc_impressions_7d": 9.0,
+    "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
     "sessions_7d": 7,
-    "gsc_impressions_7d": 115,
+    "gsc_impressions_7d": 124,
     "gsc_clicks_7d": 2,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -46,16 +46,16 @@
     {
       "query": "aerogarden bounty vs bounty basic",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 16.0
+      "position": 17.7
     },
     {
       "query": "aerogarden bounty vs bounty elite",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 14.0
+      "position": 16.5
     },
     {
       "query": "aerogarden bounty vs harvest",
@@ -74,9 +74,9 @@
     {
       "query": "aerogarden comparison",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 62.0
+      "position": 57.0
     },
     {
       "query": "aerogarden comparison chart",
@@ -87,14 +87,14 @@
     }
   ],
   "learnings": [
-    "LLM peer insight: . **Add a genuinely useful comparison table near the top**",
-    "LLM peer insight: - Use a split hero image showing both units side by side, with the light arms fully extended.",
-    "LLM peer insight: - Add two above-the-fold buttons: **Check Bounty Basic price** and **Check Bounty Elite price**.",
-    "LLM peer insight: - Put a 2–3 sentence verdict directly under the H1: “Choose the Basic for herbs and leafy greens. Choose the Elite if you want the stronger light, stainless-steel finish, or taller clearance.”",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Best Pick`",
-    "LLM peer insight: . **Create a query-matched comparison page title and hero**",
-    "WORKING peer pattern: long-form depth (~1346 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Finish: matte plastic vs stainless steel",
+    "LLM peer insight: Include columns for **Bounty Basic**, **Bounty Elite**, and **Best for**. Cover:",
+    "LLM peer insight: . **Add a decision-first comparison table directly below the hero.**",
+    "LLM peer insight: - “Bounty vs Bounty Basic: What’s Different?”",
+    "LLM peer insight: Set the H1 to: **“AeroGarden Bounty Basic vs Elite”**",
+    "LLM peer insight: Use: **“AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which Should You Buy?”**",
+    "LLM peer insight: . **Retitle the page around the highest-intent comparison queries.**",
+    "WORKING peer pattern: long-form depth (~1265 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-22 18:55 UTC"
+    "generated_at": "2026-10-23 18:46 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 8 action(s) still measuring (3-7d windows)",
+      "IMPACT: 6 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

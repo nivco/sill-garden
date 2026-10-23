@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-22 18:55 UTC",
+  "generated_at": "2026-10-23 18:46 UTC",
   "applied": [
     "updated visual-backlog.md"
   ],
@@ -11,10 +11,10 @@
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1346 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create a query-matched comparison page title and hero**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Best Pick`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite`"
+    "WORKING peer pattern: long-form depth (~1265 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Retitle the page around the highest-intent comparison queries.**",
+    "LLM peer insight: Use: **“AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which Should You Buy?”**",
+    "LLM peer insight: Set the H1 to: **“AeroGarden Bounty Basic vs Elite”**"
   ],
   "dry_run": false
 }
