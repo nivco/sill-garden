@@ -1,8 +1,8 @@
 {
-  "date": "2026-10-23",
-  "generated": "2026-10-23 19:36 UTC",
+  "date": "2026-10-24",
+  "generated": "2026-10-24 18:25 UTC",
   "research": {
-    "generated": "2026-10-23 19:36 UTC",
+    "generated": "2026-10-24 18:25 UTC",
     "zero_click_queries": [
       {
         "query": "aerogarden bounty basic",
@@ -17,15 +17,7 @@
         "clicks": 0,
         "impressions": 4,
         "ctr": 0.0,
-        "position": 11.2,
-        "ctr_pct": 0.0
-      },
-      {
-        "query": "aerogarden bounty dimensions",
-        "clicks": 0,
-        "impressions": 1,
-        "ctr": 0.0,
-        "position": 80.0,
+        "position": 11.0,
         "ctr_pct": 0.0
       },
       {
@@ -39,17 +31,17 @@
       {
         "query": "aerogarden bounty vs bounty basic",
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 2,
         "ctr": 0.0,
-        "position": 17.7,
+        "position": 16.0,
         "ctr_pct": 0.0
       },
       {
         "query": "aerogarden bounty vs bounty elite",
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 1,
         "ctr": 0.0,
-        "position": 16.5,
+        "position": 19.0,
         "ctr_pct": 0.0
       },
       {
@@ -58,14 +50,6 @@
         "impressions": 2,
         "ctr": 0.0,
         "position": 44.0,
-        "ctr_pct": 0.0
-      },
-      {
-        "query": "aerogarden bounty white",
-        "clicks": 0,
-        "impressions": 1,
-        "ctr": 0.0,
-        "position": 74.0,
         "ctr_pct": 0.0
       },
       {
@@ -95,9 +79,17 @@
       {
         "query": "aerogarden harvest vs harvest elite",
         "clicks": 0,
-        "impressions": 2,
+        "impressions": 3,
         "ctr": 0.0,
-        "position": 16.0,
+        "position": 13.7,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden harvest vs harvest lite",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 23.0,
         "ctr_pct": 0.0
       },
       {
@@ -113,15 +105,23 @@
         "clicks": 0,
         "impressions": 2,
         "ctr": 0.0,
-        "position": 25.5,
+        "position": 30.0,
         "ctr_pct": 0.0
       },
       {
         "query": "aerogarden vs click and grow",
         "clicks": 0,
-        "impressions": 3,
+        "impressions": 4,
         "ctr": 0.0,
-        "position": 45.7,
+        "position": 44.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "apartment starter kit",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 68.0,
         "ctr_pct": 0.0
       }
     ],
@@ -164,10 +164,10 @@
         "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
         "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
         "LLM peer insight: . **Create a query-matched comparison page title and H1**",
-        "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which to Buy`",
-        "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs. Bounty Elite`",
-        "LLM peer insight: - Add an opening answer block: “Both grow 9 plants with 24 inches of grow height. The Basic uses a 30W LED, while the Elite uses a 50W LED and adds upgraded controls/features.” The manufacturer lists the Basic at 17.25\" ",
-        "LLM peer insight: - Use the exact supporting subheads: `AeroGarden Bounty Basic Dimensions`, `AeroGarden Bounty Elite Dimensions`, and `Bounty Basic vs. Elite: Key Differences`."
+        "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Differences, Dimensions & Best Pick`",
+        "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Bounty Elite`",
+        "LLM peer insight: - Add a short verdict directly below the H1: “Both grow 9 plants up to 24 inches tall; the Elite adds a stronger 50W light and premium stainless-steel finish, while the Basic uses a 30W light and costs less.” The 9-pod c",
+        "LLM peer insight: - Include exact-match subheadings: `AeroGarden Bounty Basic`, `AeroGarden Bounty Elite`, `Bounty Elite dimensions`, and `Which Bounty should you buy?`"
       ],
       "actions": [
         {
@@ -194,9 +194,9 @@
       ]
     },
     "llm_notes": {
-      "aerogarden bounty basic": "- **Noise:** Low pump hum; generally apartment-friendly, but it can get louder when water is low or the pump ages.[1][2]\n- **Cost:** Typically about **$110–$180** upfront; pods/refills cost roughly **$7–$15 per grow cycle**, plus nutrients.[2][7]\n- **Apartment fit:** Good for counters, with nine planting sites, but reserve about **17 × 11 inches** and overhead clearance for the adjustable light.[2]",
-      "aerogarden bounty basic vs elite": "- **Noise:** Both use a cycling water pump; expect a low hum—generally fine in a kitchen, but potentially noticeable in a quiet bedroom.[1][4]\n- **Cost:** Bounty Basic typically sells for about **$90–$180**; Bounty Elite lists around **$275–$399** and adds higher electricity use plus similar pod costs.[3][6]\n- **Apartment fit:** Both hold nine pods and reach about 24 inches tall; they fit a countertop, but the Elite’s bright 50W light and larger vertical footprint may be intrusive in small studios.[3][6]",
-      "aerogarden bounty dimensions": "- **Noise:** Small submersible pump; approximately **35 dB**, generally quiet but potentially noticeable in a silent bedroom.[5]\n- **Cost:** Listed at **$114.98**; its 40W light costs roughly **a few dollars monthly** in electricity, plus seeds and nutrients.[3][10]\n- **Apartment fit:** Measures **17.25″ W × 11.25″ D × 34″ H** and supports nine pods; it fits on a counter or table, but needs clearance for taller plants.[10]"
+      "aerogarden bounty basic": "- **Noise:** Quiet low hum from the water pump; audible nearby in a silent room, but generally not through walls.[2][9]\n- **Cost:** About **$149.99–$180** for the unit; pods and nutrients add roughly **$70–$90 annually**.[8][9]\n- **Apartment fit:** Suitable for kitchens or living areas, with a footprint around **17 × 11 inches** and adjustable light clearance up to **24 inches**; reserve substantial vertical and counter space.[2][7]",
+      "aerogarden bounty basic vs elite": "- **Noise:** Both use a small circulating pump; expect a low hum. The Elite has been measured around 42 dB and may be noticeable in a quiet bedroom.[1][3]\n- **Cost:** The Basic typically sells for about $90–$180; the Elite lists around $275–$399 and adds recurring pod costs of roughly $20 per nine-pod kit.[3][6]\n- **Apartment fit:** Both hold nine plants and provide up to 24 inches of grow height, but require substantial counter space and bright nighttime lighting; the Basic is the better value for herbs and lettuce.[3][4]",
+      "aerogarden bounty elite dimensions": "- **Noise:** Pump noise is reported around **28–42 dB**—a low hum, but potentially noticeable in a quiet bedroom.[1][2]\n- **Cost:** Current listed price is **$274.95**; replacement nine-pod packs cost about **$20 every 3–4 months**.[4][2]\n- **Apartment fit:** Measures **17.26″ W × 11.25″ D × 34″ H**, holds nine pods, and fits on a countertop; reserve roughly 34 inches of vertical clearance.[4]"
     },
     "guide_count": 20,
     "existing_slugs": [
@@ -222,8 +222,32 @@
       "yellow-leaves-leggy-seedlings-indoor-herbs"
     ]
   },
-  "proposed": [],
-  "applied": [],
-  "indexnow": null,
-  "summary_md": "# Sill Garden Content Agent — 2026-10-23\n\nGenerated: 2026-10-23 19:36 UTC\n\n## Research\n- Guides: 20\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty basic — 1 impr, pos 49.0\n- aerogarden bounty basic vs elite — 4 impr, pos 11.2\n- aerogarden bounty dimensions — 1 impr, pos 80.0\n- aerogarden bounty elite dimensions — 1 impr, pos 61.0\n- aerogarden bounty vs bounty basic — 3 impr, pos 17.7\n- aerogarden bounty vs bounty elite — 2 impr, pos 16.5\n- aerogarden bounty vs harvest — 2 impr, pos 44.0\n- aerogarden bounty white — 1 impr, pos 74.0\n"
+  "proposed": [
+    {
+      "type": "add_faq",
+      "slug": "compare-aerogarden-models",
+      "question": "Aerogarden harvest vs harvest lite?",
+      "answer": "For \"aerogarden harvest vs harvest lite\", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.",
+      "reason": "GSC zero-click: 1 impr, pos 23.0",
+      "bucket": "refresh"
+    }
+  ],
+  "applied": [
+    {
+      "type": "add_faq",
+      "slug": "compare-aerogarden-models",
+      "question": "Aerogarden harvest vs harvest lite?",
+      "answer": "For \"aerogarden harvest vs harvest lite\", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.",
+      "reason": "GSC zero-click: 1 impr, pos 23.0",
+      "bucket": "refresh",
+      "status": "applied"
+    }
+  ],
+  "indexnow": {
+    "ok": true,
+    "returncode": 0,
+    "stdout": "URLs: 36\nIndexNow OK (200): 36 URLs\nGoogle: sitemap already submitted in GSC. Manual 'Request indexing' in UI for priority URLs only.\n",
+    "stderr": "Bing SubmitUrlBatch HTTP 400: {\"ErrorCode\":14,\"Message\":\"ERROR!!! NotAuthorized\"}\n(Add/verify sillgarden.com in Bing Webmaster Tools if this failed.)\n"
+  },
+  "summary_md": "# Sill Garden Content Agent — 2026-10-24\n\nGenerated: 2026-10-24 18:25 UTC\n\n## Research\n- Guides: 20\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- [refresh] add_faq -> `compare-aerogarden-models` — GSC zero-click: 1 impr, pos 23.0\n\n## Top demand\n- aerogarden bounty basic — 1 impr, pos 49.0\n- aerogarden bounty basic vs elite — 4 impr, pos 11.0\n- aerogarden bounty elite dimensions — 1 impr, pos 61.0\n- aerogarden bounty vs bounty basic — 2 impr, pos 16.0\n- aerogarden bounty vs bounty elite — 1 impr, pos 19.0\n- aerogarden bounty vs harvest — 2 impr, pos 44.0\n- aerogarden comparison — 2 impr, pos 57.0\n- aerogarden comparison chart — 1 impr, pos 11.0\n"
 }
