@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-23 18:46 UTC",
+  "generated_at": "2026-10-24 17:41 UTC",
   "wow": {
-    "ga4_sessions_7d": 0.0,
-    "gsc_impressions_7d": 9.0,
+    "ga4_sessions_7d": -1.0,
+    "gsc_impressions_7d": -19.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 7,
-    "gsc_impressions_7d": 124,
+    "sessions_7d": 6,
+    "gsc_impressions_7d": 105,
     "gsc_clicks_7d": 2,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -27,14 +27,7 @@
       "clicks": 0,
       "impressions": 4,
       "ctr": 0.0,
-      "position": 11.2
-    },
-    {
-      "query": "aerogarden bounty dimensions",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 80.0
+      "position": 11.0
     },
     {
       "query": "aerogarden bounty elite dimensions",
@@ -46,16 +39,16 @@
     {
       "query": "aerogarden bounty vs bounty basic",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 17.7
+      "position": 16.0
     },
     {
       "query": "aerogarden bounty vs bounty elite",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 16.5
+      "position": 19.0
     },
     {
       "query": "aerogarden bounty vs harvest",
@@ -63,13 +56,6 @@
       "impressions": 2,
       "ctr": 0.0,
       "position": 44.0
-    },
-    {
-      "query": "aerogarden bounty white",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 74.0
     },
     {
       "query": "aerogarden comparison",
@@ -84,17 +70,31 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 11.0
+    },
+    {
+      "query": "aerogarden elite bounty",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 61.0
+    },
+    {
+      "query": "aerogarden harvest vs harvest elite",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 13.7
     }
   ],
   "learnings": [
-    "LLM peer insight: - Finish: matte plastic vs stainless steel",
-    "LLM peer insight: Include columns for **Bounty Basic**, **Bounty Elite**, and **Best for**. Cover:",
-    "LLM peer insight: . **Add a decision-first comparison table directly below the hero.**",
-    "LLM peer insight: - “Bounty vs Bounty Basic: What’s Different?”",
-    "LLM peer insight: Set the H1 to: **“AeroGarden Bounty Basic vs Elite”**",
-    "LLM peer insight: Use: **“AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which Should You Buy?”**",
-    "LLM peer insight: . **Retitle the page around the highest-intent comparison queries.**",
-    "WORKING peer pattern: long-form depth (~1265 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Place it directly after the introduction, before the long review.",
+    "LLM peer insight: . **Put a decision-first comparison table above the fold**",
+    "LLM peer insight: - Include the variants “Bounty Basic,” “Bounty Elite,” “Bounty vs Bounty Basic,” and “Bounty vs Bounty Elite” naturally in subheadings and copy.",
+    "LLM peer insight: - Add a 40–60-word opening answer immediately below: both models support nine pods and approximately 24 inches of grow height, while the main buying differences are light output, controls, finish, and smart features. Ver",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite`",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Differences, Dimensions & Best Pick`",
+    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
+    "WORKING peer pattern: long-form depth (~1215 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,7 +114,7 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-23 18:46 UTC"
+    "generated_at": "2026-10-24 17:41 UTC"
   },
   "impact": {
     "closed_today": 0,

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-23 19:36 UTC",
+  "generated_at": "2026-10-24 17:41 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -28,7 +28,7 @@
           "Bring the outdoors in",
           "Your Thanksgiving feast has never been fresher"
         ],
-        "word_count_est": 695,
+        "word_count_est": 700,
         "images": 48,
         "has_faq": true,
         "has_table": false,
@@ -56,8 +56,8 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 374,
-        "images": 20,
+        "word_count_est": 361,
+        "images": 18,
         "has_faq": false,
         "has_table": false,
         "has_og_image": false,
@@ -82,7 +82,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 342,
+        "word_count_est": 168,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -110,13 +110,39 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 882,
+        "word_count_est": 814,
         "images": 2,
         "has_faq": false,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4030,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -159,29 +185,36 @@
   "gsc_queries": [
     "aerogarden bounty basic",
     "aerogarden bounty basic vs elite",
-    "aerogarden bounty dimensions",
     "aerogarden bounty elite dimensions",
     "aerogarden bounty vs bounty basic",
     "aerogarden bounty vs bounty elite",
     "aerogarden bounty vs harvest",
-    "aerogarden bounty white"
+    "aerogarden comparison",
+    "aerogarden comparison chart"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1215 words avg) — expand thin guides with decision rules, not fluff.",
     "LLM peer insight: . **Create a query-matched comparison page title and H1**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which to Buy`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs. Bounty Elite`",
-    "LLM peer insight: - Add an opening answer block: “Both grow 9 plants with 24 inches of grow height. The Basic uses a 30W LED, while the Elite uses a 50W LED and adds upgraded controls/features.” The manufacturer lists the Basic at 17.25\" ",
-    "LLM peer insight: - Use the exact supporting subheads: `AeroGarden Bounty Basic Dimensions`, `AeroGarden Bounty Elite Dimensions`, and `Bounty Basic vs. Elite: Key Differences`.",
-    "LLM peer insight: . **Add a prominent specifications comparison table**",
-    "LLM peer insight: - Place it directly below the intro, not near the bottom.",
-    "LLM peer insight: - Include these rows: price, pod capacity, grow height, width, depth, maximum height, light wattage, light controls, display/app support, finish, included seed-pod kit, and best use.",
-    "LLM peer insight: - Populate confirmed specs clearly: both models support 9 pods and 24\" of grow height; Basic uses a 30W LED, while Elite uses a 50W LED.[3][5][7]"
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Differences, Dimensions & Best Pick`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite`",
+    "LLM peer insight: - Add a 40–60-word opening answer immediately below: both models support nine pods and approximately 24 inches of grow height, while the main buying differences are light output, controls, finish, and smart features. Ver",
+    "LLM peer insight: - Include the variants “Bounty Basic,” “Bounty Elite,” “Bounty vs Bounty Basic,” and “Bounty vs Bounty Elite” naturally in subheadings and copy.",
+    "LLM peer insight: . **Put a decision-first comparison table above the fold**",
+    "LLM peer insight: - Place it directly after the introduction, before the long review."
   ],
-  "llm_notes": "1. **Create a query-matched comparison page title and H1**\n   - **Title:** `AeroGarden Bounty Basic vs Elite: Dimensions, Features & Which to Buy`\n   - **H1:** `AeroGarden Bounty Basic vs. Bounty Elite`\n   - Add an opening answer block: “Both grow 9 plants with 24 inches of grow height. The Basic uses a 30W LED, while the Elite uses a 50W LED and adds upgraded controls/features.” The manufacturer lists the Basic at 17.25\" W × 11.25\" D × 34\" H and the Elite at roughly 17.26\" W × 11.25\" D × 34\" H.[1][3][7]\n   - Use the exact supporting subheads: `AeroGarden Bounty Basic Dimensions`, `AeroGarden Bounty Elite Dimensions`, and `Bounty Basic vs. Elite: Key Differences`.\n\n2. **Add a prominent specifications comparison table**\n   - Place it directly below the intro, not near the bottom.\n   - Include these rows: price, pod capacity, grow height, width, depth, maximum height, light wattage, light controls, display/app support, finish, included seed-pod kit, and best use.\n   - Populate confirmed specs clearly: both models support 9 pods and 24\" of grow height; Basic uses a 30W LED, while Elite uses a 50W LED.[3][5][7]\n   - Add a “**Best for**” column: Basic = lower-cost herbs and greens; Elite = users prioritizing stronger lighting and upgraded controls.\n   - Include a short disclaimer beneath the table: “Dimensions and included features can vary by model year or retailer listing—verify the current product page before buying.”\n\n3. **Build an FAQ section around every high-intent GSC query**\n   - Add visible questions with concise answers and FAQ schema:\n     - `What are the AeroGarden ",
+  "llm_notes": "1. **Create a query-matched comparison page title and H1**\n   - **Title:** `AeroGarden Bounty Basic vs Elite: Differences, Dimensions & Best Pick`\n   - **H1:** `AeroGarden Bounty Basic vs Elite`\n   - Add a 40–60-word opening answer immediately below: both models support nine pods and approximately 24 inches of grow height, while the main buying differences are light output, controls, finish, and smart features. Verify each specification against the exact model before publishing.\n   - Include the variants “Bounty Basic,” “Bounty Elite,” “Bounty vs Bounty Basic,” and “Bounty vs Bounty Elite” naturally in subheadings and copy.\n\n2. **Put a decision-first comparison table above the fold**\n   - Place it directly after the introduction, before the long review.\n   - Use columns: **Feature | Bounty Basic | Bounty Elite | Why it matters**.\n   - Include: pod capacity, grow height, light wattage, dimensions, controls, Wi-Fi/app support, finish, reminders, vacation mode, price, and warranty.\n   - Confirm the dimensions carefully: the manufacturer lists the Basic at roughly **17.25 W × 11.25 D × 34 H inches**[7], while a retailer listing reports different assembled measurements, so label whether each figure describes the unit, packaging, or countertop footprint.[3]\n   - Add a bold “Best for” row: **Basic = lower-cost simplicity; Elite = stronger lighting and premium controls**, only where supported by verified specifications.\n\n3. **Add an FAQ section targeting the exact GSC questions**\n   - Use visible accordion questions plus FAQ schema:\n     - `What is the difference between AeroGarden",
   "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -204,6 +237,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
