@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-23 19:36 UTC",
+  "generated_at": "2026-10-24 02:44 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 7,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 2,
-    "gsc_impressions_7d": 124,
+    "gsc_impressions_7d": 93,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -96,8 +96,8 @@
     },
     "gsc": {
       "clicks": 2,
-      "impressions": 124,
-      "avg_position": 23.0,
+      "impressions": 93,
+      "avg_position": 16.8,
       "top_queries": [
         {
           "query": "aerogarden bounty basic",
@@ -109,16 +109,9 @@
         {
           "query": "aerogarden bounty basic vs elite",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 11.2
-        },
-        {
-          "query": "aerogarden bounty dimensions",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 80.0
+          "position": 11.7
         },
         {
           "query": "aerogarden bounty elite dimensions",
@@ -130,16 +123,16 @@
         {
           "query": "aerogarden bounty vs bounty basic",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 17.7
+          "position": 16.0
         },
         {
           "query": "aerogarden bounty vs bounty elite",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 16.5
+          "position": 19.0
         },
         {
           "query": "aerogarden bounty vs harvest",
@@ -147,13 +140,6 @@
           "impressions": 2,
           "ctr": 0.0,
           "position": 44.0
-        },
-        {
-          "query": "aerogarden bounty white",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 74.0
         },
         {
           "query": "aerogarden comparison",
@@ -193,9 +179,9 @@
         {
           "query": "aerogarden trellis for 2019 bounty models",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 25.5
+          "position": 30.0
         },
         {
           "query": "aerogarden vs click and grow",
@@ -203,12 +189,26 @@
           "impressions": 3,
           "ctr": 0.0,
           "position": 45.7
+        },
+        {
+          "query": "apartment starter kit",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 68.0
+        },
+        {
+          "query": "best simple herb garden under 50",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 7.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-16",
-        "end": "2026-10-23"
+        "start": "2026-10-17",
+        "end": "2026-10-24"
       }
     },
     "indexing": {
@@ -1094,6 +1094,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 7 | Aff clicks 0 | GSC 2c/124i | YT views 425 | Setup 6/7"
+    "headline": "Sessions 7 | Aff clicks 0 | GSC 2c/93i | YT views 425 | Setup 6/7"
   }
 }
