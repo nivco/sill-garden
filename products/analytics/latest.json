@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-24 18:25 UTC",
+  "generated_at": "2026-10-25 02:34 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 6,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 2,
-    "gsc_impressions_7d": 105,
+    "gsc_impressions_7d": 86,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -91,8 +91,8 @@
     },
     "gsc": {
       "clicks": 2,
-      "impressions": 105,
-      "avg_position": 16.3,
+      "impressions": 86,
+      "avg_position": 16.9,
       "top_queries": [
         {
           "query": "aerogarden bounty basic",
@@ -104,16 +104,9 @@
         {
           "query": "aerogarden bounty basic vs elite",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 11.0
-        },
-        {
-          "query": "aerogarden bounty elite dimensions",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 61.0
+          "position": 11.3
         },
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -153,9 +146,9 @@
         {
           "query": "aerogarden elite bounty",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 61.0
+          "position": 76.0
         },
         {
           "query": "aerogarden harvest vs harvest elite",
@@ -174,9 +167,9 @@
         {
           "query": "aerogarden model comparison",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 26.0
+          "position": 25.0
         },
         {
           "query": "aerogarden trellis for 2019 bounty models",
@@ -198,12 +191,19 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 68.0
+        },
+        {
+          "query": "best simple herb garden under 50",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 7.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-17",
-        "end": "2026-10-24"
+        "start": "2026-10-18",
+        "end": "2026-10-25"
       }
     },
     "indexing": {
@@ -1089,6 +1089,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 6 | Aff clicks 0 | GSC 2c/105i | YT views 427 | Setup 6/7"
+    "headline": "Sessions 6 | Aff clicks 0 | GSC 2c/86i | YT views 427 | Setup 6/7"
   }
 }
