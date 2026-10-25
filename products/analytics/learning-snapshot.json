@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-24 17:41 UTC",
+  "generated_at": "2026-10-25 17:56 UTC",
   "wow": {
-    "ga4_sessions_7d": -1.0,
-    "gsc_impressions_7d": -19.0,
+    "ga4_sessions_7d": 1.0,
+    "gsc_impressions_7d": -14.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 6,
-    "gsc_impressions_7d": 105,
+    "sessions_7d": 7,
+    "gsc_impressions_7d": 91,
     "gsc_clicks_7d": 2,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -25,16 +25,9 @@
     {
       "query": "aerogarden bounty basic vs elite",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 11.0
-    },
-    {
-      "query": "aerogarden bounty elite dimensions",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 61.0
+      "position": 11.3
     },
     {
       "query": "aerogarden bounty vs bounty basic",
@@ -74,27 +67,34 @@
     {
       "query": "aerogarden elite bounty",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 61.0
+      "position": 76.0
     },
     {
       "query": "aerogarden harvest vs harvest elite",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 13.7
+      "position": 22.8
+    },
+    {
+      "query": "aerogarden harvest vs harvest lite",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 23.0
     }
   ],
   "learnings": [
-    "LLM peer insight: - Place it directly after the introduction, before the long review.",
-    "LLM peer insight: . **Put a decision-first comparison table above the fold**",
-    "LLM peer insight: - Include the variants “Bounty Basic,” “Bounty Elite,” “Bounty vs Bounty Basic,” and “Bounty vs Bounty Elite” naturally in subheadings and copy.",
-    "LLM peer insight: - Add a 40–60-word opening answer immediately below: both models support nine pods and approximately 24 inches of grow height, while the main buying differences are light output, controls, finish, and smart features. Ver",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Differences, Dimensions & Best Pick`",
-    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
-    "WORKING peer pattern: long-form depth (~1215 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Add one decision-first comparison table above the fold**",
+    "LLM peer insight: - `AeroGarden Bounty vs Harvest: Which Indoor Garden Is Better?`",
+    "LLM peer insight: - `AeroGarden Bounty Basic vs Elite: Key Differences`",
+    "LLM peer insight: - Add descriptive title tags to each comparison page:",
+    "LLM peer insight: - Add a 40–60-word opening answer containing “AeroGarden Bounty Basic,” “Bounty Elite,” and “Bounty vs Harvest.” This directly matches the GSC query cluster instead of using a broad indoor-garden title.",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Bounty vs Elite: Which Should You Buy?`",
+    "LLM peer insight: - **SEO title:** `AeroGarden Bounty Basic Review: Specs, Price & Best Alternatives`",
+    "WORKING peer pattern: long-form depth (~1199 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-24 17:41 UTC"
+    "generated_at": "2026-10-25 17:56 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 6 action(s) still measuring (3-7d windows)",
+      "IMPACT: 8 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

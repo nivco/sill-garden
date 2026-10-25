@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-24 17:41 UTC",
+  "generated_at": "2026-10-25 17:56 UTC",
   "applied": [
     "updated visual-backlog.md"
   ],
@@ -11,10 +11,10 @@
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1215 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Differences, Dimensions & Best Pick`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite`"
+    "WORKING peer pattern: long-form depth (~1199 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - **SEO title:** `AeroGarden Bounty Basic Review: Specs, Price & Best Alternatives`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Bounty vs Elite: Which Should You Buy?`",
+    "LLM peer insight: - Add a 40–60-word opening answer containing “AeroGarden Bounty Basic,” “Bounty Elite,” and “Bounty vs Harvest.” This directly matches the GSC query cluster instead of using a broad indoor-garden title."
   ],
   "dry_run": false
 }
