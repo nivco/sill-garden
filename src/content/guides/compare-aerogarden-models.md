@@ -2,7 +2,7 @@
 title: AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison
 description: "AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026)."
 pubDate: 2026-08-26
-updatedDate: 2026-10-24
+updatedDate: 2026-10-26
 cluster: systems
 type: comparison
 featured: true
@@ -183,6 +183,9 @@ For "aerogarden bounty elite dimensions", match the setup to your light, noise t
 
 **Aerogarden harvest vs harvest lite?**  
 For "aerogarden harvest vs harvest lite", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Aerogarden bounty, black?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Related
 
 - [Quiet kit + pod-cost picker](/tools/kit-picker/)

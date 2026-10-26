@@ -2,7 +2,7 @@
 title: AeroGarden vs Click & Grow (2026) — Which Apartment Kit to Buy
 description: "AeroGarden vs Click and Grow for apartments (2026): noise, footprint, pods, refill cost — clear pick for kitchen vs studio."
 pubDate: 2026-08-13
-updatedDate: 2026-10-20
+updatedDate: 2026-10-26
 cluster: systems
 type: comparison
 featured: true
@@ -171,6 +171,9 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 Bounty Elite adds luxuries (often Wi‑Fi/app and stronger light) over Basic/Standard. Most apartments should buy capacity they will harvest — Elite is optional, not required.
 
 **Aerogarden bounty white?**  
+Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Aerogarden bounty, black?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Our call
 

@@ -5861,10 +5861,94 @@
         "youtube_views_total": 427.0
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "96caa9223c2443",
+      "kind": "distribution",
+      "target": "compare-aerogarden-models",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-26",
+      "measure_after": "2026-10-29",
+      "final_after": "2026-11-02",
+      "metrics_before": {
+        "sessions_7d": 8.0,
+        "gsc_impressions_7d": 73.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 442.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "adbac99b7c3839",
+      "kind": "applied",
+      "target": "Aerogarden bounty, black?",
+      "title": "faq:aerogarden-vs-click-and-grow:Aerogarden bounty, black?",
+      "detail": "faq:aerogarden-vs-click-and-grow:Aerogarden bounty, black?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-26",
+      "measure_after": "2026-10-29",
+      "final_after": "2026-11-02",
+      "metrics_before": {
+        "sessions_7d": 8.0,
+        "gsc_impressions_7d": 73.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 442.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "f7f70a9d8db8e7",
+      "kind": "applied",
+      "target": "updated visual-backlog.md",
+      "title": "updated visual-backlog.md",
+      "detail": "updated visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-26",
+      "measure_after": "2026-10-29",
+      "final_after": "2026-11-02",
+      "metrics_before": {
+        "sessions_7d": 8.0,
+        "gsc_impressions_7d": 73.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 442.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "61c34c88b56bab",
+      "kind": "applied",
+      "target": "IndexNow ping",
+      "title": "IndexNow ping",
+      "detail": "IndexNow ping",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-10-26",
+      "measure_after": "2026-10-29",
+      "final_after": "2026-11-02",
+      "metrics_before": {
+        "sessions_7d": 8.0,
+        "gsc_impressions_7d": 73.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 442.0
+      },
+      "primary_metric": "gsc_impressions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-10-26 11:49 UTC"
+  "updated_at": "2026-10-26 20:31 UTC"
 }
