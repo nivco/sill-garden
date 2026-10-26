@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-25 18:36 UTC",
+  "generated_at": "2026-10-26 02:33 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 7,
-    "users_7d": 7,
-    "pageviews_7d": 7,
+    "sessions_7d": 8,
+    "users_7d": 8,
+    "pageviews_7d": 8,
     "affiliate_clicks_7d": 0,
-    "gsc_clicks_7d": 2,
-    "gsc_impressions_7d": 91,
+    "gsc_clicks_7d": 1,
+    "gsc_impressions_7d": 63,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 427,
+    "youtube_views_total": 433,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 14.3,
+    "engagement_rate_pct": 12.5,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 47
   },
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 7,
-        "sessions": 7,
-        "screenPageViews": 7,
+        "activeUsers": 8,
+        "sessions": 8,
+        "screenPageViews": 8,
         "engagedSessions": 1,
-        "averageSessionDuration_sec": 5.1,
-        "engagementRate_pct": 14.3
+        "averageSessionDuration_sec": 4.9,
+        "engagementRate_pct": 12.5
       },
       "top_pages": [
         {
@@ -45,12 +45,12 @@
           "screenPageViews": "5"
         },
         {
-          "pagePath": "/guides/click-and-grow-vs-idoo-auk/",
-          "sessions": "1",
-          "screenPageViews": "1"
+          "pagePath": "/guides/mint-windowsill-first-harvest/",
+          "sessions": "2",
+          "screenPageViews": "2"
         },
         {
-          "pagePath": "/guides/mint-windowsill-first-harvest/",
+          "pagePath": "/guides/click-and-grow-vs-idoo-auk/",
           "sessions": "1",
           "screenPageViews": "1"
         }
@@ -58,26 +58,17 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "6"
+          "sessions": "7"
         },
         {
           "sessionDefaultChannelGroup": "Organic Search",
-          "sessions": "1"
-        },
-        {
-          "sessionDefaultChannelGroup": "Unassigned",
           "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "6",
-          "engagedSessions": "0"
-        },
-        {
-          "sessionSourceMedium": "(not set)",
-          "sessions": "1",
+          "sessions": "7",
           "engagedSessions": "0"
         },
         {
@@ -104,9 +95,9 @@
       "affiliate_clicks_7d": 0
     },
     "gsc": {
-      "clicks": 2,
-      "impressions": 91,
-      "avg_position": 17.2,
+      "clicks": 1,
+      "impressions": 63,
+      "avg_position": 17.8,
       "top_queries": [
         {
           "query": "aerogarden bounty basic",
@@ -118,16 +109,16 @@
         {
           "query": "aerogarden bounty basic vs elite",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 11.3
+          "position": 12.0
         },
         {
           "query": "aerogarden bounty vs bounty basic",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 16.0
+          "position": 21.0
         },
         {
           "query": "aerogarden bounty vs bounty elite",
@@ -139,16 +130,16 @@
         {
           "query": "aerogarden bounty vs harvest",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 44.0
+          "position": 45.0
         },
         {
           "query": "aerogarden comparison",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 57.0
+          "position": 52.0
         },
         {
           "query": "aerogarden comparison chart",
@@ -167,9 +158,9 @@
         {
           "query": "aerogarden harvest vs harvest elite",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 22.8
+          "position": 24.3
         },
         {
           "query": "aerogarden harvest vs harvest lite",
@@ -177,13 +168,6 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 23.0
-        },
-        {
-          "query": "aerogarden model comparison",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 25.0
         },
         {
           "query": "aerogarden trellis for 2019 bounty models",
@@ -195,9 +179,9 @@
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 44.5
+          "position": 44.7
         },
         {
           "query": "apartment starter kit",
@@ -212,12 +196,19 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 7.0
+        },
+        {
+          "query": "click and grow vs aerogarden",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 49.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-18",
-        "end": "2026-10-25"
+        "start": "2026-10-19",
+        "end": "2026-10-26"
       }
     },
     "indexing": {
@@ -823,7 +814,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 427,
+        "views": 433,
         "videos": 47
       },
       "recent_videos": [
@@ -1103,6 +1094,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 7 | Aff clicks 0 | GSC 2c/91i | YT views 427 | Setup 6/7"
+    "headline": "Sessions 8 | Aff clicks 0 | GSC 1c/63i | YT views 433 | Setup 6/7"
   }
 }
