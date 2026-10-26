@@ -488,8 +488,17 @@
       "storyboard": "products/youtube/video-related-aerogarden-bounty-basic-vs-elite/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-10-26T19:23:41.595377+00:00"
+    },
+    "video-related-aerogarden-bounty-basic-vs-elite-20261024": {
+      "youtube_id": "KjGp9TzPk-c",
+      "url": "https://youtu.be/KjGp9TzPk-c",
+      "title": "Aerogarden bounty basic vs elite (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-10-26T20:31:14.113660+00:00",
+      "storyboard": "products/youtube/video-related-aerogarden-bounty-basic-vs-elite-20261024/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-10-26T19:23:43.502891+00:00",
-  "next_eligible_date": "2026-10-26"
+  "next_eligible_date": "2026-10-29"
 }
