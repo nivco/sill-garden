@@ -1,6 +1,6 @@
-# Sill Garden Content Agent — 2026-10-25
+# Sill Garden Content Agent — 2026-10-26
 
-Generated: 2026-10-25 18:36 UTC
+Generated: 2026-10-26 20:48 UTC
 
 ## Research
 - Guides: 20
@@ -13,10 +13,10 @@ Generated: 2026-10-25 18:36 UTC
 
 ## Top demand
 - aerogarden bounty basic — 1 impr, pos 49.0
-- aerogarden bounty basic vs elite — 3 impr, pos 11.3
-- aerogarden bounty vs bounty basic — 2 impr, pos 16.0
+- aerogarden bounty basic vs elite — 2 impr, pos 12.0
+- aerogarden bounty elite — 1 impr, pos 64.0
+- aerogarden bounty vs bounty basic — 1 impr, pos 21.0
 - aerogarden bounty vs bounty elite — 1 impr, pos 19.0
-- aerogarden bounty vs harvest — 2 impr, pos 44.0
-- aerogarden comparison — 2 impr, pos 57.0
-- aerogarden comparison chart — 1 impr, pos 11.0
-- aerogarden elite bounty — 1 impr, pos 76.0
+- aerogarden bounty vs harvest — 1 impr, pos 45.0
+- aerogarden bounty, black — 1 impr, pos 54.0
+- aerogarden comparison — 1 impr, pos 52.0
