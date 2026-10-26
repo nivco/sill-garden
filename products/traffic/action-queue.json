@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26 02:33 UTC",
+  "generated_at": "2026-10-26 11:49 UTC",
   "site_url": "https://sillgarden.com",
   "gate_ok": true,
   "applied": [
@@ -10,7 +10,7 @@
       "priority": "P0",
       "category": "indexing",
       "title": "Request indexing for 1 money URLs",
-      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/kits/homemade-kratky/",
+      "detail": "Search Console → URL Inspection → Request indexing: https://sillgarden.com/kits/homemade-kratky/",
       "auto": false,
       "done": false,
       "created": "2026-10-26 02:33 UTC"
@@ -19,7 +19,7 @@
       "priority": "P1",
       "category": "indexing",
       "title": "Request indexing for 2 guides",
-      "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: parsley-countertop-first-harvest, cilantro-countertop-first-harvest.",
+      "detail": "Search Console → URL Inspection → Request indexing once each: parsley-countertop-first-harvest, cilantro-countertop-first-harvest.",
       "auto": false,
       "done": false,
       "created": "2026-10-26 02:33 UTC"
@@ -28,7 +28,7 @@
       "priority": "P1",
       "category": "seo",
       "title": "Climb ranking on early GSC queries",
-      "detail": "Already showing for: \u201caerogarden bounty basic\u201d pos 49/1 impr; \u201caerogarden bounty vs bounty basic\u201d pos 21/1 impr; \u201caerogarden bounty vs harvest\u201d pos 45/1 impr; \u201caerogarden comparison\u201d pos 52/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
+      "detail": "Already showing for: “aerogarden bounty basic” pos 49/1 impr; “aerogarden bounty vs bounty basic” pos 21/1 impr; “aerogarden bounty vs harvest” pos 45/1 impr; “aerogarden comparison” pos 52/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube — don't spam re-index.",
       "auto": false,
       "done": false,
       "created": "2026-10-26 02:33 UTC"
@@ -50,6 +50,69 @@
       "auto": true,
       "done": true,
       "created": "2026-10-26 02:33 UTC"
+    },
+    {
+      "priority": "P0",
+      "category": "cmo",
+      "title": "ALERT: zero sessions for 5+ days — distribute manually",
+      "detail": "Automation is healthy but acquisition is dead. GA4 sessions_7d=3 (<5) for 9 day(s) | GSC 21 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0. Post Reddit/Pinterest from distribution/latest.json today.",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-02 20:52 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "seo",
+      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-03 10:47 UTC"
+    },
+    {
+      "priority": "P2",
+      "category": "cmo",
+      "title": "Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.",
+      "detail": "From daily board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-03 10:47 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "cro",
+      "title": "Visuality iteration: hero/CTA/og image hygiene",
+      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-03 18:23 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "seo",
+      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
+      "detail": "CTR-first query: 2 impr, pos 44.5, 0 clicks",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-03 18:23 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[CMO / Growth & Distribution] Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distri",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-05 12:57 UTC"
+    },
+    {
+      "priority": "P1",
+      "category": "ceo",
+      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
+      "detail": "From weekly board run",
+      "auto": false,
+      "done": false,
+      "created": "2026-10-05 12:57 UTC"
     }
   ]
 }
