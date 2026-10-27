@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-26 20:47 UTC",
+  "generated_at": "2026-10-27 19:43 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -27,7 +27,7 @@
           "Bring the outdoors in",
           "Your Thanksgiving feast has never been fresher"
         ],
-        "word_count_est": 729,
+        "word_count_est": 722,
         "images": 49,
         "has_faq": true,
         "has_table": false,
@@ -55,9 +55,9 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 365,
+        "word_count_est": 343,
         "images": 18,
-        "has_faq": false,
+        "has_faq": true,
         "has_table": false,
         "has_og_image": false,
         "has_json_ld": false,
@@ -109,13 +109,39 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 775,
+        "word_count_est": 745,
         "images": 2,
         "has_faq": false,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4030,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -143,7 +169,7 @@
         "Our call",
         "Next"
       ],
-      "word_count_est": 1557,
+      "word_count_est": 1638,
       "images": 6,
       "has_faq": true,
       "has_table": true,
@@ -156,31 +182,38 @@
     }
   },
   "gsc_queries": [
-    "aerogarden bounty basic",
     "aerogarden bounty basic vs elite",
     "aerogarden bounty elite",
     "aerogarden bounty vs bounty basic",
     "aerogarden bounty vs bounty elite",
     "aerogarden bounty vs harvest",
     "aerogarden bounty, black",
-    "aerogarden comparison"
+    "aerogarden comparison",
+    "aerogarden elite bounty"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Rewrite the primary title and H1 around the exact comparison intent.**",
-    "LLM peer insight: - SEO title: **AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?**",
-    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite**",
-    "LLM peer insight: - Intro copy: answer the decision immediately: “Choose the Basic for lower-cost countertop growing; choose the Elite for its 50W light, Wi‑Fi/app control, vacation mode, and stainless-steel finish.”",
-    "LLM peer insight: - Add dedicated sections targeting the remaining query variants: **AeroGarden Bounty Basic Review**, **AeroGarden Bounty Elite Review**, and **AeroGarden Bounty vs Bounty Basic**.",
-    "LLM peer insight: . **Ship a prominent comparison table directly below the introduction.**",
-    "LLM peer insight: Use decision-focused rows rather than generic specifications:",
-    "LLM peer insight: | Feature | Bounty Basic | Bounty Elite |",
-    "LLM peer insight: | Grow light | 30W LED[1][2] | 50W LED[3] |"
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1202 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: Ship these five changes this week, prioritizing the comparison intent already visible in GSC.",
+    "LLM peer insight: . **Rewrite the page title and H1 around the comparison cluster**",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite: Key Differences and Best Buy`",
+    "LLM peer insight: - Add the related phrase naturally in the introduction: “AeroGarden Bounty vs Bounty Basic,” “Bounty Elite,” and “Bounty vs Harvest.”",
+    "LLM peer insight: - Add a short verdict directly below the H1: **“Choose Bounty Basic for the lower-cost 9-pod setup; choose Elite for stronger lighting, premium materials, and advanced controls.”**",
+    "LLM peer insight: - This is more aligned with the site’s actual query demand than a generic “best indoor garden” title."
   ],
-  "llm_notes": "1. **Rewrite the primary title and H1 around the exact comparison intent.**  \n   - SEO title: **AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?**  \n   - H1: **AeroGarden Bounty Basic vs Elite**  \n   - Intro copy: answer the decision immediately: “Choose the Basic for lower-cost countertop growing; choose the Elite for its 50W light, Wi‑Fi/app control, vacation mode, and stainless-steel finish.”  \n   - Add dedicated sections targeting the remaining query variants: **AeroGarden Bounty Basic Review**, **AeroGarden Bounty Elite Review**, and **AeroGarden Bounty vs Bounty Basic**.\n\n2. **Ship a prominent comparison table directly below the introduction.**  \n   Use decision-focused rows rather than generic specifications:\n\n   | Feature | Bounty Basic | Bounty Elite |\n   |---|---:|---:|\n   | Plant capacity | 9 pods | 9 pods |\n   | Grow light | 30W LED[1][2] | 50W LED[3] |\n   | Maximum grow height | Up to 24 in[4] | Up to 24 in[5] |\n   | Controls | Touchscreen, reminders | Full-color touchscreen, app/Wi‑Fi, vacation mode |\n   | Light controls | Automatic timer | Automatic, dimmable, sunrise/sunset |\n   | Finish | Black | Stainless steel |\n   | Best for | Value-focused growers | Frequent growers and travelers |\n\n   Add a final row: **Best choice** with a one-sentence recommendation. Include a “Check today’s price” button in each product column, with affiliate disclosure beside the table.\n\n3. **Add an FAQ block designed around the GSC queries.**  \n   Publish 6–8 concise questions with visible answers and FAQ schema:\n   - Is the AeroGarden Bounty Basic worth it?\n   - Is",
+  "llm_notes": "Ship these five changes this week, prioritizing the comparison intent already visible in GSC.\n\n1. **Rewrite the page title and H1 around the comparison cluster**\n   - **Title:** `AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?`\n   - **H1:** `AeroGarden Bounty Basic vs Elite: Key Differences and Best Buy`\n   - Add the related phrase naturally in the introduction: “AeroGarden Bounty vs Bounty Basic,” “Bounty Elite,” and “Bounty vs Harvest.”\n   - Add a short verdict directly below the H1: **“Choose Bounty Basic for the lower-cost 9-pod setup; choose Elite for stronger lighting, premium materials, and advanced controls.”**\n   - This is more aligned with the site’s actual query demand than a generic “best indoor garden” title.\n\n2. **Put a decision table above the first long-form section**\n   \n   Use a scannable table immediately below the verdict:\n\n   | Feature | Bounty Basic | Bounty Elite | Best for |\n   |---|---|---|---|\n   | Plant capacity | 9 pods | 9 pods | Tie |\n   | Grow-light output | Confirm exact model specification before publishing | 50W LED; adjustable intensity | Elite |\n   | Grow height | Up to approximately 24 inches, depending on model | Up to approximately 24 inches | Tall plants |\n   | Controls | Basic controls; verify included features by exact SKU | Color touchscreen, reminders, and advanced settings | Elite |\n   | Finish | Standard finish | Stainless steel | Elite |\n   | Best value | Lower price when discounted | More features for frequent growers | Depends on price |\n\n   Mark uncertain specifications as **“varies by model/SKU”** rather tha",
   "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -203,6 +236,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
