@@ -1,0 +1,76 @@
+{
+  "generated_at": "2026-10-27 19:19 UTC",
+  "brand": "Sill Garden",
+  "domain": "sillgarden.com",
+  "visibility_score": 0.0,
+  "mentions": 0,
+  "prompts": 6,
+  "rows": [
+    {
+      "id": "ag-vs-cg",
+      "prompt": "AeroGarden vs Click and Grow for a small apartment kitchen — which should I buy?",
+      "provider": "perplexity",
+      "answer": "For a **small apartment kitchen, buy the Click & Grow Smart Garden 3**—unless you specifically want larger harvests or the flexibility to grow tomatoes, peppers, and other taller plants.\n\n| Factor | AeroGarden | Click & Grow |\n|---|---|---|\n| Best for | More herbs and higher yields | Simplicity and compact spaces |\n| Footprint | About 11 × 8 inches for Harvest-class models[1] | About 12 × 5 inches for Smart Garden 3[1] |\n| Noise | Low pump hum[1] | Silent, because it uses passive watering[9] |\n| Capacity | Typically 6–7 plants[1][3] | 3 plants in the Smart Garden 3[1] |\n| Ongoing cost | Usually lower; generic growing sponges can offer flexibility[8] | Proprietary Smart Soil pods are convenient but less flexible[9] |\n| Plant range | Better for experimentation and larger plants[7][8] | Best for herbs, lettuce, and compact greens[7][8] |\n\n**Choose Click & Grow if:**\n- Your kitchen shares space with your living room or bedroom.\n- You want the narrowest, quietest, least hands-on option.\n- You mainly want basil, mint, parsley, lettuce, or similar herbs.\n- You prefer a cleaner-looking appliance and do not mind proprietary pods.\n\n**Choose AeroGarden if:**\n- You want enough herbs to harvest",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "low-light",
+      "prompt": "Best low light herbs for an apartment windowsill?",
+      "provider": "perplexity",
+      "answer": "The best low-light herbs for an apartment windowsill are **mint, chives, parsley, and cilantro**. They tolerate weaker indoor light better than sun-loving herbs such as rosemary, thyme, oregano, and basil.[1][2][3]\n\n- **Mint:** Most forgiving; works well near north- or east-facing windows. Keep it in its own pot because it spreads aggressively.\n- **Chives:** Compact, cold-tolerant, and productive when regularly snipped.\n- **Parsley:** Handles indirect light and stays useful even when growth is slower; keep the soil evenly moist.\n- **Cilantro:** Suitable for cooler, moderately bright windows, though it may bolt quickly once temperatures rise.\n- **Lemon balm:** A good option for particularly dim rooms, but contain it like mint because it spreads.\n\nFor a very dim windowsill, start with **chives and mint**. Most herbs still grow best with roughly six to eight hours of strong light; a small LED grow light can make up for insufficient sun.[2][7] Avoid rosemary and thyme unless the window is genuinely sunny or you add supplemental lighting.[2][4]",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "quiet",
+      "prompt": "Quietest countertop garden for a studio apartment?",
+      "provider": "perplexity",
+      "answer": "The **Click & Grow Smart Garden 3** is the safest choice for a studio apartment if silence is the priority. It uses passive capillary wicking rather than a water pump, so it has no pump hum and occupies roughly \\(12 \\times 5\\) inches of counter space.[2][6]\n\n- **Best overall for silence:** Click & Grow Smart Garden 3 — completely silent, compact, and suited to herbs and small greens.[2][6]\n- **More growing capacity:** Click & Grow Smart Garden 9 — also pump-free and silent, but larger at about \\(17 \\times 7\\) inches.[9]\n- **If you want hydroponic growth and more pods:** Ahopegarden 12-Pod — reported as the quietest pump-based option, though any pump can potentially be audible in a very still room.[1]\n- **Absolute lowest noise and lowest cost:** A passive **Kratky** setup, which has no pump, light, or moving parts; however, it requires more manual setup and a separate grow light if your counter lacks sunlight.[3]\n\nAvoid pump-based gardens such as many AeroGarden models if the unit will sit beside your bed or workspace; their low hum may be noticeable at night.[1][2]",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "landlord",
+      "prompt": "Landlord-safe indoor garden setup that won't risk my deposit?",
+      "provider": "perplexity",
+      "answer": "A **freestanding, self-contained setup** is the safest choice: no drilling, hanging, permanent adhesive, or plumbing modifications. Use a rolling utility cart or plant stand, lightweight pots, and a waterproof catch tray beneath everything.[1][2]\n\n### Deposit-safe setup\n\n- **Location:** Place it on a hard floor near a window, or use a freestanding grow-light stand. Keep the unit several inches from walls to prevent trapped moisture and mold.[3]\n- **Containers:** Choose lightweight plastic pots with drainage holes and matching saucers. Put the entire group in a boot tray or large plastic tray; use felt or cork beneath trays on hardwood.[1][3]\n- **Plants:** Start with herbs, lettuce, microgreens, and compact houseplants. Avoid large, heavy planters that could overload windowsills or floors.[1]\n- **Lighting:** Use a clamp-on or freestanding LED grow light—never screw a fixture into the wall or ceiling. Secure cords neatly without permanent adhesive.\n- **Watering:** Water in a sink or bathtub when possible, let pots drain fully, and wipe spills immediately. For hydroponics, choose a small countertop unit with a sealed reservoir and keep it inside a secondary tray.[3][5]\n- **Ventilation",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "cheap",
+      "prompt": "Cheapest way to grow herbs indoors in an apartment under $50?",
+      "provider": "perplexity",
+      "answer": "The cheapest reliable setup is a **sunny windowsill using reused containers**, seeds, and basic potting mix—about **$10–$25**, well under $50. A south- or west-facing window with roughly six hours of direct light is ideal.[1][3]\n\n### Budget setup\n\n- **Containers:** Reuse yogurt cups, takeout containers, or jars; add drainage holes. **$0**\n- **Potting mix:** Small bag of indoor potting soil. **$5–$8**\n- **Seeds:** Basil, chives, cilantro, parsley, or mint. **$2–$4 per packet**\n- **Drainage trays:** Saucers, plates, or jar lids. **$0**\n- **Optional liquid fertilizer:** **$5–$8**\n\nStart with **basil and chives** for quicker, easier results; parsley and cilantro generally take longer to sprout.[6][10]\n\n### How to grow them\n\n1. Fill containers with potting mix, leaving about 1 inch at the top.\n2. Sow seeds according to the packet instructions.\n3. Water gently and keep the soil evenly moist, not soggy.\n4. Place containers as close to the brightest window as possible.\n5. Rotate them every few days so growth stays even.\n6. Harvest basil and chives frequently once established; avoid removing more than about one-third of a plant at once.\n\nIf the apartment lacks a bright window, skip the expe",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    },
+    {
+      "id": "running-cost",
+      "prompt": "How much does a countertop garden cost to run each month?",
+      "provider": "perplexity",
+      "answer": "A typical **countertop hydroponic garden costs about $7–$15 per month to run**, excluding the initial purchase price. Larger systems or commercially priced seed pods can reach **$15–$30 monthly**.[1][4]\n\nTypical monthly costs:\n\n- **Electricity:** about **$2–$5** for a 20–40 W light and small pump.[2][4]\n- **Seed pods and nutrients:** about **$5–$10**, depending on how often pods are replaced and whether you buy branded refills.[1][4]\n- **Water and cleaning supplies:** usually minimal, often under **$1–$3** monthly.\n\nFor the lowest cost, use your own seeds and nutrient concentrate; branded pod refills are generally the largest ongoing expense. Some systems with inexpensive or reusable supplies may cost closer to **$3–$8 per month**, while subscription-based pod systems can cost substantially more.[3][5]",
+      "mention": {
+        "name": false,
+        "domain": false,
+        "any": false
+      }
+    }
+  ]
+}
