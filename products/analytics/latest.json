@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-26 20:47 UTC",
+  "generated_at": "2026-10-27 03:08 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -8,8 +8,8 @@
     "users_7d": 8,
     "pageviews_7d": 8,
     "affiliate_clicks_7d": 0,
-    "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 73,
+    "gsc_clicks_7d": 0,
+    "gsc_impressions_7d": 61,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -81,17 +81,10 @@
       "affiliate_clicks_7d": 0
     },
     "gsc": {
-      "clicks": 1,
-      "impressions": 73,
-      "avg_position": 18.9,
+      "clicks": 0,
+      "impressions": 61,
+      "avg_position": 19.3,
       "top_queries": [
-        {
-          "query": "aerogarden bounty basic",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 49.0
-        },
         {
           "query": "aerogarden bounty basic vs elite",
           "clicks": 0,
@@ -142,13 +135,6 @@
           "position": 52.0
         },
         {
-          "query": "aerogarden comparison chart",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 11.0
-        },
-        {
           "query": "aerogarden elite bounty",
           "clicks": 0,
           "impressions": 2,
@@ -189,12 +175,26 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 68.0
+        },
+        {
+          "query": "best simple herb garden under 50",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 7.0
+        },
+        {
+          "query": "click and grow vs aerogarden",
+          "clicks": 0,
+          "impressions": 2,
+          "ctr": 0.0,
+          "position": 49.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-19",
-        "end": "2026-10-26"
+        "start": "2026-10-20",
+        "end": "2026-10-27"
       }
     },
     "indexing": {
@@ -855,7 +855,7 @@
         {
           "id": "znYwZvnXYmQ",
           "title": "Aerogarden harvest vs bounty hydroponics (2026)",
-          "views": 9,
+          "views": 10,
           "likes": 0,
           "published": "2026-10-08T19:39:26Z",
           "url": "https://www.youtube.com/watch?v=znYwZvnXYmQ"
@@ -1034,6 +1034,7 @@
     }
   ],
   "insights": [
+    "GSC: 61 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 12), \u201caerogarden bounty elite\u201d (pos 64), \u201caerogarden bounty vs bounty basic\u201d (pos 21). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -1080,6 +1081,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 8 | Aff clicks 0 | GSC 1c/73i | YT views 442 | Setup 6/7"
+    "headline": "Sessions 8 | Aff clicks 0 | GSC 0c/61i | YT views 442 | Setup 6/7"
   }
 }
