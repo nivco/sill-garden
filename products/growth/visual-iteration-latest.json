@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27 19:43 UTC",
+  "generated_at": "2026-10-28 19:57 UTC",
   "applied": [
     "updated visual-backlog.md"
   ],
@@ -12,9 +12,9 @@
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "WORKING peer pattern: long-form depth (~1202 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: Ship these five changes this week, prioritizing the comparison intent already visible in GSC.",
-    "LLM peer insight: . **Rewrite the page title and H1 around the comparison cluster**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?`"
+    "LLM peer insight: . **Retarget the page title and H1 to the highest-intent comparison query**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite**"
   ],
   "dry_run": false
 }

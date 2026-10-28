@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-10-27 19:43 UTC",
+  "generated_at": "2026-10-28 19:57 UTC",
   "wow": {
-    "ga4_sessions_7d": 6.0,
-    "gsc_impressions_7d": -8.0,
-    "gsc_clicks_7d": -1.0,
+    "ga4_sessions_7d": 10.0,
+    "gsc_impressions_7d": -7.0,
+    "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 14,
-    "gsc_impressions_7d": 65,
+    "sessions_7d": 22,
+    "gsc_impressions_7d": 58,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -18,9 +18,9 @@
     {
       "query": "aerogarden bounty basic vs elite",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 12.0
+      "position": 9.0
     },
     {
       "query": "aerogarden bounty elite",
@@ -42,13 +42,6 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 19.0
-    },
-    {
-      "query": "aerogarden bounty vs harvest",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 45.0
     },
     {
       "query": "aerogarden bounty, black",
@@ -84,16 +77,23 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 23.0
+    },
+    {
+      "query": "aerogarden trellis for 2019 bounty models",
+      "clicks": 0,
+      "impressions": 3,
+      "ctr": 0.0,
+      "position": 33.7
     }
   ],
   "learnings": [
-    "LLM peer insight: - This is more aligned with the site’s actual query demand than a generic “best indoor garden” title.",
-    "LLM peer insight: - Add a short verdict directly below the H1: **“Choose Bounty Basic for the lower-cost 9-pod setup; choose Elite for stronger lighting, premium materials, and advanced controls.”**",
-    "LLM peer insight: - Add the related phrase naturally in the introduction: “AeroGarden Bounty vs Bounty Basic,” “Bounty Elite,” and “Bounty vs Harvest.”",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Basic vs Elite: Key Differences and Best Buy`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?`",
-    "LLM peer insight: . **Rewrite the page title and H1 around the comparison cluster**",
-    "LLM peer insight: Ship these five changes this week, prioritizing the comparison intent already visible in GSC.",
+    "LLM peer insight: Include the decision-driving differences and shared specifications:",
+    "LLM peer insight: . **Put a scannable comparison table above the first long-form section**",
+    "LLM peer insight: - Keep “Black” in a product-specific subheading or image alt text, such as **AeroGarden Bounty Basic Black review**, rather than forcing it into the title.",
+    "LLM peer insight: - Add the variants naturally in the introduction: “AeroGarden Bounty Elite,” “AeroGarden Bounty vs Bounty Basic,” and “AeroGarden Bounty vs Bounty Elite.”",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?**",
+    "LLM peer insight: . **Retarget the page title and H1 to the highest-intent comparison query**",
     "WORKING peer pattern: long-form depth (~1202 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
@@ -114,7 +114,7 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-10-27 19:43 UTC"
+    "generated_at": "2026-10-28 19:57 UTC"
   },
   "impact": {
     "closed_today": 0,

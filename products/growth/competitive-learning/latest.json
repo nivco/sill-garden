@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-27 20:17 UTC",
+  "generated_at": "2026-10-28 19:57 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -27,7 +27,7 @@
           "Bring the outdoors in",
           "Your Thanksgiving feast has never been fresher"
         ],
-        "word_count_est": 722,
+        "word_count_est": 730,
         "images": 49,
         "has_faq": true,
         "has_table": false,
@@ -55,8 +55,8 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 361,
-        "images": 18,
+        "word_count_est": 368,
+        "images": 19,
         "has_faq": false,
         "has_table": false,
         "has_og_image": false,
@@ -81,7 +81,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 168,
+        "word_count_est": 75,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -109,13 +109,39 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 773,
+        "word_count_est": 801,
         "images": 2,
         "has_faq": false,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4035,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -160,27 +186,34 @@
     "aerogarden bounty elite",
     "aerogarden bounty vs bounty basic",
     "aerogarden bounty vs bounty elite",
-    "aerogarden bounty vs harvest",
     "aerogarden bounty, black",
     "aerogarden comparison",
-    "aerogarden elite bounty"
+    "aerogarden elite bounty",
+    "aerogarden harvest vs harvest elite"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Rewrite the title and opening for comparison intent**",
-    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite vs Bounty: Which 9-Pod Garden Should You Buy?**",
-    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Bounty vs Elite**",
-    "LLM peer insight: - Add a 40–60-word verdict directly below the H1:",
-    "LLM peer insight: - **Buy Basic** for the lowest-cost 9-pod setup.",
-    "LLM peer insight: - **Buy Bounty** for stronger lighting and better controls.",
-    "LLM peer insight: - **Buy Elite** for the 50W light, dimming, Wi-Fi, and stainless finish.",
-    "LLM peer insight: - Include “Bounty vs Harvest” in a secondary H2 to capture the fourth query cluster.",
-    "LLM peer insight: . **Add a decision-first comparison table above the fold**"
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1202 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Retarget the page title and H1 to the highest-intent comparison query**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite**",
+    "LLM peer insight: - Add the variants naturally in the introduction: “AeroGarden Bounty Elite,” “AeroGarden Bounty vs Bounty Basic,” and “AeroGarden Bounty vs Bounty Elite.”",
+    "LLM peer insight: - Keep “Black” in a product-specific subheading or image alt text, such as **AeroGarden Bounty Basic Black review**, rather than forcing it into the title.",
+    "LLM peer insight: . **Put a scannable comparison table above the first long-form section**",
+    "LLM peer insight: Include the decision-driving differences and shared specifications:"
   ],
-  "llm_notes": "1. **Rewrite the title and opening for comparison intent**\n   - Title: **AeroGarden Bounty Basic vs Elite vs Bounty: Which 9-Pod Garden Should You Buy?**\n   - H1: **AeroGarden Bounty Basic vs Bounty vs Elite**\n   - Add a 40–60-word verdict directly below the H1:\n     - **Buy Basic** for the lowest-cost 9-pod setup.\n     - **Buy Bounty** for stronger lighting and better controls.\n     - **Buy Elite** for the 50W light, dimming, Wi-Fi, and stainless finish.\n   - Include “Bounty vs Harvest” in a secondary H2 to capture the fourth query cluster.\n\n2. **Add a decision-first comparison table above the fold**\n   \n   | Feature | Bounty Basic | Bounty | Bounty Elite | Harvest |\n   |---|---:|---:|---:|---:|\n   | Seed-pod capacity | 9 | 9 | 9 | 6 |\n   | LED power | 30W | 40W | 50W | 20W |\n   | Maximum plant height | 24 in | 24 in | 24 in | 12 in |\n   | Dimmable light | No | Yes | Yes | No |\n   | Touchscreen | No | Yes | Yes | No |\n   | Wi-Fi/app | No | Yes | Yes | No |\n   | Best for | Budget buyers | Most households | Larger or fruiting plants | Herbs and lettuce |\n\n   Label specifications as “manufacturer-listed” where possible, show a **Last checked** date, and put a “Check current price” button in each product column. The Bounty family’s shared nine-pod/24-inch capacity and the Elite’s 50W light are useful differentiators, while Harvest is materially smaller at six pods and roughly 12 inches of height.[1][2][3]\n\n3. **Build an FAQ that mirrors the exact GSC queries**\n   Add visible FAQ copy plus FAQPage markup for:\n   - **What is the difference between AeroGarden Bounty Basic and Eli",
+  "llm_notes": "1. **Retarget the page title and H1 to the highest-intent comparison query**\n   - Title: **AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?**\n   - H1: **AeroGarden Bounty Basic vs Elite**\n   - Add the variants naturally in the introduction: “AeroGarden Bounty Elite,” “AeroGarden Bounty vs Bounty Basic,” and “AeroGarden Bounty vs Bounty Elite.”\n   - Keep “Black” in a product-specific subheading or image alt text, such as **AeroGarden Bounty Basic Black review**, rather than forcing it into the title.\n\n2. **Put a scannable comparison table above the first long-form section**\n   Include the decision-driving differences and shared specifications:\n\n   | Feature | Bounty Basic | Bounty Elite |\n   |---|---:|---:|\n   | Pod capacity | 9 | 9 |\n   | Maximum grow height | 24 in | 24 in |\n   | LED light | 30W | 50W |\n   | Touchscreen | No | Yes |\n   | Wi-Fi/app control | No | Yes |\n   | Dimmable light | No | Yes |\n   | Sunrise/sunset lighting | No | Yes |\n   | Finish | Matte black plastic | Stainless steel |\n\n   The official Basic specifications support the 30W light, nine pods, 24-inch grow height, black finish, and lack of touchscreen/Wi-Fi/app features.[6] Add a “Best for” row: **Basic: lower-cost simplicity; Elite: stronger light, controls, and appearance.**\n\n3. **Add a 5-question FAQ targeting exact GSC language**\n   Place it directly below the table and use FAQ schema where eligible:\n   - **What is the difference between AeroGarden Bounty Basic and Elite?**\n   - **Is AeroGarden Bounty Elite worth it over Bounty Basic?**\n   - **Does AeroGarden Bounty Elite have Wi-Fi",
   "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -203,6 +236,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
