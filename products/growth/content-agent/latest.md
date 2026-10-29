@@ -1,10 +1,10 @@
-# Sill Garden Content Agent — 2026-10-28
+# Sill Garden Content Agent — 2026-10-29
 
-Generated: 2026-10-28 20:39 UTC
+Generated: 2026-10-29 20:43 UTC
 
 ## Research
 - Guides: 20
-- Zero-click GSC queries: 15
+- Zero-click GSC queries: 10
 - Network probes ok: 5/5
 - LLM notes: 3
 
@@ -14,9 +14,9 @@ Generated: 2026-10-28 20:39 UTC
 ## Top demand
 - aerogarden bounty basic vs elite — 1 impr, pos 9.0
 - aerogarden bounty elite — 1 impr, pos 64.0
-- aerogarden bounty vs bounty basic — 1 impr, pos 21.0
-- aerogarden bounty vs bounty elite — 1 impr, pos 19.0
 - aerogarden bounty, black — 1 impr, pos 54.0
-- aerogarden comparison — 1 impr, pos 52.0
-- aerogarden elite bounty — 2 impr, pos 69.5
-- aerogarden harvest vs harvest elite — 3 impr, pos 24.3
+- aerogarden elite bounty — 1 impr, pos 63.0
+- aerogarden harvest vs harvest elite — 2 impr, pos 29.5
+- aerogarden harvest vs harvest lite — 1 impr, pos 23.0
+- aerogarden trellis for 2019 bounty models — 2 impr, pos 35.5
+- aerogarden vs click and grow — 3 impr, pos 45.7
