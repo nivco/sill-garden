@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-28 20:39 UTC",
+  "generated_at": "2026-10-29 19:56 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -109,13 +109,39 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 801,
+        "word_count_est": 778,
         "images": 2,
         "has_faq": false,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4030,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -158,29 +184,36 @@
   "gsc_queries": [
     "aerogarden bounty basic vs elite",
     "aerogarden bounty elite",
-    "aerogarden bounty vs bounty basic",
-    "aerogarden bounty vs bounty elite",
     "aerogarden bounty, black",
-    "aerogarden comparison",
     "aerogarden elite bounty",
-    "aerogarden harvest vs harvest elite"
+    "aerogarden harvest vs harvest elite",
+    "aerogarden harvest vs harvest lite",
+    "aerogarden trellis for 2019 bounty models",
+    "aerogarden vs click and grow"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: Ship these five changes this week, centered on the **Bounty Basic vs. Elite** intent already visible in GSC:",
-    "LLM peer insight: . **Replace the generic title/H1 with an exact comparison promise**",
-    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite: Which Should You Buy?**",
-    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Bounty Elite**",
-    "LLM peer insight: - Add a one-sentence answer directly below: “Both grow nine plants up to 24 inches tall; Elite adds a 50W light, touchscreen, Wi‑Fi/app control, dimming, and a stainless-steel finish, while Basic uses a 30W light and sim",
-    "LLM peer insight: - Use supporting subheads: **Bounty Basic vs Elite: Key Differences**, **Which Is Better for Apartments?**, and **Is the Elite Worth It?**",
-    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
-    "LLM peer insight: - Place it immediately after a 2–3 sentence introduction—not below a long review.",
-    "LLM peer insight: - Include: pod capacity, LED wattage, maximum grow height, touchscreen, Wi‑Fi/app, dimming, finish, dimensions, and best-for."
+    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "WORKING peer pattern: long-form depth (~1196 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: Ship these five changes this week, prioritizing pages that match your highest-intent GSC queries:",
+    "LLM peer insight: . **Create exact-match comparison titles and H1s**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Elite**",
+    "LLM peer insight: - Add a second comparison page or section:",
+    "LLM peer insight: - Title: **AeroGarden Harvest vs Harvest Elite: Key Differences**",
+    "LLM peer insight: - H1: **AeroGarden Harvest vs Harvest Elite**"
   ],
-  "llm_notes": "Ship these five changes this week, centered on the **Bounty Basic vs. Elite** intent already visible in GSC:\n\n1. **Replace the generic title/H1 with an exact comparison promise**\n   - Title: **AeroGarden Bounty Basic vs Elite: Which Should You Buy?**\n   - H1: **AeroGarden Bounty Basic vs Bounty Elite**\n   - Add a one-sentence answer directly below: “Both grow nine plants up to 24 inches tall; Elite adds a 50W light, touchscreen, Wi‑Fi/app control, dimming, and a stainless-steel finish, while Basic uses a 30W light and simpler controls.”[6]\n   - Use supporting subheads: **Bounty Basic vs Elite: Key Differences**, **Which Is Better for Apartments?**, and **Is the Elite Worth It?**\n\n2. **Add a decision-first comparison table above the fold**\n   - Place it immediately after a 2–3 sentence introduction—not below a long review.\n   - Include: pod capacity, LED wattage, maximum grow height, touchscreen, Wi‑Fi/app, dimming, finish, dimensions, and best-for.\n   - Populate the verified core differences: both models hold 9 pods and reach 24 inches; Basic has a 30W light, no touchscreen/Wi‑Fi/app, and matte plastic; Elite has a 50W light, touchscreen, Wi‑Fi/app, dimming, sunrise/sunset lighting, and stainless steel.[3][6]\n   - Add a final row: **Choose Basic if… / Choose Elite if…** so readers can self-select without reading the entire page.\n\n3. **Build an FAQ block targeting the exact GSC variants**\n   - Add 6–8 visible questions with concise answers and FAQ schema:\n     - “What is the difference between AeroGarden Bounty Basic and Elite?”\n     - “Is AeroGarden Bounty Elite worth it?”\n",
+  "llm_notes": "Ship these five changes this week, prioritizing pages that match your highest-intent GSC queries:\n\n1. **Create exact-match comparison titles and H1s**\n   - Title: **AeroGarden Bounty Basic vs Elite: Which 9-Pod Garden Is Better?**\n   - H1: **AeroGarden Bounty Basic vs Elite**\n   - Add a second comparison page or section:\n     - Title: **AeroGarden Harvest vs Harvest Elite: Key Differences**\n     - H1: **AeroGarden Harvest vs Harvest Elite**\n   - Include “black” naturally in the copy and image alt text: **AeroGarden Bounty Basic black finish**.\n   - Put the answer in the first 100 words: Elite adds a stronger 50W light, premium stainless finish, and advanced controls; Basic is the simpler, lower-cost option. The Elite supports nine pods and plants up to 24 inches tall.[1][2][3]\n\n2. **Add a decision-first comparison table above the fold**\n   \n   | Feature | Bounty Basic | Bounty Elite | Best for |\n   |---|---|---|---|\n   | Pod capacity | 9 pods | 9 pods | Tie |\n   | Grow-light power | 30W | 50W | Elite for larger plants |\n   | Maximum plant height | Up to 24 in | Up to 24 in | Tie |\n   | Controls | Basic controls | Touchscreen, dimming, reminders, app/Wi-Fi on supported versions | Elite for automation |\n   | Finish | Black | Stainless steel | Basic for black; Elite for appearance |\n   | Pick this if… | You want the essentials | You want stronger lighting and convenience | — |\n\n   - Add a highlighted verdict row: **Best value: Bounty Basic. Best overall: Bounty Elite.**\n   - Repeat the same format for Harvest vs Harvest Elite, where the clearest visible distinction is matte bl",
   "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -203,6 +236,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }

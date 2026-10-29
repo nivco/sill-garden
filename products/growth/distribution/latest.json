@@ -1,11 +1,11 @@
 {
-  "generated_at": "2026-10-28 19:57 UTC",
+  "generated_at": "2026-10-29 19:56 UTC",
   "target": {
-    "slug": "compare-aerogarden-models",
-    "title": "AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison",
-    "url": "https://sillgarden.com/guides/compare-aerogarden-models/",
-    "description": "AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026).",
-    "reason": "matches query “aerogarden bounty vs bounty basic”",
+    "slug": "aerogarden-vs-click-and-grow",
+    "title": "AeroGarden vs Click & Grow (2026) — Which Apartment Kit to Buy",
+    "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+    "description": "AeroGarden vs Click and Grow for apartments (2026): noise, footprint, pods, refill cost — clear pick for kitchen vs studio.",
+    "reason": "matches query “aerogarden vs click and grow”",
     "kind": "guide",
     "kit_url": "https://sillgarden.com/kits/kitchen-capacity/"
   },
@@ -35,12 +35,12 @@
   "lessons_ref": "products/growth/AGENT-LESSONS.md",
   "channels": {
     "x": "Studio vs kitchen herb kit — physical stacks:\nhttps://sillgarden.com/kits/\nhttps://sillgarden.com/tools/kit-picker/\n\n#IndoorGarden #ApartmentLiving",
-    "bluesky": "AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison\n\nAeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026).\n\nhttps://sillgarden.com/guides/compare-aerogarden-models/\nPicker: https://sillgarden.com/tools/kit-picker/",
-    "mastodon": "AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison\n\nhttps://sillgarden.com/guides/compare-aerogarden-models/\n\n#IndoorGarden #ApartmentLiving #Herbs",
-    "reddit": "Sub: r/Apartmentliving (alt: r/hydroponics, r/gardening)\nTitle: AeroGarden vs Click & Grow for a small apartment — which would you buy first?\n\nBody:\nI put together apartment-focused kit stacks (noise, footprint, refill cost — not brand ads) so you’re not guessing accessories.\n\n**Lane:** AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026).\n\nBuy stack: https://sillgarden.com/kits/kitchen-capacity/\n60-second picker: https://sillgarden.com/tools/kit-picker/\nYear-one cost: https://sillgarden.com/tools/year-one-cost/\nMatching guide: https://sillgarden.com/guides/compare-aerogarden-models/\n\nDisclosure: https://sillgarden.com/disclosure/\n\nCurious what people kept plugged in after month two.",
+    "bluesky": "AeroGarden vs Click & Grow (2026) — Which Apartment Kit to Buy\n\nAeroGarden vs Click and Grow for apartments (2026): noise, footprint, pods, refill cost — clear pick for kitchen vs studio.\n\nhttps://sillgarden.com/guides/aerogarden-vs-click-and-grow/\nPicker: https://sillgarden.com/tools/kit-picker/",
+    "mastodon": "AeroGarden vs Click & Grow (2026) — Which Apartment Kit to Buy\n\nhttps://sillgarden.com/guides/aerogarden-vs-click-and-grow/\n\n#IndoorGarden #ApartmentLiving #Herbs",
+    "reddit": "Sub: r/Apartmentliving (alt: r/hydroponics, r/gardening)\nTitle: AeroGarden vs Click & Grow for a small apartment — which would you buy first?\n\nBody:\nI put together apartment-focused kit stacks (noise, footprint, refill cost — not brand ads) so you’re not guessing accessories.\n\n**Lane:** AeroGarden vs Click and Grow for apartments (2026): noise, footprint, pods, refill cost — clear pick for kitchen vs studio.\n\nBuy stack: https://sillgarden.com/kits/kitchen-capacity/\n60-second picker: https://sillgarden.com/tools/kit-picker/\nYear-one cost: https://sillgarden.com/tools/year-one-cost/\nMatching guide: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/\n\nDisclosure: https://sillgarden.com/disclosure/\n\nCurious what people kept plugged in after month two.",
     "pinterest": "Pin title: Kitchen Capacity Kit — AeroGarden Harvest stack\nDescription: Harvest-class + blanks/seeds so month two does not empty the wallet. Physical stack, not a PDF.\nLink: https://sillgarden.com/kits/kitchen-capacity/?utm_source=pinterest&utm_medium=social&utm_campaign=growth-agent\nDisclosure: https://sillgarden.com/disclosure/",
     "youtube_pin": "Apartment kit pick (noise vs capacity) + year-one cost:\nhttps://sillgarden.com/tools/kit-picker/\nhttps://sillgarden.com/kits/\nhttps://sillgarden.com/tools/year-one-cost/",
-    "devto": "Syndicate canonical: https://sillgarden.com/guides/compare-aerogarden-models/"
+    "devto": "Syndicate canonical: https://sillgarden.com/guides/aerogarden-vs-click-and-grow/"
   },
   "checklist": [
     "Post Reddit draft today (kit stacks first, disclose affiliates)",
