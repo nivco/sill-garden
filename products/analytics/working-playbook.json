@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-10-28",
+  "updated_at": "2026-10-29",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -212,6 +212,13 @@
       "status": "working",
       "from_impact": true,
       "action_id": "af7f6e2846132e"
+    },
+    {
+      "signal": "Impact+: applied on Aerogarden bounty, black?",
+      "action": "Repeat — positive sessions_7d +9 after faq:aerogarden-vs-click-and-grow:Aerogarden bounty, black?",
+      "status": "working",
+      "from_impact": true,
+      "action_id": "adbac99b7c3839"
     }
   ],
   "ignore": [
