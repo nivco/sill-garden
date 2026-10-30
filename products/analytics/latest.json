@@ -1,15 +1,15 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-10-29 20:43 UTC",
+  "generated_at": "2026-10-30 03:48 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 17,
-    "users_7d": 17,
+    "sessions_7d": 18,
+    "users_7d": 18,
     "pageviews_7d": 17,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 39,
+    "gsc_impressions_7d": 27,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -31,8 +31,8 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 17,
-        "sessions": 17,
+        "activeUsers": 18,
+        "sessions": 18,
         "screenPageViews": 17,
         "engagedSessions": 0,
         "averageSessionDuration_sec": 0.4,
@@ -46,7 +46,7 @@
         },
         {
           "pagePath": "/",
-          "sessions": "3",
+          "sessions": "4",
           "screenPageViews": "3"
         },
         {
@@ -59,12 +59,21 @@
         {
           "sessionDefaultChannelGroup": "Direct",
           "sessions": "17"
+        },
+        {
+          "sessionDefaultChannelGroup": "Unassigned",
+          "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
           "sessions": "17",
+          "engagedSessions": "0"
+        },
+        {
+          "sessionSourceMedium": "(not set)",
+          "sessions": "1",
           "engagedSessions": "0"
         }
       ],
@@ -87,16 +96,9 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 39,
-      "avg_position": 20.9,
+      "impressions": 27,
+      "avg_position": 24.5,
       "top_queries": [
-        {
-          "query": "aerogarden bounty basic vs elite",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 9.0
-        },
         {
           "query": "aerogarden bounty elite",
           "clicks": 0,
@@ -121,30 +123,23 @@
         {
           "query": "aerogarden harvest vs harvest elite",
           "clicks": 0,
-          "impressions": 2,
-          "ctr": 0.0,
-          "position": 29.5
-        },
-        {
-          "query": "aerogarden harvest vs harvest lite",
-          "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
-          "position": 23.0
+          "position": 50.0
         },
         {
           "query": "aerogarden trellis for 2019 bounty models",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 35.5
+          "position": 41.0
         },
         {
           "query": "aerogarden vs click and grow",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 2,
           "ctr": 0.0,
-          "position": 45.7
+          "position": 48.0
         },
         {
           "query": "click and grow vs aerogarden",
@@ -156,15 +151,15 @@
         {
           "query": "herb garden for small apartments 2026",
           "clicks": 0,
-          "impressions": 12,
+          "impressions": 6,
           "ctr": 0.0,
-          "position": 5.6
+          "position": 6.2
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-22",
-        "end": "2026-10-29"
+        "start": "2026-10-23",
+        "end": "2026-10-30"
       }
     },
     "indexing": {
@@ -777,7 +772,7 @@
         {
           "id": "pmukWXuI1e8",
           "title": "Aerogarden bounty basic vs elite (2026)",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-10-29T19:25:56Z",
           "url": "https://www.youtube.com/watch?v=pmukWXuI1e8"
@@ -1004,7 +999,7 @@
     }
   ],
   "insights": [
-    "GSC: 39 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty basic vs elite\u201d (pos 9), \u201caerogarden bounty elite\u201d (pos 64), \u201caerogarden bounty, black\u201d (pos 54). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 27 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty elite\u201d (pos 64), \u201caerogarden bounty, black\u201d (pos 54), \u201caerogarden elite bounty\u201d (pos 63). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -1051,6 +1046,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 17 | Aff clicks 0 | GSC 0c/39i | YT views 447 | Setup 6/7"
+    "headline": "Sessions 18 | Aff clicks 0 | GSC 0c/27i | YT views 447 | Setup 6/7"
   }
 }
