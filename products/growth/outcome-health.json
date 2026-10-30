@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-30 19:46 UTC",
+  "generated_at": "2026-10-30 20:57 UTC",
   "severity": "ok",
   "stalled": false,
   "zero_session_days": [],
@@ -15,7 +15,7 @@
     "youtube_views_total": 448,
     "youtube_sessions_7d": 0,
     "next_eligible_date": "2026-11-01",
-    "distribution_url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/"
+    "distribution_url": "https://sillgarden.com/guides/compare-aerogarden-models/"
   },
   "reasons": [
     "GSC 36 impressions / 0 clicks",
