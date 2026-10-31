@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-10-31 18:53 UTC",
+  "generated_at": "2026-10-31 19:37 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -55,7 +55,7 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 405,
+        "word_count_est": 409,
         "images": 22,
         "has_faq": false,
         "has_table": false,
@@ -109,39 +109,13 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 854,
+        "word_count_est": 855,
         "images": 2,
         "has_faq": false,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4030,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -192,28 +166,21 @@
     "aerogarden vs click and grow"
   ],
   "learnings": [
-    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1216 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Rewrite the page title and H1 around the highest-intent queries**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Is Best?`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Bounty Elite`",
-    "LLM peer insight: - Add a concise opening paragraph using the exact variants naturally: “AeroGarden Bounty Elite,” “AeroGarden Bounty,” “AeroGarden comparison,” and “AeroGarden Bounty black.”",
-    "LLM peer insight: - Create separate internal anchors for **Bounty**, **Bounty Elite**, and **Bounty black** rather than treating them as one product term. The Bounty is listed with a black finish, 40W light, nine pods, Wi-Fi, and a 24-inc",
-    "LLM peer insight: . **Ship a decision-first comparison table above the fold**",
-    "LLM peer insight: - Place it directly below the introduction, before the long review copy."
+    "WORKING peer pattern: ~5 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: . **Rewrite the title and hero around the highest-value queries**",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Is Better?`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty vs. Bounty Elite`",
+    "LLM peer insight: - Add an immediate subheading: “Compare wattage, finish, features, price, and the best option for herbs, greens, and compact apartments.”",
+    "LLM peer insight: - Include a small “Best for” verdict above the fold: **Bounty: best value | Bounty Elite: strongest light and premium finish**.",
+    "LLM peer insight: - The Bounty has a 40W light, while the Elite has a 50W light and stainless-steel finish, making these the clearest above-the-fold differentiators.[1][3]",
+    "LLM peer insight: . **Ship a scannable comparison table immediately below the hero**",
+    "LLM peer insight: Use a compact table with a highlighted “winner” column:",
+    "LLM peer insight: | Feature | AeroGarden Bounty | AeroGarden Bounty Elite |"
   ],
-  "llm_notes": "1. **Rewrite the page title and H1 around the highest-intent queries**\n   - **Title:** `AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Is Best?`\n   - **H1:** `AeroGarden Bounty vs Bounty Elite`\n   - Add a concise opening paragraph using the exact variants naturally: “AeroGarden Bounty Elite,” “AeroGarden Bounty,” “AeroGarden comparison,” and “AeroGarden Bounty black.”\n   - Create separate internal anchors for **Bounty**, **Bounty Elite**, and **Bounty black** rather than treating them as one product term. The Bounty is listed with a black finish, 40W light, nine pods, Wi-Fi, and a 24-inch grow height.[1][2]\n\n2. **Ship a decision-first comparison table above the fold**\n   - Place it directly below the introduction, before the long review copy.\n   - Use these rows:\n     - Pod capacity: 9 vs. 9\n     - Maximum grow height: 24 inches vs. 24 inches\n     - LED power: 40W vs. 50W\n     - Finish: black/matte vs. stainless steel\n     - Controls: touchscreen, Wi-Fi, app vs. touchscreen, Wi-Fi, app\n     - Best for: everyday herbs and greens vs. larger or fruiting plants\n     - Price/value verdict\n   - Add a final highlighted row: **“Choose Bounty if…” / “Choose Bounty Elite if…”**\n   - Make clear that Elite’s main upgrades are the stronger light and premium finish—not additional pod capacity or grow height. Available product comparisons show both models at nine pods and up to 24 inches, while the Elite uses a 50W light.[1][8][9]\n\n3. **Add an FAQ section targeting the exact GSC questions**\n   - Include six visible questions beneath the table:\n     - `Is AeroGarden Bounty Elite bet",
+  "llm_notes": "1. **Rewrite the title and hero around the highest-value queries**\n\n   - **Title:** `AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Is Better?`\n   - **H1:** `AeroGarden Bounty vs. Bounty Elite`\n   - Add an immediate subheading: “Compare wattage, finish, features, price, and the best option for herbs, greens, and compact apartments.”\n   - Use a two-button hero CTA:\n     - **Compare Bounty & Bounty Elite**\n     - **See Today’s Bounty Deals**\n   - Include a small “Best for” verdict above the fold: **Bounty: best value | Bounty Elite: strongest light and premium finish**.\n   - The Bounty has a 40W light, while the Elite has a 50W light and stainless-steel finish, making these the clearest above-the-fold differentiators.[1][3]\n\n2. **Ship a scannable comparison table immediately below the hero**\n\n   Use a compact table with a highlighted “winner” column:\n\n   | Feature | AeroGarden Bounty | AeroGarden Bounty Elite |\n   |---|---:|---:|\n   | Best for | Value-focused growers | Maximum light and premium design |\n   | Pod capacity | 9 | 9 |\n   | LED light | 40W | 50W |\n   | Maximum grow height | 24 in | 24 in |\n   | Finish | Black/matte | Stainless steel |\n   | Controls | Full-color touchscreen | Full-color touchscreen |\n   | Wi-Fi compatibility | Yes | Verify by retailer/model |\n   | Standout feature | Lower-cost 9-pod setup | Sunrise/sunset light setting |\n   | Recommendation | **Best value** | **Best overall performance** |\n\n   Add a short verdict below: “Choose Bounty unless you specifically want the Elite’s 50W light, stainless finish, or sunrise/sunset setting.” Official s",
   "proposed_actions": [
-    {
-      "type": "content_faq",
-      "priority": "P1",
-      "title": "Add/refresh FAQ from peer + GSC questions",
-      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
-      "auto": true
-    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -236,6 +203,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }

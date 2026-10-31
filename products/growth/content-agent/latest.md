@@ -1,6 +1,6 @@
-# Sill Garden Content Agent — 2026-10-30
+# Sill Garden Content Agent — 2026-10-31
 
-Generated: 2026-10-30 20:14 UTC
+Generated: 2026-10-31 19:37 UTC
 
 ## Research
 - Guides: 20
@@ -17,6 +17,6 @@ Generated: 2026-10-30 20:14 UTC
 - aerogarden bounty, black — 1 impr, pos 54.0
 - aerogarden comparison — 1 impr, pos 71.0
 - aerogarden elite bounty — 1 impr, pos 63.0
-- aerogarden harvest vs harvest elite — 2 impr, pos 56.0
+- aerogarden harvest vs harvest elite — 1 impr, pos 62.0
 - aerogarden trellis for 2019 bounty models — 1 impr, pos 41.0
 - aerogarden vs click and grow — 2 impr, pos 48.0
