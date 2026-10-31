@@ -1,0 +1,57 @@
+{
+  "generated_at": "2026-10-31 18:53 UTC",
+  "target": {
+    "slug": "compare-aerogarden-models",
+    "title": "AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison",
+    "url": "https://sillgarden.com/guides/compare-aerogarden-models/",
+    "description": "AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026).",
+    "reason": "matches query “aerogarden bounty vs bounty elite”",
+    "kind": "guide",
+    "kit_url": "https://sillgarden.com/kits/kitchen-capacity/"
+  },
+  "kit": {
+    "slug": "kits-kitchen-capacity",
+    "title": "Kitchen Capacity Kit — AeroGarden Harvest stack",
+    "url": "https://sillgarden.com/kits/kitchen-capacity/",
+    "description": "Harvest-class + blanks/seeds so month two does not empty the wallet.",
+    "lane": "kitchen"
+  },
+  "money_urls": [
+    "https://sillgarden.com/kits/",
+    "https://sillgarden.com/kits/studio-silence/",
+    "https://sillgarden.com/kits/kitchen-capacity/",
+    "https://sillgarden.com/kits/under-50/",
+    "https://sillgarden.com/kits/homemade-kratky/",
+    "https://sillgarden.com/kits/refills/",
+    "https://sillgarden.com/tools/kit-picker/",
+    "https://sillgarden.com/tools/year-one-cost/",
+    "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+    "https://sillgarden.com/guides/compare-aerogarden-models/",
+    "https://sillgarden.com/guides/cheapest-indoor-herb-garden-apartment/",
+    "https://sillgarden.com/guides/quiet-countertop-gardens-studios/",
+    "https://sillgarden.com/guides/pet-safe-low-smell-apartment-herbs/"
+  ],
+  "priority": "P1_guide_plus_kit",
+  "lessons_ref": "products/growth/AGENT-LESSONS.md",
+  "channels": {
+    "x": "Studio vs kitchen herb kit — physical stacks:\nhttps://sillgarden.com/kits/\nhttps://sillgarden.com/tools/kit-picker/\n\n#IndoorGarden #ApartmentLiving",
+    "bluesky": "AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison\n\nAeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026).\n\nhttps://sillgarden.com/guides/compare-aerogarden-models/\nPicker: https://sillgarden.com/tools/kit-picker/",
+    "mastodon": "AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison\n\nhttps://sillgarden.com/guides/compare-aerogarden-models/\n\n#IndoorGarden #ApartmentLiving #Herbs",
+    "reddit": "Sub: r/Apartmentliving (alt: r/hydroponics, r/gardening)\nTitle: AeroGarden vs Click & Grow for a small apartment — which would you buy first?\n\nBody:\nI put together apartment-focused kit stacks (noise, footprint, refill cost — not brand ads) so you’re not guessing accessories.\n\n**Lane:** AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026).\n\nBuy stack: https://sillgarden.com/kits/kitchen-capacity/\n60-second picker: https://sillgarden.com/tools/kit-picker/\nYear-one cost: https://sillgarden.com/tools/year-one-cost/\nMatching guide: https://sillgarden.com/guides/compare-aerogarden-models/\n\nDisclosure: https://sillgarden.com/disclosure/\n\nCurious what people kept plugged in after month two.",
+    "pinterest": "Pin title: Kitchen Capacity Kit — AeroGarden Harvest stack\nDescription: Harvest-class + blanks/seeds so month two does not empty the wallet. Physical stack, not a PDF.\nLink: https://sillgarden.com/kits/kitchen-capacity/?utm_source=pinterest&utm_medium=social&utm_campaign=growth-agent\nDisclosure: https://sillgarden.com/disclosure/",
+    "youtube_pin": "Apartment kit pick (noise vs capacity) + year-one cost:\nhttps://sillgarden.com/tools/kit-picker/\nhttps://sillgarden.com/kits/\nhttps://sillgarden.com/tools/year-one-cost/",
+    "devto": "Syndicate canonical: https://sillgarden.com/guides/compare-aerogarden-models/"
+  },
+  "checklist": [
+    "Post Reddit draft today (kit stacks first, disclose affiliates)",
+    "Create 1–3 Pinterest pins to /kits/* (not guide-only)",
+    "Pin kit comment on top YouTube Shorts (or run youtube_post_kit_comments.py)",
+    "If new money URLs shipped: update GSC P0 list + nudge_google_indexing PRIORITY"
+  ],
+  "distribution_rules": [
+    "When sessions are flat, Reddit/Pinterest/YouTube must lead with kit stacks (studio-silence, kitchen-capacity, under-50, homemade-kratky), not guide-only links",
+    "Always include disclosure URL when naming products",
+    "YouTube pin/comment copy: kit-picker + /kits/ + year-one-cost",
+    "After shipping money pages, refresh products/growth/distribution/gsc-request-indexing-urls.md P0 list"
+  ]
+}
