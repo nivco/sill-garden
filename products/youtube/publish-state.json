@@ -508,8 +508,17 @@
       "storyboard": "products/youtube/video-related-aerogarden-bounty-basic-vs-elite-20261027/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-11-01T14:26:07.652497+00:00"
+    },
+    "video-related-aerogarden-trellis-for-2019-bounty-models-20261030": {
+      "youtube_id": "Ez3v350PS9Y",
+      "url": "https://youtu.be/Ez3v350PS9Y",
+      "title": "Aerogarden trellis for 2019 bounty models (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-11-01T18:44:06.821258+00:00",
+      "storyboard": "products/youtube/video-related-aerogarden-trellis-for-2019-bounty-models-20261030/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-11-01T14:26:09.817664+00:00",
-  "next_eligible_date": "2026-11-01"
+  "next_eligible_date": "2026-11-04"
 }
