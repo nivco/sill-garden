@@ -1,10 +1,10 @@
-# Sill Garden Content Agent — 2026-10-31
+# Sill Garden Content Agent — 2026-11-01
 
-Generated: 2026-10-31 19:37 UTC
+Generated: 2026-11-01 19:56 UTC
 
 ## Research
 - Guides: 20
-- Zero-click GSC queries: 10
+- Zero-click GSC queries: 6
 - Network probes ok: 5/5
 - LLM notes: 3
 
@@ -12,11 +12,9 @@ Generated: 2026-10-31 19:37 UTC
 - No content changes this run.
 
 ## Top demand
-- aerogarden bounty elite — 1 impr, pos 64.0
 - aerogarden bounty vs bounty elite — 1 impr, pos 50.0
-- aerogarden bounty, black — 1 impr, pos 54.0
 - aerogarden comparison — 1 impr, pos 71.0
-- aerogarden elite bounty — 1 impr, pos 63.0
 - aerogarden harvest vs harvest elite — 1 impr, pos 62.0
-- aerogarden trellis for 2019 bounty models — 1 impr, pos 41.0
 - aerogarden vs click and grow — 2 impr, pos 48.0
+- best lightweight herb garden under 50 — 2 impr, pos 9.5
+- herb garden for small apartments 2026 — 8 impr, pos 5.2
