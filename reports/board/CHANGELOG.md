@@ -72,3 +72,4 @@
 - 2026-10-29 · daily · roles=3 · top: n/a
 - 2026-10-30 · daily · roles=3 · top: n/a
 - 2026-10-31 · daily · roles=3 · top: n/a
+- 2026-11-01 · monthly · roles=7 · top: [CMO / Growth & Distribution] Low real sessions — prioritize YouTube videos, Reddit value-first posts, and social distribution.
