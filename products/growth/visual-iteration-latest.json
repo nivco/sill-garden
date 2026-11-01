@@ -1,6 +1,9 @@
 {
-  "generated_at": "2026-10-31 18:53 UTC",
+  "generated_at": "2026-11-01 19:15 UTC",
   "applied": [
+    "faq:aerogarden-vs-click-and-grow:Best lightweight herb garden under 50?",
+    "faq:compare-aerogarden-models:Best lightweight herb garden under 50?",
+    "faq:best-countertop-garden-apartments:Best lightweight herb garden under 50?",
     "updated visual-backlog.md"
   ],
   "queued": [
@@ -12,9 +15,9 @@
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "WORKING peer pattern: long-form depth (~1216 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Rewrite the page title and H1 around the highest-intent queries**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Is Best?`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Bounty Elite`"
+    "LLM peer insight: . **Build one comparison-led title/H1 cluster around GSC demand.**",
+    "LLM peer insight: - Title: **AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Is Worth It?**",
+    "LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Elite**"
   ],
   "dry_run": false
 }
