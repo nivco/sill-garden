@@ -184,6 +184,9 @@ Match the setup to your light, noise tolerance, and landlord rules — not brand
 
 **Best simple herb garden under 50?**  
 Match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Click and grow vs auk?**  
+For "click and grow vs auk", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
 ## Our call
 
 **Default:** AeroGarden Harvest-class for most readers.  
