@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-01 19:15 UTC",
+  "generated_at": "2026-11-02 22:56 UTC",
   "wow": {
     "ga4_sessions_7d": -1.0,
-    "gsc_impressions_7d": -4.0,
+    "gsc_impressions_7d": 16.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 21,
-    "gsc_impressions_7d": 32,
+    "sessions_7d": 20,
+    "gsc_impressions_7d": 48,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -30,6 +30,13 @@
       "position": 71.0
     },
     {
+      "query": "aerogarden elite bounty",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 87.0
+    },
+    {
       "query": "aerogarden harvest vs harvest elite",
       "clicks": 0,
       "impressions": 1,
@@ -41,7 +48,7 @@
       "clicks": 0,
       "impressions": 2,
       "ctr": 0.0,
-      "position": 48.0
+      "position": 49.5
     },
     {
       "query": "best lightweight herb garden under 50",
@@ -51,22 +58,43 @@
       "position": 9.5
     },
     {
+      "query": "best simple herb garden under 50",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 7.0
+    },
+    {
+      "query": "best waterproof herb garden under 50",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0
+    },
+    {
+      "query": "click and grow vs auk",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 5.0
+    },
+    {
       "query": "herb garden for small apartments 2026",
       "clicks": 0,
-      "impressions": 8,
+      "impressions": 20,
       "ctr": 0.0,
-      "position": 5.2
+      "position": 5.0
     }
   ],
   "learnings": [
-    "LLM peer insight: Ship three scannable tables with columns for **best for, pod capacity, light wattage, grow height, controls, footprint/weight, recurring pod cost, and current price**.",
-    "LLM peer insight: . **Add decision-first comparison tables, not generic product summaries.**",
-    "LLM peer insight: - Use a short opening verdict before specifications. The Bounty Elite’s main differentiators are its 50W light, stainless finish, and sunrise/sunset lighting—not extra pod capacity.[4][9]",
-    "LLM peer insight: - Best lightweight herb gardens under $50",
-    "LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Elite**",
-    "LLM peer insight: - Title: **AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Is Worth It?**",
-    "LLM peer insight: . **Build one comparison-led title/H1 cluster around GSC demand.**",
-    "WORKING peer pattern: long-form depth (~1216 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
+    "LLM peer insight: - This directly matches the GSC demand instead of using a broad, brand-style title.",
+    "LLM peer insight: - Add a short verdict directly below the H1: **“Choose Bounty Elite for the strongest light and premium controls; choose Bounty for similar capacity at a lower price.”**",
+    "LLM peer insight: - “Which AeroGarden Is Best for Herbs, Greens, or Tomatoes?”",
+    "LLM peer insight: - Use H1: **“AeroGarden Bounty vs Bounty Elite”**",
+    "LLM peer insight: - Set the title to: **“AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Should You Buy?”**",
+    "LLM peer insight: . **Build one intent-led comparison hub with exact-match titles**",
+    "WORKING peer pattern: long-form depth (~1201 words avg) — expand thin guides with decision rules, not fluff.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -86,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-11-01 19:15 UTC"
+    "generated_at": "2026-11-02 22:56 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 8 action(s) still measuring (3-7d windows)",
+      "IMPACT: 9 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

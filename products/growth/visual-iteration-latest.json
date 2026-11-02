@@ -1,9 +1,9 @@
 {
-  "generated_at": "2026-11-01 19:15 UTC",
+  "generated_at": "2026-11-02 22:56 UTC",
   "applied": [
-    "faq:aerogarden-vs-click-and-grow:Best lightweight herb garden under 50?",
-    "faq:compare-aerogarden-models:Best lightweight herb garden under 50?",
-    "faq:best-countertop-garden-apartments:Best lightweight herb garden under 50?",
+    "faq:aerogarden-vs-click-and-grow:Best simple herb garden under 50?",
+    "faq:compare-aerogarden-models:Best simple herb garden under 50?",
+    "faq:best-countertop-garden-apartments:Best simple herb garden under 50?",
     "updated visual-backlog.md"
   ],
   "queued": [
@@ -14,10 +14,10 @@
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1216 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Build one comparison-led title/H1 cluster around GSC demand.**",
-    "LLM peer insight: - Title: **AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Is Worth It?**",
-    "LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Elite**"
+    "WORKING peer pattern: long-form depth (~1201 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Build one intent-led comparison hub with exact-match titles**",
+    "LLM peer insight: - Set the title to: **“AeroGarden Bounty vs Bounty Elite: Which 9-Pod Garden Should You Buy?”**",
+    "LLM peer insight: - Use H1: **“AeroGarden Bounty vs Bounty Elite”**"
   ],
   "dry_run": false
 }
