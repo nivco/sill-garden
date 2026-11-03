@@ -251,3 +251,6 @@ date,cadence,role,metric,value,source
 2026-11-02,weekly,seo,gsc_clicks_7d,0,analytics/latest.json
 2026-11-02,weekly,content,guides_count,20,src/content/guides/
 2026-11-02,weekly,cro,affiliate_clicks_7d,0,analytics/latest.json
+2026-11-03,daily,seo,gsc_impressions_7d,52,analytics/latest.json
+2026-11-03,daily,seo,gsc_clicks_7d,0,analytics/latest.json
+2026-11-03,daily,cmo,ga4_sessions_7d,15,analytics/latest.json
