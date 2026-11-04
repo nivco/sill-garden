@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-04 20:58 UTC",
+  "generated_at": "2026-11-04 21:36 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -120,32 +120,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4049,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -192,28 +166,21 @@
     "best simple herb garden under 50"
   ],
   "learnings": [
-    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "WORKING peer pattern: long-form depth (~1175 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Create a dedicated comparison hub targeting the exact GSC queries.**",
-    "LLM peer insight: Use an SEO title such as: **“AeroGarden Bounty vs Bounty Elite vs Harvest: Which Indoor Garden Is Best?”**",
-    "LLM peer insight: Set the H1 to: **“AeroGarden Bounty vs Bounty Elite vs Harvest Elite”** and add short sections for:",
-    "LLM peer insight: Put the answer to each query in the first 50–75 words, then link to deeper reviews.",
-    "LLM peer insight: . **Add decision-focused comparison tables above the fold.**",
-    "LLM peer insight: Include columns for model, pod capacity, light power, maximum grow height, smart features, finish, vacation mode, refill cost, and best-for. Clearly mark the winner in each category. For example, Bounty Elite’s different",
-    "LLM peer insight: Add a second table for **AeroGarden vs Click & Grow** covering setup, watering, nutrients, light strength, plant height, noise, refill flexibility, and ongoing cost. AeroGarden uses an active pump and liquid nutrients, w"
+    "LLM peer insight: . **Retitle the comparison hub around the exact GSC demand.**",
+    "LLM peer insight: **AeroGarden Comparison: Bounty vs Bounty Elite vs Harvest vs Harvest Elite**",
+    "LLM peer insight: **Which AeroGarden Should You Buy? Bounty, Bounty Elite, Harvest & Harvest Elite Compared**",
+    "LLM peer insight: Add a 40–60-word opening verdict immediately below the H1, followed by jump links to each comparison. Include “AeroGarden vs Click & Grow” as a secondary section, not the primary title. AeroGarden’s range is differentiat",
+    "LLM peer insight: . **Ship one decision-first comparison table above the fold.**",
+    "LLM peer insight: Put this directly beneath the intro, before long prose:",
+    "LLM peer insight: | Model | Best for | Pods | Growing height | Main advantage | Main drawback |",
+    "LLM peer insight: | Harvest | Herbs on a budget | 6 | Shorter | Lowest-cost entry | Limited room for tall plants |",
+    "LLM peer insight: | Harvest Elite | Herbs plus better finish | 6 | Shorter | Stainless finish and vacation mode | Same six-pod capacity |"
   ],
-  "llm_notes": "1. **Create a dedicated comparison hub targeting the exact GSC queries.**  \n   Use an SEO title such as: **“AeroGarden Bounty vs Bounty Elite vs Harvest: Which Indoor Garden Is Best?”**  \n   Set the H1 to: **“AeroGarden Bounty vs Bounty Elite vs Harvest Elite”** and add short sections for:\n   - AeroGarden Bounty vs Bounty Elite\n   - AeroGarden Harvest vs Harvest Elite\n   - AeroGarden vs Click & Grow  \n   Put the answer to each query in the first 50–75 words, then link to deeper reviews.\n\n2. **Add decision-focused comparison tables above the fold.**  \n   Include columns for model, pod capacity, light power, maximum grow height, smart features, finish, vacation mode, refill cost, and best-for. Clearly mark the winner in each category. For example, Bounty Elite’s differentiators include a 50W dimmable light, 24-inch grow height, stainless finish, Wi-Fi/app features, and sunrise/sunset lighting; Harvest Elite mainly adds the stainless finish and vacation mode over Harvest.[1][2][3][4]  \n   Add a second table for **AeroGarden vs Click & Grow** covering setup, watering, nutrients, light strength, plant height, noise, refill flexibility, and ongoing cost. AeroGarden uses an active pump and liquid nutrients, while Click & Grow uses passive wick-fed pods with pre-loaded nutrients.[4][5]\n\n3. **Replace generic titles with query-matched, benefit-led titles and FAQs.**  \n   Use these page titles:\n   - **“AeroGarden Bounty vs Bounty Elite: 7 Differences That Matter”**\n   - **“AeroGarden Harvest vs Harvest Elite: Is the Upgrade Worth It?”**\n   - **“AeroGarden vs Click & Grow: Cost, Growth",
+  "llm_notes": "1. **Retitle the comparison hub around the exact GSC demand.**  \n   Replace a generic title with:  \n   **AeroGarden Comparison: Bounty vs Bounty Elite vs Harvest vs Harvest Elite**  \n   Use an H1 that matches it closely:  \n   **Which AeroGarden Should You Buy? Bounty, Bounty Elite, Harvest & Harvest Elite Compared**  \n   Add a 40–60-word opening verdict immediately below the H1, followed by jump links to each comparison. Include “AeroGarden vs Click & Grow” as a secondary section, not the primary title. AeroGarden’s range is differentiated mainly by pod capacity, height, lighting, finish, and features.[1][4][5]\n\n2. **Ship one decision-first comparison table above the fold.**  \n   Put this directly beneath the intro, before long prose:\n\n   | Model | Best for | Pods | Growing height | Main advantage | Main drawback |\n   |---|---|---:|---:|---|---|\n   | Harvest | Herbs on a budget | 6 | Shorter | Lowest-cost entry | Limited room for tall plants |\n   | Harvest Elite | Herbs plus better finish | 6 | Shorter | Stainless finish and vacation mode | Same six-pod capacity |\n   | Bounty | Larger harvests | 9 | Up to 24 in. | More capacity and flexibility | Larger footprint |\n   | Bounty Elite | Maximum features | 9 | Up to 24 in. | Stronger light, smart features, trellis | Highest price |\n\n   Add a “**Our pick for most apartments: Bounty**” callout beneath the table, with a separate “**Best value: Harvest**” label. Verify every specification and price before publishing; peer pages contain conflicting product details and changing prices.[4][8][10]\n\n3. **Create dedicated FAQ blocks for ",
   "proposed_actions": [
-    {
-      "type": "content_faq",
-      "priority": "P1",
-      "title": "Add/refresh FAQ from peer + GSC questions",
-      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
-      "auto": true
-    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -236,6 +203,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }

@@ -1,10 +1,10 @@
-# Sill Garden Content Agent — 2026-11-03
+# Sill Garden Content Agent — 2026-11-04
 
-Generated: 2026-11-03 21:20 UTC
+Generated: 2026-11-04 21:36 UTC
 
 ## Research
-- Guides: 20
-- Zero-click GSC queries: 11
+- Guides: 21
+- Zero-click GSC queries: 12
 - Network probes ok: 5/5
 - LLM notes: 3
 
