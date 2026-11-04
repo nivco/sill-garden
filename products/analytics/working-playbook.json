@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-03",
+  "updated_at": "2026-11-04",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -360,6 +360,13 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "00f5535033fea6"
+    },
+    {
+      "signal": "Impact-: applied on Best lightweight herb garden under 50?",
+      "action": "Revisit approach — negative sessions_7d -14. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "f81e8a297687a9"
     }
   ],
   "money_urls": [
