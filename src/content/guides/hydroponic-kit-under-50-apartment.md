@@ -23,6 +23,24 @@ products:
   - name: AeroGarden Harvest / Harvest Lite
     note: Faster herbs once the budget is above $50
     asin: B07CKNWHPQ
+  - name: Wide-mouth mason jars
+    note: Clear jars so the water line stays visible
+    search: wide mouth mason jars 32 oz
+  - name: Hydroponic net pots
+    note: 3-inch cups that sit in a jar lid
+    search: 3 inch hydroponic net pots
+  - name: Clay pebbles (hydroton)
+    note: Holds the stem without soil
+    search: hydroton clay pebbles
+  - name: Indoor herb / hydro plant food
+    note: Mix to the bottle’s herb rate
+    search: indoor hydroponic plant food nutrients
+  - name: Hydroponic pH test strips
+    note: Check the solution before you blame the seed
+    search: hydroponic pH test strips
+  - name: Loose-leaf lettuce seeds
+    note: Easier first jar crop than woody herbs
+    search: loose leaf lettuce seeds hydroponic
 ---
 
 People searching **best hydroponic kit under $50** usually land on pod-garden roundups that quietly price the winner at $70–$130. This page is the budget cut: what hydroponics you can actually start for less than fifty dollars in an apartment, and when to stop pretending a branded countertop garden is “under $50.”

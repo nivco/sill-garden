@@ -22,6 +22,24 @@ products:
     note: Upgrade when you want timers without jar babysitting
     asin: B01MRVMKQH
     partner: click-grow
+  - name: Wide-mouth mason jars
+    note: Clear 32 oz jars for the water line
+    search: wide mouth mason jars 32 oz
+  - name: Hydroponic net pots
+    note: Sit in a drilled lid
+    search: 3 inch hydroponic net pots
+  - name: Clay pebbles (hydroton)
+    note: Holds the plant above the solution
+    search: hydroton clay pebbles
+  - name: Indoor herb / hydro plant food
+    note: Mix to the herb rate on the bottle
+    search: indoor hydroponic plant food nutrients
+  - name: Hydroponic pH test strips
+    note: One check before you restart a dead jar
+    search: hydroponic pH test strips
+  - name: Loose-leaf lettuce seeds
+    note: Easier first crop than rosemary
+    search: loose leaf lettuce seeds hydroponic
 ---
 
 The **Kratky method** is passive hydroponics: plant in a net pot, roots reach a nutrient solution, air gap stays above the water line, and you mostly leave it alone. No pump — which means no hum in a studio.

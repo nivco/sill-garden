@@ -21,6 +21,22 @@ products:
   - name: Grow sponges / blank pod inserts
     note: Search your exact kit model + blank inserts
     search: AeroGarden grow sponges blank pods
+  - name: Click & Grow plant pods / refills
+    note: Branded pods for cycle one
+    search: Click and Grow plant pods refill
+    partner: click-grow
+  - name: Click & Grow compatible blank inserts
+    note: Your seed after you know what you eat
+    search: Click and Grow compatible pods blank
+  - name: Indoor herb / hydro plant food
+    note: Required once you leave pre-fertilized pods
+    search: indoor hydroponic plant food nutrients
+  - name: Spearmint seeds
+    note: Second herb after basil, still cheap as seed
+    search: spearmint seeds for planting
+  - name: Italian parsley seeds
+    note: Slower, worth a packet if you cook it weekly
+    search: Italian parsley seeds for planting
 ---
 
 The sticker price of a countertop garden is not the lifetime price. **Pods** are how brands make money after you fall in love with basil.

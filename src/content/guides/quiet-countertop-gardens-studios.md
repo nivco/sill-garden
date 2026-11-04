@@ -25,6 +25,15 @@ products:
   - name: 24-hour outlet timer
     note: Lights off while you sleep — no app required
     search: 24 hour mechanical outlet timer
+  - name: 6500K daylight LED bulb
+    note: Desk-lamp option when a clip light is too harsh beside the bed
+    search: 6500K LED grow light bulb
+  - name: Surge-protected power strip
+    note: Timer, light, and shade fan on one protected outlet
+    search: surge protector power strip
+  - name: Wide-mouth mason jars
+    note: Silent Kratky backup if you do not want a branded garden
+    search: wide mouth mason jars 32 oz
 ---
 
 In a studio, the grow light and the pump are roommate problems. Solve those two and countertop gardening is easy. Ignore them and you’ll unplug the garden by week two.

@@ -25,6 +25,18 @@ products:
 - name: Waterproof boot / drip tray
   note: Non-negotiable for rentals
   search: waterproof boot tray for plants
+- name: Chive seeds
+  note: Forgiving herb for the simple under-$50 sill
+  search: chive seeds for planting
+- name: Coco coir for seed starting
+  note: Lighter than bagged garden soil in a rental
+  search: coco coir seed starting bricks
+- name: 24-hour outlet timer
+  note: Keep the clip light on 14–16 hours without an app
+  search: 24 hour mechanical outlet timer
+- name: Herb snips
+  note: Harvest without tearing the first plants
+  search: herb scissors kitchen
 ---
 You do not need a $100 kit to start. The cheapest indoor herb garden is the one that matches your light and stops water damage — not the one with the most pods.
 

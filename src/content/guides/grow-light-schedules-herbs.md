@@ -17,6 +17,15 @@ products:
   - name: AeroGarden Harvest (6-pod class)
     note: Built-in light + schedule reminders
     asin: B07CKNWHPQ
+  - name: 6500K daylight LED bulb
+    note: Put it in a lamp you already own
+    search: 6500K LED grow light bulb
+  - name: Desk / light privacy screen
+    note: Block LED bleed toward a bed
+    search: bamboo desk privacy panel small
+  - name: Surge-protected power strip
+    note: Timer and lamp on one protected outlet
+    search: surge protector power strip
 ---
 
 Plants need a dark stretch. Your neighbors (and your circadian rhythm) need the LED off at night. Set the schedule before you plant.

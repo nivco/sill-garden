@@ -20,6 +20,18 @@ products:
   note: Quieter alternative if pump noise matters
   asin: B01MRVMKQH
   partner: click-grow
+- name: AeroGarden Bounty (9-pod class)
+  note: More pods and height when the counter is deep enough
+  search: AeroGarden Bounty indoor garden
+- name: AeroGarden Harvest Elite
+  note: Same six pods, taller light — not a capacity upgrade
+  search: AeroGarden Harvest Elite
+- name: AeroGarden grow sponges / blank pods
+  note: Cut refill cost after the first gourmet kit
+  search: AeroGarden grow sponges blank pods
+- name: Waterproof boot / drip tray
+  note: Bounty bowls still sweat onto wood counters
+  search: waterproof boot tray for plants
 ---
 Searching **AeroGarden Harvest vs Bounty** (or **Bounty vs Harvest**, **Harvest vs Harvest Elite**, **AeroGarden Bounty vs Bounty Basic**, **Bounty Basic vs Elite**, **Farm vs Farm Plus**, **AeroGarden comparison chart**) usually means: which kit fits a real apartment counter, not a showroom.
 

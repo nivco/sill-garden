@@ -19,6 +19,18 @@ products:
 - name: 24-hour outlet timer
   note: Give supplemental light a consistent daily schedule
   search: 24 hour mechanical outlet timer
+- name: Spearmint seeds
+  note: Best low-light herb to start
+  search: spearmint seeds for planting
+- name: Chive seeds
+  note: Tolerates a weaker sill
+  search: chive seeds for planting
+- name: Italian parsley seeds
+  note: Works if you add a clip light
+  search: Italian parsley seeds for planting
+- name: 6500K daylight LED bulb
+  note: Lamp you already own, brighter spectrum
+  search: 6500K LED grow light bulb
 ---
 A dim apartment window can grow herbs, but it cannot grow every herb well. The best low-light herbs are plants that tolerate slower growth without stretching into weak, pale stems.
 

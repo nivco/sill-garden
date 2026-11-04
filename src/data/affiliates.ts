@@ -19,6 +19,18 @@ export const affiliateProducts = {
     note: 'Best default starter for most kitchens',
     asin: 'B07CKNWHPQ',
   },
+  aerogardenBounty: {
+    id: 'aerogarden-bounty',
+    name: 'AeroGarden Bounty (9-pod class)',
+    note: 'Deeper counter, taller plants — confirm the exact listing is in stock',
+    search: 'AeroGarden Bounty indoor garden',
+  },
+  aerogardenHarvestElite: {
+    id: 'aerogarden-harvest-elite',
+    name: 'AeroGarden Harvest Elite',
+    note: 'Same pod count as Harvest, taller light arm',
+    search: 'AeroGarden Harvest Elite',
+  },
   clickAndGrow3: {
     id: 'click-and-grow-3',
     name: 'Click & Grow Smart Garden 3',
@@ -110,6 +122,78 @@ export const affiliateProducts = {
     name: 'Light potting mix (not garden soil)',
     note: 'For sill pots — drainage matters in rentals',
     search: 'indoor potting mix for herbs',
+  },
+  wideMouthJars: {
+    id: 'wide-mouth-jars',
+    name: 'Wide-mouth mason jars',
+    note: 'Clear jars so you can see the Kratky water line',
+    search: 'wide mouth mason jars 32 oz',
+  },
+  netPots: {
+    id: 'net-pots',
+    name: 'Hydroponic net pots',
+    note: '3-inch cups that sit in a jar lid',
+    search: '3 inch hydroponic net pots',
+  },
+  clayPebbles: {
+    id: 'clay-pebbles',
+    name: 'Clay pebbles (hydroton)',
+    note: 'Holds the stem in a net pot without soil',
+    search: 'hydroton clay pebbles',
+  },
+  phStrips: {
+    id: 'ph-strips',
+    name: 'Hydroponic pH test strips',
+    note: 'Check nutrient water before you blame the seed',
+    search: 'hydroponic pH test strips',
+  },
+  parsleySeeds: {
+    id: 'parsley-seeds',
+    name: 'Italian parsley seeds',
+    note: 'Slower than basil; worth a bright sill or a clip light',
+    search: 'Italian parsley seeds for planting',
+  },
+  cilantroSeeds: {
+    id: 'cilantro-seeds',
+    name: 'Cilantro seeds',
+    note: 'Bolts in heat — harvest leaves early',
+    search: 'cilantro coriander seeds for planting',
+  },
+  chivesSeeds: {
+    id: 'chives-seeds',
+    name: 'Chive seeds',
+    note: 'Forgiving on a weaker apartment sill',
+    search: 'chive seeds for planting',
+  },
+  lettuceSeeds: {
+    id: 'lettuce-seeds',
+    name: 'Loose-leaf lettuce seeds',
+    note: 'Easier first Kratky crop than woody herbs',
+    search: 'loose leaf lettuce seeds hydroponic',
+  },
+  herbSnips: {
+    id: 'herb-snips',
+    name: 'Herb snips',
+    note: 'Pinch harvests without tearing stems',
+    search: 'herb scissors kitchen',
+  },
+  daylightBulb: {
+    id: 'daylight-bulb',
+    name: '6500K daylight LED bulb',
+    note: 'Desk-lamp upgrade when a clip light is too small',
+    search: '6500K LED grow light bulb',
+  },
+  cocoCoir: {
+    id: 'coco-coir',
+    name: 'Coco coir for seed starting',
+    note: 'Light medium for pots — not backyard dirt',
+    search: 'coco coir seed starting bricks',
+  },
+  surgeStrip: {
+    id: 'surge-strip',
+    name: 'Surge-protected power strip',
+    note: 'Lights, pumps, and timers on one protected outlet',
+    search: 'surge protector power strip',
   },
 } as const satisfies Record<string, AffiliateProduct>;
 

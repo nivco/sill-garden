@@ -8,15 +8,18 @@ image: /images/guide-diy-herbs.jpg
 imageAlt: Potted mint on a bright windowsill
 verdict: Mint is the easiest apartment herb if you give it a wide pot, consistent moisture, and trim often. Start in soil on a sill before you buy a hydro kit just for mint.
 products:
-  - name: Herb pots with saucers
-    note: Mint spreads — give it its own pot
+  - name: Spearmint seeds
+    note: Forgiving once it has light and a pot of its own
+    search: spearmint seeds for planting
+  - name: Small herb pots with saucers
+    note: Keep mint out of the other herbs — it spreads
     search: herb pots with saucers indoor
-  - name: Spearmint seeds or starter plant
-    note: Spearmint is usually milder for cooking
-    search: spearmint plant for indoor pots
   - name: Clip-on LED grow light
-    note: If the sill is north-facing or shaded
+    note: North sills still stretch mint
     search: LED clip grow light indoor plants
+  - name: Herb snips
+    note: Cut stems above a leaf pair
+    search: herb scissors kitchen
   - name: Click & Grow Smart Garden 3
     note: Only if you want mint with zero watering guesswork
     asin: B01MRVMKQH

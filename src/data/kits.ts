@@ -23,7 +23,15 @@ export const starterKits: StarterKit[] = [
       'No-pump countertop garden plus the landlord-safe extras that stop water and light from wrecking a studio.',
     whoFor: 'Open studios, light sleepers, bedrooms that share the kitchen.',
     primaryId: 'clickAndGrow3',
-    stackIds: ['clickAndGrow3', 'bootTray', 'bambooLightHood', 'clickGrowRefills', 'outletTimer'],
+    stackIds: [
+      'clickAndGrow3',
+      'bootTray',
+      'bambooLightHood',
+      'outletTimer',
+      'clickGrowRefills',
+      'clickGrowCompatible',
+      'surgeStrip',
+    ],
     guideHref: '/guides/quiet-countertop-gardens-studios/',
     guideLabel: 'Quiet gardens guide',
     yearOneNote:
@@ -37,7 +45,16 @@ export const starterKits: StarterKit[] = [
       'Harvest-class kit for cooks who use basil and mint weekly — plus blanks and seeds so month two does not empty the wallet.',
     whoFor: '1-beds with a real kitchen corner and a soft pump hum is fine.',
     primaryId: 'aerogardenHarvest',
-    stackIds: ['aerogardenHarvest', 'bootTray', 'aerogardenSponges', 'basilSeeds', 'liquidPlantFood'],
+    stackIds: [
+      'aerogardenHarvest',
+      'aerogardenBounty',
+      'bootTray',
+      'aerogardenSponges',
+      'basilSeeds',
+      'mintSeeds',
+      'liquidPlantFood',
+      'herbSnips',
+    ],
     guideHref: '/guides/aerogarden-vs-click-and-grow/',
     guideLabel: 'AeroGarden vs Click & Grow',
     yearOneNote:
@@ -52,7 +69,17 @@ export const starterKits: StarterKit[] = [
     whoFor:
       'Bright sills, renters testing the habit before a $100 kit, and anyone who wants simple/natural soil herbs without pods.',
     primaryId: 'herbPots',
-    stackIds: ['herbPots', 'bootTray', 'pottingMix', 'basilSeeds', 'clipGrowLight'],
+    stackIds: [
+      'herbPots',
+      'bootTray',
+      'pottingMix',
+      'cocoCoir',
+      'basilSeeds',
+      'mintSeeds',
+      'chivesSeeds',
+      'clipGrowLight',
+      'outletTimer',
+    ],
     guideHref: '/guides/cheapest-indoor-herb-garden-apartment/',
     guideLabel: 'Cheapest apartment herb garden',
     yearOneNote:
@@ -67,7 +94,18 @@ export const starterKits: StarterKit[] = [
     whoFor:
       'Studios that need zero pump noise, tinkerers, and “best homemade herb garden under 50” shoppers with honest light.',
     primaryId: 'kratkyJar',
-    stackIds: ['kratkyJar', 'bootTray', 'liquidPlantFood', 'basilSeeds', 'clipGrowLight'],
+    stackIds: [
+      'kratkyJar',
+      'wideMouthJars',
+      'netPots',
+      'clayPebbles',
+      'liquidPlantFood',
+      'phStrips',
+      'lettuceSeeds',
+      'basilSeeds',
+      'bootTray',
+      'clipGrowLight',
+    ],
     guideHref: '/guides/kratky-jar-herbs-apartment/',
     guideLabel: 'Kratky jar herbs guide',
     yearOneNote:
@@ -103,6 +141,21 @@ export const refillGroups: RefillGroup[] = [
   {
     title: 'Soil / sill lane',
     blurb: 'No pods. Recurring cost is mix, seeds, and saucers that protect the deposit.',
-    productIds: ['herbPots', 'pottingMix', 'basilSeeds', 'mintSeeds', 'bootTray'],
+    productIds: ['herbPots', 'pottingMix', 'cocoCoir', 'basilSeeds', 'mintSeeds', 'bootTray'],
+  },
+  {
+    title: 'Kratky / jar lane',
+    blurb: 'The under-$50 hydro refill list: jars, net cups, pebbles, nutrient, and a pH check.',
+    productIds: ['wideMouthJars', 'netPots', 'clayPebbles', 'liquidPlantFood', 'phStrips', 'lettuceSeeds'],
+  },
+  {
+    title: 'Lights and power',
+    blurb: 'Dim sills and studios fail on light and sleep, not on another seed packet.',
+    productIds: ['clipGrowLight', 'daylightBulb', 'outletTimer', 'bambooLightHood', 'surgeStrip'],
+  },
+  {
+    title: 'Herb seeds people actually cook',
+    blurb: 'One packet per herb you eat weekly. Skip a 40-variety kit.',
+    productIds: ['basilSeeds', 'mintSeeds', 'parsleySeeds', 'cilantroSeeds', 'chivesSeeds', 'lettuceSeeds', 'herbSnips'],
   },
 ];

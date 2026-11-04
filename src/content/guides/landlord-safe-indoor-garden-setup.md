@@ -25,6 +25,12 @@ products:
   - name: Kratky mason jar setup
     note: Silent DIY on a tray
     search: Kratky hydroponic mason jar kit
+  - name: Surge-protected power strip
+    note: Lights and timers without a wall adapter pile-up
+    search: surge protector power strip
+  - name: 24-hour outlet timer
+    note: Lights off at night without an app account
+    search: 24 hour mechanical outlet timer
 ---
 
 Landlords rarely ban “herbs.” They care about water damage, mold, and holes in walls. Build your garden around those three.
