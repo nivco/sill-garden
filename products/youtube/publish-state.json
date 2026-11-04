@@ -518,8 +518,17 @@
       "storyboard": "products/youtube/video-related-aerogarden-trellis-for-2019-bounty-models-20261030/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-11-04T15:40:40.831263+00:00"
+    },
+    "video-related-herb-garden-for-small-apartments-2026": {
+      "youtube_id": "HRLTtAAkxK0",
+      "url": "https://youtu.be/HRLTtAAkxK0",
+      "title": "Herb garden for small apartments 2026 (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-11-04T20:41:06.457203+00:00",
+      "storyboard": "products/youtube/video-related-herb-garden-for-small-apartments-2026/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-11-04T15:40:42.371405+00:00",
-  "next_eligible_date": "2026-11-04"
+  "next_eligible_date": "2026-11-07"
 }
