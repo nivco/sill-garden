@@ -1,12 +1,12 @@
 ---
 title: Best Cheap Herb Garden Under $50 for Apartments (2026)
-description: "Best budget herb garden under $50 for apartments (2026) — soil + tray, Kratky, or quiet Click & Grow; when to upgrade."
+description: "Best cheap, simple, lightweight, and portable herb garden under $50 for apartments (2026) — plus the only hydroponic setup that stays in budget."
 pubDate: 2026-08-17
 cluster: systems
 type: guide
 image: /images/guide-herbs.jpg
 imageAlt: Basil and rosemary in pots — a low-cost apartment herb start
-updatedDate: 2026-10-20
+updatedDate: 2026-11-04
 verdict: Start under $50 with soil pots + a waterproof tray if your sill gets real daylight. Add a clip LED before you buy pods. Choose homemade Kratky when you want silence and a learning project. Upgrade to a Click & Grow Smart Garden 3 only when watering fatigue or weak light keeps killing DIY starts.
 products:
 - name: Click & Grow Smart Garden 3
@@ -104,6 +104,24 @@ Buy a Click & Grow–class 3-pod unit when you keep forgetting watering, your si
 - A surge-protected outlet strip
 - Seeds or starters for herbs you already cook (mint/parsley before exotic basil cultivars)
 
+## Best simple, lightweight, and portable setups under $50
+
+Google splits one intent into three phrases. They are the same purchase if you pack it this way:
+
+| Phrase people type | What to actually buy | Why it ranks as “best” |
+|--------------------|----------------------|------------------------|
+| **Best simple herb garden under 50** | Two herbs you cook, three plastic pots, one tray | Fewer parts, fewer dead plants |
+| **Best lightweight herb garden under 50** | Plastic pots (not ceramic) + clip LED you can lift to the sink | You will move it to water |
+| **Best portable herb garden under 50** | Same cluster on one boot tray with a handle or caddy | One trip when you rearrange the sill |
+
+Skip “portable hydroponic towers.” A 12-pod deck is not portable in a walk-up, and almost none of them stay under $50 once a light is included.
+
+## Best hydroponic kit under $50
+
+A branded AeroGarden or Click & Grow is **not** an under-$50 hydroponic kit. The setup that stays in budget is a **Kratky jar**: mason jar, net pot, nutrient, and a clip LED if the counter is dim. Full method: [Kratky jar herbs](/guides/kratky-jar-herbs-apartment/). Physical list: [Homemade Kratky Kit](/kits/homemade-kratky/).
+
+Dedicated comparison of what $50 does and does not buy in hydro: [hydroponic kit under $50](/guides/hydroponic-kit-under-50-apartment/).
+
 ## 30-day shopping list
 
 1. Tray + three pots **or** a jar Kratky kit ([Under-$50](/kits/under-50/) vs [Homemade Kratky](/kits/homemade-kratky/))
@@ -158,6 +176,12 @@ Buy starter plants, not seed, for mint and parsley. Seed is cheaper but slower; 
 
 **Best lightweight herb garden under 50?**  
 Plastic pots + tray + clip LED. You should be able to move the whole setup in one trip to the sink.
+
+**Best portable herb garden under 50?**  
+One boot tray that holds every pot. If you cannot carry it to the sink in one trip, it is not portable — it is furniture.
+
+**Best hydroponic kit under 50?**  
+A Kratky jar plus nutrient, not a pod garden. Branded countertop hydro kits usually start above $50 once the light is in the box. See the [under-$50 hydroponic kit guide](/guides/hydroponic-kit-under-50-apartment/).
 
 **Best waterproof herb garden under 50?**  
 Waterproof means the **furniture** stays dry: continuous boot tray, no overfilled reservoirs before travel, wipe window condensation. The plants themselves do not need a sealed aquarium.

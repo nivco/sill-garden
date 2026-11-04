@@ -8,9 +8,11 @@ const guides = (await getCollection('guides')).sort(
 );
 
 const moneySlugs = [
+  'quiet-countertop-gardens-studios',
+  'cheapest-indoor-herb-garden-apartment',
+  'hydroponic-kit-under-50-apartment',
   'aerogarden-vs-click-and-grow',
   'compare-aerogarden-models',
-  'best-countertop-garden-apartments',
 ] as const;
 
 const startHere = moneySlugs
@@ -36,7 +38,7 @@ const latest = guides.filter((g) => !moneySlugs.includes(g.id as (typeof moneySl
       <p class="hero__brand">{site.name}</p>
       <h1>Grow on your sill.</h1>
       <p class="hero__sub">
-        Windowsill and countertop gardens for apartments — quiet setups, honest picks, real harvests.
+        Quiet studio gardens and under-$50 herb setups — plus AeroGarden vs Click &amp; Grow picks that fit a real counter.
       </p>
       <div class="hero__actions">
         <a class="btn btn-primary" href="/kits/">Shop starter kits</a>

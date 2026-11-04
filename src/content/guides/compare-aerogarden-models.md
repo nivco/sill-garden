@@ -2,7 +2,7 @@
 title: AeroGarden Bounty vs Harvest vs Elite (2026) — Apartment Comparison
 description: "AeroGarden Bounty vs Bounty Basic vs Elite vs Harvest vs Harvest Elite for apartments — pods, dimensions, noise, counter depth, and which model to buy first (2026)."
 pubDate: 2026-08-26
-updatedDate: 2026-11-03
+updatedDate: 2026-11-04
 cluster: systems
 type: comparison
 featured: true
@@ -39,6 +39,20 @@ Use this chart first — then the decision rules below.
 | **Click & Grow 3** (alt) | 3 | Sill-friendly | Fixed hood | **Silent** (no pump) | No | Studios / light sleepers |
 
 Exact SKUs and names shift by retailer year; treat rows as **classes**, not one immutable SKU.
+
+## Typical published specs (check the listing you buy)
+
+These are the figures shoppers compare on “Bounty vs Harvest” and “dimensions” searches. Generations differ — confirm height and wattage on the product page before you order.
+
+| Class | Pods | Grow height | Light (typical) | Footprint class | Apartment note |
+|-------|------|-------------|-----------------|-----------------|----------------|
+| Harvest / Lite | ~6 | ~10–12 in | ~20W, usually not dimmable | Compact counter (~11 in class) | Default first buy |
+| Harvest Elite | ~6 | Taller arm, still herb-scale | ~20W class | Same compact class | Height insurance, not more pods |
+| Bounty / Basic | ~9 | Up to ~24 in | ~30–40W, often dimmable | Deeper (~17 in wide class) | Needs real counter depth |
+| Bounty Elite | ~9 | Up to ~24 in | ~50W, dimmable; often Wi‑Fi | Same deep footprint | Pay for light + app, not extra pods |
+| Click & Grow 3 | 3 | Hood, not a tall arm | ~8W | Narrow sill | Silent — no pump |
+
+Rule of thumb: **Harvest → Elite** is a height/finish move. **Harvest → Bounty** is pods + depth + taller plants (tomatoes, peppers). **Bounty → Bounty Elite** is mostly watts, dimming, and app — same nine holes.
 
 ## Quick pick
 

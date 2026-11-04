@@ -1,8 +1,8 @@
 ---
-title: Quiet countertop gardens for studios (2026)
-description: Silent and low-hum countertop herb gardens for studios — wick kits, Kratky jars, light schedules, and when an AeroGarden pump is still OK.
+title: Quiet Countertop Herb Gardens for Studios — No Pump (2026)
+description: Best quiet and pump-free countertop gardens for studios (2026) — Click & Grow, Kratky, Auk-class, and when an AeroGarden hum is still OK.
 pubDate: 2026-08-12
-updatedDate: 2026-10-11
+updatedDate: 2026-11-04
 cluster: systems
 type: guide
 image: /images/guide-quiet.jpg
@@ -67,6 +67,21 @@ Most kits run ~14–16 hours of bright LED. In one room that means:
 
 Avoid open reservoirs if you have cats (nutrient water is interesting to pets). See [pet-safe / low-smell herbs](/guides/pet-safe-low-smell-apartment-herbs/).
 
+## Pump-free vs low-hum (what “quiet” actually means)
+
+Silence is a design, not a volume slider. If the bed shares the room, start with **no pump**.
+
+| Design | Examples | Sound | Tradeoff |
+|--------|----------|-------|----------|
+| Passive wick / capillary | Click & Grow 3 or 9, Véritable-class | Silent | Proprietary pods; slower than a pump |
+| Open-seed passive | Auk-class mini gardens | Silent | Higher price; you raise the light by hand |
+| Jar Kratky | Mason jar + net pot | Silent | You manage nutrients and a separate light |
+| Small pump | AeroGarden Harvest, many LetPot / iDOO kits | Low hum or gurgle | Faster herbs; bad beside a pillow |
+
+A soft mat under a pump kit cuts vibration on a hard counter. It does not make a waterfall quiet. If you wake to water noise, return it.
+
+Full fork: [Click & Grow vs iDOO and Auk](/guides/click-and-grow-vs-idoo-auk/) · [AeroGarden vs Click & Grow](/guides/aerogarden-vs-click-and-grow/).
+
 ## Quiet lanes compared
 
 | Lane | Noise | Cost to start | Best for |
@@ -109,10 +124,17 @@ Yes for most studios — wick system, no pump. AeroGarden wins on pods and speed
 **Can I put a grow light on a timer in a studio?**  
 Yes — do it. Matching the dark period to sleep is the difference between a hobby and a return label.
 
+**Best passive countertop garden without a pump?**  
+Click & Grow (wick pods) if you want it to work on day one, or a Kratky jar if you want it under $50 and silent. Auk-class kits are the design-forward silent option — check the current price before you treat them as a starter.
+
+**Quietest hydroponic garden for a bedroom?**  
+No circulating pump. Wick gardens and Kratky jars qualify. Schedule the LED off while you sleep, and shade the light if it faces the bed.
+
 ## Related
 
 - [Studio Silence Kit](/kits/studio-silence/)
 - [Landlord-safe setup checklist](/guides/landlord-safe-indoor-garden-setup/)
 - [AeroGarden vs Click & Grow](/guides/aerogarden-vs-click-and-grow/)
 - [Kratky jar herbs](/guides/kratky-jar-herbs-apartment/)
+- [Hydroponic kit under $50](/guides/hydroponic-kit-under-50-apartment/)
 - [Kit picker](/tools/kit-picker/)
