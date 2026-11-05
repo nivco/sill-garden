@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-11-04 21:36 UTC",
+  "generated_at": "2026-11-05 04:32 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 7,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 52,
+    "gsc_impressions_7d": 43,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -91,36 +91,15 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 52,
-      "avg_position": 12.8,
+      "impressions": 43,
+      "avg_position": 10.5,
       "top_queries": [
-        {
-          "query": "aerogarden bounty vs bounty elite",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 50.0
-        },
-        {
-          "query": "aerogarden comparison",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 71.0
-        },
         {
           "query": "aerogarden elite bounty",
           "clicks": 0,
           "impressions": 1,
           "ctr": 0.0,
           "position": 87.0
-        },
-        {
-          "query": "aerogarden harvest vs harvest elite",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 62.0
         },
         {
           "query": "aerogarden vs click and grow",
@@ -167,7 +146,7 @@
         {
           "query": "herb garden for small apartments 2026",
           "clicks": 0,
-          "impressions": 24,
+          "impressions": 22,
           "ctr": 0.0,
           "position": 5.3
         },
@@ -181,8 +160,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-28",
-        "end": "2026-11-04"
+        "start": "2026-10-29",
+        "end": "2026-11-05"
       }
     },
     "indexing": {
@@ -1022,7 +1001,7 @@
     }
   ],
   "insights": [
-    "GSC: 52 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty vs bounty elite\u201d (pos 50), \u201caerogarden comparison\u201d (pos 71), \u201caerogarden elite bounty\u201d (pos 87). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 43 impressions, 0 clicks \u2014 early queries: \u201caerogarden elite bounty\u201d (pos 87), \u201caerogarden vs click and grow\u201d (pos 49), \u201cbest lightweight herb garden under 50\u201d (pos 10). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -1069,6 +1048,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 8 | Aff clicks 0 | GSC 0c/52i | YT views 466 | Setup 6/7"
+    "headline": "Sessions 8 | Aff clicks 0 | GSC 0c/43i | YT views 466 | Setup 6/7"
   }
 }
