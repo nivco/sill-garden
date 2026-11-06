@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-05 21:39 UTC",
+  "generated_at": "2026-11-06 20:51 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -81,7 +81,7 @@
         "description": "Shop houseplants, outdoor plants, and trees from The Sill. Beginner-friendly varieties with expert care guides and free shipping on orders $99+.",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 13,
+        "word_count_est": 18,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -116,6 +116,32 @@
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4049,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -156,31 +182,38 @@
     }
   },
   "gsc_queries": [
+    "aerogarden bounty review",
+    "aerogarden bounty vs bounty basic",
+    "aerogarden bounty vs bounty elite",
+    "aerogarden comparison",
     "aerogarden elite bounty",
+    "aerogarden harvest vs harvest elite",
     "aerogarden vs click and grow",
-    "best lightweight herb garden under 50",
-    "best portable herb garden under 50",
-    "best simple herb garden under 50",
-    "best waterproof herb garden under 50",
-    "click and grow vs auk",
-    "herb garden for small apartments 2026"
+    "auk vs click and grow"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: Ship these five changes this week, prioritized around the queries already appearing in GSC:",
-    "LLM peer insight: . **Create query-matched titles and H1s**",
-    "LLM peer insight: - Add dedicated pages—or rewrite existing ones—with exact-intent titles:",
-    "LLM peer insight: - **AeroGarden Elite vs Bounty: Features, Size, Cost & Best Uses**",
-    "LLM peer insight: - **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**",
-    "LLM peer insight: - **5 Best Lightweight Herb Gardens Under $50**",
-    "LLM peer insight: - **5 Best Portable Herb Gardens Under $50**",
-    "LLM peer insight: - **5 Best Simple Herb Gardens Under $50**",
-    "LLM peer insight: - Use one matching H1 per page, followed by a one-sentence verdict."
+    "WORKING peer pattern: long-form depth (~1175 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Retitle and restructure the page around the exact GSC demand**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Review: Basic vs Bounty vs Elite**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Review and Comparison**",
+    "LLM peer insight: - Add a first-paragraph verdict using the query language: “AeroGarden Bounty Basic vs Bounty Elite,” “AeroGarden comparison,” and “Which AeroGarden Bounty is best?”",
+    "LLM peer insight: - Use H2s: **AeroGarden Bounty Review**, **Bounty Basic vs Bounty**, **Bounty vs Bounty Elite**, and **Which Bounty Should You Buy?**",
+    "LLM peer insight: - Keep the title under roughly 60 characters where possible, but prioritize matching the product names and comparison intent.",
+    "LLM peer insight: . **Add a decision-first comparison table above the fold**"
   ],
-  "llm_notes": "Ship these five changes this week, prioritized around the queries already appearing in GSC:\n\n1. **Create query-matched titles and H1s**\n   - Add dedicated pages—or rewrite existing ones—with exact-intent titles:\n     - **AeroGarden Elite vs Bounty: Features, Size, Cost & Best Uses**\n     - **AeroGarden vs Click & Grow: Which Indoor Garden Is Better?**\n     - **5 Best Lightweight Herb Gardens Under $50**\n     - **5 Best Portable Herb Gardens Under $50**\n     - **5 Best Simple Herb Gardens Under $50**\n   - Use one matching H1 per page, followed by a one-sentence verdict.\n   - Put the primary keyword in the first 60 characters of the title, not only in body copy.\n\n2. **Add a decision-first comparison table**\n   - Place it immediately below the introduction on the AeroGarden-vs-Click-&-Grow page.\n   - Include: price, plant capacity, light wattage, maximum plant height, reservoir size, pump/noise, app support, refill cost, setup time, and best-for verdict.\n   - Add a final “Choose this if…” column rather than forcing readers to interpret specifications.\n   - For example, the Bounty Elite supports up to nine pods, a 50W adjustable light, touchscreen controls, Wi-Fi/Alexa compatibility, and plants up to 24 inches tall.[2][9]\n   - Add a separate **annual operating-cost** row for pods, nutrients, and electricity; peer testing indicates meaningful refill and power-cost differences between systems.[4][5]\n\n3. **Add FAQs that target long-tail objections**\n   - Add 6–8 visible questions below each relevant comparison or “under $50” roundup, with matching FAQ schema:\n     - Is the AeroGar",
+  "llm_notes": "Ship these five changes this week:\n\n1. **Retitle and restructure the page around the exact GSC demand**\n   - Title: **AeroGarden Bounty Review: Basic vs Bounty vs Elite**\n   - H1: **AeroGarden Bounty Review and Comparison**\n   - Add a first-paragraph verdict using the query language: “AeroGarden Bounty Basic vs Bounty Elite,” “AeroGarden comparison,” and “Which AeroGarden Bounty is best?”\n   - Use H2s: **AeroGarden Bounty Review**, **Bounty Basic vs Bounty**, **Bounty vs Bounty Elite**, and **Which Bounty Should You Buy?**\n   - Keep the title under roughly 60 characters where possible, but prioritize matching the product names and comparison intent.\n\n2. **Add a decision-first comparison table above the fold**\n   - Place it immediately after a short verdict and product image.\n   - Include: price, pod capacity, LED wattage, maximum plant height, Wi-Fi/app control, display type, dimming, finish, ideal user, and current deal.\n   - Clearly show the shared specifications: all three models have 9 pods and approximately 24 inches of grow height; the main distinctions are lighting, controls, and finish.[1][2]\n   - Add a bold “Best for” column:\n     - **Bounty Basic:** herbs and budget buyers\n     - **Bounty:** connected features at a middle price\n     - **Bounty Elite:** fruiting plants and premium finish\n   - Make the table horizontally scrollable on mobile and repeat the CTA beneath it.\n\n3. **Add an FAQ block targeting the unanswered long-tail queries**\n   - Use visible questions plus FAQ schema:\n     - “Is the AeroGarden Bounty Basic better than the Elite?”\n     - “What is the di",
   "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -203,6 +236,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
