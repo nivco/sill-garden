@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-11-05 21:39 UTC",
+  "generated_at": "2026-11-06 04:30 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 7,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 47,
+    "gsc_impressions_7d": 42,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -91,8 +91,8 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 47,
-      "avg_position": 10.1,
+      "impressions": 42,
+      "avg_position": 10.6,
       "top_queries": [
         {
           "query": "aerogarden elite bounty",
@@ -111,7 +111,7 @@
         {
           "query": "best lightweight herb garden under 50",
           "clicks": 0,
-          "impressions": 4,
+          "impressions": 3,
           "ctr": 0.0,
           "position": 10.0
         },
@@ -146,9 +146,9 @@
         {
           "query": "herb garden for small apartments 2026",
           "clicks": 0,
-          "impressions": 23,
+          "impressions": 20,
           "ctr": 0.0,
-          "position": 5.3
+          "position": 5.2
         },
         {
           "query": "indoor herbs that don't need sunlight",
@@ -160,8 +160,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-10-29",
-        "end": "2026-11-05"
+        "start": "2026-10-30",
+        "end": "2026-11-06"
       }
     },
     "indexing": {
@@ -774,7 +774,7 @@
         {
           "id": "HRLTtAAkxK0",
           "title": "Herb garden for small apartments 2026 (2026)",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-11-04T20:41:32Z",
           "url": "https://www.youtube.com/watch?v=HRLTtAAkxK0"
@@ -790,7 +790,7 @@
         {
           "id": "pmukWXuI1e8",
           "title": "Aerogarden bounty basic vs elite (2026)",
-          "views": 5,
+          "views": 6,
           "likes": 0,
           "published": "2026-10-29T19:25:56Z",
           "url": "https://www.youtube.com/watch?v=pmukWXuI1e8"
@@ -1001,7 +1001,7 @@
     }
   ],
   "insights": [
-    "GSC: 47 impressions, 0 clicks \u2014 early queries: \u201caerogarden elite bounty\u201d (pos 87), \u201caerogarden vs click and grow\u201d (pos 49), \u201cbest lightweight herb garden under 50\u201d (pos 10). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 42 impressions, 0 clicks \u2014 early queries: \u201caerogarden elite bounty\u201d (pos 87), \u201caerogarden vs click and grow\u201d (pos 49), \u201cbest lightweight herb garden under 50\u201d (pos 10). Tighten title/H1 on the matching guide to climb.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
@@ -1048,6 +1048,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 8 | Aff clicks 0 | GSC 0c/47i | YT views 466 | Setup 6/7"
+    "headline": "Sessions 8 | Aff clicks 0 | GSC 0c/42i | YT views 466 | Setup 6/7"
   }
 }
