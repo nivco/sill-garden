@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-05",
+  "updated_at": "2026-11-06",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -374,6 +374,13 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "2944df4db24e9c"
+    },
+    {
+      "signal": "Impact-: applied on Best portable herb garden under 50?",
+      "action": "Revisit approach — negative sessions_7d -8. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "154f62725546de"
     }
   ],
   "money_urls": [
