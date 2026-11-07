@@ -528,8 +528,17 @@
       "storyboard": "products/youtube/video-related-herb-garden-for-small-apartments-2026/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-11-07T14:16:45.182892+00:00"
+    },
+    "video-hydroponic-kit-under-50-apartment": {
+      "youtube_id": "3YgXA2Jncc0",
+      "url": "https://youtu.be/3YgXA2Jncc0",
+      "title": "Best Hydroponic Kit Under $50 for Apartments (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-11-07T18:27:49.201672+00:00",
+      "storyboard": "products/youtube/video-hydroponic-kit-under-50-apartment/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-11-07T14:16:45.500840+00:00",
-  "next_eligible_date": "2026-11-07"
+  "next_eligible_date": "2026-11-10"
 }
