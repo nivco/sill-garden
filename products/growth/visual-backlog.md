@@ -1,6 +1,6 @@
 # Visuality backlog (from competitive learning)
 
-Updated: 2026-11-06 20:51 UTC
+Updated: 2026-11-07 19:08 UTC
 
 - [x] Home hero: one brand + one CTA; no card clutter in first viewport
 - [x] Guide pages: Quick verdict + product picks before long prose
@@ -13,6 +13,6 @@ Updated: 2026-11-06 20:51 UTC
 - VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.
 - WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.
 - WORKING peer pattern: long-form depth (~1175 words avg) — expand thin guides with decision rules, not fluff.
-- LLM peer insight: . **Retitle and restructure the page around the exact GSC demand**
-- LLM peer insight: - Title: **AeroGarden Bounty Review: Basic vs Bounty vs Elite**
-- LLM peer insight: - H1: **AeroGarden Bounty Review and Comparison**
+- LLM peer insight: . **Create a search-aligned title and opening block**
+- LLM peer insight: - Set the page title to: **“AeroGarden Bounty Review: Bounty vs Basic vs Elite”**
+- LLM peer insight: - Use one H1: **“AeroGarden Bounty Review and Comparison”**

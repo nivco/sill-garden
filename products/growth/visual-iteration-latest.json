@@ -1,8 +1,6 @@
 {
-  "generated_at": "2026-11-06 20:51 UTC",
+  "generated_at": "2026-11-07 19:08 UTC",
   "applied": [
-    "faq:aerogarden-vs-click-and-grow:Aerogarden bounty review?",
-    "faq:compare-aerogarden-models:Aerogarden bounty review?",
     "updated visual-backlog.md"
   ],
   "queued": [
@@ -14,9 +12,9 @@
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
     "WORKING peer pattern: long-form depth (~1175 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Retitle and restructure the page around the exact GSC demand**",
-    "LLM peer insight: - Title: **AeroGarden Bounty Review: Basic vs Bounty vs Elite**",
-    "LLM peer insight: - H1: **AeroGarden Bounty Review and Comparison**"
+    "LLM peer insight: . **Create a search-aligned title and opening block**",
+    "LLM peer insight: - Set the page title to: **“AeroGarden Bounty Review: Bounty vs Basic vs Elite”**",
+    "LLM peer insight: - Use one H1: **“AeroGarden Bounty Review and Comparison”**"
   ],
   "dry_run": false
 }
