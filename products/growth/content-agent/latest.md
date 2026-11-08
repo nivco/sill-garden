@@ -1,6 +1,6 @@
-# Sill Garden Content Agent — 2026-11-07
+# Sill Garden Content Agent — 2026-11-08
 
-Generated: 2026-11-07 19:42 UTC
+Generated: 2026-11-08 20:01 UTC
 
 ## Research
 - Guides: 21
@@ -16,7 +16,7 @@ Generated: 2026-11-07 19:42 UTC
 - aerogarden bounty vs bounty basic — 1 impr, pos 70.0
 - aerogarden bounty vs bounty elite — 1 impr, pos 69.0
 - aerogarden comparison — 1 impr, pos 69.0
-- aerogarden elite bounty — 2 impr, pos 93.5
+- aerogarden elite bounty — 1 impr, pos 100.0
 - aerogarden harvest vs harvest elite — 1 impr, pos 78.0
-- aerogarden vs click and grow — 1 impr, pos 49.0
-- auk vs click and grow — 1 impr, pos 7.0
+- auk vs click and grow — 2 impr, pos 8.5
+- best budget herb garden under 50 — 2 impr, pos 5.5
