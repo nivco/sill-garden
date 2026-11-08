@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-07 19:42 UTC",
+  "generated_at": "2026-11-08 19:13 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -120,6 +120,32 @@
         "comparison_signal": false,
         "year_in_title": false
       }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4049,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
     }
   ],
   "our_probe": {
@@ -162,25 +188,32 @@
     "aerogarden comparison",
     "aerogarden elite bounty",
     "aerogarden harvest vs harvest elite",
-    "aerogarden vs click and grow",
-    "auk vs click and grow"
+    "auk vs click and grow",
+    "best budget herb garden under 50"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
-    "LLM peer insight: . **Rewrite the title, H1, and opening around the high-intent queries.**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite (2025 Guide)`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Review: Which Model Is Best for Your Apartment?`",
-    "LLM peer insight: - Open with a 40–60-word verdict covering who should buy the Bounty, whether Elite’s upgrades justify the price, and the best choice for small kitchens. Use the exact phrases naturally: “AeroGarden Bounty review,” “Bount",
-    "LLM peer insight: . **Add a decision-first comparison table above the fold.**",
-    "LLM peer insight: Include rows for price, plant capacity, light wattage, maximum grow height, controls, Wi-Fi/app support, reminders, bowl size, footprint, included pods, and best-for. Mark meaningful differences—not just specifications. ",
-    "LLM peer insight: Add a final row: **“Best choice”** with clear recommendations:",
-    "LLM peer insight: - Elite: best for taller plants and premium controls",
-    "LLM peer insight: . **Create two dedicated comparison sections and a scannable verdict box.**"
+    "WORKING peer pattern: long-form depth (~1175 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: Ship these five changes this week, targeting the query cluster around **“AeroGarden Bounty review,” “Bounty vs Basic,” and “Bounty vs Elite.”**",
+    "LLM peer insight: . **Rewrite the title, H1, and opening section around the comparison intent**",
+    "LLM peer insight: - **SEO title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Review: Which Bounty Model Is Best?`",
+    "LLM peer insight: - Add a 40–60-word verdict immediately below the H1:",
+    "LLM peer insight: > The standard AeroGarden Bounty is the middle-ground option: 9 pods, a 40W dimmable light, touchscreen controls, Wi-Fi, and up to 24 inches of grow height. Choose the Basic to save money; choose the Elite for its 50W li",
+    "LLM peer insight: - Use exact subheads: `AeroGarden Bounty vs Bounty Basic`, `AeroGarden Bounty vs Bounty Elite`, and `Is the AeroGarden Bounty Worth It?`"
   ],
-  "llm_notes": "1. **Rewrite the title, H1, and opening around the high-intent queries.**  \n   - **Title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite (2025 Guide)`  \n   - **H1:** `AeroGarden Bounty Review: Which Model Is Best for Your Apartment?`  \n   - Open with a 40–60-word verdict covering who should buy the Bounty, whether Elite’s upgrades justify the price, and the best choice for small kitchens. Use the exact phrases naturally: “AeroGarden Bounty review,” “Bounty vs Bounty Basic,” and “Bounty vs Bounty Elite.”\n\n2. **Add a decision-first comparison table above the fold.**  \n   Include rows for price, plant capacity, light wattage, maximum grow height, controls, Wi-Fi/app support, reminders, bowl size, footprint, included pods, and best-for. Mark meaningful differences—not just specifications. For example, Elite adds a 50W adjustable light, stainless finish, sunrise/sunset settings, and a touchscreen; it grows up to nine plants and supports plants up to 24 inches tall.[1][2]  \n   Add a final row: **“Best choice”** with clear recommendations:\n   - Basic: lowest-cost entry point\n   - Bounty: best overall value\n   - Elite: best for taller plants and premium controls\n\n3. **Create two dedicated comparison sections and a scannable verdict box.**  \n   Use these exact H2s:\n   - `AeroGarden Bounty vs Bounty Basic`\n   - `AeroGarden Bounty vs Bounty Elite`\n   \n   Under each, add a three-part format:\n   - **What you gain**\n   - **What you pay more for**\n   - **Who should choose it**\n   \n   Place a shaded verdict box immediately after each section, such as:  \n   **Choose Elite if:** you w",
+  "llm_notes": "Ship these five changes this week, targeting the query cluster around **“AeroGarden Bounty review,” “Bounty vs Basic,” and “Bounty vs Elite.”**\n\n1. **Rewrite the title, H1, and opening section around the comparison intent**\n   - **SEO title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`\n   - **H1:** `AeroGarden Bounty Review: Which Bounty Model Is Best?`\n   - Add a 40–60-word verdict immediately below the H1:\n     > The standard AeroGarden Bounty is the middle-ground option: 9 pods, a 40W dimmable light, touchscreen controls, Wi-Fi, and up to 24 inches of grow height. Choose the Basic to save money; choose the Elite for its 50W light, stainless-steel finish, and sunrise/sunset lighting.\n   - Use exact subheads: `AeroGarden Bounty vs Bounty Basic`, `AeroGarden Bounty vs Bounty Elite`, and `Is the AeroGarden Bounty Worth It?`\n   - This is more aligned with your GSC queries than a generic “indoor garden” title.\n\n2. **Add a decision-first comparison table above the fold**\n   - Place it directly after the opening verdict, before the long review.\n   - Include these rows:\n\n| Feature | Bounty Basic | Bounty | Bounty Elite |\n|---|---:|---:|---:|\n| Pod capacity | 9 | 9 | 9 |\n| Maximum grow height | 24 in | 24 in | 24 in |\n| LED power | 30W | 40W | 50W |\n| Touchscreen | No | Yes | Yes |\n| Wi-Fi/app control | No | Yes | Yes |\n| Dimmable light | No | Yes | Yes |\n| Sunrise/sunset lighting | No | No | Yes |\n| Finish | Matte plastic | Matte plastic | Stainless steel |\n| Best for | Lowest price | Best overall value | Premium features |\n\n   - Add a final row: **“Buy this if…”** with",
   "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -203,6 +236,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
