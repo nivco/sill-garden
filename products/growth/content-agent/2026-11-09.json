@@ -1,0 +1,230 @@
+{
+  "date": "2026-11-09",
+  "generated": "2026-11-09 23:53 UTC",
+  "research": {
+    "generated": "2026-11-09 23:53 UTC",
+    "zero_click_queries": [
+      {
+        "query": "aerogarden bounty elite dimensions",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 86.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden bounty review",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 82.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden bounty vs bounty basic",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 70.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden bounty vs bounty elite",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 69.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden comparison",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 69.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden elite bounty",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 72.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "aerogarden harvest vs harvest elite",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 78.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "auk vs click and grow",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 8.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best budget herb garden under 50",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 5.5,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best compact herb garden under 50",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 10.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best lightweight herb garden under 50",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 10.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best simple herb garden under 50",
+        "clicks": 0,
+        "impressions": 3,
+        "ctr": 0.0,
+        "position": 5.3,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "best waterproof herb garden under 50",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 8.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "click and grow vs auk",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 10.0,
+        "ctr_pct": 0.0
+      },
+      {
+        "query": "countertop gardening",
+        "clicks": 0,
+        "impressions": 2,
+        "ctr": 0.0,
+        "position": 82.5,
+        "ctr_pct": 0.0
+      }
+    ],
+    "network_probes": [
+      {
+        "url": "https://sillgarden.com/llms.txt",
+        "ok": true,
+        "status": 200,
+        "mentions_year": false
+      },
+      {
+        "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      },
+      {
+        "url": "https://www.aerogarden.com/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      },
+      {
+        "url": "https://www.clickandgrow.com/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      },
+      {
+        "url": "https://www.thesill.com/",
+        "ok": true,
+        "status": 200,
+        "mentions_year": true
+      }
+    ],
+    "competitive": {
+      "ok_peers": 4,
+      "learnings": [
+        "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
+        "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
+        "LLM peer insight: . **Rewrite the title and H1 around the highest-intent queries**",
+        "LLM peer insight: - **SEO title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`",
+        "LLM peer insight: - **H1:** `AeroGarden Bounty Review: Which Model Should You Buy?`",
+        "LLM peer insight: - Add a one-sentence answer directly below: “The Bounty Elite adds a 50W light, stainless-steel finish, dimming, and sunrise/sunset modes; the three models share a 9-pod capacity and up-to-24-inch grow height.”[2][7]",
+        "LLM peer insight: - Use dedicated subheads: `AeroGarden Bounty Elite Dimensions`, `Bounty vs Bounty Basic`, `Bounty vs Bounty Elite`, and `Which AeroGarden Bounty Is Best?`",
+        "LLM peer insight: . **Put a decision-first comparison table above the long review**"
+      ],
+      "actions": [
+        {
+          "type": "content_table",
+          "priority": "P1",
+          "title": "Ensure comparison tables near top of vs guides",
+          "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
+          "auto": true
+        },
+        {
+          "type": "visuality",
+          "priority": "P1",
+          "title": "Visuality iteration: hero/CTA/og image hygiene",
+          "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
+          "auto": false
+        },
+        {
+          "type": "cro_cta",
+          "priority": "P1",
+          "title": "Strengthen above-fold verdict + product CTAs",
+          "detail": "Peers repeat CTAs. Keep Quick verdict + product picks before long narrative.",
+          "auto": true
+        }
+      ]
+    },
+    "llm_notes": {
+      "aerogarden bounty elite dimensions": "- **Noise:** Pump measures about **42 dB**—a low hum, generally fine in kitchens but noticeable in a quiet bedroom.[1][2]\n- **Cost:** **$274.95 list price**; sales commonly reduce it to roughly **$130–$160**.[1][5]\n- **Apartment fit:** Measures **17.25 × 11.25 × 34 inches** and needs counter space plus vertical clearance; suitable for a sturdy kitchen counter, but potentially intrusive in small rooms.[5][7]",
+      "aerogarden bounty review": "- **Noise:** The pump produces a low hum around **42 dB**—usually fine in a kitchen, but noticeable in a quiet bedroom.[1][2]\n- **Cost:** The Bounty Elite costs about **$329**; replacement pods run roughly **$20 per nine-pack every 3–4 months**.[1]\n- **Apartment fit:** It holds nine plants but needs about **16 × 11 inches of counter space** and up to **30–34 inches of vertical clearance**; suitable for kitchens, less ideal for bedrooms or cramped counters.[1][2]",
+      "aerogarden bounty vs bounty basic": "- **Noise:** Both use a small circulation pump producing a low hum; noticeable mainly in a quiet bedroom, not usually in a kitchen.[2][5]\n- **Cost:** Bounty Basic typically costs about **$90–$180**; the 40W Bounty costs roughly **$110 more** in some comparisons and uses about **$38/year** in electricity versus **$28/year** for Basic.[1][4][10]\n- **Apartment fit:** Both hold nine plants and raise to 24 inches, so they suit kitchens but require substantial counter space; the Bounty’s dimmable light and smart controls better manage apartment use, while either model’s bright light can disturb bedrooms.[4][7]"
+    },
+    "guide_count": 21,
+    "existing_slugs": [
+      "aerogarden-vs-click-and-grow",
+      "basil-countertop-first-harvest",
+      "best-countertop-garden-apartments",
+      "best-low-light-herbs-apartment",
+      "cheapest-indoor-herb-garden-apartment",
+      "cilantro-countertop-first-harvest",
+      "click-and-grow-vs-idoo-auk",
+      "compare-aerogarden-models",
+      "countertop-garden-pod-refill-cost",
+      "countertop-garden-running-cost",
+      "countertop-garden-system-guide",
+      "grow-light-schedules-herbs",
+      "hydroponic-kit-under-50-apartment",
+      "kratky-jar-herbs-apartment",
+      "landlord-safe-indoor-garden-setup",
+      "mint-windowsill-first-harvest",
+      "parsley-countertop-first-harvest",
+      "pet-safe-low-smell-apartment-herbs",
+      "quiet-countertop-gardens-studios",
+      "windowsill-herbs-without-kit",
+      "yellow-leaves-leggy-seedlings-indoor-herbs"
+    ]
+  },
+  "proposed": [],
+  "applied": [],
+  "indexnow": null,
+  "summary_md": "# Sill Garden Content Agent — 2026-11-09\n\nGenerated: 2026-11-09 23:53 UTC\n\n## Research\n- Guides: 21\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty elite dimensions — 1 impr, pos 86.0\n- aerogarden bounty review — 2 impr, pos 82.5\n- aerogarden bounty vs bounty basic — 1 impr, pos 70.0\n- aerogarden bounty vs bounty elite — 1 impr, pos 69.0\n- aerogarden comparison — 1 impr, pos 69.0\n- aerogarden elite bounty — 2 impr, pos 72.5\n- aerogarden harvest vs harvest elite — 1 impr, pos 78.0\n- auk vs click and grow — 2 impr, pos 8.5\n"
+}

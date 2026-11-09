@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-09 23:37 UTC",
+  "generated_at": "2026-11-09 23:53 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -120,32 +120,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4048,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -192,28 +166,21 @@
     "auk vs click and grow"
   ],
   "learnings": [
-    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: long-form depth (~1396 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Rewrite the primary title and hero around the highest-intent queries**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Comparison: Basic vs Bounty vs Elite`",
-    "LLM peer insight: - Add a 40–60-word hero summary answering the decision immediately: **Bounty and Bounty Elite are the better choices for taller plants and more control; Bounty Basic is the simpler, lower-cost option.**",
-    "LLM peer insight: - Use a product image showing all three models side by side, with small labels for **9 pods**, **24-inch grow height**, and **Elite 50W light**. The standard Bounty is listed with a 40W LED, while the Elite uses a 50W LE",
-    "LLM peer insight: . **Add a decision-first comparison table directly below the hero**",
-    "LLM peer insight: Build a scannable table with the exact distinctions users are searching for:",
-    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |"
+    "LLM peer insight: . **Rewrite the title and H1 around the highest-intent queries**",
+    "LLM peer insight: - **SEO title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Review: Which Model Should You Buy?`",
+    "LLM peer insight: - Add a one-sentence answer directly below: “The Bounty Elite adds a 50W light, stainless-steel finish, dimming, and sunrise/sunset modes; the three models share a 9-pod capacity and up-to-24-inch grow height.”[2][7]",
+    "LLM peer insight: - Use dedicated subheads: `AeroGarden Bounty Elite Dimensions`, `Bounty vs Bounty Basic`, `Bounty vs Bounty Elite`, and `Which AeroGarden Bounty Is Best?`",
+    "LLM peer insight: . **Put a decision-first comparison table above the long review**",
+    "LLM peer insight: Add a mobile-scrollable table immediately after the introduction:",
+    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |",
+    "LLM peer insight: | Maximum grow height | 24 in | 24 in | 24 in |",
+    "LLM peer insight: | Controls | Basic buttons/display | Touchscreen, Wi-Fi, app | Touchscreen, Wi-Fi, app |"
   ],
-  "llm_notes": "1. **Rewrite the primary title and hero around the highest-intent queries**\n\n   - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`\n   - **H1:** `AeroGarden Bounty Comparison: Basic vs Bounty vs Elite`\n   - Add a 40–60-word hero summary answering the decision immediately: **Bounty and Bounty Elite are the better choices for taller plants and more control; Bounty Basic is the simpler, lower-cost option.**\n   - Place two above-the-fold CTAs:\n     - `See Today’s Prices`\n     - `Compare Features`\n   - Use a product image showing all three models side by side, with small labels for **9 pods**, **24-inch grow height**, and **Elite 50W light**. The standard Bounty is listed with a 40W LED, while the Elite uses a 50W LED.[5][8]\n\n2. **Add a decision-first comparison table directly below the hero**\n\n   Build a scannable table with the exact distinctions users are searching for:\n\n   | Feature | Bounty Basic | Bounty | Bounty Elite |\n   |---|---:|---:|---:|\n   | Pod capacity | 9 | 9 | 9 |\n   | Maximum grow height | 24 in | 24 in | 24 in |\n   | Light | Position only after verification | 40W LED | 50W LED |\n   | Controls | Basic controls | Full-color touchscreen | Full-color touchscreen |\n   | Wi-Fi | Verify by current listing | Compatible | Verify by current listing |\n   | Best for | Lower-cost herb growing | Best overall balance | Strongest light and premium finish |\n\n   - Highlight the recommended model with a colored **Best overall** badge.\n   - Add a mobile-friendly “Show differences only” toggle if available.\n   - Include a short note below the t",
+  "llm_notes": "1. **Rewrite the title and H1 around the highest-intent queries**\n\n   - **SEO title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`\n   - **H1:** `AeroGarden Bounty Review: Which Model Should You Buy?`\n   - Add a one-sentence answer directly below: “The Bounty Elite adds a 50W light, stainless-steel finish, dimming, and sunrise/sunset modes; the three models share a 9-pod capacity and up-to-24-inch grow height.”[2][7]\n   - Use dedicated subheads: `AeroGarden Bounty Elite Dimensions`, `Bounty vs Bounty Basic`, `Bounty vs Bounty Elite`, and `Which AeroGarden Bounty Is Best?`\n\n2. **Put a decision-first comparison table above the long review**\n\n   Add a mobile-scrollable table immediately after the introduction:\n\n   | Feature | Bounty Basic | Bounty | Bounty Elite |\n   |---|---:|---:|---:|\n   | Pod capacity | 9 | 9 | 9 |\n   | LED power | 30W | 40W | 50W |\n   | Maximum grow height | 24 in | 24 in | 24 in |\n   | Controls | Basic buttons/display | Touchscreen, Wi-Fi, app | Touchscreen, Wi-Fi, app |\n   | Dimming | No | Yes | Yes |\n   | Finish | Matte plastic | Black | Stainless steel |\n\n   Add a bold “Best for” row: **lowest price**, **best value**, and **premium finish/features**. The models do not differ in pod capacity or grow height; the principal upgrades are light power, controls, dimming, finish, and lighting modes.[7]\n\n3. **Make dimensions visually impossible to miss**\n\n   Create a callout card titled **“Will the AeroGarden Bounty fit your counter?”** with:\n\n   - Counter footprint: **17.25 in W × 11.25 in D**\n   - Maximum height: **34 in with the light arm extended**",
   "proposed_actions": [
-    {
-      "type": "content_faq",
-      "priority": "P1",
-      "title": "Add/refresh FAQ from peer + GSC questions",
-      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
-      "auto": true
-    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -236,6 +203,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
