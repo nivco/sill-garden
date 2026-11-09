@@ -1,20 +1,27 @@
 {
-  "generated_at": "2026-11-08 19:13 UTC",
+  "generated_at": "2026-11-09 23:37 UTC",
   "wow": {
-    "ga4_sessions_7d": 2.0,
-    "gsc_impressions_7d": -3.0,
+    "ga4_sessions_7d": -1.0,
+    "gsc_impressions_7d": -4.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 9,
-    "gsc_impressions_7d": 47,
+    "sessions_7d": 8,
+    "gsc_impressions_7d": 43,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
     "indexed_urls": 33
   },
   "top_queries": [
+    {
+      "query": "aerogarden bounty elite dimensions",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 86.0
+    },
     {
       "query": "aerogarden bounty review",
       "clicks": 0,
@@ -46,9 +53,9 @@
     {
       "query": "aerogarden elite bounty",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 2,
       "ctr": 0.0,
-      "position": 100.0
+      "position": 72.5
     },
     {
       "query": "aerogarden harvest vs harvest elite",
@@ -77,25 +84,18 @@
       "impressions": 1,
       "ctr": 0.0,
       "position": 10.0
-    },
-    {
-      "query": "best lightweight herb garden under 50",
-      "clicks": 0,
-      "impressions": 2,
-      "ctr": 0.0,
-      "position": 10.5
     }
   ],
   "learnings": [
-    "LLM peer insight: - Use exact subheads: `AeroGarden Bounty vs Bounty Basic`, `AeroGarden Bounty vs Bounty Elite`, and `Is the AeroGarden Bounty Worth It?`",
-    "LLM peer insight: > The standard AeroGarden Bounty is the middle-ground option: 9 pods, a 40W dimmable light, touchscreen controls, Wi-Fi, and up to 24 inches of grow height. Choose the Basic to save money; choose the Elite for its 50W li",
-    "LLM peer insight: - Add a 40–60-word verdict immediately below the H1:",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Review: Which Bounty Model Is Best?`",
-    "LLM peer insight: - **SEO title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`",
-    "LLM peer insight: . **Rewrite the title, H1, and opening section around the comparison intent**",
-    "LLM peer insight: Ship these five changes this week, targeting the query cluster around **“AeroGarden Bounty review,” “Bounty vs Basic,” and “Bounty vs Elite.”**",
-    "WORKING peer pattern: long-form depth (~1175 words avg) — expand thin guides with decision rules, not fluff.",
-    "WORKING peer pattern: ~4 CTA mentions/page — put verdict + product CTA early; repeat once mid-article.",
+    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |",
+    "LLM peer insight: Build a scannable table with the exact distinctions users are searching for:",
+    "LLM peer insight: . **Add a decision-first comparison table directly below the hero**",
+    "LLM peer insight: - Use a product image showing all three models side by side, with small labels for **9 pods**, **24-inch grow height**, and **Elite 50W light**. The standard Bounty is listed with a 40W LED, while the Elite uses a 50W LE",
+    "LLM peer insight: - Add a 40–60-word hero summary answering the decision immediately: **Bounty and Bounty Elite are the better choices for taller plants and more control; Bounty Basic is the simpler, lower-cost option.**",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Comparison: Basic vs Bounty vs Elite`",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`",
+    "LLM peer insight: . **Rewrite the primary title and hero around the highest-intent queries**",
+    "WORKING peer pattern: long-form depth (~1396 words avg) — expand thin guides with decision rules, not fluff.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-11-08 19:13 UTC"
+    "generated_at": "2026-11-09 23:37 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 8 action(s) still measuring (3-7d windows)",
+      "IMPACT: 7 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",
