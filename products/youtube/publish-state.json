@@ -8,7 +8,7 @@
       "uploaded_at": "2026-08-15T16:56:55.164880+00:00",
       "storyboard": "products/youtube/video-aerogarden-vs-click-grow/storyboard.json",
       "published_at": "2026-08-15T17:25:31.992752+00:00",
-      "metadata_refreshed_at": "2026-11-08T14:27:07.555596+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:42.205718+00:00"
     },
     "short-aerogarden-vs-click-grow": {
       "youtube_id": "NSLsa1eJxko",
@@ -19,7 +19,7 @@
       "storyboard": "products/youtube/short-aerogarden-vs-click-grow/storyboard.json",
       "format": "short",
       "published_at": "2026-08-15T18:06:54.924507+00:00",
-      "metadata_refreshed_at": "2026-11-08T14:27:03.170039+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:38.480612+00:00",
       "kit_comment_id": "UgxrhqeOWv1BoSR0j0d4AaABAg",
       "kit_comment_posted_at": "2026-09-29T07:31:15.247525+00:00"
     },
@@ -31,7 +31,7 @@
       "uploaded_at": "2026-08-19T19:20:52.600454+00:00",
       "storyboard": "products/youtube/video-basil-countertop-first-harvest/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:07.853608+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:42.381906+00:00"
     },
     "short-basil-countertop-first-harvest": {
       "youtube_id": "vGjPcqBkxLg",
@@ -41,7 +41,7 @@
       "uploaded_at": "2026-08-19T19:21:27.148608+00:00",
       "storyboard": "products/youtube/short-basil-countertop-first-harvest/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:03.417410+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:38.673266+00:00",
       "kit_comment_id": "UgzVsCo2ToVzwuYL_Jd4AaABAg",
       "kit_comment_posted_at": "2026-09-29T07:31:16.738792+00:00"
     },
@@ -53,7 +53,7 @@
       "uploaded_at": "2026-08-20T09:39:26.432719+00:00",
       "storyboard": "products/youtube/short-best-countertop-garden-apartments/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:03.636723+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:38.882427+00:00",
       "kit_comment_id": "UgzjoJQXNFZmK3J1kwF4AaABAg",
       "kit_comment_posted_at": "2026-09-29T07:31:15.742598+00:00"
     },
@@ -65,7 +65,7 @@
       "uploaded_at": "2026-08-20T14:32:48.722603+00:00",
       "storyboard": "products/youtube/video-best-countertop-garden-apartments/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:08.103701+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:42.568774+00:00"
     },
     "short-best-low-light-herbs-apartment": {
       "youtube_id": "Lsf4odXtLmM",
@@ -75,7 +75,7 @@
       "uploaded_at": "2026-08-21T09:41:39.220864+00:00",
       "storyboard": "products/youtube/short-best-low-light-herbs-apartment/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:03.953512+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:39.109009+00:00",
       "kit_comment_id": "Ugy51Y9AJYtMUDycz0J4AaABAg",
       "kit_comment_posted_at": "2026-09-29T07:31:17.194040+00:00"
     },
@@ -87,7 +87,7 @@
       "uploaded_at": "2026-08-21T14:31:21.225575+00:00",
       "storyboard": "products/youtube/video-best-low-light-herbs-apartment/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:08.306479+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:42.717377+00:00"
     },
     "short-cheapest-indoor-herb-garden-apartment": {
       "youtube_id": "s7KtScEHU6o",
@@ -97,7 +97,7 @@
       "uploaded_at": "2026-08-22T09:31:03.817528+00:00",
       "storyboard": "products/youtube/short-cheapest-indoor-herb-garden-apartment/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:04.160985+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:39.330115+00:00",
       "kit_comment_id": "UgymSz2y68ZkHgOK8Ht4AaABAg",
       "kit_comment_posted_at": "2026-09-29T07:31:16.267549+00:00"
     },
@@ -109,7 +109,7 @@
       "uploaded_at": "2026-08-22T14:17:50.386633+00:00",
       "storyboard": "products/youtube/video-cheapest-indoor-herb-garden-apartment/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:08.563393+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:42.912067+00:00"
     },
     "video-countertop-garden-running-cost": {
       "youtube_id": "2w4E2Z0yAIg",
@@ -119,7 +119,7 @@
       "uploaded_at": "2026-08-23T14:13:25.023542+00:00",
       "storyboard": "products/youtube/video-countertop-garden-running-cost/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:09.869584+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:43.999696+00:00"
     },
     "short-countertop-garden-running-cost": {
       "youtube_id": "SWE2ARj7xUg",
@@ -129,7 +129,7 @@
       "uploaded_at": "2026-08-23T14:14:24.560620+00:00",
       "storyboard": "products/youtube/short-countertop-garden-running-cost/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:05.383902+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:40.318245+00:00"
     },
     "short-grow-light-schedules-herbs": {
       "youtube_id": "S6hD0oXCiKo",
@@ -139,7 +139,7 @@
       "uploaded_at": "2026-08-24T09:54:01.986914+00:00",
       "storyboard": "products/youtube/short-grow-light-schedules-herbs/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:05.946447+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:40.690891+00:00"
     },
     "video-grow-light-schedules-herbs": {
       "youtube_id": "hfHnNr839Ps",
@@ -149,7 +149,7 @@
       "uploaded_at": "2026-08-24T14:38:16.580768+00:00",
       "storyboard": "products/youtube/video-grow-light-schedules-herbs/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:10.353321+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:44.465351+00:00"
     },
     "short-landlord-safe-indoor-garden-setup": {
       "youtube_id": "Jxrkpvqs8Vs",
@@ -159,7 +159,7 @@
       "uploaded_at": "2026-08-25T09:39:57.203007+00:00",
       "storyboard": "products/youtube/short-landlord-safe-indoor-garden-setup/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:06.396583+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:41.127108+00:00"
     },
     "video-landlord-safe-indoor-garden-setup": {
       "youtube_id": "BA6XEAb1egE",
@@ -169,7 +169,7 @@
       "uploaded_at": "2026-08-25T14:41:30.739655+00:00",
       "storyboard": "products/youtube/video-landlord-safe-indoor-garden-setup/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:11.304750+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:45.079784+00:00"
     },
     "short-quiet-countertop-gardens-studios": {
       "youtube_id": "974TVJVBJtA",
@@ -179,7 +179,7 @@
       "uploaded_at": "2026-08-26T09:49:00.760158+00:00",
       "storyboard": "products/youtube/short-quiet-countertop-gardens-studios/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:06.850753+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:41.596105+00:00"
     },
     "video-quiet-countertop-gardens-studios": {
       "youtube_id": "loYYx2jocMY",
@@ -189,7 +189,7 @@
       "uploaded_at": "2026-08-26T14:42:08.877669+00:00",
       "storyboard": "products/youtube/video-quiet-countertop-gardens-studios/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:12.221182+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:45.968446+00:00"
     },
     "short-windowsill-herbs-without-kit": {
       "youtube_id": "K_-h5CgvUIk",
@@ -199,7 +199,7 @@
       "uploaded_at": "2026-08-27T19:42:49.893714+00:00",
       "storyboard": "products/youtube/short-windowsill-herbs-without-kit/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:07.091594+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:41.792048+00:00"
     },
     "video-windowsill-herbs-without-kit": {
       "youtube_id": "kcYfyFpVQFU",
@@ -209,7 +209,7 @@
       "uploaded_at": "2026-08-27T23:31:51.915196+00:00",
       "storyboard": "products/youtube/video-windowsill-herbs-without-kit/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:15.244142+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:48.184551+00:00"
     },
     "short-countertop-garden-pod-refill-cost": {
       "youtube_id": "Je0vgNg1LLs",
@@ -219,7 +219,7 @@
       "uploaded_at": "2026-08-28T20:47:26.133311+00:00",
       "storyboard": "products/youtube/short-countertop-garden-pod-refill-cost/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:05.172923+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:40.137965+00:00"
     },
     "video-countertop-garden-pod-refill-cost": {
       "youtube_id": "QhkHAtoH6o8",
@@ -229,7 +229,7 @@
       "uploaded_at": "2026-08-28T23:23:18.180155+00:00",
       "storyboard": "products/youtube/video-countertop-garden-pod-refill-cost/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:09.657611+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:43.771129+00:00"
     },
     "short-click-and-grow-vs-idoo-auk": {
       "youtube_id": "enP9vdbWrvo",
@@ -239,7 +239,7 @@
       "uploaded_at": "2026-08-29T14:16:51.067655+00:00",
       "storyboard": "products/youtube/short-click-and-grow-vs-idoo-auk/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:04.398413+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:39.483953+00:00",
       "kit_comment_id": "UgxqfwslViV7a-ulS1l4AaABAg",
       "kit_comment_posted_at": "2026-09-29T07:31:17.660856+00:00"
     },
@@ -251,7 +251,7 @@
       "uploaded_at": "2026-08-29T17:29:50.799597+00:00",
       "storyboard": "products/youtube/video-compare-aerogarden-models/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:09.260285+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:43.493956+00:00"
     },
     "video-click-and-grow-vs-idoo-auk": {
       "youtube_id": "1wSzcPp_sIA",
@@ -261,7 +261,7 @@
       "uploaded_at": "2026-08-31T19:51:41.734017+00:00",
       "storyboard": "products/youtube/video-click-and-grow-vs-idoo-auk/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:09.047536+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:43.307991+00:00"
     },
     "short-compare-aerogarden-models": {
       "youtube_id": "SyIGDR_exF0",
@@ -271,7 +271,7 @@
       "uploaded_at": "2026-09-01T14:02:53.211276+00:00",
       "storyboard": "products/youtube/short-compare-aerogarden-models/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:04.621011+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:39.666429+00:00"
     },
     "video-countertop-garden-system-guide": {
       "youtube_id": "6DXooWroM3g",
@@ -281,7 +281,7 @@
       "uploaded_at": "2026-09-01T18:23:51.766463+00:00",
       "storyboard": "products/youtube/video-countertop-garden-system-guide/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:10.097452+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:44.193316+00:00"
     },
     "short-countertop-garden-system-guide": {
       "youtube_id": "Qvl0xExEM4c",
@@ -291,7 +291,7 @@
       "uploaded_at": "2026-09-02T13:39:50.728136+00:00",
       "storyboard": "products/youtube/short-countertop-garden-system-guide/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:05.664269+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:40.525356+00:00"
     },
     "video-yellow-leaves-leggy-seedlings-indoor-herbs": {
       "youtube_id": "ekXFbbs57dU",
@@ -301,7 +301,7 @@
       "uploaded_at": "2026-09-02T17:35:24.336355+00:00",
       "storyboard": "products/youtube/video-yellow-leaves-leggy-seedlings-indoor-herbs/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:15.495506+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:48.364463+00:00"
     },
     "short-yellow-leaves-leggy-seedlings-indoor-herbs": {
       "youtube_id": "KMO-Fa7AJ_s",
@@ -311,7 +311,7 @@
       "uploaded_at": "2026-09-03T13:24:56.737201+00:00",
       "storyboard": "products/youtube/short-yellow-leaves-leggy-seedlings-indoor-herbs/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:07.300455+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:41.964690+00:00"
     },
     "video-kratky-jar-herbs-apartment": {
       "youtube_id": "HhPYlOwDZ1w",
@@ -321,7 +321,7 @@
       "uploaded_at": "2026-09-03T17:29:58.184210+00:00",
       "storyboard": "products/youtube/video-kratky-jar-herbs-apartment/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:11.104292+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:44.813465+00:00"
     },
     "short-kratky-jar-herbs-apartment": {
       "youtube_id": "F073SleZ9aA",
@@ -331,7 +331,7 @@
       "uploaded_at": "2026-09-04T13:18:55.725241+00:00",
       "storyboard": "products/youtube/short-kratky-jar-herbs-apartment/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:06.155085+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:40.874045+00:00",
       "kit_comment_id": "Ugzc2BopnzYtYq9XgER4AaABAg",
       "kit_comment_posted_at": "2026-09-29T07:31:14.714518+00:00"
     },
@@ -343,7 +343,7 @@
       "uploaded_at": "2026-09-04T17:21:40.317449+00:00",
       "storyboard": "products/youtube/video-mint-windowsill-first-harvest/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:11.556837+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:45.256285+00:00"
     },
     "short-mint-windowsill-first-harvest": {
       "youtube_id": "cceEHXgSlYc",
@@ -353,7 +353,7 @@
       "uploaded_at": "2026-09-05T12:30:46.101705+00:00",
       "storyboard": "products/youtube/short-mint-windowsill-first-harvest/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:06.617077+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:41.344860+00:00",
       "kit_comment_id": "Ugzz4q-QnLQdc5XK6iV4AaABAg",
       "kit_comment_posted_at": "2026-09-30T14:06:34.928097+00:00"
     },
@@ -365,7 +365,7 @@
       "uploaded_at": "2026-09-19T21:30:35.500126+00:00",
       "storyboard": "products/youtube/video-compare-aerogarden-models-20260920/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:09.426654+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:43.629358+00:00"
     },
     "short-compare-aerogarden-models-20260920": {
       "youtube_id": "CTmzbmQ5FAw",
@@ -375,7 +375,7 @@
       "uploaded_at": "2026-09-19T21:31:32.122827+00:00",
       "storyboard": "products/youtube/short-compare-aerogarden-models-20260920/storyboard.json",
       "format": "short",
-      "metadata_refreshed_at": "2026-11-08T14:27:04.912856+00:00",
+      "metadata_refreshed_at": "2026-11-09T17:44:39.854922+00:00",
       "kit_comment_id": "UgxI035LzCWxDvFVizt4AaABAg",
       "kit_comment_posted_at": "2026-09-29T07:31:14.270469+00:00"
     },
@@ -387,7 +387,7 @@
       "uploaded_at": "2026-09-22T17:54:35.600953+00:00",
       "storyboard": "products/youtube/video-related-click-and-grow-vs-aerogarden-2026/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:14.462686+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:47.447611+00:00"
     },
     "video-related-apartment-garden-on-a-budget": {
       "youtube_id": "_BkvP9voGJM",
@@ -397,7 +397,7 @@
       "uploaded_at": "2026-09-25T18:13:11.950255+00:00",
       "storyboard": "products/youtube/video-related-apartment-garden-on-a-budget/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:13.949473+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:47.152391+00:00"
     },
     "video-related-click-and-grow-vs-aerogarden-2026-20260926": {
       "youtube_id": "WSnB43l2SmQ",
@@ -407,7 +407,7 @@
       "uploaded_at": "2026-09-28T05:22:25.790066+00:00",
       "storyboard": "products/youtube/video-related-click-and-grow-vs-aerogarden-2026-20260926/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:14.638046+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:47.683320+00:00"
     },
     "video-related-click-and-grow-vs-aerogarden-2026-20260928": {
       "youtube_id": "3SimWem3R74",
@@ -417,7 +417,7 @@
       "uploaded_at": "2026-10-01T19:24:18.379722+00:00",
       "storyboard": "products/youtube/video-related-click-and-grow-vs-aerogarden-2026-20260928/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:14.836650+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:47.805672+00:00"
     },
     "video-related-aerogarden-trellis-for-2019-bounty-models": {
       "youtube_id": "TTkEuYGQJmc",
@@ -427,7 +427,7 @@
       "uploaded_at": "2026-10-04T17:58:19.731055+00:00",
       "storyboard": "products/youtube/video-related-aerogarden-trellis-for-2019-bounty-models/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:13.467183+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:46.817919+00:00"
     },
     "video-related-aerogarden-harvest-vs-bounty-hydroponics": {
       "youtube_id": "znYwZvnXYmQ",
@@ -437,7 +437,7 @@
       "uploaded_at": "2026-10-08T19:39:00.450739+00:00",
       "storyboard": "products/youtube/video-related-aerogarden-harvest-vs-bounty-hydroponics/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:13.269233+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:46.665391+00:00"
     },
     "video-related-best-healthy-herb-garden-under-50": {
       "youtube_id": "jdnMVOKBocQ",
@@ -447,7 +447,7 @@
       "uploaded_at": "2026-10-11T18:36:37.511427+00:00",
       "storyboard": "products/youtube/video-related-best-healthy-herb-garden-under-50/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:14.176846+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:47.311415+00:00"
     },
     "video-pet-safe-low-smell-apartment-herbs": {
       "youtube_id": "LnR7BPw3ILw",
@@ -457,7 +457,7 @@
       "uploaded_at": "2026-10-14T18:18:12.383923+00:00",
       "storyboard": "products/youtube/video-pet-safe-low-smell-apartment-herbs/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:12.002967+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:45.646746+00:00"
     },
     "video-cilantro-countertop-first-harvest": {
       "youtube_id": "1F5Kue-J_c4",
@@ -467,7 +467,7 @@
       "uploaded_at": "2026-10-17T16:49:50.763610+00:00",
       "storyboard": "products/youtube/video-cilantro-countertop-first-harvest/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:08.827008+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:43.084484+00:00"
     },
     "video-parsley-countertop-first-harvest": {
       "youtube_id": "hZsKuTU2Hvs",
@@ -477,7 +477,7 @@
       "uploaded_at": "2026-10-20T18:17:29.361371+00:00",
       "storyboard": "products/youtube/video-parsley-countertop-first-harvest/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:11.751329+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:45.460920+00:00"
     },
     "video-related-aerogarden-bounty-basic-vs-elite": {
       "youtube_id": "f4s2_Ksur48",
@@ -487,7 +487,7 @@
       "uploaded_at": "2026-10-23T18:05:44.007723+00:00",
       "storyboard": "products/youtube/video-related-aerogarden-bounty-basic-vs-elite/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:12.459928+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:46.122768+00:00"
     },
     "video-related-aerogarden-bounty-basic-vs-elite-20261024": {
       "youtube_id": "KjGp9TzPk-c",
@@ -497,7 +497,7 @@
       "uploaded_at": "2026-10-26T20:31:14.113660+00:00",
       "storyboard": "products/youtube/video-related-aerogarden-bounty-basic-vs-elite-20261024/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:12.734471+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:46.304769+00:00"
     },
     "video-related-aerogarden-bounty-basic-vs-elite-20261027": {
       "youtube_id": "pmukWXuI1e8",
@@ -507,7 +507,7 @@
       "uploaded_at": "2026-10-29T19:25:32.413033+00:00",
       "storyboard": "products/youtube/video-related-aerogarden-bounty-basic-vs-elite-20261027/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:12.995838+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:46.519899+00:00"
     },
     "video-related-aerogarden-trellis-for-2019-bounty-models-20261030": {
       "youtube_id": "Ez3v350PS9Y",
@@ -517,7 +517,7 @@
       "uploaded_at": "2026-11-01T18:44:06.821258+00:00",
       "storyboard": "products/youtube/video-related-aerogarden-trellis-for-2019-bounty-models-20261030/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:13.720592+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:47.005581+00:00"
     },
     "video-related-herb-garden-for-small-apartments-2026": {
       "youtube_id": "HRLTtAAkxK0",
@@ -527,7 +527,7 @@
       "uploaded_at": "2026-11-04T20:41:06.457203+00:00",
       "storyboard": "products/youtube/video-related-herb-garden-for-small-apartments-2026/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:15.041119+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:47.984715+00:00"
     },
     "video-hydroponic-kit-under-50-apartment": {
       "youtube_id": "3YgXA2Jncc0",
@@ -537,9 +537,9 @@
       "uploaded_at": "2026-11-07T18:27:49.201672+00:00",
       "storyboard": "products/youtube/video-hydroponic-kit-under-50-apartment/storyboard.json",
       "format": "long",
-      "metadata_refreshed_at": "2026-11-08T14:27:10.899064+00:00"
+      "metadata_refreshed_at": "2026-11-09T17:44:44.641949+00:00"
     }
   },
-  "updated_at": "2026-11-08T14:27:15.495527+00:00",
+  "updated_at": "2026-11-09T17:44:48.364473+00:00",
   "next_eligible_date": "2026-11-10"
 }
