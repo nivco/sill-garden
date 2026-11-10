@@ -538,8 +538,17 @@
       "storyboard": "products/youtube/video-hydroponic-kit-under-50-apartment/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-11-10T15:43:21.262353+00:00"
+    },
+    "video-related-best-simple-herb-garden-under-50": {
+      "youtube_id": "0kZ6qXJsOJ0",
+      "url": "https://youtu.be/0kZ6qXJsOJ0",
+      "title": "Best simple herb garden under 50 (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-11-10T20:42:42.559798+00:00",
+      "storyboard": "products/youtube/video-related-best-simple-herb-garden-under-50/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-11-10T15:43:25.898629+00:00",
-  "next_eligible_date": "2026-11-10"
+  "next_eligible_date": "2026-11-13"
 }
