@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-09 23:37 UTC",
+  "generated_at": "2026-11-10 21:04 UTC",
   "wow": {
-    "ga4_sessions_7d": -1.0,
-    "gsc_impressions_7d": -4.0,
+    "ga4_sessions_7d": 4.0,
+    "gsc_impressions_7d": 1.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 8,
-    "gsc_impressions_7d": 43,
+    "sessions_7d": 12,
+    "gsc_impressions_7d": 44,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -79,22 +79,22 @@
       "position": 5.5
     },
     {
-      "query": "best compact herb garden under 50",
+      "query": "best cheap herb garden under 50",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 10.0
+      "position": 11.0
     }
   ],
   "learnings": [
-    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |",
-    "LLM peer insight: Build a scannable table with the exact distinctions users are searching for:",
-    "LLM peer insight: . **Add a decision-first comparison table directly below the hero**",
-    "LLM peer insight: - Use a product image showing all three models side by side, with small labels for **9 pods**, **24-inch grow height**, and **Elite 50W light**. The standard Bounty is listed with a 40W LED, while the Elite uses a 50W LE",
-    "LLM peer insight: - Add a 40–60-word hero summary answering the decision immediately: **Bounty and Bounty Elite are the better choices for taller plants and more control; Bounty Basic is the simpler, lower-cost option.**",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Comparison: Basic vs Bounty vs Elite`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`",
-    "LLM peer insight: . **Rewrite the primary title and hero around the highest-intent queries**",
+    "LLM peer insight: - Include these rows: price, pod capacity, light wattage, maximum grow height, dimensions, display, Wi-Fi/app, dimming, sunrise/sunset mode, finish, and best for.",
+    "LLM peer insight: - Put the table directly after the introduction, before long-form review content.",
+    "LLM peer insight: . **Ship a decision-focused comparison table above the fold**",
+    "LLM peer insight: - Use jump links: `Dimensions`, `Feature comparison`, `Bounty Elite review`, `Which model should you buy?`, `FAQ`.",
+    "LLM peer insight: - Add a 40–60-word opening answer immediately below the H1: all three models support 9 pods and up to 24 inches of grow height; the main differences are light power, controls, smart features, and finish. The Elite is lis",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Dimensions, Features & Best Pick`",
+    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
     "WORKING peer pattern: long-form depth (~1396 words avg) — expand thin guides with decision rules, not fluff.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,7 +114,7 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-11-09 23:37 UTC"
+    "generated_at": "2026-11-10 21:04 UTC"
   },
   "impact": {
     "closed_today": 0,
