@@ -1,6 +1,6 @@
-# Sill Garden Content Agent — 2026-11-09
+# Sill Garden Content Agent — 2026-11-10
 
-Generated: 2026-11-09 23:53 UTC
+Generated: 2026-11-10 21:32 UTC
 
 ## Research
 - Guides: 21
