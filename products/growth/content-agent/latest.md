@@ -1,6 +1,6 @@
-# Sill Garden Content Agent — 2026-11-10
+# Sill Garden Content Agent — 2026-11-11
 
-Generated: 2026-11-10 21:32 UTC
+Generated: 2026-11-11 22:20 UTC
 
 ## Research
 - Guides: 21
@@ -19,4 +19,4 @@ Generated: 2026-11-10 21:32 UTC
 - aerogarden comparison — 1 impr, pos 69.0
 - aerogarden elite bounty — 2 impr, pos 72.5
 - aerogarden harvest vs harvest elite — 1 impr, pos 78.0
-- auk vs click and grow — 2 impr, pos 8.5
+- aerogarden vs click and grow — 2 impr, pos 53.0
