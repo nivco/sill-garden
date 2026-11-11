@@ -1,6 +1,6 @@
 # Visuality backlog (from competitive learning)
 
-Updated: 2026-11-10 21:04 UTC
+Updated: 2026-11-11 21:38 UTC
 
 - [x] Home hero: one brand + one CTA; no card clutter in first viewport
 - [x] Guide pages: Quick verdict + product picks before long prose
@@ -11,8 +11,8 @@ Updated: 2026-11-10 21:04 UTC
 - WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.
 - VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.
 - VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.
-- WORKING peer pattern: long-form depth (~1396 words avg) — expand thin guides with decision rules, not fluff.
-- LLM peer insight: . **Create a query-matched comparison page title and H1**
-- LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Dimensions, Features & Best Pick`
-- LLM peer insight: - **H1:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`
-- LLM peer insight: - Add a 40–60-word opening answer immediately below the H1: all three models support 9 pods and up to 24 inches of grow height; the main differences are light power, controls, smart features, and finish. The Elite is lis
+- WORKING peer pattern: long-form depth (~1382 words avg) — expand thin guides with decision rules, not fluff.
+- LLM peer insight: . **Build a query-matched comparison page title and H1**
+- LLM peer insight: - **Title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`
+- LLM peer insight: - **H1:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite`
+- LLM peer insight: - Add a 40–60-word intro answering the main decision immediately: all three support 9 pods and up to 24 inches of grow height; the key differences are light power, controls, smart features, and finish.[4][6]

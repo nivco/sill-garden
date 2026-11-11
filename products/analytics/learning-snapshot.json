@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-10 21:04 UTC",
+  "generated_at": "2026-11-11 21:37 UTC",
   "wow": {
-    "ga4_sessions_7d": 4.0,
-    "gsc_impressions_7d": 1.0,
+    "ga4_sessions_7d": 9.0,
+    "gsc_impressions_7d": 10.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 12,
-    "gsc_impressions_7d": 44,
+    "sessions_7d": 21,
+    "gsc_impressions_7d": 54,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -65,6 +65,13 @@
       "position": 78.0
     },
     {
+      "query": "aerogarden vs click and grow",
+      "clicks": 0,
+      "impressions": 2,
+      "ctr": 0.0,
+      "position": 53.0
+    },
+    {
       "query": "auk vs click and grow",
       "clicks": 0,
       "impressions": 2,
@@ -74,28 +81,21 @@
     {
       "query": "best budget herb garden under 50",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 4,
       "ctr": 0.0,
-      "position": 5.5
-    },
-    {
-      "query": "best cheap herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 11.0
+      "position": 8.0
     }
   ],
   "learnings": [
-    "LLM peer insight: - Include these rows: price, pod capacity, light wattage, maximum grow height, dimensions, display, Wi-Fi/app, dimming, sunrise/sunset mode, finish, and best for.",
-    "LLM peer insight: - Put the table directly after the introduction, before long-form review content.",
-    "LLM peer insight: . **Ship a decision-focused comparison table above the fold**",
-    "LLM peer insight: - Use jump links: `Dimensions`, `Feature comparison`, `Bounty Elite review`, `Which model should you buy?`, `FAQ`.",
-    "LLM peer insight: - Add a 40–60-word opening answer immediately below the H1: all three models support 9 pods and up to 24 inches of grow height; the main differences are light power, controls, smart features, and finish. The Elite is lis",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Dimensions, Features & Best Pick`",
-    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
-    "WORKING peer pattern: long-form depth (~1396 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: - Include: price, pod capacity, light wattage, maximum grow height, footprint, reservoir, display, Wi-Fi/app control, dimming, finish, and best use.",
+    "LLM peer insight: - Place it directly below the introduction and before the long review.",
+    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
+    "LLM peer insight: - Use descriptive H2s: `AeroGarden Bounty Dimensions`, `Bounty vs Bounty Basic`, `Bounty vs Bounty Elite`, and `Which AeroGarden Bounty Should You Buy?`",
+    "LLM peer insight: - Add a 40–60-word intro answering the main decision immediately: all three support 9 pods and up to 24 inches of grow height; the key differences are light power, controls, smart features, and finish.[4][6]",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite`",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`",
+    "LLM peer insight: . **Build a query-matched comparison page title and H1**",
+    "WORKING peer pattern: long-form depth (~1382 words avg) — expand thin guides with decision rules, not fluff.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
@@ -114,7 +114,7 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-11-10 21:04 UTC"
+    "generated_at": "2026-11-11 21:38 UTC"
   },
   "impact": {
     "closed_today": 0,
