@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-11 22:20 UTC",
+  "generated_at": "2026-11-12 21:38 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -27,8 +27,8 @@
           "Bring the outdoors in",
           "Your Thanksgiving feast has never been fresher"
         ],
-        "word_count_est": 605,
-        "images": 32,
+        "word_count_est": 647,
+        "images": 41,
         "has_faq": true,
         "has_table": false,
         "has_og_image": true,
@@ -55,7 +55,7 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 329,
+        "word_count_est": 332,
         "images": 16,
         "has_faq": false,
         "has_table": false,
@@ -81,7 +81,7 @@
         "description": "",
         "h1": [],
         "h2_sample": [],
-        "word_count_est": 3149,
+        "word_count_est": 3151,
         "images": 0,
         "has_faq": false,
         "has_table": false,
@@ -116,6 +116,32 @@
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4048,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -157,35 +183,35 @@
   },
   "gsc_queries": [
     "aerogarden bounty elite dimensions",
-    "aerogarden bounty review",
-    "aerogarden bounty vs bounty basic",
-    "aerogarden bounty vs bounty elite",
-    "aerogarden comparison",
     "aerogarden elite bounty",
-    "aerogarden harvest vs harvest elite",
-    "aerogarden vs click and grow"
+    "aerogarden vs click and grow",
+    "auk vs click and grow",
+    "best budget herb garden under 50",
+    "best cheap herb garden under 50",
+    "best compact herb garden under 50",
+    "best lightweight herb garden under 50"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Review and Comparison`",
-    "LLM peer insight: - Add a short opening paragraph answering the main buying question: which model fits a small apartment, what each costs, and whether Elite’s upgrades justify the premium.",
-    "LLM peer insight: - Use the exact query variants as subheads:",
-    "LLM peer insight: - This closes the clearest gap between your GSC demand and the peers’ generic product-page titles.",
-    "LLM peer insight: . **Ship a decision-first comparison table above the fold**",
-    "LLM peer insight: - Put the table immediately after the intro, before long-form review content.",
-    "LLM peer insight: - Include these columns: **Bounty Basic, Bounty, Bounty Elite, Best for**.",
-    "LLM peer insight: - Dimensions: approximately **17.25 in W × 11.25 in D × 34 in H** for the Bounty and Elite models[5][7]"
+    "WORKING peer pattern: long-form depth (~1394 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Create query-matched titles and H1s**",
+    "LLM peer insight: - Publish dedicated pages instead of forcing all queries onto a generic category page.",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Elite Dimensions: Size, Clearance & Counter Space`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Elite Dimensions and Setup Requirements`",
+    "LLM peer insight: - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`",
+    "LLM peer insight: - **H1:** `AeroGarden vs Click & Grow: Features, Cost and Ease of Use`",
+    "LLM peer insight: - **Title:** `7 Best Budget Herb Gardens Under $50`",
+    "LLM peer insight: - **H1:** `Best Indoor Herb Gardens Under $50`"
   ],
-  "llm_notes": "1. **Create a query-matched comparison page title and H1**\n   - **Title:** `AeroGarden Bounty Review: Bounty vs Basic vs Elite`\n   - **H1:** `AeroGarden Bounty Review and Comparison`\n   - Add a short opening paragraph answering the main buying question: which model fits a small apartment, what each costs, and whether Elite’s upgrades justify the premium.\n   - Use the exact query variants as subheads:\n     - `AeroGarden Bounty Elite Dimensions`\n     - `AeroGarden Bounty vs Bounty Basic`\n     - `AeroGarden Bounty vs Bounty Elite`\n   - This closes the clearest gap between your GSC demand and the peers’ generic product-page titles.\n\n2. **Ship a decision-first comparison table above the fold**\n   - Put the table immediately after the intro, before long-form review content.\n   - Include these columns: **Bounty Basic, Bounty, Bounty Elite, Best for**.\n   - Include rows for:\n     - Dimensions: approximately **17.25 in W × 11.25 in D × 34 in H** for the Bounty and Elite models[5][7]\n     - Pod capacity: 9\n     - Maximum grow height: 24 in\n     - Light wattage\n     - Wi-Fi/app control\n     - Touchscreen\n     - Dimming\n     - Vacation mode\n     - Finish\n     - Current price\n     - Verdict\n   - Add a visual “winner” label in each row, such as **Best value**, **Best smart features**, or **Best for tall plants**.\n   - Clearly distinguish countertop footprint from maximum operating height: the unit’s light column can reach 34 inches, so shoppers need vertical clearance as well as counter depth.\n\n3. **Add a concise FAQ built around the GSC questions**\n   - Implement FAQ schema only for que",
+  "llm_notes": "1. **Create query-matched titles and H1s**\n   - Publish dedicated pages instead of forcing all queries onto a generic category page.\n   - Use:\n     - **Title:** `AeroGarden Bounty Elite Dimensions: Size, Clearance & Counter Space`\n     - **H1:** `AeroGarden Bounty Elite Dimensions and Setup Requirements`\n     - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`\n     - **H1:** `AeroGarden vs Click & Grow: Features, Cost and Ease of Use`\n     - **Title:** `7 Best Budget Herb Gardens Under $50`\n     - **H1:** `Best Indoor Herb Gardens Under $50`\n   - Put the exact target phrase near the beginning of each title and H1. The Bounty Elite is listed at 17.258 inches wide, 11.25 inches deep and 34 inches high, so include those measurements prominently on the dimensions page.[10]\n\n2. **Add comparison tables above the fold**\n   - Both AeroGarden and Click & Grow comparison pages lack tables, despite users searching for direct comparisons.\n   - Add a scannable table immediately after the introduction:\n\n| Feature | AeroGarden Bounty Elite | Click & Grow Smart Garden |\n|---|---|---|\n| Best for | More crop variety and taller plants | Lowest-maintenance herbs |\n| Plant sites | 9 | 3 or 9, depending on model |\n| Feeding | Liquid nutrients added manually | Nutrients built into pods |\n| Watering | Reservoir and pump | Passive wick system |\n| Height clearance | Up to 24 inches on Bounty models | About 12–14 inches on comparable models |\n| Ongoing effort | More maintenance, more flexibility | Less maintenance, fewer adjustments |\n\n   - Follow it with a bold recommendation: ",
   "proposed_actions": [
     {
-      "type": "content_table",
+      "type": "content_faq",
       "priority": "P1",
-      "title": "Ensure comparison tables near top of vs guides",
-      "detail": "Peers show side-by-side tables early. Keep Quick pick / side-by-side tables above long prose.",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
       "auto": true
     },
     {
@@ -203,6 +229,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
