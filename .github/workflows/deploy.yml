@@ -21,7 +21,11 @@ jobs:
       - name: Build
         env:
           PUBLIC_GA4_ID: ${{ secrets.PUBLIC_GA4_ID }}
-          PUBLIC_CLICK_GROW_AFFILIATE_URL: ${{ secrets.PUBLIC_CLICK_GROW_AFFILIATE_URL }}
+          # PUBLIC_CLICK_GROW_AFFILIATE_URL is left out on purpose: the secret still holds a
+          # placeholder (clickandgrow.com/?ref=test-sill) that tracks nothing, so Click & Grow
+          # buttons must use the tagged Amazon link. Re-add this line once the secret holds the
+          # approved CJ deep link:
+          #   PUBLIC_CLICK_GROW_AFFILIATE_URL: ${{ secrets.PUBLIC_CLICK_GROW_AFFILIATE_URL }}
           PUBLIC_GARDENERS_SUPPLY_AFFILIATE_URL: ${{ secrets.PUBLIC_GARDENERS_SUPPLY_AFFILIATE_URL }}
         run: npm run build
       - name: Publish to Cloudflare Pages
