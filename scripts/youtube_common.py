@@ -109,13 +109,17 @@ DEFAULT_AFFILIATE_LINKS: list[tuple[str, str]] = [
 
 
 def kit_comment_text(campaign: str = "yt-pin-kits") -> str:
-    """Pinned / channel-comment copy for Shorts — money URLs first."""
+    """Pinned / channel-comment copy — Amazon first, then kit pages."""
     return "\n".join(
         [
-            "Apartment kit pick (noise vs capacity) + year-one cost:",
-            add_utm("https://sillgarden.com/tools/kit-picker/", campaign, medium="video"),
+            "Apartment picks (Amazon affiliate — I earn from qualifying purchases):",
+            "Click & Grow Smart Garden 3 (silent): https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1",
+            "AeroGarden Harvest (6-pod): https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1",
+            "",
+            "Full stacks + year-one cost:",
             add_utm("https://sillgarden.com/kits/", campaign, medium="video"),
-            add_utm("https://sillgarden.com/tools/year-one-cost/", campaign, medium="video"),
+            add_utm("https://sillgarden.com/tools/kit-picker/", campaign, medium="video"),
+            add_utm("https://sillgarden.com/disclosure/", campaign, medium="video"),
         ]
     )
 
