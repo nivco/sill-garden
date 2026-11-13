@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-12 21:57 UTC",
+  "generated_at": "2026-11-13 21:03 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -27,7 +27,7 @@
           "Bring the outdoors in",
           "Your Thanksgiving feast has never been fresher"
         ],
-        "word_count_est": 647,
+        "word_count_est": 659,
         "images": 41,
         "has_faq": true,
         "has_table": false,
@@ -55,7 +55,7 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 332,
+        "word_count_est": 353,
         "images": 16,
         "has_faq": false,
         "has_table": false,
@@ -109,13 +109,39 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 547,
+        "word_count_est": 542,
         "images": 2,
         "has_faq": false,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4049,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -143,7 +169,7 @@
         "Our call",
         "Next"
       ],
-      "word_count_est": 1785,
+      "word_count_est": 1838,
       "images": 6,
       "has_faq": true,
       "has_table": true,
@@ -162,25 +188,32 @@
     "auk vs click and grow",
     "best budget herb garden under 50",
     "best cheap herb garden under 50",
-    "best compact herb garden under 50",
-    "best lightweight herb garden under 50"
+    "best lightweight herb garden under 50",
+    "click and grow vs auk"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "LLM peer insight: . **Create query-matched titles and H1s**",
-    "LLM peer insight: - **Title:** “AeroGarden Bounty Elite: Dimensions, Review & Alternatives”",
-    "LLM peer insight: - **H1:** “AeroGarden Bounty Elite Dimensions and Review”",
-    "LLM peer insight: - Add separate comparison content targeting:",
-    "LLM peer insight: - “AeroGarden vs Click & Grow: Which Indoor Garden Is Better?”",
-    "LLM peer insight: - “AUK vs Click & Grow: Features, Cost and Best Use”",
-    "LLM peer insight: - Put the primary query near the beginning of each title, H1, URL, introduction, and meta description.",
-    "LLM peer insight: . **Add a decision-focused comparison table**",
-    "LLM peer insight: - Place it immediately below the introduction on comparison pages.",
-    "LLM peer insight: - Use columns for **Price, pod capacity, dimensions, lighting, automation, app/Wi-Fi, refill cost, best for, and drawbacks**."
+    "WORKING peer pattern: long-form depth (~1401 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Create query-led titles and H1s for commercial pages**",
+    "LLM peer insight: - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Elite Dimensions, Review & Best Alternatives`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Elite Dimensions and Setup`",
+    "LLM peer insight: - **Title:** `5 Best Indoor Herb Gardens Under $50`",
+    "LLM peer insight: - **H1:** `Best Budget Indoor Herb Gardens Under $50`",
+    "LLM peer insight: - Put the exact target phrase in the first 100 words and the page’s meta description.",
+    "LLM peer insight: . **Ship a comparison table above the fold**"
   ],
-  "llm_notes": "1. **Create query-matched titles and H1s**\n   - Publish a dedicated review page with:\n     - **Title:** “AeroGarden Bounty Elite: Dimensions, Review & Alternatives”\n     - **H1:** “AeroGarden Bounty Elite Dimensions and Review”\n   - Add separate comparison content targeting:\n     - “AeroGarden vs Click & Grow: Which Indoor Garden Is Better?”\n     - “AUK vs Click & Grow: Features, Cost and Best Use”\n     - “Best Budget Herb Gardens Under $50”\n   - Put the primary query near the beginning of each title, H1, URL, introduction, and meta description.\n\n2. **Add a decision-focused comparison table**\n   - Place it immediately below the introduction on comparison pages.\n   - Use columns for **Price, pod capacity, dimensions, lighting, automation, app/Wi-Fi, refill cost, best for, and drawbacks**.\n   - For the Bounty Elite, include verified specifications such as **9-pod capacity and 17.258 × 11.25 × 34-inch dimensions**.[3]\n   - Add a clear verdict row: “Best for large harvests,” “Best for simplicity,” or “Best for lowest upfront cost.”\n   - Make the table horizontally scrollable on mobile and repeat the winner labels in plain text below it.\n\n3. **Build an FAQ section around GSC questions**\n   - Add 6–8 visible questions using exact or close variants of the queries:\n     - “What are the AeroGarden Bounty Elite dimensions?”\n     - “How tall is the AeroGarden Bounty Elite?”\n     - “Is the AeroGarden Bounty Elite worth it?”\n     - “Is AeroGarden better than Click & Grow?”\n     - “What is the difference between AUK and Click & Grow?”\n     - “What is the best herb garden under $50?”\n   -",
+  "llm_notes": "1. **Create query-led titles and H1s for commercial pages**\n   - Add a dedicated comparison page:\n     - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`\n     - **H1:** `AeroGarden vs Click & Grow`\n   - Add a product-detail page:\n     - **Title:** `AeroGarden Bounty Elite Dimensions, Review & Best Alternatives`\n     - **H1:** `AeroGarden Bounty Elite Dimensions and Setup`\n   - Add a budget roundup:\n     - **Title:** `5 Best Indoor Herb Gardens Under $50`\n     - **H1:** `Best Budget Indoor Herb Gardens Under $50`\n   - Put the exact target phrase in the first 100 words and the page’s meta description.\n\n2. **Ship a comparison table above the fold**\n   - Peers largely lack tables, creating an easy usability advantage.\n   - Use rows for:\n     - Price\n     - Plant capacity\n     - Physical dimensions\n     - Grow-light wattage\n     - Maximum plant height\n     - Watering method\n     - Nutrient requirements\n     - Pod/refill cost\n     - Best for\n   - For example, list the Bounty Elite as **17.25 in W × 11.25 in D × 34 in H**, with capacity for up to nine plants and a 50-watt dimmable light.[1][2][5]\n   - Add a clear verdict column: **Best for beginners**, **Best for taller plants**, or **Best for lowest ongoing cost**.\n   - Make the table horizontally scrollable on mobile and place a short “winner by use case” summary immediately above it.\n\n3. **Add an FAQ block designed around GSC questions**\n   - Include 6–8 expandable questions near the bottom of each commercial page:\n     - “What are the AeroGarden Bounty Elite dimensions?”\n     - “How tall is the AeroGarde",
   "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -203,6 +236,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }

@@ -8834,10 +8834,94 @@
         "youtube_views_total": 479.0
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "27f91db56271e7",
+      "kind": "distribution",
+      "target": "aerogarden-vs-click-and-grow",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-13",
+      "measure_after": "2026-11-16",
+      "final_after": "2026-11-20",
+      "metrics_before": {
+        "sessions_7d": 28.0,
+        "gsc_impressions_7d": 49.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 480.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "8e8ee71461e01f",
+      "kind": "applied",
+      "target": "Click and grow vs auk?",
+      "title": "faq:compare-aerogarden-models:Click and grow vs auk?",
+      "detail": "faq:compare-aerogarden-models:Click and grow vs auk?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-13",
+      "measure_after": "2026-11-16",
+      "final_after": "2026-11-20",
+      "metrics_before": {
+        "sessions_7d": 28.0,
+        "gsc_impressions_7d": 49.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 480.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "1a2eb8d8a96ac6",
+      "kind": "applied",
+      "target": "updated visual-backlog.md",
+      "title": "updated visual-backlog.md",
+      "detail": "updated visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-13",
+      "measure_after": "2026-11-16",
+      "final_after": "2026-11-20",
+      "metrics_before": {
+        "sessions_7d": 28.0,
+        "gsc_impressions_7d": 49.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 480.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "58d6ef243f9b6a",
+      "kind": "applied",
+      "target": "IndexNow ping",
+      "title": "IndexNow ping",
+      "detail": "IndexNow ping",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-13",
+      "measure_after": "2026-11-16",
+      "final_after": "2026-11-20",
+      "metrics_before": {
+        "sessions_7d": 28.0,
+        "gsc_impressions_7d": 49.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 480.0
+      },
+      "primary_metric": "gsc_impressions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-11-13 13:36 UTC"
+  "updated_at": "2026-11-13 21:04 UTC"
 }

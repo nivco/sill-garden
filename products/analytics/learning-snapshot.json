@@ -1,14 +1,14 @@
 {
-  "generated_at": "2026-11-12 21:38 UTC",
+  "generated_at": "2026-11-13 21:03 UTC",
   "wow": {
-    "ga4_sessions_7d": 6.0,
-    "gsc_impressions_7d": 1.0,
+    "ga4_sessions_7d": 4.0,
+    "gsc_impressions_7d": -6.0,
     "gsc_clicks_7d": 0.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 24,
-    "gsc_impressions_7d": 55,
+    "sessions_7d": 28,
+    "gsc_impressions_7d": 49,
     "gsc_clicks_7d": 0,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
@@ -46,9 +46,9 @@
     {
       "query": "best budget herb garden under 50",
       "clicks": 0,
-      "impressions": 4,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 8.0
+      "position": 10.0
     },
     {
       "query": "best cheap herb garden under 50",
@@ -58,13 +58,6 @@
       "position": 11.0
     },
     {
-      "query": "best compact herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 10.0
-    },
-    {
       "query": "best lightweight herb garden under 50",
       "clicks": 0,
       "impressions": 5,
@@ -72,30 +65,30 @@
       "position": 8.2
     },
     {
-      "query": "best waterproof herb garden under 50",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 8.0
-    },
-    {
       "query": "click and grow vs auk",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
       "position": 10.0
+    },
+    {
+      "query": "herb garden for small apartments 2026",
+      "clicks": 0,
+      "impressions": 24,
+      "ctr": 0.0,
+      "position": 6.9
     }
   ],
   "learnings": [
-    "LLM peer insight: - **H1:** `Best Indoor Herb Gardens Under $50`",
-    "LLM peer insight: - **Title:** `7 Best Budget Herb Gardens Under $50`",
-    "LLM peer insight: - **H1:** `AeroGarden vs Click & Grow: Features, Cost and Ease of Use`",
+    "LLM peer insight: . **Ship a comparison table above the fold**",
+    "LLM peer insight: - Put the exact target phrase in the first 100 words and the page’s meta description.",
+    "LLM peer insight: - **H1:** `Best Budget Indoor Herb Gardens Under $50`",
+    "LLM peer insight: - **Title:** `5 Best Indoor Herb Gardens Under $50`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Elite Dimensions and Setup`",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Elite Dimensions, Review & Best Alternatives`",
     "LLM peer insight: - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Elite Dimensions and Setup Requirements`",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Elite Dimensions: Size, Clearance & Counter Space`",
-    "LLM peer insight: - Publish dedicated pages instead of forcing all queries onto a generic category page.",
-    "LLM peer insight: . **Create query-matched titles and H1s**",
-    "WORKING peer pattern: long-form depth (~1394 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Create query-led titles and H1s for commercial pages**",
+    "WORKING peer pattern: long-form depth (~1401 words avg) — expand thin guides with decision rules, not fluff.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
@@ -114,7 +107,7 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-11-12 21:38 UTC"
+    "generated_at": "2026-11-13 21:03 UTC"
   },
   "impact": {
     "closed_today": 0,
