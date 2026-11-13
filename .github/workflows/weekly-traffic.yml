@@ -39,6 +39,11 @@ jobs:
       - name: IndexNow nudge
         continue-on-error: true
         run: python scripts/submit_indexing.py
+      - name: Ping RSS hubs
+        continue-on-error: true
+        run: |
+          python scripts/pingomatic_ping.py
+          python scripts/websub_publish.py
       - name: Post to Bluesky
         run: |
           EXTRA=""

@@ -1,0 +1,27 @@
+{
+  "date": "2026-11-13",
+  "purpose": "Baseline before judging the free distribution pings turned on today.",
+  "ga4_7d": {
+    "sessions": 24,
+    "engaged_sessions": 1,
+    "channels": {
+      "Direct": 23,
+      "Organic Search": 1
+    }
+  },
+  "activated": {
+    "indexnow": "200, 37 URLs",
+    "pingomatic": "200",
+    "websub_google": "204",
+    "websub_superfeedr": "200",
+    "scheduled": "Mon/Wed/Sat with weekly-traffic.yml"
+  },
+  "blocked": {
+    "bing_submit": "HTTP 400 NotAuthorized — API key is present but sillgarden.com is not verified on that Bing account",
+    "bluesky": "no BLUESKY_IDENTIFIER / BLUESKY_APP_PASSWORD",
+    "devto": "no DEVTO_API_KEY",
+    "mastodon": "no MASTODON_INSTANCE / MASTODON_ACCESS_TOKEN",
+    "telegram": "no TELEGRAM_BOT_TOKEN"
+  },
+  "judge_on": "GA4 sessions and engaged sessions, plus GSC clicks, 7 days after this date. Pings do not create buyers by themselves."
+}
