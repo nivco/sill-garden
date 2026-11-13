@@ -47,6 +47,9 @@ Partnership manager Kadri (Nov 2026) could not find the direct/Modash applicatio
   - local `.env`: `PUBLIC_CLICK_GROW_AFFILIATE_URL=...`
   - GitHub secret: `PUBLIC_CLICK_GROW_AFFILIATE_URL`
 - Until that link exists, Click & Grow cards stay on the tagged Amazon ASIN.
+- The GitHub secret still holds an August placeholder (`clickandgrow.com/?ref=test-sill`), so
+  `deploy.yml` no longer passes it to the build. After updating the secret to the CJ link,
+  re-add the commented `PUBLIC_CLICK_GROW_AFFILIATE_URL` line in `.github/workflows/deploy.yml`.
 - Reply in the same email thread with the site URL so she can match the CJ application.
 
 ### Gardener's Supply (second priority)
