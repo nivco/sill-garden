@@ -1,10 +1,10 @@
-# Sill Garden Content Agent — 2026-11-12
+# Sill Garden Content Agent — 2026-11-13
 
-Generated: 2026-11-12 21:57 UTC
+Generated: 2026-11-13 21:43 UTC
 
 ## Research
 - Guides: 21
-- Zero-click GSC queries: 11
+- Zero-click GSC queries: 9
 - Network probes ok: 5/5
 - LLM notes: 3
 
@@ -16,7 +16,7 @@ Generated: 2026-11-12 21:57 UTC
 - aerogarden elite bounty — 1 impr, pos 45.0
 - aerogarden vs click and grow — 2 impr, pos 53.0
 - auk vs click and grow — 1 impr, pos 10.0
-- best budget herb garden under 50 — 4 impr, pos 8.0
+- best budget herb garden under 50 — 3 impr, pos 10.0
 - best cheap herb garden under 50 — 1 impr, pos 11.0
-- best compact herb garden under 50 — 1 impr, pos 10.0
 - best lightweight herb garden under 50 — 5 impr, pos 8.2
+- click and grow vs auk — 1 impr, pos 10.0
