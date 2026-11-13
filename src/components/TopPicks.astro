@@ -1,0 +1,107 @@
+---
+import { productLink } from '../lib/amazon';
+import { affiliateProducts } from '../data/affiliates';
+
+interface Props {
+  heading?: string;
+}
+
+const { heading = 'The four things most apartments end up buying' } = Astro.props;
+
+const rows = [
+  { when: 'Studio or bedroom counter', why: 'Silent, no pump', product: affiliateProducts.clickAndGrow3 },
+  { when: 'Separate kitchen', why: 'Six pods, fastest harvest', product: affiliateProducts.aerogardenHarvest },
+  { when: 'Under $50', why: 'Jar, net pot, nutrient', product: affiliateProducts.kratkyJar },
+  { when: 'Dim windowsill', why: 'Fixes leggy herbs in soil pots', product: affiliateProducts.clipGrowLight },
+].map((row) => ({ ...row, ...productLink(row.product) }));
+---
+
+<section class="top-picks" aria-label="Top picks">
+  <h2 class="top-picks__title">{heading}</h2>
+  <div class="top-picks__grid">
+    {
+      rows.map((row) => (
+        <div class="top-picks__card">
+          <span class="top-picks__when">{row.when}</span>
+          <h3>{row.product.name}</h3>
+          <p>{row.why}</p>
+          {row.href && (
+            <a
+              class="btn btn-primary top-picks__cta"
+              href={row.href}
+              rel="nofollow sponsored noopener"
+              target="_blank"
+              data-affiliate-network={row.network}
+              data-affiliate-product={row.product.name}
+              data-affiliate-merchant={row.merchant}
+            >
+              Check price at {row.merchant}
+            </a>
+          )}
+        </div>
+      ))
+    }
+  </div>
+  <p class="top-picks__note">
+    Affiliate links: as an Amazon Associate we earn from qualifying purchases.
+    <a href="/disclosure/">Disclosure</a>
+  </p>
+</section>
+
+<style>
+  .top-picks {
+    padding: 2.5rem 0 0;
+  }
+
+  .top-picks__title {
+    margin: 0 0 1rem;
+    font-size: clamp(1.4rem, 2.6vw, 1.75rem);
+  }
+
+  .top-picks__grid {
+    display: grid;
+    gap: 0.85rem;
+    grid-template-columns: repeat(auto-fit, minmax(14rem, 1fr));
+  }
+
+  .top-picks__card {
+    display: flex;
+    flex-direction: column;
+    padding: 1rem 1.05rem 1.1rem;
+    background: var(--surface);
+    border: 1px solid var(--line);
+    border-radius: 8px;
+  }
+
+  .top-picks__when {
+    font-size: 0.72rem;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: var(--harvest);
+  }
+
+  .top-picks__card h3 {
+    margin: 0.35rem 0 0.3rem;
+    font-size: 1.08rem;
+  }
+
+  .top-picks__card p {
+    margin: 0 0 0.9rem;
+    color: var(--ink-muted);
+    font-size: 0.93rem;
+  }
+
+  .top-picks__cta {
+    margin-top: auto;
+    align-self: flex-start;
+    padding: 0.55rem 0.95rem;
+    font-size: 0.9rem;
+  }
+
+  .top-picks__note {
+    margin: 0.85rem 0 0;
+    color: var(--ink-muted);
+    font-size: 0.85rem;
+  }
+</style>

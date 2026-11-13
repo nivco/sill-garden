@@ -39,12 +39,15 @@ Until then, the product card safely falls back to the tagged Amazon link.
 
 ### Click & Grow (first priority)
 
-- Apply: https://www.clickandgrow.com/pages/affiliate-program
-- Published terms: 10%+ commission, 45-day tracking, monthly PayPal payout
-- After approval, set the complete tracking/deep link as:
+Partnership manager Kadri (Nov 2026) could not find the direct/Modash application and told this site to apply on **CJ**, advertiser **CID 4297609**. Do not resubmit the clickandgrow.com form.
+
+- Apply: https://public.cj.com/signup/publisher?advertiserId=4297609
+- Listed commission: 10% per sale. Direct-program cookie is 30 days; confirm the CJ offer before accepting.
+- After CJ accepts the site, copy one deep link and set:
   - local `.env`: `PUBLIC_CLICK_GROW_AFFILIATE_URL=...`
   - GitHub secret: `PUBLIC_CLICK_GROW_AFFILIATE_URL`
-- Used by three relevant guides.
+- Until that link exists, Click & Grow cards stay on the tagged Amazon ASIN.
+- Reply in the same email thread with the site URL so she can match the CJ application.
 
 ### Gardener's Supply (second priority)
 

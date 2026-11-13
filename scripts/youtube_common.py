@@ -95,6 +95,19 @@ def affiliate_links(story: dict) -> list[tuple[str, str]]:
     return links
 
 
+# Used when a storyboard lists no products of its own.
+DEFAULT_AFFILIATE_LINKS: list[tuple[str, str]] = [
+    (
+        "Click & Grow Smart Garden 3 (silent, studio pick)",
+        "https://www.amazon.com/dp/B01MRVMKQH?tag=sillgarden09-20&linkCode=ll1",
+    ),
+    (
+        "AeroGarden Harvest (6-pod kitchen pick)",
+        "https://www.amazon.com/dp/B07CKNWHPQ?tag=sillgarden09-20&linkCode=ll1",
+    ),
+]
+
+
 def kit_comment_text(campaign: str = "yt-pin-kits") -> str:
     """Pinned / channel-comment copy for Shorts — money URLs first."""
     return "\n".join(
@@ -109,8 +122,18 @@ def kit_comment_text(campaign: str = "yt-pin-kits") -> str:
 
 def build_description(story: dict, path: Path) -> str:
     campaign = campaign_name(story, path)
+    # Amazon links go first so they sit above YouTube's "Show more" fold.
+    own_links = affiliate_links(story)
+    links = own_links or DEFAULT_AFFILIATE_LINKS
+    heading = "Gear from this video" if own_links else "Countertop gardens we recommend"
     lines = [
         str(story.get("description") or "").strip(),
+        "",
+        f"{heading} (Amazon affiliate links, I earn from qualifying purchases):",
+    ]
+    for label, url in links:
+        lines.extend([f"• {label}", url])
+    lines += [
         "",
         "Apartment starter kits (buy stacks, not PDFs):",
         add_utm("https://sillgarden.com/kits/", campaign, medium="video"),
@@ -133,11 +156,6 @@ def build_description(story: dict, path: Path) -> str:
         "More apartment garden guides:",
         add_utm("https://sillgarden.com/guides/", campaign),
     ]
-    links = affiliate_links(story)
-    if links:
-        lines.extend(["", "Product links:"])
-        for label, url in links:
-            lines.extend([f"• {label}", url])
     lines.extend(
         [
             "",

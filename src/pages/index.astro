@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../layouts/BaseLayout.astro';
+import TopPicks from '../components/TopPicks.astro';
 import { getCollection } from 'astro:content';
 import { site } from '../lib/site';
 
@@ -53,6 +54,10 @@ const latest = guides.filter((g) => !moneySlugs.includes(g.id as (typeof moneySl
       <p>{site.shortAnswer}</p>
     </aside>
   </section>
+
+  <div class="wrap">
+    <TopPicks />
+  </div>
 
   <section class="start wrap fade-up" style="animation-delay: 100ms">
     <h2 class="section-title">Start here</h2>

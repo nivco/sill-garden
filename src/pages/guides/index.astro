@@ -1,5 +1,6 @@
 ---
 import BaseLayout from '../../layouts/BaseLayout.astro';
+import TopPicks from '../../components/TopPicks.astro';
 import { getCollection } from 'astro:content';
 import { clusters } from '../../lib/site';
 
@@ -21,6 +22,8 @@ const byCluster = Object.fromEntries(
       <h1>Guides</h1>
       <p>Practical pages for growing on a windowsill or kitchen counter — no backyard required.</p>
     </header>
+
+    <TopPicks heading="Short on time? These are the four picks the guides keep landing on" />
 
     {
       (Object.keys(clusters) as Array<keyof typeof clusters>).map((key) => (
