@@ -8530,7 +8530,7 @@
       "title": "kit-first distribution pack",
       "detail": "",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-11-10",
       "measure_after": "2026-11-13",
       "final_after": "2026-11-17",
@@ -8542,7 +8542,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": 473.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 24,
+        "users_7d": 24,
+        "pageviews_7d": 27,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 49,
+        "indexed_urls": 33,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 479,
+        "engagement_rate_pct": 4.2,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 53
+      },
+      "delta": {
+        "sessions_7d": 12.0,
+        "gsc_impressions_7d": 5.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 6.0
+      },
+      "verdict": "positive",
+      "outcome": "positive sessions_7d +12",
+      "measured_at": "2026-11-13 13:36 UTC"
     },
     {
       "id": "d144ceab5f5448",
@@ -8551,7 +8578,7 @@
       "title": "updated visual-backlog.md",
       "detail": "updated visual-backlog.md",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-11-10",
       "measure_after": "2026-11-13",
       "final_after": "2026-11-17",
@@ -8563,7 +8590,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": 473.0
       },
-      "primary_metric": "sessions_7d"
+      "primary_metric": "sessions_7d",
+      "metrics_after": {
+        "sessions_7d": 24,
+        "users_7d": 24,
+        "pageviews_7d": 27,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 49,
+        "indexed_urls": 33,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 479,
+        "engagement_rate_pct": 4.2,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 53
+      },
+      "delta": {
+        "sessions_7d": 12.0,
+        "gsc_impressions_7d": 5.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 6.0
+      },
+      "verdict": "positive",
+      "outcome": "positive sessions_7d +12",
+      "measured_at": "2026-11-13 13:36 UTC"
     },
     {
       "id": "b51bb4c5bc0e8b",
@@ -8572,7 +8626,7 @@
       "title": "IndexNow ping",
       "detail": "IndexNow ping",
       "source": "daily_growth_agent",
-      "status": "measuring",
+      "status": "completed",
       "executed_at": "2026-11-10",
       "measure_after": "2026-11-13",
       "final_after": "2026-11-17",
@@ -8584,7 +8638,34 @@
         "youtube_sessions_7d": 0.0,
         "youtube_views_total": 473.0
       },
-      "primary_metric": "gsc_impressions_7d"
+      "primary_metric": "gsc_impressions_7d",
+      "metrics_after": {
+        "sessions_7d": 24,
+        "users_7d": 24,
+        "pageviews_7d": 27,
+        "affiliate_clicks_7d": 0,
+        "gsc_clicks_7d": 0,
+        "gsc_impressions_7d": 49,
+        "indexed_urls": 33,
+        "sitemap_urls": 36,
+        "youtube_sessions_7d": 0,
+        "youtube_subs": 1,
+        "youtube_views_total": 479,
+        "engagement_rate_pct": 4.2,
+        "affiliate_ctr_pct": 0.0,
+        "youtube_videos": 53
+      },
+      "delta": {
+        "sessions_7d": 12.0,
+        "gsc_impressions_7d": 5.0,
+        "gsc_clicks_7d": 0.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 6.0
+      },
+      "verdict": "positive",
+      "outcome": "positive gsc_impressions_7d +5",
+      "measured_at": "2026-11-13 13:36 UTC"
     },
     {
       "id": "6c8502249cbe0a",
@@ -8758,5 +8839,5 @@
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-11-12 21:38 UTC"
+  "updated_at": "2026-11-13 13:36 UTC"
 }
