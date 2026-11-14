@@ -107,6 +107,25 @@ def build_unified_growth_email(
     learnings = learnings or (learning.get("learnings") or [])[:6]
     applied = applied or []
 
+    email_lines = [
+        f"{_ascii_safe(header_title)} — {today} — {(health.get('severity') or 'ok')}",
+        "",
+        f"Sessions (7d): {_disp(sessions)}{delta}",
+        f"Search: {_disp(hero.get('gsc_impressions_7d'))} impressions, {_disp(hero.get('gsc_clicks_7d'))} clicks",
+        f"Affiliate clicks: {_disp(hero.get('affiliate_clicks_7d'))}",
+        f"YouTube: {_disp(yt.get('views') or hero.get('youtube_views_total'))} views, "
+        f"{_disp(yt.get('subscribers') or hero.get('youtube_subs'))} subs, "
+        f"{_disp(hero.get('youtube_sessions_7d'))} site visits",
+        f"Next video: {_disp(yt_state.get('next_eligible_date'))}",
+    ]
+    next_bits = []
+    for action in (health.get("actions") or [])[:2]:
+        next_bits.append(str(action).split("(")[0].strip().rstrip("."))
+    if not next_bits and open_traffic:
+        next_bits.append(str(open_traffic[0].get("title") or "").strip())
+    if next_bits:
+        email_lines.extend(["", "Next: " + "; ".join(b for b in next_bits if b)])
+
     lines = [
         f"# {_ascii_safe(header_title)}",
         f"**{today}**"
@@ -191,12 +210,13 @@ def build_unified_growth_email(
     )
 
     body = _ascii_safe("\n".join(lines))
+    email_body = _ascii_safe("\n".join(email_lines))
     severity = (health.get("severity") or "ok").upper()
     subject = f"Sill Garden · {severity} · sessions {_disp(sessions)} · {today}"
     return {
         "date": today,
         "email_subject": subject,
-        "email_body": body,
+        "email_body": email_body,
         "summary_text": body,
         "metrics": {
             "sessions_7d": sessions,
