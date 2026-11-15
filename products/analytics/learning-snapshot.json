@@ -1,27 +1,20 @@
 {
-  "generated_at": "2026-11-14 19:32 UTC",
+  "generated_at": "2026-11-15 20:00 UTC",
   "wow": {
-    "ga4_sessions_7d": -8.0,
-    "gsc_impressions_7d": 15.0,
+    "ga4_sessions_7d": 7.0,
+    "gsc_impressions_7d": 54.0,
     "gsc_clicks_7d": 1.0,
     "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 16,
-    "gsc_impressions_7d": 64,
+    "sessions_7d": 23,
+    "gsc_impressions_7d": 92,
     "gsc_clicks_7d": 1,
     "affiliate_clicks_7d": 0,
     "youtube_sessions_7d": 0,
     "indexed_urls": 33
   },
   "top_queries": [
-    {
-      "query": "aerogarden bounty elite dimensions",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 86.0
-    },
     {
       "query": "aerogarden bounty vs bounty basic",
       "clicks": 0,
@@ -39,16 +32,16 @@
     {
       "query": "aerogarden comparison",
       "clicks": 0,
-      "impressions": 1,
+      "impressions": 3,
       "ctr": 0.0,
-      "position": 68.0
+      "position": 77.3
     },
     {
       "query": "aerogarden elite bounty",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 44.0
+      "position": 43.0
     },
     {
       "query": "aerogarden harvest vs harvest elite",
@@ -65,36 +58,43 @@
       "position": 53.0
     },
     {
-      "query": "best budget herb garden under 50",
+      "query": "aerogarden vs click grow",
       "clicks": 0,
       "impressions": 2,
+      "ctr": 0.0,
+      "position": 71.0
+    },
+    {
+      "query": "auk vs click and grow",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 11.0
+    },
+    {
+      "query": "best budget herb garden under 50",
+      "clicks": 0,
+      "impressions": 6,
       "ctr": 0.0,
       "position": 10.5
     },
     {
       "query": "best cheap herb garden under 50",
       "clicks": 0,
-      "impressions": 5,
+      "impressions": 12,
       "ctr": 0.0,
       "position": 10.2
-    },
-    {
-      "query": "best lightweight herb garden under 50",
-      "clicks": 0,
-      "impressions": 9,
-      "ctr": 0.0,
-      "position": 8.0
     }
   ],
   "learnings": [
-    "LLM peer insight: | Feature | Bounty Basic | Bounty | Bounty Elite |",
-    "LLM peer insight: - Include the exact fields users are searching for:",
-    "LLM peer insight: - Put the table directly below a 2–3 sentence summary, before the long review.",
-    "LLM peer insight: . **Ship a decision-focused comparison table above the fold**",
-    "LLM peer insight: - Add supporting H2s: “AeroGarden Bounty Dimensions,” “Bounty vs Bounty Basic,” “Bounty vs Bounty Elite,” and “Which AeroGarden Bounty Should You Buy?”",
-    "LLM peer insight: - Add immediate answer copy: “All three Bounty models fit 9 pods and extend to 24 inches of grow height; the key differences are light power, controls, finish, and smart features.”",
-    "LLM peer insight: - Replace a generic title with: **“AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Dimensions, Features & Best Pick”**",
-    "LLM peer insight: . **Retitle and restructure around the comparison intent**",
+    "LLM peer insight: Include a horizontally scrollable table on mobile with these columns:",
+    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
+    "LLM peer insight: - Add descriptive image alt text such as `AeroGarden Bounty Basic vs Bounty Elite countertop comparison`.",
+    "LLM peer insight: - Use a short introduction that immediately states the decision: Bounty models grow 9 plants, while Harvest models grow 6; the main differences are light power, controls, finish, and smart features.[1][2]",
+    "LLM peer insight: - Add a second optimized section for the related query: **AeroGarden Harvest vs Harvest Elite**",
+    "LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Basic vs Bounty Elite**",
+    "LLM peer insight: - SEO title: **AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?**",
+    "LLM peer insight: . **Build one query-matched comparison hub with explicit titles and H1**",
     "WORKING peer pattern: long-form depth (~1396 words avg) — expand thin guides with decision rules, not fluff.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-11-14 19:32 UTC"
+    "generated_at": "2026-11-15 20:00 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 8 action(s) still measuring (3-7d windows)",
+      "IMPACT: 10 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

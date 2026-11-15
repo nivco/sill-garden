@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-14 20:51 UTC",
+  "generated_at": "2026-11-15 20:00 UTC",
   "severity": "ok",
   "stalled": false,
   "zero_session_days": [],
@@ -8,8 +8,8 @@
   "low_session_day_count": 0,
   "youtube_flat": false,
   "metrics": {
-    "sessions_7d": 16,
-    "gsc_impressions_7d": 64,
+    "sessions_7d": 23,
+    "gsc_impressions_7d": 92,
     "gsc_clicks_7d": 1,
     "affiliate_clicks_7d": 0,
     "youtube_views_total": 482,

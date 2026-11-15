@@ -9240,10 +9240,136 @@
         "youtube_views_total": 482.0
       },
       "primary_metric": "gsc_impressions_7d"
+    },
+    {
+      "id": "fabde96cff4447",
+      "kind": "tune_guide_seo",
+      "target": "cheapest-indoor-herb-garden-apartment",
+      "title": "CTR-first query desc: 6 impr, pos 10.5, 0 clicks",
+      "detail": "CTR-first query desc: 6 impr, pos 10.5, 0 clicks",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-15",
+      "measure_after": "2026-11-18",
+      "final_after": "2026-11-22",
+      "metrics_before": {
+        "sessions_7d": 23.0,
+        "gsc_impressions_7d": 92.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 482.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "68c7d58f593b76",
+      "kind": "distribution",
+      "target": "compare-aerogarden-models",
+      "title": "kit-first distribution pack",
+      "detail": "",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-15",
+      "measure_after": "2026-11-18",
+      "final_after": "2026-11-22",
+      "metrics_before": {
+        "sessions_7d": 23.0,
+        "gsc_impressions_7d": 92.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 482.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "77cb644e4e43ea",
+      "kind": "applied",
+      "target": "cheapest-indoor-herb-garden-apartment",
+      "title": "tune_guide_seo:cheapest-indoor-herb-garden-apartment — CTR-first query desc: 6 impr, pos 10.5, 0 clicks",
+      "detail": "tune_guide_seo:cheapest-indoor-herb-garden-apartment — CTR-first query desc: 6 impr, pos 10.5, 0 clicks",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-15",
+      "measure_after": "2026-11-18",
+      "final_after": "2026-11-22",
+      "metrics_before": {
+        "sessions_7d": 23.0,
+        "gsc_impressions_7d": 92.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 482.0
+      },
+      "primary_metric": "gsc_clicks_7d"
+    },
+    {
+      "id": "cad3b6a6e00002",
+      "kind": "applied",
+      "target": "Aerogarden vs click grow?",
+      "title": "faq:aerogarden-vs-click-and-grow:Aerogarden vs click grow?",
+      "detail": "faq:aerogarden-vs-click-and-grow:Aerogarden vs click grow?",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-15",
+      "measure_after": "2026-11-18",
+      "final_after": "2026-11-22",
+      "metrics_before": {
+        "sessions_7d": 23.0,
+        "gsc_impressions_7d": 92.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 482.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "478f7ae6547113",
+      "kind": "applied",
+      "target": "updated visual-backlog.md",
+      "title": "updated visual-backlog.md",
+      "detail": "updated visual-backlog.md",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-15",
+      "measure_after": "2026-11-18",
+      "final_after": "2026-11-22",
+      "metrics_before": {
+        "sessions_7d": 23.0,
+        "gsc_impressions_7d": 92.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 482.0
+      },
+      "primary_metric": "sessions_7d"
+    },
+    {
+      "id": "0e935cfec9fef9",
+      "kind": "applied",
+      "target": "IndexNow ping",
+      "title": "IndexNow ping",
+      "detail": "IndexNow ping",
+      "source": "daily_growth_agent",
+      "status": "measuring",
+      "executed_at": "2026-11-15",
+      "measure_after": "2026-11-18",
+      "final_after": "2026-11-22",
+      "metrics_before": {
+        "sessions_7d": 23.0,
+        "gsc_impressions_7d": 92.0,
+        "gsc_clicks_7d": 1.0,
+        "affiliate_clicks_7d": 0.0,
+        "youtube_sessions_7d": 0.0,
+        "youtube_views_total": 482.0
+      },
+      "primary_metric": "gsc_impressions_7d"
     }
   ],
   "session_retros_ingested": [
     "2026-09-28-kit-first"
   ],
-  "updated_at": "2026-11-15 13:07 UTC"
+  "updated_at": "2026-11-15 20:00 UTC"
 }
