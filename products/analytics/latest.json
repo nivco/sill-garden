@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-11-14 20:12 UTC",
+  "generated_at": "2026-11-15 04:06 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,7 +9,7 @@
     "pageviews_7d": 16,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 64,
+    "gsc_impressions_7d": 82,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -131,16 +131,9 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 64,
-      "avg_position": 15.8,
+      "impressions": 82,
+      "avg_position": 17.0,
       "top_queries": [
-        {
-          "query": "aerogarden bounty elite dimensions",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 86.0
-        },
         {
           "query": "aerogarden bounty vs bounty basic",
           "clicks": 0,
@@ -158,16 +151,16 @@
         {
           "query": "aerogarden comparison",
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 3,
           "ctr": 0.0,
-          "position": 68.0
+          "position": 77.3
         },
         {
           "query": "aerogarden elite bounty",
           "clicks": 0,
-          "impressions": 2,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 44.0
+          "position": 43.0
         },
         {
           "query": "aerogarden harvest vs harvest elite",
@@ -184,23 +177,30 @@
           "position": 53.0
         },
         {
-          "query": "best budget herb garden under 50",
+          "query": "aerogarden vs click grow",
           "clicks": 0,
           "impressions": 2,
+          "ctr": 0.0,
+          "position": 71.0
+        },
+        {
+          "query": "best budget herb garden under 50",
+          "clicks": 0,
+          "impressions": 4,
           "ctr": 0.0,
           "position": 10.5
         },
         {
           "query": "best cheap herb garden under 50",
           "clicks": 0,
-          "impressions": 5,
+          "impressions": 8,
           "ctr": 0.0,
-          "position": 10.2
+          "position": 10.4
         },
         {
           "query": "best lightweight herb garden under 50",
           "clicks": 0,
-          "impressions": 9,
+          "impressions": 11,
           "ctr": 0.0,
           "position": 8.0
         },
@@ -214,15 +214,22 @@
         {
           "query": "herb garden for small apartments 2026",
           "clicks": 0,
-          "impressions": 28,
+          "impressions": 36,
           "ctr": 0.0,
-          "position": 6.4
+          "position": 6.0
+        },
+        {
+          "query": "kratky jar",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 99.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-11-07",
-        "end": "2026-11-14"
+        "start": "2026-11-08",
+        "end": "2026-11-15"
       }
     },
     "indexing": {
@@ -1108,6 +1115,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 16 | Aff clicks 0 | GSC 1c/64i | YT views 482 | Setup 6/7"
+    "headline": "Sessions 16 | Aff clicks 0 | GSC 1c/82i | YT views 482 | Setup 6/7"
   }
 }
