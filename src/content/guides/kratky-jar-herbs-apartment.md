@@ -1,47 +1,46 @@
 ---
-title: Kratky jar herbs for apartments (silent DIY)
-description: Grow basil and lettuce in mason jars with the Kratky method — silent, cheap homemade herb garden under $50, landlord-safe with a tray.
+title: Kratky jar herbs for apartments (silent DIY) (2026)
+description: "Grow basil and lettuce in mason jars with the Kratky method — silent, cheap homemade herb garden under $50, landlord-safe with a tray."
 pubDate: 2026-08-27
-updatedDate: 2026-10-11
+updatedDate: 2026-11-15
 cluster: setup
 type: howto
 image: /images/guide-kratky.jpg
 imageAlt: Healthy hydroponic roots under a jar lid — the Kratky air-gap idea
-verdict: Kratky jars are the quietest apartment herb lane under $40 — if you can provide light. Use a waterproof tray and start with lettuce or basil, not rosemary. Shop the physical stack as the Homemade Kratky Kit.
+verdict: "Kratky jars are the quietest apartment herb lane under $40 — if you can provide light. Use a waterproof tray and start with lettuce or basil, not rosemary. Shop the physical stack as the Homemade Kratky Kit."
 products:
-  - name: Kratky mason jar kit
-    note: Nets, lids, and jars in one search
-    search: Kratky hydroponic mason jar kit
-  - name: Clip-on LED grow light
-    note: Required on weak sills
-    search: LED clip grow light indoor plants
-  - name: Waterproof boot / drip tray
-    note: Non-negotiable for rentals
-    search: waterproof boot tray for plants
-  - name: Click & Grow Smart Garden 3
-    note: Upgrade when you want timers without jar babysitting
-    asin: B01MRVMKQH
-    partner: click-grow
-  - name: Wide-mouth mason jars
-    note: Clear 32 oz jars for the water line
-    search: wide mouth mason jars 32 oz
-  - name: Hydroponic net pots
-    note: Sit in a drilled lid
-    search: 3 inch hydroponic net pots
-  - name: Clay pebbles (hydroton)
-    note: Holds the plant above the solution
-    search: hydroton clay pebbles
-  - name: Indoor herb / hydro plant food
-    note: Mix to the herb rate on the bottle
-    search: indoor hydroponic plant food nutrients
-  - name: Hydroponic pH test strips
-    note: One check before you restart a dead jar
-    search: hydroponic pH test strips
-  - name: Loose-leaf lettuce seeds
-    note: Easier first crop than rosemary
-    search: loose leaf lettuce seeds hydroponic
+- name: Kratky mason jar kit
+  note: "Nets, lids, and jars in one search"
+  search: Kratky hydroponic mason jar kit
+- name: Clip-on LED grow light
+  note: Required on weak sills
+  search: LED clip grow light indoor plants
+- name: Waterproof boot / drip tray
+  note: Non-negotiable for rentals
+  search: waterproof boot tray for plants
+- name: Click & Grow Smart Garden 3
+  note: Upgrade when you want timers without jar babysitting
+  asin: B01MRVMKQH
+  partner: click-grow
+- name: Wide-mouth mason jars
+  note: Clear 32 oz jars for the water line
+  search: wide mouth mason jars 32 oz
+- name: Hydroponic net pots
+  note: Sit in a drilled lid
+  search: 3 inch hydroponic net pots
+- name: Clay pebbles (hydroton)
+  note: Holds the plant above the solution
+  search: hydroton clay pebbles
+- name: Indoor herb / hydro plant food
+  note: Mix to the herb rate on the bottle
+  search: indoor hydroponic plant food nutrients
+- name: Hydroponic pH test strips
+  note: One check before you restart a dead jar
+  search: hydroponic pH test strips
+- name: Loose-leaf lettuce seeds
+  note: Easier first crop than rosemary
+  search: loose leaf lettuce seeds hydroponic
 ---
-
 The **Kratky method** is passive hydroponics: plant in a net pot, roots reach a nutrient solution, air gap stays above the water line, and you mostly leave it alone. No pump — which means no hum in a studio.
 
 ## Why apartments like it
@@ -82,3 +81,8 @@ Woody herbs (rosemary, thyme) are awkward in small jars. Start with lettuce, bas
 - [Landlord-safe setup](/guides/landlord-safe-indoor-garden-setup/)
 - [Quiet gardens for studios](/guides/quiet-countertop-gardens-studios/)
 - [Pet-safe / low-smell herbs](/guides/pet-safe-low-smell-apartment-herbs/)
+
+## FAQ
+
+**Kratky jar?**  
+For "kratky jar", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
