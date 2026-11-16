@@ -1,6 +1,6 @@
 # Visuality backlog (from competitive learning)
 
-Updated: 2026-11-15 20:00 UTC
+Updated: 2026-11-16 23:33 UTC
 
 - [x] Home hero: one brand + one CTA; no card clutter in first viewport
 - [x] Guide pages: Quick verdict + product picks before long prose
@@ -11,8 +11,8 @@ Updated: 2026-11-15 20:00 UTC
 - WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.
 - VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.
 - VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.
-- WORKING peer pattern: long-form depth (~1396 words avg) — expand thin guides with decision rules, not fluff.
-- LLM peer insight: . **Build one query-matched comparison hub with explicit titles and H1**
-- LLM peer insight: - SEO title: **AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?**
-- LLM peer insight: - H1: **AeroGarden Bounty vs Bounty Basic vs Bounty Elite**
-- LLM peer insight: - Add a second optimized section for the related query: **AeroGarden Harvest vs Harvest Elite**
+- WORKING peer pattern: long-form depth (~1394 words avg) — expand thin guides with decision rules, not fluff.
+- LLM peer insight: . **Build one comparison-led title and H1 around the GSC demand.**
+- LLM peer insight: - Title: **AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?**
+- LLM peer insight: - H1: **AeroGarden Bounty Comparison: Basic vs Bounty vs Elite**
+- LLM peer insight: - Add a second section targeting the other cluster: **AeroGarden Harvest vs Harvest Elite: Key Differences**
