@@ -1,15 +1,15 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-11-15 20:38 UTC",
+  "generated_at": "2026-11-16 04:05 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 23,
-    "users_7d": 22,
-    "pageviews_7d": 26,
+    "sessions_7d": 24,
+    "users_7d": 23,
+    "pageviews_7d": 27,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 92,
+    "gsc_impressions_7d": 87,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -19,7 +19,7 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 8.7,
+    "engagement_rate_pct": 8.3,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 54
   },
@@ -31,12 +31,12 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 22,
-        "sessions": 23,
-        "screenPageViews": 26,
+        "activeUsers": 23,
+        "sessions": 24,
+        "screenPageViews": 27,
         "engagedSessions": 2,
-        "averageSessionDuration_sec": 10.7,
-        "engagementRate_pct": 8.7
+        "averageSessionDuration_sec": 10.2,
+        "engagementRate_pct": 8.3
       },
       "top_pages": [
         {
@@ -46,8 +46,8 @@
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
-          "sessions": "3",
-          "screenPageViews": "3"
+          "sessions": "4",
+          "screenPageViews": "4"
         },
         {
           "pagePath": "/about/",
@@ -93,7 +93,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "20"
+          "sessions": "21"
         },
         {
           "sessionDefaultChannelGroup": "Referral",
@@ -107,7 +107,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "20",
+          "sessions": "21",
           "engagedSessions": "0"
         },
         {
@@ -140,8 +140,8 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 92,
-      "avg_position": 16.2,
+      "impressions": 87,
+      "avg_position": 16.0,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -209,7 +209,7 @@
         {
           "query": "best cheap herb garden under 50",
           "clicks": 0,
-          "impressions": 12,
+          "impressions": 11,
           "ctr": 0.0,
           "position": 10.2
         },
@@ -230,7 +230,7 @@
         {
           "query": "herb garden for small apartments 2026",
           "clicks": 0,
-          "impressions": 37,
+          "impressions": 35,
           "ctr": 0.0,
           "position": 6.1
         },
@@ -244,8 +244,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-11-08",
-        "end": "2026-11-15"
+        "start": "2026-11-09",
+        "end": "2026-11-16"
       }
     },
     "indexing": {
@@ -914,7 +914,7 @@
         {
           "id": "f4s2_Ksur48",
           "title": "Aerogarden bounty basic vs elite (2026)",
-          "views": 0,
+          "views": 1,
           "likes": 0,
           "published": "2026-10-23T18:06:11Z",
           "url": "https://www.youtube.com/watch?v=f4s2_Ksur48"
@@ -1131,6 +1131,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 23 | Aff clicks 0 | GSC 1c/92i | YT views 482 | Setup 6/7"
+    "headline": "Sessions 24 | Aff clicks 0 | GSC 1c/87i | YT views 482 | Setup 6/7"
   }
 }
