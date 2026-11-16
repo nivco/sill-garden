@@ -19,7 +19,7 @@ products:
 - name: AeroGarden Harvest
   note: Mid-lane if you want a known brand with a pump
   asin: B07CKNWHPQ
-updatedDate: 2026-09-02
+updatedDate: 2026-11-16
 ---
 Search demand for **Click and Grow vs Auk** and budget hydro kits is rising. The practical fork for apartments is rarely branding — it is **noise vs capacity vs refill friction**.
 
@@ -68,3 +68,6 @@ If you want the middle brand path: AeroGarden Harvest-class.
 
 **Auk vs click and grow?**  
 For "auk vs click and grow", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Auk top layer alternative?**  
+For "auk top layer alternative", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.

@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16 23:33 UTC",
+  "generated_at": "2026-11-16 23:53 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -120,32 +120,6 @@
         "comparison_signal": false,
         "year_in_title": false
       }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4047,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
     }
   ],
   "our_probe": {
@@ -192,20 +166,20 @@
     "auk top layer alternative"
   ],
   "learnings": [
-    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: long-form depth (~1394 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Build one comparison-led title and H1 around the GSC demand.**",
-    "LLM peer insight: - Title: **AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?**",
-    "LLM peer insight: - H1: **AeroGarden Bounty Comparison: Basic vs Bounty vs Elite**",
-    "LLM peer insight: - Add a second section targeting the other cluster: **AeroGarden Harvest vs Harvest Elite: Key Differences**",
-    "LLM peer insight: - Put “Bounty Basic,” “Bounty Elite,” “Harvest,” and “Harvest Elite” in the first 100 words, not only in product-card captions.",
+    "LLM peer insight: . **Build one comparison-led title/H1 cluster around the exact GSC queries.**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Bounty vs Elite: Specs, Features & Best Buy**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Bounty vs Bounty Elite**",
+    "LLM peer insight: - Add linked sections for **AeroGarden Harvest vs Harvest Elite** and **AeroGarden comparison**.",
+    "LLM peer insight: - Use a short answer directly below the H1: “Choose Basic for the lowest-cost setup, Bounty for app and touchscreen controls, and Elite for the brightest light and premium finish.” The model distinctions should be fact-c",
     "LLM peer insight: . **Add a decision-first comparison table above the fold.**",
-    "LLM peer insight: Use columns for **Bounty Basic, Bounty, Bounty Elite, Harvest, and Harvest Elite** and rows for:",
-    "LLM peer insight: For the Bounty range, clearly show that the models share nine pods and similar grow height, while the upgrade is primarily light power and smart/display features.[1] For Harvest models, make the display and light-customi"
+    "LLM peer insight: Include rows for price, pod capacity, grow height, light wattage, display, Wi-Fi/app control, dimming, finish, footprint, and best-for. Make the first column sticky on mobile and highlight the recommended model in a cont",
+    "LLM peer insight: . **Create an FAQ block targeting buying objections—not generic gardening questions.**",
+    "LLM peer insight: Add 6–8 expandable FAQs beneath the table:",
+    "LLM peer insight: - “What is the difference between Bounty Basic, Bounty, and Bounty Elite?”"
   ],
-  "llm_notes": "1. **Build one comparison-led title and H1 around the GSC demand.**  \n   - Title: **AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?**  \n   - H1: **AeroGarden Bounty Comparison: Basic vs Bounty vs Elite**  \n   - Add a second section targeting the other cluster: **AeroGarden Harvest vs Harvest Elite: Key Differences**  \n   - Put “Bounty Basic,” “Bounty Elite,” “Harvest,” and “Harvest Elite” in the first 100 words, not only in product-card captions.\n\n2. **Add a decision-first comparison table above the fold.**  \n   Use columns for **Bounty Basic, Bounty, Bounty Elite, Harvest, and Harvest Elite** and rows for:\n   - Pod capacity\n   - LED wattage\n   - Maximum grow height\n   - Display and app/Wi-Fi support\n   - Light customization\n   - Footprint\n   - Best for\n   - Current price\n   - **Choose this if…**\n   \n   For the Bounty range, clearly show that the models share nine pods and similar grow height, while the upgrade is primarily light power and smart/display features.[1] For Harvest models, make the display and light-customization difference visually prominent.[2][3]\n\n3. **Replace generic affiliate CTAs with verdict-based product cards.**  \n   Create three cards immediately below the table:\n   - **Best value: Bounty Basic** — “Choose it if you want nine growing slots without app features.”\n   - **Best overall: Bounty** — “Choose it for nine pods plus touchscreen, Wi-Fi, app control, and dimming.”\n   - **Best for low-maintenance herb growing: Harvest Elite** — “Choose it for six plants, reminders, and customizable light settings.”[1][3][5]\n   \n   Each car",
+  "llm_notes": "1. **Build one comparison-led title/H1 cluster around the exact GSC queries.**  \n   - Title: **AeroGarden Bounty Basic vs Bounty vs Elite: Specs, Features & Best Buy**  \n   - H1: **AeroGarden Bounty Basic vs Bounty vs Bounty Elite**  \n   - Add linked sections for **AeroGarden Harvest vs Harvest Elite** and **AeroGarden comparison**.  \n   - Use a short answer directly below the H1: “Choose Basic for the lowest-cost setup, Bounty for app and touchscreen controls, and Elite for the brightest light and premium finish.” The model distinctions should be fact-checked before publishing because specifications can vary by generation.\n\n2. **Add a decision-first comparison table above the fold.**  \n   Include rows for price, pod capacity, grow height, light wattage, display, Wi-Fi/app control, dimming, finish, footprint, and best-for. Make the first column sticky on mobile and highlight the recommended model in a contrasting color. Current comparison signals support emphasizing that Bounty models support nine plants, while Harvest models support six; Harvest Elite adds a digital display and customizable reminders compared with Harvest.[2][4][6][8]\n\n3. **Create an FAQ block targeting buying objections—not generic gardening questions.**  \n   Add 6–8 expandable FAQs beneath the table:\n   - “What is the difference between Bounty Basic, Bounty, and Bounty Elite?”\n   - “Is Bounty Elite worth it over Bounty Basic?”\n   - “Does Bounty Elite grow more plants?”\n   - “Which is better for a small apartment: Bounty or Harvest?”\n   - “What is the difference between AeroGarden Harvest and Harvest Elit",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -236,6 +210,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
