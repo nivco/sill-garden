@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-15",
+  "updated_at": "2026-11-16",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -395,6 +395,13 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "154f62725546de"
+    },
+    {
+      "signal": "Impact-: applied on Click and grow vs auk?",
+      "action": "Revisit approach — negative sessions_7d -3. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "8e8ee71461e01f"
     }
   ],
   "money_urls": [

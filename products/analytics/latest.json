@@ -1,25 +1,25 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-11-16 04:05 UTC",
+  "generated_at": "2026-11-16 14:13 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 24,
-    "users_7d": 23,
-    "pageviews_7d": 27,
+    "sessions_7d": 25,
+    "users_7d": 24,
+    "pageviews_7d": 28,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 87,
+    "gsc_impressions_7d": 97,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 482,
+    "youtube_views_total": 484,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 8.3,
+    "engagement_rate_pct": 8.0,
     "affiliate_ctr_pct": 0.0,
     "youtube_videos": 54
   },
@@ -31,18 +31,18 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 23,
-        "sessions": 24,
-        "screenPageViews": 27,
+        "activeUsers": 24,
+        "sessions": 25,
+        "screenPageViews": 28,
         "engagedSessions": 2,
-        "averageSessionDuration_sec": 10.2,
-        "engagementRate_pct": 8.3
+        "averageSessionDuration_sec": 10.0,
+        "engagementRate_pct": 8.0
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "5",
-          "screenPageViews": "5"
+          "sessions": "6",
+          "screenPageViews": "6"
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
@@ -93,7 +93,7 @@
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "21"
+          "sessions": "22"
         },
         {
           "sessionDefaultChannelGroup": "Referral",
@@ -107,7 +107,7 @@
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "21",
+          "sessions": "22",
           "engagedSessions": "0"
         },
         {
@@ -140,8 +140,8 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 87,
-      "avg_position": 16.0,
+      "impressions": 97,
+      "avg_position": 15.8,
       "top_queries": [
         {
           "query": "aerogarden bounty vs bounty basic",
@@ -193,6 +193,13 @@
           "position": 71.0
         },
         {
+          "query": "auk top layer alternative",
+          "clicks": 0,
+          "impressions": 1,
+          "ctr": 0.0,
+          "position": 29.0
+        },
+        {
           "query": "auk vs click and grow",
           "clicks": 0,
           "impressions": 1,
@@ -202,23 +209,23 @@
         {
           "query": "best budget herb garden under 50",
           "clicks": 0,
-          "impressions": 6,
+          "impressions": 8,
           "ctr": 0.0,
           "position": 10.5
         },
         {
           "query": "best cheap herb garden under 50",
           "clicks": 0,
-          "impressions": 11,
+          "impressions": 15,
           "ctr": 0.0,
-          "position": 10.2
+          "position": 10.5
         },
         {
           "query": "best lightweight herb garden under 50",
           "clicks": 0,
-          "impressions": 11,
+          "impressions": 13,
           "ctr": 0.0,
-          "position": 8.0
+          "position": 8.3
         },
         {
           "query": "best quiet herb garden under 50",
@@ -851,7 +858,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 482,
+        "views": 484,
         "videos": 54
       },
       "recent_videos": [
@@ -982,7 +989,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/kits/homemade-kratky/",
       "auto": false,
       "done": false,
-      "created": "2026-11-15 20:00 UTC"
+      "created": "2026-11-16 04:05 UTC"
     },
     {
       "priority": "P1",
@@ -991,7 +998,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: parsley-countertop-first-harvest, cilantro-countertop-first-harvest.",
       "auto": false,
       "done": false,
-      "created": "2026-11-15 20:00 UTC"
+      "created": "2026-11-16 04:05 UTC"
     },
     {
       "priority": "P1",
@@ -1000,7 +1007,7 @@
       "detail": "Already showing for: \u201caerogarden bounty vs bounty basic\u201d pos 46/1 impr; \u201caerogarden bounty vs bounty elite\u201d pos 49/1 impr; \u201caerogarden comparison\u201d pos 77/3 impr; \u201caerogarden elite bounty\u201d pos 43/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-11-15 20:00 UTC"
+      "created": "2026-11-16 04:05 UTC"
     },
     {
       "priority": "P1",
@@ -1009,7 +1016,7 @@
       "detail": "Confirm Amazon CTAs fire affiliate_click and links use sillgarden09-20.",
       "auto": false,
       "done": false,
-      "created": "2026-11-15 20:00 UTC"
+      "created": "2026-11-16 04:05 UTC"
     },
     {
       "priority": "P2",
@@ -1018,79 +1025,26 @@
       "detail": "Sessions without affiliate clicks \u2014 confirm product cards and affiliate_click events.",
       "auto": false,
       "done": false,
-      "created": "2026-11-15 20:00 UTC"
+      "created": "2026-11-16 04:05 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-11-15 04:06 UTC (15.9h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-11-15 20:00 UTC"
-    },
-    {
-      "priority": "P0",
-      "category": "cmo",
-      "title": "ALERT: zero sessions for 5+ days \u2014 distribute manually",
-      "detail": "Automation is healthy but acquisition is dead. GA4 sessions_7d=3 (<5) for 9 day(s) | GSC 21 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0. Post Reddit/Pinterest from distribution/latest.json today.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-02 20:52 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "cro",
-      "title": "Visuality iteration: hero/CTA/og image hygiene",
-      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 44.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
+      "created": "2026-11-16 04:05 UTC"
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "Traffic without affiliate clicks \u2014 check product CTAs and event firing.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 6,
+    "ready": 5,
     "total": 7,
     "checks": [
       {
@@ -1105,8 +1059,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -1131,6 +1085,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 24 | Aff clicks 0 | GSC 1c/87i | YT views 482 | Setup 6/7"
+    "headline": "Sessions 25 | Aff clicks 0 | GSC 1c/97i | YT views 484 | Setup 5/7"
   }
 }
