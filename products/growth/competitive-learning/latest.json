@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-16 23:53 UTC",
+  "generated_at": "2026-11-17 22:42 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -55,14 +55,14 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 346,
-        "images": 16,
+        "word_count_est": 332,
+        "images": 15,
         "has_faq": false,
         "has_table": false,
         "has_og_image": false,
         "has_json_ld": false,
         "cta_mentions": 4,
-        "hero_signal": true,
+        "hero_signal": false,
         "comparison_signal": false,
         "year_in_title": false
       }
@@ -120,6 +120,32 @@
         "comparison_signal": false,
         "year_in_title": false
       }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 4047,
+        "images": 0,
+        "has_faq": true,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
     }
   ],
   "our_probe": {
@@ -156,30 +182,30 @@
     }
   },
   "gsc_queries": [
+    "aerogarden bounty elite",
     "aerogarden bounty vs bounty basic",
     "aerogarden bounty vs bounty elite",
     "aerogarden comparison",
     "aerogarden elite bounty",
     "aerogarden harvest vs harvest elite",
-    "aerogarden vs click and grow",
     "aerogarden vs click grow",
     "auk top layer alternative"
   ],
   "learnings": [
+    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "LLM peer insight: . **Build one comparison-led title/H1 cluster around the exact GSC queries.**",
-    "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Bounty vs Elite: Specs, Features & Best Buy**",
-    "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Bounty vs Bounty Elite**",
-    "LLM peer insight: - Add linked sections for **AeroGarden Harvest vs Harvest Elite** and **AeroGarden comparison**.",
-    "LLM peer insight: - Use a short answer directly below the H1: “Choose Basic for the lowest-cost setup, Bounty for app and touchscreen controls, and Elite for the brightest light and premium finish.” The model distinctions should be fact-c",
-    "LLM peer insight: . **Add a decision-first comparison table above the fold.**",
-    "LLM peer insight: Include rows for price, pod capacity, grow height, light wattage, display, Wi-Fi/app control, dimming, finish, footprint, and best-for. Make the first column sticky on mobile and highlight the recommended model in a cont",
-    "LLM peer insight: . **Create an FAQ block targeting buying objections—not generic gardening questions.**",
-    "LLM peer insight: Add 6–8 expandable FAQs beneath the table:",
-    "LLM peer insight: - “What is the difference between Bounty Basic, Bounty, and Bounty Elite?”"
+    "WORKING peer pattern: long-form depth (~1391 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Retarget the page title and H1 around the highest-value comparison intent.**",
+    "LLM peer insight: - Title: **AeroGarden Bounty Elite vs Bounty vs Bounty Basic: Which Should You Buy?**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Elite vs Bounty Basic: Features, Differences, and Best Pick**",
+    "LLM peer insight: - Add the exact variants naturally in the introduction and subheads: “AeroGarden Bounty Elite,” “AeroGarden Bounty vs Bounty Basic,” and “AeroGarden comparison.”",
+    "LLM peer insight: - Add a concise verdict directly below the H1: “Choose the Elite for the brightest light and premium finish; choose the Bounty for the best balance of features and price; choose the Basic for simple growing.”",
+    "LLM peer insight: . **Ship a prominent three-model comparison table above the first long-form section.**",
+    "LLM peer insight: Include columns for **Bounty Basic, Bounty, and Bounty Elite**, and rows for:",
+    "LLM peer insight: The key differentiators should be visually obvious: all three support 9 pods and roughly 24-inch growth, while the Elite adds a 50W light, stainless finish, dimming, app/Wi-Fi control, and sunrise/sunset lighting.[1][3]["
   ],
-  "llm_notes": "1. **Build one comparison-led title/H1 cluster around the exact GSC queries.**  \n   - Title: **AeroGarden Bounty Basic vs Bounty vs Elite: Specs, Features & Best Buy**  \n   - H1: **AeroGarden Bounty Basic vs Bounty vs Bounty Elite**  \n   - Add linked sections for **AeroGarden Harvest vs Harvest Elite** and **AeroGarden comparison**.  \n   - Use a short answer directly below the H1: “Choose Basic for the lowest-cost setup, Bounty for app and touchscreen controls, and Elite for the brightest light and premium finish.” The model distinctions should be fact-checked before publishing because specifications can vary by generation.\n\n2. **Add a decision-first comparison table above the fold.**  \n   Include rows for price, pod capacity, grow height, light wattage, display, Wi-Fi/app control, dimming, finish, footprint, and best-for. Make the first column sticky on mobile and highlight the recommended model in a contrasting color. Current comparison signals support emphasizing that Bounty models support nine plants, while Harvest models support six; Harvest Elite adds a digital display and customizable reminders compared with Harvest.[2][4][6][8]\n\n3. **Create an FAQ block targeting buying objections—not generic gardening questions.**  \n   Add 6–8 expandable FAQs beneath the table:\n   - “What is the difference between Bounty Basic, Bounty, and Bounty Elite?”\n   - “Is Bounty Elite worth it over Bounty Basic?”\n   - “Does Bounty Elite grow more plants?”\n   - “Which is better for a small apartment: Bounty or Harvest?”\n   - “What is the difference between AeroGarden Harvest and Harvest Elit",
+  "llm_notes": "1. **Retarget the page title and H1 around the highest-value comparison intent.**  \n   - Title: **AeroGarden Bounty Elite vs Bounty vs Bounty Basic: Which Should You Buy?**  \n   - H1: **AeroGarden Bounty Elite vs Bounty Basic: Features, Differences, and Best Pick**  \n   - Add the exact variants naturally in the introduction and subheads: “AeroGarden Bounty Elite,” “AeroGarden Bounty vs Bounty Basic,” and “AeroGarden comparison.”  \n   - Add a concise verdict directly below the H1: “Choose the Elite for the brightest light and premium finish; choose the Bounty for the best balance of features and price; choose the Basic for simple growing.”\n\n2. **Ship a prominent three-model comparison table above the first long-form section.**  \n   Include columns for **Bounty Basic, Bounty, and Bounty Elite**, and rows for:\n   - Pod capacity\n   - Maximum plant height\n   - LED wattage\n   - Display and controls\n   - App/Wi-Fi support\n   - Light dimming\n   - Sunrise/sunset mode\n   - Finish\n   - Best for\n   - Current price and affiliate CTA  \n   \n   The key differentiators should be visually obvious: all three support 9 pods and roughly 24-inch growth, while the Elite adds a 50W light, stainless finish, dimming, app/Wi-Fi control, and sunrise/sunset lighting.[1][3][6] Use checkmarks, muted “—not included—” labels, and a highlighted **Best overall** column rather than dense paragraphs.\n\n3. **Add an FAQ block designed around the exact GSC questions.**  \n   Publish 6–8 expandable questions with concise answers and FAQ schema, including:\n   - “What is the difference between AeroGarden Bounty and Bo",
   "proposed_actions": [
     {
       "type": "content_faq",
@@ -210,6 +236,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }
