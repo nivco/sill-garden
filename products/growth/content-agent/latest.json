@@ -1,9 +1,17 @@
 {
-  "date": "2026-11-16",
-  "generated": "2026-11-16 23:53 UTC",
+  "date": "2026-11-17",
+  "generated": "2026-11-17 23:13 UTC",
   "research": {
-    "generated": "2026-11-16 23:53 UTC",
+    "generated": "2026-11-17 23:13 UTC",
     "zero_click_queries": [
+      {
+        "query": "aerogarden bounty elite",
+        "clicks": 0,
+        "impressions": 1,
+        "ctr": 0.0,
+        "position": 53.0,
+        "ctr_pct": 0.0
+      },
       {
         "query": "aerogarden bounty vs bounty basic",
         "clicks": 0,
@@ -45,14 +53,6 @@
         "ctr_pct": 0.0
       },
       {
-        "query": "aerogarden vs click and grow",
-        "clicks": 0,
-        "impressions": 2,
-        "ctr": 0.0,
-        "position": 53.0,
-        "ctr_pct": 0.0
-      },
-      {
         "query": "aerogarden vs click grow",
         "clicks": 0,
         "impressions": 2,
@@ -79,7 +79,7 @@
       {
         "query": "best budget herb garden under 50",
         "clicks": 0,
-        "impressions": 8,
+        "impressions": 6,
         "ctr": 0.0,
         "position": 10.5,
         "ctr_pct": 0.0
@@ -87,7 +87,7 @@
       {
         "query": "best cheap herb garden under 50",
         "clicks": 0,
-        "impressions": 15,
+        "impressions": 23,
         "ctr": 0.0,
         "position": 10.5,
         "ctr_pct": 0.0
@@ -95,9 +95,9 @@
       {
         "query": "best lightweight herb garden under 50",
         "clicks": 0,
-        "impressions": 13,
+        "impressions": 12,
         "ctr": 0.0,
-        "position": 8.3,
+        "position": 8.6,
         "ctr_pct": 0.0
       },
       {
@@ -113,7 +113,7 @@
         "clicks": 0,
         "impressions": 35,
         "ctr": 0.0,
-        "position": 6.1,
+        "position": 6.2,
         "ctr_pct": 0.0
       },
       {
@@ -128,9 +128,8 @@
     "network_probes": [
       {
         "url": "https://sillgarden.com/llms.txt",
-        "ok": true,
-        "status": 200,
-        "mentions_year": false
+        "ok": false,
+        "error": "The read operation timed out"
       },
       {
         "url": "https://sillgarden.com/guides/aerogarden-vs-click-and-grow/",
@@ -162,21 +161,14 @@
       "learnings": [
         "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
         "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-        "LLM peer insight: . **Build one comparison-led title/H1 cluster around the exact GSC queries.**",
-        "LLM peer insight: - Title: **AeroGarden Bounty Basic vs Bounty vs Elite: Specs, Features & Best Buy**",
-        "LLM peer insight: - H1: **AeroGarden Bounty Basic vs Bounty vs Bounty Elite**",
-        "LLM peer insight: - Add linked sections for **AeroGarden Harvest vs Harvest Elite** and **AeroGarden comparison**.",
-        "LLM peer insight: - Use a short answer directly below the H1: “Choose Basic for the lowest-cost setup, Bounty for app and touchscreen controls, and Elite for the brightest light and premium finish.” The model distinctions should be fact-c",
-        "LLM peer insight: . **Add a decision-first comparison table above the fold.**"
+        "LLM peer insight: . **Create a keyword-led comparison page title and H1**",
+        "LLM peer insight: - **Title:** `AeroGarden Bounty Elite vs Bounty Basic: Which Should You Buy?`",
+        "LLM peer insight: - **H1:** `AeroGarden Bounty Elite vs Bounty Basic`",
+        "LLM peer insight: - Add a 40–60-word opening answer using the exact variants naturally: “AeroGarden Bounty Elite,” “AeroGarden Bounty vs Bounty Basic,” and “AeroGarden comparison.”",
+        "LLM peer insight: - Add a visible “last updated” date and product model numbers to reduce ambiguity.",
+        "LLM peer insight: . **Put a decision table above the fold**"
       ],
       "actions": [
-        {
-          "type": "content_faq",
-          "priority": "P1",
-          "title": "Add/refresh FAQ from peer + GSC questions",
-          "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
-          "auto": true
-        },
         {
           "type": "content_table",
           "priority": "P1",
@@ -201,9 +193,9 @@
       ]
     },
     "llm_notes": {
-      "aerogarden bounty vs bounty basic": "- **Noise:** Both use a low, steady water-pump hum; roughly 40–42 dB is noticeable in a quiet bedroom but usually acceptable in a kitchen.[1][3]\n- **Cost:** The Bounty Basic typically costs about **$90–$180**, versus roughly **$115–$170** for the 40W Bounty; Basic also uses less electricity—about **$28/year** versus **$38/year** at 15 hours daily.[1][2]\n- **Apartment fit:** Both hold nine pods and reach about 34 inches high with the light extended; Basic is the better value for herbs and lettuce, while Bounty’s stronger light suits taller or fruiting plants but needs careful counter and cabinet clearance.[1][6]",
-      "aerogarden bounty vs bounty elite": "- **Noise:** Both use a low-hum pump; the Bounty is reported around 35–40 dB, while the Bounty Elite ranges from 25–42 dB depending on measurement—audible in a quiet bedroom, generally acceptable in a kitchen.[1][6][8]\n- **Cost:** The Bounty is listed around **$115**; the Elite typically costs **$250–300**, plus roughly **$15–20/month** for proprietary pods.[3][6]\n- **Apartment fit:** Both hold nine plants and fit on a countertop with a light arm up to 24 inches; the Bounty offers better value, while the Elite suits a studio or one-bedroom where app controls, dimming, and appearance justify the premium.[3][4]",
-      "aerogarden comparison": "- **Noise:** AeroGarden models use pumps that produce a low hum; generally acceptable in kitchens, but potentially noticeable in quiet bedrooms.[1][9]\n- **Cost:** Hardware typically costs about **$85–$129**; annual pod and nutrient costs can add roughly **$60–$180**, depending on whether you use pre-seeded pods.[2][5]\n- **Apartment fit:** Compact models such as the Harvest occupy about **11 × 8 inches** and support six plants, making them suitable for most kitchen counters.[4][7]"
+      "aerogarden bounty elite": "- **Noise:** Pump hum is roughly **35–42 dB**—usually unobtrusive in a kitchen but noticeable in a quiet bedroom or studio.[1][4][6]\n- **Cost:** Expect about **$260–$275 upfront**; electricity costs roughly **$53 annually**, excluding replacement pods and nutrients.[2][4][8]\n- **Apartment fit:** Suitable for a countertop and supports **nine plants**, but its 24-inch light arm—and roughly 34-inch total height—requires dedicated vertical clearance.[3][4]",
+      "aerogarden bounty vs bounty basic": "- **Noise:** Both use a small pump and produce a low hum; expect roughly **35–42 dB**, noticeable mainly in a quiet bedroom.[2][8]\n- **Cost:** The **Bounty Basic** typically costs **$90–$180**, versus about **$115** for the 40W Bounty; Basic also uses less electricity—about **$2.37/month** at 15 hours daily.[2][3]\n- **Apartment fit:** Both support **nine plants** and up to **24 inches of growth height**; they fit on a counter but require roughly **17.25 × 11.25 inches** of space plus overhead clearance.[3]",
+      "aerogarden bounty vs bounty elite": "- **Noise:** Both use a small recirculating pump and produce a low hum; the Bounty is generally around 35 dB, while the Elite has been measured near 42 dB and may be noticeable in a quiet bedroom.[3][9]\n- **Cost:** The Elite typically costs about **$50–$100 more** than the standard Bounty; its 50 W light also uses more electricity than the Bounty’s 40 W light.[1][3]\n- **Apartment fit:** Both hold nine pods and provide roughly 24 inches of grow height, making them suitable for a kitchen counter; choose the Bounty for lower cost and the Elite only if dimming, touchscreen controls, and premium features justify the extra space and brightness.[3][6]"
     },
     "guide_count": 21,
     "existing_slugs": [
@@ -230,32 +222,8 @@
       "yellow-leaves-leggy-seedlings-indoor-herbs"
     ]
   },
-  "proposed": [
-    {
-      "type": "add_faq",
-      "slug": "click-and-grow-vs-idoo-auk",
-      "question": "Auk top layer alternative?",
-      "answer": "For \"auk top layer alternative\", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.",
-      "reason": "GSC zero-click: 1 impr, pos 29.0",
-      "bucket": "refresh"
-    }
-  ],
-  "applied": [
-    {
-      "type": "add_faq",
-      "slug": "click-and-grow-vs-idoo-auk",
-      "question": "Auk top layer alternative?",
-      "answer": "For \"auk top layer alternative\", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.",
-      "reason": "GSC zero-click: 1 impr, pos 29.0",
-      "bucket": "refresh",
-      "status": "applied"
-    }
-  ],
-  "indexnow": {
-    "ok": true,
-    "returncode": 0,
-    "stdout": "URLs: 37\nIndexNow OK (200): 37 URLs\nGoogle: sitemap already submitted in GSC. Manual 'Request indexing' in UI for priority URLs only.\n",
-    "stderr": "Bing SubmitUrlBatch HTTP 400: {\"ErrorCode\":8,\"Message\":\"ERROR!!! Quota remaining for today: 26, Submitted: 37\"}\n(Add/verify sillgarden.com in Bing Webmaster Tools if this failed.)\n"
-  },
-  "summary_md": "# Sill Garden Content Agent — 2026-11-16\n\nGenerated: 2026-11-16 23:53 UTC\n\n## Research\n- Guides: 21\n- Zero-click GSC queries: 15\n- Network probes ok: 5/5\n- LLM notes: 3\n\n## Applied\n- [refresh] add_faq -> `click-and-grow-vs-idoo-auk` — GSC zero-click: 1 impr, pos 29.0\n\n## Top demand\n- aerogarden bounty vs bounty basic — 1 impr, pos 46.0\n- aerogarden bounty vs bounty elite — 1 impr, pos 49.0\n- aerogarden comparison — 3 impr, pos 77.3\n- aerogarden elite bounty — 1 impr, pos 43.0\n- aerogarden harvest vs harvest elite — 1 impr, pos 47.0\n- aerogarden vs click and grow — 2 impr, pos 53.0\n- aerogarden vs click grow — 2 impr, pos 71.0\n- auk top layer alternative — 1 impr, pos 29.0\n"
+  "proposed": [],
+  "applied": [],
+  "indexnow": null,
+  "summary_md": "# Sill Garden Content Agent — 2026-11-17\n\nGenerated: 2026-11-17 23:13 UTC\n\n## Research\n- Guides: 21\n- Zero-click GSC queries: 15\n- Network probes ok: 4/5\n- LLM notes: 3\n\n## Applied\n- No content changes this run.\n\n## Top demand\n- aerogarden bounty elite — 1 impr, pos 53.0\n- aerogarden bounty vs bounty basic — 1 impr, pos 46.0\n- aerogarden bounty vs bounty elite — 1 impr, pos 49.0\n- aerogarden comparison — 3 impr, pos 77.3\n- aerogarden elite bounty — 1 impr, pos 43.0\n- aerogarden harvest vs harvest elite — 1 impr, pos 47.0\n- aerogarden vs click grow — 2 impr, pos 71.0\n- auk top layer alternative — 1 impr, pos 29.0\n"
 }
