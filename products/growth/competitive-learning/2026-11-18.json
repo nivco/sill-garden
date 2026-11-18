@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-18 22:24 UTC",
+  "generated_at": "2026-11-18 22:44 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -109,39 +109,13 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 514,
+        "word_count_est": 524,
         "images": 2,
         "has_faq": false,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4047,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -192,28 +166,21 @@
     "auk top layer alternative"
   ],
   "learnings": [
-    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: long-form depth (~1389 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: . **Build a query-matched comparison page title and H1**",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Elite vs Basic: Which Should You Buy?`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty vs Bounty Elite vs Bounty Basic`",
-    "LLM peer insight: - Add an opening answer box: “All three grow 9 pods up to 24 inches. Choose Basic for the lowest cost, Bounty for smart controls, or Elite for the brightest light and premium finish.” The core specifications are 30W, 40W",
-    "LLM peer insight: - Use the exact variants naturally in subheadings: `AeroGarden Bounty Elite`, `AeroGarden Bounty vs Bounty Basic`, and `AeroGarden comparison`.",
-    "LLM peer insight: . **Add a decision-first comparison table above the fold**",
-    "LLM peer insight: - Put it immediately below the introduction, before long-form commentary.",
-    "LLM peer insight: - Include: price, pod capacity, light wattage, maximum grow height, touchscreen, Wi-Fi/app, dimming, finish, and best-for."
+    "LLM peer insight: . **Create a query-matched comparison page title and H1**",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Comparison: Basic vs Bounty vs Elite`",
+    "LLM peer insight: - Put the exact variants—“AeroGarden Bounty Elite,” “AeroGarden Bounty vs Bounty Basic,” and “AeroGarden Bounty vs Bounty Elite”—in the introduction and relevant subheadings.",
+    "LLM peer insight: - Add a short verdict directly under the H1: “Choose Basic for herbs on a budget, Bounty for the best balance, and Elite for heavier fruiting-plant use and smart controls.” Treat current specifications and prices as “ver",
+    "LLM peer insight: . **Ship a decision-first comparison table above the fold**",
+    "LLM peer insight: - Use columns for **Bounty Basic, Bounty, and Bounty Elite**.",
+    "LLM peer insight: - Include: pod capacity, maximum grow height, light wattage, touchscreen, Wi-Fi/app support, included accessories, finish, current price, and “best for.”",
+    "LLM peer insight: - Highlight the recommended model visually with a “Best value” badge rather than making readers scan paragraphs.",
+    "LLM peer insight: - Confirm every specification against an official product page or manual; available sources consistently describe the Bounty family as supporting up to nine plants and roughly 24 inches of grow height, while smart-contro"
   ],
-  "llm_notes": "1. **Build a query-matched comparison page title and H1**\n   - **Title:** `AeroGarden Bounty vs Bounty Elite vs Basic: Which Should You Buy?`\n   - **H1:** `AeroGarden Bounty vs Bounty Elite vs Bounty Basic`\n   - Add an opening answer box: “All three grow 9 pods up to 24 inches. Choose Basic for the lowest cost, Bounty for smart controls, or Elite for the brightest light and premium finish.” The core specifications are 30W, 40W, and 50W respectively.[1][3]\n   - Use the exact variants naturally in subheadings: `AeroGarden Bounty Elite`, `AeroGarden Bounty vs Bounty Basic`, and `AeroGarden comparison`.\n\n2. **Add a decision-first comparison table above the fold**\n   - Put it immediately below the introduction, before long-form commentary.\n   - Include: price, pod capacity, light wattage, maximum grow height, touchscreen, Wi-Fi/app, dimming, finish, and best-for.\n   - Preselect the recommendation visually with a badge such as **Best Value** on Bounty and **Best Premium Pick** on Elite.\n   - Keep specifications consistent: each model holds 9 pods and reaches 24 inches; Basic uses 30W, Bounty 40W, and Elite 50W.[1][4]\n   - Add a “Check price” button in each column, with affiliate disclosure near the table rather than buried in the footer.\n\n3. **Replace generic imagery with visual proof and product differentiation**\n   - Use one clean, front-facing image of all three models at the same scale.\n   - Add annotated close-ups showing the Basic controls, Bounty touchscreen/Wi-Fi features, and Elite stainless finish.\n   - Create a simple visual strip: `30W → 40W → 50W` and `Basic controls",
+  "llm_notes": "1. **Create a query-matched comparison page title and H1**\n   - **Title:** `AeroGarden Bounty vs Bounty Basic vs Bounty Elite: Which Should You Buy?`\n   - **H1:** `AeroGarden Bounty Comparison: Basic vs Bounty vs Elite`\n   - Put the exact variants—“AeroGarden Bounty Elite,” “AeroGarden Bounty vs Bounty Basic,” and “AeroGarden Bounty vs Bounty Elite”—in the introduction and relevant subheadings.\n   - Add a short verdict directly under the H1: “Choose Basic for herbs on a budget, Bounty for the best balance, and Elite for heavier fruiting-plant use and smart controls.” Treat current specifications and prices as “verify before publishing,” since retailer listings vary.[1][3][5]\n\n2. **Ship a decision-first comparison table above the fold**\n   - Use columns for **Bounty Basic, Bounty, and Bounty Elite**.\n   - Include: pod capacity, maximum grow height, light wattage, touchscreen, Wi-Fi/app support, included accessories, finish, current price, and “best for.”\n   - Highlight the recommended model visually with a “Best value” badge rather than making readers scan paragraphs.\n   - Confirm every specification against an official product page or manual; available sources consistently describe the Bounty family as supporting up to nine plants and roughly 24 inches of grow height, while smart-control features differ by model.[3][5][7]\n   - Add one row titled **“Choose this if…”** with plain-language outcomes: herbs, mixed greens, or tomatoes/peppers.\n\n3. **Add an FAQ block targeting the exact comparison intent**\n   - Use 6–8 visible questions with expandable answers and FAQ schema:\n    ",
   "proposed_actions": [
-    {
-      "type": "content_faq",
-      "priority": "P1",
-      "title": "Add/refresh FAQ from peer + GSC questions",
-      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
-      "auto": true
-    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -236,6 +203,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
