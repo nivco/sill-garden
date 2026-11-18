@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-17",
+  "updated_at": "2026-11-18",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -402,6 +402,13 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "8e8ee71461e01f"
+    },
+    {
+      "signal": "Impact-: applied on Aerogarden vs click grow?",
+      "action": "Revisit approach — negative sessions_7d -6. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "cad3b6a6e00002"
     }
   ],
   "money_urls": [
