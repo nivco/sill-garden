@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-11-17 23:13 UTC",
+  "generated_at": "2026-11-18 05:23 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,13 +9,13 @@
     "pageviews_7d": 28,
     "affiliate_clicks_7d": 0,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 103,
+    "gsc_impressions_7d": 88,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 486,
+    "youtube_views_total": 488,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -140,8 +140,8 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 103,
-      "avg_position": 15.0,
+      "impressions": 88,
+      "avg_position": 15.7,
       "top_queries": [
         {
           "query": "aerogarden bounty elite",
@@ -223,9 +223,9 @@
         {
           "query": "best lightweight herb garden under 50",
           "clicks": 0,
-          "impressions": 12,
+          "impressions": 10,
           "ctr": 0.0,
-          "position": 8.6
+          "position": 8.7
         },
         {
           "query": "best quiet herb garden under 50",
@@ -237,7 +237,7 @@
         {
           "query": "herb garden for small apartments 2026",
           "clicks": 0,
-          "impressions": 35,
+          "impressions": 26,
           "ctr": 0.0,
           "position": 6.2
         },
@@ -251,8 +251,8 @@
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-11-10",
-        "end": "2026-11-17"
+        "start": "2026-11-11",
+        "end": "2026-11-18"
       }
     },
     "indexing": {
@@ -858,7 +858,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 486,
+        "views": 488,
         "videos": 55
       },
       "recent_videos": [
@@ -1138,6 +1138,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 25 | Aff clicks 0 | GSC 1c/103i | YT views 486 | Setup 6/7"
+    "headline": "Sessions 25 | Aff clicks 0 | GSC 1c/88i | YT views 488 | Setup 6/7"
   }
 }
