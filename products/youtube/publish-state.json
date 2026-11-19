@@ -665,8 +665,17 @@
       "storyboard": "products/youtube/video-related-herb-garden-for-small-apartments-2026-20261114/storyboard.json",
       "format": "long",
       "metadata_refreshed_at": "2026-11-19T16:43:51.573639+00:00"
+    },
+    "video-related-best-lightweight-herb-garden-under-50": {
+      "youtube_id": "OXlkQO6KlIM",
+      "url": "https://youtu.be/OXlkQO6KlIM",
+      "title": "Best lightweight herb garden under 50 (2026)",
+      "privacy": "public",
+      "uploaded_at": "2026-11-19T21:58:59.203450+00:00",
+      "storyboard": "products/youtube/video-related-best-lightweight-herb-garden-under-50/storyboard.json",
+      "format": "long"
     }
   },
   "updated_at": "2026-11-19T16:43:52.090531+00:00",
-  "next_eligible_date": "2026-11-19"
+  "next_eligible_date": "2026-11-22"
 }
