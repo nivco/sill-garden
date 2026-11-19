@@ -1,5 +1,5 @@
 {
-  "updated_at": "2026-11-18",
+  "updated_at": "2026-11-19",
   "working": [
     {
       "signal": "GSC impressions with 0 clicks on comparison queries",
@@ -409,6 +409,20 @@
       "status": "ignore",
       "from_impact": true,
       "action_id": "cad3b6a6e00002"
+    },
+    {
+      "signal": "Impact-: applied on cheapest-indoor-herb-garden-apartment",
+      "action": "Revisit approach — negative gsc_clicks_7d -1. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "d3f2aab5a79a18"
+    },
+    {
+      "signal": "Impact-: applied on Auk top layer alternative?",
+      "action": "Revisit approach — negative sessions_7d -14. Prefer kit-first distribution over repeating the same patch alone.",
+      "status": "ignore",
+      "from_impact": true,
+      "action_id": "202c2d54e39be6"
     }
   ],
   "money_urls": [
