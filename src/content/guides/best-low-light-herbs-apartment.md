@@ -2,7 +2,7 @@
 title: Best low light indoor herbs for apartment windowsills (2026)
 description: "Low light indoor herbs for apartments — mint, chives, parsley, oregano on a dim sill, plus when a clip grow light is worth it (2026)."
 pubDate: 2026-08-17
-updatedDate: 2026-10-06
+updatedDate: 2026-11-19
 cluster: herbs
 type: guide
 featured: true
@@ -29,7 +29,7 @@ products:
   note: Works if you add a clip light
   search: Italian parsley seeds for planting
 - name: 6500K daylight LED bulb
-  note: Lamp you already own, brighter spectrum
+  note: "Lamp you already own, brighter spectrum"
   search: 6500K LED grow light bulb
 ---
 A dim apartment window can grow herbs, but it cannot grow every herb well. The best low-light herbs are plants that tolerate slower growth without stretching into weak, pale stems.
@@ -115,3 +115,6 @@ For "herbs that can grow indoors with low light", match the setup to your light,
 
 **Low light indoor herbs?**  
 For "low light indoor herbs", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.
+
+**Indoor herbs low light?**  
+For "indoor herbs low light", match the setup to your light, noise tolerance, and landlord rules — not brand hype. Start small and upgrade after one successful harvest.

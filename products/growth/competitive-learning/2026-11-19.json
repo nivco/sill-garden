@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19 22:29 UTC",
+  "generated_at": "2026-11-19 22:48 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -109,39 +109,13 @@
           "Gardeners Supply"
         ],
         "h2_sample": [],
-        "word_count_est": 524,
+        "word_count_est": 525,
         "images": 2,
         "has_faq": false,
         "has_table": false,
         "has_og_image": true,
         "has_json_ld": false,
         "cta_mentions": 1,
-        "hero_signal": true,
-        "comparison_signal": false,
-        "year_in_title": false
-      }
-    },
-    {
-      "name": "Gardening Know How (indoor)",
-      "kind": "editorial",
-      "why": "SEO content depth for houseplant/indoor queries",
-      "url": "https://www.gardeningknowhow.com/houseplants/",
-      "ok": true,
-      "status": 200,
-      "error": null,
-      "signals": {
-        "url": "https://www.gardeningknowhow.com/houseplants/",
-        "title": "Tips & Information about Houseplants | Gardening Know How",
-        "description": "Whether you",
-        "h1": [],
-        "h2_sample": [],
-        "word_count_est": 4047,
-        "images": 0,
-        "has_faq": true,
-        "has_table": false,
-        "has_og_image": false,
-        "has_json_ld": true,
-        "cta_mentions": 0,
         "hero_signal": true,
         "comparison_signal": false,
         "year_in_title": false
@@ -192,28 +166,21 @@
     "best lightweight herb garden under 50"
   ],
   "learnings": [
-    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: long-form depth (~1394 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the GSC demand:",
-    "LLM peer insight: . **Rewrite titles and H1s around comparison intent**",
-    "LLM peer insight: - AeroGarden page title: **“AeroGarden Bounty Elite Review: Specs, Pros, Cons & Alternatives”**",
-    "LLM peer insight: - H1: **“AeroGarden Bounty Elite: Is It Worth It for an Apartment?”**",
-    "LLM peer insight: - Comparison page title: **“AeroGarden vs Click & Grow: Which Indoor Garden Is Better?”**",
-    "LLM peer insight: - H1: **“AeroGarden vs Click & Grow: Cost, Crops, Noise & Maintenance”**",
-    "LLM peer insight: - AUK page title: **“AUK vs Click & Grow: Which Indoor Garden Fits Your Kitchen?”**",
-    "LLM peer insight: - Avoid generic brand titles; put the exact queried product and decision in the first 60 characters."
+    "LLM peer insight: . **Create query-matched comparison titles and H1s**",
+    "LLM peer insight: - Publish dedicated pages rather than one generic indoor-garden page:",
+    "LLM peer insight: - **Title:** `AeroGarden Bounty Elite Review: Features, Cost, and Best Alternatives`",
+    "LLM peer insight: - **H1:** `AeroGarden Bounty Elite Review`",
+    "LLM peer insight: - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`",
+    "LLM peer insight: - **Title:** `AUK vs Click & Grow: Features, Cost, and Best Use Cases`",
+    "LLM peer insight: - **Title:** `Best AUK Top Layer Alternatives for Indoor Growing`",
+    "LLM peer insight: - Put the primary query in the first 60 characters of each title and add a clear decision angle: “best for small apartments,” “best for herbs,” or “best for low maintenance.”",
+    "LLM peer insight: . **Add a comparison table immediately below the introduction**",
+    "LLM peer insight: - Example factual entries: AeroGarden Bounty Elite supports up to nine plants, has a 50W light, touchscreen controls, vacation mode, and adjustable height up to 24 inches.[2][7] Click & Grow systems automate watering and"
   ],
-  "llm_notes": "Ship these five changes this week, prioritizing pages that match the GSC demand:\n\n1. **Rewrite titles and H1s around comparison intent**\n   - AeroGarden page title: **“AeroGarden Bounty Elite Review: Specs, Pros, Cons & Alternatives”**\n   - H1: **“AeroGarden Bounty Elite: Is It Worth It for an Apartment?”**\n   - Comparison page title: **“AeroGarden vs Click & Grow: Which Indoor Garden Is Better?”**\n   - H1: **“AeroGarden vs Click & Grow: Cost, Crops, Noise & Maintenance”**\n   - AUK page title: **“AUK vs Click & Grow: Which Indoor Garden Fits Your Kitchen?”**\n   - Avoid generic brand titles; put the exact queried product and decision in the first 60 characters.\n\n2. **Add a decision-first comparison table above the fold**\n   Use a compact table immediately after the introduction—not buried below reviews.\n\n   | Category | AeroGarden Bounty Elite | Click & Grow Smart Garden | Best for |\n   |---|---|---|---|\n   | Growing method | Water-based hydroponics; liquid nutrients | Soil-like pods with passive wicking | Lowest maintenance: Click & Grow |\n   | Plant capacity | 9 pods | Model-dependent | More crop flexibility: AeroGarden |\n   | Light/grow height | 50W dimmable light; up to 24 inches | Lower-power light; shorter practical clearance | Tomatoes and peppers: AeroGarden |\n   | Upkeep | Add water and nutrients; pump produces some noise | Add water; no pump or liquid nutrients | Quiet simplicity: Click & Grow |\n   | Best apartment use | Larger harvests and taller plants | Herbs with minimal setup | Depends on counter space |\n\n   Make each product name, price, and “Check price” but",
+  "llm_notes": "1. **Create query-matched comparison titles and H1s**\n   - Publish dedicated pages rather than one generic indoor-garden page:\n     - **Title:** `AeroGarden Bounty Elite Review: Features, Cost, and Best Alternatives`\n       - **H1:** `AeroGarden Bounty Elite Review`\n     - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`\n       - **H1:** `AeroGarden vs Click & Grow`\n     - **Title:** `AUK vs Click & Grow: Features, Cost, and Best Use Cases`\n       - **H1:** `AUK vs Click & Grow`\n     - **Title:** `Best AUK Top Layer Alternatives for Indoor Growing`\n       - **H1:** `AUK Top Layer Alternatives`\n   - Put the primary query in the first 60 characters of each title and add a clear decision angle: “best for small apartments,” “best for herbs,” or “best for low maintenance.”\n\n2. **Add a comparison table immediately below the introduction**\n   - Use scannable rows for:\n     - Plants grown\n     - Maximum plant height\n     - Light controls\n     - Automatic watering\n     - App or touchscreen\n     - Water-tank capacity\n     - Noise\n     - Counter footprint\n     - Ongoing pod/seed cost\n     - Best use case\n   - Example factual entries: AeroGarden Bounty Elite supports up to nine plants, has a 50W light, touchscreen controls, vacation mode, and adjustable height up to 24 inches.[2][7] Click & Grow systems automate watering and lighting, while some models offer app controls and modular expansion.[3][4]\n   - Add a final **“Winner for…”** row instead of forcing one overall winner.\n\n3. **Ship an FAQ block designed around the GSC questions**\n   - Add 6–8 visible questio",
   "proposed_actions": [
-    {
-      "type": "content_faq",
-      "priority": "P1",
-      "title": "Add/refresh FAQ from peer + GSC questions",
-      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
-      "auto": true
-    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -236,6 +203,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 5,
-  "peer_count": 5
+  "ok_peers": 4,
+  "peer_count": 4
 }
