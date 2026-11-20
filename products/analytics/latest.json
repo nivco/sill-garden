@@ -1,6 +1,6 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-11-19 22:48 UTC",
+  "generated_at": "2026-11-20 05:07 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
@@ -9,13 +9,13 @@
     "pageviews_7d": 12,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 0,
-    "gsc_impressions_7d": 84,
+    "gsc_impressions_7d": 62,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
     "youtube_sessions_7d": 0,
     "youtube_subs": 1,
-    "youtube_views_total": 491,
+    "youtube_views_total": 492,
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
@@ -120,8 +120,8 @@
     },
     "gsc": {
       "clicks": 0,
-      "impressions": 84,
-      "avg_position": 18.7,
+      "impressions": 62,
+      "avg_position": 16.9,
       "top_queries": [
         {
           "query": "aerogarden bounty elite",
@@ -133,16 +133,9 @@
         {
           "query": "aerogarden comparison",
           "clicks": 0,
-          "impressions": 3,
+          "impressions": 1,
           "ctr": 0.0,
-          "position": 70.0
-        },
-        {
-          "query": "aerogarden vs click grow",
-          "clicks": 0,
-          "impressions": 2,
-          "ctr": 0.0,
-          "position": 71.0
+          "position": 46.0
         },
         {
           "query": "auk top layer alternative",
@@ -161,23 +154,23 @@
         {
           "query": "best budget herb garden under 50",
           "clicks": 0,
-          "impressions": 7,
+          "impressions": 5,
           "ctr": 0.0,
           "position": 10.4
         },
         {
           "query": "best cheap herb garden under 50",
           "clicks": 0,
-          "impressions": 23,
+          "impressions": 20,
           "ctr": 0.0,
           "position": 10.6
         },
         {
           "query": "best lightweight herb garden under 50",
           "clicks": 0,
-          "impressions": 9,
+          "impressions": 7,
           "ctr": 0.0,
-          "position": 8.9
+          "position": 9.1
         },
         {
           "query": "counter top garden",
@@ -196,9 +189,9 @@
         {
           "query": "herb garden for small apartments 2026",
           "clicks": 0,
-          "impressions": 16,
+          "impressions": 6,
           "ctr": 0.0,
-          "position": 6.4
+          "position": 8.5
         },
         {
           "query": "indoor herbs low light",
@@ -206,19 +199,12 @@
           "impressions": 1,
           "ctr": 0.0,
           "position": 63.0
-        },
-        {
-          "query": "kratky jar",
-          "clicks": 0,
-          "impressions": 1,
-          "ctr": 0.0,
-          "position": 99.0
         }
       ],
       "site_url": "sc-domain:sillgarden.com",
       "window": {
-        "start": "2026-11-12",
-        "end": "2026-11-19"
+        "start": "2026-11-13",
+        "end": "2026-11-20"
       }
     },
     "indexing": {
@@ -824,7 +810,7 @@
         "title": "Sill Garden",
         "handle": "@sillgarden",
         "subscribers": 1,
-        "views": 491,
+        "views": 492,
         "videos": 56
       },
       "recent_videos": [
@@ -1058,7 +1044,7 @@
     }
   ],
   "insights": [
-    "GSC: 84 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty elite\u201d (pos 55), \u201caerogarden comparison\u201d (pos 70), \u201caerogarden vs click grow\u201d (pos 71). Tighten title/H1 on the matching guide to climb.",
+    "GSC: 62 impressions, 0 clicks \u2014 early queries: \u201caerogarden bounty elite\u201d (pos 55), \u201caerogarden comparison\u201d (pos 46), \u201cauk top layer alternative\u201d (pos 29). Tighten title/H1 on the matching guide to climb.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
@@ -1104,6 +1090,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 12 | Aff clicks 1 | GSC 0c/84i | YT views 491 | Setup 6/7"
+    "headline": "Sessions 12 | Aff clicks 1 | GSC 0c/62i | YT views 492 | Setup 6/7"
   }
 }
