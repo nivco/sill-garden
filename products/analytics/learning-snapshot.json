@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-11-19 22:29 UTC",
+  "generated_at": "2026-11-20 22:01 UTC",
   "wow": {
-    "ga4_sessions_7d": -5.0,
-    "gsc_impressions_7d": -24.0,
-    "gsc_clicks_7d": -1.0,
-    "affiliate_clicks_7d": 1.0
+    "ga4_sessions_7d": 2.0,
+    "gsc_impressions_7d": -12.0,
+    "gsc_clicks_7d": 1.0,
+    "affiliate_clicks_7d": 0.0
   },
   "hero": {
-    "sessions_7d": 12,
-    "gsc_impressions_7d": 84,
-    "gsc_clicks_7d": 0,
+    "sessions_7d": 13,
+    "gsc_impressions_7d": 72,
+    "gsc_clicks_7d": 1,
     "affiliate_clicks_7d": 1,
     "youtube_sessions_7d": 0,
     "indexed_urls": 33
@@ -25,16 +25,23 @@
     {
       "query": "aerogarden comparison",
       "clicks": 0,
-      "impressions": 3,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 70.0
+      "position": 46.0
     },
     {
-      "query": "aerogarden vs click grow",
+      "query": "aerogarden elite bounty",
       "clicks": 0,
-      "impressions": 2,
+      "impressions": 1,
       "ctr": 0.0,
-      "position": 71.0
+      "position": 80.0
+    },
+    {
+      "query": "auk alternative",
+      "clicks": 0,
+      "impressions": 1,
+      "ctr": 0.0,
+      "position": 78.0
     },
     {
       "query": "auk top layer alternative",
@@ -53,52 +60,45 @@
     {
       "query": "best budget herb garden under 50",
       "clicks": 0,
-      "impressions": 7,
+      "impressions": 5,
       "ctr": 0.0,
       "position": 10.4
     },
     {
       "query": "best cheap herb garden under 50",
       "clicks": 0,
-      "impressions": 23,
+      "impressions": 20,
       "ctr": 0.0,
       "position": 10.6
     },
     {
       "query": "best lightweight herb garden under 50",
       "clicks": 0,
-      "impressions": 9,
+      "impressions": 7,
       "ctr": 0.0,
-      "position": 8.9
+      "position": 9.1
     },
     {
-      "query": "counter top garden",
+      "query": "click and grow vs auk",
       "clicks": 0,
       "impressions": 1,
       "ctr": 0.0,
-      "position": 88.0
-    },
-    {
-      "query": "countertop garden",
-      "clicks": 0,
-      "impressions": 1,
-      "ctr": 0.0,
-      "position": 85.0
+      "position": 11.0
     }
   ],
   "learnings": [
-    "LLM peer insight: - Avoid generic brand titles; put the exact queried product and decision in the first 60 characters.",
-    "LLM peer insight: - AUK page title: **“AUK vs Click & Grow: Which Indoor Garden Fits Your Kitchen?”**",
-    "LLM peer insight: - H1: **“AeroGarden vs Click & Grow: Cost, Crops, Noise & Maintenance”**",
-    "LLM peer insight: - Comparison page title: **“AeroGarden vs Click & Grow: Which Indoor Garden Is Better?”**",
-    "LLM peer insight: - H1: **“AeroGarden Bounty Elite: Is It Worth It for an Apartment?”**",
-    "LLM peer insight: - AeroGarden page title: **“AeroGarden Bounty Elite Review: Specs, Pros, Cons & Alternatives”**",
-    "LLM peer insight: . **Rewrite titles and H1s around comparison intent**",
-    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the GSC demand:",
-    "WORKING peer pattern: long-form depth (~1394 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Add an FAQ block targeting exact query language and objections.**",
+    "LLM peer insight: Add a short “Choose this if…” verdict beneath each row. Comparison content commonly performs well because readers can evaluate capacity, height, lighting, and automation without reading every paragraph.[2][3]",
+    "LLM peer insight: Include columns for **Model, pod capacity, light power, maximum grow height, app/Wi-Fi, footprint, best for, and price range**. Use rows for:",
+    "LLM peer insight: . **Ship a scannable comparison table above the first long-form section.**",
+    "LLM peer insight: - Add dedicated sections for “AeroGarden Bounty Elite,” “AeroGarden Bounty,” “AUK alternative,” and “AUK top-layer alternative” to match existing GSC demand.",
+    "LLM peer insight: - Open with a 50–70-word verdict addressing pod capacity, light power, height, app features, footprint, and who should buy it. The Bounty Elite is positioned as a 9-pod model with a 50W light, 24-inch growing height, tou",
+    "LLM peer insight: - H1: **AeroGarden Bounty Elite Comparison: Is It Worth It?**",
+    "LLM peer insight: - Title: **AeroGarden Comparison: Bounty Elite vs Bounty, Harvest Elite 360 & AUK Alternatives**",
+    "LLM peer insight: . **Create a keyword-led comparison page with a precise title and H1.**",
+    "WORKING peer pattern: long-form depth (~1306 words avg) — expand thin guides with decision rules, not fluff.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
-    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "SESSION-FRAME: Monetize with physical kit stacks only - never AI-spittable digital products",
     "SESSION-FRAME: When sessions_7d ~ 0: enrichment + acquisition > new thin guides",
     "WORKING: GSC impressions with 0 clicks on comparison queries → Tighten AeroGarden vs Click & Grow title/FAQ for both brand orders",
@@ -114,12 +114,12 @@
   ],
   "competitive": {
     "ok_peers": 5,
-    "generated_at": "2026-11-19 22:29 UTC"
+    "generated_at": "2026-11-20 22:01 UTC"
   },
   "impact": {
     "closed_today": 0,
     "lessons": [
-      "IMPACT: 12 action(s) still measuring (3-7d windows)",
+      "IMPACT: 13 action(s) still measuring (3-7d windows)",
       "SESSION (2026-09-28): Kit-first monetization + indexing + YouTube pin cycle",
       "SESSION-RULE: Kit-first distribution when traffic is flat",
       "SESSION-RULE: Pause thin new guides while sessions_7d = 0",

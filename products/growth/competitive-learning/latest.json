@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-11-19 22:48 UTC",
+  "generated_at": "2026-11-20 22:01 UTC",
   "site": "sillgarden",
   "peers": [
     {
@@ -55,7 +55,7 @@
           "Click & Grow"
         ],
         "h2_sample": [],
-        "word_count_est": 342,
+        "word_count_est": 339,
         "images": 16,
         "has_faq": false,
         "has_table": false,
@@ -120,6 +120,32 @@
         "comparison_signal": false,
         "year_in_title": false
       }
+    },
+    {
+      "name": "Gardening Know How (indoor)",
+      "kind": "editorial",
+      "why": "SEO content depth for houseplant/indoor queries",
+      "url": "https://www.gardeningknowhow.com/houseplants/",
+      "ok": true,
+      "status": 200,
+      "error": null,
+      "signals": {
+        "url": "https://www.gardeningknowhow.com/houseplants/",
+        "title": "Tips & Information about Houseplants | Gardening Know How",
+        "description": "Whether you",
+        "h1": [],
+        "h2_sample": [],
+        "word_count_est": 3701,
+        "images": 0,
+        "has_faq": false,
+        "has_table": false,
+        "has_og_image": false,
+        "has_json_ld": true,
+        "cta_mentions": 0,
+        "hero_signal": true,
+        "comparison_signal": false,
+        "year_in_title": false
+      }
     }
   ],
   "our_probe": {
@@ -158,29 +184,36 @@
   "gsc_queries": [
     "aerogarden bounty elite",
     "aerogarden comparison",
-    "aerogarden vs click grow",
+    "aerogarden elite bounty",
+    "auk alternative",
     "auk top layer alternative",
     "auk vs click and grow",
     "best budget herb garden under 50",
-    "best cheap herb garden under 50",
-    "best lightweight herb garden under 50"
+    "best cheap herb garden under 50"
   ],
   "learnings": [
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "LLM peer insight: . **Create query-matched comparison titles and H1s**",
-    "LLM peer insight: - Publish dedicated pages rather than one generic indoor-garden page:",
-    "LLM peer insight: - **Title:** `AeroGarden Bounty Elite Review: Features, Cost, and Best Alternatives`",
-    "LLM peer insight: - **H1:** `AeroGarden Bounty Elite Review`",
-    "LLM peer insight: - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`",
-    "LLM peer insight: - **Title:** `AUK vs Click & Grow: Features, Cost, and Best Use Cases`",
-    "LLM peer insight: - **Title:** `Best AUK Top Layer Alternatives for Indoor Growing`",
-    "LLM peer insight: - Put the primary query in the first 60 characters of each title and add a clear decision angle: “best for small apartments,” “best for herbs,” or “best for low maintenance.”",
-    "LLM peer insight: . **Add a comparison table immediately below the introduction**",
-    "LLM peer insight: - Example factual entries: AeroGarden Bounty Elite supports up to nine plants, has a 50W light, touchscreen controls, vacation mode, and adjustable height up to 24 inches.[2][7] Click & Grow systems automate watering and"
+    "WORKING peer pattern: long-form depth (~1306 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Create a keyword-led comparison page with a precise title and H1.**",
+    "LLM peer insight: - Title: **AeroGarden Comparison: Bounty Elite vs Bounty, Harvest Elite 360 & AUK Alternatives**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Elite Comparison: Is It Worth It?**",
+    "LLM peer insight: - Open with a 50–70-word verdict addressing pod capacity, light power, height, app features, footprint, and who should buy it. The Bounty Elite is positioned as a 9-pod model with a 50W light, 24-inch growing height, tou",
+    "LLM peer insight: - Add dedicated sections for “AeroGarden Bounty Elite,” “AeroGarden Bounty,” “AUK alternative,” and “AUK top-layer alternative” to match existing GSC demand.",
+    "LLM peer insight: . **Ship a scannable comparison table above the first long-form section.**",
+    "LLM peer insight: Include columns for **Model, pod capacity, light power, maximum grow height, app/Wi-Fi, footprint, best for, and price range**. Use rows for:",
+    "LLM peer insight: Add a short “Choose this if…” verdict beneath each row. Comparison content commonly performs well because readers can evaluate capacity, height, lighting, and automation without reading every paragraph.[2][3]",
+    "LLM peer insight: . **Add an FAQ block targeting exact query language and objections.**"
   ],
-  "llm_notes": "1. **Create query-matched comparison titles and H1s**\n   - Publish dedicated pages rather than one generic indoor-garden page:\n     - **Title:** `AeroGarden Bounty Elite Review: Features, Cost, and Best Alternatives`\n       - **H1:** `AeroGarden Bounty Elite Review`\n     - **Title:** `AeroGarden vs Click & Grow: Which Indoor Garden Is Better?`\n       - **H1:** `AeroGarden vs Click & Grow`\n     - **Title:** `AUK vs Click & Grow: Features, Cost, and Best Use Cases`\n       - **H1:** `AUK vs Click & Grow`\n     - **Title:** `Best AUK Top Layer Alternatives for Indoor Growing`\n       - **H1:** `AUK Top Layer Alternatives`\n   - Put the primary query in the first 60 characters of each title and add a clear decision angle: “best for small apartments,” “best for herbs,” or “best for low maintenance.”\n\n2. **Add a comparison table immediately below the introduction**\n   - Use scannable rows for:\n     - Plants grown\n     - Maximum plant height\n     - Light controls\n     - Automatic watering\n     - App or touchscreen\n     - Water-tank capacity\n     - Noise\n     - Counter footprint\n     - Ongoing pod/seed cost\n     - Best use case\n   - Example factual entries: AeroGarden Bounty Elite supports up to nine plants, has a 50W light, touchscreen controls, vacation mode, and adjustable height up to 24 inches.[2][7] Click & Grow systems automate watering and lighting, while some models offer app controls and modular expansion.[3][4]\n   - Add a final **“Winner for…”** row instead of forcing one overall winner.\n\n3. **Ship an FAQ block designed around the GSC questions**\n   - Add 6–8 visible questio",
+  "llm_notes": "1. **Create a keyword-led comparison page with a precise title and H1.**  \n   - Title: **AeroGarden Comparison: Bounty Elite vs Bounty, Harvest Elite 360 & AUK Alternatives**  \n   - H1: **AeroGarden Bounty Elite Comparison: Is It Worth It?**  \n   - Open with a 50–70-word verdict addressing pod capacity, light power, height, app features, footprint, and who should buy it. The Bounty Elite is positioned as a 9-pod model with a 50W light, 24-inch growing height, touchscreen controls, and Wi-Fi features.[1][5]  \n   - Add dedicated sections for “AeroGarden Bounty Elite,” “AeroGarden Bounty,” “AUK alternative,” and “AUK top-layer alternative” to match existing GSC demand.\n\n2. **Ship a scannable comparison table above the first long-form section.**  \n   Include columns for **Model, pod capacity, light power, maximum grow height, app/Wi-Fi, footprint, best for, and price range**. Use rows for:\n   - AeroGarden Bounty Elite\n   - AeroGarden Bounty\n   - AeroGarden Harvest Elite 360\n   - AUK Mini\n   - Sill Garden’s recommended alternative  \n   \n   Add a short “Choose this if…” verdict beneath each row. Comparison content commonly performs well because readers can evaluate capacity, height, lighting, and automation without reading every paragraph.[2][3]\n\n3. **Add an FAQ block targeting exact query language and objections.**  \n   Use 8–10 visible questions with concise answers and FAQ schema, including:\n   - “What is the difference between AeroGarden Bounty and Bounty Elite?”\n   - “Is the AeroGarden Bounty Elite worth it?”\n   - “What is the best AeroGarden alternative?”\n   - “What is an A",
   "proposed_actions": [
+    {
+      "type": "content_faq",
+      "priority": "P1",
+      "title": "Add/refresh FAQ from peer + GSC questions",
+      "detail": "Peers use FAQ heavily. Content agent should add 1–2 FAQs on money guides matching zero-click queries.",
+      "auto": true
+    },
     {
       "type": "content_table",
       "priority": "P1",
@@ -203,6 +236,6 @@
       "auto": true
     }
   ],
-  "ok_peers": 4,
-  "peer_count": 4
+  "ok_peers": 5,
+  "peer_count": 5
 }

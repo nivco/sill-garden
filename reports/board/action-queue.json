@@ -1087,7 +1087,13 @@
       "type": "tune_guide_seo",
       "slug": "cheapest-indoor-herb-garden-apartment",
       "reason": "CTR-first query desc: 7 impr, pos 10.4, 0 clicks"
+    },
+    {
+      "at": "2026-11-20 22:01 UTC",
+      "type": "tune_guide_seo",
+      "slug": "cheapest-indoor-herb-garden-apartment",
+      "reason": "CTR-first query desc: 20 impr, pos 10.6, 0 clicks"
     }
   ],
-  "updated": "2026-11-20 14:33 UTC"
+  "updated": "2026-11-20 22:01 UTC"
 }

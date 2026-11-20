@@ -1,15 +1,18 @@
 {
-  "last_run": "2026-11-19 22:29 UTC",
+  "last_run": "2026-11-20 22:01 UTC",
   "last_applied": [
-    "tune_guide_seo:cheapest-indoor-herb-garden-apartment — CTR-first query desc: 7 impr, pos 10.4, 0 clicks",
+    "tune_guide_seo:cheapest-indoor-herb-garden-apartment — CTR-first query desc: 20 impr, pos 10.6, 0 clicks",
+    "faq:aerogarden-vs-click-and-grow:Auk alternative?",
+    "faq:compare-aerogarden-models:Auk alternative?",
+    "faq:best-countertop-garden-apartments:Auk alternative?",
     "updated visual-backlog.md",
     "IndexNow ping"
   ],
-  "last_summary": "products/growth/daily-summaries/2026-11-19.md",
-  "last_distribution": "products/growth/distribution/2026-11-19.json",
+  "last_summary": "products/growth/daily-summaries/2026-11-20.md",
+  "last_distribution": "products/growth/distribution/2026-11-20.json",
   "last_outcome_severity": "ok",
   "last_impact": {
     "closed": 0,
-    "recorded": 5
+    "recorded": 6
   }
 }

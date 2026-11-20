@@ -1,20 +1,23 @@
 {
-  "generated_at": "2026-11-19 22:29 UTC",
+  "generated_at": "2026-11-20 22:01 UTC",
   "applied": [
+    "faq:aerogarden-vs-click-and-grow:Auk alternative?",
+    "faq:compare-aerogarden-models:Auk alternative?",
+    "faq:best-countertop-garden-apartments:Auk alternative?",
     "updated visual-backlog.md"
   ],
   "queued": [
     "Visuality iteration: hero/CTA/og image hygiene"
   ],
   "learnings_used": [
-    "WORKING peer pattern: FAQ blocks are common on similar sites — keep FAQ on money guides and match GSC question phrasing.",
     "VISUAL peer pattern: hero/banner treatment is common — keep full-bleed hero + clear primary CTA; avoid cluttered first viewport.",
     "VISUAL peer pattern: og:image present on most peers — ensure every guide has a distinct social/hero image + alt.",
-    "WORKING peer pattern: long-form depth (~1394 words avg) — expand thin guides with decision rules, not fluff.",
-    "LLM peer insight: Ship these five changes this week, prioritizing pages that match the GSC demand:",
-    "LLM peer insight: . **Rewrite titles and H1s around comparison intent**",
-    "LLM peer insight: - AeroGarden page title: **“AeroGarden Bounty Elite Review: Specs, Pros, Cons & Alternatives”**",
-    "LLM peer insight: - H1: **“AeroGarden Bounty Elite: Is It Worth It for an Apartment?”**"
+    "WORKING peer pattern: long-form depth (~1306 words avg) — expand thin guides with decision rules, not fluff.",
+    "LLM peer insight: . **Create a keyword-led comparison page with a precise title and H1.**",
+    "LLM peer insight: - Title: **AeroGarden Comparison: Bounty Elite vs Bounty, Harvest Elite 360 & AUK Alternatives**",
+    "LLM peer insight: - H1: **AeroGarden Bounty Elite Comparison: Is It Worth It?**",
+    "LLM peer insight: - Open with a 50–70-word verdict addressing pod capacity, light power, height, app features, footprint, and who should buy it. The Bounty Elite is positioned as a 9-pod model with a 50W light, 24-inch growing height, tou",
+    "LLM peer insight: - Add dedicated sections for “AeroGarden Bounty Elite,” “AeroGarden Bounty,” “AUK alternative,” and “AUK top-layer alternative” to match existing GSC demand."
   ],
   "dry_run": false
 }
