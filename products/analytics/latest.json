@@ -1,15 +1,15 @@
 {
   "schema": "sill-garden-v1",
-  "generated_at": "2026-11-21 04:59 UTC",
+  "generated_at": "2026-11-21 13:51 UTC",
   "site_url": "https://sillgarden.com",
   "amazon_tag": "sillgarden09-20",
   "hero": {
-    "sessions_7d": 17,
-    "users_7d": 15,
-    "pageviews_7d": 17,
+    "sessions_7d": 14,
+    "users_7d": 13,
+    "pageviews_7d": 14,
     "affiliate_clicks_7d": 1,
     "gsc_clicks_7d": 1,
-    "gsc_impressions_7d": 62,
+    "gsc_impressions_7d": 70,
     "indexed_urls": 33,
     "sitemap_urls": 36,
     "cf_pageviews_7d": null,
@@ -19,8 +19,8 @@
     "amazon_clicks_7d": null,
     "amazon_ordered_7d": null,
     "amazon_earnings_7d_usd": null,
-    "engagement_rate_pct": 11.8,
-    "affiliate_ctr_pct": 5.9,
+    "engagement_rate_pct": 14.3,
+    "affiliate_ctr_pct": 7.1,
     "youtube_videos": null
   },
   "sources": {
@@ -31,23 +31,23 @@
     },
     "ga4": {
       "totals": {
-        "activeUsers": 15,
-        "sessions": 17,
-        "screenPageViews": 17,
+        "activeUsers": 13,
+        "sessions": 14,
+        "screenPageViews": 14,
         "engagedSessions": 2,
-        "averageSessionDuration_sec": 10.6,
-        "engagementRate_pct": 11.8
+        "averageSessionDuration_sec": 3.1,
+        "engagementRate_pct": 14.3
       },
       "top_pages": [
         {
           "pagePath": "/",
-          "sessions": "6",
-          "screenPageViews": "6"
+          "sessions": "5",
+          "screenPageViews": "5"
         },
         {
           "pagePath": "/guides/aerogarden-vs-click-and-grow/",
-          "sessions": "5",
-          "screenPageViews": "5"
+          "sessions": "3",
+          "screenPageViews": "3"
         },
         {
           "pagePath": "/guides/best-low-light-herbs-apartment/",
@@ -65,6 +65,11 @@
           "screenPageViews": "1"
         },
         {
+          "pagePath": "/guides/kratky-jar-herbs-apartment/",
+          "sessions": "1",
+          "screenPageViews": "1"
+        },
+        {
           "pagePath": "/guides/mint-windowsill-first-harvest/",
           "sessions": "1",
           "screenPageViews": "1"
@@ -73,37 +78,32 @@
           "pagePath": "/guides/quiet-countertop-gardens-studios/",
           "sessions": "1",
           "screenPageViews": "1"
-        },
-        {
-          "pagePath": "/tools/kit-picker/",
-          "sessions": "1",
-          "screenPageViews": "1"
         }
       ],
       "entry_channels": [
         {
           "sessionDefaultChannelGroup": "Direct",
-          "sessions": "13"
-        },
-        {
-          "sessionDefaultChannelGroup": "Referral",
-          "sessions": "3"
+          "sessions": "12"
         },
         {
           "sessionDefaultChannelGroup": "Organic Search",
+          "sessions": "1"
+        },
+        {
+          "sessionDefaultChannelGroup": "Referral",
           "sessions": "1"
         }
       ],
       "source_medium": [
         {
           "sessionSourceMedium": "(direct) / (none)",
-          "sessions": "13",
-          "engagedSessions": "0"
+          "sessions": "12",
+          "engagedSessions": "1"
         },
         {
           "sessionSourceMedium": "127.0.0.1:8793 / referral",
-          "sessions": "3",
-          "engagedSessions": "1"
+          "sessions": "1",
+          "engagedSessions": "0"
         },
         {
           "sessionSourceMedium": "google / organic",
@@ -135,8 +135,8 @@
     },
     "gsc": {
       "clicks": 1,
-      "impressions": 62,
-      "avg_position": 18.6,
+      "impressions": 70,
+      "avg_position": 17.5,
       "top_queries": [
         {
           "query": "aerogarden bounty elite",
@@ -174,6 +174,13 @@
           "position": 29.0
         },
         {
+          "query": "auk vs click and grow",
+          "clicks": 0,
+          "impressions": 4,
+          "ctr": 0.0,
+          "position": 10.5
+        },
+        {
           "query": "best budget herb garden under 50",
           "clicks": 0,
           "impressions": 3,
@@ -197,7 +204,7 @@
         {
           "query": "click and grow vs auk",
           "clicks": 0,
-          "impressions": 1,
+          "impressions": 2,
           "ctr": 0.0,
           "position": 11.0
         },
@@ -841,7 +848,7 @@
       "uniques": null
     },
     "youtube": {
-      "error": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&forHandle=sillgarden&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/data/getting"
+      "error": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics%2CcontentDetails&id=UCc31HDBMhoJtsmZYk0Fo56w&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/y"
     },
     "amazon": {
       "updated": null,
@@ -904,7 +911,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing: https://sillgarden.com/kits/homemade-kratky/",
       "auto": false,
       "done": false,
-      "created": "2026-11-20 22:01 UTC"
+      "created": "2026-11-21 04:59 UTC"
     },
     {
       "priority": "P1",
@@ -913,7 +920,7 @@
       "detail": "Search Console \u2192 URL Inspection \u2192 Request indexing once each: parsley-countertop-first-harvest, cilantro-countertop-first-harvest.",
       "auto": false,
       "done": false,
-      "created": "2026-11-20 22:01 UTC"
+      "created": "2026-11-21 04:59 UTC"
     },
     {
       "priority": "P1",
@@ -922,7 +929,7 @@
       "detail": "Already showing for: \u201caerogarden bounty elite\u201d pos 55/2 impr; \u201caerogarden comparison\u201d pos 46/1 impr; \u201caerogarden elite bounty\u201d pos 80/1 impr; \u201cauk alternative\u201d pos 78/1 impr. Keep the matching guide title/FAQ tight; promote via YouTube \u2014 don't spam re-index.",
       "auto": false,
       "done": false,
-      "created": "2026-11-20 22:01 UTC"
+      "created": "2026-11-21 04:59 UTC"
     },
     {
       "priority": "P2",
@@ -931,87 +938,25 @@
       "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&forHandle=sillgarden&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": ",
       "auto": false,
       "done": false,
-      "created": "2026-11-20 22:01 UTC"
+      "created": "2026-11-21 04:59 UTC"
     },
     {
       "priority": "P3",
       "category": "indexing",
-      "title": "IndexNow throttled",
-      "detail": "Last ping 2026-11-20 05:07 UTC (16.9h ago; min 20h).",
+      "title": "IndexNow ping",
+      "detail": "Re-notified Bing/Yandex of sitemap URLs.",
       "auto": true,
       "done": true,
-      "created": "2026-11-20 22:01 UTC"
-    },
-    {
-      "priority": "P0",
-      "category": "cmo",
-      "title": "ALERT: zero sessions for 5+ days \u2014 distribute manually",
-      "detail": "Automation is healthy but acquisition is dead. GA4 sessions_7d=3 (<5) for 9 day(s) | GSC 21 impressions / 0 clicks | YouTube -> site sessions = 0 | Affiliate clicks_7d = 0. Post Reddit/Pinterest from distribution/latest.json today.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-02 20:52 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "seo",
-      "title": "Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P2",
-      "category": "cmo",
-      "title": "Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distribution.",
-      "detail": "From daily board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 10:47 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "cro",
-      "title": "Visuality iteration: hero/CTA/og image hygiene",
-      "detail": "Peers use hero imagery + clear CTA and og:image. Audit home + top guides for full-bleed hero, early verdict, unique images.",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "seo",
-      "title": "tune_guide_seo: aerogarden-vs-click-and-grow",
-      "detail": "CTR-first query: 2 impr, pos 44.5, 0 clicks",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-03 18:23 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[CMO / Growth & Distribution] Low real sessions \u2014 prioritize YouTube videos, Reddit value-first posts, and social distri",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
-    },
-    {
-      "priority": "P1",
-      "category": "ceo",
-      "title": "[Head of SEO] Rewrite titles/meta on top impression guides for CTR; add SERP hooks (2026, apartment, beginners).",
-      "detail": "From weekly board run",
-      "auto": false,
-      "done": false,
-      "created": "2026-10-05 12:57 UTC"
+      "created": "2026-11-21 05:00 UTC"
     }
   ],
   "insights": [
+    "Add PUBLIC_GA4_ID so the live site sends pageviews + affiliate_click events.",
     "Cloudflare analytics token lacks Analytics Read (or GraphQL failed) \u2014 CF pageviews will stay blank until the token gets Zone Analytics Read. Prefer GA4 for humans.",
     "Amazon has no public API \u2014 paste weekly numbers into amazon-manual.json."
   ],
   "setup": {
-    "ready": 5,
+    "ready": 4,
     "total": 7,
     "checks": [
       {
@@ -1026,8 +971,8 @@
       },
       {
         "name": "GA4 client tag",
-        "ok": true,
-        "detail": "G-M5MRT0QTHX"
+        "ok": false,
+        "detail": "Set PUBLIC_GA4_ID in .env + Cloudflare Pages"
       },
       {
         "name": "Search Console",
@@ -1042,7 +987,7 @@
       {
         "name": "YouTube",
         "ok": false,
-        "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=id%2Csnippet%2Cstatistics&forHandle=sillgarden&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/youtube/data/getting"
+        "detail": "HTTP 403 https://www.googleapis.com/youtube/v3/channels?part=snippet%2Cstatistics%2CcontentDetails&id=UCc31HDBMhoJtsmZYk0Fo56w&key=AIzaSyAEtXJjZGJTstlj9BN4ElyhT5B9gy2KYXs: {\n  \"error\": {\n    \"code\": 403,\n    \"message\": \"The request cannot be completed because you have exceeded your \\u003ca href=\\\"/y"
       },
       {
         "name": "Affiliate click counters",
@@ -1052,6 +997,6 @@
     ]
   },
   "summary": {
-    "headline": "Sessions 17 | Aff clicks 1 | GSC 1c/62i | YT views - | Setup 5/7"
+    "headline": "Sessions 14 | Aff clicks 1 | GSC 1c/70i | YT views - | Setup 4/7"
   }
 }
